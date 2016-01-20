@@ -1,0 +1,38 @@
+@import "../../_estiloPadrao.scss";
+
+.textoSolto{
+	margin-bottom: $entreRecursos;
+	
+	height:auto;
+	overflow:auto;
+	.imgEsq{
+		float:left;
+		width: 49%;
+		margin-right: 30px;
+
+	}
+
+	.imgDir{
+		float:right;
+		width: 49%;
+		margin-left: 30px;
+
+	}
+
+	.imgDuasColunas{
+		width: 100%;
+		margin-top: 18px;
+		margin-bottom: 18px;
+
+	}
+
+	p{
+		line-height: normal;
+		color:#373838;
+	font-size: 16px;
+	font-family: $fonteOpenSans;
+
+	}
+
+	
+}

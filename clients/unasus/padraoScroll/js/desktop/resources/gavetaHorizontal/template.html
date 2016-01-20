@@ -1,0 +1,20 @@
+<div  id="{{id}}" class="{{class}} {{type}} " style="{{style}}">
+	<div class="gavetaVer">
+		<div class="wrapper">
+			<div id="tabsHor">
+				<ul>
+					{{#gavetasHorizontais}}
+					<li><a href="#tabs-{{numeroGaveta}}"><span>{{&tituloGaveta}}</span></a></li>
+					{{/gavetasHorizontais}}
+				
+				</ul>
+				{{#gavetasHorizontais}}
+					<div id="tabs-{{numeroGaveta}}">
+						{{&content}}
+
+					</div>
+				{{/gavetasHorizontais}}
+			</div>
+		</div>
+	</div>
+</div>

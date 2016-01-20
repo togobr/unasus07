@@ -1,0 +1,134 @@
+@import "../../_estiloPadrao.scss";
+
+.caixaDestaque{
+	background:$azul;
+	width:100%;
+	min-height:50px;
+	box-sizing: border-box;
+	word-break:break-all;
+	margin-bottom: $entreRecursos;
+
+	
+
+	p{
+		font-family: $fonteExo;
+		font-size: 18px;
+		margin: 0 auto;
+		max-width: 1280px;
+		line-height: 1.25em;
+		color: #fff;
+		width: 100%;
+		padding-left: 60px;
+		padding-right: 30px;
+		font-weight: 500;
+		&:before{
+			content: "";
+			position:relative;
+			left: -8%;
+			border-style: solid;
+			border-width: 15px 14px 0;
+			border-color: #fff transparent;
+			display: block;
+			width: 0;
+			z-index: 1;
+
+		}
+
+		&:after{
+			content: "";
+			position:relative;
+			left: -8%;
+			border-style: solid;
+			border-width: 0 14px 15px;
+			border-color: #fff transparent;
+			display: block;
+			width: 0;
+			z-index: 1;
+			bottom:0%;
+		}
+
+	}
+
+}
+
+.caixaDestaque.laranja{
+	background:$laranja;
+}
+
+
+
+
+@media only screen and (max-width : 600px) {
+
+	.caixaDestaque{
+		
+
+		p{
+			&:before{
+				
+				left: -10%;	
+
+			}
+
+			&:after{
+				
+				left: -10%;
+				
+			}
+		}
+
+	}
+	
+
+
+}
+
+@media only screen and (max-width : 490px) {
+
+	.caixaDestaque{
+		
+
+		p{
+			&:before{
+				
+				left: -12%;	
+
+			}
+
+			&:after{
+				
+				left: -12%;
+				
+			}
+		}
+
+	}
+	
+
+
+}
+
+@media only screen and (max-width : 320px) {
+
+	.caixaDestaque{
+		
+
+		p{
+			&:before{
+				
+				left: -15%;	
+
+			}
+
+			&:after{
+				
+				left: -15%;
+				
+			}
+		}
+
+	}
+	
+
+
+}

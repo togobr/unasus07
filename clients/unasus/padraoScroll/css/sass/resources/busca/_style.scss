@@ -1,0 +1,69 @@
+@import "../../_estiloPadrao.scss";
+
+
+// ------------------------Variáveis ------------------------
+
+
+
+
+$larguraBusca: 69%;
+
+
+// ----------------------------------------------------------
+.busca{
+	margin-bottom: $entreRecursos;
+}
+
+
+.buscaTexto{
+	width: $larguraBusca;
+	border-radius: 3px;
+	height:  40px;
+	border: 1px solid #383737;
+	outline: none;
+	color:#c6ccd2;
+	font-size:16px;
+	font-family:$fonteOpenSans;
+	padding-left: 22px;
+
+		&:active{
+			border: 2px solid #2b95dd;
+			color: #6a6a6a;
+		}
+
+		&:focus{
+			border: 2px solid #2b95dd;
+			color: #6a6a6a;
+		}
+	}
+
+
+.botaoBusca{
+	background: #2793db;
+	background: -moz-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2793db), color-stop(100%, #1e8dd5));
+	background: -webkit-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
+	background: -o-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
+	background: -ms-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
+	background: linear-gradient(to bottom, #2793db 0%, #1e8dd5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2793db', endColorstr='#1e8dd5',GradientType=0 );
+	color: white;
+	cursor: pointer;
+	font-family: "Exo 2", sans-serif;
+	font-weight: 400;
+	z-index: 1;
+	border-radius: 5px;
+	border: 1px solid;
+	width: 117px;
+	height: 42px;
+	outline: none;
+	font-size: 16px;
+
+	&:hover{
+		background: #0ba5e6;
+	}
+
+	&:active {
+		background: #216ad0;
+	}
+}

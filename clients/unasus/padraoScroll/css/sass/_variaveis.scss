@@ -1,0 +1,117 @@
+//paleta de cores
+$azul:#2b95dd;
+$laranja:#f59e00;
+$cinza:#eaeaea;
+$preto:383737;
+$verde:#24aa98;
+$vermelho:#db7560;
+ 
+
+//fonts
+
+$fonteExo:'Exo 2', sans-serif;
+$fonteOpenSans:'Open Sans', sans-serif;
+
+
+
+@font-face {
+  font-family: 'Entypo';
+  src: url('assets/fonts/entypo.eot');
+  src: url('assets/fonts/entypo.woff') format("woff"),
+    url('assets/fonts/entypo.otf') format("opentype"),
+    url('assets/fonts/entypo.svg#entypo') format("svg");
+
+}
+
+@font-face {
+  font-family: 'Entypo-Social';
+  src: url('assets/fonts/entypo-social.eot');
+  src: url('assets/fonts/entypo-social.woff') format("woff"),
+    url("assets/fonts/entypo-social.otf") format("opentype"),
+    url('assets/fonts/entypo-social.svg#entypo-social') format("svg");
+
+}
+
+
+@font-face {
+    font-family: pv-agr-prec;
+    src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
+    src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format('embedded-opentype'), url(assets/fonts/pv-agr-prec.woff?od9cwi) format('woff'), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format('truetype'), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: icomoon;
+    src: url(assets/fonts/icomoon.eot?tpg7s4);
+    src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format('embedded-opentype'), url(assets/fonts/icomoon.woff?tpg7s4) format('woff'), url(assets/fonts/icomoon.ttf?tpg7s4) format('truetype'), url(../fonts/icomoon.svg?tpg7s4#icomoon) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+
+@font-face {
+  font-family: 'Entypo';
+  src: url('assets/fonts/entypo.eot');
+  src: url('assets/fonts/entypo.woff') format("woff"),
+    url('assets/fonts/entypo.otf') format("opentype"),
+    url('assets/fonts/entypo.svg#entypo') format("svg");
+
+}
+
+
+@font-face {
+  font-family: 'Awesome';
+  src: url('assets/fonts/fontawesome-webfont.eot');
+  src: url('assets/fonts/fontawesome-webfont.woff') format("woff"),
+    url('assets/fonts/FontAwesome.otf') format("opentype"),
+    url('assets/fonts/fontawesome-webfont.svg#fontawesome-webfont') format("svg");
+
+}
+
+@font-face {
+font-family: 'Exo 2', sans-serif;
+src: url('assets/fonts/Exo2-Regular.eot');
+src: url('assets/fonts/Exo2-Regular.ttf') format("truetype"),
+     url('assets/fonts/Exo2-Regular.svg') format("svg");
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+  font-family: 'Exo 2', sans-serif;
+  src: url('assets/fonts/Exo2-Regular.svg') format("svg");
+  }
+}
+
+
+
+
+        //Azul:#82b0d8      Verde:#65b168     Vermelho:#983233
+$r:130;     //$r:130;       //$r:101;       //$b:152;
+$g:176;     //$g:176;       //$r:177;       //$b:50;
+$b:216;     //$b:216;       //$r:104;       //$b:51;
+
+$rgb : $r + $g + $b;
+$baseColor: rgb($r, $g, $b);  
+
+@function fontColor() {
+  @if $rgb/3 > 178{
+    @return #000000;
+  } @else {
+    @return #ffffff;
+  }
+}
+ 
+//-------------------------- FONTE ------------------------------- 
+$fontePadrao: OpenSansRegular, sans-serif;
+
+//-------------------------- LOGO ------------------------------- 
+$logo: url("assets/images/logo.png") no-repeat;
+
+//-------------------------- BACKGROUND SLIDE  ------------------------------- 
+$background_atividade: url(assets/images/background_atividade.png);
+
+
+// --------------------------- Entre Recursos margin ---------------------------
+
+$entreRecursos: 40px;

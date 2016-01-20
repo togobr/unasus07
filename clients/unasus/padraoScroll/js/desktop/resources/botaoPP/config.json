@@ -1,0 +1,37 @@
+{
+	"defaults": {
+		"template": "botaoPP",
+		"type": "btnRetangle",
+		"label": "Seu texto aqui",
+		"styleObj": {
+			"position": "absolute",
+			"top": "15px",
+			"left": "15px"
+		},
+		"_modal_id": "new"
+	},
+
+	"modal": {
+		"defaults": {
+			"type": "ppGrande",
+			"name": "Teste Modal",
+			"styleObj": {
+				"height": "150px"
+			}
+		}
+	},
+
+	"validators": [
+		"_template === botaoPP"
+	],
+
+	"resize": {
+		"width": false,
+		"height": false
+	},
+
+	"position": {
+		"top": true,
+		"left": true
+	}
+}

@@ -1,0 +1,55 @@
+/*
+#start
+	
+$r:{{color.r}};
+$g:{{color.g}};	
+$b:{{color.b}};	
+
+$rgb : $r + $g + $b;
+$baseColor: rgb($r, $g, $b); 	
+
+@function fontColor() {
+	@if $rgb/3 > 178{
+		@return #000000;
+	} @else {
+		@return #ffffff;
+	}
+}
+ 
+//-------------------------- FONTE ------------------------------- 
+$fontePadrao: {{font.name}}, sans-serif;
+
+//-------------------------- LOGO ------------------------------- 
+$logo: url("{{logo.url}}") no-repeat;
+
+//-------------------------- BACKGROUND SLIDE  ------------------------------- 
+$background_atividade: url(assets/images/background_atividade.png);
+
+#end
+*/
+
+
+				//Azul:#82b0d8			Verde:#65b168			Vermelho:#983233
+$r:130;			//$r:130;				//$r:101;				//$b:152;
+$g:176;			//$g:176;				//$r:177;				//$b:50;
+$b:216;			//$b:216;				//$r:104;				//$b:51;
+
+$rgb : $r + $g + $b;
+$baseColor: rgb($r, $g, $b); 	
+
+@function fontColor() {
+	@if $rgb/3 > 178{
+		@return #000000;
+	} @else {
+		@return #ffffff;
+	}
+}
+ 
+//-------------------------- FONTE ------------------------------- 
+$fontePadrao: OpenSansRegular, sans-serif;
+
+//-------------------------- LOGO ------------------------------- 
+$logo: url("assets/images/logo.png") no-repeat;
+
+//-------------------------- BACKGROUND SLIDE  ------------------------------- 
+$background_atividade: url(assets/images/background_atividade.png);

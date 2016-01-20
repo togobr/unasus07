@@ -1,0 +1,38 @@
+<div id="{{idDaQuestao}}" class="{{class}}" style="{{style}}">
+	<div class="wrapper">
+		<div class="questoes">{{&tituloQuestoes}}</div>
+		<br>
+		<div class="pergunta_atividade"> <span>{{&numeroQuestao}}</span>{{&title}}</div>
+		<div style="width: 100%">
+			<img src="{{img}}" style="{{imgStyle}}">
+		</div>
+		<div class="alternativa_atividade" style="position:relative;">
+				<table>
+					{{#alternativas}}
+					<tr>
+						<td class="bulletsSt"><input id="{{id}}altID{{numberAlt}}" class="chkOrRadio" type="{{#multipla}}checkbox{{/multipla}}{{^multipla}}radio{{/multipla}}" name="alt{{id}}" value="{{numberAlt}}">
+							<label for="{{id}}altID{{numberAlt}}"></label>
+
+						</td>
+						<td style="padding-left: 35px;padding-top: 4px; padding-bottom: 4px;">{{&alt}}</td>
+					</tr>
+					{{/alternativas}}
+				</table>
+			</div>	
+		<br>
+		<button type='submit' class="enviaResposta"><strong>Responder</strong></button>	
+	</div>
+	<br>
+	<div class="msg msg-confirmacao" style="display:none">
+		<div class="msg-box-confirmacao center">
+			<abbr class="fecharMensagem confirmacao">&#10006;</abbr><p style="line-height: 23px;margin-bottom:20px;margin-top:20px" class="feedBackQ">Muito bem!</p>
+		</div>
+	</div>
+	<div class="msg msg-erro" style="display:none" name="alt{{id}}">
+		<div class="msg-box-erro center">
+			<abbr class="fecharMensagem erro">&#10006;</abbr><p style="line-height: 23px;margin-bottom:20px;margin-top:20px" class="feedBackQ">Vamos rever o conteúdo?</p>
+		</div>
+	</div>
+	<br>
+</div>
+</div>

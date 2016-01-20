@@ -1,0 +1,41 @@
+{
+	"defaults": {
+		"template": "botaoPP",
+					"type": "btnRetangle",
+					"label": "",
+					"styleObj": {
+						"position": "absolute",
+						"top": "15px",
+						"left": "15px"
+					},
+					"modal": {
+						"type": "ppGrande",
+						"title": "Teste Modal",
+						"style": {
+							"height": "150px"
+						},
+						"resources": [
+							{
+								"template": "imagem",
+								"src": "http://www.thinkstockphotos.com/CMS/StaticContent/WhyThinkstockImages/Best_Images.jpg",
+								"legenda": "Teste : google images",
+								"style": "position: absolute; top: 15px; left: 25px;"
+							}
+						]
+					}
+	},
+
+	"validators": [
+		"_template === botaoPP"
+	],
+
+	"resize": {
+		"width": false,
+		"height": false
+	},
+
+	"position": {
+		"top": true,
+		"left": true
+	}
+}

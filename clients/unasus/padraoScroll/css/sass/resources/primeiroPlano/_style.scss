@@ -1,0 +1,363 @@
+@import "../../_estiloPadrao.scss";
+
+#modal{
+	display: none;
+}
+
+
+.primeiroPlano{
+	top: 150px;
+	left: 238px;
+	right: 238px;
+	height: auto;
+	overflow: auto;
+	position: fixed;
+    background: #ffffff;
+    .texto{
+    	.modalContent{
+			
+    		.wrapper{
+    			width: 100%;
+    			max-width: 100%;
+    	}
+    	
+    }
+
+    }
+    
+}
+
+#modalContent {
+  position: relative;
+  padding: 40px;
+  background: #eaeaea;
+}
+
+.headerModal{
+	width: 100%;
+	height: 49px;
+	background: #f59c00;
+}
+
+
+
+.tituloModal{
+	padding: 12px 30px 12px 30px;
+	font-size: 23px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: $fonteExo;
+}
+
+.btnFechar{
+	position: absolute;
+	height: 21px;
+	width: 21px;
+	padding: 2px;
+	cursor: pointer;
+	right: 21px;
+	top: -10px;
+	background: none;
+	padding: 0px;
+	z-index: 2;
+	
+
+		span{
+			font-size: 47px;
+			color: #ffffff;
+			font-family: 'Entypo';
+
+		}
+	
+}
+
+
+
+#modalContent p{
+	padding-left: 60px;
+	padding-right: 67px;
+	padding-bottom: 10px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 16pt;
+	color: #383737;
+	line-height: 46px;
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+.primeiroPlano{
+position: absolute;
+
+left: 14.8%;
+right: 14.8%;
+
+	}
+
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+.primeiroPlano{
+position: absolute;
+
+left: 10.8%;
+right: 10.8%;
+
+	}
+
+}
+
+
+ @media only screen and (max-width: 850px) {
+
+.primeiroPlano{
+position: absolute;
+top: 8.2%;
+left: 8%;
+right: 8%;
+
+	}
+
+}
+
+ @media only screen and (max-width: 750px) {
+
+.primeiroPlano{
+position: absolute;
+top: 8.2%;
+left: 8.8%;
+right: 8.8%;
+
+	}
+}
+
+ @media only screen and (max-width: 430px) {
+
+.primeiroPlano{
+position: absolute;
+top: 8.2%;
+left: 5.8%;
+right: 5.8%;
+
+	}
+}
+
+ @media only screen and (max-width: 320px) {
+
+.primeiroPlano{
+position: absolute;
+top: 8.2%;
+left: 3.8%;
+right: 3.8%;
+
+
+	}
+}
+
+ @media only screen and (max-width: 220px) {
+
+.primeiroPlano{
+position: absolute;
+top: 8.2%;
+left: 1.8%;
+right: 1.8%;
+
+
+	}
+}
+
+ @media only screen and (max-width: 150px) {
+
+.primeiroPlano{
+position: absolute;
+top: 8.2%;
+left: 0.8%;
+right: 0.8%;
+	}
+}
+
+ @media only screen and (max-width: 100px) {
+
+.primeiroPlano{
+position: absolute;
+top: 8.2%;
+
+
+	}
+}
+//---------
+
+.botaoPP{
+	@include linear-gradient($baseColor, $baseColor, 0%, $corClara, 50%, $corEscura, 40%, darken($baseColor, $amountDarken*2), 100%);
+	@include box-shadow(2px, 2px, 1px, 0.75);
+	@include border-radius(50%);
+	
+	z-index: 10;
+	cursor: pointer;
+	font-family: $fontePadrao;
+	behavior: url(PIE.htc);  //IE-8
+	&:hover{
+		@include linear-gradient(darken($baseColor, $amountDarken*2), $baseColor, 0%, $corEscura, 50%, $corClara, 30%, $baseColor, 100%);
+	}
+	&:active{
+		@include box-shadow-inset;
+	}
+}
+
+.resource .botaoPP{
+	@include linear-gradient($baseColor, $baseColor, 0%, $corClara, 50%, $corEscura, 40%, darken($baseColor, $amountDarken*2), 100%);
+	&:hover{
+		@include linear-gradient($baseColor, $baseColor, 0%, $corClara, 50%, $corEscura, 40%, darken($baseColor, $amountDarken*2), 100%);
+	}
+	&:active{
+		@include box-shadow-inset(0, 0, 0, 0);
+		@include box-shadow(2px, 2px, 1px, 0.75);
+	}
+}
+
+.btnSmallCircle{
+	height:25px;
+	width:25px;
+	strong{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin:{
+			top: -7px;
+			left: -4px;
+		}
+		display: block;
+		color: fontColor();
+		font:{
+			size: 14px;
+			weight:bold;
+		}
+	}
+	.tagP {
+		display: none;
+	}
+	.plus{
+		&:after{
+			content: '';
+			position: absolute;
+			background: $pastaIconPadrao -24px -806px;
+			height: 10px;
+			width: 4px;
+			top: 8px;
+			left: 11px;
+			border-radius: 30%;
+			background: fontColor();
+		}
+		&:before{
+			content: '';
+			position: absolute;
+			background: $pastaIconPadrao -24px -806px;
+			height: 4px;
+			width: 10px;
+			top: 11px;
+			left: 8px;
+			border-radius: 30%;
+			background: fontColor();
+		}
+	}
+}
+
+.btnMediumCircle{
+	height:50px;
+	width:50px;
+	strong{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin:{
+			top: -13px;
+			left: -7px;
+		}
+		display: block;
+		color: fontColor();
+		font:{
+			size: 24px;
+			weight:bold;
+		}
+	}
+	.tagP {
+		display: none;
+	}
+	.plus{
+		&:after{
+			content: '';
+			position: absolute;
+			background: $pastaIconPadrao -24px -806px;
+			height: 24px;
+			width: 6px;
+			top: 50%;
+			left: 50%;
+			margin-left: -3px;
+			margin-top: -12px;
+			border-radius: 30%;
+			background: fontColor();
+		}
+		&:before{
+			content: '';
+			position: absolute;
+			background: $pastaIconPadrao -24px -806px;
+			height: 6px;
+			width: 24px;
+			top: 50%;
+			left: 50%;
+			margin-left: -12px;
+			margin-top: -3px;
+			border-radius: 30%;
+			background: fontColor();
+		}
+	}
+}
+
+.btnRetangle{
+		color: white;
+			cursor: pointer;
+			z-index: 1;
+			width: 170px;
+			height: 70px;
+			font-family: $fonteExo;
+			text-align: center;
+			background: #2793db;
+			border: 1px solid #1a8ad2;
+			background: -moz-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2793db), color-stop(100%, #1e8dd5));
+			background: -webkit-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
+			background: -o-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
+			background: -ms-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
+			background: linear-gradient(to bottom, #2793db 0%, #1e8dd5 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2793db', endColorstr='#1e8dd5',GradientType=0 );
+
+
+
+				&:hover{
+					background: #0ba4e7;
+				}
+
+				&:active {
+					background: #216ad0;
+				}
+	.btnPPRight{
+		height: 56px;
+		vertical-align: middle;
+		display: table-cell;
+			.tagP{
+
+					text-align: center;
+					font-size: 16px;
+					color: white;
+					font-family: "Exo 2", sans-serif;
+					margin: -9px 0px 0px 36px;
+					color: #ffffff;
+					
+			}
+	}
+}

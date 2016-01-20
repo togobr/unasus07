@@ -1,0 +1,158 @@
+@import "../../_estiloPadrao.scss";
+
+
+
+
+.text-center {
+  text-align: center;
+}
+
+*, *:before, *:after {
+	-webkit-border-sizing: border-box;
+	-moz-border-sizing: border-box;
+	border-sizing: border-box;
+}
+
+.container {
+	
+	max-width: 44%;
+	margin: 50px auto;
+  
+  & > ul {
+    list-style: none;
+   	position: relative;
+	text-align: justify;
+	width: 100%;
+
+/* margin: 0 auto; */
+  }
+}
+
+// =============================================================================
+//	Mixins and Variables
+// =============================================================================
+
+$blue: #2980B9;
+$gray: #EEE;
+
+@mixin ul-nostyle {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+@mixin hover-style($color) {
+	&:hover {
+		background: lighten($color, 3%);
+	}
+}
+
+@mixin animation($content) {
+  animation: $content;
+  -moz-animation: $content;
+  -webkit-animation: $content;
+}
+
+@mixin keyframes($name) {
+  @keyframes #{$name} { @content; }
+  @-moz-keyframes #{$name} { @content; }
+  @-webkit-keyframes #{$name} { @content; }
+}
+
+// =============================================================================
+//	Classes
+// =============================================================================
+
+.fa.fa-book{
+	font-size: 1.3em;
+	padding-right: 4%;
+}
+
+.dropdown-menu{
+
+
+	p{
+
+		margin: 10px;
+
+	}
+}
+
+.dropdown {
+
+	margin-bottom: $entreRecursos;
+	a {
+		text-decoration: none;
+	}
+
+	[data-toggle="dropdown"] {
+		position: relative;
+		display: block;
+		color: #ffffff;
+		border: 2px solid #e29000;
+		text-align: center;
+		background: #fbaf0b;
+		background: -moz-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(34%, #fbaf0b), color-stop(100%, #f7a600));
+		background: -webkit-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
+		background: -o-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
+		background: -ms-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
+		background: linear-gradient(to bottom, #fbaf0b 34%, #f7a600 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbaf0b', endColorstr='#f7a600',GradientType=0 );
+		font-family: "Exo 2", sans-serif;
+		cursor:pointer;
+		font-weight: bold;
+		margin: 0 auto;
+		font-size: 18px;
+		min-height: 50px;
+		max-width: 328px;
+		line-height: 50px;
+
+    &:hover{
+      background: #fbaf0b;
+    }
+
+    &:active{
+      background: #e28f01;
+    }
+
+	}
+
+
+	.dropdown-menu {	
+
+		border: 1px solid #eaeaea;
+		margin-top: -34px;
+
+		
+		p{
+			margin: 10px;
+			position: relative;
+			color: #383737;
+			line-height: 24px;
+			font-size: 14px;
+			padding: 27px;
+			font-family: $fonteOpenSans;
+		}
+
+	}
+
+
+
+	
+
+	.show {
+		display: block;
+		max-height: 9999px;
+		
+	}
+
+	.hide {
+		max-height: 0;
+		
+	}
+}
+
+

@@ -1,0 +1,130 @@
+@import "../../_estiloPadrao.scss";
+
+// ************************ Variáveis ************************************
+ $alturaMinima: 100px;
+ $alturaImagem: 369px;
+
+// ***********************************************************************
+
+.imagemInicioSco{
+	width: 100%;
+	min-height: $alturaMinima;
+	background: #eaeaea;
+	margin-bottom: $entreRecursos;
+	margin-top: -40px;
+
+
+
+}
+
+.imagemPrincipal{
+ display: block;
+ height: auto;
+ width: 100%;
+
+
+
+ img{
+  width: 100%;
+ }
+}
+
+.circleFoto{
+	margin: -6.3% 3% 0 auto;
+float: left;
+width: 25%;
+
+}
+
+.circleFoto.menor{
+margin: -3.5% 1.7% 0 auto;
+width: 20%;
+
+}
+
+.circleFoto.menor.corpo{
+	margin: -7.4% 3% 0 auto;
+}
+
+
+
+.circleImagem{
+	width: 6%;
+	position: absolute;
+	top: -29px;
+
+	left: 0;					
+}
+
+.textoPersonagem{
+	margin-top: 3%;
+	color: #373838;
+	line-height: 24px;
+	float: right;
+	width: 76%;
+	position: relative;
+	padding-bottom: 27px;
+}
+
+.textoCapa{
+	width: 100%;
+	font-family: "Exo 2", sans-serif;
+	hyphens: auto;
+	word-wrap: break-word;
+	margin-top: 3%;
+	color: #373838;
+	line-height: 24px;
+	font-size: 18px !important;
+	position: relative;
+	top: -12px;
+	float: right;
+	width: 71%;
+	h3{
+		color:$azul;
+		margin-top: 9px;
+
+	}
+	p{
+		font-size: 18px !important;
+	}
+
+}
+
+.fundoImagem{
+	background: #eaeaea;
+	width: 100%;
+	padding: 25px 0;
+	margin-top: -5px;
+}
+
+
+.primeiroTexto{
+	margin-top: 30px;
+}
+
+
+
+@media only screen and (max-width : 767px) {
+
+	.circleFoto{
+		margin: -7.5% 3% 0 auto;
+	}
+
+}
+
+
+@media only screen and (max-width : 480px) {
+	.circleFoto{
+		margin: -9.5% 3% 0 auto;
+	}
+
+
+}
+
+@media only screen and (max-width : 320px) {
+	.circleFoto{
+		margin: -11.5% 3% 0 auto;
+	}
+
+
+}

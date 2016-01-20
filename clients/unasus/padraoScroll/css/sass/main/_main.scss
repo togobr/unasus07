@@ -1,0 +1,96 @@
+@import "estiloPadrao.scss";
+
+
+
+
+ iframe{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}  				
+ 	  					
+				
+
+
+
+.textoSolto{
+color: #383737;
+font-size: 16px !important;
+font-family: "Open Sans", sans-serif;
+
+		ul, ol{
+			li{
+				margin-top: 7px;
+				margin-bottom: 7px;
+			}
+		}
+
+}
+
+.content{
+
+	.iframeContent{
+		position:fixed;
+		width: 100%;
+		height: 100%;
+		display: none;
+		z-index: 10;
+		background: #2f2f2f;
+		left: 0px;
+
+	.telaCheiaIframe{
+		width: 100%;
+		height: 100%;
+		z-index: 30;
+		left: 0px;
+		right: 0px;
+		top: 0px;
+		bottom: 0px;
+	}
+
+	.fechartelacheia {
+			z-index: 999;
+			border: 1px solid #e18f00;
+			text-align: center;
+			cursor: pointer;
+			background: #fbaf0b;
+			background: -moz-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(34%, #fbaf0b), color-stop(100%, #f7a600));
+			background: -webkit-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
+			background: -o-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
+			background: -ms-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
+			background: linear-gradient(to bottom, #fbaf0b 34%, #f7a600 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbaf0b', endColorstr='#f7a600',GradientType=0 );
+			font-family: "Exo 2", sans-serif;
+			cursor: pointer;
+			font-weight: bold;
+			font-size: 18px;
+			min-height: 50px;
+			max-width: 328px;
+			line-height: 50px;
+			padding-right: 30px;
+			padding-left: 30px;
+			color: #ffffff;
+			margin: 0 auto;
+			display: none;
+			position: relative;
+			opacity: 0.78;
+			top: 1px;
+			
+
+		
+
+		&:hover{
+      background: #fbaf0b;
+  		 }
+
+	    &:active{
+	      background: #e28f01;
+	    }
+
+
+		}
+
+	}
+
+}

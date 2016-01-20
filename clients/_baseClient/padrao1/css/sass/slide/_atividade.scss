@@ -1,0 +1,224 @@
+$atividade_largura: 581px;
+
+.atividade{
+	@include box-shadow;
+	@include border-radius;
+	position: absolute;
+	top: 12%;
+	left: 20%;
+	width: $atividade_largura;
+	background: #ffffff;
+}
+
+.pergunta_atividade{
+	background: #f7f7f7;
+	border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	border-bottom: 1px solid #dddddf;
+	color: $baseColor; 
+}
+
+.alternativa_atividade{
+	padding: 0px;
+	ul{
+		padding-left: 0px;
+		li{
+			list-style-type: none;
+		}
+		li.certo{@include border-radius; border: 1px solid #528042; margin: 4px;}
+		li.errado{@include border-radius; border: 1px solid #ff0000; margin: 4px;}
+	}
+}
+
+.enviaResposta{
+	@include linear-gradient($baseColor, $baseColor, 0%, $corClara, 50%, $corEscura, 40%, darken($baseColor, $amountDarken*2), 100%);
+	@include border-radius;
+	@include box-shadow;
+	border: none;
+	height: 44px;
+	float: right;
+	cursor: pointer;
+	color: #ffffff;
+	margin:{
+		right: 10px;
+		bottom: 10px;
+	}
+	&:hover{
+		@include linear-gradient(darken($baseColor, $amountDarken*2), $baseColor, 0%, $corEscura, 50%, $corClara, 30%, $baseColor, 100%);
+	}
+	&:active{
+		@include box-shadow-inset;
+	}
+}
+
+.enviaResposta.desativado{
+	@include linear-gradient(#9b9a9a, #9b9a9a, 0%, #9b9a9a, 48%, #9b9a9a, 51%, #9b9a9a, 100%);
+	cursor:auto;
+	&:hover{
+		@include linear-gradient(#9b9a9a, #9b9a9a, 0%, #9b9a9a, 48%, #9b9a9a, 51%, #9b9a9a, 100%);
+	}
+	&:active{
+		@include linear-gradient(#9b9a9a, #9b9a9a, 0%, #9b9a9a, 48%, #9b9a9a, 51%, #9b9a9a, 100%);
+		box-shadow: none;
+	}
+
+}
+
+//------------- CAIXA RESPOSTA (FEEDBACk) --------------------
+
+$certo: $pastaIconPadrao 0 -92px;
+$errado: $pastaIconPadrao 0 0;
+
+.caixaResposta{
+	@include border-radius;
+	background: #ffffff;
+	z-index: 10000;
+	border: solid 1px #c9cbcc;
+}
+
+.respostaCerta{
+	h2{
+		color: #39b454;
+	}
+	&:after{
+		content: "";
+		position: absolute;
+		top: -39px;
+		left: -26px;
+		height: 87px;
+		width: 91px;
+		background: $certo;
+		z-index: 10;
+	}
+}
+
+.respostaErrada{
+	h2{
+		color: #f14950;
+	}
+	&:after{
+		content: "";
+		position: absolute;
+		top: -44px;
+		left: -23px;
+		height: 87px;
+		width: 91px;
+		background: $errado;
+		z-index: 10;
+	}
+}
+
+.serverMsg{
+	font-size: 10px;
+	bottom: 10px;
+	left: 10px;
+	display: none;
+	padding: 10px;
+}
+
+
+
+
+//------------- CAIXA SLIDE FINAL ATIVIDADE --------------------
+
+
+.caixaFinalAtividade{
+	@include border-radius;
+	@include box-shadow;
+	display: inline-block;
+  	vertical-align: middle;
+	width: 450px;
+	position: relative;
+	left: 50%;
+	margin-left: -225px;
+	margin-top: -50px;
+    background: #ffffff;
+	.tituloFinalAtividade{
+		font-family: $fontePadrao;
+		background: #f7f7f7;
+		border-radius: 5px 5px 0px 0px;
+		-moz-border-radius: 5px 5px 0px 0px;
+		-webkit-border-radius: 5px 5px 0px 0px;
+		border-bottom: 1px solid #dddddf; 
+		color: $baseColor;
+		h2{
+			margin: 0px;
+			padding: 15px 20px;
+		}
+	}
+
+	.textoFinalAtividade{
+		font-family: $fontePadrao;
+		padding: 30px;
+		font-size: 14px;
+	}
+}
+
+
+//-------------------- MOBILE --------------------
+.atividade.mobile{
+	@include box-shadow(0, 0, 0, 0);
+	@include border-radius(0);
+	position: relative;
+	width: 100%;
+	font-size: 12px;
+	border: 0px;
+	top: auto;
+	left: auto;
+	background: #f7f7f7;
+
+	.pergunta_atividade{
+		border-bottom: 0px;
+		padding: 1px 15px;
+		h2{
+			font-size: 14px;
+		}
+	}
+
+	.alternativa_atividade{
+
+	li{
+		border: 1px solid #b9b8b8;
+		margin: 3px;
+		div{
+			span{
+				font-size: 12px;
+				width: 230px;
+			}
+			input{
+				width: 15px;
+				height: 15px;
+			}
+		}
+	}
+
+	li.certo{background: #83cd8d; @include border-radius(0);}
+	li.errado{background: #f18c90; @include border-radius(0);}
+
+	}
+
+	.enviaResposta{
+		@include border-radius(0);
+		width: 185px;
+		height: 40px;
+		float: none;
+		position: relative;
+		margin: 0 auto;
+		bottom: 10px;
+		background: $baseColor;
+		strong{
+			@include user-select;
+			padding: 9px;
+		}
+	}
+}
+
+.caixaFinalAtividade.mobile{
+	width: 95%;
+	margin: 10px auto;
+}
+
+.serverMsg.mobile{
+	bottom: -5px;
+}

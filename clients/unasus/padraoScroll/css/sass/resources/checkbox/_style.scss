@@ -1,0 +1,199 @@
+@import "../../_estiloPadrao.scss";
+
+.questoes{
+  font-size: 30px;
+  color: #2b95dd;
+  font-weight: bold;
+  font-family: Exo 2;
+}
+
+.chkOrRadio{
+
+    position: relative;
+    top: 1px;
+    left: -5px;
+    cursor: pointer;
+  
+}
+
+
+
+.enviaResposta.desativado{
+  background: rgb(166, 166, 166);
+  color: rgb(90, 90, 90);
+  outline: none;
+  cursor: default;
+  border: 1px solid #a6a6a6;
+
+
+
+        &:hover{
+          background: rgb(166, 166, 166);
+        }
+
+        &:active {
+          background: rgb(166, 166, 166);
+        }
+}
+
+.enviaResposta{
+  color: white;
+  cursor: pointer;
+  z-index: 1;
+  width: 130px;
+  height: 31px;
+  text-align: center;
+  background: #2793db;
+  border: 2px solid #1a8ad2;
+  background: -moz-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2793db), color-stop(100%, #1e8dd5));
+  background: -webkit-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
+  background: -o-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
+  background: -ms-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
+  background: linear-gradient(to bottom, #2793db 0%, #1e8dd5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2793db', endColorstr='#1e8dd5',GradientType=0 );
+  position: relative;
+  left: 39%;
+  outline: none;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 14pt;
+  font-weight: 400;
+  padding-bottom: 7px;
+
+
+        &:hover{
+          background: #0ba4e7;
+        }
+
+        &:active {
+          background: #216ad0;
+        }
+
+
+}
+.fecharMensagem.confirmacao{
+ cursor: pointer;
+ font-family: 'Entypo';
+ position: absolute;
+ float: right;
+ top: -16px;
+ right: 5px;
+ border-radius: 36px;
+ color: green;
+ font-size: 35px;
+}
+
+.fecharMensagem.erro{
+  cursor: pointer;
+  font-family: 'Entypo';
+  border-radius: 36px;
+  color: #9E6F72;
+  font-size: 35px;
+  margin-top: -11px;
+  margin-right: -25px;
+  float: right;
+}
+
+  .alternativa_atividade {
+    table{ 
+      color: #373838;
+      font-size: 16px;
+      font-family: "Open Sans", sans-serif;
+
+      table{
+
+      
+
+         tr{
+          position: relative;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          height: 62px;
+
+            td{
+          position: relative;
+          top: -10px;
+          padding-left: 4%;
+       
+        }
+      
+    }
+}    
+    
+
+  }
+
+}
+
+.pergunta_atividade{
+  color: #373838;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+
+  span{
+    color: #f59d00;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+
+
+
+input[type="checkbox"],
+input[type ="radio"]{
+    display:none;
+}
+
+label{
+  height: 30px;
+}
+
+input[type="radio"] + label{
+	webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #373838;
+  font-size: 0.9em;
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  text-indent: 30px;
+  // margin: -1px 4px 0 0;
+  vertical-align: middle;
+  background: url(assets/images/checklist.png) no-repeat;
+  cursor: pointer;
+    background-position-y: 5px;
+  background-size: 20px 20px;
+  line-height: 38px;
+  width: 30px;
+
+
+}
+
+
+input[type="radio"]:checked + label{
+	 background:url(assets/images/radiolist.png) no-repeat;
+   width: 30px;
+     background-position-y: 8px;
+      background-size: 20px 20px;
+}
+
+
+.questaoAtividade{
+  text-align: justify;
+  color: #373838;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.bulletsSt{
+  // padding-bottom: 11px;
+  position: absolute;
+  // padding-top: -5px;
+  // padding-left: 0px;
+}

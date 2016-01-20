@@ -1,0 +1,33 @@
+@import "../../_estiloPadrao.scss";
+
+.circleFotoPersonagem{
+	float: left;
+	width: 20%;
+	margin-top: -3.5%;
+	margin-right: 2%;
+}
+
+.textoPersonagem{
+	margin-top: 3%;
+	color: #373838;
+	line-height: 24px;
+	font-family: "Exo 2", sans-serif;
+	font-size: 18px !important;
+	
+
+	p{
+		
+		
+		color:#373838;
+		font-size: 18px !important;
+
+	}
+
+
+	h3{
+		font-size: 18px !important;
+		color: #444;
+		font-weight: 600;
+	}
+
+}

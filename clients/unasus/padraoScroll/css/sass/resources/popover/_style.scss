@@ -1,0 +1,165 @@
+@import "../../_estiloPadrao.scss";
+
+
+
+
+.btnPopOver{
+	width: 47px;
+	height: 40px;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-bottom: 26px;
+	outline: none;
+	background: transparent;
+	border: none;
+	float: right;
+
+		img{
+
+			position: relative;
+			top: -1px;
+			left: -6px;
+			width: 34px;
+			height: 32px;
+			width: 32px;
+			border-radius: 6px;
+			
+				}
+		}
+
+
+.popOverAll{
+	margin-bottom: $entreRecursos;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+
+.btnModalPopOver{
+	overflow: auto;
+	height: auto;
+
+
+	.btnNegarPopOver{
+		background: #e59888; /* Old browsers */
+		background: -moz-linear-gradient(top,  #e59888 0%, #de7f6b 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e59888), color-stop(100%,#de7f6b)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #e59888 0%,#de7f6b 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #e59888 0%,#de7f6b 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #e59888 0%,#de7f6b 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #e59888 0%,#de7f6b 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e59888', endColorstr='#de7f6b',GradientType=0 ); /* IE6-9 */
+		cursor: pointer;
+		width: 74px;
+		height: 34px;
+		border: 2px solid #c25842;
+		float: right;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		outline: none;
+
+			&:hover{
+				background: #e79f91;
+				border: 2px solid #c25842;
+			}
+
+			&:active{
+				background: #c25842;
+			}
+
+			span{
+				font-family: $fonteExo;
+				color: #fff;
+				font-size: 14px;
+				text-align: center;
+			
+			
+			}
+		}
+	.btnConfirmarPopOver {
+		background: #3fc4b3; /* Old browsers */
+		background: -moz-linear-gradient(top,  #3fc4b3 0%, #29ae9d 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3fc4b3), color-stop(100%,#29ae9d)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #3fc4b3 0%,#29ae9d 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #3fc4b3 0%,#29ae9d 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #3fc4b3 0%,#29ae9d 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #3fc4b3 0%,#29ae9d 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3fc4b3', endColorstr='#29ae9d',GradientType=0 ); /* IE6-9 */
+		float: right;
+		margin-right: 20px;
+		cursor: pointer;
+		width:74px;
+		height: 34px;
+		border: 2px solid #199386;
+		outline: none;
+
+			&:hover{
+				background: #42c6b8;
+				border: 2px solid #1a9384;
+			}
+
+			&:active{
+				background: #1a9384;
+			}
+
+			span{
+				font-family:  $fonteExo;
+				color: #fff;
+				font-size: 14px;
+				text-align: center;
+			
+			
+			}
+
+		}
+
+}
+
+.modalPopOver{
+	border: 1px solid #e28f00;
+	border-radius: 5px;
+	// -webkit-box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.5);
+	// -moz-box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.5);
+	// box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.5);
+	-webkit-box-shadow: -1px 4px 0px #eaeaea;
+	-moz-box-shadow: -1px 4px 0px #eaeaea;
+	box-shadow: -1px 4px 0px #eaeaea;
+	display: none;
+	width: 65%;
+	float: right;
+	margin-right: 10px;
+	
+}
+
+
+.textosPopOver{
+	background: #f8aa00;
+	margin: -25px 0px 0px 0px;
+	border-radius: 3px 3px 0px 0px;
+	margin-bottom: 26px;
+
+		h1{
+			font-family: $fonteExo;
+			color: #fff;
+			font-size: 2.2em;
+			padding-left: 30px;
+			padding-top: 20px;
+			padding-right: 30px;
+			padding-bottom: 40px;
+
+		}
+
+		p{
+
+			font-family:  $fonteExo;
+			color: #fff;
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-bottom: 0px;
+			position: relative;
+			top: -55px;
+			/* padding-top: 30px; */
+
+		}
+}
