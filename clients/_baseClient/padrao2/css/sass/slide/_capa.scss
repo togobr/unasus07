@@ -1,0 +1,38 @@
+.faixaCapa{
+	@include opacityBackground($opacidade: 0.4);
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	border: 0px;
+	border{
+		top: 1px solid #FFF;
+		bottom: 1px solid #FFF;
+	}
+	overflow: hidden;
+	.texto{
+		position: relative;
+		width: 550px;
+		height: 100%;
+		display: table;
+		font-family: OpenSansBold;
+		color: #777777;
+  		vertical-align: middle;
+  		.tagP{
+  			line-height: 40px;
+  			margin: 70px 0px 70px 90px;
+  		}
+	}
+	
+}
+
+.slideSubCapa{
+	.faixaCapa{
+		.texto{
+			margin: 0 auto;
+			.tagP{
+				margin-left: 0px;
+				line-height: 35px;
+			}
+		}
+	}
+}

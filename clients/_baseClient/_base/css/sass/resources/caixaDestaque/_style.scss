@@ -1,0 +1,21 @@
+.caixaDestaque{
+  min-width: 170px;
+}
+
+.caixaDestaque .tituloCaixaDestaque{
+    h2{
+        font:{
+          size:14px;
+          weight: bold;
+        }
+        margin: 0px;
+        padding: 10px 0px 10px 0px;
+    }
+}
+
+.caixaDestaque .textoCaixaDestaque{
+    padding: 15px 20px 15px 15px;
+    .tagP{
+      font-size: 12px;
+    } 
+}

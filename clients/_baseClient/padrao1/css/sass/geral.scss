@@ -1,0 +1,25 @@
+@import "estiloPadrao.scss";
+
+// player css
+@import "../../../../../player/_base/css/sass/global";
+
+// _base
+@import "../../../../_baseClient/_base/css/sass/base";
+
+// main
+@import "main/main"; 
+
+// slides
+@import "_slides";
+
+// resources
+@import "_resources";
+
+//*****************************************************************
+// @import "icons/*.png";
+// @include all-icons-sprites;
+
+
+
+
+ 

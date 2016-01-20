@@ -1,0 +1,53 @@
+@import "../../others/videojs";
+
+div.video{
+	min-width: 286px;
+	min-height: 141.5px;
+	background: #000000;
+	.glyphicon{
+		display: none;
+		position: absolute;
+		font-size: 50px;
+		top: 50%;
+		left: 50%;
+		margin-left: -25px;
+		margin-top: -25px;
+	}
+	.video-js{
+		.vjs-control-bar{
+			.vjs-mute-control, .vjs-fullscreen-control, .vjs-quality-button, .vjs-live-controls, .vjs-play-control{
+				width: 3em;
+			}
+		}
+	}
+	
+}
+
+div.noContent.video{
+	background: #e7e7e7;
+}
+
+div.noContent{
+	.video{
+		background: #e7e7e7;
+	}
+	.glyphicon{
+		display: block;
+	}
+
+	.vjs-loading-spinner, .vjs-big-play-button, .vjs-control-bar, .vjs-error-display {
+		display: none;
+	}
+}
+
+//impossibilita do usuário dar play no video que está no editor.
+.resource{
+	div.video{
+		.iframeblocker{
+			display: none;
+		}
+		.vjs-default-skin .vjs-big-play-button:focus{
+			border-color: none;
+		}
+	}
+}

@@ -1,0 +1,37 @@
+.imagem{
+	// background: $baseColor;
+	.trow:nth-child(2){
+		background: $baseColor;
+	}
+	#recImglegendaContent{
+		position: relative;
+		color: #FFFFFF;
+		padding: 4px;
+		// margin: 2px 0px 2px 0px;
+		.legendText{
+			display: block;
+		}
+		&:before{
+			content: '';
+			position: absolute;
+			border-style: solid;
+			border-width: 0 15px 15px;
+			border-color: $baseColor transparent;
+			display: block;
+			width: 0;
+			z-index: 1;
+			top: -15px;
+			left: 50%;
+			margin-left: -11px;
+		}
+	}
+}
+
+.imagem.borda{
+	padding: 0px;
+	// @include box-shadow($x1:0px, $x2:0px, $x3:2px, $intensidade: 0.2);
+	img{
+		border-top: 4px solid  $auxColor;	
+	}	
+}
+

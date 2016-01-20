@@ -1,0 +1,253 @@
+.primeiroPlano{
+	@include box-shadow($x1:0px, $x2:0px, $x3:2px, $intensidade: 0.2);
+	border: 0;
+	position: absolute;
+    background: #f3f3f0;
+     #modalContent {
+      height: 100%;
+      width: 100%;
+    }
+}
+
+.btnFechar{
+	height: 27px;
+	width: 27px;
+	.iconP3{
+		font-size: 29px;
+		position: absolute;
+		top: -1px;
+		left: -1px;
+	}
+}
+
+.tituloPrimeiroPlano{
+	background: #ffffff;
+	border-bottom: 2px solid $baseColor; 
+	color: $baseColor;
+}
+
+//----------- TAMANHOS MODAIS -----------
+
+.ppPequeno{
+	width: 510px;
+	height: 300px;
+}
+
+.ppMedio{
+	width: 590px;
+	height: 350px;
+}
+
+.ppGrande{
+	width: 780px;
+	height: 460px;
+}
+
+//----------- BOTOES MODAL -----------
+
+.botaoPP{
+	@include box-shadow($x1:0px, $x2:0px, $x3:2px, $intensidade: 0.2);
+	border: 0;
+	position:absolute;
+	z-index: 10;
+	cursor: pointer;
+	font-family: $fontePadrao;
+}
+
+.btnSmallCircle{
+	@include box-shadow($x1:0px, $x2:0px, $x3:2px, $intensidade: 0.6);
+	@include border-radius(50%);
+	border: 0px;
+	height:35px;
+	width:35px;
+	background: $baseColor;
+	.iconP3{
+		display: none;
+	}
+	.tagP{
+		display: none;
+	}
+	.plus{
+		&:after{
+			content: '';
+			position: absolute;
+			height: 17px;
+			width: 3px;
+			top: 9px;
+			left: 16px;
+			background: $auxColor;
+		}
+		&:before{
+			content: '';
+			position: absolute;
+			height: 3px;
+			width: 17px;
+			top: 16px;
+			left: 9px;
+			background: $auxColor;
+		}
+	}
+	&:hover{
+		background: $baseColorLighten2;
+	}
+	&:active{
+		background: $baseColorLighten;
+	}
+}
+
+.btnSmallCircle.actived{
+	background: $auxColor;
+	.plus{
+		&:after{background: $baseColor;}
+		&:before{background: $baseColor;}
+	}
+	&:hover{
+		color: #FFFFFF;
+		background: $baseColorLighten2;
+	}
+	&:active{
+		background: $baseColorLighten;
+	}
+}
+
+.btnSmallCircle.visited{
+	background: $baseColorLighten3;
+	.plus{
+		&:after{background: #FFFFFF;}
+		&:before{background: #FFFFFF;}
+	}
+	&:hover{
+		background: $baseColorLighten3;
+	}
+	&:active{
+		background: $baseColorLighten;
+	}
+}
+
+
+//------------------------
+
+
+.btnMediumCircle{
+	@include box-shadow($x1:0px, $x2:0px, $x3:2px, $intensidade: 0.6);
+	@include border-radius(50%);
+	border: 0px;
+	height:65px;
+	width:65px;
+	background: $baseColor;
+	.iconP3{
+		position: absolute;
+		color: $auxColor;	
+		top: 50%;
+		margin-top: -15px;
+		left: 50%;
+		margin-left: -15px;
+		font-size: 30px;
+	}
+	&:hover{
+		background: $baseColorLighten2;
+	}
+	&:active{
+		background: $baseColorLighten;
+	}
+	.tagP{
+		display: none;
+	}
+}
+
+.btnMediumCircle.actived{
+	background: $auxColor;
+	.iconP3{
+		color: $baseColor;
+	}
+	&:hover{
+		background: $baseColorLighten3;
+	}
+	&:active{
+		background: $baseColorLighten;
+	}
+}
+
+.btnMediumCircle.visited{
+	background: $baseColorLighten3;
+	.iconP3{
+		color: #FFFFFF;
+	}
+	&:hover{
+		background: $baseColorLighten2;
+	}
+	&:active{
+		background: $baseColorLighten;
+	}
+}
+
+
+//------------------------
+
+
+.btnRetangle{
+	position: absolute;
+	width: 278px;
+	display: table;
+	border-top: 4px solid $auxColor;
+	height: 100%;
+	.btnPPLeft{
+		@include box-shadow-inset(-2px, 1px, 2px, 0.29);
+		position: relative;
+		height: 100%;
+		width: 60px;
+		background: $baseColor;
+		.iconP3{
+			color: $auxColor;
+			position: absolute;
+			top: 50%;
+			margin-top: -15px;
+			left: 50%;
+			margin-left: -15px;
+			font-size: 30px;
+		}
+	}
+	.btnPPRight{
+		position: relative;
+		height: 56px;
+		width: 218px;
+		background: $baseColorLighten2;
+		vertical-align: middle;
+		display: table-cell;
+		.tagP{
+			color: #FFFFFF;
+			font-size: 16px;
+			text-align: center;
+			cursor: pointer;
+		}
+	}
+	&:hover{
+		.btnPPRight{
+			.tagP{
+				color: $auxColor;
+			}	
+		}
+	}
+}
+
+.btnRetangle.actived{
+	.btnPPLeft{
+		background: $auxColor;
+		.iconP3{
+			color: $baseColor;
+		}
+	}
+}
+
+.btnRetangle.visited{
+	border-top: 4px solid $baseColorLighten2;
+	.btnPPLeft{
+		background: $baseColorLighten2;
+		.iconP3{
+			color: #FFFFFF;
+		}
+	}
+	.btnPPRight{
+		background: $baseColorLighten3;
+	}
+}

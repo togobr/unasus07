@@ -1,0 +1,58 @@
+{
+	"defaults": {
+		"template": "atividadeGaveta",
+		"gavetas": [
+			{
+				"nome": "Gaveta 1",
+				"parGaveta": "g1",
+				"tituloAtividade": "1111",
+				"content": "111 Lorem ipsum Ut exercitation deserunt velit fugiat elit quis nostrud id irure ullamco Excepteur sint sit est consequat exercitation sit. 111 Lorem ipsum Ut exercitation deserunt velit fugiat elit quis nostrud id irure ullamco Excepteur sint sit est consequat exercitation sit 111 Lorem ipsum Ut exercitation deserunt velit fugiat elit quis nostrud id irure ullamco Excepteur sint sit est consequat exercitation sit"
+			},
+			{
+				"nome": "Gaveta 2",
+				"parGaveta": "g2",
+				"tituloAtividade": "2222",
+				"content": "222 Lorem ipsum Ut exercitation deserunt velit fugiat elit quis nostrud id irure ullamco Excepteur sint sit est consequat exercitation sit."
+			 },
+			{
+				"nome": "Gaveta 3",
+				"parGaveta": "g3",
+				"tituloAtividade": "3333",
+				"content": "333 Lorem ipsum Ut exercitation deserunt velit fugiat elit quis nostrud id irure ullamco Excepteur sint sit est consequat exercitation sit."
+			},
+			{
+				"nome": "Gaveta 4",
+				"parGaveta": "g3",
+				"tituloAtividade": "3333",
+				"content": "333 Lorem ipsum Ut exercitation deserunt velit fugiat elit quis nostrud id irure ullamco Excepteur sint sit est consequat exercitation sit."
+			},
+			{
+				"nome": "Gaveta 5",
+				"parGaveta": "g3",
+				"tituloAtividade": "3333",
+				"content": "333 Lorem ipsum Ut exercitation deserunt velit fugiat elit quis nostrud id irure ullamco Excepteur sint sit est consequat exercitation sit."
+			}
+		],
+		"tituloAtividade": "Introdução à Atividade de Gaveta",
+		"content": "Lorem ipsum Ut exercitation deserunt velit fugiat elit quis nostrud id irure ullamco Excepteur sint sit est consequat exercitation sit.",
+		"styleObj": {
+			"position": "absolute",
+			"top": "15px",
+			"left": "15px"
+		}
+	},
+
+	"validators": [
+		"_template === atividadeGaveta"
+	],
+
+	"resize": {
+		"width": true,
+		"height": false
+	},
+
+	"position": {
+		"top": true,
+		"left": true
+	}
+}
