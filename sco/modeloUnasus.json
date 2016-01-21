@@ -1,0 +1,169 @@
+    {
+        "_id": "5379f9c48b714fc104000133",
+        "courseName": "TESTE IEA",
+        "scoName": "TESTE IEA",
+        "srcCaptivate":"",
+        "scorm":false,
+        "teste":"",
+        "slides": [       
+            {
+                "template": "slideScroll",
+                "resources": [
+                   {
+                        "template": "imagem",
+                        "column": "col-xs-12 col-md-4",
+                        "src": "http://2.bp.blogspot.com/-F8aZWjikNZs/Vo_yXXOZIbI/AAAAAAAAMmM/_uwQNYgEHYU/s1600/logounasus.png",
+                        "legend": {
+                            "active": true,
+                            "content": "Teste : Teste images"
+                        },
+                        "border": true,
+                        "styleObj": {
+                        },
+                        "order":1
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa.",
+                        "order":2
+                    },
+
+                    {
+                        "template":"video",
+                        "column": "col-xs-12 col-md-4",
+                        "styleObj":{  
+                            "height": "300px"
+                        },
+                        "youtube":{  
+                            "active":"true",
+                            "id":"bwsKax_4IUg"
+                        },
+                        "web":{  
+                            "active":false,
+                            "src":"",
+                            "type":"video/mp4"
+                        },
+                        "order":3
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa.",
+                        "order":5
+                    },
+
+                    {
+                        "template":"gavetaHorizontal",
+                        "column": "col-xs-12 col-md-4",
+                        "style": "margin-top:50px;",
+                        "gavetasHorizontais":[    
+                            {
+                                "numeroGaveta":"1",
+                                "tituloGaveta":"Tab Menu 1",
+                                "content":"Lorem <span class='mbTooltipGlossario' title='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quam esse sed delectus ipsa repellendus voluptate, inventore quasi optio deserunt ab quibusdam quia voluptatem tenetur et soluta veritatis sunt illo!'>Palavra Destacada</span> dolor sit amet, consectetur adipisicing elit. Ducimus aliquam quia obcaecati autem labore delectus ea rerum dolorem officia, numquam molestias quidem est voluptate inventore! At veniam aliquam, architecto quidem!"
+                            },
+
+                            {
+                                "numeroGaveta":"2",
+                                "tituloGaveta":"Tab Menu 2",
+                                "content":"<p style='margin-right:4%'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque facilis quo repellendus officia iusto, nam, odio et voluptas laboriosam cupiditate magni libero, totam possimus quasi aspernatur nobis quis quas quod?</p> <img src='css/assets/images/IEA03_IMG01_SCO01.png' />"
+                            },
+                            {
+                                "numeroGaveta":"3",
+                                "tituloGaveta":"Tab Menu 3",
+                                "content":" <img style='margin-right:2.5%%' src='css/assets/images/IEA03_IMG01_SCO01.png' /> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque facilisrepellendus officia iusto, nam, sssssss <span class='mbTooltipGlossario' title='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quam esse sed delectus ipsa repellendus voluptate, inventore quasi optio deserunt ab quibusdam quia voluptatem tenetur et soluta veritatis sunt illo!'>alternativas</span> et voluptas laboriosam cupiditate magni libero, totam possimus quasi aspernatur nobis quis quas quod?</p>"
+                            }
+                        ],
+                        "order":6
+                    },
+
+                     {
+                        "template": "imagem",
+                        "column": "col-xs-12 col-md-6",
+                        "src": "https://cdn0.vox-cdn.com/thumbor/pmlvW1emRg9SBnni5pBA-xHtRM8=/0x1:2040x1361/1280x854/cdn0.vox-cdn.com/assets/2464695/google-logo-stock-21_2040.jpg",
+                        "legend": {
+                        "active": true,
+                        "content": "Teste : Teste images"
+                        },
+                        "border": true,
+                        "styleObj": {
+                        },
+                        "order":7
+                    },
+
+                    {
+                        "template":"sanfona",
+                        "column": "col-xs-12 col-md-6",
+                        "styleObj": {
+                        },
+                        "sanfonas":[
+                            {
+                                "titulo":"Accordion 1", 
+                                "content":" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendiLorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendi."
+                            },
+
+                            {
+                                "titulo":"Accordion 2", 
+                                "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendi."
+                            },
+                            {
+                                "titulo":"Accordion 3", 
+                                "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendi."
+                            }
+                        ],
+                        "order":8
+                    },
+
+                    {
+                        "template":"sliderResponsivo",
+                        "column": "col-xs-12 col-md-12",
+                        "style":"margin-top:50px;",
+                        "slidesResponsivos":[
+                            {
+                                "imgSlide":"css/assets/images/Fotolia_25023164_Subscription_Monthly_M.jpg",
+                                "legenda":"legenda 1"
+                            },
+                            {
+                                "imgSlide":"css/assets/images/Fotolia_25697273_Subscription_Monthly_M.jpg",
+                                "legenda":"legenda 2"
+                            },
+                            {
+                                "imgSlide":"css/assets/images/2.jpg",
+                                "legenda":"legenda 3"
+                            }
+                        ],
+                        "order":10
+                    },
+
+                    {
+                        "template":"gavetaVertical",
+                        "column": "col-xs-12 col-md-8",
+                        "style":"margin-top:50px;",
+                        "gavetasVerticais":[    
+                            {
+                                "numeroGaveta":"1",
+                                "tituloGaveta":"Tab Menu 1",
+                                "content":"Lorem ipsum dolor sit amet, consectetur <span class='mbTooltip'  title='Lorem ipsum dolor sit amet, consecte'>tooltip</span> elit. Ducimus aliquam quia obcaecati autem labore delectus ea rerum dolorem officia, numquam molestias quidem est voluptate inventore! At veniam aliquam, architecto quidem!"
+                            },
+                            {
+                                "numeroGaveta":"2",
+                                "tituloGaveta":"Tab Menu 2",
+                                "content":"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque facilis quo repellendus officia iusto, nam, odio et voluptas laboriosam cupiditate magni libero, totam possimus quasi aspernatur nobis quis quas quod?</p> <img src='css/assets/images/IEA03_IMG01_SCO01.png' /> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio doloremque rerum nihil, totam iusto doloribus sit minima nostrum eligendi ut tenetur sint optio. Et dignissimos, ratione, rerum natus aliquid omnis!</p>"
+                            }
+                        ],
+                        "order":11
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa.",
+                        "order":12
+                    }
+                ]
+            }            
+        ]    
+    }

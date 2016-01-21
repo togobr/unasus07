@@ -129,6 +129,15 @@ require.config({
 					]
 				},
 
+				"resources": {
+					"video":{
+						"baseURL": "./resources/video",
+						"paths": [
+							"text!template.html"
+						]
+					}
+				},
+
 				"slides": {
 					"slideScroll": {
 						"baseURL": "slides/slideScroll",

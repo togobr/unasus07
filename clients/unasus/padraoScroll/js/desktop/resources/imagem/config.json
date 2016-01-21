@@ -1,0 +1,32 @@
+{
+	"defaults": {
+		"template": "imagem",
+		"src": "",
+		"legend": {
+			"active": true,
+			"content": "Teste : Teste images"
+		},
+		"border": true,
+		"styleObj": {
+			"position": "absolute",
+			"top": "36px",
+			"left": "52px",
+			"height": "212px",
+			"width": "283px"
+		}
+	},
+
+	"validators": [
+		"_template === imagem"
+	],
+
+	"resize": {
+		"width": true,
+		"height": true
+	},
+
+	"position": {
+		"top": true,
+		"left": true
+	}
+}

@@ -1,14 +1,12 @@
-<div id="{{id}}" class="{{class}} {{type}}" style="{{style}}">
-	<div class="wrapper">
-		<div id="accordion">
-			{{#sanfonas}}
-			<h3><span class="icon-acc">&#10133;</span><span class="tituloSanfona">{{titulo}}</span></h3>
-				<div>
-					<p>
-					{{&content}}
-					</p>
-				</div>
-			{{/sanfonas}}	
-		</div>
+<div id="{{id}}" class="{{class}} {{type}} {{column}}" style="{{style}}">
+	<div id="accordion">
+		{{#sanfonas}}
+		<h3><span class="icon-acc">&#10133;</span><span class="tituloSanfona">{{titulo}}</span></h3>
+			<div>
+				<p>
+				{{&content}}
+				</p>
+			</div>
+		{{/sanfonas}}	
 	</div>
 </div>

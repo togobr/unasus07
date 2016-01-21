@@ -15,24 +15,22 @@ define(["responsiveSlidesJs"], function() {
 			var resource = this.el,
 				$sliderResponsivo = $(resource).find(".rslides"),
 				$sliderContainer = $(resource).find(".sliderContainer");
-			
 
-		      $sliderResponsivo.responsiveSlides({
-		        auto: false,
-		        pager: true,
-		        nav: true,
-		        speed: 500,
-		        namespace: "slider",
-		        prevText: "&#59237;",
-		        nextText: "&#59238;"
-		      });
-
-	     
-	     $sliderContainer.children(".slider_tabs").appendTo($sliderContainer.children(".bottomContainer"));
-	
-				
+			Player.Elements.$content.on({
+				contentReady: function() {
+					$sliderResponsivo.responsiveSlides({
+						auto: false,
+						pager: true,
+						nav: true,
+						speed: 500,
+						namespace: "slider",
+						prevText: "&#59237;",
+						nextText: "&#59238;"
+					});   
+				$sliderContainer.children(".slider_tabs").appendTo($sliderContainer.children(".bottomContainer"));
+				}
+			});
 		}
-
 	}
 
 	return sliderResponsivo;
