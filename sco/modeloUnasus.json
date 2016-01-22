@@ -161,25 +161,81 @@
                         "template": "texto",
                         "column": "col-xs-12 col-md-4",
                         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa.",
+                        "styleObj": {
+                        },
                         "order":12
                     },
 
                     {
                         "template": "revelar",
                         "type": "click",
-                        "column": "col-xs-12 col-md-12",
-                        "contentCapa": "CAPA!",
-                        "content": "Conteúdo da Capa!",
+                        "column": "col-xs-12 col-md-3",
+                        "contentCapa": "CAPA! 11111111111 ",
+                        "content": "Conteúdo da Capa! 1111111111",
+                        "styleObj": {
+                            "height": "150px"
+                        },
                         "order":13
                     },
 
                     {
                         "template": "revelar",
                         "type": "hover",
-                        "column": "col-xs-12 col-md-12",
-                        "contentCapa": "CAPA!",
-                        "content": "Conteúdo da Capa!",
+                        "column": "col-xs-12 col-md-3",
+                        "contentCapa": "CAPA!22222222222",
+                        "content": "Conteúdo da Capa! 22222222222",
+                        "styleObj": {
+                            "height": "150px"
+                        },
                         "order":14
+                    },
+
+                    {
+                        "template": "revelar",
+                        "type": "dropdown",
+                        "column": "col-xs-12 col-md-3",
+                        "contentCapa": "CAPA! 333333333 ",
+                        "content": "Conteúdo da Capa! 333333333",
+                        "styleObj": {
+                            "height": "150px"
+                        },
+                        "order":15
+                    },
+
+                    {
+                        "template": "revelar",
+                        "type": "click",
+                        "column": "col-xs-12 col-md-3",
+                        "contentCapa": "CAPA! 4444444 ",
+                        "content": "Conteúdo da Capa! 4444444",
+                        "styleObj": {
+                            "height": "150px"
+                        },
+                        "order":16
+                    },
+
+                    {  
+                        "template":"caixaDestaque",
+                        "column": "col-xs-12 col-md-6",
+                        "type":"normal",
+                        "title":"Final de Cursos dasd sd",
+                        "content":"Lorem ipsum dolor sit amet, &nbsp;dsa dsad asd asd asd asd sad asd asd a dipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.&nbsp;",
+                        "styleObj": {
+                            "margin-top": "50px"
+                        },
+                        "order":17
+                    },
+
+                    {  
+                        "template":"caixaDestaque",
+                        "column": "col-xs-12 col-md-6",
+                        "type":"normal",
+                        "title":"Final de Cursos dasd sd",
+                        "content":"Lorem ipsum dolor sit amet, &nbsp;dsa dsad asd asd asd asd sad asd asd a dipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.&nbsp;",
+                        "styleObj": {
+                            "margin-top": "50px"
+                        },
+                        "order":18
                     }
                 ]
             }            
