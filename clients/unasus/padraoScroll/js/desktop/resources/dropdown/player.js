@@ -17,21 +17,25 @@ define([], function() {
 
 				$btndropdown.on({click:function(e){
 
-					console.log('foo hahahhah123');
 
 					$btndropdown.toggleClass("dropDownOpen");
 
 					if($btndropdown.hasClass("dropDownOpen")){
-						$conteudoDrop.slideToggle("slow", function() {
+						$conteudoDrop.slideToggle( "slow", function() {
    
  						 });
 					} else{
-						$conteudoDrop.slideToggle("slow", function() {
+						$conteudoDrop.slideToggle( "slow", function() {
    
  						 });
 					}
+
+		
+
 			}
 		}); 
+
+
 	}
 
 }

@@ -1,4 +1,59 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'Entypo';
+  src: url("assets/fonts/entypo.eot");
+  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
+}
+@font-face {
+  font-family: 'Entypo-Social';
+  src: url("assets/fonts/entypo-social.eot");
+  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
+}
+@font-face {
+  font-family: pv-agr-prec;
+  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
+  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: icomoon;
+  src: url(assets/fonts/icomoon.eot?tpg7s4);
+  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Entypo';
+  src: url("assets/fonts/entypo.eot");
+  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
+}
+@font-face {
+  font-family: 'Awesome';
+  src: url("assets/fonts/fontawesome-webfont.eot");
+  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
+}
+@font-face {
+  font-family: 'Exo 2', sans-serif;
+  src: url("assets/fonts/Exo2-Regular.eot");
+  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: 'Exo 2', sans-serif;
+    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
+  }
+}
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: url("assets/fonts/OpenSans-Regular.eot");
+  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
+}
+@font-face {
+  font-family: 'OpenSansBold';
+  src: url("assets/fonts/OpenSans-Bold.eot");
+  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
+}
 /* line 1, ../../../../player/_base/css/sass/general/funcionais.scss */
 body {
   overflow-x: hidden;
@@ -1580,62 +1635,7 @@ body.vjs-full-window {
 /* -----------------------------------------------------------------------------
 The original source of this file lives at
 https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-/* line 5, sass/main/_main.scss */
+/* line 1, sass/main/_main.scss */
 body {
   max-width: 1920px;
   overflow-y: visible;
@@ -1643,7 +1643,25 @@ body {
   padding-right: 10%;
 }
 
-/* line 12, sass/main/_main.scss */
+/* line 8, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+/* line 13, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .nav.navbar-nav {
+  float: right;
+}
+
+/* line 17, sass/main/_main.scss */
+.content.container-fluid {
+  max-width: 1021px;
+  padding-top: 100px;
+}
+
+/* line 53, sass/main/_main.scss */
 ul {
   list-style-image: url(assets/images/bullet.png);
   counter-reset: section;
@@ -1651,7 +1669,7 @@ ul {
   line-height: 30px;
   padding-left: 15px;
 }
-/* line 18, sass/main/_main.scss */
+/* line 59, sass/main/_main.scss */
 ul li {
   background-position: 0px 100%;
   padding-left: 5px;
@@ -1662,13 +1680,13 @@ ul li {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 30, sass/main/_main.scss */
+/* line 71, sass/main/_main.scss */
 ol {
   list-style-type: none;
   counter-reset: ol-counter;
   padding: 0;
 }
-/* line 35, sass/main/_main.scss */
+/* line 76, sass/main/_main.scss */
 ol li {
   background-position: 0px 100%;
   padding-left: 25px;
@@ -1678,7 +1696,7 @@ ol li {
   margin-right: 10px;
   font-family: "Open Sans", sans-serif;
 }
-/* line 44, sass/main/_main.scss */
+/* line 85, sass/main/_main.scss */
 ol li:before {
   font-weight: bold;
   margin-right: 6px;
@@ -1687,7 +1705,7 @@ ol li:before {
   counter-increment: ol-counter;
 }
 
-/* line 59, sass/main/_main.scss */
+/* line 100, sass/main/_main.scss */
 .wrapper {
   height: auto;
   margin: 0 auto;
@@ -1695,41 +1713,41 @@ ol li:before {
   position: relative;
 }
 
-/* line 66, sass/main/_main.scss */
+/* line 107, sass/main/_main.scss */
 .wrapperMargin {
   margin-bottom: 40px;
 }
 
-/* line 71, sass/main/_main.scss */
+/* line 112, sass/main/_main.scss */
 .hiddenAnimate {
   opacity: 0;
 }
 
-/* line 74, sass/main/_main.scss */
+/* line 115, sass/main/_main.scss */
 .visible {
   opacity: 1;
 }
 
-/* line 79, sass/main/_main.scss */
+/* line 120, sass/main/_main.scss */
 iframe {
   width: 100%;
   height: 100%;
   position: absolute;
 }
 
-/* line 89, sass/main/_main.scss */
+/* line 130, sass/main/_main.scss */
 .textoSolto {
   color: #383737;
   font-size: 16px !important;
   font-family: "Open Sans", sans-serif;
 }
-/* line 95, sass/main/_main.scss */
+/* line 136, sass/main/_main.scss */
 .textoSolto ul li, .textoSolto ol li {
   margin-top: 7px;
   margin-bottom: 7px;
 }
 
-/* line 105, sass/main/_main.scss */
+/* line 146, sass/main/_main.scss */
 .content .iframeContent {
   position: fixed;
   width: 100%;
@@ -1739,7 +1757,7 @@ iframe {
   background: #2f2f2f;
   left: 0px;
 }
-/* line 114, sass/main/_main.scss */
+/* line 155, sass/main/_main.scss */
 .content .iframeContent .telaCheiaIframe {
   width: 100%;
   height: 100%;
@@ -1749,7 +1767,7 @@ iframe {
   top: 0px;
   bottom: 0px;
 }
-/* line 124, sass/main/_main.scss */
+/* line 165, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia {
   z-index: 999;
   border: 1px solid #e18f00;
@@ -1779,11 +1797,11 @@ iframe {
   opacity: 0.78;
   top: 1px;
 }
-/* line 156, sass/main/_main.scss */
+/* line 197, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:hover {
   background: #fbaf0b;
 }
-/* line 160, sass/main/_main.scss */
+/* line 201, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:active {
   background: #e28f01;
 }
@@ -2492,67 +2510,12 @@ iframe {
   cursor: pointer;
 }
 
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-/* line 11, sass/resources/sanfona/_style.scss */
+/* line 9, sass/resources/sanfona/_style.scss */
 .sanfona {
   margin-bottom: 40px;
 }
 
-/* line 17, sass/resources/sanfona/_style.scss */
+/* line 15, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header {
   background: #2793db;
   /* Old browsers */
@@ -2595,7 +2558,7 @@ iframe {
   border: 2px solid #2188ce;
   border-bottom: transparent;
 }
-/* line 50, sass/resources/sanfona/_style.scss */
+/* line 48, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header .tituloSanfona {
   position: absolute;
   font-size: 14px;
@@ -2603,7 +2566,7 @@ iframe {
   top: 10px;
   left: 50px;
 }
-/* line 57, sass/resources/sanfona/_style.scss */
+/* line 55, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header .icon-acc {
   font-family: 'Entypo';
   font-size: 40px;
@@ -2616,21 +2579,21 @@ iframe {
   top: -11px;
   left: 19px;
 }
-/* line 69, sass/resources/sanfona/_style.scss */
+/* line 67, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header:first-child {
   border-radius: 3px 3px 0 0;
 }
-/* line 73, sass/resources/sanfona/_style.scss */
+/* line 71, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header:last-of-type {
   border-radius: 0 0 3px 3px;
   border-bottom: 2px solid #2188ce;
 }
-/* line 80, sass/resources/sanfona/_style.scss */
+/* line 78, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header.ui-accordion-header-active {
   background: #0ba4e7;
   border-bottom: 2px solid #2188ce;
 }
-/* line 86, sass/resources/sanfona/_style.scss */
+/* line 84, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content {
   padding: 1em 2.2em;
   border-top: 0;
@@ -2641,85 +2604,30 @@ iframe {
   width: 99.9%;
   overflow: hidden;
 }
-/* line 97, sass/resources/sanfona/_style.scss */
+/* line 95, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom {
   border: 1px solid #eaeaea;
   margin-bottom: 7px;
   overflow: hidden;
 }
-/* line 101, sass/resources/sanfona/_style.scss */
+/* line 99, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom p {
   font-size: 16px !important;
 }
 
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-/* line 21, sass/resources/gaveta/_style.scss */
+/* line 17, sass/resources/gaveta/_style.scss */
 .wrapper-tab {
   margin: 30px 0;
   overflow: hidden;
   width: 100%;
 }
 
-/* line 27, sass/resources/gaveta/_style.scss */
+/* line 23, sass/resources/gaveta/_style.scss */
 .tab-vertical {
   float: left;
   width: 30%;
 }
-/* line 31, sass/resources/gaveta/_style.scss */
+/* line 27, sass/resources/gaveta/_style.scss */
 .tab-vertical li {
   text-decoration: none;
   font-family: "Exo 2", sans-serif;
@@ -2728,21 +2636,21 @@ iframe {
   font-size: 1em;
 }
 
-/* line 41, sass/resources/gaveta/_style.scss */
+/* line 37, sass/resources/gaveta/_style.scss */
 .tab-vertical-link:first-child.selected, .tab-vertical-link:first-child:hover {
   border-radius: 5px 5px 0 0;
 }
 
-/* line 44, sass/resources/gaveta/_style.scss */
+/* line 40, sass/resources/gaveta/_style.scss */
 .tab-vertical-link:hover {
   background: #0ba4e7;
 }
 
-/* line 49, sass/resources/gaveta/_style.scss */
+/* line 45, sass/resources/gaveta/_style.scss */
 .tab-vertical-link.selected {
   background: #0ba4e7;
 }
-/* line 53, sass/resources/gaveta/_style.scss */
+/* line 49, sass/resources/gaveta/_style.scss */
 .tab-vertical-link.selected:after {
   content: '';
   border-style: solid;
@@ -2757,12 +2665,12 @@ iframe {
   float: right;
 }
 
-/* line 68, sass/resources/gaveta/_style.scss */
+/* line 64, sass/resources/gaveta/_style.scss */
 .tab-vertical-link:first-child {
   border-top: none;
 }
 
-/* line 71, sass/resources/gaveta/_style.scss */
+/* line 67, sass/resources/gaveta/_style.scss */
 .tab-vertical-link {
   background: #2994dc;
   /* Old browsers */
@@ -2790,7 +2698,7 @@ iframe {
   width: 100%;
 }
 
-/* line 93, sass/resources/gaveta/_style.scss */
+/* line 89, sass/resources/gaveta/_style.scss */
 .main-tab-vertical {
   background-color: #FCFCFC;
   float: right;
@@ -2798,23 +2706,23 @@ iframe {
   padding: 10px 20px;
   width: 68%;
 }
-/* line 100, sass/resources/gaveta/_style.scss */
+/* line 96, sass/resources/gaveta/_style.scss */
 .main-tab-vertical p {
   font-family: "Exo 2", sans-serif;
   font-size: 0.9em;
 }
 
-/* line 107, sass/resources/gaveta/_style.scss */
+/* line 103, sass/resources/gaveta/_style.scss */
 .tab-ver:first-child {
   display: block;
 }
 
-/* line 111, sass/resources/gaveta/_style.scss */
+/* line 107, sass/resources/gaveta/_style.scss */
 *, :after, :before {
   box-sizing: border-box;
 }
 
-/* line 115, sass/resources/gaveta/_style.scss */
+/* line 111, sass/resources/gaveta/_style.scss */
 .tabelaVertical {
   list-style: none;
 }
@@ -2957,62 +2865,7 @@ iframe {
     left: -15%;
   }
 }
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-/* line 3, sass/resources/gavetaHorizontal/_style.scss */
+/* line 1, sass/resources/gavetaHorizontal/_style.scss */
 .gavetaHor {
   background: #eaeaea;
   width: 100%;
@@ -3020,7 +2873,7 @@ iframe {
   overflow: auto;
 }
 
-/* line 12, sass/resources/gavetaHorizontal/_style.scss */
+/* line 10, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul {
   display: table;
   list-style: none;
@@ -3030,7 +2883,7 @@ iframe {
   table-layout: fixed;
   width: 100%;
 }
-/* line 20, sass/resources/gavetaHorizontal/_style.scss */
+/* line 18, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul li {
   padding-left: 0;
   display: table-cell;
@@ -3058,11 +2911,11 @@ iframe {
   border-right: transparent;
   outline: none;
 }
-/* line 40, sass/resources/gavetaHorizontal/_style.scss */
+/* line 38, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul li:last-child {
   border-right: 2px solid #2188ce;
 }
-/* line 44, sass/resources/gavetaHorizontal/_style.scss */
+/* line 42, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul li a {
   height: 40px;
   line-height: 40px;
@@ -3073,17 +2926,17 @@ iframe {
   text-decoration: none;
   color: #fff;
 }
-/* line 55, sass/resources/gavetaHorizontal/_style.scss */
+/* line 53, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul li a span {
   font-family: "Exo 2", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
-/* line 68, sass/resources/gavetaHorizontal/_style.scss */
+/* line 66, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul .ui-tabs-active {
   background: #0ba5e6;
 }
-/* line 73, sass/resources/gavetaHorizontal/_style.scss */
+/* line 71, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul .ui-tabs-active a span:after {
   content: '';
   position: relative;
@@ -3096,7 +2949,7 @@ iframe {
   top: -5px;
   left: 48.5%;
 }
-/* line 99, sass/resources/gavetaHorizontal/_style.scss */
+/* line 97, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor .ui-tabs-panel {
   border: 1px solid #eaeaea;
   background: #fff;
@@ -3108,12 +2961,12 @@ iframe {
   font-size: 14px;
   width: 99.9%;
 }
-/* line 110, sass/resources/gavetaHorizontal/_style.scss */
+/* line 108, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor .ui-tabs-panel img {
   float: left;
   width: 48%;
 }
-/* line 115, sass/resources/gavetaHorizontal/_style.scss */
+/* line 113, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor .ui-tabs-panel p {
   float: left;
   width: 48%;
@@ -3537,75 +3390,20 @@ iframe {
   top: 11px;
 }
 
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-/* line 3, sass/resources/sliderResponsivo/_style.scss */
+/* line 1, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider {
   display: block;
   height: auto;
   width: 100%;
 }
-/* line 7, sass/resources/sliderResponsivo/_style.scss */
+/* line 5, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer {
   margin-bottom: 40px;
   position: relative;
   float: left;
   width: 100%;
 }
-/* line 12, sass/resources/sliderResponsivo/_style.scss */
+/* line 10, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer .rslides {
   position: relative;
   list-style: none;
@@ -3614,13 +3412,13 @@ iframe {
   padding: 0;
   margin: 0;
 }
-/* line 19, sass/resources/sliderResponsivo/_style.scss */
+/* line 17, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer .rslides li {
   width: 100%;
   max-height: 467px;
   padding-left: 0;
 }
-/* line 23, sass/resources/sliderResponsivo/_style.scss */
+/* line 21, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer .rslides li p {
   margin: 0;
   width: 100%;
@@ -3629,12 +3427,12 @@ iframe {
   padding-left: 23%;
   color: #373838;
 }
-/* line 32, sass/resources/sliderResponsivo/_style.scss */
+/* line 30, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer .rslides li img {
   max-height: 419px;
   width: 100%;
 }
-/* line 38, sass/resources/sliderResponsivo/_style.scss */
+/* line 36, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer .slider_nav {
   font-family: 'Entypo';
   z-index: 3;
@@ -3651,26 +3449,26 @@ iframe {
   font-weight: 600;
   margin-top: -110px;
 }
-/* line 56, sass/resources/sliderResponsivo/_style.scss */
+/* line 54, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer .slider_nav.next {
   left: auto;
   right: 0px;
 }
-/* line 61, sass/resources/sliderResponsivo/_style.scss */
+/* line 59, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer .slider_tabs {
   position: absolute;
   z-index: 3;
   right: 25%;
   top: 13px;
 }
-/* line 66, sass/resources/sliderResponsivo/_style.scss */
+/* line 64, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer .slider_tabs li {
   display: inline;
   float: none;
   padding-left: 0;
   margin-right: 5px;
 }
-/* line 74, sass/resources/sliderResponsivo/_style.scss */
+/* line 72, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer .slider_tabs a {
   text-indent: -9999px;
   overflow: hidden;
@@ -3684,11 +3482,11 @@ iframe {
   height: 14px;
   padding: 0;
 }
-/* line 88, sass/resources/sliderResponsivo/_style.scss */
+/* line 86, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer .slider_tabs .slider_here a {
   background: rgba(42, 149, 221, 0.8);
 }
-/* line 93, sass/resources/sliderResponsivo/_style.scss */
+/* line 91, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer .bottomContainer {
   height: 50px;
   width: 100%;
@@ -3698,218 +3496,61 @@ iframe {
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 115, sass/resources/sliderResponsivo/_style.scss */
+  /* line 113, sass/resources/sliderResponsivo/_style.scss */
   .wrapperSlider .sliderContainer .rslides li p {
     padding-left: 20%;
   }
-  /* line 124, sass/resources/sliderResponsivo/_style.scss */
+  /* line 122, sass/resources/sliderResponsivo/_style.scss */
   .wrapperSlider .sliderContainer .slider_tabs {
     right: 20%;
   }
-  /* line 130, sass/resources/sliderResponsivo/_style.scss */
+  /* line 128, sass/resources/sliderResponsivo/_style.scss */
   .wrapperSlider .sliderContainer .bottomContainer {
     bottom: -8px;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 148, sass/resources/sliderResponsivo/_style.scss */
+  /* line 146, sass/resources/sliderResponsivo/_style.scss */
   .wrapperSlider .sliderContainer .rslides li p {
     padding-left: 15%;
   }
-  /* line 157, sass/resources/sliderResponsivo/_style.scss */
+  /* line 155, sass/resources/sliderResponsivo/_style.scss */
   .wrapperSlider .sliderContainer .slider_tabs {
     right: 15%;
   }
-  /* line 163, sass/resources/sliderResponsivo/_style.scss */
+  /* line 161, sass/resources/sliderResponsivo/_style.scss */
   .wrapperSlider .sliderContainer .bottomContainer {
     bottom: -8px;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 180, sass/resources/sliderResponsivo/_style.scss */
+  /* line 178, sass/resources/sliderResponsivo/_style.scss */
   .wrapperSlider .sliderContainer .rslides li p {
     padding-left: 7%;
   }
-  /* line 189, sass/resources/sliderResponsivo/_style.scss */
+  /* line 187, sass/resources/sliderResponsivo/_style.scss */
   .wrapperSlider .sliderContainer .slider_tabs {
     right: 7%;
   }
-  /* line 195, sass/resources/sliderResponsivo/_style.scss */
+  /* line 193, sass/resources/sliderResponsivo/_style.scss */
   .wrapperSlider .sliderContainer .bottomContainer {
     bottom: -8px;
   }
 }
 @media only screen and (max-width: 340px) {
-  /* line 212, sass/resources/sliderResponsivo/_style.scss */
+  /* line 210, sass/resources/sliderResponsivo/_style.scss */
   .wrapperSlider .sliderContainer .rslides li p {
     padding-left: 0%;
   }
-  /* line 221, sass/resources/sliderResponsivo/_style.scss */
+  /* line 219, sass/resources/sliderResponsivo/_style.scss */
   .wrapperSlider .sliderContainer .slider_tabs {
     right: 0%;
   }
-  /* line 227, sass/resources/sliderResponsivo/_style.scss */
+  /* line 225, sass/resources/sliderResponsivo/_style.scss */
   .wrapperSlider .sliderContainer .bottomContainer {
     bottom: -8px;
   }
 }
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-/* line 6, sass/resources/dropdown/_style.scss */
-.text-center {
-  text-align: center;
-}
-
-/* line 10, sass/resources/dropdown/_style.scss */
-*, *:before, *:after {
-  -webkit-border-sizing: border-box;
-  -moz-border-sizing: border-box;
-  border-sizing: border-box;
-}
-
-/* line 16, sass/resources/dropdown/_style.scss */
-.container {
-  max-width: 44%;
-  margin: 50px auto;
-}
-/* line 21, sass/resources/dropdown/_style.scss */
-.container > ul {
-  list-style: none;
-  position: relative;
-  text-align: justify;
-  width: 100%;
-  /* margin: 0 auto; */
-}
-
-/* line 68, sass/resources/dropdown/_style.scss */
-.fa.fa-book {
-  font-size: 1.3em;
-  padding-right: 4%;
-}
-
-/* line 76, sass/resources/dropdown/_style.scss */
-.dropdown-menu p {
-  margin: 10px;
-}
-
-/* line 83, sass/resources/dropdown/_style.scss */
-.dropdown {
-  margin-bottom: 40px;
-}
-/* line 86, sass/resources/dropdown/_style.scss */
-.dropdown a {
-  text-decoration: none;
-}
-/* line 90, sass/resources/dropdown/_style.scss */
-.dropdown [data-toggle="dropdown"] {
-  position: relative;
-  display: block;
-  color: #ffffff;
-  border: 2px solid #e29000;
-  text-align: center;
-  background: #fbaf0b;
-  background: -moz-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(34%, #fbaf0b), color-stop(100%, #f7a600));
-  background: -webkit-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
-  background: -o-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
-  background: -ms-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
-  background: linear-gradient(to bottom, #fbaf0b 34%, #f7a600 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbaf0b', endColorstr='#f7a600',GradientType=0 );
-  font-family: "Exo 2", sans-serif;
-  cursor: pointer;
-  font-weight: bold;
-  margin: 0 auto;
-  font-size: 18px;
-  min-height: 50px;
-  max-width: 328px;
-  line-height: 50px;
-}
-/* line 113, sass/resources/dropdown/_style.scss */
-.dropdown [data-toggle="dropdown"]:hover {
-  background: #fbaf0b;
-}
-/* line 117, sass/resources/dropdown/_style.scss */
-.dropdown [data-toggle="dropdown"]:active {
-  background: #e28f01;
-}
-/* line 124, sass/resources/dropdown/_style.scss */
-.dropdown .dropdown-menu {
-  border: 1px solid #eaeaea;
-  margin-top: -34px;
-}
-/* line 130, sass/resources/dropdown/_style.scss */
-.dropdown .dropdown-menu p {
-  margin: 10px;
-  position: relative;
-  color: #383737;
-  line-height: 24px;
-  font-size: 14px;
-  padding: 27px;
-  font-family: "Open Sans", sans-serif;
-}
-/* line 146, sass/resources/dropdown/_style.scss */
-.dropdown .show {
-  display: block;
-  max-height: 9999px;
-}
-/* line 152, sass/resources/dropdown/_style.scss */
-.dropdown .hide {
-  max-height: 0;
-}
-
 @font-face {
   font-family: 'Entypo';
   src: url("assets/fonts/entypo.eot");
@@ -4855,67 +4496,12 @@ input[type="radio"]:checked + label {
   position: absolute;
 }
 
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-/* line 12, sass/resources/video/_style.scss */
+/* line 1, sass/resources/video/_style.scss */
 .video {
   margin-bottom: 40px !important;
 }
 
-/* line 16, sass/resources/video/_style.scss */
+/* line 5, sass/resources/video/_style.scss */
 .vjs-default-skin .vjs-control-bar {
   position: absolute;
   bottom: 0;
@@ -4927,7 +4513,7 @@ input[type="radio"]:checked + label {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 31, sass/resources/video/_style.scss */
+/* line 20, sass/resources/video/_style.scss */
 .vjs-default-skin.vjs-has-started .vjs-control-bar {
   display: block;
   visibility: visible;
@@ -4939,18 +4525,18 @@ input[type="radio"]:checked + label {
   transition: visibility 0.1s, opacity 0.1s;
 }
 
-/* line 44, sass/resources/video/_style.scss */
+/* line 33, sass/resources/video/_style.scss */
 .html5-video-container {
   /* background: #000 no-repeat scroll center center; */
   z-index: 900;
 }
 
-/* line 50, sass/resources/video/_style.scss */
+/* line 39, sass/resources/video/_style.scss */
 .vjs-default-skin {
   color: #ffffff;
 }
 
-/* line 55, sass/resources/video/_style.scss */
+/* line 44, sass/resources/video/_style.scss */
 .vjs-default-skin .vjs-slider-handle:before {
   content: '';
   font-family: Arial;
@@ -4968,18 +4554,18 @@ input[type="radio"]:checked + label {
   color: #f8aa02;
 }
 
-/* line 77, sass/resources/video/_style.scss */
+/* line 66, sass/resources/video/_style.scss */
 .vjs-default-skin .vjs-play-progress {
   background: #F9FBFC url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQ…wcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC) -50% 0 repeat;
 }
 
-/* line 81, sass/resources/video/_style.scss */
+/* line 70, sass/resources/video/_style.scss */
 .html5-video-container {
   background: #f4f4f4 no-repeat scroll center center;
   z-index: 900;
 }
 
-/* line 87, sass/resources/video/_style.scss */
+/* line 76, sass/resources/video/_style.scss */
 .vjs-default-skin .vjs-volume-level {
   position: absolute;
   top: 0;
@@ -4989,7 +4575,7 @@ input[type="radio"]:checked + label {
   background: #ffffff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQ…wcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC) -50% 0 repeat !important;
 }
 
-/* line 122, sass/resources/video/_style.scss */
+/* line 111, sass/resources/video/_style.scss */
 .vjs-default-skin .vjs-control:before {
   font-family: VideoJS;
   font-size: 1.5em;
@@ -5003,75 +4589,20 @@ input[type="radio"]:checked + label {
   text-shadow: none;
 }
 
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-/* line 3, sass/resources/gavetaVertical/_style.scss */
+/* line 1, sass/resources/gavetaVertical/_style.scss */
 .gavetaVer {
   width: 100%;
   height: auto;
   overflow: auto;
 }
 
-/* line 9, sass/resources/gavetaVertical/_style.scss */
+/* line 7, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical {
   width: 100%;
   height: auto;
   overflow: auto;
 }
-/* line 13, sass/resources/gavetaVertical/_style.scss */
+/* line 11, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-panel {
   padding: 1em;
   float: left;
@@ -5087,20 +4618,20 @@ input[type="radio"]:checked + label {
   font-size: 14px;
   border: 1px solid #eaeaea;
 }
-/* line 28, sass/resources/gavetaVertical/_style.scss */
+/* line 26, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-panel img {
   margin-top: 20px;
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 34, sass/resources/gavetaVertical/_style.scss */
+/* line 32, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav {
   padding: .2em .1em .2em .2em;
   margin: 0;
   float: left;
   width: 24.5%;
 }
-/* line 42, sass/resources/gavetaVertical/_style.scss */
+/* line 40, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-anchor {
   min-height: 44px;
   float: left;
@@ -5130,11 +4661,11 @@ input[type="radio"]:checked + label {
   border: 2px solid #2188ce;
   border-bottom: transparent;
 }
-/* line 63, sass/resources/gavetaVertical/_style.scss */
+/* line 61, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-anchor:last-of-type {
   border-bottom: 2px solid #2188ce;
 }
-/* line 68, sass/resources/gavetaVertical/_style.scss */
+/* line 66, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-anchor span {
   font-family: "Exo 2", sans-serif;
   font-weight: 400;
@@ -5143,7 +4674,7 @@ input[type="radio"]:checked + label {
   top: 5%;
   font-size: 14px;
 }
-/* line 81, sass/resources/gavetaVertical/_style.scss */
+/* line 79, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav li {
   list-style: none;
   float: left;
@@ -5158,15 +4689,15 @@ input[type="radio"]:checked + label {
   margin-top: -1px;
   padding-left: 0;
 }
-/* line 95, sass/resources/gavetaVertical/_style.scss */
+/* line 93, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav li:first-child {
   margin-top: 1px;
 }
-/* line 105, sass/resources/gavetaVertical/_style.scss */
+/* line 103, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active .ui-tabs-anchor {
   background: #0ba5e6;
 }
-/* line 108, sass/resources/gavetaVertical/_style.scss */
+/* line 106, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active .ui-tabs-anchor:after {
   content: '';
   position: absolute;
@@ -5181,25 +4712,25 @@ input[type="radio"]:checked + label {
 }
 
 @media only screen and (max-width: 630px) {
-  /* line 130, sass/resources/gavetaVertical/_style.scss */
+  /* line 128, sass/resources/gavetaVertical/_style.scss */
   .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-anchor {
     padding-left: 15%;
   }
 }
 @media only screen and (max-width: 515px) {
-  /* line 142, sass/resources/gavetaVertical/_style.scss */
+  /* line 140, sass/resources/gavetaVertical/_style.scss */
   .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-anchor {
     padding-left: 10%;
   }
 }
 @media only screen and (max-width: 460px) {
-  /* line 154, sass/resources/gavetaVertical/_style.scss */
+  /* line 152, sass/resources/gavetaVertical/_style.scss */
   .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-anchor {
     padding-left: 5%;
   }
 }
 @media only screen and (max-width: 400px) {
-  /* line 168, sass/resources/gavetaVertical/_style.scss */
+  /* line 166, sass/resources/gavetaVertical/_style.scss */
   .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-anchor {
     padding-left: 0%;
     line-height: 10pt;
@@ -5508,67 +5039,12 @@ input[type="radio"]:checked + label {
   /* padding-top: 30px; */
 }
 
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-/* line 3, sass/resources/primeiroPlano/_style.scss */
+/* line 1, sass/resources/primeiroPlano/_style.scss */
 #modal {
   display: none;
 }
 
-/* line 8, sass/resources/primeiroPlano/_style.scss */
+/* line 6, sass/resources/primeiroPlano/_style.scss */
 .primeiroPlano {
   top: 150px;
   left: 238px;
@@ -5578,27 +5054,27 @@ input[type="radio"]:checked + label {
   position: fixed;
   background: #ffffff;
 }
-/* line 19, sass/resources/primeiroPlano/_style.scss */
+/* line 17, sass/resources/primeiroPlano/_style.scss */
 .primeiroPlano .texto .modalContent .wrapper {
   width: 100%;
   max-width: 100%;
 }
 
-/* line 30, sass/resources/primeiroPlano/_style.scss */
+/* line 28, sass/resources/primeiroPlano/_style.scss */
 #modalContent {
   position: relative;
   padding: 40px;
   background: #eaeaea;
 }
 
-/* line 36, sass/resources/primeiroPlano/_style.scss */
+/* line 34, sass/resources/primeiroPlano/_style.scss */
 .headerModal {
   width: 100%;
   height: 49px;
   background: #f59c00;
 }
 
-/* line 44, sass/resources/primeiroPlano/_style.scss */
+/* line 42, sass/resources/primeiroPlano/_style.scss */
 .tituloModal {
   padding: 12px 30px 12px 30px;
   font-size: 23px;
@@ -5607,7 +5083,7 @@ input[type="radio"]:checked + label {
   font-family: "Exo 2", sans-serif;
 }
 
-/* line 52, sass/resources/primeiroPlano/_style.scss */
+/* line 50, sass/resources/primeiroPlano/_style.scss */
 .btnFechar {
   position: absolute;
   height: 21px;
@@ -5620,14 +5096,14 @@ input[type="radio"]:checked + label {
   padding: 0px;
   z-index: 2;
 }
-/* line 65, sass/resources/primeiroPlano/_style.scss */
+/* line 63, sass/resources/primeiroPlano/_style.scss */
 .btnFechar span {
   font-size: 47px;
   color: #ffffff;
   font-family: 'Entypo';
 }
 
-/* line 76, sass/resources/primeiroPlano/_style.scss */
+/* line 74, sass/resources/primeiroPlano/_style.scss */
 #modalContent p {
   padding-left: 60px;
   padding-right: 67px;
@@ -5639,7 +5115,7 @@ input[type="radio"]:checked + label {
 }
 
 @media only screen and (max-width: 1000px) {
-  /* line 91, sass/resources/primeiroPlano/_style.scss */
+  /* line 89, sass/resources/primeiroPlano/_style.scss */
   .primeiroPlano {
     position: absolute;
     left: 14.8%;
@@ -5647,7 +5123,7 @@ input[type="radio"]:checked + label {
   }
 }
 @media only screen and (max-width: 900px) {
-  /* line 105, sass/resources/primeiroPlano/_style.scss */
+  /* line 103, sass/resources/primeiroPlano/_style.scss */
   .primeiroPlano {
     position: absolute;
     left: 10.8%;
@@ -5655,7 +5131,7 @@ input[type="radio"]:checked + label {
   }
 }
 @media only screen and (max-width: 850px) {
-  /* line 118, sass/resources/primeiroPlano/_style.scss */
+  /* line 116, sass/resources/primeiroPlano/_style.scss */
   .primeiroPlano {
     position: absolute;
     top: 8.2%;
@@ -5664,7 +5140,7 @@ input[type="radio"]:checked + label {
   }
 }
 @media only screen and (max-width: 750px) {
-  /* line 130, sass/resources/primeiroPlano/_style.scss */
+  /* line 128, sass/resources/primeiroPlano/_style.scss */
   .primeiroPlano {
     position: absolute;
     top: 8.2%;
@@ -5673,7 +5149,7 @@ input[type="radio"]:checked + label {
   }
 }
 @media only screen and (max-width: 430px) {
-  /* line 141, sass/resources/primeiroPlano/_style.scss */
+  /* line 139, sass/resources/primeiroPlano/_style.scss */
   .primeiroPlano {
     position: absolute;
     top: 8.2%;
@@ -5682,7 +5158,7 @@ input[type="radio"]:checked + label {
   }
 }
 @media only screen and (max-width: 320px) {
-  /* line 152, sass/resources/primeiroPlano/_style.scss */
+  /* line 150, sass/resources/primeiroPlano/_style.scss */
   .primeiroPlano {
     position: absolute;
     top: 8.2%;
@@ -5691,7 +5167,7 @@ input[type="radio"]:checked + label {
   }
 }
 @media only screen and (max-width: 220px) {
-  /* line 164, sass/resources/primeiroPlano/_style.scss */
+  /* line 162, sass/resources/primeiroPlano/_style.scss */
   .primeiroPlano {
     position: absolute;
     top: 8.2%;
@@ -5700,7 +5176,7 @@ input[type="radio"]:checked + label {
   }
 }
 @media only screen and (max-width: 150px) {
-  /* line 176, sass/resources/primeiroPlano/_style.scss */
+  /* line 174, sass/resources/primeiroPlano/_style.scss */
   .primeiroPlano {
     position: absolute;
     top: 8.2%;
@@ -5709,13 +5185,13 @@ input[type="radio"]:checked + label {
   }
 }
 @media only screen and (max-width: 100px) {
-  /* line 186, sass/resources/primeiroPlano/_style.scss */
+  /* line 184, sass/resources/primeiroPlano/_style.scss */
   .primeiroPlano {
     position: absolute;
     top: 8.2%;
   }
 }
-/* line 195, sass/resources/primeiroPlano/_style.scss */
+/* line 193, sass/resources/primeiroPlano/_style.scss */
 .botaoPP {
   background: #82b0d8;
   /* Old browsers */
@@ -5746,7 +5222,7 @@ input[type="radio"]:checked + label {
   font-family: OpenSansRegular, sans-serif;
   behavior: url(PIE.htc);
 }
-/* line 204, sass/resources/primeiroPlano/_style.scss */
+/* line 202, sass/resources/primeiroPlano/_style.scss */
 .botaoPP:hover {
   background: #72a6d3;
   /* Old browsers */
@@ -5764,14 +5240,14 @@ input[type="radio"]:checked + label {
   /* W3C */
   -pie-background: linear-gradient(#7aabd6, #72a6d3);
 }
-/* line 207, sass/resources/primeiroPlano/_style.scss */
+/* line 205, sass/resources/primeiroPlano/_style.scss */
 .botaoPP:active {
   -webkit-box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
   -moz-box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
   box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
 }
 
-/* line 212, sass/resources/primeiroPlano/_style.scss */
+/* line 210, sass/resources/primeiroPlano/_style.scss */
 .resource .botaoPP {
   background: #82b0d8;
   /* Old browsers */
@@ -5789,7 +5265,7 @@ input[type="radio"]:checked + label {
   /* W3C */
   -pie-background: linear-gradient(#92badd, #82b0d8);
 }
-/* line 214, sass/resources/primeiroPlano/_style.scss */
+/* line 212, sass/resources/primeiroPlano/_style.scss */
 .resource .botaoPP:hover {
   background: #82b0d8;
   /* Old browsers */
@@ -5807,7 +5283,7 @@ input[type="radio"]:checked + label {
   /* W3C */
   -pie-background: linear-gradient(#92badd, #82b0d8);
 }
-/* line 217, sass/resources/primeiroPlano/_style.scss */
+/* line 215, sass/resources/primeiroPlano/_style.scss */
 .resource .botaoPP:active {
   -webkit-box-shadow: inset 0 0 0 rgba(50, 50, 50, 0);
   -moz-box-shadow: inset 0 0 0 rgba(50, 50, 50, 0);
@@ -5818,12 +5294,12 @@ input[type="radio"]:checked + label {
   behavior: url(PIE.htc);
 }
 
-/* line 223, sass/resources/primeiroPlano/_style.scss */
+/* line 221, sass/resources/primeiroPlano/_style.scss */
 .btnSmallCircle {
   height: 25px;
   width: 25px;
 }
-/* line 226, sass/resources/primeiroPlano/_style.scss */
+/* line 224, sass/resources/primeiroPlano/_style.scss */
 .btnSmallCircle strong {
   position: absolute;
   top: 50%;
@@ -5835,11 +5311,11 @@ input[type="radio"]:checked + label {
   font-size: 14px;
   font-weight: bold;
 }
-/* line 241, sass/resources/primeiroPlano/_style.scss */
+/* line 239, sass/resources/primeiroPlano/_style.scss */
 .btnSmallCircle .tagP {
   display: none;
 }
-/* line 245, sass/resources/primeiroPlano/_style.scss */
+/* line 243, sass/resources/primeiroPlano/_style.scss */
 .btnSmallCircle .plus:after {
   content: '';
   position: absolute;
@@ -5851,7 +5327,7 @@ input[type="radio"]:checked + label {
   border-radius: 30%;
   background: #ffffff;
 }
-/* line 256, sass/resources/primeiroPlano/_style.scss */
+/* line 254, sass/resources/primeiroPlano/_style.scss */
 .btnSmallCircle .plus:before {
   content: '';
   position: absolute;
@@ -5864,12 +5340,12 @@ input[type="radio"]:checked + label {
   background: #ffffff;
 }
 
-/* line 270, sass/resources/primeiroPlano/_style.scss */
+/* line 268, sass/resources/primeiroPlano/_style.scss */
 .btnMediumCircle {
   height: 50px;
   width: 50px;
 }
-/* line 273, sass/resources/primeiroPlano/_style.scss */
+/* line 271, sass/resources/primeiroPlano/_style.scss */
 .btnMediumCircle strong {
   position: absolute;
   top: 50%;
@@ -5881,11 +5357,11 @@ input[type="radio"]:checked + label {
   font-size: 24px;
   font-weight: bold;
 }
-/* line 288, sass/resources/primeiroPlano/_style.scss */
+/* line 286, sass/resources/primeiroPlano/_style.scss */
 .btnMediumCircle .tagP {
   display: none;
 }
-/* line 292, sass/resources/primeiroPlano/_style.scss */
+/* line 290, sass/resources/primeiroPlano/_style.scss */
 .btnMediumCircle .plus:after {
   content: '';
   position: absolute;
@@ -5899,7 +5375,7 @@ input[type="radio"]:checked + label {
   border-radius: 30%;
   background: #ffffff;
 }
-/* line 305, sass/resources/primeiroPlano/_style.scss */
+/* line 303, sass/resources/primeiroPlano/_style.scss */
 .btnMediumCircle .plus:before {
   content: '';
   position: absolute;
@@ -5914,7 +5390,7 @@ input[type="radio"]:checked + label {
   background: #ffffff;
 }
 
-/* line 321, sass/resources/primeiroPlano/_style.scss */
+/* line 319, sass/resources/primeiroPlano/_style.scss */
 .btnRetangle {
   color: white;
   cursor: pointer;
@@ -5933,21 +5409,21 @@ input[type="radio"]:checked + label {
   background: linear-gradient(to bottom, #2793db 0%, #1e8dd5 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2793db', endColorstr='#1e8dd5',GradientType=0 );
 }
-/* line 341, sass/resources/primeiroPlano/_style.scss */
+/* line 339, sass/resources/primeiroPlano/_style.scss */
 .btnRetangle:hover {
   background: #0ba4e7;
 }
-/* line 345, sass/resources/primeiroPlano/_style.scss */
+/* line 343, sass/resources/primeiroPlano/_style.scss */
 .btnRetangle:active {
   background: #216ad0;
 }
-/* line 348, sass/resources/primeiroPlano/_style.scss */
+/* line 346, sass/resources/primeiroPlano/_style.scss */
 .btnRetangle .btnPPRight {
   height: 56px;
   vertical-align: middle;
   display: table-cell;
 }
-/* line 352, sass/resources/primeiroPlano/_style.scss */
+/* line 350, sass/resources/primeiroPlano/_style.scss */
 .btnRetangle .btnPPRight .tagP {
   text-align: center;
   font-size: 16px;
@@ -5957,91 +5433,44 @@ input[type="radio"]:checked + label {
   color: #ffffff;
 }
 
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-/* line 3, sass/resources/texto/_style.scss */
+/* line 1, sass/resources/texto/_style.scss */
 .textoSolto {
   margin-bottom: 40px;
   height: auto;
   overflow: auto;
 }
-/* line 8, sass/resources/texto/_style.scss */
+/* line 6, sass/resources/texto/_style.scss */
 .textoSolto .imgEsq {
   float: left;
   width: 49%;
   margin-right: 30px;
 }
-/* line 15, sass/resources/texto/_style.scss */
+/* line 13, sass/resources/texto/_style.scss */
 .textoSolto .imgDir {
   float: right;
   width: 49%;
   margin-left: 30px;
 }
-/* line 22, sass/resources/texto/_style.scss */
+/* line 20, sass/resources/texto/_style.scss */
 .textoSolto .imgDuasColunas {
   width: 100%;
   margin-top: 18px;
   margin-bottom: 18px;
 }
-/* line 29, sass/resources/texto/_style.scss */
+/* line 27, sass/resources/texto/_style.scss */
 .textoSolto p {
   line-height: normal;
   color: #373838;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
+}
+
+/* line 1, sass/resources/revelar/_style.scss */
+.revelar {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  background: red;
 }
 
 /* line 1, sass/_cf.scss */
@@ -15319,7 +14748,7 @@ output {
   padding-top: 7px;
   font-size: 14px;
   line-height: 1.42857;
-  color: #EEE;
+  color: #555555;
 }
 
 /* line 114, sass/utilities/bootstrap/_forms.scss */
@@ -15330,7 +14759,7 @@ output {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857;
-  color: #EEE;
+  color: #555555;
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
@@ -16831,7 +16260,7 @@ tbody.collapse.in {
   font-size: 14px;
   font-weight: normal;
   line-height: 1;
-  color: #EEE;
+  color: #555555;
   text-align: center;
   background-color: #eeeeee;
   border: 1px solid #ccc;
@@ -17004,7 +16433,7 @@ tbody.collapse.in {
 }
 /* line 96, sass/utilities/bootstrap/_navs.scss */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-  color: #EEE;
+  color: #555555;
   background-color: #fff;
   border: 1px solid #ddd;
   border-bottom-color: transparent;

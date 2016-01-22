@@ -1,13 +1,54 @@
-@import "estiloPadrao.scss";
-
-//variaveis
-
 body{
     max-width: 1920px;
     overflow-y: visible;
     padding-left: 10%;
     padding-right: 10%;
 }
+
+.wrapperUnasus .mainNavBar{
+	position: fixed;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	.nav.navbar-nav{
+		float: right;
+	}
+}
+.content.container-fluid{
+	max-width: 1021px;
+	padding-top: 100px;
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ul{
 	list-style-image:url(assets/images/bullet.png);

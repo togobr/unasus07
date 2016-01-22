@@ -1,3 +1,5 @@
+@import "estiloPadrao.scss";
+
 @import "../../../../../player/_base/css/sass/global";
 @import "../../../../_baseClient/_base/css/sass/others/videojs";
 
@@ -13,8 +15,3 @@
 
 // utilitarios
 @import "utilities/bootstrap"; 
-
-
-
-
-

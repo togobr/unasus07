@@ -11,20 +11,31 @@ define([], function() {
 		
 			$.extend(true, this, new Player.Helpers.resourceExtend(this, arguments));
 
-			var recurso = this;
+			var recurso = this,
+				$contentCapa = recurso.$el.find('.contentCapa');
+				$content = recurso.$el.find('.tagP');
 
-			Player.Elements.generalModal.add(recurso, Player.Config.general.modal, {
-				actions: [
-					"click .btnFechar hide"
-				],
-				content: "#modalContent"
-			});
+				$content.hide();
 
-			recurso.$el.on({
-				click: function(e) {
-					Player.Elements.generalModal.show(recurso.data.id);
+				if(recurso.$el.hasClass('click')){
+					recurso.$el.on({
+						click: function(e) {
+							$content.toggle();
+							$contentCapa.toggle();
+						}
+					});
+				}else{
+					recurso.$el.on({
+						mouseover: function(e) {
+							$content.toggle();
+							$contentCapa.toggle();
+						},
+						mouseout: function(e) {
+							$content.toggle();
+							$contentCapa.toggle();
+						}
+					});
 				}
-			});
 		}
 
 	}

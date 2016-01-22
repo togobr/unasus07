@@ -452,6 +452,14 @@ require.config({
 					"paths": [
 						"text!template.html"
 					]
+				},
+
+				"revelar": {
+					"baseURL": "./resources/revelar",
+					"paths": [
+						"text!template.html",
+						"player"
+					]
 				}
 				
 			},
