@@ -83,8 +83,11 @@ require.config({
 				"jquery"
 			]
 		},
-
-		 
+		bootstrap:{
+			deps:[
+				"jquery"
+			]
+		}
 	},
 
 	paths: {
@@ -108,6 +111,7 @@ require.config({
         portChecker:"../../../../../vendor/components/viewPortChecker/src/jquery.viewportchecker",
         knockout:"../../../../../vendor/components/knockout/dist/knockout",
         checklist: "../../../../../vendor/components/knockout/dist/checklist",
+        bootstrap:'../../../../../vendor/components/bootstrap/dist/js/bootstrap.min'
 	},
 
 	config: {
