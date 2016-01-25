@@ -20,7 +20,7 @@ define([], function() {
 				$dropDownContent = recurso.$el.find('.dropdown-menu');
 
 				$content.hide();
-				$dropDown.hide();
+				$dropDown.hide()
 
 
 				if(recurso.$el.hasClass('click')){
@@ -40,6 +40,7 @@ define([], function() {
 					});
 				}else{
 					recurso.changeContent();
+					$dropDown.css('display', 'block')
 				}
 		},
 

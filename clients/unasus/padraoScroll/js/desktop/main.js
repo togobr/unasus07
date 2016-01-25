@@ -460,8 +460,15 @@ require.config({
 						"text!template.html",
 						"player"
 					]
+				},
+
+				"backgroundScroll": {
+					"baseURL": "./resources/backgroundScroll",
+					"paths": [
+						"text!template.html",
+						"player"
+					]
 				}
-				
 			},
 
 			"slides": {

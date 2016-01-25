@@ -4099,163 +4099,52 @@ iframe {
 }
 
 /* line 15, sass/resources/botaoModal/_style.scss */
-.botaoModal.modelo1 {
-  color: white;
-  cursor: pointer;
-  z-index: 1;
-  width: 168px;
-  height: 50px;
-  text-align: center;
+.botaoModal {
   background: #2793db;
-  border: 2px solid #1a8ad2;
-  background: -moz-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2793db), color-stop(100%, #1e8dd5));
-  background: -webkit-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  background: -o-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  background: -ms-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  background: linear-gradient(to bottom, #2793db 0%, #1e8dd5 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2793db', endColorstr='#1e8dd5',GradientType=0 );
 }
-/* line 36, sass/resources/botaoModal/_style.scss */
-.botaoModal.modelo1:hover {
+/* line 17, sass/resources/botaoModal/_style.scss */
+.botaoModal:hover {
   background: #0ba4e7;
 }
-/* line 40, sass/resources/botaoModal/_style.scss */
-.botaoModal.modelo1:active {
+/* line 21, sass/resources/botaoModal/_style.scss */
+.botaoModal:active {
   background: #216ad0;
 }
 
-/* line 46, sass/resources/botaoModal/_style.scss */
-.botaoModal.modelo2 {
-  color: white;
-  cursor: pointer;
-  z-index: 1;
-  width: 168px;
-  height: 50px;
-  text-align: center;
-  border: 2px solid #e29000;
-  background: #fbaf0b;
-  background: -moz-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(34%, #fbaf0b), color-stop(100%, #f7a600));
-  background: -webkit-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
-  background: -o-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
-  background: -ms-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
-  background: linear-gradient(to bottom, #fbaf0b 34%, #f7a600 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbaf0b', endColorstr='#f7a600',GradientType=0 );
-}
-/* line 66, sass/resources/botaoModal/_style.scss */
-.botaoModal.modelo2:hover {
-  background: #fbaf0b;
-}
-/* line 70, sass/resources/botaoModal/_style.scss */
-.botaoModal.modelo2:active {
-  background: #e28f01;
-}
-
-/* line 79, sass/resources/botaoModal/_style.scss */
-.botaoModal.modelo3 {
-  color: white;
-  cursor: pointer;
-  z-index: 1;
-  border: 2px solid #199384;
-  width: 168px;
-  height: 50px;
-  text-align: center;
-  background: #3cc1b0;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #3cc1b0 0%, #27ac9b 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3cc1b0), color-stop(100%, #27ac9b));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #3cc1b0 0%, #27ac9b 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #3cc1b0 0%, #27ac9b 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #3cc1b0 0%, #27ac9b 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #3cc1b0 0%, #27ac9b 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3cc1b0', endColorstr='#27ac9b',GradientType=0 );
-  /* IE6-9 */
-}
-/* line 102, sass/resources/botaoModal/_style.scss */
-.botaoModal.modelo3:hover {
-  background: #42c6b8;
-}
-/* line 106, sass/resources/botaoModal/_style.scss */
-.botaoModal.modelo3:active {
-  background: #1a9384;
-}
-
-/* line 114, sass/resources/botaoModal/_style.scss */
-.botaoModal.modelo4 {
-  color: white;
-  cursor: pointer;
-  z-index: 1;
-  border: 2px solid #c25842;
-  width: 168px;
-  height: 50px;
-  text-align: center;
-  background: #e59c8d;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #e59c8d 0%, #de7b68 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e59c8d), color-stop(100%, #de7b68));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #e59c8d 0%, #de7b68 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #e59c8d 0%, #de7b68 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #e59c8d 0%, #de7b68 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #e59c8d 0%, #de7b68 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e59c8d', endColorstr='#de7b68',GradientType=0 );
-  /* IE6-9 */
-}
-/* line 138, sass/resources/botaoModal/_style.scss */
-.botaoModal.modelo4:hover {
-  background: #e79f91;
-}
-/* line 142, sass/resources/botaoModal/_style.scss */
-.botaoModal.modelo4:active {
-  background: #c25842;
-}
-
-/* line 152, sass/resources/botaoModal/_style.scss */
+/* line 28, sass/resources/botaoModal/_style.scss */
 .tituloPrimeiroPlano {
   padding: 15px 20px;
   font-size: 16px;
   font-weight: bold;
 }
 
-/* line 161, sass/resources/botaoModal/_style.scss */
+/* line 37, sass/resources/botaoModal/_style.scss */
 .ppPequeno {
   width: 40%;
 }
-/* line 163, sass/resources/botaoModal/_style.scss */
+/* line 39, sass/resources/botaoModal/_style.scss */
 .ppPequeno h2 {
   width: 220px;
 }
 
-/* line 168, sass/resources/botaoModal/_style.scss */
+/* line 44, sass/resources/botaoModal/_style.scss */
 .ppMedio {
   width: 60%;
 }
-/* line 170, sass/resources/botaoModal/_style.scss */
+/* line 46, sass/resources/botaoModal/_style.scss */
 .ppMedio h2 {
   width: 517px;
 }
 
-/* line 175, sass/resources/botaoModal/_style.scss */
+/* line 51, sass/resources/botaoModal/_style.scss */
 .ppGrande {
   width: 80%;
 }
-/* line 177, sass/resources/botaoModal/_style.scss */
+/* line 53, sass/resources/botaoModal/_style.scss */
 .ppGrande h2 {
   width: 80%;
 }
-/* line 180, sass/resources/botaoModal/_style.scss */
+/* line 56, sass/resources/botaoModal/_style.scss */
 .ppGrande .textoPrimeiroPlano {
   padding: 30px;
 }
@@ -5465,20 +5354,36 @@ input[type="radio"]:checked + label {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 1, sass/resources/revelar/_style.scss */
-.revelar {
+/* line 2, sass/resources/revelar/_style.scss */
+.content .revelar {
   position: relative;
   height: 100px;
-  width: 100%;
   background: #2793db;
   border: 2px solid #2188ce;
   color: #FFFFFF;
+  padding: 0;
 }
-/* line 9, sass/resources/revelar/_style.scss */
-.revelar .dropdown-toggle {
+/* line 10, sass/resources/revelar/_style.scss */
+.content .revelar .dropdown-toggle {
   display: block;
   width: 100%;
   height: 100%;
+}
+
+/* line 1, sass/resources/backgroundScroll/_style.scss */
+.backgroundScroll {
+  position: absolute !important;
+  padding: 0 !important;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+/* line 9, sass/resources/backgroundScroll/_style.scss */
+.backgroundScroll .backgroundBox {
+  height: 100%;
+  background-position: center;
+  opacity: 0.5;
 }
 
 /* line 1, sass/_cf.scss */
