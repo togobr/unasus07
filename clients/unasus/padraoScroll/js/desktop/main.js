@@ -87,7 +87,13 @@ require.config({
 			deps:[
 				"jquery"
 			]
+		},
+		ScrollMagic:{
+			deps:[
+				"jquery"
+			]
 		}
+
 	},
 
 	paths: {
@@ -111,7 +117,8 @@ require.config({
         portChecker:"../../../../../vendor/components/viewPortChecker/src/jquery.viewportchecker",
         knockout:"../../../../../vendor/components/knockout/dist/knockout",
         checklist: "../../../../../vendor/components/knockout/dist/checklist",
-        bootstrap:'../../../../../vendor/components/bootstrap/dist/js/bootstrap.min'
+        bootstrap:'../../../../../vendor/components/bootstrap/dist/js/bootstrap.min',
+        ScrollMagic:'../../../../../vendor/components/scrollmagic/scrollmagic/minified/ScrollMagic.min'
 	},
 
 	config: {
@@ -464,6 +471,14 @@ require.config({
 
 				"backgroundScroll": {
 					"baseURL": "./resources/backgroundScroll",
+					"paths": [
+						"text!template.html",
+						"player"
+					]
+				},
+
+				"scrollMagic": {
+					"baseURL": "./resources/scrollMagic",
 					"paths": [
 						"text!template.html",
 						"player"

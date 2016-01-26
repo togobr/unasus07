@@ -2,121 +2,49 @@
 	margin-bottom: $entreRecursos !important;
 }
 
-.vjs-default-skin .vjs-control-bar {
+.vjs-big-play-button{
+	// &:before{
+	// 	content: "";
+	// 	position: absolute;
+	// 	height: 100%;
+	// 	width: 100%;
+	// 	background: red;
+	// }
+}
+
+
+.vjs-default-skin{
+	.vjs-poster{
+		&:before{
+			content: "";
 			position: absolute;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			height: 3.0em;
-			background-color: #1a8ad2;
-			/* background-color: rgba(7, 20, 30, 0.7); */
-
-			font-family: $fonteOpenSans;
-
-
-
-			}
-
-.vjs-default-skin.vjs-has-started .vjs-control-bar {
-			display: block;
-			visibility: visible;
-			opacity: 1;
-			-webkit-transition: visibility 0.1s, opacity 0.1s;
-			-moz-transition: visibility 0.1s, opacity 0.1s;
-			-o-transition: visibility 0.1s, opacity 0.1s;
+			height: 100%;
 			width: 100%;
-			transition: visibility 0.1s, opacity 0.1s;
+			@include opacityBackground(0, 0, 0, 0.6);
+		}
+	} 
 
-		
-}
+	.vjs-big-play-button{
+		border: 0.1em solid #FFFFFF;
+		&:before{
+			color: #FFFFFF;
+		}
+	}
 
-.html5-video-container {
-/* background: #000 no-repeat scroll center center; */
-	z-index: 900;
-}
-
-
-.vjs-default-skin {
-	color: #ffffff;
-}
-
-
-.vjs-default-skin .vjs-slider-handle:before {
-	 	// content:'\E75B';
-		 content: '';
-		font-family: Arial;
-		font-size: 27px;
-		line-height: 1;
-		text-align: center;
-		position: absolute;
-		top: -11px;
-		left: -8px;
-		-webkit-transform: rotate(-45deg);
-		-moz-transform: rotate(-45deg);
-		-ms-transform: rotate(-45deg);
-		-o-transform: rotate(-45deg);
-		transform: rotate(-45deg);
-		color: #f8aa02;
-		// background: url(assets/images/playerCircle.png);
-		// height: 5px;
-		// width: 5px;
-}
-
-
-.vjs-default-skin .vjs-play-progress {
-background: #F9FBFC url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQ…wcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC) -50% 0 repeat;
-}
-
-.html5-video-container {
-background: #f4f4f4 no-repeat scroll center center;
-z-index: 900;
-}
-
-
-.vjs-default-skin .vjs-volume-level {
-position: absolute;
-top: 0;
-left: 0;
-height: 0.5em;
-width: 100%;
-background: #ffffff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQ…wcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC) -50% 0 repeat !important;
-}
-
-
-
-// .vjs-default-skin .vjs-progress-holder .vjs-play-progress, .vjs-default-skin .vjs-progress-holder .vjs-load-progress, .vjs-default-skin .vjs-progress-holder .vjs-load-progress div {
-// position: absolute;
-// display: block;
-// height: 100%;
-// margin: 0;
-// padding: 0;
-// width: 0;
-// left: 0;
-// top: 0;
-// }
-// .vjs-default-skin .vjs-play-progress {
-// background: #f9fbfc url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQ…wcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC) -50% 0 repeat;
-// position: absolute !important;
-// top: 17px !important;
-// left: 141px !important;
-// max-width: 50%;
-// }
-
-// .vjs-default-skin .vjs-slider-handle {
-// position: absolute;
-// left: 0;
-// top: 17px;
-// }
-
-.vjs-default-skin .vjs-control:before {
-  font-family: VideoJS;
-  font-size: 1.5em;
-  line-height: 2;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  text-shadow: none;
+	&:hover{
+		.vjs-big-play-button{ 
+			border: 0;
+			background: none;
+			box-shadow: none;
+			&:before{
+				content: "ASSISTA AO VÍDEO";
+				color: #FFFFFF;
+				line-height: 24px;
+				width: 150px;
+				font-size: 20px;
+				left: -48px;
+				top: 10px;
+			}
+		}
+	}
 }

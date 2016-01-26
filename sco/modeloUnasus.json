@@ -116,7 +116,7 @@
                         ],
                         "order":8
                     },
-
+    
                     {
                         "template":"sliderResponsivo",
                         "column": "col-xs-12 col-md-12",
@@ -133,6 +133,10 @@
                             {
                                 "imgSlide":"css/assets/images/2.jpg",
                                 "legenda":"legenda 3"
+                            },
+                            {
+                                "imgSlide":"css/assets/images/Fotolia_25697273_Subscription_Monthly_M.jpg",
+                                "legenda":"legenda 4"
                             }
                         ],
                         "order":10
@@ -253,7 +257,7 @@
                     {
                         "template":"backgroundScroll",
                         "column": "col-xs-12 col-md-12",
-                        "style": "margin-top:50px;",
+                        "styleObj": "margin-top:50px;",
                         "backgrounds":[    
                             {
                                 "backgroundSRC": "http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg"
@@ -270,7 +274,7 @@
 
                     {
                         "label": "Botão Modal",
-                        "column": "col-xs-12 col-md-6",
+                        "column": "col-xs-12 col-md-12",
                         "styleObj": {
                         },
                         "template": "botaoModal",
@@ -299,6 +303,27 @@
                            ]
                         },
                         "order": 21
+                    },
+
+                    {
+                        "template":"scrollMagic",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "margin-top:50px;",
+                        "slides":[    
+                            {
+                                "date": "1990",
+                                "content": "1990 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa."
+                            },
+                            {
+                                "date": "1995",
+                                "content": "1995 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa."
+                            },
+                            {
+                                "date": "2000",
+                                "content": "2000 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa."
+                            }
+                        ],
+                        "order":22
                     }
                 ]
             }            
