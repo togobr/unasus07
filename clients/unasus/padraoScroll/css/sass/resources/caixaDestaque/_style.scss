@@ -1,134 +1,55 @@
 @import "../../_estiloPadrao.scss";
 
 .caixaDestaque{
-	background:$azul;
+	@include border-radius(5px);
+	background: $normal;
 	width:100%;
-	min-height:50px;
 	box-sizing: border-box;
 	word-break:break-all;
 	margin-bottom: $entreRecursos;
+	padding: 0 !important;
 
-	
-
-	p{
-		font-family: $fonteExo;
-		font-size: 18px;
-		margin: 0 auto;
-		max-width: 1280px;
-		line-height: 1.25em;
-		color: #fff;
-		width: 100%;
-		padding-left: 60px;
-		padding-right: 30px;
-		font-weight: 500;
-		&:before{
-			content: "";
-			position:relative;
-			left: -8%;
-			border-style: solid;
-			border-width: 15px 14px 0;
-			border-color: #fff transparent;
-			display: block;
-			width: 0;
-			z-index: 1;
-
+	.iconDestaque{
+		position: relative;
+		width: 25%;
+		height: 100%;
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;	
+		.icon{
+			width: 100%;
+			color: #FFFFFF;
 		}
 
 		&:after{
 			content: "";
-			position:relative;
-			left: -8%;
-			border-style: solid;
-			border-width: 0 14px 15px;
-			border-color: #fff transparent;
-			display: block;
-			width: 0;
-			z-index: 1;
-			bottom:0%;
+			position: absolute;
+			right: 0;
+			height: 50%;
+			top: 25%;
+			width: 2px;
+			background: #FFFFFF;
 		}
+	}	
 
+	.contentDestaque{
+		position: relative;
+		width: 75%;
+		height: 100%;
+		font-family: $fonteExo;
+		font-size: 18px;
+		color: #FFFFFF;
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;	
+		padding: 20px;
+		p{
+			width: 100%;
+			margin: 0;
+		}
 	}
-
 }
 
 .caixaDestaque.laranja{
 	background:$laranja;
-}
-
-
-
-
-@media only screen and (max-width : 600px) {
-
-	.caixaDestaque{
-		
-
-		p{
-			&:before{
-				
-				left: -10%;	
-
-			}
-
-			&:after{
-				
-				left: -10%;
-				
-			}
-		}
-
-	}
-	
-
-
-}
-
-@media only screen and (max-width : 490px) {
-
-	.caixaDestaque{
-		
-
-		p{
-			&:before{
-				
-				left: -12%;	
-
-			}
-
-			&:after{
-				
-				left: -12%;
-				
-			}
-		}
-
-	}
-	
-
-
-}
-
-@media only screen and (max-width : 320px) {
-
-	.caixaDestaque{
-		
-
-		p{
-			&:before{
-				
-				left: -15%;	
-
-			}
-
-			&:after{
-				
-				left: -15%;
-				
-			}
-		}
-
-	}
-	
-
-
 }

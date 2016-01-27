@@ -1,16 +1,135 @@
 .content{
 	.revelar{
 		position: relative;
-		height: 100px;
-		background: #2793db;
-		border: 2px solid #2188ce;
 		color: #FFFFFF;
 		padding: 0;
+		
 
-		.dropdown-toggle{
-			display: block;
-			width: 100%;
+		.contentCapa, .tagP{
+			@include border-radius(5px);
+			position: absolute;
 			height: 100%;
+			width: 100%;
+			display: table;
+			text-align: center;
+			background: $normal;
+			border: 5px solid #dadae8;
+			span{
+				display: table-cell;
+				vertical-align: middle;
+			}
 		}
-	} 
+
+		.clickType, .hoverType{
+			height: 100%;
+			width: 100%;
+		}
+
+
+		//DROPDOWN 
+		.dropDownType{
+			display: none;
+			.boxTitle{
+				position: relative;
+				height: 51px;
+				width: 100%;
+
+				.openCloseIcon{
+					-webkit-border-top-left-radius: 5px;
+					border-top-left-radius: 5px;
+					background: $normal;
+					height: 100%;
+					width: 50px;
+					float: left;
+					border-right: 3px solid #FFFFFF;
+				}
+
+				a.dropdown-toggle{ 
+					-webkit-border-top-left-radius: 5px;
+					border-top-left-radius: 5px;
+					-webkit-border-top-right-radius: 5px;
+					border-top-right-radius: 5px;
+					width: -moz-calc(100% - 50px);
+					width: -webkit-calc(100% - 50px);
+					width: calc(100% - 50px);
+					display: block;
+					height: 100%;
+					background: $normal;
+					text-align: center;
+					padding-top: 15px;
+					span{
+						color: #FFFFFF;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+						display: block;
+					}
+				}
+
+				.dropdown-menu{
+					@include border-top-radius(0);
+					width: -moz-calc(100% - 50px);
+					width: -webkit-calc(100% - 50px);
+					width: calc(100% - 50px);
+					background: $fundoRevelar;
+					box-shadow: none;
+					border: none;
+					margin-top: 5px;
+					a:hover{
+						background: none;
+					}
+				}
+			}
+		}
+
+		//CLICK
+		.clickType{
+			display: none;
+		}
+
+		&.click{
+			.clickType{
+				display: none;
+				.tagP{
+					display: none;
+				}
+			}
+
+			&.clicked{
+				.clickType{
+					.contentCapa{
+						display: none;
+					}
+					.tagP{
+						display: block;
+					}
+				}
+			}
+		}
+
+		//HOVER
+		.hoverType{
+			display: none;
+		}
+
+		&.hover{
+			.hoverType{
+				display: none;
+				.tagP{
+					display: none;
+				}
+			}
+
+			&.hovered{
+				.hoverType{
+					.contentCapa{
+						display: none;
+					}
+					.tagP{
+						display: block;
+					}
+				}
+			}
+		}
+	}
 }

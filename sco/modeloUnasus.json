@@ -116,7 +116,7 @@
                         ],
                         "order":8
                     },
-    
+
                     {
                         "template":"sliderResponsivo",
                         "column": "col-xs-12 col-md-12",
@@ -133,10 +133,6 @@
                             {
                                 "imgSlide":"css/assets/images/2.jpg",
                                 "legenda":"legenda 3"
-                            },
-                            {
-                                "imgSlide":"css/assets/images/Fotolia_25697273_Subscription_Monthly_M.jpg",
-                                "legenda":"legenda 4"
                             }
                         ],
                         "order":10
@@ -173,7 +169,7 @@
                     {
                         "template": "revelar",
                         "type": "click",
-                        "column": "col-xs-12 col-md-2",
+                        "column": "col-xs-12 col-md-4",
                         "contentCapa": "CAPA! 11111111111 ",
                         "content": "Conteúdo da Capa! 1111111111",
                         "styleObj": {
@@ -185,7 +181,7 @@
                     {
                         "template": "revelar",
                         "type": "hover",
-                        "column": "col-xs-12 col-md-2",
+                        "column": "col-xs-12 col-md-4",
                         "contentCapa": "CAPA!22222222222",
                         "content": "Conteúdo da Capa! 22222222222",
                         "styleObj": {
@@ -196,8 +192,8 @@
 
                     {
                         "template": "revelar",
-                        "type": "dropdown",
-                        "column": "col-xs-12 col-md-2",
+                        "type": "click",
+                        "column": "col-xs-12 col-md-4",
                         "contentCapa": "CAPA! 333333333 ",
                         "content": "Conteúdo da Capa! 333333333",
                         "styleObj": {
@@ -206,36 +202,12 @@
                         "order":15
                     },
 
-                    {
-                        "template": "revelar",
-                        "type": "click",
-                        "column": "col-xs-12 col-md-2",
-                        "contentCapa": "CAPA! 4444444 ",
-                        "content": "Conteúdo da Capa! 4444444",
-                        "styleObj": {
-                            "height": "150px"
-                        },
-                        "order":16
-                    },
-
-                    {
-                        "template": "revelar",
-                        "type": "dropdown",
-                        "column": "col-xs-12 col-md-4",
-                        "contentCapa": "CAPA! 5555555555 ",
-                        "content": "Conteúdo da Capa! 55555555555",
-                        "styleObj": {
-                            "height": "150px"
-                        },
-                        "order":17
-                    },
-
                     {  
                         "template":"caixaDestaque",
                         "column": "col-xs-12 col-md-6",
                         "type":"normal",
                         "title":"Final de Cursos dasd sd",
-                        "content":"Lorem ipsum dolor sit amet, &nbsp;dsa dsad asd asd asd asd sad asd asd a dipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.&nbsp;",
+                        "content":"Lorem ipsum dolor sit amet,Morbi ut mi. ",
                         "styleObj": {
                             "margin-top": "50px"
                         },
@@ -274,7 +246,46 @@
 
                     {
                         "label": "Botão Modal",
-                        "column": "col-xs-12 col-md-12",
+                        "column": "col-xs-12 col-md-6",
+                        "styleObj": {
+                        },
+                        "template": "botaoModal",
+                        "type": "btnRetangle",
+                        "_modal_id": {
+                            "defaults": {
+                            "styleObj": {
+                                "height": "150px"
+                            },
+                                "name": "Teste Modal",
+                                "type": ""
+                            },
+                            "modal": {
+                                "type": "",
+                                "responsive": true,
+                                "titulo":"teste teste teste"
+                            },
+                            "name": "Novo slide",
+                            "onUse": false,
+                            "template": "slideSimples",
+                            "resources": [
+                                {
+                                    "template": "imagem",
+                                    "column": "col-xs-12 col-md-6",
+                                    "src": "http://2.bp.blogspot.com/-F8aZWjikNZs/Vo_yXXOZIbI/AAAAAAAAMmM/_uwQNYgEHYU/s1600/logounasus.png"
+                                },
+                                {
+                                    "template": "texto",
+                                    "column": "col-xs-12 col-md-6",
+                                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa."
+                                }
+                           ]
+                        },
+                        "order": 21
+                    },
+
+                     {
+                        "label": "Botão Modal",
+                        "column": "col-xs-12 col-md-6",
                         "styleObj": {
                         },
                         "template": "botaoModal",
@@ -302,7 +313,7 @@
                                 }
                            ]
                         },
-                        "order": 21
+                        "order": 22
                     },
 
                     {
@@ -323,7 +334,31 @@
                                 "content": "2000 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa."
                             }
                         ],
-                        "order":22
+                        "order":23
+                    },
+
+                    {
+                        "template": "revelar",
+                        "type": "dropdown",
+                        "column": "col-xs-12 col-md-6",
+                        "contentCapa": "CAPA!22222222222",
+                        "content": "Conteúdo da Capa! 22222222222",
+                        "styleObj": {
+
+                        },
+                        "order":24
+                    },
+
+                    {
+                        "template": "revelar",
+                        "type": "dropdown",
+                        "column": "col-xs-12 col-md-6",
+                        "contentCapa": "CAPA!22222222222",
+                        "content": "Conteúdo da Capa! 22222222222",
+                        "styleObj": {
+                    
+                        },
+                        "order":25
                     }
                 ]
             }            

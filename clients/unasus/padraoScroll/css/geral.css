@@ -1810,317 +1810,6 @@ iframe {
   background: #e28f01;
 }
 
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
-/* line 19, sass/resources/cabecalho/_style.scss */
-.cabecalho {
-  background: #247eba;
-  margin-bottom: 40px;
-}
-
-/* line 26, sass/resources/cabecalho/_style.scss */
-.barraLaranja {
-  width: 100%;
-  height: 15px;
-  background: #f59e00;
-  position: relative;
-  top: 22px;
-}
-
-/* line 35, sass/resources/cabecalho/_style.scss */
-.imagemCabecalho {
-  max-width: 1280px;
-  width: 100%;
-  position: relative;
-  top: 22px;
-  background: white;
-}
-
-/* line 43, sass/resources/cabecalho/_style.scss */
-.textosCabecalho {
-  background: #247eba;
-  height: 80px;
-}
-/* line 47, sass/resources/cabecalho/_style.scss */
-.textosCabecalho .tituloCabecalho {
-  color: #FFF;
-  font-family: "Exo 2", sans-serif;
-  font-size: 1.6em;
-  font-weight: bold;
-  margin: 0px 0px 30px 0px;
-  padding-top: 12px;
-  padding-bottom: -1px;
-}
-/* line 59, sass/resources/cabecalho/_style.scss */
-.textosCabecalho .subTituloCabecalho {
-  color: #FFF;
-  font-family: "Exo 2", sans-serif;
-  font-size: 1.9em;
-  margin: -26px 0;
-  font-weight: lighter;
-  padding-bottom: 6px;
-  padding-top: 2px;
-}
-
-@media only screen and (max-width: 480px) {
-  /* line 78, sass/resources/cabecalho/_style.scss */
-  .textosCabecalho {
-    line-height: 35px;
-    margin-top: -30px;
-  }
-
-  /* line 83, sass/resources/cabecalho/_style.scss */
-  .subTituloCabecalho {
-    margin: -3px 0;
-  }
-}
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
-/* line 20, sass/resources/tituloConteudo/_style.scss */
-.tituloConteudo.modelo1 {
-  width: 100%;
-  min-height: 56px;
-  width: 100%;
-  border-radius: 12px;
-  background: #209585;
-  position: relative;
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
-/* line 33, sass/resources/tituloConteudo/_style.scss */
-.textoModelo1 {
-  position: relative;
-  font-size: 1.9em;
-  margin: 0px auto;
-  width: 89%;
-  top: 10px;
-  color: #FFF;
-  text-transform: uppercase;
-  font-family: "Exo 2", sans-serif;
-}
-
-/* line 46, sass/resources/tituloConteudo/_style.scss */
-.tituloConteudo.modelo2 {
-  width: 100%;
-  min-height: 56px;
-  width: 100%;
-  border-radius: 12px;
-  background: #eaeaea;
-  position: relative;
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
-/* line 60, sass/resources/tituloConteudo/_style.scss */
-.textoModelo2 {
-  position: relative;
-  font-size: 1.9em;
-  margin: 0px auto;
-  width: 89%;
-  top: 10px;
-  color: #209585;
-  text-transform: uppercase;
-  font-family: "Exo 2", sans-serif;
-}
-
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
-/* line 18, sass/resources/tituloModulo/_style.scss */
-.tituloModulo {
-  background: #247eba;
-  min-height: 107px;
-  width: 100%;
-  border-bottom: 15px solid #f59e00;
-  word-break: break-all;
-  opacity: 0;
-  margin-bottom: 40px;
-}
-
-/* line 31, sass/resources/tituloModulo/_style.scss */
-.textosTituloModulo {
-  padding-top: 30px;
-  font-size: 2em;
-}
-
-/* line 36, sass/resources/tituloModulo/_style.scss */
-.tituloModuloTexto {
-  margin-top: 2px;
-  font-size: 1em;
-  color: #FFF;
-  font-family: "Exo 2", sans-serif;
-}
-
-/* line 43, sass/resources/tituloModulo/_style.scss */
-.subTituloModuloTexto {
-  font-size: 0.7em;
-  color: #FFF;
-  font-family: "Open Sans", sans-serif;
-  position: relative;
-  top: -38px;
-  margin: 0;
-  font-weight: 400;
-}
-
 /* line 1, sass/resources/tooltip/_style.scss */
 .tooltipster-default .tooltipster-content {
   font-family: Arial, sans-serif;
@@ -2132,18 +1821,18 @@ iframe {
   cursor: pointer;
 }
 
-/* line 14, sass/resources/tooltip/_style.scss */
+/* line 12, sass/resources/tooltip/_style.scss */
 .tooltipster-default .tooltipster-arrow .tooltipster-arrow-border {
   /* border-color: ... !important; */
 }
 
-/* line 20, sass/resources/tooltip/_style.scss */
+/* line 16, sass/resources/tooltip/_style.scss */
 .tooltipster-icon {
   cursor: help;
   margin-left: 4px;
 }
 
-/* line 26, sass/resources/tooltip/_style.scss */
+/* line 22, sass/resources/tooltip/_style.scss */
 .tooltipster-base {
   padding: 0;
   font-size: 0;
@@ -2157,12 +1846,12 @@ iframe {
   overflow: visible;
 }
 
-/* line 38, sass/resources/tooltip/_style.scss */
+/* line 34, sass/resources/tooltip/_style.scss */
 .tooltipster-base .tooltipster-content {
   overflow: hidden;
 }
 
-/* line 44, sass/resources/tooltip/_style.scss */
+/* line 40, sass/resources/tooltip/_style.scss */
 .tooltipster-arrow {
   display: block;
   text-align: center;
@@ -2173,8 +1862,12 @@ iframe {
   left: 0;
   z-index: -1;
 }
+/* line 49, sass/resources/tooltip/_style.scss */
+.tooltipster-arrow span {
+  border-color: #30317f !important;
+}
 
-/* line 54, sass/resources/tooltip/_style.scss */
+/* line 53, sass/resources/tooltip/_style.scss */
 .tooltipster-arrow span, .tooltipster-arrow-border {
   display: block;
   width: 0;
@@ -2182,7 +1875,7 @@ iframe {
   position: absolute;
 }
 
-/* line 60, sass/resources/tooltip/_style.scss */
+/* line 59, sass/resources/tooltip/_style.scss */
 .tooltipster-arrow-top span, .tooltipster-arrow-top-right span, .tooltipster-arrow-top-left span {
   border-left: 8px solid transparent !important;
   border-right: 8px solid transparent !important;
@@ -2190,7 +1883,7 @@ iframe {
   bottom: -7px;
 }
 
-/* line 66, sass/resources/tooltip/_style.scss */
+/* line 65, sass/resources/tooltip/_style.scss */
 .tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-top-left .tooltipster-arrow-border {
   border-left: 9px solid transparent !important;
   border-right: 9px solid transparent !important;
@@ -2198,7 +1891,7 @@ iframe {
   bottom: -7px;
 }
 
-/* line 73, sass/resources/tooltip/_style.scss */
+/* line 72, sass/resources/tooltip/_style.scss */
 .tooltipster-arrow-bottom span, .tooltipster-arrow-bottom-right span, .tooltipster-arrow-bottom-left span {
   border-left: 8px solid transparent !important;
   border-right: 8px solid transparent !important;
@@ -2206,7 +1899,7 @@ iframe {
   top: -7px;
 }
 
-/* line 79, sass/resources/tooltip/_style.scss */
+/* line 78, sass/resources/tooltip/_style.scss */
 .tooltipster-arrow-bottom .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
   border-left: 9px solid transparent !important;
   border-right: 9px solid transparent !important;
@@ -2214,34 +1907,34 @@ iframe {
   top: -7px;
 }
 
-/* line 85, sass/resources/tooltip/_style.scss */
+/* line 84, sass/resources/tooltip/_style.scss */
 .tooltipster-arrow-top span, .tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-bottom span, .tooltipster-arrow-bottom .tooltipster-arrow-border {
   left: 0;
   right: 0;
   margin: 0 auto;
 }
 
-/* line 90, sass/resources/tooltip/_style.scss */
+/* line 89, sass/resources/tooltip/_style.scss */
 .tooltipster-arrow-top-left span, .tooltipster-arrow-bottom-left span {
   left: 6px;
 }
 
-/* line 93, sass/resources/tooltip/_style.scss */
+/* line 92, sass/resources/tooltip/_style.scss */
 .tooltipster-arrow-top-left .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
   left: 5px;
 }
 
-/* line 96, sass/resources/tooltip/_style.scss */
+/* line 95, sass/resources/tooltip/_style.scss */
 .tooltipster-arrow-top-right span, .tooltipster-arrow-bottom-right span {
   right: 6px;
 }
 
-/* line 99, sass/resources/tooltip/_style.scss */
+/* line 98, sass/resources/tooltip/_style.scss */
 .tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border {
   right: 5px;
 }
 
-/* line 102, sass/resources/tooltip/_style.scss */
+/* line 101, sass/resources/tooltip/_style.scss */
 .tooltipster-arrow-left span, .tooltipster-arrow-left .tooltipster-arrow-border {
   border-top: 8px solid transparent !important;
   border-bottom: 8px solid transparent !important;
@@ -2251,7 +1944,7 @@ iframe {
   right: -7px;
 }
 
-/* line 110, sass/resources/tooltip/_style.scss */
+/* line 109, sass/resources/tooltip/_style.scss */
 .tooltipster-arrow-left .tooltipster-arrow-border {
   border-top: 9px solid transparent !important;
   border-bottom: 9px solid transparent !important;
@@ -2259,7 +1952,7 @@ iframe {
   margin-top: -8px;
 }
 
-/* line 116, sass/resources/tooltip/_style.scss */
+/* line 115, sass/resources/tooltip/_style.scss */
 .tooltipster-arrow-right span, .tooltipster-arrow-right .tooltipster-arrow-border {
   border-top: 8px solid transparent !important;
   border-bottom: 8px solid transparent !important;
@@ -2269,7 +1962,7 @@ iframe {
   left: -7px;
 }
 
-/* line 124, sass/resources/tooltip/_style.scss */
+/* line 123, sass/resources/tooltip/_style.scss */
 .tooltipster-arrow-right .tooltipster-arrow-border {
   border-top: 9px solid transparent !important;
   border-bottom: 9px solid transparent !important;
@@ -2278,7 +1971,7 @@ iframe {
 }
 
 /* Some CSS magic for the awesome animations - feel free to make your own custom animations and reference it in your Tooltipster settings! */
-/* line 134, sass/resources/tooltip/_style.scss */
+/* line 133, sass/resources/tooltip/_style.scss */
 .tooltipster-fade {
   opacity: 0;
   -webkit-transition-property: opacity;
@@ -2288,12 +1981,12 @@ iframe {
   transition-property: opacity;
 }
 
-/* line 142, sass/resources/tooltip/_style.scss */
+/* line 141, sass/resources/tooltip/_style.scss */
 .tooltipster-fade-show {
   opacity: 1;
 }
 
-/* line 146, sass/resources/tooltip/_style.scss */
+/* line 145, sass/resources/tooltip/_style.scss */
 .tooltipster-grow {
   -webkit-transform: scale(0, 0);
   -moz-transform: scale(0, 0);
@@ -2308,7 +2001,7 @@ iframe {
   -webkit-backface-visibility: hidden;
 }
 
-/* line 159, sass/resources/tooltip/_style.scss */
+/* line 158, sass/resources/tooltip/_style.scss */
 .tooltipster-grow-show {
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
@@ -2323,7 +2016,7 @@ iframe {
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
 }
 
-/* line 173, sass/resources/tooltip/_style.scss */
+/* line 172, sass/resources/tooltip/_style.scss */
 .tooltipster-swing {
   opacity: 0;
   -webkit-transform: rotateZ(4deg);
@@ -2338,7 +2031,7 @@ iframe {
   transition-property: transform;
 }
 
-/* line 186, sass/resources/tooltip/_style.scss */
+/* line 185, sass/resources/tooltip/_style.scss */
 .tooltipster-swing-show {
   opacity: 1;
   -webkit-transform: rotateZ(0deg);
@@ -2354,7 +2047,7 @@ iframe {
   transition-timing-function: cubic-bezier(0.23, 0.635, 0.495, 2.4);
 }
 
-/* line 201, sass/resources/tooltip/_style.scss */
+/* line 200, sass/resources/tooltip/_style.scss */
 .tooltipster-fall {
   top: 0;
   -webkit-transition-property: top;
@@ -2370,7 +2063,7 @@ iframe {
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
 }
 
-/* line 217, sass/resources/tooltip/_style.scss */
+/* line 216, sass/resources/tooltip/_style.scss */
 .tooltipster-fall.tooltipster-dying {
   -webkit-transition-property: all;
   -moz-transition-property: all;
@@ -2381,7 +2074,7 @@ iframe {
   opacity: 0;
 }
 
-/* line 227, sass/resources/tooltip/_style.scss */
+/* line 226, sass/resources/tooltip/_style.scss */
 .tooltipster-slide {
   left: -40px;
   -webkit-transition-property: left;
@@ -2397,7 +2090,7 @@ iframe {
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
 }
 
-/* line 243, sass/resources/tooltip/_style.scss */
+/* line 242, sass/resources/tooltip/_style.scss */
 .tooltipster-slide.tooltipster-dying {
   -webkit-transition-property: all;
   -moz-transition-property: all;
@@ -2409,7 +2102,7 @@ iframe {
 }
 
 /* CSS transition for when contenting is changing in a tooltip that is still open. The only properties that will NOT transition are: width, height, top, and left */
-/* line 255, sass/resources/tooltip/_style.scss */
+/* line 254, sass/resources/tooltip/_style.scss */
 .tooltipster-content-changing {
   opacity: 0.5;
   -webkit-transform: scale(1.1, 1.1);
@@ -2419,7 +2112,7 @@ iframe {
   transform: scale(1.1, 1.1);
 }
 
-/* line 265, sass/resources/tooltip/_style.scss */
+/* line 264, sass/resources/tooltip/_style.scss */
 .mbTooltipGlossario {
   color: #f59e00;
   font-family: "Open Sans", sans-serif;
@@ -2428,13 +2121,13 @@ iframe {
   cursor: help;
 }
 
-/* line 273, sass/resources/tooltip/_style.scss */
+/* line 272, sass/resources/tooltip/_style.scss */
 .toolTipglossario {
-  background: #e4e4e4;
+  background: #FFFFFF;
   color: #fff;
   border-radius: 0 0 3px 3px;
 }
-/* line 279, sass/resources/tooltip/_style.scss */
+/* line 277, sass/resources/tooltip/_style.scss */
 .toolTipglossario .tooltipster-content {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -2447,7 +2140,7 @@ iframe {
   cursor: pointer;
   text-align: center;
 }
-/* line 295, sass/resources/tooltip/_style.scss */
+/* line 293, sass/resources/tooltip/_style.scss */
 .toolTipglossario .btnFecharToolTipGlossario {
   font-family: 'Entypo';
   position: absolute;
@@ -2456,7 +2149,7 @@ iframe {
   font-size: 2.2em;
   color: #c27d00;
 }
-/* line 306, sass/resources/tooltip/_style.scss */
+/* line 304, sass/resources/tooltip/_style.scss */
 .toolTipglossario .palavraDestacada {
   font-family: "Exo 2", sans-serif;
   font-size: 18px;
@@ -2466,7 +2159,7 @@ iframe {
   text-align: left;
   font-weight: 600;
 }
-/* line 316, sass/resources/tooltip/_style.scss */
+/* line 314, sass/resources/tooltip/_style.scss */
 .toolTipglossario .topGlossario {
   width: 100%;
   height: 40px;
@@ -2474,12 +2167,12 @@ iframe {
   top: 0;
   z-index: -1;
   left: 0;
-  background: #f59e00;
+  background: #30317f;
   border-radius: 3px 3px 0 0;
   font-size: 18px;
 }
 
-/* line 331, sass/resources/tooltip/_style.scss */
+/* line 329, sass/resources/tooltip/_style.scss */
 .mbTooltip {
   text-decoration: underline;
   color: #2b95dd;
@@ -2487,13 +2180,13 @@ iframe {
   cursor: help;
 }
 
-/* line 340, sass/resources/tooltip/_style.scss */
+/* line 338, sass/resources/tooltip/_style.scss */
 .toolTipNormal {
   background: #2b95dd;
   text-align: center;
   border-radius: 4px;
 }
-/* line 346, sass/resources/tooltip/_style.scss */
+/* line 344, sass/resources/tooltip/_style.scss */
 .toolTipNormal .btnFecharToolTip {
   font-family: 'Entypo';
   position: absolute;
@@ -2502,7 +2195,7 @@ iframe {
   font-size: 2.2em;
   color: #1d79b8;
 }
-/* line 355, sass/resources/tooltip/_style.scss */
+/* line 353, sass/resources/tooltip/_style.scss */
 .toolTipNormal .tooltipster-content {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -2521,22 +2214,8 @@ iframe {
 
 /* line 15, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header {
-  background: #2793db;
+  background: #30317f;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2793db), color-stop(100%, #1e8dd5));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #2793db 0%, #1e8dd5 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2793db', endColorstr='#1e8dd5',GradientType=0 );
-  /* IE6-9 */
   display: block;
   cursor: pointer;
   position: relative;
@@ -2554,15 +2233,12 @@ iframe {
   font-size: 16px;
   font-weight: 400;
   height: 40px;
-  padding: 8px 49px;
   position: relative;
   z-index: 1;
-  margin-bottom: -2px;
+  margin-bottom: 1px;
   outline: none;
-  border: 2px solid #2188ce;
-  border-bottom: transparent;
 }
-/* line 48, sass/resources/sanfona/_style.scss */
+/* line 38, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header .tituloSanfona {
   position: absolute;
   font-size: 14px;
@@ -2570,7 +2246,7 @@ iframe {
   top: 10px;
   left: 50px;
 }
-/* line 55, sass/resources/sanfona/_style.scss */
+/* line 45, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header .icon-acc {
   font-family: 'Entypo';
   font-size: 40px;
@@ -2583,22 +2259,26 @@ iframe {
   top: -11px;
   left: 19px;
 }
-/* line 67, sass/resources/sanfona/_style.scss */
+/* line 57, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header:first-child {
   border-radius: 3px 3px 0 0;
 }
-/* line 71, sass/resources/sanfona/_style.scss */
-.ui-accordion .ui-accordion-header:last-of-type {
-  border-radius: 0 0 3px 3px;
-  border-bottom: 2px solid #2188ce;
-}
-/* line 78, sass/resources/sanfona/_style.scss */
+/* line 62, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header.ui-accordion-header-active {
-  background: #0ba4e7;
-  border-bottom: 2px solid #2188ce;
+  background: #dab463;
 }
-/* line 84, sass/resources/sanfona/_style.scss */
+/* line 64, sass/resources/sanfona/_style.scss */
+.ui-accordion .ui-accordion-header.ui-accordion-header-active span {
+  color: #30317f;
+}
+/* line 69, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content {
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-clip: padding-box;
+  border: 1px solid #dab463;
   padding: 1em 2.2em;
   border-top: 0;
   background: #fff;
@@ -2607,14 +2287,14 @@ iframe {
   color: #373838;
   width: 99.9%;
   overflow: hidden;
+  margin-top: -2px;
 }
-/* line 95, sass/resources/sanfona/_style.scss */
+/* line 83, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom {
-  border: 1px solid #eaeaea;
   margin-bottom: 7px;
   overflow: hidden;
 }
-/* line 99, sass/resources/sanfona/_style.scss */
+/* line 86, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom p {
   font-size: 16px !important;
 }
@@ -2788,87 +2468,64 @@ iframe {
 }
 /* line 3, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque {
-  background: #2b95dd;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #30317f;
   width: 100%;
-  min-height: 50px;
   box-sizing: border-box;
   word-break: break-all;
   margin-bottom: 40px;
+  padding: 0 !important;
 }
-/* line 13, sass/resources/caixaDestaque/_style.scss */
-.caixaDestaque p {
-  font-family: "Exo 2", sans-serif;
-  font-size: 18px;
-  margin: 0 auto;
-  max-width: 1280px;
-  line-height: 1.25em;
-  color: #fff;
+/* line 12, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque .iconDestaque {
+  position: relative;
+  width: 25%;
+  height: 100%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 19, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque .iconDestaque .icon {
   width: 100%;
-  padding-left: 60px;
-  padding-right: 30px;
-  font-weight: 500;
+  color: #FFFFFF;
 }
 /* line 24, sass/resources/caixaDestaque/_style.scss */
-.caixaDestaque p:before {
+.caixaDestaque .iconDestaque:after {
   content: "";
-  position: relative;
-  left: -8%;
-  border-style: solid;
-  border-width: 15px 14px 0;
-  border-color: #fff transparent;
-  display: block;
-  width: 0;
-  z-index: 1;
+  position: absolute;
+  right: 0;
+  height: 50%;
+  top: 25%;
+  width: 2px;
+  background: #FFFFFF;
 }
-/* line 37, sass/resources/caixaDestaque/_style.scss */
-.caixaDestaque p:after {
-  content: "";
+/* line 35, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque .contentDestaque {
   position: relative;
-  left: -8%;
-  border-style: solid;
-  border-width: 0 14px 15px;
-  border-color: #fff transparent;
-  display: block;
-  width: 0;
-  z-index: 1;
-  bottom: 0%;
+  width: 75%;
+  height: 100%;
+  font-family: "Exo 2", sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding: 20px;
+}
+/* line 46, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque .contentDestaque p {
+  width: 100%;
+  margin: 0;
 }
 
-/* line 54, sass/resources/caixaDestaque/_style.scss */
+/* line 53, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.laranja {
   background: #f59e00;
 }
 
-@media only screen and (max-width: 600px) {
-  /* line 67, sass/resources/caixaDestaque/_style.scss */
-  .caixaDestaque p:before {
-    left: -10%;
-  }
-  /* line 73, sass/resources/caixaDestaque/_style.scss */
-  .caixaDestaque p:after {
-    left: -10%;
-  }
-}
-@media only screen and (max-width: 490px) {
-  /* line 92, sass/resources/caixaDestaque/_style.scss */
-  .caixaDestaque p:before {
-    left: -12%;
-  }
-  /* line 98, sass/resources/caixaDestaque/_style.scss */
-  .caixaDestaque p:after {
-    left: -12%;
-  }
-}
-@media only screen and (max-width: 320px) {
-  /* line 117, sass/resources/caixaDestaque/_style.scss */
-  .caixaDestaque p:before {
-    left: -15%;
-  }
-  /* line 123, sass/resources/caixaDestaque/_style.scss */
-  .caixaDestaque p:after {
-    left: -15%;
-  }
-}
 /* line 1, sass/resources/gavetaHorizontal/_style.scss */
 .gavetaHor {
   background: #eaeaea;
@@ -2897,7 +2554,7 @@ iframe {
   display: table-cell;
   background: #30317f;
 }
-/* line 23, sass/resources/gavetaHorizontal/_style.scss */
+/* line 24, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav li a {
   display: table;
   height: 100%;
@@ -2905,7 +2562,7 @@ iframe {
   width: 100%;
   color: #fff;
 }
-/* line 29, sass/resources/gavetaHorizontal/_style.scss */
+/* line 30, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav li a span {
   display: table-cell;
   vertical-align: middle;
@@ -2913,11 +2570,11 @@ iframe {
   font-weight: 400;
   font-size: 14px;
 }
-/* line 39, sass/resources/gavetaHorizontal/_style.scss */
+/* line 40, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav .ui-tabs-active {
   background: #dab463;
 }
-/* line 41, sass/resources/gavetaHorizontal/_style.scss */
+/* line 42, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav .ui-tabs-active:after {
   content: '';
   position: absolute;
@@ -2930,7 +2587,7 @@ iframe {
   bottom: -10px;
   left: 44.5%;
 }
-/* line 56, sass/resources/gavetaHorizontal/_style.scss */
+/* line 57, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor .ui-tabs-panel {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2943,194 +2600,136 @@ iframe {
   font-size: 14px;
   width: 99.9%;
 }
-/* line 66, sass/resources/gavetaHorizontal/_style.scss */
+/* line 67, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor .ui-tabs-panel img {
-  float: left;
+  display: inline-block;
   width: 48%;
 }
-/* line 71, sass/resources/gavetaHorizontal/_style.scss */
+/* line 72, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor .ui-tabs-panel p {
-  float: left;
+  display: inline-block;
   width: 48%;
+}
+
+/* line 1, sass/resources/gavetaVertical/_style.scss */
+.gavetaVer {
+  width: 100%;
+  height: auto;
+}
+
+/* line 6, sass/resources/gavetaVertical/_style.scss */
+.ui-tabs.ui-tabs-vertical {
+  width: 100%;
+  height: auto;
+  overflow: auto;
+}
+/* line 10, sass/resources/gavetaVertical/_style.scss */
+.ui-tabs.ui-tabs-vertical ul.ui-tabs-nav {
+  padding: .2em .1em .2em .2em;
+  margin: 0;
+  float: left;
+  width: 38%;
+}
+/* line 15, sass/resources/gavetaVertical/_style.scss */
+.ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  list-style: none;
+  position: relative;
+  top: 0;
+  padding: 0;
+  height: 50px;
+  width: 92%;
+  padding-left: 0;
+  background: #30317f;
+  margin-bottom: 5px;
+}
+/* line 27, sass/resources/gavetaVertical/_style.scss */
+.ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li:first-child {
+  margin-top: 1px;
+}
+/* line 31, sass/resources/gavetaVertical/_style.scss */
+.ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li a.ui-tabs-anchor {
+  min-height: 44px;
+  float: left;
+  text-decoration: none;
+  width: 100%;
+  outline: none;
+  height: 100%;
+  text-align: center;
+  display: table;
+}
+/* line 45, sass/resources/gavetaVertical/_style.scss */
+.ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li a.ui-tabs-anchor span {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  position: relative;
+  font-size: 14px;
+}
+/* line 59, sass/resources/gavetaVertical/_style.scss */
+.ui-tabs.ui-tabs-vertical .ui-tabs-panel {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #30317f;
+  display: block;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0;
+  width: auto;
+  z-index: 0;
+  margin-left: -2px;
+  border-width: 0;
+  padding: 20px;
+  background: #fff;
+  margin-top: 4px;
+  line-height: 18px;
+  color: #373838;
+  font-size: 14px;
+  overflow: hidden;
+}
+/* line 82, sass/resources/gavetaVertical/_style.scss */
+.ui-tabs.ui-tabs-vertical .ui-tabs-panel img {
+  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* line 90, sass/resources/gavetaVertical/_style.scss */
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active {
+  background: #dab463;
+}
+/* line 92, sass/resources/gavetaVertical/_style.scss */
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 10px 0px 10px 15px;
+  border-color: transparent #dab463;
+  display: block;
+  width: 0;
+  z-index: 1;
+  right: -14px;
+  top: 16px;
+}
+/* line 104, sass/resources/gavetaVertical/_style.scss */
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active span {
+  color: #30317f !important;
 }
 
 /* line 2, sass/resources/imagem/_style.scss */
-.content .imagem {
+.imagem {
   position: relative;
 }
 /* line 4, sass/resources/imagem/_style.scss */
-.content .imagem img {
+.imagem img {
   width: 100%;
 }
 
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
-/* line 9, sass/resources/imagemInicioSco/_style.scss */
-.imagemInicioSco {
-  width: 100%;
-  min-height: 100px;
-  background: #eaeaea;
-  margin-bottom: 40px;
-  margin-top: -40px;
-}
-
-/* line 20, sass/resources/imagemInicioSco/_style.scss */
-.imagemPrincipal {
-  display: block;
-  height: auto;
-  width: 100%;
-}
-/* line 27, sass/resources/imagemInicioSco/_style.scss */
-.imagemPrincipal img {
-  width: 100%;
-}
-
-/* line 32, sass/resources/imagemInicioSco/_style.scss */
-.circleFoto {
-  margin: -6.3% 3% 0 auto;
-  float: left;
-  width: 25%;
-}
-
-/* line 39, sass/resources/imagemInicioSco/_style.scss */
-.circleFoto.menor {
-  margin: -3.5% 1.7% 0 auto;
-  width: 20%;
-}
-
-/* line 45, sass/resources/imagemInicioSco/_style.scss */
-.circleFoto.menor.corpo {
-  margin: -7.4% 3% 0 auto;
-}
-
-/* line 51, sass/resources/imagemInicioSco/_style.scss */
-.circleImagem {
-  width: 6%;
-  position: absolute;
-  top: -29px;
-  left: 0;
-}
-
-/* line 59, sass/resources/imagemInicioSco/_style.scss */
-.textoPersonagem {
-  margin-top: 3%;
-  color: #373838;
-  line-height: 24px;
-  float: right;
-  width: 76%;
-  position: relative;
-  padding-bottom: 27px;
-}
-
-/* line 69, sass/resources/imagemInicioSco/_style.scss */
-.textoCapa {
-  width: 100%;
-  font-family: "Exo 2", sans-serif;
-  hyphens: auto;
-  word-wrap: break-word;
-  margin-top: 3%;
-  color: #373838;
-  line-height: 24px;
-  font-size: 18px !important;
-  position: relative;
-  top: -12px;
-  float: right;
-  width: 71%;
-}
-/* line 82, sass/resources/imagemInicioSco/_style.scss */
-.textoCapa h3 {
-  color: #2b95dd;
-  margin-top: 9px;
-}
-/* line 87, sass/resources/imagemInicioSco/_style.scss */
-.textoCapa p {
-  font-size: 18px !important;
-}
-
-/* line 93, sass/resources/imagemInicioSco/_style.scss */
-.fundoImagem {
-  background: #eaeaea;
-  width: 100%;
-  padding: 25px 0;
-  margin-top: -5px;
-}
-
-/* line 101, sass/resources/imagemInicioSco/_style.scss */
-.primeiroTexto {
-  margin-top: 30px;
-}
-
-@media only screen and (max-width: 767px) {
-  /* line 109, sass/resources/imagemInicioSco/_style.scss */
-  .circleFoto {
-    margin: -7.5% 3% 0 auto;
-  }
-}
-@media only screen and (max-width: 480px) {
-  /* line 117, sass/resources/imagemInicioSco/_style.scss */
-  .circleFoto {
-    margin: -9.5% 3% 0 auto;
-  }
-}
-@media only screen and (max-width: 320px) {
-  /* line 125, sass/resources/imagemInicioSco/_style.scss */
-  .circleFoto {
-    margin: -11.5% 3% 0 auto;
-  }
-}
 @font-face {
   font-family: 'OpenSansRegular';
   src: url("assets/fonts/OpenSans-Regular.eot");
@@ -3548,489 +3147,6 @@ iframe {
     src: url("assets/fonts/Exo2-Regular.svg") format("svg");
   }
 }
-/* line 4, sass/resources/textarea/_style.scss */
-.textarea {
-  margin-bottom: 40px;
-}
-
-/* line 8, sass/resources/textarea/_style.scss */
-#myTextarea {
-  width: 80%;
-  max-height: 150px;
-  border-radius: 6px;
-  min-height: 104px;
-  border: 1px solid #383737;
-  outline: none;
-  max-width: 790px;
-  font-family: "Open Sans", sans-serif;
-  padding: 22px;
-  font-size: 14px;
-}
-/* line 20, sass/resources/textarea/_style.scss */
-#myTextarea:active {
-  border: 2px solid #2b95dd;
-}
-/* line 24, sass/resources/textarea/_style.scss */
-#myTextarea:focus {
-  border: 2px solid #2b95dd;
-}
-
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
-/* line 13, sass/resources/busca/_style.scss */
-.busca {
-  margin-bottom: 40px;
-}
-
-/* line 18, sass/resources/busca/_style.scss */
-.buscaTexto {
-  width: 69%;
-  border-radius: 3px;
-  height: 40px;
-  border: 1px solid #383737;
-  outline: none;
-  color: #c6ccd2;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  padding-left: 22px;
-}
-/* line 29, sass/resources/busca/_style.scss */
-.buscaTexto:active {
-  border: 2px solid #2b95dd;
-  color: #6a6a6a;
-}
-/* line 34, sass/resources/busca/_style.scss */
-.buscaTexto:focus {
-  border: 2px solid #2b95dd;
-  color: #6a6a6a;
-}
-
-/* line 41, sass/resources/busca/_style.scss */
-.botaoBusca {
-  background: #2793db;
-  background: -moz-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2793db), color-stop(100%, #1e8dd5));
-  background: -webkit-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  background: -o-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  background: -ms-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  background: linear-gradient(to bottom, #2793db 0%, #1e8dd5 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2793db', endColorstr='#1e8dd5',GradientType=0 );
-  color: white;
-  cursor: pointer;
-  font-family: "Exo 2", sans-serif;
-  font-weight: 400;
-  z-index: 1;
-  border-radius: 5px;
-  border: 1px solid;
-  width: 117px;
-  height: 42px;
-  outline: none;
-  font-size: 16px;
-}
-/* line 62, sass/resources/busca/_style.scss */
-.botaoBusca:hover {
-  background: #0ba5e6;
-}
-/* line 66, sass/resources/busca/_style.scss */
-.botaoBusca:active {
-  background: #216ad0;
-}
-
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
-/* line 5, sass/resources/mensagemSistema/_style.scss */
-.msg-confirmacao {
-  background: #e0efd8;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border: 1px solid #d6e9c6;
-}
-
-/* line 14, sass/resources/mensagemSistema/_style.scss */
-.msg-erro {
-  background: #f2dedf;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border: 1px solid #eed3d7;
-}
-
-/* line 22, sass/resources/mensagemSistema/_style.scss */
-.msg-informacao {
-  background: #d9edf6;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border: 1px solid #bce8f1;
-}
-
-/* line 30, sass/resources/mensagemSistema/_style.scss */
-.msg-espera {
-  background: #fdf8e4;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border: 1px solid #fbeed5;
-}
-
-/* line 38, sass/resources/mensagemSistema/_style.scss */
-.msg {
-  min-height: 44px;
-  border-radius: 6px;
-  width: 100%;
-  line-height: 44px;
-  position: relative;
-}
-
-/* line 47, sass/resources/mensagemSistema/_style.scss */
-.msg-btn {
-  font-size: 2em;
-  position: relative;
-  right: 5px;
-  top: 8px;
-}
-
-/* line 54, sass/resources/mensagemSistema/_style.scss */
-.msg-box-confirmacao, .msg-box-erro, .msg-box-espera, .msg-box-informacao {
-  height: auto;
-  min-height: 29px;
-  overflow: auto;
-  overflow-y: hidden;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-/* line 65, sass/resources/mensagemSistema/_style.scss */
-.msg-icon-confirmacao, .msg-icon-erro, .msg-icon-espera, .msg-icon-informacao {
-  color: #478846;
-  font-size: 3.5em;
-  padding: 10px 10px 10px 30px;
-}
-
-/* line 70, sass/resources/mensagemSistema/_style.scss */
-.icon {
-  font-family: pv-agr-prec;
-  font-style: normal;
-  font-weight: 400;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-}
-
-/* line 104, sass/resources/mensagemSistema/_style.scss */
-.fecharMensagem.informacao {
-  cursor: pointer;
-  font-family: 'Entypo';
-  position: absolute;
-  float: right;
-  top: -16px;
-  right: 5px;
-  border-radius: 36px;
-  /* background: #478846; */
-  color: #3987ae;
-  font-size: 35px;
-}
-
-/* line 118, sass/resources/mensagemSistema/_style.scss */
-.fecharMensagem.espera {
-  cursor: pointer;
-  font-family: 'Entypo';
-  position: absolute;
-  float: right;
-  top: -16px;
-  right: 5px;
-  border-radius: 36px;
-  /* background: #478846; */
-  color: #c19953;
-  font-size: 35px;
-}
-
-/* line 133, sass/resources/mensagemSistema/_style.scss */
-.msg-box-confirmacao span {
-  color: #478846;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-  font-weight: bolder;
-  float: left;
-  margin-right: 5px;
-}
-
-/* line 142, sass/resources/mensagemSistema/_style.scss */
-.msg-box-erro span {
-  color: #ba4a48;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-  font-weight: bolder;
-  float: left;
-  margin-right: 5px;
-}
-
-/* line 152, sass/resources/mensagemSistema/_style.scss */
-.msg-box-espera span {
-  color: #c19953;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-  font-weight: bolder;
-  float: left;
-  margin-right: 5px;
-}
-
-/* line 161, sass/resources/mensagemSistema/_style.scss */
-.msg-box-informacao span {
-  color: #3987ae;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-  font-weight: bolder;
-  float: left;
-  margin-right: 5px;
-}
-
-/* line 171, sass/resources/mensagemSistema/_style.scss */
-.msg-box-confirmacao p {
-  color: #478846;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-  margin-left: 22px;
-  float: left;
-  display: block;
-  -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
-  -webkit-margin-start: 0;
-  -webkit-margin-end: 0;
-}
-
-/* line 185, sass/resources/mensagemSistema/_style.scss */
-.msg-box-erro p {
-  color: #ba4a48;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-  margin-left: 22px;
-  float: left;
-  display: block;
-  -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
-  -webkit-margin-start: 0;
-  -webkit-margin-end: 0;
-}
-
-/* line 200, sass/resources/mensagemSistema/_style.scss */
-.msg-box-espera p {
-  color: #c19953;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-  margin-left: 22px;
-  float: left;
-  display: block;
-  -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
-  -webkit-margin-start: 0;
-  -webkit-margin-end: 0;
-}
-
-/* line 214, sass/resources/mensagemSistema/_style.scss */
-.msg-box-informacao p {
-  color: #3987ae;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-  margin-left: 22px;
-  float: left;
-  display: block;
-  -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
-  -webkit-margin-start: 0;
-  -webkit-margin-end: 0;
-}
-
-@media only screen and (max-width: 424px) {
-  /* line 229, sass/resources/mensagemSistema/_style.scss */
-  .msg-box-confirmacao p {
-    margin-top: -20px;
-  }
-}
-@media only screen and (max-width: 414px) {
-  /* line 242, sass/resources/mensagemSistema/_style.scss */
-  .msg-box-informacao p {
-    margin-top: -20px;
-  }
-}
-@media only screen and (max-width: 375px) {
-  /* line 254, sass/resources/mensagemSistema/_style.scss */
-  .msg-box-espera p {
-    margin-top: -20px;
-  }
-}
-@media only screen and (max-width: 356px) {
-  /* line 265, sass/resources/mensagemSistema/_style.scss */
-  .msg-box-erro p {
-    margin-top: -20px;
-  }
-}
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
 /* line 5, sass/resources/botaoModal/_style.scss */
 .modal-vertical-centered {
   transform: translate(0, 50%) !important;
@@ -4040,291 +3156,115 @@ iframe {
   /* Safari and Chrome */
 }
 
-/* line 15, sass/resources/botaoModal/_style.scss */
-.botaoModal {
-  background: #2793db;
-}
-/* line 17, sass/resources/botaoModal/_style.scss */
-.botaoModal:hover {
-  background: #0ba4e7;
-}
-/* line 21, sass/resources/botaoModal/_style.scss */
-.botaoModal:active {
-  background: #216ad0;
-}
-
-/* line 28, sass/resources/botaoModal/_style.scss */
-.tituloPrimeiroPlano {
-  padding: 15px 20px;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-/* line 37, sass/resources/botaoModal/_style.scss */
-.ppPequeno {
-  width: 40%;
-}
-/* line 39, sass/resources/botaoModal/_style.scss */
-.ppPequeno h2 {
-  width: 220px;
-}
-
-/* line 44, sass/resources/botaoModal/_style.scss */
-.ppMedio {
-  width: 60%;
-}
-/* line 46, sass/resources/botaoModal/_style.scss */
-.ppMedio h2 {
-  width: 517px;
-}
-
-/* line 51, sass/resources/botaoModal/_style.scss */
-.ppGrande {
-  width: 80%;
-}
-/* line 53, sass/resources/botaoModal/_style.scss */
-.ppGrande h2 {
-  width: 80%;
-}
-/* line 56, sass/resources/botaoModal/_style.scss */
-.ppGrande .textoPrimeiroPlano {
-  padding: 30px;
-}
-
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
-/* line 3, sass/resources/checkbox/_style.scss */
-.questoes {
-  font-size: 30px;
-  color: #2b95dd;
-  font-weight: bold;
-  font-family: Exo 2;
-}
-
-/* line 10, sass/resources/checkbox/_style.scss */
-.chkOrRadio {
-  position: relative;
-  top: 1px;
-  left: -5px;
-  cursor: pointer;
-}
-
-/* line 21, sass/resources/checkbox/_style.scss */
-.enviaResposta.desativado {
-  background: #a6a6a6;
-  color: #5a5a5a;
-  outline: none;
-  cursor: default;
-  border: 1px solid #a6a6a6;
-}
-/* line 30, sass/resources/checkbox/_style.scss */
-.enviaResposta.desativado:hover {
-  background: #a6a6a6;
-}
-/* line 34, sass/resources/checkbox/_style.scss */
-.enviaResposta.desativado:active {
-  background: #a6a6a6;
-}
-
-/* line 39, sass/resources/checkbox/_style.scss */
-.enviaResposta {
-  color: white;
-  cursor: pointer;
-  z-index: 1;
-  width: 130px;
-  height: 31px;
-  text-align: center;
-  background: #2793db;
-  border: 2px solid #1a8ad2;
-  background: -moz-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2793db), color-stop(100%, #1e8dd5));
-  background: -webkit-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  background: -o-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  background: -ms-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  background: linear-gradient(to bottom, #2793db 0%, #1e8dd5 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2793db', endColorstr='#1e8dd5',GradientType=0 );
-  position: relative;
-  left: 39%;
-  outline: none;
-  font-family: 'Exo 2', sans-serif;
-  font-size: 14pt;
-  font-weight: 400;
-  padding-bottom: 7px;
-}
-/* line 64, sass/resources/checkbox/_style.scss */
-.enviaResposta:hover {
-  background: #0ba4e7;
-}
-/* line 68, sass/resources/checkbox/_style.scss */
-.enviaResposta:active {
-  background: #216ad0;
-}
-
-/* line 74, sass/resources/checkbox/_style.scss */
-.fecharMensagem.confirmacao {
-  cursor: pointer;
-  font-family: 'Entypo';
-  position: absolute;
-  float: right;
-  top: -16px;
-  right: 5px;
-  border-radius: 36px;
-  color: green;
-  font-size: 35px;
-}
-
-/* line 86, sass/resources/checkbox/_style.scss */
-.fecharMensagem.erro {
-  cursor: pointer;
-  font-family: 'Entypo';
-  border-radius: 36px;
-  color: #9E6F72;
-  font-size: 35px;
-  margin-top: -11px;
-  margin-right: -25px;
-  float: right;
-}
-
-/* line 98, sass/resources/checkbox/_style.scss */
-.alternativa_atividade table {
-  color: #373838;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-}
-/* line 107, sass/resources/checkbox/_style.scss */
-.alternativa_atividade table table tr {
-  position: relative;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  height: 62px;
-}
-/* line 113, sass/resources/checkbox/_style.scss */
-.alternativa_atividade table table tr td {
-  position: relative;
-  top: -10px;
-  padding-left: 4%;
-}
-
-/* line 128, sass/resources/checkbox/_style.scss */
-.pergunta_atividade {
-  color: #373838;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-}
-/* line 133, sass/resources/checkbox/_style.scss */
-.pergunta_atividade span {
-  color: #f59d00;
-  font-family: 'Open Sans', sans-serif;
-  padding-right: 10px;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-/* line 145, sass/resources/checkbox/_style.scss */
-input[type="checkbox"],
-input[type="radio"] {
+/* line 14, sass/resources/botaoModal/_style.scss */
+#modal {
   display: none;
 }
 
-/* line 150, sass/resources/checkbox/_style.scss */
-label {
-  height: 30px;
+/* line 19, sass/resources/botaoModal/_style.scss */
+.primeiroPlano {
+  top: 15%;
+  left: 15%;
+  right: 15%;
+  bottom: 15%;
+  overflow: auto;
+  position: fixed;
+  background: #ffffff;
+}
+/* line 30, sass/resources/botaoModal/_style.scss */
+.primeiroPlano .texto .modalContent .wrapper {
+  width: 100%;
+  max-width: 100%;
 }
 
-/* line 154, sass/resources/checkbox/_style.scss */
-input[type="radio"] + label {
-  webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  color: #373838;
-  font-size: 0.9em;
-  font-family: "Open Sans", sans-serif;
-  display: block;
-  text-indent: 30px;
-  vertical-align: middle;
-  background: url(assets/images/checklist.png) no-repeat;
-  cursor: pointer;
-  background-position-y: 5px;
-  background-size: 20px 20px;
-  line-height: 38px;
-  width: 30px;
+/* line 41, sass/resources/botaoModal/_style.scss */
+#modalContent {
+  position: relative;
+  padding: 40px;
 }
 
-/* line 179, sass/resources/checkbox/_style.scss */
-input[type="radio"]:checked + label {
-  background: url(assets/images/radiolist.png) no-repeat;
-  width: 30px;
-  background-position-y: 8px;
-  background-size: 20px 20px;
+/* line 46, sass/resources/botaoModal/_style.scss */
+.headerModal {
+  width: 100%;
+  height: 49px;
 }
 
-/* line 187, sass/resources/checkbox/_style.scss */
-.questaoAtividade {
-  text-align: justify;
-  color: #373838;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
+/* line 53, sass/resources/botaoModal/_style.scss */
+.tituloModal {
+  padding: 12px 30px 12px 30px;
+  font-size: 23px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Exo 2", sans-serif;
 }
 
-/* line 194, sass/resources/checkbox/_style.scss */
-.bulletsSt {
+/* line 61, sass/resources/botaoModal/_style.scss */
+.btnFechar {
   position: absolute;
+  height: 21px;
+  width: 21px;
+  padding: 2px;
+  cursor: pointer;
+  right: 21px;
+  top: -10px;
+  background: none;
+  padding: 0px;
+  z-index: 2;
+}
+/* line 74, sass/resources/botaoModal/_style.scss */
+.btnFechar span {
+  font-size: 47px;
+  color: #000000;
+  font-family: 'Entypo';
+}
+
+/* line 85, sass/resources/botaoModal/_style.scss */
+#modalContent p {
+  padding-left: 60px;
+  padding-right: 67px;
+  padding-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16pt;
+  color: #383737;
+  line-height: 46px;
+}
+
+/* line 99, sass/resources/botaoModal/_style.scss */
+.btnRetangle {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  z-index: 1;
+  height: 70px;
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
+  background: #30317f;
+  display: table;
+}
+/* line 109, sass/resources/botaoModal/_style.scss */
+.btnRetangle:hover {
+  background: #dab463;
+}
+/* line 111, sass/resources/botaoModal/_style.scss */
+.btnRetangle:hover .tagP {
+  color: #30317f;
+}
+/* line 115, sass/resources/botaoModal/_style.scss */
+.btnRetangle:active {
+  background: #30317f;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+}
+/* line 118, sass/resources/botaoModal/_style.scss */
+.btnRetangle:active .tagP {
+  color: #FFFFFF;
+}
+/* line 123, sass/resources/botaoModal/_style.scss */
+.btnRetangle .tagP {
+  display: table-cell;
+  vertical-align: middle;
+  color: #FFFFFF;
 }
 
 /* line 1, sass/resources/video/_style.scss */
@@ -4372,808 +3312,6 @@ input[type="radio"]:checked + label {
   top: 10px;
 }
 
-/* line 1, sass/resources/gavetaVertical/_style.scss */
-.gavetaVer {
-  width: 100%;
-  height: auto;
-}
-
-/* line 6, sass/resources/gavetaVertical/_style.scss */
-.ui-tabs.ui-tabs-vertical {
-  width: 100%;
-  height: auto;
-  overflow: auto;
-}
-/* line 10, sass/resources/gavetaVertical/_style.scss */
-.ui-tabs.ui-tabs-vertical ul.ui-tabs-nav {
-  padding: .2em .1em .2em .2em;
-  margin: 0;
-  float: left;
-  width: 38%;
-}
-/* line 15, sass/resources/gavetaVertical/_style.scss */
-.ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  list-style: none;
-  position: relative;
-  top: 0;
-  padding: 0;
-  height: 50px;
-  width: 92%;
-  padding-left: 0;
-  background: #30317f;
-  margin-bottom: 5px;
-}
-/* line 27, sass/resources/gavetaVertical/_style.scss */
-.ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li:first-child {
-  margin-top: 1px;
-}
-/* line 31, sass/resources/gavetaVertical/_style.scss */
-.ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li a.ui-tabs-anchor {
-  min-height: 44px;
-  float: left;
-  text-decoration: none;
-  width: 100%;
-  outline: none;
-  height: 100%;
-  text-align: center;
-  display: table;
-}
-/* line 45, sass/resources/gavetaVertical/_style.scss */
-.ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li a.ui-tabs-anchor span {
-  display: table-cell;
-  vertical-align: middle;
-  font-family: "Exo 2", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  position: relative;
-  font-size: 14px;
-}
-/* line 59, sass/resources/gavetaVertical/_style.scss */
-.ui-tabs.ui-tabs-vertical .ui-tabs-panel {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  border: 1px solid #30317f;
-  display: block;
-  position: relative;
-  top: 0px;
-  right: 0px;
-  bottom: 0;
-  width: auto;
-  z-index: 0;
-  margin-left: -2px;
-  border-width: 0;
-  padding: 20px;
-  background: #fff;
-  margin-top: 4px;
-  line-height: 18px;
-  color: #373838;
-  font-size: 14px;
-  overflow: hidden;
-}
-/* line 82, sass/resources/gavetaVertical/_style.scss */
-.ui-tabs.ui-tabs-vertical .ui-tabs-panel img {
-  margin-top: 20px;
-  width: 100%;
-  margin-bottom: 20px;
-}
-/* line 90, sass/resources/gavetaVertical/_style.scss */
-.ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active {
-  background: #dab463;
-}
-/* line 92, sass/resources/gavetaVertical/_style.scss */
-.ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active:after {
-  content: '';
-  position: absolute;
-  border-style: solid;
-  border-width: 10px 0px 10px 15px;
-  border-color: transparent #dab463;
-  display: block;
-  width: 0;
-  z-index: 1;
-  right: -14px;
-  top: 16px;
-}
-/* line 104, sass/resources/gavetaVertical/_style.scss */
-.ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active span {
-  color: #30317f !important;
-}
-
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
-/* line 3, sass/resources/topicoPersonagem/_style.scss */
-.circleFotoPersonagem {
-  float: left;
-  width: 20%;
-  margin-top: -3.5%;
-  margin-right: 2%;
-}
-
-/* line 10, sass/resources/topicoPersonagem/_style.scss */
-.textoPersonagem {
-  margin-top: 3%;
-  color: #373838;
-  line-height: 24px;
-  font-family: "Exo 2", sans-serif;
-  font-size: 18px !important;
-}
-/* line 18, sass/resources/topicoPersonagem/_style.scss */
-.textoPersonagem p {
-  color: #373838;
-  font-size: 18px !important;
-}
-/* line 27, sass/resources/topicoPersonagem/_style.scss */
-.textoPersonagem h3 {
-  font-size: 18px !important;
-  color: #444;
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
-  }
-}
-/* line 6, sass/resources/popover/_style.scss */
-.btnPopOver {
-  width: 47px;
-  height: 40px;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-bottom: 26px;
-  outline: none;
-  background: transparent;
-  border: none;
-  float: right;
-}
-/* line 17, sass/resources/popover/_style.scss */
-.btnPopOver img {
-  position: relative;
-  top: -1px;
-  left: -6px;
-  width: 34px;
-  height: 32px;
-  width: 32px;
-  border-radius: 6px;
-}
-
-/* line 31, sass/resources/popover/_style.scss */
-.popOverAll {
-  margin-bottom: 40px;
-  width: 100%;
-  height: auto;
-  overflow: auto;
-}
-
-/* line 39, sass/resources/popover/_style.scss */
-.btnModalPopOver {
-  overflow: auto;
-  height: auto;
-}
-/* line 44, sass/resources/popover/_style.scss */
-.btnModalPopOver .btnNegarPopOver {
-  background: #e59888;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #e59888 0%, #de7f6b 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e59888), color-stop(100%, #de7f6b));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #e59888 0%, #de7f6b 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #e59888 0%, #de7f6b 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #e59888 0%, #de7f6b 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #e59888 0%, #de7f6b 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e59888', endColorstr='#de7f6b',GradientType=0 );
-  /* IE6-9 */
-  cursor: pointer;
-  width: 74px;
-  height: 34px;
-  border: 2px solid #c25842;
-  float: right;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  outline: none;
-}
-/* line 62, sass/resources/popover/_style.scss */
-.btnModalPopOver .btnNegarPopOver:hover {
-  background: #e79f91;
-  border: 2px solid #c25842;
-}
-/* line 67, sass/resources/popover/_style.scss */
-.btnModalPopOver .btnNegarPopOver:active {
-  background: #c25842;
-}
-/* line 71, sass/resources/popover/_style.scss */
-.btnModalPopOver .btnNegarPopOver span {
-  font-family: "Exo 2", sans-serif;
-  color: #fff;
-  font-size: 14px;
-  text-align: center;
-}
-/* line 80, sass/resources/popover/_style.scss */
-.btnModalPopOver .btnConfirmarPopOver {
-  background: #3fc4b3;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #3fc4b3 0%, #29ae9d 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3fc4b3), color-stop(100%, #29ae9d));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #3fc4b3 0%, #29ae9d 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #3fc4b3 0%, #29ae9d 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #3fc4b3 0%, #29ae9d 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #3fc4b3 0%, #29ae9d 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3fc4b3', endColorstr='#29ae9d',GradientType=0 );
-  /* IE6-9 */
-  float: right;
-  margin-right: 20px;
-  cursor: pointer;
-  width: 74px;
-  height: 34px;
-  border: 2px solid #199386;
-  outline: none;
-}
-/* line 97, sass/resources/popover/_style.scss */
-.btnModalPopOver .btnConfirmarPopOver:hover {
-  background: #42c6b8;
-  border: 2px solid #1a9384;
-}
-/* line 102, sass/resources/popover/_style.scss */
-.btnModalPopOver .btnConfirmarPopOver:active {
-  background: #1a9384;
-}
-/* line 106, sass/resources/popover/_style.scss */
-.btnModalPopOver .btnConfirmarPopOver span {
-  font-family: "Exo 2", sans-serif;
-  color: #fff;
-  font-size: 14px;
-  text-align: center;
-}
-
-/* line 119, sass/resources/popover/_style.scss */
-.modalPopOver {
-  border: 1px solid #e28f00;
-  border-radius: 5px;
-  -webkit-box-shadow: -1px 4px 0px #eaeaea;
-  -moz-box-shadow: -1px 4px 0px #eaeaea;
-  box-shadow: -1px 4px 0px #eaeaea;
-  display: none;
-  width: 65%;
-  float: right;
-  margin-right: 10px;
-}
-
-/* line 136, sass/resources/popover/_style.scss */
-.textosPopOver {
-  background: #f8aa00;
-  margin: -25px 0px 0px 0px;
-  border-radius: 3px 3px 0px 0px;
-  margin-bottom: 26px;
-}
-/* line 142, sass/resources/popover/_style.scss */
-.textosPopOver h1 {
-  font-family: "Exo 2", sans-serif;
-  color: #fff;
-  font-size: 2.2em;
-  padding-left: 30px;
-  padding-top: 20px;
-  padding-right: 30px;
-  padding-bottom: 40px;
-}
-/* line 153, sass/resources/popover/_style.scss */
-.textosPopOver p {
-  font-family: "Exo 2", sans-serif;
-  color: #fff;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 0px;
-  position: relative;
-  top: -55px;
-  /* padding-top: 30px; */
-}
-
-/* line 1, sass/resources/primeiroPlano/_style.scss */
-#modal {
-  display: none;
-}
-
-/* line 6, sass/resources/primeiroPlano/_style.scss */
-.primeiroPlano {
-  top: 150px;
-  left: 238px;
-  right: 238px;
-  height: auto;
-  overflow: auto;
-  position: fixed;
-  background: #ffffff;
-}
-/* line 17, sass/resources/primeiroPlano/_style.scss */
-.primeiroPlano .texto .modalContent .wrapper {
-  width: 100%;
-  max-width: 100%;
-}
-
-/* line 28, sass/resources/primeiroPlano/_style.scss */
-#modalContent {
-  position: relative;
-  padding: 40px;
-  background: #eaeaea;
-}
-
-/* line 34, sass/resources/primeiroPlano/_style.scss */
-.headerModal {
-  width: 100%;
-  height: 49px;
-  background: #f59c00;
-}
-
-/* line 42, sass/resources/primeiroPlano/_style.scss */
-.tituloModal {
-  padding: 12px 30px 12px 30px;
-  font-size: 23px;
-  color: #ffffff;
-  font-weight: bold;
-  font-family: "Exo 2", sans-serif;
-}
-
-/* line 50, sass/resources/primeiroPlano/_style.scss */
-.btnFechar {
-  position: absolute;
-  height: 21px;
-  width: 21px;
-  padding: 2px;
-  cursor: pointer;
-  right: 21px;
-  top: -10px;
-  background: none;
-  padding: 0px;
-  z-index: 2;
-}
-/* line 63, sass/resources/primeiroPlano/_style.scss */
-.btnFechar span {
-  font-size: 47px;
-  color: #ffffff;
-  font-family: 'Entypo';
-}
-
-/* line 74, sass/resources/primeiroPlano/_style.scss */
-#modalContent p {
-  padding-left: 60px;
-  padding-right: 67px;
-  padding-bottom: 10px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16pt;
-  color: #383737;
-  line-height: 46px;
-}
-
-@media only screen and (max-width: 1000px) {
-  /* line 89, sass/resources/primeiroPlano/_style.scss */
-  .primeiroPlano {
-    position: absolute;
-    left: 14.8%;
-    right: 14.8%;
-  }
-}
-@media only screen and (max-width: 900px) {
-  /* line 103, sass/resources/primeiroPlano/_style.scss */
-  .primeiroPlano {
-    position: absolute;
-    left: 10.8%;
-    right: 10.8%;
-  }
-}
-@media only screen and (max-width: 850px) {
-  /* line 116, sass/resources/primeiroPlano/_style.scss */
-  .primeiroPlano {
-    position: absolute;
-    top: 8.2%;
-    left: 8%;
-    right: 8%;
-  }
-}
-@media only screen and (max-width: 750px) {
-  /* line 128, sass/resources/primeiroPlano/_style.scss */
-  .primeiroPlano {
-    position: absolute;
-    top: 8.2%;
-    left: 8.8%;
-    right: 8.8%;
-  }
-}
-@media only screen and (max-width: 430px) {
-  /* line 139, sass/resources/primeiroPlano/_style.scss */
-  .primeiroPlano {
-    position: absolute;
-    top: 8.2%;
-    left: 5.8%;
-    right: 5.8%;
-  }
-}
-@media only screen and (max-width: 320px) {
-  /* line 150, sass/resources/primeiroPlano/_style.scss */
-  .primeiroPlano {
-    position: absolute;
-    top: 8.2%;
-    left: 3.8%;
-    right: 3.8%;
-  }
-}
-@media only screen and (max-width: 220px) {
-  /* line 162, sass/resources/primeiroPlano/_style.scss */
-  .primeiroPlano {
-    position: absolute;
-    top: 8.2%;
-    left: 1.8%;
-    right: 1.8%;
-  }
-}
-@media only screen and (max-width: 150px) {
-  /* line 174, sass/resources/primeiroPlano/_style.scss */
-  .primeiroPlano {
-    position: absolute;
-    top: 8.2%;
-    left: 0.8%;
-    right: 0.8%;
-  }
-}
-@media only screen and (max-width: 100px) {
-  /* line 184, sass/resources/primeiroPlano/_style.scss */
-  .primeiroPlano {
-    position: absolute;
-    top: 8.2%;
-  }
-}
-/* line 193, sass/resources/primeiroPlano/_style.scss */
-.botaoPP {
-  background: #dab463;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #dab463 0%, #debc73 50%, #d8b05b 40%, #d6ac53 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(#dab463 0%), color-stop(#debc73 50%), color-stop(#d8b05b 40%), color-stop(#d6ac53 100%));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #dab463 0%, #debc73 50%, #d8b05b 40%, #d6ac53 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #dab463 0%, #debc73 50%, #d8b05b 40%, #d6ac53 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #dab463 0%, #debc73 50%, #d8b05b 40%, #d6ac53 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #dab463 0%, #debc73 50%, #d8b05b 40%, #d6ac53 100%);
-  /* W3C */
-  -pie-background: linear-gradient(#debc73, #dab463);
-  -webkit-box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  z-index: 10;
-  cursor: pointer;
-  font-family: OpenSansRegular, sans-serif;
-  behavior: url(PIE.htc);
-}
-/* line 202, sass/resources/primeiroPlano/_style.scss */
-.botaoPP:hover {
-  background: #d6ac53;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #dab463 0%, #d8b05b 50%, #debc73 30%, #dab463 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(#dab463 0%), color-stop(#d8b05b 50%), color-stop(#debc73 30%), color-stop(#dab463 100%));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #dab463 0%, #d8b05b 50%, #debc73 30%, #dab463 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #dab463 0%, #d8b05b 50%, #debc73 30%, #dab463 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #dab463 0%, #d8b05b 50%, #debc73 30%, #dab463 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #dab463 0%, #d8b05b 50%, #debc73 30%, #dab463 100%);
-  /* W3C */
-  -pie-background: linear-gradient(#d8b05b, #d6ac53);
-}
-/* line 205, sass/resources/primeiroPlano/_style.scss */
-.botaoPP:active {
-  -webkit-box-shadow: inset 4px 3px 4px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: inset 4px 3px 4px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 4px 3px 4px rgba(0, 0, 0, 0.5);
-}
-
-/* line 210, sass/resources/primeiroPlano/_style.scss */
-.resource .botaoPP {
-  background: #dab463;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #dab463 0%, #debc73 50%, #d8b05b 40%, #d6ac53 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(#dab463 0%), color-stop(#debc73 50%), color-stop(#d8b05b 40%), color-stop(#d6ac53 100%));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #dab463 0%, #debc73 50%, #d8b05b 40%, #d6ac53 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #dab463 0%, #debc73 50%, #d8b05b 40%, #d6ac53 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #dab463 0%, #debc73 50%, #d8b05b 40%, #d6ac53 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #dab463 0%, #debc73 50%, #d8b05b 40%, #d6ac53 100%);
-  /* W3C */
-  -pie-background: linear-gradient(#debc73, #dab463);
-}
-/* line 212, sass/resources/primeiroPlano/_style.scss */
-.resource .botaoPP:hover {
-  background: #dab463;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #dab463 0%, #debc73 50%, #d8b05b 40%, #d6ac53 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(#dab463 0%), color-stop(#debc73 50%), color-stop(#d8b05b 40%), color-stop(#d6ac53 100%));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #dab463 0%, #debc73 50%, #d8b05b 40%, #d6ac53 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #dab463 0%, #debc73 50%, #d8b05b 40%, #d6ac53 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #dab463 0%, #debc73 50%, #d8b05b 40%, #d6ac53 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #dab463 0%, #debc73 50%, #d8b05b 40%, #d6ac53 100%);
-  /* W3C */
-  -pie-background: linear-gradient(#debc73, #dab463);
-}
-/* line 215, sass/resources/primeiroPlano/_style.scss */
-.resource .botaoPP:active {
-  -webkit-box-shadow: inset 0 0 0 transparent;
-  -moz-box-shadow: inset 0 0 0 transparent;
-  box-shadow: inset 0 0 0 transparent;
-  -webkit-box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
-}
-
-/* line 221, sass/resources/primeiroPlano/_style.scss */
-.btnSmallCircle {
-  height: 25px;
-  width: 25px;
-}
-/* line 224, sass/resources/primeiroPlano/_style.scss */
-.btnSmallCircle strong {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -7px;
-  margin-left: -4px;
-  display: block;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: bold;
-}
-/* line 239, sass/resources/primeiroPlano/_style.scss */
-.btnSmallCircle .tagP {
-  display: none;
-}
-/* line 243, sass/resources/primeiroPlano/_style.scss */
-.btnSmallCircle .plus:after {
-  content: '';
-  position: absolute;
-  background: url("assets/images/icons-s590e5db6d4.png") no-repeat -24px -806px;
-  height: 10px;
-  width: 4px;
-  top: 8px;
-  left: 11px;
-  border-radius: 30%;
-  background: #ffffff;
-}
-/* line 254, sass/resources/primeiroPlano/_style.scss */
-.btnSmallCircle .plus:before {
-  content: '';
-  position: absolute;
-  background: url("assets/images/icons-s590e5db6d4.png") no-repeat -24px -806px;
-  height: 4px;
-  width: 10px;
-  top: 11px;
-  left: 8px;
-  border-radius: 30%;
-  background: #ffffff;
-}
-
-/* line 268, sass/resources/primeiroPlano/_style.scss */
-.btnMediumCircle {
-  height: 50px;
-  width: 50px;
-}
-/* line 271, sass/resources/primeiroPlano/_style.scss */
-.btnMediumCircle strong {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -13px;
-  margin-left: -7px;
-  display: block;
-  color: #ffffff;
-  font-size: 24px;
-  font-weight: bold;
-}
-/* line 286, sass/resources/primeiroPlano/_style.scss */
-.btnMediumCircle .tagP {
-  display: none;
-}
-/* line 290, sass/resources/primeiroPlano/_style.scss */
-.btnMediumCircle .plus:after {
-  content: '';
-  position: absolute;
-  background: url("assets/images/icons-s590e5db6d4.png") no-repeat -24px -806px;
-  height: 24px;
-  width: 6px;
-  top: 50%;
-  left: 50%;
-  margin-left: -3px;
-  margin-top: -12px;
-  border-radius: 30%;
-  background: #ffffff;
-}
-/* line 303, sass/resources/primeiroPlano/_style.scss */
-.btnMediumCircle .plus:before {
-  content: '';
-  position: absolute;
-  background: url("assets/images/icons-s590e5db6d4.png") no-repeat -24px -806px;
-  height: 6px;
-  width: 24px;
-  top: 50%;
-  left: 50%;
-  margin-left: -12px;
-  margin-top: -3px;
-  border-radius: 30%;
-  background: #ffffff;
-}
-
-/* line 319, sass/resources/primeiroPlano/_style.scss */
-.btnRetangle {
-  color: white;
-  cursor: pointer;
-  z-index: 1;
-  width: 170px;
-  height: 70px;
-  font-family: "Exo 2", sans-serif;
-  text-align: center;
-  background: #2793db;
-  border: 1px solid #1a8ad2;
-  background: -moz-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2793db), color-stop(100%, #1e8dd5));
-  background: -webkit-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  background: -o-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  background: -ms-linear-gradient(top, #2793db 0%, #1e8dd5 100%);
-  background: linear-gradient(to bottom, #2793db 0%, #1e8dd5 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2793db', endColorstr='#1e8dd5',GradientType=0 );
-}
-/* line 339, sass/resources/primeiroPlano/_style.scss */
-.btnRetangle:hover {
-  background: #0ba4e7;
-}
-/* line 343, sass/resources/primeiroPlano/_style.scss */
-.btnRetangle:active {
-  background: #216ad0;
-}
-/* line 346, sass/resources/primeiroPlano/_style.scss */
-.btnRetangle .btnPPRight {
-  height: 56px;
-  vertical-align: middle;
-  display: table-cell;
-}
-/* line 350, sass/resources/primeiroPlano/_style.scss */
-.btnRetangle .btnPPRight .tagP {
-  text-align: center;
-  font-size: 16px;
-  color: white;
-  font-family: "Exo 2", sans-serif;
-  margin: -9px 0px 0px 36px;
-  color: #ffffff;
-}
-
 /* line 1, sass/resources/texto/_style.scss */
 .textoSolto {
   margin-bottom: 40px;
@@ -5209,17 +3347,133 @@ input[type="radio"]:checked + label {
 /* line 2, sass/resources/revelar/_style.scss */
 .content .revelar {
   position: relative;
-  height: 100px;
-  background: #2793db;
-  border: 2px solid #2188ce;
   color: #FFFFFF;
   padding: 0;
 }
-/* line 10, sass/resources/revelar/_style.scss */
-.content .revelar .dropdown-toggle {
-  display: block;
-  width: 100%;
+/* line 8, sass/resources/revelar/_style.scss */
+.content .revelar .contentCapa, .content .revelar .tagP {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  position: absolute;
   height: 100%;
+  width: 100%;
+  display: table;
+  text-align: center;
+  background: #30317f;
+  border: 5px solid #dadae8;
+}
+/* line 17, sass/resources/revelar/_style.scss */
+.content .revelar .contentCapa span, .content .revelar .tagP span {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 23, sass/resources/revelar/_style.scss */
+.content .revelar .clickType, .content .revelar .hoverType {
+  height: 100%;
+  width: 100%;
+}
+/* line 30, sass/resources/revelar/_style.scss */
+.content .revelar .dropDownType {
+  display: none;
+}
+/* line 32, sass/resources/revelar/_style.scss */
+.content .revelar .dropDownType .boxTitle {
+  position: relative;
+  height: 51px;
+  width: 100%;
+}
+/* line 37, sass/resources/revelar/_style.scss */
+.content .revelar .dropDownType .boxTitle .openCloseIcon {
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  background: #30317f;
+  height: 100%;
+  width: 50px;
+  float: left;
+  border-right: 3px solid #FFFFFF;
+}
+/* line 47, sass/resources/revelar/_style.scss */
+.content .revelar .dropDownType .boxTitle a.dropdown-toggle {
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  width: -moz-calc(100% - 50px);
+  width: -webkit-calc(100% - 50px);
+  width: calc(100% - 50px);
+  display: block;
+  height: 100%;
+  background: #30317f;
+  text-align: center;
+  padding-top: 15px;
+}
+/* line 60, sass/resources/revelar/_style.scss */
+.content .revelar .dropDownType .boxTitle a.dropdown-toggle span {
+  color: #FFFFFF;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+}
+/* line 69, sass/resources/revelar/_style.scss */
+.content .revelar .dropDownType .boxTitle .dropdown-menu {
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  background-clip: padding-box;
+  width: -moz-calc(100% - 50px);
+  width: -webkit-calc(100% - 50px);
+  width: calc(100% - 50px);
+  background: #d6d6e5;
+  box-shadow: none;
+  border: none;
+  margin-top: 5px;
+}
+/* line 78, sass/resources/revelar/_style.scss */
+.content .revelar .dropDownType .boxTitle .dropdown-menu a:hover {
+  background: none;
+}
+/* line 86, sass/resources/revelar/_style.scss */
+.content .revelar .clickType {
+  display: none;
+}
+/* line 91, sass/resources/revelar/_style.scss */
+.content .revelar.click .clickType {
+  display: none;
+}
+/* line 93, sass/resources/revelar/_style.scss */
+.content .revelar.click .clickType .tagP {
+  display: none;
+}
+/* line 100, sass/resources/revelar/_style.scss */
+.content .revelar.click.clicked .clickType .contentCapa {
+  display: none;
+}
+/* line 103, sass/resources/revelar/_style.scss */
+.content .revelar.click.clicked .clickType .tagP {
+  display: block;
+}
+/* line 111, sass/resources/revelar/_style.scss */
+.content .revelar .hoverType {
+  display: none;
+}
+/* line 116, sass/resources/revelar/_style.scss */
+.content .revelar.hover .hoverType {
+  display: none;
+}
+/* line 118, sass/resources/revelar/_style.scss */
+.content .revelar.hover .hoverType .tagP {
+  display: none;
+}
+/* line 125, sass/resources/revelar/_style.scss */
+.content .revelar.hover.hovered .hoverType .contentCapa {
+  display: none;
+}
+/* line 128, sass/resources/revelar/_style.scss */
+.content .revelar.hover.hovered .hoverType .tagP {
+  display: block;
 }
 
 /* line 1, sass/resources/backgroundScroll/_style.scss */

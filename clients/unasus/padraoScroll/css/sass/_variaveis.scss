@@ -11,6 +11,7 @@ $active: $normal;
 $selected: $hover;
 $visited: #e9d2a1;
 $disabled: #ccc6bc;
+$fundoRevelar: #d6d6e5;
 
 @function fontColor() {
   @if $rgb/3 > 178{

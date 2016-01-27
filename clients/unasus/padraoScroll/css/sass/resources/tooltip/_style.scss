@@ -6,16 +6,12 @@
   overflow: hidden;
   max-width: 400px;
   cursor:pointer;
-
-
 }
 
 
 .tooltipster-default .tooltipster-arrow .tooltipster-arrow-border {
   /* border-color: ... !important; */
 }
-
-
 
 .tooltipster-icon {
   cursor: help;
@@ -50,6 +46,9 @@
   top: 0;
   left: 0;
   z-index: -1;
+  span{
+    border-color: $normal !important;
+  }
 }
 .tooltipster-arrow span, .tooltipster-arrow-border {
   display: block;
@@ -271,8 +270,7 @@
 
 }
 .toolTipglossario{
-
-  background: #e4e4e4;
+  background: #FFFFFF;
   color: #fff;
   border-radius: 0 0 3px 3px;
 
@@ -320,7 +318,7 @@
     top: 0;
     z-index: -1;
     left: 0;
-    background: $laranja;
+    background: $normal;
     border-radius: 3px 3px 0 0;
     font-size: 18px;
   }

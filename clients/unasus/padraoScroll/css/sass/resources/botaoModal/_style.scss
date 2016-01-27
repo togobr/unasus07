@@ -11,49 +11,120 @@
 
 
 
-// ---------------------------------------------------------Botões Modal -----------------------------------------------------------------
-.botaoModal{
-	background: #2793db;
-	&:hover{
-		background: #0ba4e7;
-	}
-
-	&:active {
-		background: #216ad0;
-	}
-}
-
-// --------------------------------------------------------Conteudo modal---------------------------------------------------------------
-
-.tituloPrimeiroPlano{
-  padding: 15px 20px;
-  font:{
-    size: 16px;
-    weight: bold;
-  }
+#modal{
+  display: none;
 }
 
 
-.ppPequeno{
-    width: 40%;
-    h2{
-      width: 220px;
+.primeiroPlano{
+  top: 15%;
+  left: 15%;
+  right: 15%;
+  bottom: 15%;
+  overflow: auto;
+  position: fixed;
+    background: #ffffff;
+    .texto{
+      .modalContent{
+      
+        .wrapper{
+          width: 100%;
+          max-width: 100%;
+      }
+      
     }
+
+    }
+    
 }
 
-.ppMedio{
-    width: 60%;
-    h2{
-      width: 517px;
-    }
+#modalContent {
+  position: relative;
+  padding: 40px;
 }
 
-.ppGrande{
-    width: 80%;
-    h2{
-      width: 80%;
-    }
-    .textoPrimeiroPlano{
-        padding: 30px;
-    }
+.headerModal{
+    width: 100%;
+    height: 49px;
 }
+
+
+
+.tituloModal{
+  padding: 12px 30px 12px 30px;
+  font-size: 23px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: $fonteExo;
+}
+
+.btnFechar{
+  position: absolute;
+  height: 21px;
+  width: 21px;
+  padding: 2px;
+  cursor: pointer;
+  right: 21px;
+  top: -10px;
+  background: none;
+  padding: 0px;
+  z-index: 2;
+  
+
+    span{
+      font-size: 47px;
+      color: #000000;
+      font-family: 'Entypo';
+
+    }
+  
+}
+
+
+
+#modalContent p{
+  padding-left: 60px;
+  padding-right: 67px;
+  padding-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16pt;
+  color: #383737;
+  line-height: 46px;
+}
+
+
+
+//---------
+
+.btnRetangle{
+    @include border-radius(5px);
+    color: white;
+    cursor: pointer;
+    z-index: 1;
+    height: 70px;
+    font-family: $fonteExo;
+    text-align: center;
+    background: $normal;
+    display: table;
+    &:hover{
+        background: $hover;
+        .tagP{
+            color: $normal;
+        }
+    }
+    &:active {
+        background: $active;
+        border: 3px solid rgba(0, 0, 0, .5);
+        .tagP{
+            color: #FFFFFF;
+        }
+    }
+    
+    .tagP{
+        display: table-cell;
+        vertical-align: middle;
+        color: #FFFFFF;
+    }
+    
+}
+
