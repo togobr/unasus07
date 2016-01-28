@@ -1,36 +1,42 @@
 .textoSolto{
 	margin-bottom: $entreRecursos;
-	
+	color: #383737;
+	font-size: 16px !important;
+	font-family: $regular;
 	height:auto;
 	overflow:auto;
+
+	p{
+		line-height: normal;
+		color:#373838;
+		font-size: 16px;
+		font-family: $regular;
+	}
+
+	ul, ol{
+		li{
+			margin-top: 7px;
+			margin-bottom: 7px;
+		}
+	}
+
 	.imgEsq{
 		float:left;
 		width: 49%;
 		margin-right: 30px;
-
 	}
 
 	.imgDir{
 		float:right;
 		width: 49%;
 		margin-left: 30px;
-
 	}
 
 	.imgDuasColunas{
 		width: 100%;
 		margin-top: 18px;
 		margin-bottom: 18px;
-
 	}
-
-	p{
-		line-height: normal;
-		color:#373838;
-	font-size: 16px;
-	font-family: $fonteOpenSans;
-
-	}
-
-	
 }
+
+

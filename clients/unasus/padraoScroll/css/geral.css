@@ -1,57 +1,54 @@
 @charset "UTF-8";
 @font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
+  font-family: 'Roboto-Regular';
+  src: url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.woff") format("woff"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.svg#Roboto-Regular") format("svg");
+  font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
+  font-family: 'Roboto-Bold';
+  src: url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.woff") format("woff"), url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.svg#Roboto-Bold") format("svg");
+  font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
+  font-family: 'Roboto-Black';
+  src: url("assets/fonts/roboto/Roboto-Black/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Black/Roboto-Black.woff") format("woff"), url("assets/fonts/roboto/Roboto-Black/Roboto-Black.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Black/Roboto-Black.svg#Roboto-Black") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Italic';
+  src: url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.woff") format("woff"), url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.svg#Roboto-Italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-BoldItalic';
+  src: url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.woff") format("woff"), url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.svg#Roboto-BoldItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-BlackItalic';
+  src: url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.woff") format("woff"), url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.svg#Roboto-BlackItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
+  src: url("assets/fonts/roboto/fontawesome-webfont.eot");
+  src: url("assets/fonts/roboto/fontawesome-webfont.woff") format("woff"), url("assets/fonts/roboto/FontAwesome.otf") format("opentype"), url("assets/fonts/roboto/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
 }
 @font-face {
   font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
+  src: url("assets/fonts/roboto/Exo2-Regular.eot");
+  src: url("assets/fonts/roboto/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
+    src: url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
   }
 }
 /* line 1, ../../../../player/_base/css/sass/general/funcionais.scss */
@@ -590,7 +587,7 @@ replace all occurances of 'vjs-default-skin' with a new name. Then add your new
 skin name to your video tag instead of the default skin.
 e.g. <video class="video-js my-skin-name">
 */
-/* line 13, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 13, sass/utilities/_videojs.scss */
 .vjs-default-skin {
   color: #cccccc;
 }
@@ -611,7 +608,7 @@ The control icons are from a custom font. Each icon corresponds to a character
 --------------------------------------------------------------------------------
 */
 /* Slider - used for Volume bar and Seek bar */
-/* line 32, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 32, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-slider {
   /* Replace browser focus hightlight with handle highlight */
   outline: 0;
@@ -623,7 +620,7 @@ The control icons are from a custom font. Each icon corresponds to a character
   background-color: rgba(51, 51, 51, 0.9);
 }
 
-/* line 42, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 42, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-slider:focus {
   /* box-shadow */
   -webkit-box-shadow: 0 0 2em #ffffff;
@@ -631,7 +628,7 @@ The control icons are from a custom font. Each icon corresponds to a character
   box-shadow: 0 0 2em #ffffff;
 }
 
-/* line 48, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 48, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-slider-handle {
   position: absolute;
   /* Needed for IE6 */
@@ -639,7 +636,7 @@ The control icons are from a custom font. Each icon corresponds to a character
   top: 0;
 }
 
-/* line 54, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 54, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-slider-handle:before {
   content: "\e009";
   font-family: VideoJS;
@@ -663,7 +660,7 @@ The control icons are from a custom font. Each icon corresponds to a character
 --------------------------------------------------------------------------------
 The default control bar that is a container for most of the controls.
 */
-/* line 76, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 76, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-control-bar {
   /* Start hidden */
   display: none;
@@ -682,7 +679,7 @@ The default control bar that is a container for most of the controls.
 }
 
 /* Show the control bar only once the video has started playing */
-/* line 93, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 93, sass/utilities/_videojs.scss */
 .vjs-default-skin.vjs-has-started .vjs-control-bar {
   display: block;
   /* Visibility needed to make sure things hide in older browsers too. */
@@ -696,7 +693,7 @@ The default control bar that is a container for most of the controls.
 }
 
 /* Hide the control bar when the video is playing and the user is inactive  */
-/* line 106, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 106, sass/utilities/_videojs.scss */
 .vjs-default-skin.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
   display: block;
   visibility: hidden;
@@ -708,18 +705,18 @@ The default control bar that is a container for most of the controls.
   transition: visibility 1s, opacity 1s;
 }
 
-/* line 116, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 116, sass/utilities/_videojs.scss */
 .vjs-default-skin.vjs-controls-disabled .vjs-control-bar {
   display: none;
 }
 
-/* line 119, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 119, sass/utilities/_videojs.scss */
 .vjs-default-skin.vjs-using-native-controls .vjs-control-bar {
   display: none;
 }
 
 /* The control bar shouldn't show after an error */
-/* line 123, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 123, sass/utilities/_videojs.scss */
 .vjs-default-skin.vjs-error .vjs-control-bar {
   display: none;
 }
@@ -730,13 +727,13 @@ fonts to show/hide properly.
   - Found in XP IE8 from http://modern.ie. Does not show up in "IE8 mode" in IE9
 */
 @media \0screen {
-  /* line 132, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+  /* line 132, sass/utilities/_videojs.scss */
   .vjs-default-skin.vjs-user-inactive.vjs-playing .vjs-control-bar :before {
     content: "";
   }
 }
 /* General styles for individual controls. */
-/* line 137, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 137, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-control {
   outline: none;
   position: relative;
@@ -749,7 +746,7 @@ fonts to show/hide properly.
 }
 
 /* FontAwsome button icons */
-/* line 148, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 148, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-control:before {
   font-family: VideoJS;
   font-size: 1.5em;
@@ -764,13 +761,13 @@ fonts to show/hide properly.
 }
 
 /* Replacement for focus outline */
-/* line 161, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 161, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-control:focus:before,
 .vjs-default-skin .vjs-control:hover:before {
   text-shadow: 0em 0em 1em #ffffff;
 }
 
-/* line 165, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 165, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-control:focus {
   /*  outline: 0; */
   /* keyboard-only users cannot see the focus on several of the UI elements when
@@ -778,7 +775,7 @@ fonts to show/hide properly.
 }
 
 /* Hide control text visually, but have it available for screenreaders */
-/* line 172, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 172, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-control-text {
   /* hide-visually */
   border: 0;
@@ -794,18 +791,18 @@ fonts to show/hide properly.
 /* Play/Pause
 --------------------------------------------------------------------------------
 */
-/* line 186, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 186, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-play-control {
   width: 5em;
   cursor: pointer;
 }
 
-/* line 190, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 190, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-play-control:before {
   content: "\e001";
 }
 
-/* line 193, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 193, sass/utilities/_videojs.scss */
 .vjs-default-skin.vjs-playing .vjs-play-control:before {
   content: "\e002";
 }
@@ -813,7 +810,7 @@ fonts to show/hide properly.
 /* Playback toggle
 --------------------------------------------------------------------------------
 */
-/* line 199, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 199, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-playback-rate .vjs-playback-rate-value {
   font-size: 1.5em;
   line-height: 2;
@@ -826,7 +823,7 @@ fonts to show/hide properly.
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-/* line 210, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 210, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-playback-rate.vjs-menu-button .vjs-menu .vjs-menu-content {
   width: 4em;
   left: -2em;
@@ -835,56 +832,56 @@ fonts to show/hide properly.
 
 /* Volume/Mute
 -------------------------------------------------------------------------------- */
-/* line 217, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 217, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-mute-control,
 .vjs-default-skin .vjs-volume-menu-button {
   cursor: pointer;
   float: right;
 }
 
-/* line 222, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 222, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-mute-control:before,
 .vjs-default-skin .vjs-volume-menu-button:before {
   content: "\e006";
 }
 
-/* line 226, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 226, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-mute-control.vjs-vol-0:before,
 .vjs-default-skin .vjs-volume-menu-button.vjs-vol-0:before {
   content: "\e003";
 }
 
-/* line 230, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 230, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-mute-control.vjs-vol-1:before,
 .vjs-default-skin .vjs-volume-menu-button.vjs-vol-1:before {
   content: "\e004";
 }
 
-/* line 234, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 234, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-mute-control.vjs-vol-2:before,
 .vjs-default-skin .vjs-volume-menu-button.vjs-vol-2:before {
   content: "\e005";
 }
 
-/* line 238, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 238, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-volume-control {
   width: 5em;
   float: right;
 }
 
-/* line 242, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 242, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-volume-bar {
   width: 5em;
   height: 0.6em;
   margin: 1.1em auto 0;
 }
 
-/* line 247, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 247, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-volume-menu-button .vjs-menu-content {
   height: 2.9em;
 }
 
-/* line 250, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 250, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-volume-level {
   position: absolute;
   top: 0;
@@ -892,10 +889,10 @@ fonts to show/hide properly.
   height: 0.5em;
   /* assuming volume starts at 1.0 */
   width: 100%;
-  background: #66a8cc url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQVQIHWWMAQoAIAgDR/QJ/Ub//04+w7ZICBwcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC) -50% 0 repeat;
+  background: #30317f url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQVQIHWWMAQoAIAgDR/QJ/Ub//04+w7ZICBwcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC) -50% 0 repeat;
 }
 
-/* line 261, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 261, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-volume-bar .vjs-volume-handle {
   width: 0.5em;
   height: 0.5em;
@@ -905,7 +902,7 @@ fonts to show/hide properly.
   left: 4.5em;
 }
 
-/* line 270, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 270, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-volume-handle:before {
   font-size: 0.9em;
   top: -0.2em;
@@ -914,7 +911,7 @@ fonts to show/hide properly.
   height: 1em;
 }
 
-/* line 277, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 277, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-volume-menu-button .vjs-menu .vjs-menu-content {
   width: 6em;
   left: -4em;
@@ -923,7 +920,7 @@ fonts to show/hide properly.
 /* Progress
 --------------------------------------------------------------------------------
 */
-/* line 284, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 284, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-progress-control {
   position: absolute;
   left: 0;
@@ -944,7 +941,7 @@ fonts to show/hide properly.
 /* On hover, make the progress bar grow to something that's more clickable.
     This simply changes the overall font for the progress bar, and this
     updates both the em-based widths and heights, as wells as the icon font */
-/* line 303, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 303, sass/utilities/_videojs.scss */
 .vjs-default-skin:hover .vjs-progress-control {
   font-size: .9em;
   /* Even though we're not changing the top/height, we need to include them in
@@ -957,13 +954,13 @@ fonts to show/hide properly.
 }
 
 /* Box containing play and load progresses. Also acts as seek scrubber. */
-/* line 315, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 315, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-progress-holder {
   height: 100%;
 }
 
 /* Progress Bars */
-/* line 319, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 319, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-progress-holder .vjs-play-progress,
 .vjs-default-skin .vjs-progress-holder .vjs-load-progress,
 .vjs-default-skin .vjs-progress-holder .vjs-load-progress div {
@@ -979,7 +976,7 @@ fonts to show/hide properly.
   top: 0;
 }
 
-/* line 334, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 334, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-play-progress {
   /*
     Using a data URI to create the white diagonal lines with a transparent
@@ -989,10 +986,10 @@ fonts to show/hide properly.
     Also using a paralax effect to make the lines move backwards.
       The -50% left position makes that happen.
   */
-  background: #66a8cc url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQVQIHWWMAQoAIAgDR/QJ/Ub//04+w7ZICBwcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC) -50% 0 repeat;
+  background: #30317f url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQVQIHWWMAQoAIAgDR/QJ/Ub//04+w7ZICBwcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC) -50% 0 repeat;
 }
 
-/* line 346, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 346, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-load-progress {
   background: #646464;
   background: rgba(255, 255, 255, 0.2);
@@ -1000,19 +997,19 @@ fonts to show/hide properly.
 
 /* there are child elements of the load progress bar that represent the
    specific time ranges that have been buffered */
-/* line 352, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 352, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-load-progress div {
   background: #787878;
   background: rgba(255, 255, 255, 0.1);
 }
 
-/* line 356, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 356, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-seek-handle {
   width: 1.5em;
   height: 100%;
 }
 
-/* line 360, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 360, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-seek-handle:before {
   padding-top: 0.1em;
 }
@@ -1020,14 +1017,14 @@ fonts to show/hide properly.
 /* Live Mode
 --------------------------------------------------------------------------------
 */
-/* line 366, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 366, sass/utilities/_videojs.scss */
 .vjs-default-skin.vjs-live .vjs-time-controls,
 .vjs-default-skin.vjs-live .vjs-time-divider,
 .vjs-default-skin.vjs-live .vjs-progress-control {
   display: none;
 }
 
-/* line 371, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 371, sass/utilities/_videojs.scss */
 .vjs-default-skin.vjs-live .vjs-live-display {
   display: block;
 }
@@ -1035,7 +1032,7 @@ fonts to show/hide properly.
 /* Live Display
 --------------------------------------------------------------------------------
 */
-/* line 377, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 377, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-live-display {
   display: none;
   font-size: 1em;
@@ -1045,31 +1042,31 @@ fonts to show/hide properly.
 /* Time Display
 --------------------------------------------------------------------------------
 */
-/* line 385, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 385, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-time-controls {
   font-size: 1em;
   /* Align vertically by making the line height the same as the control bar */
   line-height: 3em;
 }
 
-/* line 390, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 390, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-current-time {
   float: left;
 }
 
-/* line 393, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 393, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-duration {
   float: left;
 }
 
 /* Remaining time is in the HTML, but not included in default design */
-/* line 397, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 397, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-remaining-time {
   display: none;
   float: left;
 }
 
-/* line 401, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 401, sass/utilities/_videojs.scss */
 .vjs-time-divider {
   float: left;
   line-height: 3em;
@@ -1078,20 +1075,20 @@ fonts to show/hide properly.
 /* Fullscreen
 --------------------------------------------------------------------------------
 */
-/* line 408, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 408, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-fullscreen-control {
   width: 3.8em;
   cursor: pointer;
   float: right;
 }
 
-/* line 413, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 413, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-fullscreen-control:before {
   content: "\e000";
 }
 
 /* Switch to the exit icon when the player is in fullscreen */
-/* line 417, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 417, sass/utilities/_videojs.scss */
 .vjs-default-skin.vjs-fullscreen .vjs-fullscreen-control:before {
   content: "\e00b";
 }
@@ -1101,7 +1098,7 @@ fonts to show/hide properly.
 Positioning of the play button in the center or other corners can be done more
 easily in the skin designer. http://designer.videojs.com/
 */
-/* line 425, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 425, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-big-play-button {
   left: 50%;
   top: 50%;
@@ -1138,7 +1135,7 @@ easily in the skin designer. http://designer.videojs.com/
 }
 
 /* Optionally center */
-/* line 460, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 460, sass/utilities/_videojs.scss */
 .vjs-default-skin.vjs-big-play-centered .vjs-big-play-button {
   /* Center it horizontally */
   left: 50%;
@@ -1149,25 +1146,25 @@ easily in the skin designer. http://designer.videojs.com/
 }
 
 /* Hide if controls are disabled */
-/* line 469, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 469, sass/utilities/_videojs.scss */
 .vjs-default-skin.vjs-controls-disabled .vjs-big-play-button {
   display: none;
 }
 
 /* Hide when video starts playing */
-/* line 473, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 473, sass/utilities/_videojs.scss */
 .vjs-default-skin.vjs-has-started .vjs-big-play-button {
   display: none;
 }
 
 /* Hide on mobile devices. Remove when we stop using native controls
     by default on mobile  */
-/* line 478, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 478, sass/utilities/_videojs.scss */
 .vjs-default-skin.vjs-using-native-controls .vjs-big-play-button {
   display: none;
 }
 
-/* line 481, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 481, sass/utilities/_videojs.scss */
 .vjs-default-skin:hover .vjs-big-play-button,
 .vjs-default-skin .vjs-big-play-button:focus {
   outline: 0;
@@ -1186,7 +1183,7 @@ easily in the skin designer. http://designer.videojs.com/
   transition: all 0s;
 }
 
-/* line 498, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 498, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-big-play-button:before {
   content: "\e001";
   font-family: VideoJS;
@@ -1199,7 +1196,7 @@ easily in the skin designer. http://designer.videojs.com/
   height: 100%;
 }
 
-/* line 509, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 509, sass/utilities/_videojs.scss */
 .vjs-error .vjs-big-play-button {
   display: none;
 }
@@ -1210,7 +1207,7 @@ easily in the skin designer. http://designer.videojs.com/
 /* Loading Spinner
 --------------------------------------------------------------------------------
 */
-/* line 562, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 562, sass/utilities/_videojs.scss */
 .vjs-loading-spinner {
   /* Should be hidden by default */
   display: none;
@@ -1227,7 +1224,7 @@ easily in the skin designer. http://designer.videojs.com/
 }
 
 /* Show the spinner when waiting for data and seeking to a new time */
-/* line 577, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 577, sass/utilities/_videojs.scss */
 .vjs-waiting .vjs-loading-spinner,
 .vjs-seeking .vjs-loading-spinner {
   display: block;
@@ -1240,7 +1237,7 @@ easily in the skin designer. http://designer.videojs.com/
 }
 
 /* Errors are unrecoverable without user interaction so hide the spinner */
-/* line 588, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 588, sass/utilities/_videojs.scss */
 .vjs-error .vjs-loading-spinner {
   display: none;
   /* ensure animation doesn't continue while hidden */
@@ -1251,7 +1248,7 @@ easily in the skin designer. http://designer.videojs.com/
   animation: none;
 }
 
-/* line 597, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 597, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-loading-spinner:before {
   content: "\e01e";
   font-family: VideoJS;
@@ -1299,13 +1296,13 @@ easily in the skin designer. http://designer.videojs.com/
 /* Menu Buttons (Captions/Subtitles/etc.)
 --------------------------------------------------------------------------------
 */
-/* line 643, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 643, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-menu-button {
   float: right;
   cursor: pointer;
 }
 
-/* line 647, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 647, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-menu {
   display: none;
   position: absolute;
@@ -1324,7 +1321,7 @@ easily in the skin designer. http://designer.videojs.com/
 }
 
 /* Button Pop-up Menu */
-/* line 667, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 667, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-menu-button .vjs-menu .vjs-menu-content {
   display: block;
   padding: 0;
@@ -1346,12 +1343,12 @@ easily in the skin designer. http://designer.videojs.com/
   box-shadow: -0.2em -0.2em 0.3em rgba(255, 255, 255, 0.2);
 }
 
-/* line 689, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 689, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-menu-button:hover .vjs-menu {
   display: block;
 }
 
-/* line 692, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 692, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-menu-button ul li {
   list-style: none;
   margin: 0;
@@ -1362,12 +1359,12 @@ easily in the skin designer. http://designer.videojs.com/
   text-transform: lowercase;
 }
 
-/* line 701, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 701, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-menu-button ul li.vjs-selected {
   background-color: #000;
 }
 
-/* line 704, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 704, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-menu-button ul li:focus,
 .vjs-default-skin .vjs-menu-button ul li:hover,
 .vjs-default-skin .vjs-menu-button ul li.vjs-selected:focus,
@@ -1383,7 +1380,7 @@ easily in the skin designer. http://designer.videojs.com/
   box-shadow: 0 0 1em #ffffff;
 }
 
-/* line 718, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 718, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-menu-button ul li.vjs-menu-title {
   text-align: center;
   text-transform: uppercase;
@@ -1396,31 +1393,31 @@ easily in the skin designer. http://designer.videojs.com/
 }
 
 /* Subtitles Button */
-/* line 729, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 729, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-subtitles-button:before {
   content: "\e00c";
 }
 
 /* Captions Button */
-/* line 733, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 733, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-captions-button:before {
   content: "\e008";
 }
 
 /* Chapters Button */
-/* line 737, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 737, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-chapters-button:before {
   content: "\e00c";
 }
 
-/* line 740, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 740, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-chapters-button.vjs-menu-button .vjs-menu .vjs-menu-content {
   width: 24em;
   left: -12em;
 }
 
 /* Replacement for focus outline */
-/* line 745, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 745, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-captions-button:focus .vjs-control-content:before,
 .vjs-default-skin .vjs-captions-button:hover .vjs-control-content:before {
   /* box-shadow */
@@ -1441,7 +1438,7 @@ and sets the width and height of the video.
 positioning, use another containing element. Otherwise you risk messing up
 control positioning and full window mode. **
 */
-/* line 764, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 764, sass/utilities/_videojs.scss */
 .video-js {
   position: relative;
   padding: 0;
@@ -1469,7 +1466,7 @@ control positioning and full window mode. **
 
 /* Playback technology elements expand to the width/height of the containing div
     <video> or <object> */
-/* line 797, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 797, sass/utilities/_videojs.scss */
 .video-js .vjs-tech {
   position: absolute;
   top: 0;
@@ -1480,13 +1477,13 @@ control positioning and full window mode. **
 
 /* Fix for Firefox 9 fullscreen (only if it is enabled). Not needed when
    checking fullScreenEnabled. */
-/* line 806, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 806, sass/utilities/_videojs.scss */
 .video-js:-moz-full-screen {
   position: absolute;
 }
 
 /* Fullscreen Styles */
-/* line 810, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 810, sass/utilities/_videojs.scss */
 body.vjs-full-window {
   padding: 0;
   margin: 0;
@@ -1495,7 +1492,7 @@ body.vjs-full-window {
   overflow-y: auto;
 }
 
-/* line 817, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 817, sass/utilities/_videojs.scss */
 .video-js.vjs-fullscreen {
   position: fixed;
   overflow: hidden;
@@ -1510,19 +1507,19 @@ body.vjs-full-window {
   _position: absolute;
 }
 
-/* line 830, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 830, sass/utilities/_videojs.scss */
 .video-js:-webkit-full-screen {
   width: 100% !important;
   height: 100% !important;
 }
 
-/* line 834, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 834, sass/utilities/_videojs.scss */
 .video-js.vjs-fullscreen.vjs-user-inactive {
   cursor: none;
 }
 
 /* Poster Styles */
-/* line 838, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 838, sass/utilities/_videojs.scss */
 .vjs-poster {
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -1535,7 +1532,7 @@ body.vjs-full-window {
   width: 100%;
 }
 
-/* line 849, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 849, sass/utilities/_videojs.scss */
 .vjs-poster img {
   display: block;
   margin: 0 auto;
@@ -1545,14 +1542,14 @@ body.vjs-full-window {
 }
 
 /* Hide the poster when native controls are used otherwise it covers them */
-/* line 857, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 857, sass/utilities/_videojs.scss */
 .video-js.vjs-using-native-controls .vjs-poster {
   display: none;
 }
 
 /* Text Track Styles */
 /* Overall track holder for both captions and subtitles */
-/* line 862, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 862, sass/utilities/_videojs.scss */
 .video-js .vjs-text-track-display {
   text-align: center;
   position: absolute;
@@ -1563,13 +1560,13 @@ body.vjs-full-window {
 }
 
 /* Move captions down when controls aren't being shown */
-/* line 871, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 871, sass/utilities/_videojs.scss */
 .video-js.vjs-user-inactive.vjs-playing .vjs-text-track-display {
   bottom: 1em;
 }
 
 /* Individual tracks */
-/* line 875, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 875, sass/utilities/_videojs.scss */
 .video-js .vjs-text-track {
   display: none;
   font-size: 1.4em;
@@ -1581,28 +1578,28 @@ body.vjs-full-window {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 885, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 885, sass/utilities/_videojs.scss */
 .video-js .vjs-subtitles {
   color: #ffffff;
 }
 
-/* line 888, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 888, sass/utilities/_videojs.scss */
 .video-js .vjs-captions {
   color: #ffcc66;
 }
 
-/* line 891, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 891, sass/utilities/_videojs.scss */
 .vjs-tt-cue {
   display: block;
 }
 
 /* Hide disabled or unsupported controls */
-/* line 895, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 895, sass/utilities/_videojs.scss */
 .vjs-default-skin .vjs-hidden {
   display: none;
 }
 
-/* line 898, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 898, sass/utilities/_videojs.scss */
 .vjs-lock-showing {
   display: block !important;
   opacity: 1;
@@ -1613,7 +1610,7 @@ body.vjs-full-window {
     The .video-js classname on the video tag also isn't considered.
     This optional paragraph inside the video tag can provide a message to users
     about what's required to play video. */
-/* line 907, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 907, sass/utilities/_videojs.scss */
 .vjs-no-js {
   padding: 20px;
   color: #ccc;
@@ -1626,7 +1623,7 @@ body.vjs-full-window {
   margin: 0px auto;
 }
 
-/* line 918, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+/* line 918, sass/utilities/_videojs.scss */
 .vjs-no-js a,
 .vjs-no-js a:visited {
   color: #F4A460;
@@ -1681,7 +1678,7 @@ ul li {
   color: #373838;
   font-size: 16px;
   margin-right: 10px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
 }
 
 /* line 72, sass/main/_main.scss */
@@ -1698,7 +1695,7 @@ ol li {
   color: #373838;
   font-size: 16px;
   margin-right: 10px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
 }
 /* line 86, sass/main/_main.scss */
 ol li:before {
@@ -1739,19 +1736,7 @@ iframe {
   position: absolute;
 }
 
-/* line 131, sass/main/_main.scss */
-.textoSolto {
-  color: #383737;
-  font-size: 16px !important;
-  font-family: "Open Sans", sans-serif;
-}
-/* line 137, sass/main/_main.scss */
-.textoSolto ul li, .textoSolto ol li {
-  margin-top: 7px;
-  margin-bottom: 7px;
-}
-
-/* line 147, sass/main/_main.scss */
+/* line 130, sass/main/_main.scss */
 .content .iframeContent {
   position: fixed;
   width: 100%;
@@ -1761,7 +1746,7 @@ iframe {
   background: #2f2f2f;
   left: 0px;
 }
-/* line 156, sass/main/_main.scss */
+/* line 139, sass/main/_main.scss */
 .content .iframeContent .telaCheiaIframe {
   width: 100%;
   height: 100%;
@@ -1771,7 +1756,7 @@ iframe {
   top: 0px;
   bottom: 0px;
 }
-/* line 166, sass/main/_main.scss */
+/* line 149, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia {
   z-index: 999;
   border: 1px solid #e18f00;
@@ -1801,11 +1786,11 @@ iframe {
   opacity: 0.78;
   top: 1px;
 }
-/* line 198, sass/main/_main.scss */
+/* line 181, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:hover {
   background: #fbaf0b;
 }
-/* line 202, sass/main/_main.scss */
+/* line 185, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:active {
   background: #e28f01;
 }
@@ -2115,7 +2100,7 @@ iframe {
 /* line 264, sass/resources/tooltip/_style.scss */
 .mbTooltipGlossario {
   color: #f59e00;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 1em;
   font-weight: bold;
   cursor: help;
@@ -2129,7 +2114,7 @@ iframe {
 }
 /* line 277, sass/resources/tooltip/_style.scss */
 .toolTipglossario .tooltipster-content {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 14px;
   line-height: 16px;
   padding: 30px 20px;
@@ -2151,7 +2136,7 @@ iframe {
 }
 /* line 304, sass/resources/tooltip/_style.scss */
 .toolTipglossario .palavraDestacada {
-  font-family: "Exo 2", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 18px;
   margin-top: 11px;
   margin-left: 17px;
@@ -2176,7 +2161,7 @@ iframe {
 .mbTooltip {
   text-decoration: underline;
   color: #2b95dd;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   cursor: help;
 }
 
@@ -2197,7 +2182,7 @@ iframe {
 }
 /* line 353, sass/resources/tooltip/_style.scss */
 .toolTipNormal .tooltipster-content {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 14px;
   line-height: 16px;
   padding: 30px 30px;
@@ -2212,7 +2197,7 @@ iframe {
   margin-bottom: 40px;
 }
 
-/* line 15, sass/resources/sanfona/_style.scss */
+/* line 13, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header {
   background: #30317f;
   /* Old browsers */
@@ -2229,7 +2214,7 @@ iframe {
   color: #fff;
   cursor: pointer;
   display: block;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
   height: 40px;
@@ -2238,7 +2223,7 @@ iframe {
   margin-bottom: 1px;
   outline: none;
 }
-/* line 38, sass/resources/sanfona/_style.scss */
+/* line 36, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header .tituloSanfona {
   position: absolute;
   font-size: 14px;
@@ -2246,7 +2231,7 @@ iframe {
   top: 10px;
   left: 50px;
 }
-/* line 45, sass/resources/sanfona/_style.scss */
+/* line 43, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header .icon-acc {
   font-family: 'Entypo';
   font-size: 40px;
@@ -2259,19 +2244,19 @@ iframe {
   top: -11px;
   left: 19px;
 }
-/* line 57, sass/resources/sanfona/_style.scss */
+/* line 55, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header:first-child {
   border-radius: 3px 3px 0 0;
 }
-/* line 62, sass/resources/sanfona/_style.scss */
+/* line 60, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header.ui-accordion-header-active {
   background: #dab463;
 }
-/* line 64, sass/resources/sanfona/_style.scss */
+/* line 62, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header.ui-accordion-header-active span {
   color: #30317f;
 }
-/* line 69, sass/resources/sanfona/_style.scss */
+/* line 67, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content {
   -webkit-border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -2289,12 +2274,12 @@ iframe {
   overflow: hidden;
   margin-top: -2px;
 }
-/* line 83, sass/resources/sanfona/_style.scss */
+/* line 81, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom {
   margin-bottom: 7px;
   overflow: hidden;
 }
-/* line 86, sass/resources/sanfona/_style.scss */
+/* line 84, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom p {
   font-size: 16px !important;
 }
@@ -2314,7 +2299,7 @@ iframe {
 /* line 27, sass/resources/gaveta/_style.scss */
 .tab-vertical li {
   text-decoration: none;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   color: #ffffff;
   padding-left: 15%;
   font-size: 1em;
@@ -2392,7 +2377,7 @@ iframe {
 }
 /* line 96, sass/resources/gaveta/_style.scss */
 .main-tab-vertical p {
-  font-family: "Exo 2", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 0.9em;
 }
 
@@ -2412,58 +2397,55 @@ iframe {
 }
 
 @font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
+  font-family: 'Roboto-Regular';
+  src: url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.woff") format("woff"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.svg#Roboto-Regular") format("svg");
+  font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
+  font-family: 'Roboto-Bold';
+  src: url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.woff") format("woff"), url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.svg#Roboto-Bold") format("svg");
+  font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
+  font-family: 'Roboto-Black';
+  src: url("assets/fonts/roboto/Roboto-Black/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Black/Roboto-Black.woff") format("woff"), url("assets/fonts/roboto/Roboto-Black/Roboto-Black.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Black/Roboto-Black.svg#Roboto-Black") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Italic';
+  src: url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.woff") format("woff"), url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.svg#Roboto-Italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-BoldItalic';
+  src: url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.woff") format("woff"), url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.svg#Roboto-BoldItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-BlackItalic';
+  src: url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.woff") format("woff"), url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.svg#Roboto-BlackItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
+  src: url("assets/fonts/roboto/fontawesome-webfont.eot");
+  src: url("assets/fonts/roboto/fontawesome-webfont.woff") format("woff"), url("assets/fonts/roboto/FontAwesome.otf") format("opentype"), url("assets/fonts/roboto/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
 }
 @font-face {
   font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
+  src: url("assets/fonts/roboto/Exo2-Regular.eot");
+  src: url("assets/fonts/roboto/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
+    src: url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
   }
 }
 /* line 3, sass/resources/caixaDestaque/_style.scss */
@@ -2507,7 +2489,7 @@ iframe {
   position: relative;
   width: 75%;
   height: 100%;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 18px;
   color: #FFFFFF;
   display: table-cell;
@@ -2523,7 +2505,7 @@ iframe {
 
 /* line 53, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.laranja {
-  background: #f59e00;
+  background: #2b95dd;
 }
 
 /* line 1, sass/resources/gavetaHorizontal/_style.scss */
@@ -2566,7 +2548,7 @@ iframe {
 #tabsHor ul.ui-tabs-nav li a span {
   display: table-cell;
   vertical-align: middle;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
@@ -2664,7 +2646,7 @@ iframe {
 .ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li a.ui-tabs-anchor span {
   display: table-cell;
   vertical-align: middle;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-weight: 400;
   color: #FFFFFF;
   position: relative;
@@ -2731,58 +2713,55 @@ iframe {
 }
 
 @font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
+  font-family: 'Roboto-Regular';
+  src: url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.woff") format("woff"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.svg#Roboto-Regular") format("svg");
+  font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
+  font-family: 'Roboto-Bold';
+  src: url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.woff") format("woff"), url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.svg#Roboto-Bold") format("svg");
+  font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
+  font-family: 'Roboto-Black';
+  src: url("assets/fonts/roboto/Roboto-Black/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Black/Roboto-Black.woff") format("woff"), url("assets/fonts/roboto/Roboto-Black/Roboto-Black.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Black/Roboto-Black.svg#Roboto-Black") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Italic';
+  src: url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.woff") format("woff"), url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.svg#Roboto-Italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-BoldItalic';
+  src: url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.woff") format("woff"), url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.svg#Roboto-BoldItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-BlackItalic';
+  src: url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.woff") format("woff"), url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.svg#Roboto-BlackItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
+  src: url("assets/fonts/roboto/fontawesome-webfont.eot");
+  src: url("assets/fonts/roboto/fontawesome-webfont.woff") format("woff"), url("assets/fonts/roboto/FontAwesome.otf") format("opentype"), url("assets/fonts/roboto/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
 }
 @font-face {
   font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
+  src: url("assets/fonts/roboto/Exo2-Regular.eot");
+  src: url("assets/fonts/roboto/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
+    src: url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
   }
 }
 /* line 3, sass/resources/audio/_style.scss */
@@ -2815,58 +2794,55 @@ iframe {
 }
 
 @font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
+  font-family: 'Roboto-Regular';
+  src: url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.woff") format("woff"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.svg#Roboto-Regular") format("svg");
+  font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
+  font-family: 'Roboto-Bold';
+  src: url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.woff") format("woff"), url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.svg#Roboto-Bold") format("svg");
+  font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
+  font-family: 'Roboto-Black';
+  src: url("assets/fonts/roboto/Roboto-Black/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Black/Roboto-Black.woff") format("woff"), url("assets/fonts/roboto/Roboto-Black/Roboto-Black.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Black/Roboto-Black.svg#Roboto-Black") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Italic';
+  src: url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.woff") format("woff"), url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.svg#Roboto-Italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-BoldItalic';
+  src: url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.woff") format("woff"), url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.svg#Roboto-BoldItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-BlackItalic';
+  src: url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.woff") format("woff"), url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.svg#Roboto-BlackItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
+  src: url("assets/fonts/roboto/fontawesome-webfont.eot");
+  src: url("assets/fonts/roboto/fontawesome-webfont.woff") format("woff"), url("assets/fonts/roboto/FontAwesome.otf") format("opentype"), url("assets/fonts/roboto/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
 }
 @font-face {
   font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
+  src: url("assets/fonts/roboto/Exo2-Regular.eot");
+  src: url("assets/fonts/roboto/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
+    src: url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
   }
 }
 /* line 3, sass/resources/captivate/_style.scss */
@@ -3093,58 +3069,55 @@ iframe {
 }
 
 @font-face {
-  font-family: 'OpenSansRegular';
-  src: url("assets/fonts/OpenSans-Regular.eot");
-  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("assets/fonts/OpenSans-Bold.eot");
-  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
-}
-@font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
-}
-@font-face {
-  font-family: 'Entypo-Social';
-  src: url("assets/fonts/entypo-social.eot");
-  src: url("assets/fonts/entypo-social.woff") format("woff"), url("assets/fonts/entypo-social.otf") format("opentype"), url("assets/fonts/entypo-social.svg#entypo-social") format("svg");
-}
-@font-face {
-  font-family: pv-agr-prec;
-  src: url(assets/fonts/pv-agr-prec.eot?od9cwi);
-  src: url(assets/fonts/pv-agr-prec.eot?#iefixod9cwi) format("embedded-opentype"), url(assets/fonts/pv-agr-prec.woff?od9cwi) format("woff"), url(assets/fonts/pv-agr-prec.ttf?od9cwi) format("truetype"), url(../fonts/pv-agr-prec.svg?od9cwi#pv-agr-prec) format("svg");
-  font-weight: 400;
+  font-family: 'Roboto-Regular';
+  src: url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.woff") format("woff"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.svg#Roboto-Regular") format("svg");
+  font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: icomoon;
-  src: url(assets/fonts/icomoon.eot?tpg7s4);
-  src: url(assets/fonts/icomoon.eot?#iefixtpg7s4) format("embedded-opentype"), url(assets/fonts/icomoon.woff?tpg7s4) format("woff"), url(assets/fonts/icomoon.ttf?tpg7s4) format("truetype"), url(../fonts/icomoon.svg?tpg7s4#icomoon) format("svg");
-  font-weight: 400;
+  font-family: 'Roboto-Bold';
+  src: url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.woff") format("woff"), url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Bold/Roboto-Bold.svg#Roboto-Bold") format("svg");
+  font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Entypo';
-  src: url("assets/fonts/entypo.eot");
-  src: url("assets/fonts/entypo.woff") format("woff"), url("assets/fonts/entypo.otf") format("opentype"), url("assets/fonts/entypo.svg#entypo") format("svg");
+  font-family: 'Roboto-Black';
+  src: url("assets/fonts/roboto/Roboto-Black/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Black/Roboto-Black.woff") format("woff"), url("assets/fonts/roboto/Roboto-Black/Roboto-Black.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Black/Roboto-Black.svg#Roboto-Black") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Italic';
+  src: url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.woff") format("woff"), url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Italic/Roboto-Italic.svg#Roboto-Italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-BoldItalic';
+  src: url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.woff") format("woff"), url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-BoldItalic/Roboto-BoldItalic.svg#Roboto-BoldItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-BlackItalic';
+  src: url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.woff") format("woff"), url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-BlackItalic/Roboto-BlackItalic.svg#Roboto-BlackItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: 'Awesome';
-  src: url("assets/fonts/fontawesome-webfont.eot");
-  src: url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/FontAwesome.otf") format("opentype"), url("assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
+  src: url("assets/fonts/roboto/fontawesome-webfont.eot");
+  src: url("assets/fonts/roboto/fontawesome-webfont.woff") format("woff"), url("assets/fonts/roboto/FontAwesome.otf") format("opentype"), url("assets/fonts/roboto/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
 }
 @font-face {
   font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/Exo2-Regular.eot");
-  src: url("assets/fonts/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/Exo2-Regular.svg") format("svg");
+  src: url("assets/fonts/roboto/Exo2-Regular.eot");
+  src: url("assets/fonts/roboto/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/Exo2-Regular.svg") format("svg");
+    src: url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
   }
 }
 /* line 5, sass/resources/botaoModal/_style.scss */
@@ -3195,7 +3168,7 @@ iframe {
   font-size: 23px;
   color: #ffffff;
   font-weight: bold;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
 }
 
 /* line 61, sass/resources/botaoModal/_style.scss */
@@ -3238,7 +3211,7 @@ iframe {
   cursor: pointer;
   z-index: 1;
   height: 70px;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   text-align: center;
   background: #30317f;
   display: table;
@@ -3315,33 +3288,41 @@ iframe {
 /* line 1, sass/resources/texto/_style.scss */
 .textoSolto {
   margin-bottom: 40px;
+  color: #383737;
+  font-size: 16px !important;
+  font-family: "Roboto-Regular", sans-serif;
   height: auto;
   overflow: auto;
 }
-/* line 6, sass/resources/texto/_style.scss */
+/* line 9, sass/resources/texto/_style.scss */
+.textoSolto p {
+  line-height: normal;
+  color: #373838;
+  font-size: 16px;
+  font-family: "Roboto-Regular", sans-serif;
+}
+/* line 17, sass/resources/texto/_style.scss */
+.textoSolto ul li, .textoSolto ol li {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+/* line 23, sass/resources/texto/_style.scss */
 .textoSolto .imgEsq {
   float: left;
   width: 49%;
   margin-right: 30px;
 }
-/* line 13, sass/resources/texto/_style.scss */
+/* line 29, sass/resources/texto/_style.scss */
 .textoSolto .imgDir {
   float: right;
   width: 49%;
   margin-left: 30px;
 }
-/* line 20, sass/resources/texto/_style.scss */
+/* line 35, sass/resources/texto/_style.scss */
 .textoSolto .imgDuasColunas {
   width: 100%;
   margin-top: 18px;
   margin-bottom: 18px;
-}
-/* line 27, sass/resources/texto/_style.scss */
-.textoSolto p {
-  line-height: normal;
-  color: #373838;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
 }
 
 /* line 2, sass/resources/revelar/_style.scss */

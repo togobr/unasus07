@@ -262,8 +262,8 @@
 
 
 .mbTooltipGlossario{
-  color:$laranja;
-  font-family: $fonteOpenSans;
+  color:#f59e00;
+  font-family: $regular;
   font-size:1em;
   font-weight: bold;
   cursor:help;
@@ -276,7 +276,7 @@
 
   .tooltipster-content{
 
-    font-family: $fonteOpenSans;
+    font-family: $regular;
     font-size: 14px;
     line-height: 16px;
     padding: 30px 20px;
@@ -296,13 +296,13 @@
   top: 4px;
   right: 10px;
   font-size: 2.2em;
-  color:darken($laranja,10%);
+  color:darken(#f59e00,10%);
 
 
   }
 
   .palavraDestacada{
-    font-family: $fonteExo;
+    font-family: $regular;
     font-size: 18px;
     margin-top: 11px;
     margin-left: 17px;
@@ -328,8 +328,8 @@
 
 .mbTooltip{
   text-decoration: underline;
-  color:$azul;
-  font-family: $fonteOpenSans;
+  color:#2b95dd;
+  font-family: $regular;
   cursor:help;
 
 
@@ -337,7 +337,7 @@
 
 .toolTipNormal{
 
-  background: $azul;
+  background: #2b95dd;
   text-align: center;
    border-radius:4px;
 
@@ -347,11 +347,11 @@
     top: -3px;
     right: 10px;
     font-size: 2.2em;
-    color:darken($azul,10%);
+    color:darken(#2b95dd,10%);
   }
 
   .tooltipster-content {
-    font-family: $fonteOpenSans;
+    font-family: $regular;
     font-size: 14px;
     line-height: 16px;
     padding: 30px 30px;

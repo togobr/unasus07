@@ -64,7 +64,7 @@ ul{
 				color: #373838;
 				font-size: 16px;
 				margin-right: 10px;
-				font-family: $fonteOpenSans;
+				font-family: $regular;
 		}
 }
 
@@ -82,11 +82,11 @@ ol{
 			color: #373838;
 			font-size: 16px;
 			margin-right: 10px;
-			font-family: $fonteOpenSans;
+			font-family: $regular;
 		&:before{
 			font-weight: bold;
 			margin-right: 6px;
-			color: $laranja;
+			color: #f59e00;
 			content: counter(ol-counter)".";
 			counter-increment: ol-counter;
 			
@@ -124,23 +124,6 @@ ol{
 	position: absolute;
 }  				
  	  					
-				
-
-
-
-.textoSolto{
-color: #383737;
-font-size: 16px !important;
-font-family: "Open Sans", sans-serif;
-
-		ul, ol{
-			li{
-				margin-top: 7px;
-				margin-bottom: 7px;
-			}
-		}
-
-}
 
 .content{
 
