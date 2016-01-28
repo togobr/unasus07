@@ -2459,8 +2459,8 @@ iframe {
   content: "";
   position: absolute;
   right: 0;
-  height: 50%;
-  top: 25%;
+  top: 14%;
+  bottom: 14%;
   width: 2px;
   background: #FFFFFF;
 }
@@ -2470,20 +2470,20 @@ iframe {
   width: 75%;
   height: 100%;
   font-family: "Roboto-Regular", sans-serif;
-  font-size: 18px;
+  font-size: 1.6em;
   color: #FFFFFF;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
   padding: 20px;
 }
-/* line 46, sass/resources/caixaDestaque/_style.scss */
+/* line 47, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque .contentDestaque p {
   width: 100%;
   margin: 0;
 }
 
-/* line 53, sass/resources/caixaDestaque/_style.scss */
+/* line 54, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.laranja {
   background: #2b95dd;
 }
