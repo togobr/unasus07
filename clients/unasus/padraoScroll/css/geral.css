@@ -1632,9 +1632,10 @@ body {
   overflow-y: visible;
   padding-left: 10%;
   padding-right: 10%;
+  font-size: 10px !important;
 }
 
-/* line 9, sass/main/_main.scss */
+/* line 10, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -1647,24 +1648,24 @@ body {
   border: none;
   border-bottom: 1px solid #FFFFFF;
 }
-/* line 18, sass/main/_main.scss */
+/* line 19, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav {
   float: right;
 }
 
-/* line 24, sass/main/_main.scss */
+/* line 25, sass/main/_main.scss */
 .content.container-fluid {
   max-width: 1021px;
   padding: 0;
   padding-top: 100px;
 }
 
-/* line 57, sass/main/_main.scss */
+/* line 58, sass/main/_main.scss */
 ul {
   list-style-image: url(assets/images/bullet.png);
   counter-reset: section;
 }
-/* line 60, sass/main/_main.scss */
+/* line 61, sass/main/_main.scss */
 ul li {
   background-position: 0px 100%;
   padding-left: 5px;
@@ -1675,13 +1676,13 @@ ul li {
   font-family: "Roboto-Regular", sans-serif;
 }
 
-/* line 72, sass/main/_main.scss */
+/* line 73, sass/main/_main.scss */
 ol {
   list-style-type: none;
   counter-reset: ol-counter;
   padding: 0;
 }
-/* line 77, sass/main/_main.scss */
+/* line 78, sass/main/_main.scss */
 ol li {
   background-position: 0px 100%;
   padding-left: 25px;
@@ -1691,7 +1692,7 @@ ol li {
   margin-right: 10px;
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 86, sass/main/_main.scss */
+/* line 87, sass/main/_main.scss */
 ol li:before {
   font-weight: bold;
   margin-right: 6px;
@@ -1700,7 +1701,7 @@ ol li:before {
   counter-increment: ol-counter;
 }
 
-/* line 101, sass/main/_main.scss */
+/* line 102, sass/main/_main.scss */
 .wrapper {
   height: auto;
   margin: 0 auto;
@@ -1708,29 +1709,29 @@ ol li:before {
   position: relative;
 }
 
-/* line 108, sass/main/_main.scss */
+/* line 109, sass/main/_main.scss */
 .wrapperMargin {
   margin-bottom: 40px;
 }
 
-/* line 113, sass/main/_main.scss */
+/* line 114, sass/main/_main.scss */
 .hiddenAnimate {
   opacity: 0;
 }
 
-/* line 116, sass/main/_main.scss */
+/* line 117, sass/main/_main.scss */
 .visible {
   opacity: 1;
 }
 
-/* line 121, sass/main/_main.scss */
+/* line 122, sass/main/_main.scss */
 iframe {
   width: 100%;
   height: 100%;
   position: absolute;
 }
 
-/* line 130, sass/main/_main.scss */
+/* line 131, sass/main/_main.scss */
 .content .iframeContent {
   position: fixed;
   width: 100%;
@@ -1740,7 +1741,7 @@ iframe {
   background: #2f2f2f;
   left: 0px;
 }
-/* line 139, sass/main/_main.scss */
+/* line 140, sass/main/_main.scss */
 .content .iframeContent .telaCheiaIframe {
   width: 100%;
   height: 100%;
@@ -1750,7 +1751,7 @@ iframe {
   top: 0px;
   bottom: 0px;
 }
-/* line 149, sass/main/_main.scss */
+/* line 150, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia {
   z-index: 999;
   border: 1px solid #e18f00;
@@ -1780,11 +1781,11 @@ iframe {
   opacity: 0.78;
   top: 1px;
 }
-/* line 181, sass/main/_main.scss */
+/* line 182, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:hover {
   background: #fbaf0b;
 }
-/* line 185, sass/main/_main.scss */
+/* line 186, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:active {
   background: #e28f01;
 }
@@ -2467,8 +2468,8 @@ iframe {
   content: "";
   position: absolute;
   right: 0;
-  height: 50%;
-  top: 25%;
+  top: 14%;
+  bottom: 14%;
   width: 2px;
   background: #FFFFFF;
 }
@@ -2478,20 +2479,20 @@ iframe {
   width: 75%;
   height: 100%;
   font-family: "Roboto-Regular", sans-serif;
-  font-size: 18px;
+  font-size: 1.6em;
   color: #FFFFFF;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
   padding: 20px;
 }
-/* line 46, sass/resources/caixaDestaque/_style.scss */
+/* line 47, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque .contentDestaque p {
   width: 100%;
   margin: 0;
 }
 
-/* line 53, sass/resources/caixaDestaque/_style.scss */
+/* line 54, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.laranja {
   background: #2b95dd;
 }
