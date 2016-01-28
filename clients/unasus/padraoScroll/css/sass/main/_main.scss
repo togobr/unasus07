@@ -3,6 +3,7 @@ body{
     overflow-y: visible;
     padding-left: 10%;
     padding-right: 10%;
+    font-size: 10px !important;
 }
 
 .wrapperUnasus{
@@ -28,43 +29,17 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ul{
 	list-style-image:url(assets/images/bullet.png);
 	counter-reset: section;
 		li{
-			 background-position: 0px 100%;
-				padding-left: 5px;
-				line-height: 24px;
-				color: #373838;
-				font-size: 16px;
-				margin-right: 10px;
-				font-family: $regular;
+			background-position: 0px 100%;
+			padding-left: 5px;
+			line-height: 24px;
+			color: #373838;
+			font-size: 16px;
+			margin-right: 10px;
+			font-family: $regular;
 		}
 }
 
