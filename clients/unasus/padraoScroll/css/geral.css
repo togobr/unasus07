@@ -36,20 +36,14 @@
   font-style: normal;
 }
 @font-face {
+  font-family: 'Entypo';
+  src: url("assets/fonts/entypo/entypo.eot");
+  src: url("assets/fonts/entypo/entypo.woff") format("woff"), url("assets/fonts/entypo/entypo.otf") format("opentype"), url("assets/fonts/entypo/entypo.svg#entypo") format("svg");
+}
+@font-face {
   font-family: 'Awesome';
   src: url("assets/fonts/roboto/fontawesome-webfont.eot");
   src: url("assets/fonts/roboto/fontawesome-webfont.woff") format("woff"), url("assets/fonts/roboto/FontAwesome.otf") format("opentype"), url("assets/fonts/roboto/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/roboto/Exo2-Regular.eot");
-  src: url("assets/fonts/roboto/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
-  }
 }
 /* line 1, ../../../../player/_base/css/sass/general/funcionais.scss */
 body {
@@ -2433,20 +2427,14 @@ iframe {
   font-style: normal;
 }
 @font-face {
+  font-family: 'Entypo';
+  src: url("assets/fonts/entypo/entypo.eot");
+  src: url("assets/fonts/entypo/entypo.woff") format("woff"), url("assets/fonts/entypo/entypo.otf") format("opentype"), url("assets/fonts/entypo/entypo.svg#entypo") format("svg");
+}
+@font-face {
   font-family: 'Awesome';
   src: url("assets/fonts/roboto/fontawesome-webfont.eot");
   src: url("assets/fonts/roboto/fontawesome-webfont.woff") format("woff"), url("assets/fonts/roboto/FontAwesome.otf") format("opentype"), url("assets/fonts/roboto/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/roboto/Exo2-Regular.eot");
-  src: url("assets/fonts/roboto/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
-  }
 }
 /* line 3, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque {
@@ -2749,20 +2737,14 @@ iframe {
   font-style: normal;
 }
 @font-face {
+  font-family: 'Entypo';
+  src: url("assets/fonts/entypo/entypo.eot");
+  src: url("assets/fonts/entypo/entypo.woff") format("woff"), url("assets/fonts/entypo/entypo.otf") format("opentype"), url("assets/fonts/entypo/entypo.svg#entypo") format("svg");
+}
+@font-face {
   font-family: 'Awesome';
   src: url("assets/fonts/roboto/fontawesome-webfont.eot");
   src: url("assets/fonts/roboto/fontawesome-webfont.woff") format("woff"), url("assets/fonts/roboto/FontAwesome.otf") format("opentype"), url("assets/fonts/roboto/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/roboto/Exo2-Regular.eot");
-  src: url("assets/fonts/roboto/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
-  }
 }
 /* line 3, sass/resources/audio/_style.scss */
 .audio {
@@ -2830,20 +2812,14 @@ iframe {
   font-style: normal;
 }
 @font-face {
+  font-family: 'Entypo';
+  src: url("assets/fonts/entypo/entypo.eot");
+  src: url("assets/fonts/entypo/entypo.woff") format("woff"), url("assets/fonts/entypo/entypo.otf") format("opentype"), url("assets/fonts/entypo/entypo.svg#entypo") format("svg");
+}
+@font-face {
   font-family: 'Awesome';
   src: url("assets/fonts/roboto/fontawesome-webfont.eot");
   src: url("assets/fonts/roboto/fontawesome-webfont.woff") format("woff"), url("assets/fonts/roboto/FontAwesome.otf") format("opentype"), url("assets/fonts/roboto/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/roboto/Exo2-Regular.eot");
-  src: url("assets/fonts/roboto/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
-  }
 }
 /* line 3, sass/resources/captivate/_style.scss */
 .captivate {
@@ -3105,20 +3081,14 @@ iframe {
   font-style: normal;
 }
 @font-face {
+  font-family: 'Entypo';
+  src: url("assets/fonts/entypo/entypo.eot");
+  src: url("assets/fonts/entypo/entypo.woff") format("woff"), url("assets/fonts/entypo/entypo.otf") format("opentype"), url("assets/fonts/entypo/entypo.svg#entypo") format("svg");
+}
+@font-face {
   font-family: 'Awesome';
   src: url("assets/fonts/roboto/fontawesome-webfont.eot");
   src: url("assets/fonts/roboto/fontawesome-webfont.woff") format("woff"), url("assets/fonts/roboto/FontAwesome.otf") format("opentype"), url("assets/fonts/roboto/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
-}
-@font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url("assets/fonts/roboto/Exo2-Regular.eot");
-  src: url("assets/fonts/roboto/Exo2-Regular.ttf") format("truetype"), url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'Exo 2', sans-serif;
-    src: url("assets/fonts/roboto/Exo2-Regular.svg") format("svg");
-  }
 }
 /* line 5, sass/resources/botaoModal/_style.scss */
 .modal-vertical-centered {

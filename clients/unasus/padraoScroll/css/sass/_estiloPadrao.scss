@@ -62,6 +62,13 @@
     font-style: normal;
 }
 
+ @font-face {
+    font-family: 'Entypo';
+    src: url('assets/fonts/entypo/entypo.eot');
+    src: url('assets/fonts/entypo/entypo.woff') format("woff"),
+        url('assets/fonts/entypo/entypo.otf') format("opentype"),
+        url('assets/fonts/entypo/entypo.svg#entypo') format("svg");
+}
 
 //fonts
 
@@ -82,19 +89,3 @@ $blackItalic: 'Roboto-BlackItalic', sans-serif;
     url('assets/fonts/roboto/fontawesome-webfont.svg#fontawesome-webfont') format("svg");
 }
 
-@font-face {
-font-family: 'Exo 2', sans-serif;
-src: url('assets/fonts/roboto/Exo2-Regular.eot');
-src: url('assets/fonts/roboto/Exo2-Regular.ttf') format("truetype"),
-     url('assets/fonts/roboto/Exo2-Regular.svg') format("svg");
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url('assets/fonts/roboto/Exo2-Regular.svg') format("svg");
-  }
-}
-
-
-$pastaIconPadrao: url('assets/images/icons-s590e5db6d4.png') no-repeat; // Importante saber
