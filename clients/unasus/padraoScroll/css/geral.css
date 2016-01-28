@@ -2523,8 +2523,10 @@ iframe {
   text-align: center;
   width: 100%;
   color: #fff;
+  outline: none;
+  text-decoration: none;
 }
-/* line 30, sass/resources/gavetaHorizontal/_style.scss */
+/* line 32, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav li a span {
   display: table-cell;
   vertical-align: middle;
@@ -2532,11 +2534,11 @@ iframe {
   font-weight: 400;
   font-size: 14px;
 }
-/* line 40, sass/resources/gavetaHorizontal/_style.scss */
+/* line 42, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav .ui-tabs-active {
   background: #dab463;
 }
-/* line 42, sass/resources/gavetaHorizontal/_style.scss */
+/* line 44, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav .ui-tabs-active:after {
   content: '';
   position: absolute;
@@ -2549,7 +2551,7 @@ iframe {
   bottom: -10px;
   left: 44.5%;
 }
-/* line 57, sass/resources/gavetaHorizontal/_style.scss */
+/* line 59, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor .ui-tabs-panel {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2562,12 +2564,12 @@ iframe {
   font-size: 14px;
   width: 99.9%;
 }
-/* line 67, sass/resources/gavetaHorizontal/_style.scss */
+/* line 69, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor .ui-tabs-panel img {
   display: inline-block;
   width: 48%;
 }
-/* line 72, sass/resources/gavetaHorizontal/_style.scss */
+/* line 74, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor .ui-tabs-panel p {
   display: inline-block;
   width: 48%;
@@ -2606,12 +2608,13 @@ iframe {
   padding-left: 0;
   background: #30317f;
   margin-bottom: 5px;
+  font-size: inherit;
 }
-/* line 27, sass/resources/gavetaVertical/_style.scss */
+/* line 28, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li:first-child {
   margin-top: 1px;
 }
-/* line 31, sass/resources/gavetaVertical/_style.scss */
+/* line 32, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li a.ui-tabs-anchor {
   min-height: 44px;
   float: left;
@@ -2622,17 +2625,17 @@ iframe {
   text-align: center;
   display: table;
 }
-/* line 45, sass/resources/gavetaVertical/_style.scss */
+/* line 42, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li a.ui-tabs-anchor span {
   display: table-cell;
   vertical-align: middle;
-  font-family: "Roboto-Regular", sans-serif;
+  font-family: "Roboto-Bold", sans-serif;
   font-weight: 400;
   color: #FFFFFF;
   position: relative;
-  font-size: 14px;
+  font-size: 1.6em;
 }
-/* line 59, sass/resources/gavetaVertical/_style.scss */
+/* line 56, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-panel {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2646,7 +2649,6 @@ iframe {
   width: auto;
   z-index: 0;
   margin-left: -2px;
-  border-width: 0;
   padding: 20px;
   background: #fff;
   margin-top: 4px;
@@ -2655,17 +2657,17 @@ iframe {
   font-size: 14px;
   overflow: hidden;
 }
-/* line 82, sass/resources/gavetaVertical/_style.scss */
+/* line 75, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-panel img {
   margin-top: 20px;
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 90, sass/resources/gavetaVertical/_style.scss */
+/* line 83, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active {
   background: #dab463;
 }
-/* line 92, sass/resources/gavetaVertical/_style.scss */
+/* line 85, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active:after {
   content: '';
   position: absolute;
@@ -2678,7 +2680,7 @@ iframe {
   right: -14px;
   top: 16px;
 }
-/* line 104, sass/resources/gavetaVertical/_style.scss */
+/* line 97, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active span {
   color: #30317f !important;
 }
