@@ -2186,71 +2186,60 @@ iframe {
   cursor: pointer;
 }
 
-/* line 9, sass/resources/sanfona/_style.scss */
+/* line 1, sass/resources/sanfona/_style.scss */
 .sanfona {
   margin-bottom: 40px;
 }
 
-/* line 13, sass/resources/sanfona/_style.scss */
+/* line 5, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header {
-  background: #30317f;
-  /* Old browsers */
-  display: block;
-  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   position: relative;
-  margin-top: 2px;
-  padding: .5em .5em .5em .7em;
-  min-height: 0;
-  /* support: IE7 */
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: block;
-  font-family: "Roboto-Regular", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
+  background: #30317f;
+  width: 100%;
   height: 40px;
+  display: table;
+  cursor: pointer;
+  margin-top: 2px;
+  color: #FFFFFF;
+  cursor: pointer;
   position: relative;
   z-index: 1;
   margin-bottom: 1px;
   outline: none;
 }
-/* line 36, sass/resources/sanfona/_style.scss */
+/* line 20, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header .tituloSanfona {
-  position: absolute;
+  position: relative;
+  left: 20px;
+  font-family: "Roboto-Bold", sans-serif;
   font-size: 14px;
-  font-weight: 400;
-  top: 10px;
-  left: 50px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 30px;
 }
-/* line 43, sass/resources/sanfona/_style.scss */
+/* line 29, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header .icon-acc {
+  position: relative;
+  left: 8px;
+  display: table-cell;
+  vertical-align: middle;
   font-family: 'Entypo';
   font-size: 40px;
-  /* position: absolute; */
-  /* top: 0; */
-  /* left: 17px; */
-  /* line-height: 19px; */
-  padding-top: -81px;
-  position: absolute;
-  top: -11px;
-  left: 19px;
+  padding-left: 8px;
+  width: 20px;
 }
-/* line 55, sass/resources/sanfona/_style.scss */
-.ui-accordion .ui-accordion-header:first-child {
-  border-radius: 3px 3px 0 0;
-}
-/* line 60, sass/resources/sanfona/_style.scss */
+/* line 41, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header.ui-accordion-header-active {
   background: #dab463;
 }
-/* line 62, sass/resources/sanfona/_style.scss */
+/* line 43, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header.ui-accordion-header-active span {
   color: #30317f;
 }
-/* line 67, sass/resources/sanfona/_style.scss */
+/* line 48, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content {
   -webkit-border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -2268,12 +2257,12 @@ iframe {
   overflow: hidden;
   margin-top: -2px;
 }
-/* line 81, sass/resources/sanfona/_style.scss */
+/* line 62, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom {
   margin-bottom: 7px;
   overflow: hidden;
 }
-/* line 84, sass/resources/sanfona/_style.scss */
+/* line 65, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom p {
   font-size: 16px !important;
 }
