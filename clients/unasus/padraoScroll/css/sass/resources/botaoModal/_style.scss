@@ -17,13 +17,16 @@
 
 
 .primeiroPlano{
-  top: 15%;
-  left: 15%;
-  right: 15%;
-  bottom: 15%;
+  // top: 15%;
+  // left: 15%;
+  // right: 15%;
+  // bottom: 15%;
   overflow: auto;
   position: fixed;
     background: #ffffff;
+
+    max-width: 1021px;
+    max-height: 768px;
     .texto{
       .modalContent{
       
@@ -101,11 +104,16 @@
     color: white;
     cursor: pointer;
     z-index: 1;
-    height: 70px;
-    font-family: $regular;
+      height: 50px;
+  width: 225px;
+    font-family: $bold;
     text-align: center;
     background: $normal;
     display: table;
+      margin: 0 auto;
+      font-size: 1.6em;
+      
+
     &:hover{
         background: $hover;
         .tagP{

@@ -27,8 +27,37 @@ define([], function() {
 				click: function(e) {
 					
 					Player.Elements.generalModal.show(recurso.data.id);
+
+					var $contentModal = $("body").find($("#"+recurso.data.id+"Content")),
+						contentModalWidth = $contentModal.width(),
+						contentModalHeight = $contentModal.height(),
+						windowWidth = $(window).width(),
+						windowHeight = $(window).height(),
+						top = (((windowHeight - contentModalHeight)/2)*100)/windowHeight,
+						left = (((windowWidth - contentModalWidth)/2)*100)/windowWidth;
+
+
+
+
+						$contentModal.css({
+							"top":  top+"%",
+							"left": left+"%"
+
+
+						})
+
+
+
+
+
+
+
+					
 				}
 			});
+
+
+
 		}
 
 	}

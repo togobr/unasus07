@@ -14,8 +14,8 @@
 	},
 
 	"modal": {
-		"color": "126, 126, 126",
-		"opacity": "0.6",
+		"color": "48, 49, 127",
+		"opacity": "0.8",
 		"transition": "fade",
 		"time": 500
 	},
