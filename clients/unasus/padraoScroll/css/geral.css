@@ -1626,7 +1626,98 @@ body.vjs-full-window {
 /* -----------------------------------------------------------------------------
 The original source of this file lives at
 https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
-/* line 1, sass/main/_main.scss */
+/* line 176, icons/*.png */
+.icons-sprite, .icons-UNA07_importante, .icons-UNA07_proxSes_active, .icons-UNA07_proxSes_disabled, .icons-UNA07_proxSes_hover, .icons-UNA07_proxSes_normal, .icons-UNA07_setaAzul_baixo, .icons-UNA07_setaAzul_direita, .icons-UNA07_setaBranca_baixo, .icons-UNA07_setaBranca_direita, .icons-UNA07_setaLinha_direita_active, .icons-UNA07_setaLinha_direita_disabled, .icons-UNA07_setaLinha_direita_hover, .icons-UNA07_setaLinha_direita_normal, .icons-UNA07_setaLinha_esq_active, .icons-UNA07_setaLinha_esq_disabled, .icons-UNA07_setaLinha_esq_hover, .icons-UNA07_setaLinha_esq_normal {
+  background-image: url('assets/images/icons-s3106114118.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-UNA07_importante {
+  background-position: 0 0;
+}
+
+/* line 84, ../../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-UNA07_proxSes_active {
+  background-position: 0 -80px;
+}
+
+/* line 84, ../../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-UNA07_proxSes_disabled {
+  background-position: 0 -144px;
+}
+
+/* line 84, ../../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-UNA07_proxSes_hover {
+  background-position: 0 -208px;
+}
+
+/* line 84, ../../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-UNA07_proxSes_normal {
+  background-position: 0 -272px;
+}
+
+/* line 84, ../../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-UNA07_setaAzul_baixo {
+  background-position: 0 -336px;
+}
+
+/* line 84, ../../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-UNA07_setaAzul_direita {
+  background-position: 0 -347px;
+}
+
+/* line 84, ../../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-UNA07_setaBranca_baixo {
+  background-position: 0 -359px;
+}
+
+/* line 84, ../../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-UNA07_setaBranca_direita {
+  background-position: 0 -374px;
+}
+
+/* line 84, ../../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-UNA07_setaLinha_direita_active {
+  background-position: 0 -391px;
+}
+
+/* line 84, ../../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-UNA07_setaLinha_direita_disabled {
+  background-position: 0 -446px;
+}
+
+/* line 84, ../../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-UNA07_setaLinha_direita_hover {
+  background-position: 0 -501px;
+}
+
+/* line 84, ../../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-UNA07_setaLinha_direita_normal {
+  background-position: 0 -556px;
+}
+
+/* line 84, ../../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-UNA07_setaLinha_esq_active {
+  background-position: 0 -611px;
+}
+
+/* line 84, ../../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-UNA07_setaLinha_esq_disabled {
+  background-position: 0 -666px;
+}
+
+/* line 84, ../../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-UNA07_setaLinha_esq_hover {
+  background-position: 0 -721px;
+}
+
+/* line 84, ../../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-UNA07_setaLinha_esq_normal {
+  background-position: 0 -776px;
+}
+
+/* line 5, sass/main/_main.scss */
 body {
   max-width: 1920px;
   overflow-y: visible;
@@ -1635,7 +1726,7 @@ body {
   font-size: 10px !important;
 }
 
-/* line 10, sass/main/_main.scss */
+/* line 14, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -1648,24 +1739,24 @@ body {
   border: none;
   border-bottom: 1px solid #FFFFFF;
 }
-/* line 19, sass/main/_main.scss */
+/* line 23, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav {
   float: right;
 }
 
-/* line 25, sass/main/_main.scss */
+/* line 29, sass/main/_main.scss */
 .content.container-fluid {
   max-width: 1021px;
   padding: 0;
   padding-top: 100px;
 }
 
-/* line 32, sass/main/_main.scss */
+/* line 36, sass/main/_main.scss */
 ul {
   list-style-image: url(assets/images/bullet.png);
   counter-reset: section;
 }
-/* line 35, sass/main/_main.scss */
+/* line 39, sass/main/_main.scss */
 ul li {
   background-position: 0px 100%;
   padding-left: 5px;
@@ -1676,13 +1767,13 @@ ul li {
   font-family: "Roboto-Regular", sans-serif;
 }
 
-/* line 47, sass/main/_main.scss */
+/* line 51, sass/main/_main.scss */
 ol {
   list-style-type: none;
   counter-reset: ol-counter;
   padding: 0;
 }
-/* line 52, sass/main/_main.scss */
+/* line 56, sass/main/_main.scss */
 ol li {
   background-position: 0px 100%;
   padding-left: 25px;
@@ -1692,7 +1783,7 @@ ol li {
   margin-right: 10px;
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 61, sass/main/_main.scss */
+/* line 65, sass/main/_main.scss */
 ol li:before {
   font-weight: bold;
   margin-right: 6px;
@@ -1701,7 +1792,7 @@ ol li:before {
   counter-increment: ol-counter;
 }
 
-/* line 76, sass/main/_main.scss */
+/* line 80, sass/main/_main.scss */
 .wrapper {
   height: auto;
   margin: 0 auto;
@@ -1709,29 +1800,29 @@ ol li:before {
   position: relative;
 }
 
-/* line 83, sass/main/_main.scss */
+/* line 87, sass/main/_main.scss */
 .wrapperMargin {
   margin-bottom: 40px;
 }
 
-/* line 88, sass/main/_main.scss */
+/* line 92, sass/main/_main.scss */
 .hiddenAnimate {
   opacity: 0;
 }
 
-/* line 91, sass/main/_main.scss */
+/* line 95, sass/main/_main.scss */
 .visible {
   opacity: 1;
 }
 
-/* line 96, sass/main/_main.scss */
+/* line 100, sass/main/_main.scss */
 iframe {
   width: 100%;
   height: 100%;
   position: absolute;
 }
 
-/* line 105, sass/main/_main.scss */
+/* line 109, sass/main/_main.scss */
 .content .iframeContent {
   position: fixed;
   width: 100%;
@@ -1741,7 +1832,7 @@ iframe {
   background: #2f2f2f;
   left: 0px;
 }
-/* line 114, sass/main/_main.scss */
+/* line 118, sass/main/_main.scss */
 .content .iframeContent .telaCheiaIframe {
   width: 100%;
   height: 100%;
@@ -1751,7 +1842,7 @@ iframe {
   top: 0px;
   bottom: 0px;
 }
-/* line 124, sass/main/_main.scss */
+/* line 128, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia {
   z-index: 999;
   border: 1px solid #e18f00;
@@ -1781,11 +1872,11 @@ iframe {
   opacity: 0.78;
   top: 1px;
 }
-/* line 156, sass/main/_main.scss */
+/* line 160, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:hover {
   background: #fbaf0b;
 }
-/* line 160, sass/main/_main.scss */
+/* line 164, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:active {
   background: #e28f01;
 }
@@ -2453,8 +2544,9 @@ iframe {
 .caixaDestaque .iconDestaque .icon {
   width: 100%;
   color: #FFFFFF;
+  font-family: "Roboto-Black", sans-serif;
 }
-/* line 24, sass/resources/caixaDestaque/_style.scss */
+/* line 26, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque .iconDestaque:after {
   content: "";
   position: absolute;
@@ -2464,7 +2556,7 @@ iframe {
   width: 2px;
   background: #FFFFFF;
 }
-/* line 35, sass/resources/caixaDestaque/_style.scss */
+/* line 37, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque .contentDestaque {
   position: relative;
   width: 75%;
@@ -2477,13 +2569,13 @@ iframe {
   vertical-align: middle;
   padding: 20px;
 }
-/* line 47, sass/resources/caixaDestaque/_style.scss */
+/* line 49, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque .contentDestaque p {
   width: 100%;
   margin: 0;
 }
 
-/* line 54, sass/resources/caixaDestaque/_style.scss */
+/* line 56, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.laranja {
   background: #2b95dd;
 }
@@ -3098,33 +3190,31 @@ iframe {
 
 /* line 19, sass/resources/botaoModal/_style.scss */
 .primeiroPlano {
-  top: 15%;
-  left: 15%;
-  right: 15%;
-  bottom: 15%;
   overflow: auto;
   position: fixed;
   background: #ffffff;
+  max-width: 1021px;
+  max-height: 768px;
 }
-/* line 30, sass/resources/botaoModal/_style.scss */
+/* line 33, sass/resources/botaoModal/_style.scss */
 .primeiroPlano .texto .modalContent .wrapper {
   width: 100%;
   max-width: 100%;
 }
 
-/* line 41, sass/resources/botaoModal/_style.scss */
+/* line 44, sass/resources/botaoModal/_style.scss */
 #modalContent {
   position: relative;
   padding: 40px;
 }
 
-/* line 46, sass/resources/botaoModal/_style.scss */
+/* line 49, sass/resources/botaoModal/_style.scss */
 .headerModal {
   width: 100%;
   height: 49px;
 }
 
-/* line 53, sass/resources/botaoModal/_style.scss */
+/* line 56, sass/resources/botaoModal/_style.scss */
 .tituloModal {
   padding: 12px 30px 12px 30px;
   font-size: 23px;
@@ -3133,7 +3223,7 @@ iframe {
   font-family: "Roboto-Regular", sans-serif;
 }
 
-/* line 61, sass/resources/botaoModal/_style.scss */
+/* line 64, sass/resources/botaoModal/_style.scss */
 .btnFechar {
   position: absolute;
   height: 21px;
@@ -3146,14 +3236,14 @@ iframe {
   padding: 0px;
   z-index: 2;
 }
-/* line 74, sass/resources/botaoModal/_style.scss */
+/* line 77, sass/resources/botaoModal/_style.scss */
 .btnFechar span {
   font-size: 47px;
   color: #000000;
   font-family: 'Entypo';
 }
 
-/* line 85, sass/resources/botaoModal/_style.scss */
+/* line 88, sass/resources/botaoModal/_style.scss */
 #modalContent p {
   padding-left: 60px;
   padding-right: 67px;
@@ -3164,7 +3254,7 @@ iframe {
   line-height: 46px;
 }
 
-/* line 99, sass/resources/botaoModal/_style.scss */
+/* line 102, sass/resources/botaoModal/_style.scss */
 .btnRetangle {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -3172,30 +3262,33 @@ iframe {
   color: white;
   cursor: pointer;
   z-index: 1;
-  height: 70px;
-  font-family: "Roboto-Regular", sans-serif;
+  height: 50px;
+  width: 225px;
+  font-family: "Roboto-Bold", sans-serif;
   text-align: center;
   background: #30317f;
   display: table;
+  margin: 0 auto;
+  font-size: 1.6em;
 }
-/* line 109, sass/resources/botaoModal/_style.scss */
+/* line 117, sass/resources/botaoModal/_style.scss */
 .btnRetangle:hover {
   background: #dab463;
 }
-/* line 111, sass/resources/botaoModal/_style.scss */
+/* line 119, sass/resources/botaoModal/_style.scss */
 .btnRetangle:hover .tagP {
   color: #30317f;
 }
-/* line 115, sass/resources/botaoModal/_style.scss */
+/* line 123, sass/resources/botaoModal/_style.scss */
 .btnRetangle:active {
   background: #30317f;
   border: 3px solid rgba(0, 0, 0, 0.5);
 }
-/* line 118, sass/resources/botaoModal/_style.scss */
+/* line 126, sass/resources/botaoModal/_style.scss */
 .btnRetangle:active .tagP {
   color: #FFFFFF;
 }
-/* line 123, sass/resources/botaoModal/_style.scss */
+/* line 131, sass/resources/botaoModal/_style.scss */
 .btnRetangle .tagP {
   display: table-cell;
   vertical-align: middle;
