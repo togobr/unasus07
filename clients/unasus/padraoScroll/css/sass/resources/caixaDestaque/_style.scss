@@ -12,7 +12,7 @@
 	.iconDestaque{
 		position: relative;
 		width: 25%;
-		height: 100%;
+		height: inherit;
 		display: table-cell;
 		text-align: center;
 		vertical-align: middle;	
@@ -34,7 +34,7 @@
 
 	.contentDestaque{
 		position: relative;
-		width: 75%;
+		// width: 75%;
 		height: 100%;
 		font-family: $regular;
 		 font-size: 1.6em;

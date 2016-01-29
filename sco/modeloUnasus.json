@@ -204,7 +204,7 @@
 
                     {  
                         "template":"caixaDestaque",
-                        "column": "col-xs-12 col-md-6",
+                        "column": "col-xs-12 col-md-12",
                         "type":"normal",
                         "title":"Final de Cursos dasd sd",
                         "content":"Lorem ipsum dolor sit amet,Morbi ut mi. ",
@@ -216,12 +216,13 @@
 
                     {  
                         "template":"caixaDestaque",
-                        "column": "col-xs-12 col-md-6",
+                        "column": "col-xs-12 col-md-12",
                         "type":"normal",
                         "title":"Final de Cursos dasd sd",
                         "content":"Lorem ipsum dolor sit amet, &nbsp;dsa dsad asd asd asd asd sad asd asd a dipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.&nbsp;",
                         "styleObj": {
-                            "margin-top": "50px"
+                            "margin-top": "50px",
+                            "height": "200px"
                         },
                         "order":19
                     },
@@ -344,7 +345,7 @@
                         "contentCapa": "CAPA!22222222222",
                         "content": "Conteúdo da Capa! 22222222222",
                         "styleObj": {
-
+                            "padding": "0px 100px 0px 100px"
                         },
                         "order":24
                     },
@@ -356,7 +357,7 @@
                         "contentCapa": "CAPA!22222222222",
                         "content": "Conteúdo da Capa! 22222222222",
                         "styleObj": {
-                    
+                            "padding": "0px 100px 0px 100px"
                         },
                         "order":25
                     }
