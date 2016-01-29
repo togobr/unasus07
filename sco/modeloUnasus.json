@@ -14,21 +14,7 @@
                         "template":"backgroundScroll",
                         "column": "col-xs-12 col-md-12",
                         "styleObj": "margin-top:50px;",
-                        "backgrounds":[    
-                            {
-                                "idSection":1,
-                                "backgroundSRC": "http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg"
-                            },
-                            {
-                                "idSection":2,
-                                "backgroundSRC": "http://www.planwallpaper.com/static/images/cool-background.jpg" 
-                            },
-                            {
-                                "idSection":3,
-                                "backgroundSRC": "http://avelos.com.br/cehp/wp-content/uploads/2013/12/fresh-green-background.jpg " 
-                            }
-                        ],
-                        "order":20
+                        "order":0
                     },
                    {
                         "template": "imagem",
