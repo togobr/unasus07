@@ -1,42 +1,71 @@
-.textoSolto{
-	margin-bottom: $entreRecursos;
-	color: #383737;
-	font-size: 16px !important;
-	font-family: $regular;
-	height:auto;
-	overflow:auto;
+.texto{
+	.textoSolto{
+		margin-bottom: $entreRecursos;
+		ul, ol{
+			li{
+				margin-top: 7px;
+				margin-bottom: 7px;
+			}
+		}
 
-	p{
-		line-height: normal;
-		color:#373838;
-		font-size: 16px;
-		font-family: $regular;
-	}
+		.imgEsq{
+			float:left;
+			width: 49%;
+			margin-right: 30px;
+		}
 
-	ul, ol{
-		li{
-			margin-top: 7px;
-			margin-bottom: 7px;
+		.imgDir{
+			float:right;
+			width: 49%;
+			margin-left: 30px;
+		}
+
+		.imgDuasColunas{
+			width: 100%;
+			margin-top: 18px;
+			margin-bottom: 18px;
 		}
 	}
 
-	.imgEsq{
-		float:left;
-		width: 49%;
-		margin-right: 30px;
-	}
-
-	.imgDir{
-		float:right;
-		width: 49%;
-		margin-left: 30px;
-	}
-
-	.imgDuasColunas{
+	.underlineTitle{
+		position: absolute;
 		width: 100%;
-		margin-top: 18px;
-		margin-bottom: 18px;
+		height: 4px;
+		bottom: -2px;
+		background: $hover;
 	}
-}
+
+	&.normal .textoSolto{
+		font-size: 1.6em;
+		font-family: $regular;
+	}
+
+	&.title .textoSolto{
+		font-size: 2.6em;
+		line-height: 30px;
+		font-family: $bold;
+		color: $normal;
+	}
+
+	&.subtitle{
+		.wrapper{
+			display: table;
+		}
+		.textoSolto{
+			font-size: 3em;
+			line-height: 30px;
+			font-family: $bold;
+			color: $normal;
+			display: table-cell;
+			font-variant: small-caps;
+		}
+		.underlineTitle{
+			display: table-cell;
+			bottom: 6px;
+			margin-left: 5px;
+		}
+	}
+} 
+
 
 

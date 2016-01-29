@@ -47,6 +47,7 @@
                     {
                         "template": "texto",
                         "column": "col-xs-12 col-md-8",
+                        "type": "normal",
                         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa.",
                         "order":2
                     },
@@ -71,6 +72,7 @@
 
                     {
                         "template": "texto",
+                        "type": "normal",
                         "column": "col-xs-12 col-md-4",
                         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa.",
                         "order":5
@@ -180,6 +182,7 @@
 
                     {
                         "template": "texto",
+                        "type": "normal",
                         "column": "col-xs-12 col-md-4",
                         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa.",
                         "styleObj": {
@@ -281,6 +284,7 @@
                                 },
                                 {
                                     "template": "texto",
+                                    "type": "normal",
                                     "column": "col-xs-12 col-md-6",
                                     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa."
                                 }
@@ -315,6 +319,7 @@
                             "resources": [
                                 {
                                     "template": "texto",
+                                    "type": "normal",
                                     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa."
                                 }
                            ]
@@ -365,6 +370,39 @@
                             "padding": "0px 100px 0px 100px"
                         },
                         "order":25
+                    },
+
+                    {
+                        "template": "texto",
+                        "type": "title",
+                        "column": "col-xs-12 col-md-12",
+                        "content": "ALCOOLISMO, TABAGISMO E OUTRAS DROGAS",
+                        "order":26
+                    },
+
+                    {
+                        "template": "texto",
+                        "type": "subtitle",
+                        "column": "col-xs-12 col-md-12",
+                        "content": "Alcoolismo",
+                        "order":27
+                    },
+
+                    {
+                        "template": "texto",
+                        "type": "subtitle",
+                        "column": "col-xs-12 col-md-12",
+                        "content": "Alcoolismo",
+                        "order":27
+                    },
+
+                    {
+                        "template": "botaoDownload",
+                        "type": "subtitle",
+                        "src": "http://www.mensagenscomamor.com/images/interna/new/imagens_reflexao_felicidade.jpg",
+                        "column": "col-xs-12 col-md-6",
+                        "label": "BAIXAR O LIVRO",
+                        "order":28
                     }
                 ]
             }            
