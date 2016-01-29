@@ -23,6 +23,7 @@
 			padding-left:0;
 			background: $normal;
 			margin-bottom: 5px;
+			font-size: inherit;
 			
 			&:first-child{
 				margin-top: 1px;
@@ -38,18 +39,14 @@
 				text-align: center;
 				display: table;
 
-				// &:last-of-type{
-				// 	border-bottom:2px solid darken($azul,5%);
-				// }
-
 				span{
 					display: table-cell;
 					vertical-align: middle;
-					font-family: $regular;
+					font-family: $bold;
 					font-weight: 400;
 					color: #FFFFFF;
 					position:relative;
-					font-size: 14px;
+					font-size: 1.6em;
 				}
 			}
 		}
@@ -61,16 +58,12 @@
 		border: 1px solid $normal;
 		display: block;
 		position: relative;
-		// position: absolute;
 		top: 0px;
 		right: 0px;
 		bottom: 0;
-		// left: 36%;
 		width: auto;
 		z-index: 0;
-		// float: left;
 		margin-left: -2px;
-		border-width: 0;
 		padding: 20px;
 		background: #fff;
 		margin-top:4px;
