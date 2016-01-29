@@ -1,3 +1,7 @@
+@import "compass/utilities/sprites";
+@import "icons/*.png";
+@include all-icons-sprites;
+
 body{
     max-width: 1920px;
     overflow-y: visible;
@@ -167,3 +171,5 @@ ol{
 	}
 
 }
+
+
