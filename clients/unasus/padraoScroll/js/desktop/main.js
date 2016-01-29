@@ -449,8 +449,8 @@ require.config({
 				"texto": {
 					"baseURL": "./resources/texto",
 					"paths": [
-						"text!template.html"
-						
+						"text!template.html",
+						"player"
 					]
 				},
 
@@ -479,6 +479,14 @@ require.config({
 
 				"scrollMagic": {
 					"baseURL": "./resources/scrollMagic",
+					"paths": [
+						"text!template.html",
+						"player"
+					]
+				},
+
+				"botaoDownload": {
+					"baseURL": "./resources/botaoDownload",
 					"paths": [
 						"text!template.html",
 						"player"

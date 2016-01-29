@@ -21,6 +21,7 @@ define([], function() {
 				$contentCapa = recurso.$el.find('.contentCapa'),
 				$dropDown = recurso.$el.find('.dropdown-toggle'),
 				$dropDownContent = recurso.$el.find('.dropdown-menu');
+				$fechaRevelar = recurso.$el.find('.fechaRevelar');
 
 				if(recurso.$el.hasClass("dropdown")){
 					$dropDownType.show();
@@ -34,6 +35,7 @@ define([], function() {
 					});
 				}else{
 					$hoverType.show();
+					$fechaRevelar.hide();
 
 					recurso.$el.on({
 						mouseover: function(e) {

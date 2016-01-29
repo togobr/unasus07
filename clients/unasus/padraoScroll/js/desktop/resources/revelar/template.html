@@ -1,5 +1,5 @@
-<div id="{{id}}" class="{{class}} {{column}} {{type}}" style="{{style}}">
-	
+<div id="{{id}}" class="{{class}} {{column}} {{type}} rec" data-section="{{section}}" style="{{style}}">
+
 	<div class="dropDownType">
 		<div class="boxTitle">
 			<div class="openCloseIcon">
@@ -14,12 +14,18 @@
 	
 	<div class="clickType">
 		<div class="contentCapa"><span>{{&contentCapa}}</span></div>
-		<div class="tagP" style="">{{&content}}</div>
+		<div class="tagP container-fluid" style="">
+			<span class="fechaRevelar"></span>
+			{{&content}}
+		</div>
 	</div>
 
-	
 	<div class="hoverType">
 		<div class="contentCapa"><span>{{&contentCapa}}</span></div>
-		<div class="tagP" style="">{{&content}}</div>
+		<div class="tagP container-fluid" style="">
+			<span class="fechaRevelar"></span>
+			{{&content}}
+		</div>
 	</div>
 </div>
+
