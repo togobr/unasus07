@@ -12,7 +12,7 @@ body{
 
 .wrapperUnasus{
 	.mainNavBar{
-		@include border-radius(0);
+		@include border-radius(0); 
 		position: fixed;
 		left: 0;
 		width: 100%;

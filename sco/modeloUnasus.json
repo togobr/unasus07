@@ -190,9 +190,9 @@
                     {
                         "template": "revelar",
                         "type": "click",
-                        "column": "col-xs-12 col-md-4",
-                        "contentCapa": "CAPA! 11111111111 ",
-                        "content": "Conteúdo da Capa! 1111111111",
+                        "column": "col-xs-12 col-md-12",
+                        "contentCapa": "CÂNCER DE ESTOMAGO",
+                        "content": "<div class='col-xs-12 col-md-4'><img src='http://2.bp.blogspot.com/-F8aZWjikNZs/Vo_yXXOZIbI/AAAAAAAAMmM/_uwQNYgEHYU/s1600/logounasus.png' alt='' height='100%'></div><div class='col-xs-12 col-md-4'> <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</span> </div> <div class='col-xs-12 col-md-4'> <span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</span></div>",
                         "styleObj": {
                             "height": "150px"
                         },
@@ -202,8 +202,8 @@
                     {
                         "template": "revelar",
                         "type": "hover",
-                        "column": "col-xs-12 col-md-4",
-                        "contentCapa": "CAPA!22222222222",
+                        "column": "col-xs-12 col-md-12",
+                        "contentCapa": "CÂNCER DE PRÓSTATA",
                         "content": "Conteúdo da Capa! 22222222222",
                         "styleObj": {
                             "height": "150px"
@@ -214,8 +214,8 @@
                     {
                         "template": "revelar",
                         "type": "click",
-                        "column": "col-xs-12 col-md-4",
-                        "contentCapa": "CAPA! 333333333 ",
+                        "column": "col-xs-12 col-md-12",
+                        "contentCapa": "CÂNCER COLORRETAL",
                         "content": "Conteúdo da Capa! 333333333",
                         "styleObj": {
                             "height": "150px"
