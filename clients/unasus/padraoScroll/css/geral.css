@@ -3414,8 +3414,9 @@ iframe {
   position: relative;
   color: #FFFFFF;
   padding: 0;
+  height: auto;
 }
-/* line 8, sass/resources/revelar/_style.scss */
+/* line 9, sass/resources/revelar/_style.scss */
 .content .revelar .fechaRevelar {
   position: absolute;
   top: 10px;
@@ -3424,57 +3425,57 @@ iframe {
   width: 25px;
   background: #FFFFFF;
 }
-/* line 17, sass/resources/revelar/_style.scss */
+/* line 18, sass/resources/revelar/_style.scss */
 .content .revelar .contentCapa {
   font-family: "Roboto-Bold", sans-serif;
   font-size: 2.4em;
   line-height: 30px;
+  padding: 2.5em;
 }
-/* line 22, sass/resources/revelar/_style.scss */
+/* line 24, sass/resources/revelar/_style.scss */
 .content .revelar .tagP {
   padding: 1.5em;
   font-size: 1.4em;
   font-family: "Roboto-Regular", sans-serif;
+  height: auto;
 }
-/* line 28, sass/resources/revelar/_style.scss */
+/* line 31, sass/resources/revelar/_style.scss */
 .content .revelar .contentCapa, .content .revelar .tagP {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  position: absolute;
-  height: 100%;
   width: 100%;
   display: table;
   text-align: center;
   background: #30317f;
   border: 5px solid #dadae8;
 }
-/* line 37, sass/resources/revelar/_style.scss */
+/* line 38, sass/resources/revelar/_style.scss */
 .content .revelar .contentCapa > div, .content .revelar .tagP > div {
   height: 100%;
   display: table;
 }
-/* line 41, sass/resources/revelar/_style.scss */
+/* line 42, sass/resources/revelar/_style.scss */
 .content .revelar .contentCapa span, .content .revelar .tagP span {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 47, sass/resources/revelar/_style.scss */
+/* line 48, sass/resources/revelar/_style.scss */
 .content .revelar .clickType, .content .revelar .hoverType {
-  height: 100%;
+  height: auto;
   width: 100%;
 }
-/* line 53, sass/resources/revelar/_style.scss */
+/* line 54, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType {
   display: none;
 }
-/* line 55, sass/resources/revelar/_style.scss */
+/* line 56, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle {
   position: relative;
   height: 51px;
   width: 100%;
 }
-/* line 60, sass/resources/revelar/_style.scss */
+/* line 61, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle .openCloseIcon {
   -webkit-border-top-left-radius: 5px;
   border-top-left-radius: 5px;
@@ -3486,12 +3487,12 @@ iframe {
   display: table;
   text-align: center;
 }
-/* line 70, sass/resources/revelar/_style.scss */
+/* line 71, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle .openCloseIcon span {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 76, sass/resources/revelar/_style.scss */
+/* line 77, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle a.dropdown-toggle {
   -webkit-border-top-left-radius: 0px;
   border-top-left-radius: 0px;
@@ -3505,7 +3506,7 @@ iframe {
   background: #30317f;
   text-align: center;
 }
-/* line 88, sass/resources/revelar/_style.scss */
+/* line 89, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle a.dropdown-toggle span {
   font-size: 1.6em;
   font-family: "Roboto-Bold", sans-serif;
@@ -3516,7 +3517,7 @@ iframe {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 100, sass/resources/revelar/_style.scss */
+/* line 101, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle .dropdown-menu {
   -webkit-border-top-right-radius: 0;
   border-top-right-radius: 0;
@@ -3530,56 +3531,56 @@ iframe {
   margin-top: 5px;
   font-size: inherit !important;
 }
-/* line 108, sass/resources/revelar/_style.scss */
+/* line 109, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle .dropdown-menu li {
   font-size: 1.6em;
   padding: 0.5em;
 }
-/* line 112, sass/resources/revelar/_style.scss */
+/* line 113, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle .dropdown-menu a:hover {
   background: none;
 }
-/* line 120, sass/resources/revelar/_style.scss */
+/* line 121, sass/resources/revelar/_style.scss */
 .content .revelar .clickType {
   display: none;
 }
-/* line 124, sass/resources/revelar/_style.scss */
+/* line 125, sass/resources/revelar/_style.scss */
 .content .revelar.click {
   cursor: pointer;
 }
-/* line 126, sass/resources/revelar/_style.scss */
+/* line 127, sass/resources/revelar/_style.scss */
 .content .revelar.click .clickType {
   display: none;
 }
-/* line 128, sass/resources/revelar/_style.scss */
+/* line 129, sass/resources/revelar/_style.scss */
 .content .revelar.click .clickType .tagP {
   display: none;
 }
-/* line 135, sass/resources/revelar/_style.scss */
+/* line 136, sass/resources/revelar/_style.scss */
 .content .revelar.click.clicked .clickType .contentCapa {
   display: none;
 }
-/* line 138, sass/resources/revelar/_style.scss */
+/* line 139, sass/resources/revelar/_style.scss */
 .content .revelar.click.clicked .clickType .tagP {
   display: block;
 }
-/* line 146, sass/resources/revelar/_style.scss */
+/* line 147, sass/resources/revelar/_style.scss */
 .content .revelar .hoverType {
   display: none;
 }
-/* line 151, sass/resources/revelar/_style.scss */
+/* line 152, sass/resources/revelar/_style.scss */
 .content .revelar.hover .hoverType {
   display: none;
 }
-/* line 153, sass/resources/revelar/_style.scss */
+/* line 154, sass/resources/revelar/_style.scss */
 .content .revelar.hover .hoverType .tagP {
   display: none;
 }
-/* line 160, sass/resources/revelar/_style.scss */
+/* line 161, sass/resources/revelar/_style.scss */
 .content .revelar.hover.hovered .hoverType .contentCapa {
   display: none;
 }
-/* line 163, sass/resources/revelar/_style.scss */
+/* line 164, sass/resources/revelar/_style.scss */
 .content .revelar.hover.hovered .hoverType .tagP {
   display: block;
 }
