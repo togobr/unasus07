@@ -1,6 +1,13 @@
 .sanfona{
 	margin-bottom: $entreRecursos;
 }
+
+.iconSanf{
+	  position: absolute;
+  top: 15px;
+  left: 16px;
+  font-size: 1.2em;
+}
 .ui-accordion{
 	.ui-accordion-header {
 		@include border-radius(5px);
@@ -26,6 +33,7 @@
 			display: table-cell;
 			vertical-align: middle;
 			padding-right: 30px;
+			  padding-left: 17px;
 		}
 		.icon-acc{
 			position: relative;
@@ -41,6 +49,7 @@
 
 	.ui-accordion-header.ui-accordion-header-active {
 		background: $selected;
+		  border-radius: 5px 5px 0 0;
 		span{
 			color: $normal;
 		}

@@ -2243,6 +2243,14 @@ iframe {
 }
 
 /* line 5, sass/resources/sanfona/_style.scss */
+.iconSanf {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  font-size: 1.2em;
+}
+
+/* line 12, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2262,7 +2270,7 @@ iframe {
   outline: none;
   font-size: inherit;
 }
-/* line 21, sass/resources/sanfona/_style.scss */
+/* line 28, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header .tituloSanfona {
   position: relative;
   left: 20px;
@@ -2271,8 +2279,9 @@ iframe {
   display: table-cell;
   vertical-align: middle;
   padding-right: 30px;
+  padding-left: 17px;
 }
-/* line 30, sass/resources/sanfona/_style.scss */
+/* line 38, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header .icon-acc {
   position: relative;
   left: 8px;
@@ -2283,15 +2292,16 @@ iframe {
   padding-left: 8px;
   width: 20px;
 }
-/* line 42, sass/resources/sanfona/_style.scss */
+/* line 50, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header.ui-accordion-header-active {
   background: #dab463;
+  border-radius: 5px 5px 0 0;
 }
-/* line 44, sass/resources/sanfona/_style.scss */
+/* line 53, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header.ui-accordion-header-active span {
   color: #30317f;
 }
-/* line 49, sass/resources/sanfona/_style.scss */
+/* line 58, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content {
   -webkit-border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -2308,12 +2318,12 @@ iframe {
   overflow: hidden;
   margin-top: -5px;
 }
-/* line 62, sass/resources/sanfona/_style.scss */
+/* line 71, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom {
   margin-bottom: 7px;
   overflow: hidden;
 }
-/* line 65, sass/resources/sanfona/_style.scss */
+/* line 74, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom p {
   font-family: "Roboto-Regular", sans-serif;
   font-size: 1.4em !important;
