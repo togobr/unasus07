@@ -27,32 +27,36 @@ define(["jqueryUiAccordion"], function() {
 			$btSanfona.each(function(){
 				
 				if($(this).hasClass("ui-accordion-header-active")){
-					$(this).children(".icon-acc").html("&#10060;");
+					
 					$(this).addClass("sanfonaAtiva");
+
+					$(this).children(".iconSanf").removeClass("icon-setaPreenchida_direita");
+						$(this).children(".iconSanf").addClass("icon-setaPreenchida_baixo");
 					
 				}else{
 					
-					$(this).children(".icon-acc").html("&#10133;");
+					$(this).children(".iconSanf").addClass("icon-setaPreenchida_direita");
+						$(this).children(".iconSanf").removeClass("icon-setaPreenchida_baixo");
 					$(this).next().find("li").addClass("hiddenAnimate");
 				}
 			})
 
 			$btSanfona.on({
 				click:function(e){
-					$btSanfona.children(".icon-acc").html("&#10133;");
+			
 					$btSanfona.removeClass("sanfonaAtiva");
+
+					$btSanfona.children(".iconSanf").addClass("icon-setaPreenchida_direita");
+					$btSanfona.children(".iconSanf").removeClass("icon-setaPreenchida_baixo");
 
 					if($btSanfona.hasClass("ui-accordion-header-active")){
 						$(this).toggleClass("sanfonaAtiva");
+						$(this).children(".iconSanf").removeClass("icon-setaPreenchida_direita");
+						$(this).children(".iconSanf").addClass("icon-setaPreenchida_baixo");
 
 					}
 
-					if($(this).hasClass("sanfonaAtiva")){
-						$(this).children(".icon-acc").html("&#10060;");
-					}else{
-						$(this).children(".icon-acc").html("&#10133;");
-					}
-
+			
 					$(this).next().find("li").addClass("visible").addClass("animated").addClass("fadeInLeft");
 				}
 			})
