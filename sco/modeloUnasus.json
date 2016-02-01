@@ -53,6 +53,7 @@
                         "backgroundSRC":"http://www.planwallpaper.com/static/images/sea-background01-o.jpg",
                         "order":4
                     },
+
                    {
                         "template": "imagem",
                         "column": "col-xs-12 col-md-4",
@@ -109,7 +110,7 @@
                         "template":"gavetaHorizontal",
                         "column": "col-xs-12 col-md-4",
                         "style": "margin-top:50px;",
-                        "section":2,
+                        "section":1,
                         "gavetasHorizontais":[    
                             {
                                 "numeroGaveta":"1",
@@ -283,6 +284,7 @@
                         "column": "col-xs-12 col-md-12",
                         "contentCapa": "CÂNCER DE ESTOMAGO",
                         "content": "<div class='col-xs-12 col-md-4'><img src='http://2.bp.blogspot.com/-F8aZWjikNZs/Vo_yXXOZIbI/AAAAAAAAMmM/_uwQNYgEHYU/s1600/logounasus.png' alt='' width='100'></div><div class='col-xs-12 col-md-4'> <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</span> </div> <div class='col-xs-12 col-md-4'> <span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</span></div>",
+                        "contentHeight" : "250px",
                         "styleObj": {
                             
                         },
@@ -296,8 +298,8 @@
                         "column": "col-xs-12 col-md-12",
                         "contentCapa": "CÂNCER DE PRÓSTATA",
                         "content": "Conteúdo da Capa! 22222222222",
+                        "contentHeight" : "250px",
                         "styleObj": {
-                            "height": "150px"
                         },
                         "order":16
                     },
@@ -309,6 +311,7 @@
                         "column": "col-xs-12 col-md-12",
                         "contentCapa": "CÂNCER COLORRETAL",
                         "content": "Conteúdo da Capa! 333333333",
+                        "contentHeight" : "250px",
                         "styleObj": {
                             
                         },
