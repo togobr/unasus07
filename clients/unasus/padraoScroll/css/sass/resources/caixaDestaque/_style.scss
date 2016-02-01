@@ -11,15 +11,21 @@
 
 	.iconDestaque{
 		position: relative;
-		width: 25%;
-		height: inherit;
-		display: table-cell;
-		text-align: center;
-		vertical-align: middle;	
+		width: 10%;
+  height: inherit;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  min-width: 105px;
+
 		.icon{
-			width: 100%;
-			color: #FFFFFF;
-			font-family: $black;
+			width: 26px;
+  			color: #FFFFFF;
+  			margin: 16px auto;
+  			height: 80px;
+  			font-size: 7.6em;
+
+  
 
 		}
 
@@ -42,7 +48,7 @@
 		 font-size: 1.6em;
 		color: #FFFFFF;
 		display: table-cell;
-		text-align: center;
+		text-align: left;
 		vertical-align: middle;	
 		padding: 20px;
 		

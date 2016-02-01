@@ -24,6 +24,21 @@ define([], function() {
 					console.log('foo Teste backgroundScroll');
 				}
 			});
+
+			Player.Elements.$content.on({
+                contentReady: function(e) {
+
+                	$("body").find(".rec").each(function(){
+                		var $divSection = $("body").find("#section-"+$(this).data("section")).children(".content");
+
+                		
+
+                		$(this).appendTo($divSection);
+                	});
+
+               
+                }
+            });
 		}
 
 	}

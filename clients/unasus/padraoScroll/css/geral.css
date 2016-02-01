@@ -1,5 +1,57 @@
 @charset "UTF-8";
 @font-face {
+  font-family: 'icomoon';
+  src: url("assets/fonts/icomoon/icomoon.eot?2jijbq");
+  src: url("fassets/onts/icomoon/icomoon.eot?2jijbq#iefix") format("embedded-opentype"), url("assets/fonts/icomoon/icomoon.ttf?2jijbq") format("truetype"), url("assets/fonts/icomoon/icomoon.woff?2jijbq") format("woff"), url("assets/fonts/icomoon/icomoon.svg?2jijbq#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 12, sass/_icons.scss */
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 27, sass/_icons.scss */
+.icon-exclamacao:before {
+  content: "\e900";
+}
+
+/* line 30, sass/_icons.scss */
+.icon-proxSes:before {
+  content: "\e901";
+}
+
+/* line 33, sass/_icons.scss */
+.icon-seta_direita:before {
+  content: "\e902";
+}
+
+/* line 36, sass/_icons.scss */
+.icon-seta_esq:before {
+  content: "\e903";
+}
+
+/* line 39, sass/_icons.scss */
+.icon-setaPreenchida_baixo:before {
+  content: "\e904";
+}
+
+/* line 42, sass/_icons.scss */
+.icon-setaPreenchida_direita:before {
+  content: "\e905";
+}
+
+@font-face {
   font-family: 'Roboto-Regular';
   src: url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.woff") format("woff"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.svg#Roboto-Regular") format("svg");
   font-weight: normal;
@@ -1626,107 +1678,14 @@ body.vjs-full-window {
 /* -----------------------------------------------------------------------------
 The original source of this file lives at
 https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
-/* line 176, icons/*.png */
-.icons-sprite, .icons-UNA07_importante, .icons-UNA07_proxSes_active, .icons-UNA07_proxSes_disabled, .icons-UNA07_proxSes_hover, .icons-UNA07_proxSes_normal, .icons-UNA07_setaAzul_baixo, .icons-UNA07_setaAzul_direita, .icons-UNA07_setaBranca_baixo, .icons-UNA07_setaBranca_direita, .icons-UNA07_setaLinha_direita_active, .icons-UNA07_setaLinha_direita_disabled, .icons-UNA07_setaLinha_direita_hover, .icons-UNA07_setaLinha_direita_normal, .icons-UNA07_setaLinha_esq_active, .icons-UNA07_setaLinha_esq_disabled, .icons-UNA07_setaLinha_esq_hover, .icons-UNA07_setaLinha_esq_normal {
-  background-image: url('assets/images/icons-s3106114118.png');
-  background-repeat: no-repeat;
-}
-
-/* line 84, ../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-UNA07_importante {
-  background-position: 0 0;
-}
-
-/* line 84, ../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-UNA07_proxSes_active {
-  background-position: 0 -80px;
-}
-
-/* line 84, ../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-UNA07_proxSes_disabled {
-  background-position: 0 -144px;
-}
-
-/* line 84, ../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-UNA07_proxSes_hover {
-  background-position: 0 -208px;
-}
-
-/* line 84, ../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-UNA07_proxSes_normal {
-  background-position: 0 -272px;
-}
-
-/* line 84, ../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-UNA07_setaAzul_baixo {
-  background-position: 0 -336px;
-}
-
-/* line 84, ../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-UNA07_setaAzul_direita {
-  background-position: 0 -347px;
-}
-
-/* line 84, ../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-UNA07_setaBranca_baixo {
-  background-position: 0 -359px;
-}
-
-/* line 84, ../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-UNA07_setaBranca_direita {
-  background-position: 0 -374px;
-}
-
-/* line 84, ../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-UNA07_setaLinha_direita_active {
-  background-position: 0 -391px;
-}
-
-/* line 84, ../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-UNA07_setaLinha_direita_disabled {
-  background-position: 0 -446px;
-}
-
-/* line 84, ../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-UNA07_setaLinha_direita_hover {
-  background-position: 0 -501px;
-}
-
-/* line 84, ../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-UNA07_setaLinha_direita_normal {
-  background-position: 0 -556px;
-}
-
-/* line 84, ../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-UNA07_setaLinha_esq_active {
-  background-position: 0 -611px;
-}
-
-/* line 84, ../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-UNA07_setaLinha_esq_disabled {
-  background-position: 0 -666px;
-}
-
-/* line 84, ../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-UNA07_setaLinha_esq_hover {
-  background-position: 0 -721px;
-}
-
-/* line 84, ../../../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-UNA07_setaLinha_esq_normal {
-  background-position: 0 -776px;
-}
-
 /* line 5, sass/main/_main.scss */
 body {
   max-width: 1920px;
   overflow-y: visible;
-  padding-left: 10%;
-  padding-right: 10%;
   font-size: 10px !important;
 }
 
-/* line 14, sass/main/_main.scss */
+/* line 12, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -1739,24 +1698,24 @@ body {
   border: none;
   border-bottom: 1px solid #FFFFFF;
 }
-/* line 23, sass/main/_main.scss */
+/* line 21, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav {
   float: right;
 }
 
-/* line 29, sass/main/_main.scss */
+/* line 27, sass/main/_main.scss */
 .content.container-fluid {
   max-width: 1021px;
   padding: 0;
   padding-top: 100px;
 }
 
-/* line 36, sass/main/_main.scss */
+/* line 34, sass/main/_main.scss */
 ul {
   list-style-image: url(assets/images/bullet.png);
   counter-reset: section;
 }
-/* line 39, sass/main/_main.scss */
+/* line 37, sass/main/_main.scss */
 ul li {
   background-position: 0px 100%;
   padding-left: 5px;
@@ -1767,13 +1726,13 @@ ul li {
   font-family: "Roboto-Regular", sans-serif;
 }
 
-/* line 51, sass/main/_main.scss */
+/* line 49, sass/main/_main.scss */
 ol {
   list-style-type: none;
   counter-reset: ol-counter;
   padding: 0;
 }
-/* line 56, sass/main/_main.scss */
+/* line 54, sass/main/_main.scss */
 ol li {
   background-position: 0px 100%;
   padding-left: 25px;
@@ -1783,7 +1742,7 @@ ol li {
   margin-right: 10px;
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 65, sass/main/_main.scss */
+/* line 63, sass/main/_main.scss */
 ol li:before {
   font-weight: bold;
   margin-right: 6px;
@@ -1792,7 +1751,7 @@ ol li:before {
   counter-increment: ol-counter;
 }
 
-/* line 80, sass/main/_main.scss */
+/* line 78, sass/main/_main.scss */
 .wrapper {
   height: auto;
   margin: 0 auto;
@@ -1800,29 +1759,29 @@ ol li:before {
   position: relative;
 }
 
-/* line 87, sass/main/_main.scss */
+/* line 85, sass/main/_main.scss */
 .wrapperMargin {
   margin-bottom: 40px;
 }
 
-/* line 92, sass/main/_main.scss */
+/* line 90, sass/main/_main.scss */
 .hiddenAnimate {
   opacity: 0;
 }
 
-/* line 95, sass/main/_main.scss */
+/* line 93, sass/main/_main.scss */
 .visible {
   opacity: 1;
 }
 
-/* line 100, sass/main/_main.scss */
+/* line 98, sass/main/_main.scss */
 iframe {
   width: 100%;
   height: 100%;
   position: absolute;
 }
 
-/* line 109, sass/main/_main.scss */
+/* line 107, sass/main/_main.scss */
 .content .iframeContent {
   position: fixed;
   width: 100%;
@@ -1832,7 +1791,7 @@ iframe {
   background: #2f2f2f;
   left: 0px;
 }
-/* line 118, sass/main/_main.scss */
+/* line 116, sass/main/_main.scss */
 .content .iframeContent .telaCheiaIframe {
   width: 100%;
   height: 100%;
@@ -1842,7 +1801,7 @@ iframe {
   top: 0px;
   bottom: 0px;
 }
-/* line 128, sass/main/_main.scss */
+/* line 126, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia {
   z-index: 999;
   border: 1px solid #e18f00;
@@ -1872,11 +1831,11 @@ iframe {
   opacity: 0.78;
   top: 1px;
 }
-/* line 160, sass/main/_main.scss */
+/* line 158, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:hover {
   background: #fbaf0b;
 }
-/* line 164, sass/main/_main.scss */
+/* line 162, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:active {
   background: #e28f01;
 }
@@ -2474,6 +2433,58 @@ iframe {
 }
 
 @font-face {
+  font-family: 'icomoon';
+  src: url("assets/fonts/icomoon/icomoon.eot?2jijbq");
+  src: url("fassets/onts/icomoon/icomoon.eot?2jijbq#iefix") format("embedded-opentype"), url("assets/fonts/icomoon/icomoon.ttf?2jijbq") format("truetype"), url("assets/fonts/icomoon/icomoon.woff?2jijbq") format("woff"), url("assets/fonts/icomoon/icomoon.svg?2jijbq#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 12, sass/_icons.scss */
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 27, sass/_icons.scss */
+.icon-exclamacao:before {
+  content: "\e900";
+}
+
+/* line 30, sass/_icons.scss */
+.icon-proxSes:before {
+  content: "\e901";
+}
+
+/* line 33, sass/_icons.scss */
+.icon-seta_direita:before {
+  content: "\e902";
+}
+
+/* line 36, sass/_icons.scss */
+.icon-seta_esq:before {
+  content: "\e903";
+}
+
+/* line 39, sass/_icons.scss */
+.icon-setaPreenchida_baixo:before {
+  content: "\e904";
+}
+
+/* line 42, sass/_icons.scss */
+.icon-setaPreenchida_direita:before {
+  content: "\e905";
+}
+
+@font-face {
   font-family: 'Roboto-Regular';
   src: url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.woff") format("woff"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.svg#Roboto-Regular") format("svg");
   font-weight: normal;
@@ -2534,19 +2545,22 @@ iframe {
 /* line 12, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque .iconDestaque {
   position: relative;
-  width: 25%;
+  width: 10%;
   height: inherit;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+  min-width: 105px;
 }
-/* line 19, sass/resources/caixaDestaque/_style.scss */
+/* line 21, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque .iconDestaque .icon {
-  width: 100%;
+  width: 26px;
   color: #FFFFFF;
-  font-family: "Roboto-Black", sans-serif;
+  margin: 16px auto;
+  height: 80px;
+  font-size: 7.6em;
 }
-/* line 26, sass/resources/caixaDestaque/_style.scss */
+/* line 32, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque .iconDestaque:after {
   content: "";
   position: absolute;
@@ -2556,7 +2570,7 @@ iframe {
   width: 2px;
   background: #FFFFFF;
 }
-/* line 37, sass/resources/caixaDestaque/_style.scss */
+/* line 43, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque .contentDestaque {
   position: relative;
   height: 100%;
@@ -2564,17 +2578,17 @@ iframe {
   font-size: 1.6em;
   color: #FFFFFF;
   display: table-cell;
-  text-align: center;
+  text-align: left;
   vertical-align: middle;
   padding: 20px;
 }
-/* line 49, sass/resources/caixaDestaque/_style.scss */
+/* line 55, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque .contentDestaque p {
   width: 100%;
   margin: 0;
 }
 
-/* line 56, sass/resources/caixaDestaque/_style.scss */
+/* line 62, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.laranja {
   background: #2b95dd;
 }
@@ -2786,6 +2800,58 @@ iframe {
 }
 
 @font-face {
+  font-family: 'icomoon';
+  src: url("assets/fonts/icomoon/icomoon.eot?2jijbq");
+  src: url("fassets/onts/icomoon/icomoon.eot?2jijbq#iefix") format("embedded-opentype"), url("assets/fonts/icomoon/icomoon.ttf?2jijbq") format("truetype"), url("assets/fonts/icomoon/icomoon.woff?2jijbq") format("woff"), url("assets/fonts/icomoon/icomoon.svg?2jijbq#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 12, sass/_icons.scss */
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 27, sass/_icons.scss */
+.icon-exclamacao:before {
+  content: "\e900";
+}
+
+/* line 30, sass/_icons.scss */
+.icon-proxSes:before {
+  content: "\e901";
+}
+
+/* line 33, sass/_icons.scss */
+.icon-seta_direita:before {
+  content: "\e902";
+}
+
+/* line 36, sass/_icons.scss */
+.icon-seta_esq:before {
+  content: "\e903";
+}
+
+/* line 39, sass/_icons.scss */
+.icon-setaPreenchida_baixo:before {
+  content: "\e904";
+}
+
+/* line 42, sass/_icons.scss */
+.icon-setaPreenchida_direita:before {
+  content: "\e905";
+}
+
+@font-face {
   font-family: 'Roboto-Regular';
   src: url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.woff") format("woff"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.ttf") format("truetype"), url("assets/fonts/roboto/Roboto-Regular/Roboto-Regular.svg#Roboto-Regular") format("svg");
   font-weight: normal;
@@ -2858,6 +2924,58 @@ iframe {
   display: block !important;
   visibility: visible !important;
   opacity: 1 !important;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("assets/fonts/icomoon/icomoon.eot?2jijbq");
+  src: url("fassets/onts/icomoon/icomoon.eot?2jijbq#iefix") format("embedded-opentype"), url("assets/fonts/icomoon/icomoon.ttf?2jijbq") format("truetype"), url("assets/fonts/icomoon/icomoon.woff?2jijbq") format("woff"), url("assets/fonts/icomoon/icomoon.svg?2jijbq#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 12, sass/_icons.scss */
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 27, sass/_icons.scss */
+.icon-exclamacao:before {
+  content: "\e900";
+}
+
+/* line 30, sass/_icons.scss */
+.icon-proxSes:before {
+  content: "\e901";
+}
+
+/* line 33, sass/_icons.scss */
+.icon-seta_direita:before {
+  content: "\e902";
+}
+
+/* line 36, sass/_icons.scss */
+.icon-seta_esq:before {
+  content: "\e903";
+}
+
+/* line 39, sass/_icons.scss */
+.icon-setaPreenchida_baixo:before {
+  content: "\e904";
+}
+
+/* line 42, sass/_icons.scss */
+.icon-setaPreenchida_direita:before {
+  content: "\e905";
 }
 
 @font-face {
@@ -3130,6 +3248,58 @@ iframe {
   background: #dab463;
   position: absolute;
   bottom: -8px;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("assets/fonts/icomoon/icomoon.eot?2jijbq");
+  src: url("fassets/onts/icomoon/icomoon.eot?2jijbq#iefix") format("embedded-opentype"), url("assets/fonts/icomoon/icomoon.ttf?2jijbq") format("truetype"), url("assets/fonts/icomoon/icomoon.woff?2jijbq") format("woff"), url("assets/fonts/icomoon/icomoon.svg?2jijbq#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 12, sass/_icons.scss */
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 27, sass/_icons.scss */
+.icon-exclamacao:before {
+  content: "\e900";
+}
+
+/* line 30, sass/_icons.scss */
+.icon-proxSes:before {
+  content: "\e901";
+}
+
+/* line 33, sass/_icons.scss */
+.icon-seta_direita:before {
+  content: "\e902";
+}
+
+/* line 36, sass/_icons.scss */
+.icon-seta_esq:before {
+  content: "\e903";
+}
+
+/* line 39, sass/_icons.scss */
+.icon-setaPreenchida_baixo:before {
+  content: "\e904";
+}
+
+/* line 42, sass/_icons.scss */
+.icon-setaPreenchida_direita:before {
+  content: "\e905";
 }
 
 @font-face {
@@ -3590,18 +3760,14 @@ iframe {
 
 /* line 1, sass/resources/backgroundScroll/_style.scss */
 .backgroundScroll {
-  position: absolute !important;
   padding: 0 !important;
-  height: 100%;
   z-index: -1;
   top: 0;
   left: 0;
 }
 /* line 9, sass/resources/backgroundScroll/_style.scss */
 .backgroundScroll .backgroundBox {
-  height: 100%;
   background-position: center;
-  opacity: 0.5;
 }
 
 /* line 1, sass/resources/botaoDownload/_style.scss */

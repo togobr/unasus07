@@ -1,12 +1,10 @@
-@import "compass/utilities/sprites";
-@import "icons/*.png";
-@include all-icons-sprites;
+// @import "compass/utilities/sprites";
+// @import "icons/*.png";
+// @include all-icons-sprites;
 
 body{
     max-width: 1920px;
     overflow-y: visible;
-    padding-left: 10%;
-    padding-right: 10%;
     font-size: 10px !important;
 }
 
