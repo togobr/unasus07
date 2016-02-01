@@ -40,8 +40,8 @@ define(["responsiveSlidesJs"], function() {
 					});   
 
 					$sliderContainer.children(".slider_tabs").appendTo($sliderContainer.children(".bottomContainer"));
-					// resource.$el.find('.slider_nav.prev').addClass('icon-seta_esq');
-					// resource.$el.find('.slider_nav.next').addClass('icon-seta_direita');
+					resource.$el.find('.slider_nav.prev').wrapInner("<div class='wrapperBtnNav prev'></div>")
+					resource.$el.find('.slider_nav.next').wrapInner("<div class='wrapperBtnNav next'></div>")
 				}
 			});
 		}

@@ -72,24 +72,35 @@
 			    }
 		    }
     	}
-    	.slider_nav{
-	        font-family: 'Entypo';
-	        z-index: 3;
-	        position: absolute;
-	        top: 50%;
-	        left: 15px;
-	        overflow: hidden;
-	        text-decoration: none;
-	        font-size: 120px;
-	        line-height: 70px;
-	        color: $normal;
-	        margin-top: -60px;
 
+    	.wrapperBtnNav{
+			font-family: 'Entypo';
+			position: absolute;
+			top: 50%;
+			margin-top: -35px;
+			left: 0;
+    		&.next{
+    			left: auto;
+    			right: 0;
+    		}
+    	}
+    	.slider_nav{
+    		z-index: 3;
+			position: absolute;
+			top: 0;
+			width: 50px;
+			overflow: hidden;
+			text-decoration: none;
+			font-size: 120px;
+			line-height: 70px;
+			color: $normal;
+			bottom: 40px;
+			background: rgba(255, 255, 255, 0.5);		
 	    }
 
 	    .slider_nav.next{
 	        left: auto;
-	        right: 15px;
+	       	right: 0px;
 	    }
 
 	    ul.slider_tabs{

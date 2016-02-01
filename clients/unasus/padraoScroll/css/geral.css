@@ -3206,33 +3206,46 @@ iframe {
   vertical-align: middle;
   font-family: "Roboto-Bold", sans-serif;
 }
-/* line 75, sass/resources/sliderResponsivo/_style.scss */
-.wrapperSlider .sliderContainer .slider_nav {
+/* line 76, sass/resources/sliderResponsivo/_style.scss */
+.wrapperSlider .sliderContainer .wrapperBtnNav {
   font-family: 'Entypo';
-  z-index: 3;
   position: absolute;
   top: 50%;
-  left: 15px;
+  margin-top: -35px;
+  left: 0;
+}
+/* line 82, sass/resources/sliderResponsivo/_style.scss */
+.wrapperSlider .sliderContainer .wrapperBtnNav.next {
+  left: auto;
+  right: 0;
+}
+/* line 87, sass/resources/sliderResponsivo/_style.scss */
+.wrapperSlider .sliderContainer .slider_nav {
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  width: 50px;
   overflow: hidden;
   text-decoration: none;
   font-size: 120px;
   line-height: 70px;
   color: #30317f;
-  margin-top: -60px;
+  bottom: 40px;
+  background: rgba(255, 255, 255, 0.5);
 }
-/* line 90, sass/resources/sliderResponsivo/_style.scss */
+/* line 101, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer .slider_nav.next {
   left: auto;
-  right: 15px;
+  right: 0px;
 }
-/* line 95, sass/resources/sliderResponsivo/_style.scss */
+/* line 106, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer ul.slider_tabs {
   position: absolute;
   z-index: 3;
   bottom: -2px;
   right: 10%;
 }
-/* line 100, sass/resources/sliderResponsivo/_style.scss */
+/* line 111, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer ul.slider_tabs li {
   position: relative;
   display: inline-block;
@@ -3240,7 +3253,7 @@ iframe {
   padding-left: 0;
   margin-right: 7px;
 }
-/* line 106, sass/resources/sliderResponsivo/_style.scss */
+/* line 117, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer ul.slider_tabs li a {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -3252,7 +3265,7 @@ iframe {
   overflow: hidden;
   display: inline-block;
 }
-/* line 114, sass/resources/sliderResponsivo/_style.scss */
+/* line 125, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer ul.slider_tabs li a:after {
   content: "";
   position: absolute;
@@ -3260,7 +3273,7 @@ iframe {
   width: 10px;
   background: #FFFFFF;
 }
-/* line 122, sass/resources/sliderResponsivo/_style.scss */
+/* line 133, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer ul.slider_tabs li:after {
   content: "";
   position: absolute;
@@ -3270,11 +3283,11 @@ iframe {
   top: 12px;
   background: #FFFFFF;
 }
-/* line 132, sass/resources/sliderResponsivo/_style.scss */
+/* line 143, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer ul.slider_tabs li:last-child:after {
   content: none;
 }
-/* line 138, sass/resources/sliderResponsivo/_style.scss */
+/* line 149, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer ul.slider_tabs .slider_here a {
   height: 13px;
   width: 13px;
