@@ -1,15 +1,17 @@
-<div id="{{id}}" class="{{class}} {{type}} {{column}}" style="{{style}}">
-    <div class="wrapperSlider">
+<div id="{{id}}" class="{{class}} {{column}}" style="{{style}}">
+    <div class="wrapperSlider {{type}}">
         <div class="sliderContainer">
             <ul class="rslides">
                 {{#slidesResponsivos}}
-                    <li>
-                        <img  src="{{imgSlide}}" />
-                        <p class="caption">{{legenda}}</p>
+                    <li class="container-fluid">
+                        <img  class="col-xs-12 col-md-6" src="{{imgSlide}}" />
+                        <div class="contentSlider col-xs-12 col-md-6">{{content}}</div>
+                        <div class="bottomContainer">
+                            <p class="caption">{{legenda}}</p>
+                        </div>
                     </li>
                 {{/slidesResponsivos}}
             </ul>
-            <div class="bottomContainer"></div>
         </div>
     </div>
 </div>
