@@ -3865,6 +3865,29 @@ iframe {
   vertical-align: middle;
 }
 
+/* line 1, sass/resources/botaoPular/_style.scss */
+.btPular {
+  font-size: 6.4em;
+  color: #000;
+  text-decoration: none;
+  margin: 40px auto;
+  display: table;
+}
+/* line 9, sass/resources/botaoPular/_style.scss */
+.btPular:hover {
+  color: #dab463;
+  text-decoration: none;
+}
+/* line 14, sass/resources/botaoPular/_style.scss */
+.btPular:active {
+  text-decoration: none;
+}
+/* line 18, sass/resources/botaoPular/_style.scss */
+.btPular:focus {
+  text-decoration: none;
+  color: initial;
+}
+
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
