@@ -12,9 +12,20 @@ define(["responsiveSlidesJs"], function() {
 		
 			$.extend(true, this, new Player.Helpers.resourceExtend(this, arguments));
 
-			var resource = this.el,
-				$sliderResponsivo = $(resource).find(".rslides"),
-				$sliderContainer = $(resource).find(".sliderContainer");
+			var resource = this,
+				$sliderResponsivo = resource.$el.find(".rslides"),
+				$sliderContainer = resource.$el.find(".sliderContainer"),
+				$contentSlider = resource.$el.find(".contentSlider"),
+				$btnVolta = resource.$el.find(".slider_nav"),
+				$btnAvanca = resource.$el.find(".slider1_nav.next");
+
+				// console.log('foo this', resource.$el.find('.slider_nav'));
+
+
+				if(!$contentSlider.html()){
+					$contentSlider.hide();
+				}
+
 
 			Player.Elements.$content.on({
 				contentReady: function() {
@@ -27,7 +38,10 @@ define(["responsiveSlidesJs"], function() {
 						prevText: "&#59237;",
 						nextText: "&#59238;"
 					});   
-				$sliderContainer.children(".slider_tabs").appendTo($sliderContainer.children(".bottomContainer"));
+
+					$sliderContainer.children(".slider_tabs").appendTo($sliderContainer.children(".bottomContainer"));
+					// resource.$el.find('.slider_nav.prev').addClass('icon-seta_esq');
+					// resource.$el.find('.slider_nav.next').addClass('icon-seta_direita');
 				}
 			});
 		}

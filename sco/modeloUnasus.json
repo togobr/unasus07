@@ -173,7 +173,8 @@
                     {
                         "template":"sliderResponsivo",
                         "column": "col-xs-12 col-md-12",
-                        "type": "comConteudo",
+                        "section":3,
+                        "type": "conteudoRight",
                         "style":"margin-top:50px;",
                         "slidesResponsivos":[
                             {
@@ -193,6 +194,32 @@
                             }
                         ],
                         "order":9
+                    },
+
+                    {
+                        "template":"sliderResponsivo",
+                        "column": "col-xs-12 col-md-12",
+                        "section":3,
+                        "type": "conteudoLeft",
+                        "style":"margin-top:50px;",
+                        "slidesResponsivos":[
+                            {
+                                "imgSlide":"css/assets/images/Fotolia_25023164_Subscription_Monthly_M.jpg",
+                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 1111111111.",
+                                "legenda":"legenda 1"
+                            },
+                            {
+                                "imgSlide":"css/assets/images/Fotolia_25697273_Subscription_Monthly_M.jpg",
+                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 22222222222.",
+                                "legenda":"legenda 2"
+                            },
+                            {
+                                "imgSlide":"css/assets/images/2.jpg",
+                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 3333333333.",
+                                "legenda":"legenda 3"
+                            }
+                        ],
+                        "order":10
                     },
 
                     {
