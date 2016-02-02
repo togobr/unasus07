@@ -87,10 +87,10 @@
 			position: absolute;
 			top: 50%;
 			margin-top: -35px;
-			left: 0;
+			left: 3px;
     		&.next{
     			left: auto;
-    			right: 0;
+    			right: 3px;
     		}
     	}
     	.slider_nav{
@@ -100,7 +100,7 @@
 			width: 40px;
 			overflow: hidden;
 			text-decoration: none;
-			font-size: 120px;
+			font-size: 100px;
 			line-height: 70px;
 			color: $normal;
 			bottom: 40px;
