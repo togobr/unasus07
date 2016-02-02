@@ -3795,11 +3795,16 @@ iframe {
   z-index: -1;
   top: 0;
   left: 0;
+  position: relative;
 }
-/* line 9, sass/resources/backgroundScroll/_style.scss */
+/* line 11, sass/resources/backgroundScroll/_style.scss */
 .backgroundScroll .backgroundBox {
   background-position: center;
   background-size: cover;
+}
+/* line 18, sass/resources/backgroundScroll/_style.scss */
+.backgroundScroll .imgBG {
+  position: absolute;
 }
 
 /* line 1, sass/resources/botaoDownload/_style.scss */

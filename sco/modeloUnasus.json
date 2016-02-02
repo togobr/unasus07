@@ -16,6 +16,16 @@
                         "styleObj": "",
                         "idSection":"1",
                         "backgroundSRC":"http://www.planwallpaper.com/static/images/sea-background01-o.jpg",
+
+                        "images":[
+
+                            {
+                                "imgBG":"css/assets/images/fundo_generico.png"
+                            }
+
+
+                        ],
+                        
                         "order":0
                     },
                     {
@@ -108,7 +118,7 @@
 
                     {
                         "template":"gavetaHorizontal",
-                        "column": "col-xs-12 col-md-4",
+                        "column": "col-xs-12 col-md-12",
                         "style": "margin-top:50px;",
                         "section":1,
                         "gavetasHorizontais":[    
