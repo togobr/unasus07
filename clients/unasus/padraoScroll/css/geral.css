@@ -3143,6 +3143,11 @@ iframe {
 /* line 12, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider.conteudoLeft .sliderContainer .rslides .contentSlider {
   float: left;
+  padding: 40px;
+}
+/* line 26, sass/resources/sliderResponsivo/_style.scss */
+.wrapperSlider.conteudoRight .sliderContainer .rslides .contentSlider {
+  padding: 40px;
 }
 /* line 35, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider.semConteudo .sliderContainer .rslides li img {
@@ -3166,8 +3171,8 @@ iframe {
   list-style: none;
   overflow: hidden;
   width: 100%;
-  padding: 0px 40px 0px 40px;
   margin: 0;
+  padding: 0px;
 }
 /* line 54, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer .rslides li {
