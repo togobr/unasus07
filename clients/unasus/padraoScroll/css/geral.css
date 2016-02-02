@@ -2252,6 +2252,12 @@ iframe {
   cursor: pointer;
 }
 
+/* line 370, sass/resources/tooltip/_style.scss */
+.toolTp {
+  color: #ff4e0d;
+  cursor: help;
+}
+
 /* line 1, sass/resources/sanfona/_style.scss */
 .sanfona {
   margin-bottom: 40px;
@@ -3523,12 +3529,21 @@ iframe {
   /* Safari and Chrome */
 }
 
-/* line 74, sass/resources/botaoModal/_style.scss */
+/* line 73, sass/resources/botaoModal/_style.scss */
+.tip {
+  display: inline;
+}
+/* line 76, sass/resources/botaoModal/_style.scss */
+.tip .tagP {
+  display: inline;
+}
+
+/* line 82, sass/resources/botaoModal/_style.scss */
 #modal {
   display: none;
 }
 
-/* line 79, sass/resources/botaoModal/_style.scss */
+/* line 87, sass/resources/botaoModal/_style.scss */
 .primeiroPlano {
   overflow: auto;
   position: fixed;
@@ -3536,25 +3551,25 @@ iframe {
   max-width: 1021px;
   max-height: 768px;
 }
-/* line 93, sass/resources/botaoModal/_style.scss */
+/* line 101, sass/resources/botaoModal/_style.scss */
 .primeiroPlano .texto .modalContent .wrapper {
   width: 100%;
   max-width: 100%;
 }
 
-/* line 104, sass/resources/botaoModal/_style.scss */
+/* line 112, sass/resources/botaoModal/_style.scss */
 #modalContent {
   position: relative;
   padding: 40px;
 }
 
-/* line 109, sass/resources/botaoModal/_style.scss */
+/* line 117, sass/resources/botaoModal/_style.scss */
 .headerModal {
   width: 100%;
   height: 49px;
 }
 
-/* line 116, sass/resources/botaoModal/_style.scss */
+/* line 124, sass/resources/botaoModal/_style.scss */
 .tituloModal {
   padding: 12px 30px 12px 30px;
   font-size: 23px;
@@ -3563,7 +3578,7 @@ iframe {
   font-family: "Roboto-Regular", sans-serif;
 }
 
-/* line 124, sass/resources/botaoModal/_style.scss */
+/* line 132, sass/resources/botaoModal/_style.scss */
 .btnFechar {
   position: absolute;
   height: 21px;
@@ -3576,14 +3591,14 @@ iframe {
   padding: 0px;
   z-index: 2;
 }
-/* line 137, sass/resources/botaoModal/_style.scss */
+/* line 145, sass/resources/botaoModal/_style.scss */
 .btnFechar span {
   font-size: 47px;
   color: #000000;
   font-family: 'Entypo';
 }
 
-/* line 148, sass/resources/botaoModal/_style.scss */
+/* line 156, sass/resources/botaoModal/_style.scss */
 #modalContent p {
   padding-left: 60px;
   padding-right: 67px;
@@ -3912,8 +3927,8 @@ iframe {
   position: absolute;
 }
 
-/* line 1, sass/resources/botaoDownload/_style.scss */
-.botaoDownload {
+/* line 2, sass/resources/botaoDownload/_style.scss */
+.content .botaoDownload {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -3921,40 +3936,41 @@ iframe {
   height: 50px;
   background: #30317f;
   margin: 0 auto;
-}
-/* line 8, sass/resources/botaoDownload/_style.scss */
-.botaoDownload:hover {
-  background: #dab463;
+  padding: 0;
 }
 /* line 10, sass/resources/botaoDownload/_style.scss */
-.botaoDownload:hover .iconDownload, .botaoDownload:hover .tagP {
+.content .botaoDownload:hover {
+  background: #dab463;
+}
+/* line 12, sass/resources/botaoDownload/_style.scss */
+.content .botaoDownload:hover .iconDownload, .content .botaoDownload:hover .tagP {
   color: #30317f;
 }
-/* line 14, sass/resources/botaoDownload/_style.scss */
-.botaoDownload:active {
+/* line 16, sass/resources/botaoDownload/_style.scss */
+.content .botaoDownload:active {
   background: #30317f;
   border: 3px solid rgba(0, 0, 0, 0.5);
 }
-/* line 17, sass/resources/botaoDownload/_style.scss */
-.botaoDownload:active .iconDownload, .botaoDownload:active .tagP {
+/* line 19, sass/resources/botaoDownload/_style.scss */
+.content .botaoDownload:active .iconDownload, .content .botaoDownload:active .tagP {
   color: #FFFFFF;
 }
-/* line 21, sass/resources/botaoDownload/_style.scss */
-.botaoDownload.visited {
+/* line 23, sass/resources/botaoDownload/_style.scss */
+.content .botaoDownload.visited {
   background: #e9d2a1;
 }
-/* line 23, sass/resources/botaoDownload/_style.scss */
-.botaoDownload.visited .iconDownload, .botaoDownload.visited .tagP {
+/* line 25, sass/resources/botaoDownload/_style.scss */
+.content .botaoDownload.visited .iconDownload, .content .botaoDownload.visited .tagP {
   color: #30317f;
 }
-/* line 28, sass/resources/botaoDownload/_style.scss */
-.botaoDownload a {
+/* line 30, sass/resources/botaoDownload/_style.scss */
+.content .botaoDownload a {
   position: absolute;
   height: 100%;
   width: inherit;
 }
-/* line 34, sass/resources/botaoDownload/_style.scss */
-.botaoDownload .iconDownload {
+/* line 36, sass/resources/botaoDownload/_style.scss */
+.content .botaoDownload .iconDownload {
   float: left;
   height: 100%;
   width: 50px;
@@ -3962,14 +3978,14 @@ iframe {
   color: #FFFFFF;
   display: table;
 }
-/* line 41, sass/resources/botaoDownload/_style.scss */
-.botaoDownload .iconDownload span {
+/* line 43, sass/resources/botaoDownload/_style.scss */
+.content .botaoDownload .iconDownload span {
   display: table-cell;
   vertical-align: middle;
   font-size: 2em;
 }
-/* line 48, sass/resources/botaoDownload/_style.scss */
-.botaoDownload .tagP {
+/* line 50, sass/resources/botaoDownload/_style.scss */
+.content .botaoDownload .tagP {
   float: left;
   height: 100%;
   width: 165px;
@@ -3979,10 +3995,15 @@ iframe {
   text-align: center;
   color: #FFFFFF;
 }
-/* line 57, sass/resources/botaoDownload/_style.scss */
-.botaoDownload .tagP span {
+/* line 59, sass/resources/botaoDownload/_style.scss */
+.content .botaoDownload .tagP span {
   display: table-cell;
   vertical-align: middle;
+}
+/* line 64, sass/resources/botaoDownload/_style.scss */
+.content .botaoDownload .wrapperResource {
+  width: 100%;
+  height: 100%;
 }
 
 /* line 1, sass/resources/botaoPular/_style.scss */
