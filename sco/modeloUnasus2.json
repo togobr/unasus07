@@ -16,16 +16,6 @@
                         "styleObj": "",
                         "idSection":"1",
                         "backgroundSRC":"http://www.planwallpaper.com/static/images/sea-background01-o.jpg",
-
-                        "images":[
-
-                            {
-                                "imgBG":"css/assets/images/fundo_generico.png"
-                            }
-
-
-                        ],
-                        
                         "order":0
                     },
                     {
@@ -111,14 +101,14 @@
                         "template": "texto",
                         "section":1,
                         "type": "normal",
-                        "column": "col-xs-0 col-md-4",
-                        "content": "",
+                        "column": "col-xs-12 col-md-4",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa.",
                         "order":8
                     },
 
                     {
                         "template":"gavetaHorizontal",
-                        "column": "col-xs-12 col-md-12",
+                        "column": "col-xs-12 col-md-4",
                         "style": "margin-top:50px;",
                         "section":1,
                         "gavetasHorizontais":[    
@@ -137,24 +127,12 @@
                                 "numeroGaveta":"3",
                                 "tituloGaveta":"Tab Menu 3",
                                 "content":" <img style='margin-right:2.5%%' src='css/assets/images/IEA03_IMG01_SCO01.png' /> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque facilisrepellendus officia iusto, nam, sssssss <span class='mbTooltipGlossario' title='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quam esse sed delectus ipsa repellendus voluptate, inventore quasi optio deserunt ab quibusdam quia voluptatem tenetur et soluta veritatis sunt illo!'>alternativas</span> et voluptas laboriosam cupiditate magni libero, totam possimus quasi aspernatur nobis quis quas quod?</p>"
-                            },
-
-                            {
-                                "numeroGaveta":"4",
-                                "tituloGaveta":"Tab Menu 4",
-                                "content":" <img style='margin-right:2.5%%' src='css/assets/images/IEA03_IMG01_SCO01.png' /> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque facilisrepellendus officia iusto, nam, sssssss <span class='mbTooltipGlossario' title='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quam esse sed delectus ipsa repellendus voluptate, inventore quasi optio deserunt ab quibusdam quia voluptatem tenetur et soluta veritatis sunt illo!'>alternativas</span> et voluptas laboriosam cupiditate magni libero, totam possimus quasi aspernatur nobis quis quas quod?</p>"
                             }
                         ],
                         "order":9
                     },
 
-                    {
-                        "template":"botaoPular",
-                        "section":1,
-                        "nSec":2,
-                        "cor":"branco",
-                        "order":10
-                        },
+                   
 
                      {
                         "template": "imagem",
@@ -168,7 +146,7 @@
                         "border": true,
                         "styleObj": {
                         },
-                        "order":11
+                        "order":10
                     },
 
                     {
@@ -192,15 +170,8 @@
                                 "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendi."
                             }
                         ],
-                        "order":12
+                        "order":11
                     },
-
-                    {
-                        "template":"botaoPular",
-                        "section":2,
-                        "nSec":3,
-                         "order":13
-                        },
 
                     {
                         "template":"sliderResponsivo",
@@ -211,18 +182,21 @@
                         "slidesResponsivos":[
                             {
                                 "imgSlide":"css/assets/images/Fotolia_25023164_Subscription_Monthly_M.jpg",
-                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 1111111111."
+                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 1111111111.",
+                                "legenda":"legenda 1"
                             },
                             {
                                 "imgSlide":"css/assets/images/Fotolia_25697273_Subscription_Monthly_M.jpg",
-                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 22222222222."
+                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 22222222222.",
+                                "legenda":"legenda 2"
                             },
                             {
                                 "imgSlide":"css/assets/images/2.jpg",
-                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 3333333333."
+                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 3333333333.",
+                                "legenda":"legenda 3"
                             }
                         ],
-                        "order":14
+                        "order":9
                     },
 
                     {
@@ -234,18 +208,21 @@
                         "slidesResponsivos":[
                             {
                                 "imgSlide":"css/assets/images/Fotolia_25023164_Subscription_Monthly_M.jpg",
-                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 1111111111."
+                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 1111111111.",
+                                "legenda":"legenda 1"
                             },
                             {
                                 "imgSlide":"css/assets/images/Fotolia_25697273_Subscription_Monthly_M.jpg",
-                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 22222222222."
+                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 22222222222.",
+                                "legenda":"legenda 2"
                             },
                             {
                                 "imgSlide":"css/assets/images/2.jpg",
-                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 3333333333."
+                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 3333333333.",
+                                "legenda":"legenda 3"
                             }
                         ],
-                        "order":15
+                        "order":10
                     },
 
                     {
@@ -256,16 +233,19 @@
                         "section":3,
                         "slidesResponsivos":[
                             {
-                                "imgSlide":"css/assets/images/Fotolia_25023164_Subscription_Monthly_M.jpg"
+                                "imgSlide":"css/assets/images/Fotolia_25023164_Subscription_Monthly_M.jpg",
+                                "legenda":"legenda 1"
                             },
                             {
-                                "imgSlide":"css/assets/images/Fotolia_25697273_Subscription_Monthly_M.jpg"
+                                "imgSlide":"css/assets/images/Fotolia_25697273_Subscription_Monthly_M.jpg",
+                                "legenda":"legenda 2"
                             },
                             {
-                                "imgSlide":"css/assets/images/2.jpg"
+                                "imgSlide":"css/assets/images/2.jpg",
+                                "legenda":"legenda 3"
                             }
                         ],
-                        "order":16
+                        "order":12
                     },
 
                     {
@@ -285,7 +265,7 @@
                                 "content":"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque facilis quo repellendus officia iusto, nam, odio et voluptas laboriosam cupiditate magni libero, totam possimus quasi aspernatur nobis quis quas quod?</p> <img src='css/assets/images/IEA03_IMG01_SCO01.png' /> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio doloremque rerum nihil, totam iusto doloribus sit minima nostrum eligendi ut tenetur sint optio. Et dignissimos, ratione, rerum natus aliquid omnis!</p>"
                             }
                         ],
-                        "order":17
+                        "order":13
                     },
 
                     {
@@ -296,7 +276,7 @@
                         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa.",
                         "styleObj": {
                         },
-                        "order":18
+                        "order":14
                     },
 
                     {
@@ -306,19 +286,12 @@
                         "column": "col-xs-12 col-md-12",
                         "contentCapa": "CÂNCER DE ESTOMAGO",
                         "content": "<div class='col-xs-12 col-md-4'><img src='http://2.bp.blogspot.com/-F8aZWjikNZs/Vo_yXXOZIbI/AAAAAAAAMmM/_uwQNYgEHYU/s1600/logounasus.png' alt='' width='100'></div><div class='col-xs-12 col-md-4'> <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</span> </div> <div class='col-xs-12 col-md-4'> <span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</span></div>",
-                        "contentHeight" : "200px",
+                        "contentHeight" : "250px",
                         "styleObj": {
                             
                         },
-                        "order":19
+                        "order":15
                     },
-
-                    {
-                        "template":"botaoPular",
-                        "section":3,
-                        "nSec":4,
-                         "order":20
-                        },
 
                     {
                         "template": "revelar",
@@ -327,10 +300,10 @@
                         "column": "col-xs-12 col-md-12",
                         "contentCapa": "CÂNCER DE PRÓSTATA",
                         "content": "Conteúdo da Capa! 22222222222",
-                        "contentHeight" : "200px",
+                        "contentHeight" : "250px",
                         "styleObj": {
                         },
-                        "order":21
+                        "order":16
                     },
 
                     {
@@ -340,11 +313,11 @@
                         "column": "col-xs-12 col-md-12",
                         "contentCapa": "CÂNCER COLORRETAL",
                         "content": "Conteúdo da Capa! 333333333",
-                        "contentHeight" : "200px",
+                        "contentHeight" : "250px",
                         "styleObj": {
                             
                         },
-                        "order":22
+                        "order":17
                     },
 
                     {  
@@ -357,7 +330,7 @@
                         "styleObj": {
                             "margin-top": "50px"
                         },
-                        "order":23
+                        "order":18
                     },
 
                     {  
@@ -371,7 +344,7 @@
                             "margin-top": "50px",
                             "height": "200px"
                         },
-                        "order":24
+                        "order":19
                     },
 
 
@@ -414,20 +387,13 @@
                                 }
                            ]
                         },
-                        "order": 25
+                        "order": 20
                     },
-
-                    {
-                        "template":"botaoPular",
-                        "section":4,
-                        "nSec":5,
-                         "order":26
-                        },
 
                      {
                         "label": "Botão Modal",
                         "column": "col-xs-12 col-md-6",
-                        "section":4,
+                        "section":5,
                         "styleObj": {
                         },
                         "template": "botaoModal",
@@ -456,7 +422,7 @@
                                 }
                            ]
                         },
-                        "order": 227
+                        "order": 21
                     },
 
                     {
@@ -469,7 +435,7 @@
                         "styleObj": {
                             "padding": "0px 100px 0px 100px"
                         },
-                        "order":28
+                        "order":23
                     },
 
                     {
@@ -482,7 +448,7 @@
                         "styleObj": {
                             "padding": "0px 100px 0px 100px"
                         },
-                        "order":29
+                        "order":24
                     },
 
                     {
@@ -491,7 +457,7 @@
                         "section":5,
                         "column": "col-xs-12 col-md-12",
                         "content": "ALCOOLISMO, TABAGISMO E OUTRAS DROGAS",
-                        "order":30
+                        "order":25
                     },
 
                     {
@@ -500,7 +466,7 @@
                         "column": "col-xs-12 col-md-12",
                         "content": "Alcoolismo",
                         "section":5,
-                        "order":31
+                        "order":26
                     },
 
                     {
@@ -509,7 +475,7 @@
                         "column": "col-xs-12 col-md-12",
                         "content": "Alcoolismo",
                         "section":5,
-                        "order":32
+                        "order":27
                     },
 
                     {
@@ -519,7 +485,7 @@
                         "src": "http://www.mensagenscomamor.com/images/interna/new/imagens_reflexao_felicidade.jpg",
                         "column": "col-xs-12 col-md-6",
                         "label": "BAIXAR O LIVRO",
-                        "order":33
+                        "order":28
                     }
                 ]
             }            

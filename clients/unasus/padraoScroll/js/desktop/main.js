@@ -491,6 +491,14 @@ require.config({
 						"text!template.html",
 						"player"
 					]
+				},
+
+				"botaoPular": {
+					"baseURL": "./resources/botaoPular",
+					"paths": [
+						"text!template.html",
+						"player"
+					]
 				}
 			},
 
