@@ -22,3 +22,11 @@
 
 
 }
+
+.btPular.branco{
+	color:#fff;
+	&:hover{
+		color:$hover;
+
+	}
+}

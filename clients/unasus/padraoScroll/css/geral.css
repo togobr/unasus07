@@ -3799,6 +3799,7 @@ iframe {
 /* line 9, sass/resources/backgroundScroll/_style.scss */
 .backgroundScroll .backgroundBox {
   background-position: center;
+  background-size: cover;
 }
 
 /* line 1, sass/resources/botaoDownload/_style.scss */
@@ -3886,6 +3887,15 @@ iframe {
 .btPular:focus {
   text-decoration: none;
   color: initial;
+}
+
+/* line 26, sass/resources/botaoPular/_style.scss */
+.btPular.branco {
+  color: #fff;
+}
+/* line 28, sass/resources/botaoPular/_style.scss */
+.btPular.branco:hover {
+  color: #dab463;
 }
 
 /*!

@@ -101,8 +101,8 @@
                         "template": "texto",
                         "section":1,
                         "type": "normal",
-                        "column": "col-xs-12 col-md-4",
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa.",
+                        "column": "col-xs-0 col-md-4",
+                        "content": "",
                         "order":8
                     },
 
@@ -142,6 +142,7 @@
                         "template":"botaoPular",
                         "section":1,
                         "nSec":2,
+                        "cor":"branco",
                         "order":10
                         },
 
