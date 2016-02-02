@@ -23,6 +23,41 @@ define([], function() {
 				content: "#modalContent"
 			});
 
+			console.log("foo", recurso.$el.attr("class"));
+
+
+			Player.Elements.$content.on({
+                contentReady: function(e) {
+
+
+
+                	if(recurso.$el.hasClass("tip")){
+
+
+
+
+
+                		console.log(recurso.$el.attr("id"),"foo")
+
+                		var tipNumber = recurso.$el.find(".botaoModal").data("ntip"),
+                			$tooltipHolder = $("body").find("#tooltipHolder" + tipNumber);
+
+
+
+                			$("body").find("#"+recurso.$el.attr("id")+"Content").find(".palavraDestacada").show();
+
+						recurso.$el.appendTo($tooltipHolder);
+		
+					}
+
+                	
+
+               
+                }
+            });
+
+			
+
 			recurso.$el.on({
 				click: function(e) {
 					

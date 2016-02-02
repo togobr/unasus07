@@ -2237,6 +2237,12 @@ iframe {
   cursor: pointer;
 }
 
+/* line 370, sass/resources/tooltip/_style.scss */
+.toolTp {
+  color: #ff4e0d;
+  cursor: help;
+}
+
 /* line 1, sass/resources/sanfona/_style.scss */
 .sanfona {
   margin-bottom: 40px;
@@ -3401,12 +3407,21 @@ iframe {
   /* Safari and Chrome */
 }
 
-/* line 14, sass/resources/botaoModal/_style.scss */
+/* line 13, sass/resources/botaoModal/_style.scss */
+.tip {
+  display: inline;
+}
+/* line 16, sass/resources/botaoModal/_style.scss */
+.tip .tagP {
+  display: inline;
+}
+
+/* line 22, sass/resources/botaoModal/_style.scss */
 #modal {
   display: none;
 }
 
-/* line 19, sass/resources/botaoModal/_style.scss */
+/* line 27, sass/resources/botaoModal/_style.scss */
 .primeiroPlano {
   overflow: auto;
   position: fixed;
@@ -3414,25 +3429,25 @@ iframe {
   max-width: 1021px;
   max-height: 768px;
 }
-/* line 33, sass/resources/botaoModal/_style.scss */
+/* line 41, sass/resources/botaoModal/_style.scss */
 .primeiroPlano .texto .modalContent .wrapper {
   width: 100%;
   max-width: 100%;
 }
 
-/* line 44, sass/resources/botaoModal/_style.scss */
+/* line 52, sass/resources/botaoModal/_style.scss */
 #modalContent {
   position: relative;
   padding: 40px;
 }
 
-/* line 49, sass/resources/botaoModal/_style.scss */
+/* line 57, sass/resources/botaoModal/_style.scss */
 .headerModal {
   width: 100%;
   height: 49px;
 }
 
-/* line 56, sass/resources/botaoModal/_style.scss */
+/* line 64, sass/resources/botaoModal/_style.scss */
 .tituloModal {
   padding: 12px 30px 12px 30px;
   font-size: 23px;
@@ -3441,7 +3456,7 @@ iframe {
   font-family: "Roboto-Regular", sans-serif;
 }
 
-/* line 64, sass/resources/botaoModal/_style.scss */
+/* line 72, sass/resources/botaoModal/_style.scss */
 .btnFechar {
   position: absolute;
   height: 21px;
@@ -3454,14 +3469,14 @@ iframe {
   padding: 0px;
   z-index: 2;
 }
-/* line 77, sass/resources/botaoModal/_style.scss */
+/* line 85, sass/resources/botaoModal/_style.scss */
 .btnFechar span {
   font-size: 47px;
   color: #000000;
   font-family: 'Entypo';
 }
 
-/* line 88, sass/resources/botaoModal/_style.scss */
+/* line 96, sass/resources/botaoModal/_style.scss */
 #modalContent p {
   padding-left: 60px;
   padding-right: 67px;
@@ -3472,7 +3487,7 @@ iframe {
   line-height: 46px;
 }
 
-/* line 102, sass/resources/botaoModal/_style.scss */
+/* line 110, sass/resources/botaoModal/_style.scss */
 .btnRetangle {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -3489,24 +3504,24 @@ iframe {
   margin: 0 auto;
   font-size: 1.6em;
 }
-/* line 117, sass/resources/botaoModal/_style.scss */
+/* line 125, sass/resources/botaoModal/_style.scss */
 .btnRetangle:hover {
   background: #dab463;
 }
-/* line 119, sass/resources/botaoModal/_style.scss */
+/* line 127, sass/resources/botaoModal/_style.scss */
 .btnRetangle:hover .tagP {
   color: #30317f;
 }
-/* line 123, sass/resources/botaoModal/_style.scss */
+/* line 131, sass/resources/botaoModal/_style.scss */
 .btnRetangle:active {
   background: #30317f;
   border: 3px solid rgba(0, 0, 0, 0.5);
 }
-/* line 126, sass/resources/botaoModal/_style.scss */
+/* line 134, sass/resources/botaoModal/_style.scss */
 .btnRetangle:active .tagP {
   color: #FFFFFF;
 }
-/* line 131, sass/resources/botaoModal/_style.scss */
+/* line 139, sass/resources/botaoModal/_style.scss */
 .btnRetangle .tagP {
   display: table-cell;
   vertical-align: middle;

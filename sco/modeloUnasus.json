@@ -17,14 +17,7 @@
                         "idSection":"1",
                         "backgroundSRC":"http://www.planwallpaper.com/static/images/sea-background01-o.jpg",
 
-                        "images":[
-
-                            {
-                                "imgBG":"css/assets/images/fundo_generico.png"
-                            }
-
-
-                        ],
+                        
                         
                         "order":0
                     },
@@ -34,6 +27,16 @@
                         "styleObj": "",
                         "idSection":"2",
                         "backgroundSRC":"",
+
+                        "images":[
+
+                            {
+                                "imgBG":"css/assets/images/fundo_generico.png",
+                                "styleImg":"top: 423px;left: 436px;"
+                            }
+
+
+                        ],
                         "order":1
                     },
 
@@ -125,7 +128,7 @@
                             {
                                 "numeroGaveta":"1",
                                 "tituloGaveta":"Tab Menu 1",
-                                "content":"Lorem <span class='mbTooltipGlossario' title='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quam esse sed delectus ipsa repellendus voluptate, inventore quasi optio deserunt ab quibusdam quia voluptatem tenetur et soluta veritatis sunt illo!'>Palavra Destacada</span> dolor sit amet, consectetur adipisicing elit. Ducimus aliquam quia obcaecati autem labore delectus ea rerum dolorem officia, numquam molestias quidem est voluptate inventore! At veniam aliquam, architecto quidem!"
+                                "content":"Lorem <span class='toolTp' id='tooltipHolder1' title='clique aqui'></span> dolor sit amet, consectetur adipisicing elit. Ducimus aliquam quia obcaecati autem labore delectus ea rerum dolorem officia, numquam molestias quidem est voluptate inventore! At veniam aliquam, architecto quidem!"
                             },
 
                             {
@@ -146,6 +149,50 @@
                             }
                         ],
                         "order":9
+                    },
+
+
+                    {
+                        "label": "Botão Modal",
+                        "column": "",
+                        "section":1,
+                        "styleObj": {
+                        },
+                        "template": "botaoModal",
+                        "class": "tip",
+                        "nTooltip":"1",
+                        "_modal_id": {
+                            "defaults": {
+                            "styleObj": {
+                                "height": "150px"
+                            },
+                                "name": "Teste Modal",
+                                "type": ""
+                            },
+                            "modal": {
+                                "type": "",
+                                "responsive": true,
+                                "titulo":"teste teste teste",
+                                "palavra":"tsteasdasdasdas"
+                            },
+                            "name": "Novo slide",
+                            "onUse": false,
+                            "template": "slideSimples",
+                            "resources": [
+                                {
+                                    "template": "imagem",
+                                    "column": "col-xs-12 col-md-6",
+                                    "src": "http://2.bp.blogspot.com/-F8aZWjikNZs/Vo_yXXOZIbI/AAAAAAAAMmM/_uwQNYgEHYU/s1600/logounasus.png"
+                                },
+                                {
+                                    "template": "texto",
+                                    "type": "normal",
+                                    "column": "col-xs-12 col-md-6",
+                                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa."
+                                }
+                           ]
+                        },
+                        "order": 25
                     },
 
                     {
