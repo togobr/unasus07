@@ -3466,7 +3466,55 @@ iframe {
   src: url("assets/fonts/roboto/fontawesome-webfont.eot");
   src: url("assets/fonts/roboto/fontawesome-webfont.woff") format("woff"), url("assets/fonts/roboto/FontAwesome.otf") format("opentype"), url("assets/fonts/roboto/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
 }
-/* line 5, sass/resources/botaoModal/_style.scss */
+/* line 4, sass/resources/botaoModal/_style.scss */
+.botaoModal.btnRetangle {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  z-index: 1;
+  height: 50px;
+  font-family: "Roboto-Bold", sans-serif;
+  text-align: center;
+  background: #30317f;
+  display: table;
+  margin: 0 auto;
+  font-size: 1.6em;
+}
+/* line 17, sass/resources/botaoModal/_style.scss */
+.botaoModal.btnRetangle:hover {
+  background: #dab463;
+}
+/* line 19, sass/resources/botaoModal/_style.scss */
+.botaoModal.btnRetangle:hover .tagP {
+  color: #30317f;
+}
+/* line 23, sass/resources/botaoModal/_style.scss */
+.botaoModal.btnRetangle:active {
+  background: #30317f;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+}
+/* line 26, sass/resources/botaoModal/_style.scss */
+.botaoModal.btnRetangle:active .tagP {
+  color: #FFFFFF;
+}
+/* line 30, sass/resources/botaoModal/_style.scss */
+.botaoModal.btnRetangle.visited {
+  background: #e9d2a1;
+}
+/* line 32, sass/resources/botaoModal/_style.scss */
+.botaoModal.btnRetangle.visited .tagP {
+  color: #30317f;
+}
+/* line 37, sass/resources/botaoModal/_style.scss */
+.botaoModal.btnRetangle .tagP {
+  display: table-cell;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+
+/* line 65, sass/resources/botaoModal/_style.scss */
 .modal-vertical-centered {
   transform: translate(0, 50%) !important;
   -ms-transform: translate(0, 50%) !important;
@@ -3475,12 +3523,12 @@ iframe {
   /* Safari and Chrome */
 }
 
-/* line 14, sass/resources/botaoModal/_style.scss */
+/* line 74, sass/resources/botaoModal/_style.scss */
 #modal {
   display: none;
 }
 
-/* line 19, sass/resources/botaoModal/_style.scss */
+/* line 79, sass/resources/botaoModal/_style.scss */
 .primeiroPlano {
   overflow: auto;
   position: fixed;
@@ -3488,25 +3536,25 @@ iframe {
   max-width: 1021px;
   max-height: 768px;
 }
-/* line 33, sass/resources/botaoModal/_style.scss */
+/* line 93, sass/resources/botaoModal/_style.scss */
 .primeiroPlano .texto .modalContent .wrapper {
   width: 100%;
   max-width: 100%;
 }
 
-/* line 44, sass/resources/botaoModal/_style.scss */
+/* line 104, sass/resources/botaoModal/_style.scss */
 #modalContent {
   position: relative;
   padding: 40px;
 }
 
-/* line 49, sass/resources/botaoModal/_style.scss */
+/* line 109, sass/resources/botaoModal/_style.scss */
 .headerModal {
   width: 100%;
   height: 49px;
 }
 
-/* line 56, sass/resources/botaoModal/_style.scss */
+/* line 116, sass/resources/botaoModal/_style.scss */
 .tituloModal {
   padding: 12px 30px 12px 30px;
   font-size: 23px;
@@ -3515,7 +3563,7 @@ iframe {
   font-family: "Roboto-Regular", sans-serif;
 }
 
-/* line 64, sass/resources/botaoModal/_style.scss */
+/* line 124, sass/resources/botaoModal/_style.scss */
 .btnFechar {
   position: absolute;
   height: 21px;
@@ -3528,14 +3576,14 @@ iframe {
   padding: 0px;
   z-index: 2;
 }
-/* line 77, sass/resources/botaoModal/_style.scss */
+/* line 137, sass/resources/botaoModal/_style.scss */
 .btnFechar span {
   font-size: 47px;
   color: #000000;
   font-family: 'Entypo';
 }
 
-/* line 88, sass/resources/botaoModal/_style.scss */
+/* line 148, sass/resources/botaoModal/_style.scss */
 #modalContent p {
   padding-left: 60px;
   padding-right: 67px;
@@ -3544,47 +3592,6 @@ iframe {
   font-size: 16pt;
   color: #383737;
   line-height: 46px;
-}
-
-/* line 102, sass/resources/botaoModal/_style.scss */
-.btnRetangle {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  color: white;
-  cursor: pointer;
-  z-index: 1;
-  height: 50px;
-  width: 225px;
-  font-family: "Roboto-Bold", sans-serif;
-  text-align: center;
-  background: #30317f;
-  display: table;
-  margin: 0 auto;
-  font-size: 1.6em;
-}
-/* line 117, sass/resources/botaoModal/_style.scss */
-.btnRetangle:hover {
-  background: #dab463;
-}
-/* line 119, sass/resources/botaoModal/_style.scss */
-.btnRetangle:hover .tagP {
-  color: #30317f;
-}
-/* line 123, sass/resources/botaoModal/_style.scss */
-.btnRetangle:active {
-  background: #30317f;
-  border: 3px solid rgba(0, 0, 0, 0.5);
-}
-/* line 126, sass/resources/botaoModal/_style.scss */
-.btnRetangle:active .tagP {
-  color: #FFFFFF;
-}
-/* line 131, sass/resources/botaoModal/_style.scss */
-.btnRetangle .tagP {
-  display: table-cell;
-  vertical-align: middle;
-  color: #FFFFFF;
 }
 
 /* line 1, sass/resources/video/_style.scss */
@@ -3788,8 +3795,9 @@ iframe {
   white-space: nowrap;
   display: table-cell;
   vertical-align: middle;
+  width: 100%;
 }
-/* line 81, sass/resources/revelar/_style.scss */
+/* line 82, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle a.dropdown-toggle .openCloseIcon {
   -webkit-border-top-left-radius: 5px;
   border-top-left-radius: 5px;
@@ -3801,24 +3809,24 @@ iframe {
   display: table;
   text-align: center;
 }
-/* line 91, sass/resources/revelar/_style.scss */
+/* line 92, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle a.dropdown-toggle .openCloseIcon span {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 94, sass/resources/revelar/_style.scss */
+/* line 95, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle a.dropdown-toggle .openCloseIcon span.icon-setaPreenchida_cima {
   display: none;
 }
-/* line 99, sass/resources/revelar/_style.scss */
+/* line 100, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle a.dropdown-toggle .openCloseIcon.opened .icon-setaPreenchida_cima {
   display: table-cell;
 }
-/* line 102, sass/resources/revelar/_style.scss */
+/* line 103, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle a.dropdown-toggle .openCloseIcon.opened .icon-setaPreenchida_baixo {
   display: none;
 }
-/* line 109, sass/resources/revelar/_style.scss */
+/* line 110, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle .dropdown-menu {
   -webkit-border-top-right-radius: 0;
   border-top-right-radius: 0;
@@ -3832,56 +3840,56 @@ iframe {
   margin-top: 5px;
   font-size: inherit !important;
 }
-/* line 117, sass/resources/revelar/_style.scss */
+/* line 118, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle .dropdown-menu li {
   font-size: 1.6em;
   padding: 0.5em;
 }
-/* line 121, sass/resources/revelar/_style.scss */
+/* line 122, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle .dropdown-menu a:hover {
   background: none;
 }
-/* line 129, sass/resources/revelar/_style.scss */
+/* line 130, sass/resources/revelar/_style.scss */
 .content .revelar .clickType {
   display: none;
 }
-/* line 133, sass/resources/revelar/_style.scss */
+/* line 134, sass/resources/revelar/_style.scss */
 .content .revelar.click {
   cursor: pointer;
 }
-/* line 135, sass/resources/revelar/_style.scss */
+/* line 136, sass/resources/revelar/_style.scss */
 .content .revelar.click .clickType {
   display: none;
 }
-/* line 137, sass/resources/revelar/_style.scss */
+/* line 138, sass/resources/revelar/_style.scss */
 .content .revelar.click .clickType .tagP {
   display: none;
 }
-/* line 144, sass/resources/revelar/_style.scss */
+/* line 145, sass/resources/revelar/_style.scss */
 .content .revelar.click.clicked .clickType .contentCapa {
   display: none;
 }
-/* line 147, sass/resources/revelar/_style.scss */
+/* line 148, sass/resources/revelar/_style.scss */
 .content .revelar.click.clicked .clickType .tagP {
   display: block;
 }
-/* line 155, sass/resources/revelar/_style.scss */
+/* line 156, sass/resources/revelar/_style.scss */
 .content .revelar .hoverType {
   display: none;
 }
-/* line 160, sass/resources/revelar/_style.scss */
+/* line 161, sass/resources/revelar/_style.scss */
 .content .revelar.hover .hoverType {
   display: none;
 }
-/* line 162, sass/resources/revelar/_style.scss */
+/* line 163, sass/resources/revelar/_style.scss */
 .content .revelar.hover .hoverType .tagP {
   display: none;
 }
-/* line 169, sass/resources/revelar/_style.scss */
+/* line 170, sass/resources/revelar/_style.scss */
 .content .revelar.hover.hovered .hoverType .contentCapa {
   display: none;
 }
-/* line 172, sass/resources/revelar/_style.scss */
+/* line 173, sass/resources/revelar/_style.scss */
 .content .revelar.hover.hovered .hoverType .tagP {
   display: block;
 }
@@ -3931,13 +3939,21 @@ iframe {
 .botaoDownload:active .iconDownload, .botaoDownload:active .tagP {
   color: #FFFFFF;
 }
-/* line 22, sass/resources/botaoDownload/_style.scss */
+/* line 21, sass/resources/botaoDownload/_style.scss */
+.botaoDownload.visited {
+  background: #e9d2a1;
+}
+/* line 23, sass/resources/botaoDownload/_style.scss */
+.botaoDownload.visited .iconDownload, .botaoDownload.visited .tagP {
+  color: #30317f;
+}
+/* line 28, sass/resources/botaoDownload/_style.scss */
 .botaoDownload a {
   position: absolute;
   height: 100%;
   width: inherit;
 }
-/* line 28, sass/resources/botaoDownload/_style.scss */
+/* line 34, sass/resources/botaoDownload/_style.scss */
 .botaoDownload .iconDownload {
   float: left;
   height: 100%;
@@ -3946,13 +3962,13 @@ iframe {
   color: #FFFFFF;
   display: table;
 }
-/* line 35, sass/resources/botaoDownload/_style.scss */
+/* line 41, sass/resources/botaoDownload/_style.scss */
 .botaoDownload .iconDownload span {
   display: table-cell;
   vertical-align: middle;
   font-size: 2em;
 }
-/* line 42, sass/resources/botaoDownload/_style.scss */
+/* line 48, sass/resources/botaoDownload/_style.scss */
 .botaoDownload .tagP {
   float: left;
   height: 100%;
@@ -3963,7 +3979,7 @@ iframe {
   text-align: center;
   color: #FFFFFF;
 }
-/* line 51, sass/resources/botaoDownload/_style.scss */
+/* line 57, sass/resources/botaoDownload/_style.scss */
 .botaoDownload .tagP span {
   display: table-cell;
   vertical-align: middle;

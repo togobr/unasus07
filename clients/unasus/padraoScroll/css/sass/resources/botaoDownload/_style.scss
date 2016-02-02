@@ -18,6 +18,12 @@
             color: #FFFFFF;
         }
     }
+    &.visited{
+    	background: $visited;
+    	.iconDownload, .tagP{
+            color: $normal;
+        }
+    }
 
 	a{
 		position: absolute;
