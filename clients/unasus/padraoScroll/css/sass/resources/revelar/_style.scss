@@ -58,30 +58,12 @@
 				height: 51px;
 				width: 100%;
 
-				.openCloseIcon{
+				a.dropdown-toggle{ 
 					-webkit-border-top-left-radius: 5px;
 					border-top-left-radius: 5px;
-					background: $normal;
-					height: 100%;
-					width: 55px;
-					float: left;
-					border-right: 3px solid #FFFFFF;
-					display: table;
-					text-align: center;
-					span{
-						display: table-cell;
-						vertical-align: middle;
-					}
-				}
-
-				a.dropdown-toggle{ 
-					-webkit-border-top-left-radius: 0px;
-					border-top-left-radius: 0px;
 					-webkit-border-top-right-radius: 5px;
 					border-top-right-radius: 5px;
-					width: -moz-calc(100% - 55px);
-					width: -webkit-calc(100% - 55px);
-					width: calc(100% - 55px);
+					width: 100%;
 					display: table;
 					height: 100%;
 					background: $normal;
@@ -95,6 +77,33 @@
 						white-space: nowrap;
 						display: table-cell;
 						vertical-align: middle;
+						width: 100%;
+					}
+					.openCloseIcon{
+						-webkit-border-top-left-radius: 5px;
+						border-top-left-radius: 5px;
+						background: $normal;
+						height: 100%;
+						width: 52px;
+						float: left;
+						border-right: 3px solid #FFFFFF;
+						display: table;
+						text-align: center;
+						span{
+							display: table-cell;
+							vertical-align: middle;
+							&.icon-setaPreenchida_cima{
+								display: none;
+							}
+						}
+						&.opened{
+							.icon-setaPreenchida_cima{
+								display: table-cell;
+							}
+							.icon-setaPreenchida_baixo{
+								display: none;
+							}
+						}
 					}
 				}
 

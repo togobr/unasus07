@@ -21,10 +21,21 @@ define([], function() {
 				$contentCapa = recurso.$el.find('.contentCapa'),
 				$dropDown = recurso.$el.find('.dropdown-toggle'),
 				$dropDownContent = recurso.$el.find('.dropdown-menu');
-				$fechaRevelar = recurso.$el.find('.fechaRevelar');
+				$fechaRevelar = recurso.$el.find('.fechaRevelar'),
+				$setaPreenchida_baixo = recurso.$el.find('.setaPreenchida_baixo'),
+				$setaPreenchida_cima = recurso.$el.find('.setaPreenchida_cima');
 
 				if(recurso.$el.hasClass("dropdown")){
 					$dropDownType.show();
+
+					recurso.$el.on({
+						click: function(e) {
+							$(this)
+								.find('.openCloseIcon')
+								// .toggleClass('opened');
+						}
+					});
+
 				}else if(recurso.$el.hasClass("click")){
 					$clickType.show();
 

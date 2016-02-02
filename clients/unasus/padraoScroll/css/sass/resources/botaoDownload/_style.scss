@@ -18,6 +18,12 @@
             color: #FFFFFF;
         }
     }
+    &.visited{
+    	background: $visited;
+    	.iconDownload, .tagP{
+            color: $normal;
+        }
+    }
 
 	a{
 		position: absolute;
@@ -35,6 +41,7 @@
 		span{
 			display: table-cell;
 			vertical-align: middle;
+			font-size: 2em;
 		}
 	}
 

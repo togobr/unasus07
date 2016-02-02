@@ -22,33 +22,48 @@
 }
 
 /* line 27, sass/_icons.scss */
-.icon-exclamacao:before {
+.icon-download:before {
   content: "\e900";
 }
 
 /* line 30, sass/_icons.scss */
-.icon-proxSes:before {
+.icon-exclamacao:before {
   content: "\e901";
 }
 
 /* line 33, sass/_icons.scss */
-.icon-seta_direita:before {
+.icon-fechar:before {
   content: "\e902";
 }
 
 /* line 36, sass/_icons.scss */
-.icon-seta_esq:before {
+.icon-proxSes:before {
   content: "\e903";
 }
 
 /* line 39, sass/_icons.scss */
-.icon-setaPreenchida_baixo:before {
+.icon-seta_direita:before {
   content: "\e904";
 }
 
 /* line 42, sass/_icons.scss */
-.icon-setaPreenchida_direita:before {
+.icon-seta_esq:before {
   content: "\e905";
+}
+
+/* line 45, sass/_icons.scss */
+.icon-setaPreenchida_baixo:before {
+  content: "\e906";
+}
+
+/* line 48, sass/_icons.scss */
+.icon-setaPreenchida_cima:before {
+  content: "\e907";
+}
+
+/* line 51, sass/_icons.scss */
+.icon-setaPreenchida_direita:before {
+  content: "\e908";
 }
 
 @font-face {
@@ -2243,6 +2258,11 @@ iframe {
   cursor: help;
 }
 
+/* line 375, sass/resources/tooltip/_style.scss */
+.palavraDestacada {
+  background: #dab463;
+}
+
 /* line 1, sass/resources/sanfona/_style.scss */
 .sanfona {
   margin-bottom: 40px;
@@ -2471,33 +2491,48 @@ iframe {
 }
 
 /* line 27, sass/_icons.scss */
-.icon-exclamacao:before {
+.icon-download:before {
   content: "\e900";
 }
 
 /* line 30, sass/_icons.scss */
-.icon-proxSes:before {
+.icon-exclamacao:before {
   content: "\e901";
 }
 
 /* line 33, sass/_icons.scss */
-.icon-seta_direita:before {
+.icon-fechar:before {
   content: "\e902";
 }
 
 /* line 36, sass/_icons.scss */
-.icon-seta_esq:before {
+.icon-proxSes:before {
   content: "\e903";
 }
 
 /* line 39, sass/_icons.scss */
-.icon-setaPreenchida_baixo:before {
+.icon-seta_direita:before {
   content: "\e904";
 }
 
 /* line 42, sass/_icons.scss */
-.icon-setaPreenchida_direita:before {
+.icon-seta_esq:before {
   content: "\e905";
+}
+
+/* line 45, sass/_icons.scss */
+.icon-setaPreenchida_baixo:before {
+  content: "\e906";
+}
+
+/* line 48, sass/_icons.scss */
+.icon-setaPreenchida_cima:before {
+  content: "\e907";
+}
+
+/* line 51, sass/_icons.scss */
+.icon-setaPreenchida_direita:before {
+  content: "\e908";
 }
 
 @font-face {
@@ -2570,13 +2605,12 @@ iframe {
 }
 /* line 21, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque .iconDestaque .icon {
-  width: 26px;
   color: #FFFFFF;
   margin: 16px auto;
   height: 80px;
   font-size: 7.6em;
 }
-/* line 32, sass/resources/caixaDestaque/_style.scss */
+/* line 28, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque .iconDestaque:after {
   content: "";
   position: absolute;
@@ -2586,7 +2620,7 @@ iframe {
   width: 2px;
   background: #FFFFFF;
 }
-/* line 43, sass/resources/caixaDestaque/_style.scss */
+/* line 39, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque .contentDestaque {
   position: relative;
   height: 100%;
@@ -2598,13 +2632,13 @@ iframe {
   vertical-align: middle;
   padding: 20px;
 }
-/* line 55, sass/resources/caixaDestaque/_style.scss */
+/* line 51, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque .contentDestaque p {
   width: 100%;
   margin: 0;
 }
 
-/* line 62, sass/resources/caixaDestaque/_style.scss */
+/* line 58, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.laranja {
   background: #2b95dd;
 }
@@ -2688,12 +2722,7 @@ iframe {
 /* line 69, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor .ui-tabs-panel img {
   display: inline-block;
-  width: 48%;
-}
-/* line 74, sass/resources/gavetaHorizontal/_style.scss */
-#tabsHor .ui-tabs-panel p {
-  display: inline-block;
-  width: 48%;
+  width: 100%;
 }
 
 /* line 1, sass/resources/gavetaVertical/_style.scss */
@@ -2838,33 +2867,48 @@ iframe {
 }
 
 /* line 27, sass/_icons.scss */
-.icon-exclamacao:before {
+.icon-download:before {
   content: "\e900";
 }
 
 /* line 30, sass/_icons.scss */
-.icon-proxSes:before {
+.icon-exclamacao:before {
   content: "\e901";
 }
 
 /* line 33, sass/_icons.scss */
-.icon-seta_direita:before {
+.icon-fechar:before {
   content: "\e902";
 }
 
 /* line 36, sass/_icons.scss */
-.icon-seta_esq:before {
+.icon-proxSes:before {
   content: "\e903";
 }
 
 /* line 39, sass/_icons.scss */
-.icon-setaPreenchida_baixo:before {
+.icon-seta_direita:before {
   content: "\e904";
 }
 
 /* line 42, sass/_icons.scss */
-.icon-setaPreenchida_direita:before {
+.icon-seta_esq:before {
   content: "\e905";
+}
+
+/* line 45, sass/_icons.scss */
+.icon-setaPreenchida_baixo:before {
+  content: "\e906";
+}
+
+/* line 48, sass/_icons.scss */
+.icon-setaPreenchida_cima:before {
+  content: "\e907";
+}
+
+/* line 51, sass/_icons.scss */
+.icon-setaPreenchida_direita:before {
+  content: "\e908";
 }
 
 @font-face {
@@ -2965,33 +3009,48 @@ iframe {
 }
 
 /* line 27, sass/_icons.scss */
-.icon-exclamacao:before {
+.icon-download:before {
   content: "\e900";
 }
 
 /* line 30, sass/_icons.scss */
-.icon-proxSes:before {
+.icon-exclamacao:before {
   content: "\e901";
 }
 
 /* line 33, sass/_icons.scss */
-.icon-seta_direita:before {
+.icon-fechar:before {
   content: "\e902";
 }
 
 /* line 36, sass/_icons.scss */
-.icon-seta_esq:before {
+.icon-proxSes:before {
   content: "\e903";
 }
 
 /* line 39, sass/_icons.scss */
-.icon-setaPreenchida_baixo:before {
+.icon-seta_direita:before {
   content: "\e904";
 }
 
 /* line 42, sass/_icons.scss */
-.icon-setaPreenchida_direita:before {
+.icon-seta_esq:before {
   content: "\e905";
+}
+
+/* line 45, sass/_icons.scss */
+.icon-setaPreenchida_baixo:before {
+  content: "\e906";
+}
+
+/* line 48, sass/_icons.scss */
+.icon-setaPreenchida_cima:before {
+  content: "\e907";
+}
+
+/* line 51, sass/_icons.scss */
+.icon-setaPreenchida_direita:before {
+  content: "\e908";
 }
 
 @font-face {
@@ -3149,6 +3208,11 @@ iframe {
 /* line 12, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider.conteudoLeft .sliderContainer .rslides .contentSlider {
   float: left;
+  padding: 40px;
+}
+/* line 26, sass/resources/sliderResponsivo/_style.scss */
+.wrapperSlider.conteudoRight .sliderContainer .rslides .contentSlider {
+  padding: 40px;
 }
 /* line 35, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider.semConteudo .sliderContainer .rslides li img {
@@ -3172,8 +3236,8 @@ iframe {
   list-style: none;
   overflow: hidden;
   width: 100%;
-  padding: 0px 40px 0px 40px;
   margin: 0;
+  padding: 0px;
 }
 /* line 54, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer .rslides li {
@@ -3218,12 +3282,12 @@ iframe {
   position: absolute;
   top: 50%;
   margin-top: -35px;
-  left: 0;
+  left: 3px;
 }
 /* line 91, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer .wrapperBtnNav.next {
   left: auto;
-  right: 0;
+  right: 3px;
 }
 /* line 96, sass/resources/sliderResponsivo/_style.scss */
 .wrapperSlider .sliderContainer .slider_nav {
@@ -3233,7 +3297,7 @@ iframe {
   width: 40px;
   overflow: hidden;
   text-decoration: none;
-  font-size: 120px;
+  font-size: 100px;
   line-height: 70px;
   color: #30317f;
   bottom: 40px;
@@ -3323,33 +3387,48 @@ iframe {
 }
 
 /* line 27, sass/_icons.scss */
-.icon-exclamacao:before {
+.icon-download:before {
   content: "\e900";
 }
 
 /* line 30, sass/_icons.scss */
-.icon-proxSes:before {
+.icon-exclamacao:before {
   content: "\e901";
 }
 
 /* line 33, sass/_icons.scss */
-.icon-seta_direita:before {
+.icon-fechar:before {
   content: "\e902";
 }
 
 /* line 36, sass/_icons.scss */
-.icon-seta_esq:before {
+.icon-proxSes:before {
   content: "\e903";
 }
 
 /* line 39, sass/_icons.scss */
-.icon-setaPreenchida_baixo:before {
+.icon-seta_direita:before {
   content: "\e904";
 }
 
 /* line 42, sass/_icons.scss */
-.icon-setaPreenchida_direita:before {
+.icon-seta_esq:before {
   content: "\e905";
+}
+
+/* line 45, sass/_icons.scss */
+.icon-setaPreenchida_baixo:before {
+  content: "\e906";
+}
+
+/* line 48, sass/_icons.scss */
+.icon-setaPreenchida_cima:before {
+  content: "\e907";
+}
+
+/* line 51, sass/_icons.scss */
+.icon-setaPreenchida_direita:before {
+  content: "\e908";
 }
 
 @font-face {
@@ -3398,7 +3477,55 @@ iframe {
   src: url("assets/fonts/roboto/fontawesome-webfont.eot");
   src: url("assets/fonts/roboto/fontawesome-webfont.woff") format("woff"), url("assets/fonts/roboto/FontAwesome.otf") format("opentype"), url("assets/fonts/roboto/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
 }
-/* line 5, sass/resources/botaoModal/_style.scss */
+/* line 4, sass/resources/botaoModal/_style.scss */
+.botaoModal.btnRetangle {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  z-index: 1;
+  height: 50px;
+  font-family: "Roboto-Bold", sans-serif;
+  text-align: center;
+  background: #30317f;
+  display: table;
+  margin: 0 auto;
+  font-size: 1.6em;
+}
+/* line 17, sass/resources/botaoModal/_style.scss */
+.botaoModal.btnRetangle:hover {
+  background: #dab463;
+}
+/* line 19, sass/resources/botaoModal/_style.scss */
+.botaoModal.btnRetangle:hover .tagP {
+  color: #30317f;
+}
+/* line 23, sass/resources/botaoModal/_style.scss */
+.botaoModal.btnRetangle:active {
+  background: #30317f;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+}
+/* line 26, sass/resources/botaoModal/_style.scss */
+.botaoModal.btnRetangle:active .tagP {
+  color: #FFFFFF;
+}
+/* line 30, sass/resources/botaoModal/_style.scss */
+.botaoModal.btnRetangle.visited {
+  background: #e9d2a1;
+}
+/* line 32, sass/resources/botaoModal/_style.scss */
+.botaoModal.btnRetangle.visited .tagP {
+  color: #30317f;
+}
+/* line 37, sass/resources/botaoModal/_style.scss */
+.botaoModal.btnRetangle .tagP {
+  display: table-cell;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+
+/* line 65, sass/resources/botaoModal/_style.scss */
 .modal-vertical-centered {
   transform: translate(0, 50%) !important;
   -ms-transform: translate(0, 50%) !important;
@@ -3407,21 +3534,21 @@ iframe {
   /* Safari and Chrome */
 }
 
-/* line 13, sass/resources/botaoModal/_style.scss */
+/* line 73, sass/resources/botaoModal/_style.scss */
 .tip {
   display: inline;
 }
-/* line 16, sass/resources/botaoModal/_style.scss */
+/* line 76, sass/resources/botaoModal/_style.scss */
 .tip .tagP {
   display: inline;
 }
 
-/* line 22, sass/resources/botaoModal/_style.scss */
+/* line 82, sass/resources/botaoModal/_style.scss */
 #modal {
   display: none;
 }
 
-/* line 27, sass/resources/botaoModal/_style.scss */
+/* line 87, sass/resources/botaoModal/_style.scss */
 .primeiroPlano {
   overflow: auto;
   position: fixed;
@@ -3429,25 +3556,25 @@ iframe {
   max-width: 1021px;
   max-height: 768px;
 }
-/* line 41, sass/resources/botaoModal/_style.scss */
+/* line 101, sass/resources/botaoModal/_style.scss */
 .primeiroPlano .texto .modalContent .wrapper {
   width: 100%;
   max-width: 100%;
 }
 
-/* line 52, sass/resources/botaoModal/_style.scss */
+/* line 112, sass/resources/botaoModal/_style.scss */
 #modalContent {
   position: relative;
   padding: 40px;
 }
 
-/* line 57, sass/resources/botaoModal/_style.scss */
+/* line 117, sass/resources/botaoModal/_style.scss */
 .headerModal {
   width: 100%;
   height: 49px;
 }
 
-/* line 64, sass/resources/botaoModal/_style.scss */
+/* line 124, sass/resources/botaoModal/_style.scss */
 .tituloModal {
   padding: 12px 30px 12px 30px;
   font-size: 23px;
@@ -3456,7 +3583,7 @@ iframe {
   font-family: "Roboto-Regular", sans-serif;
 }
 
-/* line 72, sass/resources/botaoModal/_style.scss */
+/* line 132, sass/resources/botaoModal/_style.scss */
 .btnFechar {
   position: absolute;
   height: 21px;
@@ -3469,14 +3596,14 @@ iframe {
   padding: 0px;
   z-index: 2;
 }
-/* line 85, sass/resources/botaoModal/_style.scss */
+/* line 145, sass/resources/botaoModal/_style.scss */
 .btnFechar span {
   font-size: 47px;
   color: #000000;
   font-family: 'Entypo';
 }
 
-/* line 96, sass/resources/botaoModal/_style.scss */
+/* line 156, sass/resources/botaoModal/_style.scss */
 #modalContent p {
   padding-left: 60px;
   padding-right: 67px;
@@ -3485,47 +3612,6 @@ iframe {
   font-size: 16pt;
   color: #383737;
   line-height: 46px;
-}
-
-/* line 110, sass/resources/botaoModal/_style.scss */
-.btnRetangle {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  color: white;
-  cursor: pointer;
-  z-index: 1;
-  height: 50px;
-  width: 225px;
-  font-family: "Roboto-Bold", sans-serif;
-  text-align: center;
-  background: #30317f;
-  display: table;
-  margin: 0 auto;
-  font-size: 1.6em;
-}
-/* line 125, sass/resources/botaoModal/_style.scss */
-.btnRetangle:hover {
-  background: #dab463;
-}
-/* line 127, sass/resources/botaoModal/_style.scss */
-.btnRetangle:hover .tagP {
-  color: #30317f;
-}
-/* line 131, sass/resources/botaoModal/_style.scss */
-.btnRetangle:active {
-  background: #30317f;
-  border: 3px solid rgba(0, 0, 0, 0.5);
-}
-/* line 134, sass/resources/botaoModal/_style.scss */
-.btnRetangle:active .tagP {
-  color: #FFFFFF;
-}
-/* line 139, sass/resources/botaoModal/_style.scss */
-.btnRetangle .tagP {
-  display: table-cell;
-  vertical-align: middle;
-  color: #FFFFFF;
 }
 
 /* line 1, sass/resources/video/_style.scss */
@@ -3708,37 +3794,18 @@ iframe {
   width: 100%;
 }
 /* line 61, sass/resources/revelar/_style.scss */
-.content .revelar .dropDownType .boxTitle .openCloseIcon {
+.content .revelar .dropDownType .boxTitle a.dropdown-toggle {
   -webkit-border-top-left-radius: 5px;
   border-top-left-radius: 5px;
-  background: #30317f;
-  height: 100%;
-  width: 55px;
-  float: left;
-  border-right: 3px solid #FFFFFF;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
   display: table;
+  height: 100%;
+  background: #30317f;
   text-align: center;
 }
 /* line 71, sass/resources/revelar/_style.scss */
-.content .revelar .dropDownType .boxTitle .openCloseIcon span {
-  display: table-cell;
-  vertical-align: middle;
-}
-/* line 77, sass/resources/revelar/_style.scss */
-.content .revelar .dropDownType .boxTitle a.dropdown-toggle {
-  -webkit-border-top-left-radius: 0px;
-  border-top-left-radius: 0px;
-  -webkit-border-top-right-radius: 5px;
-  border-top-right-radius: 5px;
-  width: -moz-calc(100% - 55px);
-  width: -webkit-calc(100% - 55px);
-  width: calc(100% - 55px);
-  display: table;
-  height: 100%;
-  background: #30317f;
-  text-align: center;
-}
-/* line 89, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle a.dropdown-toggle span {
   font-size: 1.6em;
   font-family: "Roboto-Bold", sans-serif;
@@ -3748,8 +3815,38 @@ iframe {
   white-space: nowrap;
   display: table-cell;
   vertical-align: middle;
+  width: 100%;
 }
-/* line 101, sass/resources/revelar/_style.scss */
+/* line 82, sass/resources/revelar/_style.scss */
+.content .revelar .dropDownType .boxTitle a.dropdown-toggle .openCloseIcon {
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  background: #30317f;
+  height: 100%;
+  width: 52px;
+  float: left;
+  border-right: 3px solid #FFFFFF;
+  display: table;
+  text-align: center;
+}
+/* line 92, sass/resources/revelar/_style.scss */
+.content .revelar .dropDownType .boxTitle a.dropdown-toggle .openCloseIcon span {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 95, sass/resources/revelar/_style.scss */
+.content .revelar .dropDownType .boxTitle a.dropdown-toggle .openCloseIcon span.icon-setaPreenchida_cima {
+  display: none;
+}
+/* line 100, sass/resources/revelar/_style.scss */
+.content .revelar .dropDownType .boxTitle a.dropdown-toggle .openCloseIcon.opened .icon-setaPreenchida_cima {
+  display: table-cell;
+}
+/* line 103, sass/resources/revelar/_style.scss */
+.content .revelar .dropDownType .boxTitle a.dropdown-toggle .openCloseIcon.opened .icon-setaPreenchida_baixo {
+  display: none;
+}
+/* line 110, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle .dropdown-menu {
   -webkit-border-top-right-radius: 0;
   border-top-right-radius: 0;
@@ -3763,56 +3860,56 @@ iframe {
   margin-top: 5px;
   font-size: inherit !important;
 }
-/* line 109, sass/resources/revelar/_style.scss */
+/* line 118, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle .dropdown-menu li {
   font-size: 1.6em;
   padding: 0.5em;
 }
-/* line 113, sass/resources/revelar/_style.scss */
+/* line 122, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle .dropdown-menu a:hover {
   background: none;
 }
-/* line 121, sass/resources/revelar/_style.scss */
+/* line 130, sass/resources/revelar/_style.scss */
 .content .revelar .clickType {
   display: none;
 }
-/* line 125, sass/resources/revelar/_style.scss */
+/* line 134, sass/resources/revelar/_style.scss */
 .content .revelar.click {
   cursor: pointer;
 }
-/* line 127, sass/resources/revelar/_style.scss */
+/* line 136, sass/resources/revelar/_style.scss */
 .content .revelar.click .clickType {
   display: none;
 }
-/* line 129, sass/resources/revelar/_style.scss */
+/* line 138, sass/resources/revelar/_style.scss */
 .content .revelar.click .clickType .tagP {
   display: none;
 }
-/* line 136, sass/resources/revelar/_style.scss */
+/* line 145, sass/resources/revelar/_style.scss */
 .content .revelar.click.clicked .clickType .contentCapa {
   display: none;
 }
-/* line 139, sass/resources/revelar/_style.scss */
+/* line 148, sass/resources/revelar/_style.scss */
 .content .revelar.click.clicked .clickType .tagP {
   display: block;
 }
-/* line 147, sass/resources/revelar/_style.scss */
+/* line 156, sass/resources/revelar/_style.scss */
 .content .revelar .hoverType {
   display: none;
 }
-/* line 152, sass/resources/revelar/_style.scss */
+/* line 161, sass/resources/revelar/_style.scss */
 .content .revelar.hover .hoverType {
   display: none;
 }
-/* line 154, sass/resources/revelar/_style.scss */
+/* line 163, sass/resources/revelar/_style.scss */
 .content .revelar.hover .hoverType .tagP {
   display: none;
 }
-/* line 161, sass/resources/revelar/_style.scss */
+/* line 170, sass/resources/revelar/_style.scss */
 .content .revelar.hover.hovered .hoverType .contentCapa {
   display: none;
 }
-/* line 164, sass/resources/revelar/_style.scss */
+/* line 173, sass/resources/revelar/_style.scss */
 .content .revelar.hover.hovered .hoverType .tagP {
   display: block;
 }
@@ -3862,13 +3959,21 @@ iframe {
 .botaoDownload:active .iconDownload, .botaoDownload:active .tagP {
   color: #FFFFFF;
 }
-/* line 22, sass/resources/botaoDownload/_style.scss */
+/* line 21, sass/resources/botaoDownload/_style.scss */
+.botaoDownload.visited {
+  background: #e9d2a1;
+}
+/* line 23, sass/resources/botaoDownload/_style.scss */
+.botaoDownload.visited .iconDownload, .botaoDownload.visited .tagP {
+  color: #30317f;
+}
+/* line 28, sass/resources/botaoDownload/_style.scss */
 .botaoDownload a {
   position: absolute;
   height: 100%;
   width: inherit;
 }
-/* line 28, sass/resources/botaoDownload/_style.scss */
+/* line 34, sass/resources/botaoDownload/_style.scss */
 .botaoDownload .iconDownload {
   float: left;
   height: 100%;
@@ -3877,12 +3982,13 @@ iframe {
   color: #FFFFFF;
   display: table;
 }
-/* line 35, sass/resources/botaoDownload/_style.scss */
+/* line 41, sass/resources/botaoDownload/_style.scss */
 .botaoDownload .iconDownload span {
   display: table-cell;
   vertical-align: middle;
+  font-size: 2em;
 }
-/* line 41, sass/resources/botaoDownload/_style.scss */
+/* line 48, sass/resources/botaoDownload/_style.scss */
 .botaoDownload .tagP {
   float: left;
   height: 100%;
@@ -3893,7 +3999,7 @@ iframe {
   text-align: center;
   color: #FFFFFF;
 }
-/* line 50, sass/resources/botaoDownload/_style.scss */
+/* line 57, sass/resources/botaoDownload/_style.scss */
 .botaoDownload .tagP span {
   display: table-cell;
   vertical-align: middle;
