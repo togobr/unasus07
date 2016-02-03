@@ -3706,7 +3706,7 @@ iframe {
 }
 /* line 38, sass/resources/texto/_style.scss */
 .texto.normal .textoSolto {
-  font-size: 1.6em;
+  font-size: 1.5em;
   font-family: "Roboto-Regular", sans-serif;
 }
 /* line 43, sass/resources/texto/_style.scss */
@@ -3767,7 +3767,7 @@ iframe {
   border-radius: 5px;
   content: '';
   position: absolute;
-  border: 5px solid #dadae8;
+  border: 5px solid rgba(255, 255, 255, 0.9);
   left: 20px;
   top: 20px;
   right: 20px;
