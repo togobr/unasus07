@@ -8,11 +8,11 @@
 
 		.fechaRevelar{
 			position: absolute;
-			top: 10px;
-			right: 10px;
+			top: 15px;
+ 			right: 15px;
 			height: 25px;
 			width: 25px;
-			background: #FFFFFF;
+			font-size: 2em;
 		}
 
 		.contentCapa{
@@ -20,6 +20,17 @@
 			font-size: 2.4em;
 			line-height: 30px;
 			padding: 2.5em;
+
+			&:before{
+				@include border-radius(5px);
+				content: '';
+				position: absolute;
+				  border: 5px solid #dadae8;
+  				left: 20px;
+  				top: 20px;
+  				right: 20px;
+  			bottom: 20px;
+			}
 		}
 		.tagP{
 			padding: 1.5em;
@@ -34,7 +45,7 @@
 			display: table;
 			text-align: center;
 			background: $normal;
-			border: 5px solid #dadae8;
+			background-size:cover; 
 			& > div{
 				height: 100%;
 				display: table;
