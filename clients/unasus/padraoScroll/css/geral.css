@@ -2261,6 +2261,14 @@ iframe {
 /* line 375, sass/resources/tooltip/_style.scss */
 .palavraDestacada {
   background: #dab463;
+  text-transform: uppercase;
+  font-family: "Roboto-Regular", sans-serif;
+  width: 100%;
+  height: 45px;
+  color: #fff;
+  line-height: 45px;
+  padding-left: 35px;
+  font-size: 2em;
 }
 
 /* line 1, sass/resources/sanfona/_style.scss */
@@ -3486,6 +3494,7 @@ iframe {
   cursor: pointer;
   z-index: 1;
   height: 50px;
+  width: 225px;
   font-family: "Roboto-Bold", sans-serif;
   text-align: center;
   background: #30317f;
