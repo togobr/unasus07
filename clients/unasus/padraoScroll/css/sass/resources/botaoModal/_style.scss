@@ -2,36 +2,46 @@
 
 .botaoModal{
     &.btnRetangle{
-        @include border-radius(5px);
-        color: white;
-        cursor: pointer;
-        z-index: 1;
-        height: 50px;
-        width: 225px;
-        font-family: $bold;
-        text-align: center;
-        background: $normal;
-        display: table;
-        margin: 0 auto;
-        font-size: 1.6em;
+        .wrapperResource{
+            @include border-radius(5px);
+            color: white;
+            cursor: pointer;
+            z-index: 1;
+            height: 50px;
+            width: 225px;
+            font-family: $bold;
+            text-align: center;
+            background: $normal;
+            display: table;
+            margin: 0 auto;
+            font-size: 1.6em;
+        }
         &:hover{
-            background: $hover;
-            .tagP{
-                color: $normal;
+            .wrapperResource{
+                background: $hover;
+                .tagP{
+                    color: $normal;
+                }
             }
         }
         &:active {
-            background: $active;
-            border: 3px solid rgba(0, 0, 0, .5);
-            .tagP{
-                color: #FFFFFF;
+            .wrapperResource{
+                background: $active;
+                border: 3px solid rgba(0, 0, 0, .5);
+                .tagP{
+                    color: #FFFFFF;
+                }
             }
+            
         }
         &.visited{
-            background: $visited;
-            .tagP{
-                color: $normal;
+            .wrapperResource{
+                background: $visited;
+                .tagP{
+                    color: $normal;
+                } 
             }
+           
         }
 
         .tagP{

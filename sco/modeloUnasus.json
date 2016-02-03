@@ -16,7 +16,11 @@
                         "styleObj": "",
                         "idSection":"1",
                         "backgroundSRC":"http://www.planwallpaper.com/static/images/sea-background01-o.jpg",
-                        
+                        "images":[
+                            {
+                                "imgBG":"css/assets/images/fundo_generico.png"
+                            }
+                        ],
                         "order":0
                     },
                     {
