@@ -3862,50 +3862,54 @@ iframe {
   padding: 0.5em;
 }
 /* line 122, sass/resources/revelar/_style.scss */
+.content .revelar .dropDownType .boxTitle .dropdown-menu a {
+  white-space: normal;
+}
+/* line 125, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle .dropdown-menu a:hover {
   background: none;
 }
-/* line 130, sass/resources/revelar/_style.scss */
+/* line 133, sass/resources/revelar/_style.scss */
 .content .revelar .clickType {
   display: none;
 }
-/* line 134, sass/resources/revelar/_style.scss */
+/* line 137, sass/resources/revelar/_style.scss */
 .content .revelar.click {
   cursor: pointer;
 }
-/* line 136, sass/resources/revelar/_style.scss */
+/* line 139, sass/resources/revelar/_style.scss */
 .content .revelar.click .clickType {
   display: none;
 }
-/* line 138, sass/resources/revelar/_style.scss */
+/* line 141, sass/resources/revelar/_style.scss */
 .content .revelar.click .clickType .tagP {
   display: none;
 }
-/* line 145, sass/resources/revelar/_style.scss */
+/* line 148, sass/resources/revelar/_style.scss */
 .content .revelar.click.clicked .clickType .contentCapa {
   display: none;
 }
-/* line 148, sass/resources/revelar/_style.scss */
+/* line 151, sass/resources/revelar/_style.scss */
 .content .revelar.click.clicked .clickType .tagP {
   display: block;
 }
-/* line 156, sass/resources/revelar/_style.scss */
+/* line 159, sass/resources/revelar/_style.scss */
 .content .revelar .hoverType {
   display: none;
 }
-/* line 161, sass/resources/revelar/_style.scss */
+/* line 164, sass/resources/revelar/_style.scss */
 .content .revelar.hover .hoverType {
   display: none;
 }
-/* line 163, sass/resources/revelar/_style.scss */
+/* line 166, sass/resources/revelar/_style.scss */
 .content .revelar.hover .hoverType .tagP {
   display: none;
 }
-/* line 170, sass/resources/revelar/_style.scss */
+/* line 173, sass/resources/revelar/_style.scss */
 .content .revelar.hover.hovered .hoverType .contentCapa {
   display: none;
 }
-/* line 173, sass/resources/revelar/_style.scss */
+/* line 176, sass/resources/revelar/_style.scss */
 .content .revelar.hover.hovered .hoverType .tagP {
   display: block;
 }
