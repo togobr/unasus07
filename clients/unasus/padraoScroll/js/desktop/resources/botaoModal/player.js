@@ -25,7 +25,7 @@ define([], function() {
 				content: "#modalContent"
 			});
 
-			console.log("foo", recurso.$el.attr("class"));
+		
 
 
 			Player.Elements.$content.on({
@@ -39,7 +39,7 @@ define([], function() {
 
 
 
-                		console.log(recurso.$el.attr("id"),"foo")
+
 
                 		var tipNumber = recurso.$el.find(".botaoModal").data("ntip"),
                 			$tooltipHolder = $("body").find("#tooltipHolder" + tipNumber);

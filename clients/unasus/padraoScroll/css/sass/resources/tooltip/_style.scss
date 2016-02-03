@@ -371,3 +371,15 @@
   color: rgb(255, 78, 13);
   cursor: help;
 }
+
+.palavraDestacada{
+  background: $hover;
+  text-transform: uppercase;
+  font-family: $regular;
+    width: 100%;
+  height: 45px;
+  color: #fff;
+  line-height: 45px;
+  padding-left: 35px;
+  font-size: 2em;
+}
