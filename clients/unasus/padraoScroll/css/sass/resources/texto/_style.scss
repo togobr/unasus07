@@ -1,13 +1,11 @@
 .texto{
 	.textoSolto{
-		margin-bottom: $entreRecursos;
 		ul, ol{
 			li{
 				margin-top: 7px;
 				margin-bottom: 7px;
 			}
 		}
-
 		.imgEsq{
 			float:left;
 			width: 49%;
@@ -20,10 +18,31 @@
 			margin-left: 30px;
 		}
 
-		.imgDuasColunas{
-			width: 100%;
-			margin-top: 18px;
-			margin-bottom: 18px;
+		.textoCitacao{
+			font-family: $black;
+			font-size: 21px; //inserido em px pois herdará o 1.5em do textoSolto, que é considerado o padrão
+			line-height: 30px;
+			&:after{
+				content: '”';
+				font-size: 60px;
+				position: absolute;
+				margin-left: 5px;
+				bottom: -25px;
+			}
+			&:before{
+				content: '“';
+				font-size: 60px;
+				top: 25px;
+				position: relative;
+				margin-right: 5px
+			}
+		}
+
+		.textoDestaque{
+			font-family: $regular;
+			color: $normal;
+			font-size: 22px;
+			line-height: 34px;
 		}
 	}
 
