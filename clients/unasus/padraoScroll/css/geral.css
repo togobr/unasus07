@@ -3656,30 +3656,34 @@ iframe {
   top: 10px;
 }
 
-/* line 4, sass/resources/texto/_style.scss */
+/* line 2, sass/resources/texto/_style.scss */
+.texto .textoSolto {
+  font-size: 1.5em;
+}
+/* line 5, sass/resources/texto/_style.scss */
 .texto .textoSolto ul li, .texto .textoSolto ol li {
   margin-top: 7px;
   margin-bottom: 7px;
 }
-/* line 9, sass/resources/texto/_style.scss */
+/* line 10, sass/resources/texto/_style.scss */
 .texto .textoSolto .imgEsq {
   float: left;
   width: 49%;
   margin-right: 30px;
 }
-/* line 15, sass/resources/texto/_style.scss */
+/* line 16, sass/resources/texto/_style.scss */
 .texto .textoSolto .imgDir {
   float: right;
   width: 49%;
   margin-left: 30px;
 }
-/* line 21, sass/resources/texto/_style.scss */
+/* line 22, sass/resources/texto/_style.scss */
 .texto .textoSolto .textoCitacao {
   font-family: "Roboto-Black", sans-serif;
   font-size: 21px;
   line-height: 30px;
 }
-/* line 25, sass/resources/texto/_style.scss */
+/* line 26, sass/resources/texto/_style.scss */
 .texto .textoSolto .textoCitacao:after {
   content: '”';
   font-size: 60px;
@@ -3687,7 +3691,7 @@ iframe {
   margin-left: 5px;
   bottom: -25px;
 }
-/* line 32, sass/resources/texto/_style.scss */
+/* line 33, sass/resources/texto/_style.scss */
 .texto .textoSolto .textoCitacao:before {
   content: '“';
   font-size: 60px;
@@ -3695,14 +3699,14 @@ iframe {
   position: relative;
   margin-right: 5px;
 }
-/* line 41, sass/resources/texto/_style.scss */
+/* line 42, sass/resources/texto/_style.scss */
 .texto .textoSolto .textoDestaque {
   font-family: "Roboto-Regular", sans-serif;
   color: #30317f;
   font-size: 22px;
   line-height: 34px;
 }
-/* line 49, sass/resources/texto/_style.scss */
+/* line 50, sass/resources/texto/_style.scss */
 .texto .underlineTitle {
   position: absolute;
   width: 100%;
@@ -3710,23 +3714,23 @@ iframe {
   bottom: -2px;
   background: #dab463;
 }
-/* line 57, sass/resources/texto/_style.scss */
+/* line 58, sass/resources/texto/_style.scss */
 .texto.normal .textoSolto {
   font-size: 1.5em;
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 62, sass/resources/texto/_style.scss */
+/* line 63, sass/resources/texto/_style.scss */
 .texto.title .textoSolto {
   font-size: 2.6em;
   line-height: 30px;
   font-family: "Roboto-Bold", sans-serif;
   color: #30317f;
 }
-/* line 70, sass/resources/texto/_style.scss */
+/* line 71, sass/resources/texto/_style.scss */
 .texto.subtitle .wrapper {
   display: table;
 }
-/* line 73, sass/resources/texto/_style.scss */
+/* line 74, sass/resources/texto/_style.scss */
 .texto.subtitle .textoSolto {
   font-size: 3em;
   line-height: 30px;
@@ -3735,7 +3739,7 @@ iframe {
   display: table-cell;
   font-variant: small-caps;
 }
-/* line 81, sass/resources/texto/_style.scss */
+/* line 82, sass/resources/texto/_style.scss */
 .texto.subtitle .underlineTitle {
   display: table-cell;
   bottom: 6px;
