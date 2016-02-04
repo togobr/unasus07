@@ -1,0 +1,259 @@
+    {
+        "_id": "5379f9c48b714fc104000133",
+        "courseName": "TESTE IEA",
+        "scoName": "TESTE IEA",
+        "srcCaptivate":"",
+        "scorm":false,
+        "teste":"",
+        "slides": [       
+            {
+                "template": "slideScroll",
+                "resources": [
+
+                 {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "style":"",
+                        "idSection":"30",
+                        "backgroundSRC":"curso/images/modulo4/unidade2/UNA07_m1_un2_rec001.png",
+                        "order":30
+                    },
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "idSection":"31",
+                        "backgroundSRC":"",
+                        "order":31
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "idSection":"32",
+                        "backgroundSRC":"",
+                        "backgroundColor":"#222526",
+                        "styleContainer":"padding:10px;",
+                        "order":32
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "idSection":"33",
+                        "backgroundSRC":"",
+                        "order":33
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "style":"height:1021px;",
+                        "idSection":"34",
+                        "backgroundSRC":"",
+                        "images":[
+                            {
+                                "imgBG":"curso/images/modulo4/unidade2/UNA07_m1_un2_rec002.png",
+                                "styleImg":"top: 423px;left: 0px;"
+                            }
+                        ],
+                        "order":34
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "idSection":"34",
+                        "backgroundSRC":"",
+                        "order":35
+                    },
+
+
+
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "style":"height:220px",
+                        "section":30,
+                        "content": "",
+                        "order":400
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-2",
+                        "type": "normal",
+                        "section":30,
+                        "content": "",
+                        "order":405
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-10",
+                        "type": "normal",
+                        "section":30,
+                        "content": "<p style='font-size:2.4em; line-height:1em;color:#ffffff;'>UNIDADE 2</p> <p style='font-size:3.2em; line-height:1em; color:#ffffff;'>ASPECTOS EPIDEMIOLÓGICOS</p> <p style='font-size:3.4em;  line-height:1em; color:#ffffff;'>NA POPULAÇÃO MASCULINA</p>",
+                        "order":410
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-5",
+                        "type": "normal",
+                        "section":30,
+                        "content": "",
+                        "order":420
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-5",
+                        "type": "normal",
+                        "style":"padding-left:15px; border-left: 3px #ffffff solid; height:105px;",
+                        "section":30,
+                        "content": "<b><i style='color:#ffffff;'>Estar atento aos aspectos epidemiológicos na população masculina deve fazer parte da prática diária de um profissional de saúde. Acompanhe os estudos desta unidade para incorporar e aperfeiçoar este tema em seu dia a dia!</i></b>",
+                        "order":430
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "section":30,
+                        "content": "<p style='height:220px;'></p>",
+                        "order":440
+                    },
+                    {
+                        "template":"botaoPular",
+                        "section":30,
+                        "nSec":31,
+                        "cor":"branco",
+                        "style":"margin-top:10px",
+                        "order":450
+                        },
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "style":"height:50px",
+                        "section":31,
+                        "content": "",
+                        "order":455
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-1",
+                        "type": "normal",
+                        "section":31,
+                        "content": "",
+                        "order":460
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-10",
+                        "type": "normal",
+                        "section":31,
+                        "content": "<p style='font-size:2em; text-align:center;'><b>Quais são as doenças mais prevalentes entre os homens? Quantas pessoas morrem por ano devido às Doenças Crônicas Não Transmissíveis (DCNT)?</b></p>",
+                        "order":465
+                    },
+
+
+
+
+
+                    {
+                        "template":"video",
+                        "column": "col-xs-12 col-md-12",
+                        "section":32,
+                        "styleObj":{  
+                            "height": "560px"
+                        },
+                        "youtube":{  
+                            "active":"true",
+                            "id":"eXK1wJSBlqY"
+                        },
+                        "web":{  
+                            "active":false,
+                            "src":"",
+                            "type":"video/mp4"
+                        },
+                        "order":470
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "style":"height:70px",
+                        "section":31,
+                        "content": "",
+                        "order":475
+                    },
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":33,
+                        "content": "<p class='textoDestaque'>Agora, acompanhe informações importantes relacionadas a esta unidade de estudo e saiba quanto é a mortalidade por DCNT, assim como as doenças que mais acometem os homens.<br><b>Siga e confira!</b></p>",
+                        "order":475
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-5",
+                        "type": "normal",
+                        "section":33,
+                        "content": "<p style='height:50px;'></p>",
+                        "order":480
+                    },
+                    {
+                        "template":"botaoPular",
+                        "section":33,
+                        "nSec":34,
+                        "cor":"",
+                        "style":"margin-top:10px",
+                        "order":485
+                        },
+
+
+
+
+                        {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "title",
+                        "section":34,
+                        "content": "Doenças cardiovasculares",
+                        "order":490
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "texto",
+                        "section":34,
+                        "content": "<p class='textoDestaque'>36 MILHÕES 63% 30 A 70 ANOS</p>",
+                        "order":490
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "texto",
+                        "section":34,
+                        "content": "As mortes por DCNT apresentam um número estimado de 36 milhões de mortes por ano, ou seja, 63% de todos os óbitos, incluindo mais de 14 milhões de pessoas que morrem muito jovens, entre idades de 30 e 70 anos, a maioria de causas evitáveis.",
+                        "order":490
+                    }
+
+
+
+
+                ]
+            }
+        ]
+    }
