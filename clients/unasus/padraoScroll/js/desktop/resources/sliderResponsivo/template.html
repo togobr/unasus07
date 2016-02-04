@@ -4,9 +4,9 @@
             <ul class="rslides">
                 {{#slidesResponsivos}}
                     <li class="container-fluid">
-                        <img  class="col-xs-12 col-md-6" src="{{imgSlide}}" />
-                        <div class="contentSlider col-xs-12 col-md-6">{{&content}}</div>
-                        <p class="caption">{{legenda}}</p>
+                        {{&imgSlide}}
+                        {{&content}}                    
+                        <p class="caption">{{&legenda}}</p>
                     </li>
                 {{/slidesResponsivos}}
             </ul>

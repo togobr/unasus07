@@ -251,70 +251,27 @@
                          "order":13
                         },
 
-                    {
-                        "template":"sliderResponsivo",
-                        "column": "col-xs-12 col-md-12",
-                        "section":3,
-                        "type": "conteudoRight",
-                        "style":"margin-top:50px;",
-                        "slidesResponsivos":[
-                            {
-                                "imgSlide":"css/assets/images/Fotolia_25023164_Subscription_Monthly_M.jpg",
-                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 1111111111."
-                            },
-                            {
-                                "imgSlide":"css/assets/images/Fotolia_25697273_Subscription_Monthly_M.jpg",
-                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 22222222222."
-                            },
-                            {
-                                "imgSlide":"css/assets/images/2.jpg",
-                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 3333333333."
-                            }
-                        ],
-                        "order":14
-                    },
 
                     {
                         "template":"sliderResponsivo",
                         "column": "col-xs-12 col-md-12",
                         "section":3,
-                        "type": "conteudoLeft",
-                        "style":"margin-top:50px;",
+                        "type": "",
+                        "style":"height: 300px;",
                         "slidesResponsivos":[
                             {
-                                "imgSlide":"css/assets/images/Fotolia_25023164_Subscription_Monthly_M.jpg",
-                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 1111111111."
+                                "imgSlide":"<img  class='contentImg col-xs-12 col-md-6' src='css/assets/images/Fotolia_25023164_Subscription_Monthly_M.jpg' />",
+                                "content": "<div class='contentSlider col-xs-12 col-md-6' style='padding: 15px 55px 0px 15px'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 1111111111.</div>"
                             },
                             {
-                                "imgSlide":"css/assets/images/Fotolia_25697273_Subscription_Monthly_M.jpg",
-                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 22222222222."
+                                "imgSlide":" <img  class='contentImg col-xs-12 col-md-6' src='css/assets/images/Fotolia_25697273_Subscription_Monthly_M.jpg' style='float:right'/>",
+                                "content": " <div class='contentSlider col-xs-12 col-md-6' style='padding: 15px 15px 0px 55px'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 22222222222.</div>"
                             },
                             {
-                                "imgSlide":"css/assets/images/2.jpg",
-                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 3333333333."
+                                "content": "<div class='contentSlider col-xs-12 col-md-12' style='padding: 15px 55px 0px 55px'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 3333333333.</div>"
                             }
                         ],
                         "order":15
-                    },
-
-                    {
-                        "template":"sliderResponsivo",
-                        "column": "col-xs-12 col-md-12",
-                        "type": "semConteudo",
-                        "style":"margin-top:50px;",
-                        "section":3,
-                        "slidesResponsivos":[
-                            {
-                                "imgSlide":"css/assets/images/Fotolia_25023164_Subscription_Monthly_M.jpg"
-                            },
-                            {
-                                "imgSlide":"css/assets/images/Fotolia_25697273_Subscription_Monthly_M.jpg"
-                            },
-                            {
-                                "imgSlide":"css/assets/images/2.jpg"
-                            }
-                        ],
-                        "order":16
                     },
 
                     {
@@ -334,7 +291,7 @@
                                 "content":"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque facilis quo repellendus officia iusto, nam, odio et voluptas laboriosam cupiditate magni libero, totam possimus quasi aspernatur nobis quis quas quod?</p> <img src='css/assets/images/IEA03_IMG01_SCO01.png' /> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio doloremque rerum nihil, totam iusto doloribus sit minima nostrum eligendi ut tenetur sint optio. Et dignissimos, ratione, rerum natus aliquid omnis!</p>"
                             }
                         ],
-                        "order":17
+                        "order":18
                     },
 
                     {
@@ -345,7 +302,7 @@
                         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa.",
                         "styleObj": {
                         },
-                        "order":18
+                        "order":19
                     },
 
                     {
@@ -360,14 +317,14 @@
                         "styleObj": {
                             
                         },
-                        "order":19
+                        "order":20
                     },
 
                     {
                         "template":"botaoPular",
                         "section":3,
                         "nSec":4,
-                         "order":20
+                         "order":21
                         },
 
                     {
@@ -380,7 +337,7 @@
                         "contentHeight" : "200px",
                         "styleObj": {
                         },
-                        "order":21
+                        "order":22
                     },
 
                     {
@@ -394,7 +351,7 @@
                         "styleObj": {
                             
                         },
-                        "order":22
+                        "order":23
                     },
 
                     {  
@@ -407,7 +364,7 @@
                         "styleObj": {
                             "margin-top": "50px"
                         },
-                        "order":23
+                        "order":24
                     },
 
                     {  
@@ -421,7 +378,7 @@
                             "margin-top": "50px",
                             "height": "200px"
                         },
-                        "order":24
+                        "order":25
                     },
 
 
@@ -464,7 +421,7 @@
                                 }
                            ]
                         },
-                        "order": 25
+                        "order": 26
                     },
 
                     {
@@ -506,7 +463,7 @@
                                 }
                            ]
                         },
-                        "order": 227
+                        "order": 27
                     },
 
                     {

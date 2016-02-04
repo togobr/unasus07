@@ -1,0 +1,14 @@
+  @media (max-width: 1021px) {
+	//sliderResponsivo
+	.sliderResponsivo{
+		height: auto !important;
+		.rslides{
+			.contentSlider{
+				padding: 15px 55px 15px 55px !important;
+			}
+		}
+		.slider_nav{
+			height: auto !important;
+		}
+	}
+ }
