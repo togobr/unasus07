@@ -14,8 +14,10 @@
                         "template":"backgroundScroll",
                         "column": "col-xs-12 col-md-12",
                         "style":"",
+                        "capa":"capa",
                         "idSection":"30",
-                        "backgroundSRC":"curso/images/modulo4/unidade2/UNA07_m1_un2_rec001.png",
+                        "backgroundSRC":"http://192.168.25.15/UNASUS/UNASUS-07_Saude_do_Homem/maquina/curso/images/modulo4/unidade2/UNA07_m1_un2_rec001.png",
+
                         "order":30
                     },
                     {
@@ -48,17 +50,13 @@
                         "template":"backgroundScroll",
                         "column": "col-xs-12 col-md-12",
                         "styleObj": "",
-
                         "style":"",
-
                         "idSection":"34",
                         "backgroundSRC":"",
                         "images":[
                             {
                                 "imgBG":"curso/images/modulo4/unidade2/UNA07_m1_un2_rec002.png",
-
                                 "styleImg":""
-
                             }
                         ],
                         "order":34
@@ -67,7 +65,6 @@
                     {
                         "template":"backgroundScroll",
                         "column": "col-xs-12 col-md-12",
-
                         "idSection":"35",
                         "backgroundSRC":"",
                         "order":35
@@ -204,13 +201,6 @@
 
                     {
                         "template": "texto",
-<<<<<<< HEAD
-                        "column": "col-xs-12 col-md-8",
-                        "type": "normal",
-                        "section":33,
-                        "content": "<p class='textoDestaque'>Agora, acompanhe informações importantes relacionadas a esta unidade de estudo e saiba quanto é a mortalidade por DCNT, assim como as doenças que mais acometem os homens.<br><b>Siga e confira!</b></p>",
-                        "order":475
-=======
                         "column": "col-xs-0 col-md-4",
                         "type": "normal",
                         "section":33,
@@ -224,7 +214,6 @@
                         "section":33,
                         "content": "<p class='textoDestaque' style='text-align:right;'>Agora, acompanhe informações importantes relacionadas a esta unidade de estudo e saiba quanto é a mortalidade por DCNT, assim como as doenças que mais acometem os homens.<br><b>Siga e confira!</b></p>",
                         "order":480
->>>>>>> local-togo
                     },
                     {
                         "template": "texto",
@@ -232,11 +221,7 @@
                         "type": "normal",
                         "section":33,
                         "content": "<p style='height:50px;'></p>",
-<<<<<<< HEAD
-                        "order":480
-=======
                         "order":483
->>>>>>> local-togo
                     },
                     {
                         "template":"botaoPular",
@@ -252,9 +237,6 @@
 
                         {
                         "template": "texto",
-<<<<<<< HEAD
-                        "column": "col-xs-12 col-md-12",
-=======
                         "column": "col-xs-0 col-md-3",
                         "type": "texto",
                         "style":"height:600px",
@@ -265,7 +247,6 @@
                     {
                         "template": "texto",
                         "column": "col-xs-12 col-md-5",
->>>>>>> local-togo
                         "type": "title",
                         "section":34,
                         "content": "Doenças cardiovasculares",
@@ -273,24 +254,6 @@
                     },
                     {
                         "template": "texto",
-<<<<<<< HEAD
-                        "column": "col-xs-12 col-md-4",
-                        "type": "texto",
-                        "section":34,
-                        "content": "<p class='textoDestaque'>36 MILHÕES 63% 30 A 70 ANOS</p>",
-                        "order":490
-                    },
-                    {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-6",
-                        "type": "texto",
-                        "section":34,
-                        "content": "As mortes por DCNT apresentam um número estimado de 36 milhões de mortes por ano, ou seja, 63% de todos os óbitos, incluindo mais de 14 milhões de pessoas que morrem muito jovens, entre idades de 30 e 70 anos, a maioria de causas evitáveis.",
-                        "order":490
-                    }
-
-
-=======
                         "column": "col-xs-12 col-md-8",
                         "type": "texto",
                         "section":34,
@@ -356,10 +319,61 @@
                         "type": "texto",
                         "section":34,
                         "content": "<p>JA mortalidade por Infarto agudo do miocárdio (IAM) é mais prevalente em homens com idade acima de 50 anos, representando, 88,8% dos óbitos ocorridos, especialmente nas faixas etárias de 60 a 69 anos (24,9%) e 70 a 79 anos (24,2%).</p><p>Alguns fatores não modificáveis contribuem para a ocorrência do IAM.</p><p>Mas, quais são eles? Clique e confira!</p>",
-                        "order":550
+                        "order":560
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "click",
+                        "section":34,
+                        "column": "col-xs-12 col-md-4",
+                        "contentCapa": "",
+                        "content": "SEXO MASCULINO",
+                        "contentHeight" : "200px",
+                        "styleObj": {
+                            
+                        },
+                        "order":570
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "click",
+                        "section":34,
+                        "column": "col-xs-12 col-md-4",
+                        "contentCapa": "",
+                        "content": "RAÇA NEGRA",
+                        "contentHeight" : "200px",
+                        "styleObj": {
+                            
+                        },
+                        "order":580
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "click",
+                        "section":34,
+                        "column": "col-xs-12 col-md-4",
+                        "contentCapa": "",
+                        "content": "IDADE",
+                        "contentHeight" : "200px",
+                        "styleObj": {
+                            
+                        },
+                        "order":590
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "click",
+                        "section":34,
+                        "column": "col-xs-12 col-md-4",
+                        "contentCapa": "",
+                        "content": "HISTÓRIA FAMILIAR DE DOENÇAS CARDIOVASCULARES",
+                        "contentHeight" : "200px",
+                        "styleObj": {
+                            
+                        },
+                        "order":600
                     }
 
->>>>>>> local-togo
 
 
                 ]

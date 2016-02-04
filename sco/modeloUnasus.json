@@ -13,6 +13,7 @@
                  {
                         "template":"backgroundScroll",
                         "column": "col-xs-12 col-md-12",
+                        "capa":"capa",
                         "styleObj": "",
                         "idSection":"1",
                         "backgroundSRC":"http://www.planwallpaper.com/static/images/sea-background01-o.jpg",
@@ -321,6 +322,7 @@
                         "template": "revelar",
                         "type": "click",
                         "section":3,
+                        "style":"height:500px",
                         "column": "col-xs-12 col-md-12",
                         "contentCapa": "CÂNCER DE ESTOMAGO",
                         "backgroundCapa":"css/assets/images/fotolia_88461540.jpg",

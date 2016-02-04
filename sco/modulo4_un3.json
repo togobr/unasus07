@@ -1,0 +1,501 @@
+    {
+        "_id": "5379f9c48b714fc104000133",
+        "courseName": "TESTE IEA",
+        "scoName": "TESTE IEA",
+        "srcCaptivate":"",
+        "scorm":false,
+        "teste":"",
+        "slides": [       
+            {
+                "template": "slideScroll",
+                "resources": [
+
+                 {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "style":"",
+                        "idSection":"60",
+                        "backgroundSRC":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img01.png",
+                        
+                        "order":60
+                    },
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "style":"",
+                        "idSection":"61",
+                        "backgroundSRC":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img02.png",
+                        "order":61
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"62",
+                        "backgroundSRC":"",
+
+                         "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img03.png",
+                                "styleImg":"top: 0px; right: 0px;"
+                            }
+
+
+                        ],
+                        "order":62
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"63",
+                        "backgroundSRC":"",
+
+                          "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img04.png",
+                                "styleImg":"top: 0px; left: 0px;"
+                            }
+
+
+                        ],
+                        "order":63
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"64",
+                        "backgroundSRC":"",
+                          "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img05.png",
+                                "styleImg":"top: 0px; right: 0px;"
+                            }
+
+
+                        ],
+                        "order":64
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"65",
+                        "backgroundSRC":"",
+                        "order":65
+                    },
+
+
+
+
+
+
+
+                 {
+                       "template": "texto",
+                       "column": "col-xs-0 col-md-12",
+                       "type": "normal",
+                       "style":"height:120px",
+
+                       "section":60,
+                       "content": "",
+                       "order":600
+                   },
+
+                   {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-2",
+                        "type": "normal",
+                        "section":60,
+                        "content": "",
+                        "order":605
+                    },
+
+                     
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-10",
+                        "type": "normal",
+                        "section":60,
+                        "content": "<p style='font-size:2.4em; line-height:1em;color:#ffffff; '>UNIDADE 3</p> <p style='font-size:3.2em; line-height:1em; color:#ffffff;'>ESTRATÉGIAS DE CUIDADO </p> <p style='font-size:3.4em;  line-height:1em; color:#ffffff;'>NA POPULAÇÃO MASCULINA</p>",
+                        "order":610
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-5",
+                        "type": "normal",
+                        "section":60,
+                        "content": "",
+                        "order":612
+                    },
+                   
+
+                    
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "style":"padding-left:15px; border-left: 3px #ffffff solid; ",
+                        "section":60,
+                        "content": "<p><b><i style='color:#ffffff; '>Agora, vamos compreender melhor as estratégias de prevenção primária e promoção da saúde. No Brasil, temos o Plano de Ações Estratégicas para o Enfrentamento das Doenças Crônicas Não Transmissíveis (2011-2022), que tem como objetivo preparar o país para enfrentar e deter, nos próximos dez anos, as DCNT. Dentre as quais, destacam-se o Acidente Vascular Encefálico, Infarto Agudo do Miocárdio, Hipertensão Arterial Sistêmica, Câncer, Diabetes e Doenças Respiratórias Crônicas.</i></b><br/><br/><b style='color:#ffffff; '>A discussão sobre o enfrentamento das DCNT surgiu da necessidade de prevenir doenças e promover a saúde da população.</b>",
+                        "order":620
+                    },
+
+
+                     {
+                       "template": "texto",
+                       "column": "col-xs-0 col-md-12",
+                       "type": "normal",
+                       "section":60,
+                       "style":"height:130px",
+                       "order":630
+                   },
+                   {
+                       "template":"botaoPular",
+                       "section":60,
+                       "nSec":61,
+                       "cor":"branco",
+                       "style":"margin-top:10px",
+                       "order":640
+                   },
+
+
+
+
+
+
+
+
+
+
+
+                   {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-3",
+                        "type": "normal",
+                        "section":61,
+                        "style":"height:440px",
+                        "content": "",
+                        "order":650
+                    },
+       
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":61,
+                        "content": "<p style='font-size:2em; text-align:left; '><b>O que você entende por promoção da saúde?</b></p>",
+                        "order":660
+                    },
+
+                  
+
+
+                      {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":61,
+                        "content": "<p>A <b>promoção da saúde</b> consiste de um conjunto de estratégias para atuar na melhoria da qualidade de vida dos indivíduos e das coletividades, incluindo uma maior participação no controle deste processo.</p> ",
+                        "order":670
+                    },
+
+                   
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":61,
+                        "content": "<p class='textoDestaque'> <b>VALORIZA-SE A NECESSIDADE DE PENSAR NA SAÚDE A FIM DE PROMOVER A QUALIDADE DE VIDA E REDUZIR VULNERABILIDADES E RISCOS RELACIONADOS AOS SEUS DETERMINANTES E CONDICIONANTES, COMO MODOS DE VIVER, CONDIÇÕES DE TRABALHO, HABITAÇÃO, AMBIENTE, EDUCAÇÃO, LAZER, CULTURA, ACESSO A BENS E SERVIÇOS ESSENCIAIS.</b></p>",
+                        "order":680
+                    },
+
+                     
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":61,
+                        "content": "<p>Para monitorar e analisar o perfil das DCNT e de seus fatores determinantes e condicionantes, bem como detectar mudanças nas suas tendências no tempo, no espaço geográfico e em grupos populacionais, o Ministério da Saúde implantou em 2006 em todas as capitais do Brasil e no Distrito Federal, o sistema Vigitel, que contribuiu, também, para o planejamento de ações na área de saúde (VIGITEL, 2013).</p><p>Vocês perceberam a riqueza desse inquério? Muitos dos dados que já discutimos ou vamos considerar neste estudo são provenientes do Vigitel! Você vai acompanhar mais informações sobre o sobre o sistema Vigitel no PDF deste módulo.</p>",
+                        "order":690
+                    },
+
+            
+
+                     {
+                       "template": "texto",
+                       "column": "col-xs-0 col-md-5",
+                       "type": "normal",
+                       "section":61,
+                       "style":"height:130px;",
+                       "content": "",
+                       "order":700
+                   },
+                   {
+                       "template":"botaoPular",
+                       "section":61,
+                       "nSec":62,
+                       "cor":"preto",
+                       "style":"margin-top:10px",
+                       "order":710
+                   },
+
+
+
+
+
+
+
+
+
+
+
+
+                   {
+                        "template": "texto",
+                        "type": "title",
+                        "section":62,
+                        "column": "col-xs-12 col-md-4",
+                        "content": "Alimentação saudável",
+                        "order":720
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-3",
+                        "type": "normal",
+                        "section":62,
+                        "style":"height:50px",
+                        "content": "",
+                        "order":725
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":62,
+                        "content": "<p>A saúde muitas vezes está relacionada com a alimentação do usuário.</p>",
+                        "order":730
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-3",
+                        "type": "normal",
+                        "section":62,
+                        "style":"height:50px",
+                        "content": "",
+                        "order":735
+                    },
+
+
+                
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":62,
+                        "content": "<p style='font-size:1.6em;'><b>VOCÊ CONCORDA?</b></p>",
+                        "order":740
+                    },
+
+
+                   
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":62,
+                        "content": "<p>Pensando nisso, é relevante saber que no Brasil a Política Nacional de Alimentação e Nutrição (PNAN), apresenta como propósito a melhoria das condições de alimentação, nutrição e saúde da população brasileira.</p><p>De que forma você percebe a relação das condições de saúde dos<br/>homens com seus hábitos alimentares?</p><p>O estilo de vida masculino favorece um maior número de refeições realizadas fora do domicílio, compostas, na maioria dos casos, por alimentos industrializados e ultraprocessados, como refrigerantes, cerveja, sanduíches, salgados e salgadinhos industrializados, com alta ingestão de sal e carnes vermelhas e baixa ingesta de frutas, legumes e peixe, imprimindo um padrão de alimentação que aumenta o risco de DCNT (BRASIL, 2011 ).</p><p>Como profissional da saúde, você atua, também, na vigilância em saúde com o monitoramento da evolução dos hábitos alimentares e as características da morbidade por meio do registro de informações dos atendimentos realizados ao homem no Sistema de Atenção Básica (SIAB) e Sistema de Vigilância Alimentar e Nutricional (SISVAN).</p>",
+                        "order":750
+                    },
+
+
+
+
+
+
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "section":63,
+                        "style":"height:200px",
+                        "content": "",
+                        "order":753
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-5",
+                        "type": "normal",
+                        "section":63,
+                        "style":"height:500px",
+                        "content": "",
+                        "order":755
+                    },
+
+
+                    {
+                        "template": "texto",
+                        "type": "title",
+                        "section":63,
+                        "column": "col-xs-12 col-md-7",
+                        "content": "Prática Corporal/atividades físicas",
+                        "order":760
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-3",
+                        "type": "normal",
+                        "section":63,
+                        "style":"height:35px",
+                        "content": "",
+                        "order":765
+                    },
+
+                     
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":63,
+                        "content": "<p>Como profissionais da saúde, temos clareza da importância das práticas corporais. Entretanto, muitas vezes utilizamos os termos atividade física e exercício físico como sinônimos.</p><p>Mas, será que eles têm o mesmo significado? Confira a seguir!</p>",
+                        "order":770
+                    },
+
+                    {
+                        "template":"gavetaHorizontal",
+                        "column": "col-xs-12 col-md-6",
+                        "style": "margin-top:20px;",
+                        "section":63,
+                        "gavetasHorizontais":[    
+                            {
+                                "numeroGaveta":"1",
+                                "tituloGaveta":"Atividade física",
+                                "content":"É definida por qualquer movimento corporal, produzido por músculos esqueléticos, que requeira gasto de energia maior que em nível de repouso, como, por exemplo, andar, jogar, subir escadas, trabalhar, dançar, fazer atividades domésticas e de recreação, em especial as atividades executadas com a finalidade de melhorar a qualidade de vida."
+                            },
+
+                            {
+                                "numeroGaveta":"2",
+                                "tituloGaveta":"Exercício físico ",
+                                "content":"<p style='margin-bottom: 76px;'>É uma atividade repetida, planejada e estruturada, que tem por objetivo a obtenção, a manutenção ou a melhoria da aptidão física.</p>"
+                            }
+                            
+                        ],
+                        "order":780
+                    },
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-3",
+                        "type": "normal",
+                        "section":63,
+                        "style":"height:35px",
+                        "content": "",
+                        "order":785
+                    },
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":63,
+                        "content": "<p>Na atenção básica temos, desde 2008, o Programa Academia da Saúde, com o objetivo de promover práticas corporais e Atividades físicas, promoção da alimentação saudável, educação em saúde, além de contribuir para produção do cuidado e de modos de vida saudáveis e sustentáveis da população. O Programa possibilita a implantação de polos com infraestrutura, equipamentos e quadro de pessoal qualificado para a orientação de práticas corporais e atividade física e de lazer nos espaços da comunidade. Outras ações na rede básica de saúde e na comunidade, como caminhadas, prescrição de exercícios, práticas lúdicas, esportivas e de lazer, devem ser planejadas para a comunidade como um todo, estimulando a participação do público masculino (BRASIL, 2014).</p>",
+                        "order":790
+                    },
+
+
+
+
+
+
+
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "section":64,
+                        "style":"height:200px",
+                        "content": "",
+                        "order":800
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-5",
+                        "type": "normal",
+                        "section":64,
+                        "style":"height:500px",
+                        "content": "",
+                        "order":810
+                    },
+
+
+                    {
+                        "template": "texto",
+                        "type": "title",
+                        "section":64,
+                        "column": "col-xs-12 col-md-7",
+                        "content": "Prevenção e controle do tabagismo",
+                        "order":820
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-3",
+                        "type": "normal",
+                        "section":64,
+                        "style":"height:35px",
+                        "content": "",
+                        "order":830
+                    },
+
+                     
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":64,
+                        "content": "<p>O tabagismo é um dos principais fatores de risco para as DCNT. Por esta questão, o Ministério da Saúde desenvolve desde 1980, por meio do Instituto Nacional do Câncer (INCA), um conjunto de ações que compõem o Programa Nacional de Controle de Tabagismo (PNCT), com o objetivo de reduzir prevalência de fumantes, implementando ações de comunicação, educação e atenção à saúde.</p><p>Ações educativas de prevenção da iniciação do fumo devem ser programadas, de forma a criar um contexto que reduza a aceitação social do tabagismo, reduza os estímulos para que os jovens não comecem a fumar, reduza os estímulos que dificultam os fumantes a deixarem de fumar, proteja a população dos riscos da exposição à poluição tabagística ambiental e aumente o acesso dos fumantes ao apoio para cessação de fumar (BRASIL, 2014).</p><p>Você pode observar que, na população masculina, fatores laborais estão relacionados à maior prevalência do tabagismo, como maior carga horária, turnos noturnos, empregos em estabelecimentos abertos, estresse ocupacional e convivência com colegas tabagistas.</p><p>Desta forma, se faz necessário investir na promoção de ambientes de trabalho livres de tabaco</p>",
+                        "order":840
+                    }
+
+
+
+
+
+
+
+
+
+
+                ]
+            }
+        ]
+    }

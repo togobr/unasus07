@@ -4100,6 +4100,11 @@ iframe {
   .col-xs-0 {
     display: none;
   }
+
+  /* line 22, sass/_mediaQuery.scss */
+  .backgroundScroll .imgBG {
+    opacity: 0.2;
+  }
 }
 /* line 3, sass/_animate.scss */
 body .animate {
