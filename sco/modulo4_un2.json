@@ -48,13 +48,17 @@
                         "template":"backgroundScroll",
                         "column": "col-xs-12 col-md-12",
                         "styleObj": "",
-                        "style":"height:1021px;",
+
+                        "style":"",
+
                         "idSection":"34",
                         "backgroundSRC":"",
                         "images":[
                             {
                                 "imgBG":"curso/images/modulo4/unidade2/UNA07_m1_un2_rec002.png",
-                                "styleImg":"top: 423px;left: 0px;"
+
+                                "styleImg":""
+
                             }
                         ],
                         "order":34
@@ -63,7 +67,8 @@
                     {
                         "template":"backgroundScroll",
                         "column": "col-xs-12 col-md-12",
-                        "idSection":"34",
+
+                        "idSection":"35",
                         "backgroundSRC":"",
                         "order":35
                     },
@@ -199,11 +204,27 @@
 
                     {
                         "template": "texto",
+<<<<<<< HEAD
                         "column": "col-xs-12 col-md-8",
                         "type": "normal",
                         "section":33,
                         "content": "<p class='textoDestaque'>Agora, acompanhe informações importantes relacionadas a esta unidade de estudo e saiba quanto é a mortalidade por DCNT, assim como as doenças que mais acometem os homens.<br><b>Siga e confira!</b></p>",
                         "order":475
+=======
+                        "column": "col-xs-0 col-md-4",
+                        "type": "normal",
+                        "section":33,
+                        "content": "<p style='height:50px;'></p>",
+                        "order":478
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":33,
+                        "content": "<p class='textoDestaque' style='text-align:right;'>Agora, acompanhe informações importantes relacionadas a esta unidade de estudo e saiba quanto é a mortalidade por DCNT, assim como as doenças que mais acometem os homens.<br><b>Siga e confira!</b></p>",
+                        "order":480
+>>>>>>> local-togo
                     },
                     {
                         "template": "texto",
@@ -211,7 +232,11 @@
                         "type": "normal",
                         "section":33,
                         "content": "<p style='height:50px;'></p>",
+<<<<<<< HEAD
                         "order":480
+=======
+                        "order":483
+>>>>>>> local-togo
                     },
                     {
                         "template":"botaoPular",
@@ -227,7 +252,20 @@
 
                         {
                         "template": "texto",
+<<<<<<< HEAD
                         "column": "col-xs-12 col-md-12",
+=======
+                        "column": "col-xs-0 col-md-3",
+                        "type": "texto",
+                        "style":"height:600px",
+                        "section":34,
+                        "content": "",
+                        "order":489
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-5",
+>>>>>>> local-togo
                         "type": "title",
                         "section":34,
                         "content": "Doenças cardiovasculares",
@@ -235,6 +273,7 @@
                     },
                     {
                         "template": "texto",
+<<<<<<< HEAD
                         "column": "col-xs-12 col-md-4",
                         "type": "texto",
                         "section":34,
@@ -251,6 +290,76 @@
                     }
 
 
+=======
+                        "column": "col-xs-12 col-md-8",
+                        "type": "texto",
+                        "section":34,
+                        "content": "<p class='textoDestaque'>36 MILHÕES 63% 30 A 70 ANOS</p>",
+                        "order":495
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "texto",
+                        "section":34,
+                        "content": "<p>As mortes por DCNT apresentam um número estimado de 36 milhões de mortes por ano, ou seja, 63% de todos os óbitos, incluindo mais de 14 milhões de pessoas que morrem muito jovens, entre idades de 30 e 70 anos, a maioria de causas evitáveis.</p>",
+                        "order":500
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "texto",
+                        "section":34,
+                        "content": "Segundo a Organização Mundial da saúde, as doenças cardiovasculares que representaram 48% dos óbitos por DCNT em 2008.<br><br>Vamos relembrá-las!",
+                        "order":510
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "subtitle",
+                        "section":34,
+                        "content": "Hipertensão Arterial Sistêmica (HAS)",
+                        "order":520
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "texto",
+                        "section":34,
+                        "content": "<p>A <b>Hipertensão Arterial Sistêmica (HAS)</b> é um problema crônico, com alta prevalência no homem, que aumenta em faixas etárias maiores, principalmente acima de 40 anos, sendo superior a 50% entre 60 e 69 anos e 75% acima de 70 anos.</p><p>Apresenta-se, na maior parte das vezes, de forma agregada, em famílias com predisposição genética e fatores ambientais, aliada a um estilo de vida pouco saudável.</p><p>Revela maior prevalência em homens que consomem bebida alcoólica regularmente, que vivem sob estresse, ex-tabagistas, sedentários, que possuem algum grau de excesso de peso ou apresentam circunferência abdominal aumentada, assim como fatores socioeconômicos e uma dieta rica em sódio.</p>",
+                        "order":530
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "subtitle",
+                        "section":34,
+                        "content": "Infarto Agudo do Miocárdio (IAM)",
+                        "order":540
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "texto",
+                        "section":34,
+                        "content": "<p>Já o <b>Infarto agudo do miocárdio (IAM)</b> se caracteriza pela instalação de placas de ateroma nas coronárias, causando obstrução total ou parcial das artérias ou seus ramos.</p><p>Veja o índice de internações por IAM em 2014 nas regiões do Brasil!</p>",
+                        "order":550
+                    },
+
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "texto",
+                        "section":34,
+                        "content": "<p>JA mortalidade por Infarto agudo do miocárdio (IAM) é mais prevalente em homens com idade acima de 50 anos, representando, 88,8% dos óbitos ocorridos, especialmente nas faixas etárias de 60 a 69 anos (24,9%) e 70 a 79 anos (24,2%).</p><p>Alguns fatores não modificáveis contribuem para a ocorrência do IAM.</p><p>Mas, quais são eles? Clique e confira!</p>",
+                        "order":550
+                    }
+
+>>>>>>> local-togo
 
 
                 ]

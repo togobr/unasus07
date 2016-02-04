@@ -8,45 +8,18 @@ define([], function() {
 			- this.el
 			- this.$el
 			*/
-            var recurso = this.el;
+            var recurso = this;
 
+            recurso.$el.on({
+                click: function(e) {
+                    var cam = $(this).data("nsec");
 
-
-
-            Player.Elements.$content.on({
-                contentReady: function(e) {
-
-            
-
-                    $('a[href*="#"]:not([href="#"])').click(function() {
-
-                        var cam = $(this).attr("href");
-
-                        if(cam.match("tabs") != null) return;
-
-                        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-                            var target = $(this.hash);
-                            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                            if (target.length) {
-                                $('html, body').animate({
-                                    scrollTop: target.offset().top
-                                }, 1000);
-                                return false;
-                            }
-                        }
-                    });
+                    $('html, body').animate({
+                        scrollTop:$('#'+ cam).position().top
+                    }, 1000);
                 }
-
-
             });
-
-
-
-
-
-
         }
-
     }
 
     return botaoPular;

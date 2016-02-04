@@ -2,9 +2,9 @@
 	font-size: 6.4em;
 	color:#000;
 	text-decoration:none;
-
-	  margin: 40px auto;
-  display: table;
+	margin: 40px auto;
+	display: table;
+	cursor: pointer;
 
 	&:hover{
 		color:$hover;

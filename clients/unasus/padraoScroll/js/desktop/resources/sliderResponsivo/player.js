@@ -16,14 +16,14 @@ define(["responsiveSlidesJs"], function() {
 				$sliderResponsivo = resource.$el.find(".rslides"),
 				$sliderContainer = resource.$el.find(".sliderContainer"),
 				$contentSlider = resource.$el.find(".contentSlider"),
+				$contentImg = resource.$el.find(".contentImg"),
 				$btnVolta = resource.$el.find(".slider_nav"),
 				$btnAvanca = resource.$el.find(".slider1_nav.next");
 
-				// console.log('foo this', resource.$el.find('.slider_nav'));
-
-
 				if(!$contentSlider.html()){
 					$contentSlider.hide();
+				}else if(!$contentImg.attr('src')){
+					$contentSlider.css('width', "100%")
 				}
 
 

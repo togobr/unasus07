@@ -1,15 +1,14 @@
 .texto{
+	overflow: hidden;
 	.textoSolto{
-		margin-bottom: $entreRecursos;
 
-		font-size: 1.6em;
+		font-size: 1.5em;
 		ul, ol{
 			li{
 				margin-top: 7px;
 				margin-bottom: 7px;
 			}
 		}
-
 		.imgEsq{
 			float:left;
 			width: 49%;
@@ -22,10 +21,31 @@
 			margin-left: 30px;
 		}
 
-		.imgDuasColunas{
-			width: 100%;
-			margin-top: 18px;
-			margin-bottom: 18px;
+		.textoCitacao{
+			font-family: $black;
+			font-size: 21px; //inserido em px pois herdará o 1.5em do textoSolto, que é considerado o padrão
+			line-height: 30px;
+			&:after{
+				content: '”';
+				font-size: 60px;
+				position: absolute;
+				margin-left: 5px;
+				bottom: -25px;
+			}
+			&:before{
+				content: '“';
+				font-size: 60px;
+				top: 25px;
+				position: relative;
+				margin-right: 5px
+			}
+		}
+
+		.textoDestaque{
+			font-family: $regular;
+			color: $normal;
+			font-size: 22px;
+			line-height: 34px;
 		}
 	}
 
@@ -33,7 +53,7 @@
 		position: absolute;
 		width: 100%;
 		height: 4px;
-		bottom: -2px;
+		bottom: 0px;
 		background: $hover;
 	}
 
@@ -47,11 +67,13 @@
 		line-height: 30px;
 		font-family: $bold;
 		color: $normal;
+		text-transform: uppercase;
 	}
 
 	&.subtitle{
 		.wrapper{
 			display: table;
+			margin: initial;
 		}
 		.textoSolto{
 			font-size: 3em;
