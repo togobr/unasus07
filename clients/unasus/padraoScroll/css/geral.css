@@ -2965,11 +2965,6 @@ iframe {
   src: url("assets/fonts/roboto/fontawesome-webfont.eot");
   src: url("assets/fonts/roboto/fontawesome-webfont.woff") format("woff"), url("assets/fonts/roboto/FontAwesome.otf") format("opentype"), url("assets/fonts/roboto/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
 }
-/* line 3, sass/resources/audio/_style.scss */
-.audio {
-  margin-bottom: 40px;
-}
-
 /* line 10, sass/resources/audio/_style.scss */
 .vjs-audio .vjs-big-play-button {
   display: none;
@@ -3621,11 +3616,6 @@ iframe {
   line-height: 46px;
 }
 
-/* line 1, sass/resources/video/_style.scss */
-.video {
-  margin-bottom: 40px !important;
-}
-
 /* line 18, sass/resources/video/_style.scss */
 .vjs-default-skin .vjs-poster:before {
   content: "";
@@ -4093,6 +4083,11 @@ iframe {
   /* line 10, sass/_mediaQuery.scss */
   .sliderResponsivo .slider_nav {
     height: auto !important;
+  }
+
+  /* line 15, sass/_mediaQuery.scss */
+  .col-xs-0 {
+    display: none;
   }
 }
 /*!
