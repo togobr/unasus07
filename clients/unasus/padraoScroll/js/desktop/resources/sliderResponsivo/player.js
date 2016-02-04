@@ -20,9 +20,6 @@ define(["responsiveSlidesJs"], function() {
 				$btnVolta = resource.$el.find(".slider_nav"),
 				$btnAvanca = resource.$el.find(".slider1_nav.next");
 
-
-				console.log('foo $contentImg', $contentImg.attr('src'));
-
 				if(!$contentSlider.html()){
 					$contentSlider.hide();
 				}else if(!$contentImg.attr('src')){

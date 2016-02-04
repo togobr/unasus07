@@ -14,8 +14,6 @@ define([], function() {
                 click: function(e) {
                     var cam = $(this).data("nsec");
 
-                    console.log('foo cam', cam);
-
                     $('html, body').animate({
                         scrollTop:$('#'+ cam).position().top
                     }, 1000);
