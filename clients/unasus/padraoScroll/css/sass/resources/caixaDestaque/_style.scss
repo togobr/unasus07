@@ -2,12 +2,13 @@
 
 .caixaDestaque{
 	@include border-radius(5px);
-	background: $normal;
+	background: #ffdc00;
 	width:100%;
 	box-sizing: border-box;
 	word-break:break-all;
 	margin-bottom: $entreRecursos;
 	padding: 0 !important;
+
 
 	.iconDestaque{
 		position: relative;
@@ -19,7 +20,7 @@
   min-width: 105px;
 
 		.icon{
-  			color: #FFFFFF;
+  			color: #333;
   			margin: 16px auto;
   			height: 80px;
   			font-size: 7.6em;
@@ -32,7 +33,7 @@
 			top: 14%;
 			bottom:14%;
 			width: 2px;
-			background: #FFFFFF;
+			background: #333;
 		}
 	}	
 
@@ -42,7 +43,7 @@
 		height: 100%;
 		font-family: $regular;
 		 font-size: 1.6em;
-		color: #FFFFFF;
+		color: #333;
 		display: table-cell;
 		text-align: left;
 		vertical-align: middle;	
