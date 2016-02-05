@@ -11,11 +11,10 @@ define([], function() {
             var recurso = this;
 
             if(recurso.data.final){
-                recurso.$el.find(".contLeft").css("opacity",0)
+                recurso.$el.find(".contLeft").css("opacity",0);
             }
 
-            console.log("foo final", recurso.data.final);
-
+            
         }
     }
 

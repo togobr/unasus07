@@ -89,6 +89,14 @@ body{
 					@include border-radius(5px);
 					.dropdown-toggle{
 						background: $visited;
+						span.caret{
+							&:after{
+								border-top: none;
+								border-left: 6px solid transparent;
+								border-right: 6px solid transparent;
+								border-bottom: 10px solid $normal;
+							}
+						}
 					}
 
 					.dropdown-menu{
