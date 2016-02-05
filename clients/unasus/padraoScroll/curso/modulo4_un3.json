@@ -90,6 +90,15 @@
                         "styleObj": "",
                         "idSection":"65",
                         "backgroundSRC":"",
+                         "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img06.png",
+                                "styleImg":"top: 90px; left: 0px;"
+                            }
+
+
+                        ],
                         "order":65
                     },
 
@@ -268,7 +277,7 @@
                         "template": "texto",
                         "type": "title",
                         "section":62,
-                        "column": "col-xs-12 col-md-4",
+                        "column": "col-xs-12 col-md-5",
                         "content": "Alimentação saudável",
                         "order":720
                     },
@@ -339,21 +348,22 @@
                         "column": "col-xs-0 col-md-12",
                         "type": "normal",
                         "section":63,
-                        "style":"height:200px",
+                        "style":"height:110px",
                         "content": "",
                         "order":753
                     },
 
-                    {
+                     {
                         "template": "texto",
-                        "column": "col-xs-0 col-md-5",
+                        "column": "col-xs-0 col-md-2",
                         "type": "normal",
                         "section":63,
-                        "style":"height:500px",
+                        "style":"height:420px",
                         "content": "",
                         "order":755
                     },
 
+                   
 
                     {
                         "template": "texto",
@@ -362,14 +372,17 @@
                         "column": "col-xs-12 col-md-7",
                         "content": "Prática Corporal/atividades físicas",
                         "order":760
-                    },
+                    }, 
+
+                   
+
 
                      {
                         "template": "texto",
                         "column": "col-xs-12 col-md-3",
                         "type": "normal",
                         "section":63,
-                        "style":"height:35px",
+                        "style":"height:50px",
                         "content": "",
                         "order":765
                     },
@@ -380,31 +393,42 @@
                         "column": "col-xs-12 col-md-6",
                         "type": "normal",
                         "section":63,
-                        "content": "<p>Como profissionais da saúde, temos clareza da importância das práticas corporais. Entretanto, muitas vezes utilizamos os termos atividade física e exercício físico como sinônimos.</p><p>Mas, será que eles têm o mesmo significado? Confira a seguir!</p>",
+                        "content": "<p>Como profissionais da saúde, temos clareza da importância das práticas corporais. Entretanto, muitas vezes utilizamos os termos atividade física e exercício físico como sinônimos.</p><p><b>Mas, será que eles têm o mesmo significado? Confira clicando nos botões ao lado!</b></p><br/><p>Na atenção básica temos, desde 2008, o Programa Academia da Saúde, com o objetivo de promover práticas corporais e Atividades físicas, promoção da alimentação saudável, educação em saúde, além de contribuir para produção do cuidado e de modos de vida saudáveis e sustentáveis da população. O Programa possibilita a implantação de polos com infraestrutura, equipamentos e quadro de pessoal qualificado para a orientação de práticas corporais e atividade física e de lazer nos espaços da comunidade. Outras ações na rede básica de saúde e na comunidade, como caminhadas, prescrição de exercícios, práticas lúdicas, esportivas e de lazer, devem ser planejadas para a comunidade como um todo, estimulando a participação do público masculino (BRASIL, 2014).</p>",
                         "order":770
                     },
 
                     {
-                        "template":"gavetaHorizontal",
-                        "column": "col-xs-12 col-md-6",
-                        "style": "margin-top:20px;",
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-2",
+                        "type": "normal",
                         "section":63,
-                        "gavetasHorizontais":[    
+                        "style":"height:8px",
+                        "content": "",
+                        "order":775
+                    },
+
+
+                     {
+                        "template":"sanfona",
+                        "column": "col-xs-12 col-md-4",
+                        "section":63,
+                        "styleObj": {
+                        },
+                        "sanfonas":[
                             {
-                                "numeroGaveta":"1",
-                                "tituloGaveta":"Atividade física",
-                                "content":"É definida por qualquer movimento corporal, produzido por músculos esqueléticos, que requeira gasto de energia maior que em nível de repouso, como, por exemplo, andar, jogar, subir escadas, trabalhar, dançar, fazer atividades domésticas e de recreação, em especial as atividades executadas com a finalidade de melhorar a qualidade de vida."
+                                "titulo":"Atividade física", 
+                                "content":" É definida por qualquer movimento corporal, produzido por músculos esqueléticos, que requeira gasto de energia maior que em nível de repouso, como, por exemplo, andar, jogar, subir escadas, trabalhar, dançar, fazer atividades domésticas e de recreação, em especial as atividades executadas com a finalidade de melhorar a qualidade de vida."
                             },
 
                             {
-                                "numeroGaveta":"2",
-                                "tituloGaveta":"Exercício físico ",
+                                "titulo":"Exercício físico", 
                                 "content":"<p style='margin-bottom: 76px;'>É uma atividade repetida, planejada e estruturada, que tem por objetivo a obtenção, a manutenção ou a melhoria da aptidão física.</p>"
                             }
-                            
                         ],
                         "order":780
                     },
+
+                   
 
 
                      {
@@ -415,17 +439,6 @@
                         "style":"height:35px",
                         "content": "",
                         "order":785
-                    },
-
-
-
-                    {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-6",
-                        "type": "normal",
-                        "section":63,
-                        "content": "<p>Na atenção básica temos, desde 2008, o Programa Academia da Saúde, com o objetivo de promover práticas corporais e Atividades físicas, promoção da alimentação saudável, educação em saúde, além de contribuir para produção do cuidado e de modos de vida saudáveis e sustentáveis da população. O Programa possibilita a implantação de polos com infraestrutura, equipamentos e quadro de pessoal qualificado para a orientação de práticas corporais e atividade física e de lazer nos espaços da comunidade. Outras ações na rede básica de saúde e na comunidade, como caminhadas, prescrição de exercícios, práticas lúdicas, esportivas e de lazer, devem ser planejadas para a comunidade como um todo, estimulando a participação do público masculino (BRASIL, 2014).</p>",
-                        "order":790
                     },
 
 
@@ -441,21 +454,12 @@
                         "column": "col-xs-0 col-md-12",
                         "type": "normal",
                         "section":64,
-                        "style":"height:200px",
+                        "style":"height:90px",
                         "content": "",
                         "order":800
                     },
 
-                    {
-                        "template": "texto",
-                        "column": "col-xs-0 col-md-5",
-                        "type": "normal",
-                        "section":64,
-                        "style":"height:500px",
-                        "content": "",
-                        "order":810
-                    },
-
+                   
 
                     {
                         "template": "texto",
@@ -471,7 +475,7 @@
                         "column": "col-xs-12 col-md-3",
                         "type": "normal",
                         "section":64,
-                        "style":"height:35px",
+                        "style":"height:60px",
                         "content": "",
                         "order":830
                     },
@@ -479,12 +483,92 @@
                      
                     {
                         "template": "texto",
-                        "column": "col-xs-12 col-md-6",
+                        "column": "col-xs-12 col-md-4",
                         "type": "normal",
                         "section":64,
-                        "content": "<p>O tabagismo é um dos principais fatores de risco para as DCNT. Por esta questão, o Ministério da Saúde desenvolve desde 1980, por meio do Instituto Nacional do Câncer (INCA), um conjunto de ações que compõem o Programa Nacional de Controle de Tabagismo (PNCT), com o objetivo de reduzir prevalência de fumantes, implementando ações de comunicação, educação e atenção à saúde.</p><p>Ações educativas de prevenção da iniciação do fumo devem ser programadas, de forma a criar um contexto que reduza a aceitação social do tabagismo, reduza os estímulos para que os jovens não comecem a fumar, reduza os estímulos que dificultam os fumantes a deixarem de fumar, proteja a população dos riscos da exposição à poluição tabagística ambiental e aumente o acesso dos fumantes ao apoio para cessação de fumar (BRASIL, 2014).</p><p>Você pode observar que, na população masculina, fatores laborais estão relacionados à maior prevalência do tabagismo, como maior carga horária, turnos noturnos, empregos em estabelecimentos abertos, estresse ocupacional e convivência com colegas tabagistas.</p><p>Desta forma, se faz necessário investir na promoção de ambientes de trabalho livres de tabaco</p>",
+                        "content": "<p>O tabagismo é um dos principais fatores de risco para as DCNT. Por esta questão, o Ministério da Saúde desenvolve desde 1980, por meio do Instituto Nacional do Câncer (INCA), um conjunto de ações que compõem o Programa Nacional de Controle de Tabagismo (PNCT), com o objetivo de reduzir prevalência de fumantes, implementando ações de comunicação, educação e<br/>atenção à saúde.</p>",
                         "order":840
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "normal",
+                        "section":64,
+                        "content": "<p>Ações educativas de prevenção da iniciação do fumo devem ser programadas, de forma a criar um contexto que reduza a aceitação social do tabagismo, reduza os estímulos para que os jovens não comecem a fumar, reduza os estímulos que dificultam os fumantes a deixarem de fumar, proteja a população dos riscos da exposição à poluição tabagística ambiental e aumente o acesso dos fumantes ao apoio para cessação de fumar (BRASIL, 2014).</p>",
+                        "order":850
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "normal",
+                        "section":64,
+                        "content": "<p>Você pode observar que, na população masculina, fatores laborais estão relacionados à maior prevalência do tabagismo, como maior carga horária, turnos noturnos, empregos em estabelecimentos abertos, estresse ocupacional e convivência com colegas tabagistas.</p><p>Desta forma, se faz necessário investir na promoção de ambientes de trabalho livres de tabaco</p>",
+                        "order":860
+                    },
+
+
+
+
+
+
+
+
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "section":65,
+                        "style":"height:330px",
+                        "content": "",
+                        "order":870
+                    },
+
+                      {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-3",
+                        "type": "normal",
+                        "section":65,
+                        "style":"height:200px",
+                        "content": "",
+                        "order":870
+                    },
+
+                   
+
+                    {
+                        "template": "texto",
+                        "type": "title",
+                        "section":65,
+                        "column": "col-xs-12 col-md-9",
+                        "content": "Prevenção e controle do uso abusivo de álcool",
+                        "order":880
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "normal",
+                        "section":65,
+                        "style":"height:30px",
+                        "content": "",
+                        "order":890
+                    },
+
+                     
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":65,
+                        "content": "<p>A Política para a Atenção Integral a Usuários de Álcool e outras Drogas busca subsidiar a construção coletiva do enfrentamento, com definição de estratégias de prevenção, tratamento e de educação voltada para o uso de álcool e outras drogas, assegurando a participação intersetorial (BRASIL, 2003).</p><p>A abordagem ao alcoolismo na Atenção Primária à Saúde tem como objetivo a detecção precoce de problemas relacionados, além da integração do tratamento de outras patologias agravadas pelo álcool. Seria a redução de danos, com a substituição por substâncias que causem menos agravos, e até a abstinência das drogas que criam problemas aos usuários.</p>",
+                        "order":900
                     }
+
+
 
 
 

@@ -29,10 +29,32 @@ define([
             Player.Elements.$content.on({
                 contentReady: function(e) {
 
+            
+
+                if($(window).width() <=1021){
+                    $("body").find(".capa").css("height","auto");
+
+                }else{
                     $("body").find(".capa").css({
                         "height": $(window).height() + "px"
                     });
                 }
+
+                    
+                }
+            });
+
+            $(window).resize(function(){
+
+                if($(window).width() <=1021){
+                    $("body").find(".capa").attr("height","auto");
+
+                }else{
+                    $("body").find(".capa").css({
+                        "height": $(window).height() + "px"
+                    });
+                }
+                    
             });
         }
 

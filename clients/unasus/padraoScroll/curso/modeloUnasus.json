@@ -1,0 +1,572 @@
+    {
+        "_id": "5379f9c48b714fc104000133",
+        "courseName": "TESTE IEA",
+        "scoName": "TESTE IEA",
+        "srcCaptivate":"",
+        "scorm":false,
+        "teste":"",
+        "slides": [       
+            {
+                "template": "slideScroll",
+                "resources": [
+
+                 {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"1",
+                        "backgroundSRC":"http://www.planwallpaper.com/static/images/sea-background01-o.jpg",
+                        
+                        "order":0
+                    },
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"2",
+                        "backgroundSRC":"",
+
+                        "images":[
+
+                            {
+                                "imgBG":"css/assets/images/fundo_generico.png",
+                                "styleImg":"top: 423px;left: 436px;"
+                            }
+
+
+                        ],
+                        "order":1
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"3",
+                        "backgroundSRC":"http://www.planwallpaper.com/static/images/light_textured_backround_0bvlXeO.jpg",
+                        "order":2
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"4",
+                        "backgroundSRC":"http://www.planwallpaper.com/static/images/maxresdefault_1.jpg",
+                        "order":3
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"5",
+                        "backgroundSRC":"http://www.planwallpaper.com/static/images/sea-background01-o.jpg",
+                        "order":4
+                    },
+
+                   {
+                        "template": "imagem",
+                        "column": "col-xs-12 col-md-4",
+                        "src": "http://2.bp.blogspot.com/-F8aZWjikNZs/Vo_yXXOZIbI/AAAAAAAAMmM/_uwQNYgEHYU/s1600/logounasus.png",
+                        "section":1,
+                        "legend": {
+                            "active": true,
+                            "content": "Teste : Teste images"
+                        },
+                        "border": true,
+                        "styleObj": {
+                        },
+                        "order":5
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":1,
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa.",
+                        "order":6
+                    },
+
+                    {
+                        "template":"video",
+                        "column": "col-xs-12 col-md-4",
+                        "section":1,
+                        "styleObj":{  
+                            "height": "300px"
+                        },
+                        "youtube":{  
+                            "active":"true",
+                            "id":"bwsKax_4IUg"
+                        },
+                        "web":{  
+                            "active":false,
+                            "src":"",
+                            "type":"video/mp4"
+                        },
+                        "order":7
+                    },
+
+                    {
+                        "template": "texto",
+                        "section":1,
+                        "type": "normal",
+                        "column": "col-xs-0 col-md-4",
+                        "content": "",
+                        "order":8
+                    },
+
+                    {
+                        "template":"gavetaHorizontal",
+                        "column": "col-xs-12 col-md-12",
+                        "style": "margin-top:50px;",
+                        "section":1,
+                        "gavetasHorizontais":[    
+                            {
+                                "numeroGaveta":"1",
+                                "tituloGaveta":"Tab Menu 1",
+                                "content":"Lorem <span class='toolTp' id='tooltipHolder1' title='clique aqui'></span> dolor sit amet, consectetur adipisicing elit. Ducimus aliquam quia obcaecati autem labore delectus ea rerum dolorem officia, numquam molestias quidem est voluptate inventore! At veniam aliquam, architecto quidem!"
+                            },
+
+                            {
+                                "numeroGaveta":"2",
+                                "tituloGaveta":"Tab Menu 2",
+                                "content":"<div class='col-xs-12 col-md-6'><p style='margin-right:4%'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque facilis quo repellendus officia iusto, nam, odio et voluptas laboriosam cupiditate magni libero, totam possimus quasi aspernatur nobis quis quas quod?</p></div> <div class='col-xs-12 col-md-6'><img src='css/assets/images/IEA03_IMG01_SCO01.png' /></div>"
+                            },
+                            {
+                                "numeroGaveta":"3",
+                                "tituloGaveta":"Tab Menu 3",
+                                "content":" <img style='margin-right:2.5%' src='css/assets/images/IEA03_IMG01_SCO01.png' /> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque facilisrepellendus officia iusto, nam, sssssss <span class='mbTooltipGlossario' title='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quam esse sed delectus ipsa repellendus voluptate, inventore quasi optio deserunt ab quibusdam quia voluptatem tenetur et soluta veritatis sunt illo!'>alternativas</span> et voluptas laboriosam cupiditate magni libero, totam possimus quasi aspernatur nobis quis quas quod?</p>"
+                            },
+
+                            {
+                                "numeroGaveta":"4",
+                                "tituloGaveta":"Tab Menu 4",
+                                "content":" <img style='margin-right:2.5%%' src='css/assets/images/IEA03_IMG01_SCO01.png' /> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque facilisrepellendus officia iusto, nam, sssssss <span class='mbTooltipGlossario' title='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quam esse sed delectus ipsa repellendus voluptate, inventore quasi optio deserunt ab quibusdam quia voluptatem tenetur et soluta veritatis sunt illo!'>alternativas</span> et voluptas laboriosam cupiditate magni libero, totam possimus quasi aspernatur nobis quis quas quod?</p>"
+                            }
+                        ],
+                        "order":9
+                    },
+
+
+                    {
+                        "label": "Botão Modal",
+                        "column": "",
+                        "section":1,
+                        "styleObj": {
+                        },
+                        "template": "botaoModal",
+                        "class": "tip",
+                        "nTooltip":"1",
+                        "_modal_id": {
+                            "defaults": {
+                            "styleObj": {
+                                "height": "150px"
+                            },
+                                "name": "Teste Modal",
+                                "type": ""
+                            },
+                            "modal": {
+                                "type": "",
+                                "responsive": true,
+                                "palavra":"tsteasdasdasdas"
+                            },
+                            "name": "Novo slide",
+                            "onUse": false,
+                            "template": "slideSimples",
+                            "resources": [
+                                {
+                                    "template": "imagem",
+                                    "column": "col-xs-12 col-md-6",
+                                    "src": "http://2.bp.blogspot.com/-F8aZWjikNZs/Vo_yXXOZIbI/AAAAAAAAMmM/_uwQNYgEHYU/s1600/logounasus.png"
+                                },
+                                {
+                                    "template": "texto",
+                                    "type": "normal",
+                                    "column": "col-xs-12 col-md-6",
+                                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa."
+                                }
+                           ]
+                        },
+                        "order": 25
+                    },
+
+                    {
+                        "template":"botaoPular",
+                        "section":1,
+                        "nSec":2,
+                        "cor":"branco",
+                        "order":10
+                        },
+
+                     {
+                        "template": "imagem",
+                        "column": "col-xs-12 col-md-6",
+                        "section":2,
+                        "src": "https://cdn0.vox-cdn.com/thumbor/pmlvW1emRg9SBnni5pBA-xHtRM8=/0x1:2040x1361/1280x854/cdn0.vox-cdn.com/assets/2464695/google-logo-stock-21_2040.jpg",
+                        "legend": {
+                        "active": true,
+                        "content": "Teste : Teste images"
+                        },
+                        "border": true,
+                        "styleObj": {
+                        },
+                        "order":11
+                    },
+
+                    {
+                        "template":"sanfona",
+                        "column": "col-xs-12 col-md-6",
+                        "section":2,
+                        "styleObj": {
+                        },
+                        "sanfonas":[
+                            {
+                                "titulo":"Accordion 1", 
+                                "content":" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendiLorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendi."
+                            },
+
+                            {
+                                "titulo":"Accordion 2", 
+                                "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendi."
+                            },
+                            {
+                                "titulo":"Accordion 3", 
+                                "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corrupti, libero! Ipsum porro, non esse mollitia est nemo, laboriosam impedit, odit quibusdam cum, eum enim tenetur fugiat velit cumque eligendi."
+                            }
+                        ],
+                        "order":12
+                    },
+
+                    {
+                        "template":"botaoPular",
+                        "section":2,
+                        "nSec":3,
+                         "order":13
+                        },
+
+                    {
+                        "template":"sliderResponsivo",
+                        "column": "col-xs-12 col-md-12",
+                        "section":3,
+                        "type": "conteudoRight",
+                        "style":"margin-top:50px;",
+                        "slidesResponsivos":[
+                            {
+                                "imgSlide":"css/assets/images/Fotolia_25023164_Subscription_Monthly_M.jpg",
+                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 1111111111."
+                            },
+                            {
+                                "imgSlide":"css/assets/images/Fotolia_25697273_Subscription_Monthly_M.jpg",
+                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 22222222222."
+                            },
+                            {
+                                "imgSlide":"css/assets/images/2.jpg",
+                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 3333333333."
+                            }
+                        ],
+                        "order":14
+                    },
+
+                    {
+                        "template":"sliderResponsivo",
+                        "column": "col-xs-12 col-md-12",
+                        "section":3,
+                        "type": "conteudoLeft",
+                        "style":"margin-top:50px;",
+                        "slidesResponsivos":[
+                            {
+                                "imgSlide":"css/assets/images/Fotolia_25023164_Subscription_Monthly_M.jpg",
+                                "content": "Lorem i psum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 1111111111."
+                            },
+                            {
+                                "imgSlide":"css/assets/images/Fotolia_25697273_Subscription_Monthly_M.jpg",
+                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 22222222222."
+                            },
+                            {
+                                "imgSlide":"css/assets/images/2.jpg",
+                                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa 3333333333."
+                            }
+                        ],
+                        "order":15
+                    },
+
+                    {
+                        "template":"sliderResponsivo",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "semConteudo",
+                        "style":"margin-top:50px;",
+                        "section":3,
+                        "slidesResponsivos":[
+                            {
+                                "imgSlide":"css/assets/images/Fotolia_25023164_Subscription_Monthly_M.jpg"
+                            },
+                            {
+                                "imgSlide":"css/assets/images/Fotolia_25697273_Subscription_Monthly_M.jpg"
+                            },
+                            {
+                                "imgSlide":"css/assets/images/2.jpg"
+                            }
+                        ],
+                        "order":16
+                    },
+
+                    {
+                        "template":"gavetaVertical",
+                        "column": "col-xs-12 col-md-8",
+                        "style":"margin-top:50px;",
+                        "section":3,
+                        "gavetasVerticais":[    
+                            {
+                                "numeroGaveta":"1",
+                                "tituloGaveta":"Tab Menu 1",
+                                "content":"Lorem ipsum dolor sit amet, consectetur <span class='mbTooltip'  title='Lorem ipsum dolor sit amet, consecte'>tooltip</span> elit. Ducimus aliquam quia obcaecati autem labore delectus ea rerum dolorem officia, numquam molestias quidem est voluptate inventore! At veniam aliquam, architecto quidem!"
+                            },
+                            {
+                                "numeroGaveta":"2",
+                                "tituloGaveta":"Tab Menu 2",
+                                "content":"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque facilis quo repellendus officia iusto, nam, odio et voluptas laboriosam cupiditate magni libero, totam possimus quasi aspernatur nobis quis quas quod?</p> <img src='css/assets/images/IEA03_IMG01_SCO01.png' /> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio doloremque rerum nihil, totam iusto doloribus sit minima nostrum eligendi ut tenetur sint optio. Et dignissimos, ratione, rerum natus aliquid omnis!</p>"
+                            }
+                        ],
+                        "order":17
+                    },
+
+                    {
+                        "template": "texto",
+                        "type": "normal",
+                        "section":3,
+                        "column": "col-xs-12 col-md-4",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa.",
+                        "styleObj": {
+                        },
+                        "order":18
+                    },
+
+                    {
+                        "template": "revelar",
+                        "type": "click",
+                        "section":3,
+                        "column": "col-xs-12 col-md-12",
+                        "contentCapa": "CÂNCER DE ESTOMAGO",
+                        "content": "<div class='col-xs-12 col-md-4'><img src='http://2.bp.blogspot.com/-F8aZWjikNZs/Vo_yXXOZIbI/AAAAAAAAMmM/_uwQNYgEHYU/s1600/logounasus.png' alt='' width='100'></div><div class='col-xs-12 col-md-4'> <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</span> </div> <div class='col-xs-12 col-md-4'> <span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</span></div>",
+                        "contentHeight" : "200px",
+                        "styleObj": {
+                            
+                        },
+                        "order":19
+                    },
+
+                    {
+                        "template":"botaoPular",
+                        "section":3,
+                        "nSec":4,
+                         "order":20
+                        },
+
+                    {
+                        "template": "revelar",
+                        "type": "hover",
+                        "section":4,
+                        "column": "col-xs-12 col-md-12",
+                        "contentCapa": "CÂNCER DE PRÓSTATA",
+                        "content": "Conteúdo da Capa! 22222222222",
+                        "contentHeight" : "200px",
+                        "backgroundCapa":"css/assets/images/fotolia_88461540.jpg",
+                        "styleObj": {
+                        },
+                        "order":21
+                    },
+
+                    {
+                        "template": "revelar",
+                        "type": "click",
+                        "section":4,
+                        "column": "col-xs-12 col-md-12",
+                        "contentCapa": "CÂNCER COLORRETAL",
+                        "content": "Conteúdo da Capa! 333333333",
+                        "contentHeight" : "200px",
+                        "styleObj": {
+                            
+                        },
+                        "order":22
+                    },
+
+                    {  
+                        "template":"caixaDestaque",
+                        "column": "col-xs-12 col-md-12",
+                        "type":"normal",
+                        "section":4,
+                        "title":"Final de Cursos dasd sd",
+                        "content":"Lorem ipsum dolor sit amet,Morbi ut mi. ",
+                        "styleObj": {
+                            "margin-top": "50px"
+                        },
+                        "order":23
+                    },
+
+                    {  
+                        "template":"caixaDestaque",
+                        "column": "col-xs-12 col-md-12",
+                        "type":"normal",
+                        "section":4,
+                        "title":"Final de Cursos dasd sd",
+                        "content":"Lorem ipsum dolor sit amet, &nbsp;dsa dsad asd asd asd asd sad asd asd a dipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.&nbsp;",
+                        "styleObj": {
+                            "margin-top": "50px",
+                            "height": "200px"
+                        },
+                        "order":24
+                    },
+
+
+
+                    {
+                        "label": "Botão Modal",
+                        "column": "col-xs-12 col-md-6",
+                        "section":4,
+                        "styleObj": {
+                        },
+                        "template": "botaoModal",
+                        "type": "btnRetangle",
+                        "_modal_id": {
+                            "defaults": {
+                            "styleObj": {
+                                "height": "150px"
+                            },
+                                "name": "Teste Modal",
+                                "type": ""
+                            },
+                            "modal": {
+                                "type": "",
+                                "responsive": true,
+                                "titulo":"teste teste teste"
+                            },
+                            "name": "Novo slide",
+                            "onUse": false,
+                            "template": "slideSimples",
+                            "resources": [
+                                {
+                                    "template": "imagem",
+                                    "column": "col-xs-12 col-md-6",
+                                    "src": "http://2.bp.blogspot.com/-F8aZWjikNZs/Vo_yXXOZIbI/AAAAAAAAMmM/_uwQNYgEHYU/s1600/logounasus.png"
+                                },
+                                {
+                                    "template": "texto",
+                                    "type": "normal",
+                                    "column": "col-xs-12 col-md-6",
+                                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa."
+                                }
+                           ]
+                        },
+                        "order": 25
+                    },
+
+                    {
+                        "template":"botaoPular",
+                        "section":4,
+                        "nSec":5,
+                         "order":26
+                        },
+
+                     {
+                        "label": "Botão Modal",
+                        "column": "col-xs-12 col-md-6",
+                        "section":4,
+                        "styleObj": {
+                        },
+                        "template": "botaoModal",
+                        "type": "btnRetangle",
+                        "_modal_id": {
+                            "defaults": {
+                            "styleObj": {
+                                "height": "150px"
+                            },
+                                "name": "Teste Modal",
+                                "type": ""
+                            },
+                            "modal": {
+                                "type": "",
+                                "responsive": true,
+                                "titulo":"teste teste teste"
+                            },
+                            "name": "Novo slide",
+                            "onUse": false,
+                            "template": "slideSimples",
+                            "resources": [
+                                {
+                                    "template": "texto",
+                                    "type": "normal",
+                                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa."
+                                }
+                           ]
+                        },
+                        "order": 227
+                    },
+
+                    {
+                        "template": "revelar",
+                        "type": "dropdown",
+                        "section":5,
+                        "column": "col-xs-12 col-md-6",
+                        "contentCapa": "CAPA!22222222222",
+                        "content": "Conteúdo da Capa! 22222222222",
+                        "styleObj": {
+                            "padding": "0px 100px 0px 100px"
+                        },
+                        "order":28
+                    },
+
+                    {
+                        "template": "revelar",
+                        "type": "dropdown",
+                        "section":5,
+                        "column": "col-xs-12 col-md-6",
+                        "contentCapa": "CAPA!22222222222",
+                        "content": "Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222Conteúdo da Capa! 22222222222",
+                        "styleObj": {
+                            "padding": "0px 100px 0px 100px"
+                        },
+                        "order":29
+                    },
+
+                    {
+                        "template": "texto",
+                        "type": "title",
+                        "section":5,
+                        "column": "col-xs-12 col-md-12",
+                        "content": "ALCOOLISMO, TABAGISMO E OUTRAS DROGAS",
+                        "order":30
+                    },
+
+                    {
+                        "template": "texto",
+                        "type": "subtitle",
+                        "column": "col-xs-12 col-md-12",
+                        "content": "Alcoolismo",
+                        "section":5,
+                        "order":31
+                    },
+
+                    {
+                        "template": "texto",
+                        "type": "subtitle",
+                        "column": "col-xs-12 col-md-12",
+                        "content": "Alcoolismo",
+                        "section":5,
+                        "order":32
+                    },
+
+                    {
+                        "template": "botaoDownload",
+                        "type": "subtitle",
+                        "section":5,
+                        "src": "http://www.mensagenscomamor.com/images/interna/new/imagens_reflexao_felicidade.jpg",
+                        "column": "col-xs-12 col-md-6",
+                        "label": "BAIXAR O LIVRO",
+                        "order":33
+                    }
+                ]
+            }            
+        ]    
+    }
