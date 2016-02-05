@@ -265,7 +265,6 @@ require.config({
 
 			"resources": {
 
-
 				"video":{
 					"baseURL": "../../../../_baseClient/_base/js/desktop/resources/video",
 						"paths": [
@@ -292,6 +291,7 @@ require.config({
 							"generalInit"
 						]
 				},
+
 				"tituloModulo": {
 						"baseURL": "./resources/tituloModulo",
 						"paths": [
@@ -299,9 +299,16 @@ require.config({
 							"player"
 						]
 				},
-				
 
-			"imagem": {
+				"multimedia": {
+					"baseURL": "../../../../_baseClient/_base/js/desktop/resources/multimedia",
+					"paths": [
+						"text!template.html",
+						"player"
+					]
+				},
+
+				"imagem": {
 					"baseURL": "./resources/imagem",
 					"paths": [
 						"text!template.html"

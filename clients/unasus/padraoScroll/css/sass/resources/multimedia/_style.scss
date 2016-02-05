@@ -1,9 +1,16 @@
-@import "../../_estiloPadrao.scss";
-
 .multimedia{
-	//estilos importados do _base
+	position: relative;
 }
 
 .multimedia.noContent{
+	.glyphicon{
+		display: block;
+	}
 	border: 1px solid #b3b3b3;
+}
+
+
+.multimedia.mobile{
+	position: relative;
+	margin: 10px
 }

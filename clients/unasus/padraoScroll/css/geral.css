@@ -1894,14 +1894,7 @@ ol li:before {
   opacity: 1;
 }
 
-/* line 219, sass/main/_main.scss */
-iframe {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
-
-/* line 228, sass/main/_main.scss */
+/* line 222, sass/main/_main.scss */
 .content .iframeContent {
   position: fixed;
   width: 100%;
@@ -1911,7 +1904,7 @@ iframe {
   background: #2f2f2f;
   left: 0px;
 }
-/* line 237, sass/main/_main.scss */
+/* line 231, sass/main/_main.scss */
 .content .iframeContent .telaCheiaIframe {
   width: 100%;
   height: 100%;
@@ -1921,7 +1914,7 @@ iframe {
   top: 0px;
   bottom: 0px;
 }
-/* line 247, sass/main/_main.scss */
+/* line 241, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia {
   z-index: 999;
   border: 1px solid #e18f00;
@@ -1951,11 +1944,11 @@ iframe {
   opacity: 0.78;
   top: 1px;
 }
-/* line 279, sass/main/_main.scss */
+/* line 273, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:hover {
   background: #fbaf0b;
 }
-/* line 283, sass/main/_main.scss */
+/* line 277, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:active {
   background: #e28f01;
 }
@@ -4200,6 +4193,26 @@ iframe {
 /* line 28, sass/resources/botaoPular/_style.scss */
 .btPular.branco:hover {
   color: #dab463;
+}
+
+/* line 1, sass/resources/multimedia/_style.scss */
+.multimedia {
+  position: relative;
+}
+
+/* line 5, sass/resources/multimedia/_style.scss */
+.multimedia.noContent {
+  border: 1px solid #b3b3b3;
+}
+/* line 6, sass/resources/multimedia/_style.scss */
+.multimedia.noContent .glyphicon {
+  display: block;
+}
+
+/* line 13, sass/resources/multimedia/_style.scss */
+.multimedia.mobile {
+  position: relative;
+  margin: 10px;
 }
 
 @media (max-width: 1021px) {
