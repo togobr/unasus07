@@ -92,6 +92,40 @@
 }
 
 
+.botoesNav{
+	  background: #dab463;
+  height: 177px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  border-top:2px #f4dfc1 solid;
+
+  .avancarNav{
+  	background-color:#f4dfc1;
+  	height: 70px;
+  	width: 70px;
+  	position: absolute;
+  	right: 0;
+
+  	border-radius:5px;
+
+  }
+
+  .voltarNav{
+  	background-color:#f4dfc1;
+
+  	height: 70px;
+  	width: 70px;
+
+  	position: absolute;
+  	left: 0;
+  	border-radius:5px;
+  }
+}
+
+
 
 
 
