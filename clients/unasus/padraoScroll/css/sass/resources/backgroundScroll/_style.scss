@@ -16,13 +16,15 @@
 	}
 
 	.backgroundBox.capa{
-		height: 100%;
-		background-position: center; 
-		// opacity: 0.5; 
-		background-size:cover;
-
 		.content{
-			height: 100%;
+			padding-top:0;
+		}
+
+		.botaoPular{
+			  position: absolute;
+			  bottom: 0;
+			  left: 0;
+			  right: 0;
 		}
 	}
 
@@ -34,3 +36,40 @@
 .backgroundScroll.capa{
 	height:100%;
 }
+
+.capa{
+
+	
+
+
+	.contCapa{
+		font-family: $regular;
+		display: table-cell;
+		vertical-align: middle;
+		  padding-left: 170px;
+	}
+	.nCapa{
+		font-size: 3.4em;
+		color: #fff;
+		margin-bottom: 0;
+	}
+
+	.tituloCapa{
+		  font-size: 4.8em;
+		  color: #fff;
+		  line-height: 1.5em;
+	}
+
+	.descCapa{
+		    font-weight: bold;
+			font-size: 1.5em;
+			color: #fff;
+			margin-left: 235px;
+			display: block;
+			margin-right: 167px;
+			border-left: 3px solid #fff;
+			padding-left: 25px;
+	}
+}
+
+

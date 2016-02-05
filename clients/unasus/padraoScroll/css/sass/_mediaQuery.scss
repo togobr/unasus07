@@ -90,15 +90,42 @@
 		}
 	}
 
-	.col-xs-0{
-		display: none;
-	}
+	.col-xs-0
+    {
+        display: none;
+    }
 
+    .backgroundScroll
+    {
+        .imgBG
+        {
+            opacity: .2;
+        }
+    }
 
-	.backgroundScroll{
-		
-		.imgBG{
-			opacity: 0.2;
-		}
-	}
+    .capa
+    {
+        .contCapa
+        {
+            padding-left: 0
+        }
+        .nCapa
+        {
+        	margin-top: 80px;
+        	font-size: 1.5em;
+            
+        }
+        .tituloCapa
+        {
+        	font-size: 3em;
+        	font-weight: bold;
+            
+        }
+        .descCapa
+        {
+
+        	margin:0;
+        	  margin-bottom: 130px;
+        }
+    }
  }

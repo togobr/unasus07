@@ -506,6 +506,13 @@ require.config({
 						"text!template.html",
 						"player"
 					]
+				},
+
+				"capa": {
+					"baseURL": "./resources/capa",
+					"paths": [
+						"text!template.html"
+					]
 				}
 			},
 
