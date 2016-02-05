@@ -1711,30 +1711,29 @@ body {
   z-index: 10;
   background: #dab463;
   border: none;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
 }
 /* line 21, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .navbar-collapse {
   max-width: 830px;
   margin: 0 auto;
-  height: 96px !important;
 }
-/* line 25, sass/main/_main.scss */
+/* line 24, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .navbar-collapse img {
   height: 100%;
-  padding: 15px;
+  padding: 13px;
 }
-/* line 30, sass/main/_main.scss */
+/* line 29, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav {
   float: right;
 }
-/* line 32, sass/main/_main.scss */
+/* line 31, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav h1 {
   font-size: 1.8em;
   font-family: "Roboto-Bold", sans-serif;
   color: #30317f;
 }
-/* line 37, sass/main/_main.scss */
+/* line 36, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -1744,16 +1743,25 @@ body {
   background: #e9d2a1;
   padding: 0;
 }
-/* line 43, sass/main/_main.scss */
+/* line 42, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle {
   padding: 0;
-  font-size: 0.9em;
-  font-family: "Roboto-Bold", sans-serif;
+  font-size: 11px;
+  font-family: "Roboto-Black", sans-serif;
   color: #30317f;
   height: 100%;
+  text-transform: uppercase;
 }
 /* line 49, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle span {
+.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle span.dpText {
+  width: 168px;
+  float: right;
+  text-align: center;
+  padding-top: 6px;
+}
+/* line 55, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle span.caret {
+  position: relative;
   float: left;
   height: 100%;
   width: 32px;
@@ -1762,26 +1770,56 @@ body {
   border-top-left-radius: 5px;
   -webkit-border-bottom-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  border: 0;
   border-right: 2px solid #dab463;
 }
-/* line 63, sass/main/_main.scss */
+/* line 67, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle span.caret:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 10px solid #30317f;
+  left: 9px;
+  top: 12px;
+}
+/* line 82, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-toggle {
   background: none !important;
 }
+/* line 86, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu {
+  background: #e9d2a1;
+  width: 100%;
+  border-radius: 0;
+}
+/* line 90, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu li a {
+  font-family: "Roboto-Regular", sans-serif;
+  color: #30317f;
+  white-space: normal;
+}
+/* line 94, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu li a:hover {
+  background: none;
+  font-family: "Roboto-Bold", sans-serif;
+}
 
-/* line 72, sass/main/_main.scss */
+/* line 106, sass/main/_main.scss */
 .content.container-fluid {
   max-width: 1021px;
   padding: 0;
   padding-top: 100px;
 }
 
-/* line 79, sass/main/_main.scss */
+/* line 145, sass/main/_main.scss */
 ul {
   list-style-image: url(assets/images/bullet.png);
   counter-reset: section;
 }
-/* line 82, sass/main/_main.scss */
+/* line 148, sass/main/_main.scss */
 ul li {
   background-position: 0px 100%;
   padding-left: 5px;
@@ -1792,13 +1830,13 @@ ul li {
   font-family: "Roboto-Regular", sans-serif;
 }
 
-/* line 94, sass/main/_main.scss */
+/* line 160, sass/main/_main.scss */
 ol {
   list-style-type: none;
   counter-reset: ol-counter;
   padding: 0;
 }
-/* line 99, sass/main/_main.scss */
+/* line 165, sass/main/_main.scss */
 ol li {
   background-position: 0px 100%;
   padding-left: 25px;
@@ -1808,7 +1846,7 @@ ol li {
   margin-right: 10px;
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 108, sass/main/_main.scss */
+/* line 174, sass/main/_main.scss */
 ol li:before {
   font-weight: bold;
   margin-right: 6px;
@@ -1817,7 +1855,7 @@ ol li:before {
   counter-increment: ol-counter;
 }
 
-/* line 123, sass/main/_main.scss */
+/* line 189, sass/main/_main.scss */
 .wrapper {
   height: auto;
   margin: 0 auto;
@@ -1825,29 +1863,29 @@ ol li:before {
   position: relative;
 }
 
-/* line 130, sass/main/_main.scss */
+/* line 196, sass/main/_main.scss */
 .wrapperMargin {
   margin-bottom: 40px;
 }
 
-/* line 135, sass/main/_main.scss */
+/* line 201, sass/main/_main.scss */
 .hiddenAnimate {
   opacity: 0;
 }
 
-/* line 138, sass/main/_main.scss */
+/* line 204, sass/main/_main.scss */
 .visible {
   opacity: 1;
 }
 
-/* line 143, sass/main/_main.scss */
+/* line 209, sass/main/_main.scss */
 iframe {
   width: 100%;
   height: 100%;
   position: absolute;
 }
 
-/* line 152, sass/main/_main.scss */
+/* line 218, sass/main/_main.scss */
 .content .iframeContent {
   position: fixed;
   width: 100%;
@@ -1857,7 +1895,7 @@ iframe {
   background: #2f2f2f;
   left: 0px;
 }
-/* line 161, sass/main/_main.scss */
+/* line 227, sass/main/_main.scss */
 .content .iframeContent .telaCheiaIframe {
   width: 100%;
   height: 100%;
@@ -1867,7 +1905,7 @@ iframe {
   top: 0px;
   bottom: 0px;
 }
-/* line 171, sass/main/_main.scss */
+/* line 237, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia {
   z-index: 999;
   border: 1px solid #e18f00;
@@ -1897,11 +1935,11 @@ iframe {
   opacity: 0.78;
   top: 1px;
 }
-/* line 203, sass/main/_main.scss */
+/* line 269, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:hover {
   background: #fbaf0b;
 }
-/* line 207, sass/main/_main.scss */
+/* line 273, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:active {
   background: #e28f01;
 }
@@ -4134,20 +4172,44 @@ iframe {
 }
 
 @media (max-width: 1021px) {
-  /* line 3, sass/_mediaQuery.scss */
+  /* line 5, sass/_mediaQuery.scss */
+  .wrapperUnasus .mainNavBar .navbar-collapse {
+    max-width: initial;
+    height: auto;
+  }
+  /* line 8, sass/_mediaQuery.scss */
+  .wrapperUnasus .mainNavBar .navbar-collapse img {
+    display: none;
+  }
+  /* line 12, sass/_mediaQuery.scss */
+  .wrapperUnasus .mainNavBar .nav.navbar-nav {
+    float: none;
+  }
+  /* line 14, sass/_mediaQuery.scss */
+  .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown {
+    width: auto;
+    height: auto;
+  }
+  /* line 18, sass/_mediaQuery.scss */
+  .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle span.dpText {
+    width: auto;
+    float: none;
+  }
+
+  /* line 29, sass/_mediaQuery.scss */
   .sliderResponsivo {
     height: auto !important;
   }
-  /* line 6, sass/_mediaQuery.scss */
+  /* line 32, sass/_mediaQuery.scss */
   .sliderResponsivo .rslides .contentSlider {
     padding: 15px 55px 15px 55px !important;
   }
-  /* line 10, sass/_mediaQuery.scss */
+  /* line 36, sass/_mediaQuery.scss */
   .sliderResponsivo .slider_nav {
     height: auto !important;
   }
 
-  /* line 15, sass/_mediaQuery.scss */
+  /* line 41, sass/_mediaQuery.scss */
   .col-xs-0 {
     display: none;
   }
