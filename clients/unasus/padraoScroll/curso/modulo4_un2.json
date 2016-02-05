@@ -80,6 +80,31 @@
                         "order":36
                     },
 
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "idSection":"36",
+                        "capa":"capa",
+                        "backgroundSRC":"curso/images/modulo4/unidade2/UNA07_m1_un2_rec001.png",
+                        "order":37
+                    },
+
+                    {
+                        "template":"contraCapa",
+                        "section":36,
+                        "final":true,
+                        "textoDownload":"AGORA, SIGA PARA O ESTUDO DO CONTEUDO COMPLETO",
+                        "label":"BAIXAR O LIVRO",
+                        "textoFinal":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero nisi ullam molestias numquam magnam, officia optio qui pariatur aliquid commodi ab eaque cumque consequuntur. Molestiae suscipit, aspernatur quibusdam modi reiciendis!",
+        
+                        "order":450
+                        },
+
+
+
+
+
+
                     
 
 
