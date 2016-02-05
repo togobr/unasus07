@@ -1,5 +1,31 @@
   @media (max-width: 1021px) {
-	//sliderResponsivo
+	//MAIN
+	.wrapperUnasus{
+		.mainNavBar{
+			.navbar-collapse{
+				max-width: initial;
+				height: auto;
+				img{
+					display: none;
+				}
+			}
+			.nav.navbar-nav{
+				float: none;
+				.dropdown{
+					width: auto;
+					height: auto;
+					.dropdown-toggle{
+						span.dpText{
+							width: auto;
+							float: none;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	//RECURSO - sliderResponsivo
 	.sliderResponsivo{
 		height: auto !important;
 		.rslides{
