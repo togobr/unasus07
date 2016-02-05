@@ -35,6 +35,10 @@
 				img{
 					display: none;
 				}
+
+				&.in{
+					  overflow-y: initial;
+				}
 			}
 			.nav.navbar-nav{
 				float: none;
@@ -46,8 +50,10 @@
 				.dropdown{
 					width: auto;
 					height: auto;
+					// position: static;
 					.dropdown-toggle{
-						overflow: hidden;
+						// position: inherit;
+						// overflow: hidden;
 						text-align: right;
 						height: 40px;
 						margin-bottom: 4px;
