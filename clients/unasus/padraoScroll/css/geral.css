@@ -3843,7 +3843,6 @@ iframe {
 
 /* line 2, sass/resources/revelar/_style.scss */
 .content .revelar {
-  margin-bottom: 40px;
   position: relative;
   color: #FFFFFF;
   padding: 0;
@@ -4059,24 +4058,56 @@ iframe {
   background-position: center;
   background-size: cover;
 }
-/* line 18, sass/resources/backgroundScroll/_style.scss */
-.backgroundScroll .backgroundBox.capa {
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-/* line 24, sass/resources/backgroundScroll/_style.scss */
+/* line 19, sass/resources/backgroundScroll/_style.scss */
 .backgroundScroll .backgroundBox.capa .content {
-  height: 100%;
+  padding-top: 0;
 }
-/* line 29, sass/resources/backgroundScroll/_style.scss */
+/* line 23, sass/resources/backgroundScroll/_style.scss */
+.backgroundScroll .backgroundBox.capa .botaoPular {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* line 31, sass/resources/backgroundScroll/_style.scss */
 .backgroundScroll .imgBG {
   position: absolute;
 }
 
-/* line 34, sass/resources/backgroundScroll/_style.scss */
+/* line 36, sass/resources/backgroundScroll/_style.scss */
 .backgroundScroll.capa {
   height: 100%;
+}
+
+/* line 45, sass/resources/backgroundScroll/_style.scss */
+.capa .contCapa {
+  font-family: "Roboto-Regular", sans-serif;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 170px;
+}
+/* line 51, sass/resources/backgroundScroll/_style.scss */
+.capa .nCapa {
+  font-size: 3.4em;
+  color: #fff;
+  margin-bottom: 0;
+}
+/* line 57, sass/resources/backgroundScroll/_style.scss */
+.capa .tituloCapa {
+  font-size: 4.8em;
+  color: #fff;
+  line-height: 1.5em;
+}
+/* line 63, sass/resources/backgroundScroll/_style.scss */
+.capa .descCapa {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #fff;
+  margin-left: 235px;
+  display: block;
+  margin-right: 167px;
+  border-left: 3px solid #fff;
+  padding-left: 25px;
 }
 
 /* line 3, sass/resources/botaoDownload/_style.scss */
@@ -4187,51 +4218,71 @@ iframe {
 }
 
 @media (max-width: 1021px) {
-  /* line 5, sass/_mediaQuery.scss */
+  /* line 8, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .navbar-collapse {
     max-width: initial;
     height: auto;
   }
-  /* line 8, sass/_mediaQuery.scss */
+  /* line 12, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .navbar-collapse img {
     display: none;
   }
-  /* line 12, sass/_mediaQuery.scss */
+  /* line 17, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .nav.navbar-nav {
     float: none;
   }
-  /* line 14, sass/_mediaQuery.scss */
+  /* line 20, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown {
     width: auto;
     height: auto;
   }
-  /* line 18, sass/_mediaQuery.scss */
+  /* line 26, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle span.dpText {
-    width: auto;
     float: none;
+    width: auto;
   }
 
-  /* line 29, sass/_mediaQuery.scss */
+  /* line 39, sass/_mediaQuery.scss */
   .sliderResponsivo {
     height: auto !important;
   }
-  /* line 32, sass/_mediaQuery.scss */
+  /* line 44, sass/_mediaQuery.scss */
   .sliderResponsivo .rslides .contentSlider {
     padding: 15px 55px 15px 55px !important;
   }
-  /* line 36, sass/_mediaQuery.scss */
+  /* line 49, sass/_mediaQuery.scss */
   .sliderResponsivo .slider_nav {
     height: auto !important;
   }
 
-  /* line 41, sass/_mediaQuery.scss */
+  /* line 55, sass/_mediaQuery.scss */
   .col-xs-0 {
     display: none;
   }
 
-  /* line 48, sass/_mediaQuery.scss */
+  /* line 63, sass/_mediaQuery.scss */
   .backgroundScroll .imgBG {
-    opacity: 0.2;
+    opacity: .2;
+  }
+
+  /* line 73, sass/_mediaQuery.scss */
+  .capa .contCapa {
+    padding-left: 0;
+  }
+  /* line 77, sass/_mediaQuery.scss */
+  .capa .nCapa {
+    margin-top: 80px;
+    font-size: 1.5em;
+  }
+  /* line 83, sass/_mediaQuery.scss */
+  .capa .tituloCapa {
+    font-size: 3em;
+    font-weight: bold;
+  }
+  /* line 89, sass/_mediaQuery.scss */
+  .capa .descCapa {
+    margin: 0;
+    margin-bottom: 130px;
   }
 }
 /* line 3, sass/_animate.scss */

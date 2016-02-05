@@ -1,52 +1,96 @@
-  @media (max-width: 1021px) {
-	//MAIN
-	.wrapperUnasus{
-		.mainNavBar{
-			.navbar-collapse{
-				max-width: initial;
-				height: auto;
-				img{
-					display: none;
-				}
-			}
-			.nav.navbar-nav{
-				float: none;
-				.dropdown{
-					width: auto;
-					height: auto;
-					.dropdown-toggle{
-						span.dpText{
-							width: auto;
-							float: none;
-						}
-					}
-				}
-			}
-		}
-	}
-	
-	//RECURSO - sliderResponsivo
-	.sliderResponsivo{
-		height: auto !important;
-		.rslides{
-			.contentSlider{
-				padding: 15px 55px 15px 55px !important;
-			}
-		}
-		.slider_nav{
-			height: auto !important;
-		}
-	}
+  @media (max-width: 1021px)
+{
+    //MAIN
+    .wrapperUnasus
+    {
+        .mainNavBar
+        {
+            .navbar-collapse
+            {
+                max-width: initial;
+                height: auto;
+                img
+                {
+                    display: none;
+                }
+            }
+            .nav.navbar-nav
+            {
+                float: none;
+                .dropdown
+                {
+                    width: auto;
+                    height: auto;
+                    .dropdown-toggle
+                    {
+                        span.dpText
+                        {
+                            float: none;
 
-	.col-xs-0{
-		display: none;
-	}
+                            width: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //RECURSO - sliderResponsivo
+    .sliderResponsivo
+    {
+        height: auto !important;
+        .rslides
+        {
+            .contentSlider
+            {
+                padding: 15px 55px 15px 55px !important;
+            }
+        }
+        .slider_nav
+        {
+            height: auto !important;
+        }
+    }
+
+    .col-xs-0
+    {
+        display: none;
+    }
 
 
-	.backgroundScroll{
-		
-		.imgBG{
-			opacity: 0.2;
-		}
-	}
- }
+    .backgroundScroll
+    {
+        .imgBG
+        {
+            opacity: .2;
+        }
+    }
+
+
+
+    .capa
+    {
+        .contCapa
+        {
+            padding-left: 0
+        }
+        .nCapa
+        {
+        	margin-top: 80px;
+        	font-size: 1.5em;
+            
+        }
+        .tituloCapa
+        {
+        	font-size: 3em;
+        	font-weight: bold;
+            
+        }
+        .descCapa
+        {
+
+        	margin:0;
+        	  margin-bottom: 130px;
+        }
+    }
+}

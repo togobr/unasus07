@@ -62,12 +62,25 @@
                     },
 
                     {
+                        "template":"capa",
+                        "nUnidade":"UNIDADE 2",
+                        "column": "col-xs-12 col-md-12",
+                        "section":30,
+                        "tituloCapa":"ASPECTOS EPIDEMIOLÓGICOS <br> NA POPULAÇÃO MASCULINA",
+                        "textoCapa":"Estar atento aos aspectos epidemiológicos na população masculina deve fazer parte da prática diária de um profissional de saúde. Acompanhe os estudos desta unidade para incorporar e aperfeiçoar este tema em seu dia a dia!",
+                        "order":35
+
+                    },
+
+                    {
                         "template":"backgroundScroll",
                         "column": "col-xs-12 col-md-12",
                         "idSection":"35",
                         "backgroundSRC":"",
-                        "order":35
+                        "order":36
                     },
+
+                    
 
 
 
@@ -75,56 +88,7 @@
 
 
 
-                    {
-                        "template": "texto",
-                        "column": "col-xs-0 col-md-12",
-                        "type": "normal",
-                        "style":"height:220px",
-                        "section":30,
-                        "content": "",
-                        "order":400
-                    },
-                    {
-                        "template": "texto",
-                        "column": "col-xs-0 col-md-2",
-                        "type": "normal",
-                        "section":30,
-                        "content": "",
-                        "order":405
-                    },
-                    {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-10",
-                        "type": "normal",
-                        "section":30,
-                        "content": "<p style='font-size:2.4em; line-height:1em;color:#ffffff;'>UNIDADE 2</p> <p style='font-size:3.2em; line-height:1em; color:#ffffff;'>ASPECTOS EPIDEMIOLÓGICOS</p> <p style='font-size:3.4em;  line-height:1em; color:#ffffff;'>NA POPULAÇÃO MASCULINA</p>",
-                        "order":410
-                    },
-                    {
-                        "template": "texto",
-                        "column": "col-xs-0 col-md-5",
-                        "type": "normal",
-                        "section":30,
-                        "content": "",
-                        "order":420
-                    },
-                    {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-5",
-                        "type": "normal",
-                        "style":"padding-left:15px; border-left: 3px #ffffff solid; height:105px;",
-                        "section":30,
-                        "content": "<b><i style='color:#ffffff;'>Estar atento aos aspectos epidemiológicos na população masculina deve fazer parte da prática diária de um profissional de saúde. Acompanhe os estudos desta unidade para incorporar e aperfeiçoar este tema em seu dia a dia!</i></b>",
-                        "order":430
-                    },
-                    {
-                        "template": "texto",
-                        "column": "col-xs-0 col-md-12",
-                        "type": "normal",
-                        "section":30,
-                        "content": "<p style='height:220px;'></p>",
-                        "order":440
-                    },
+                    
                     {
                         "template":"botaoPular",
                         "section":30,
