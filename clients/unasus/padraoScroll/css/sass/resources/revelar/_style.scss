@@ -69,6 +69,19 @@
 				height: 51px;
 				width: 100%;
 
+				&.open{
+					a.dropdown-toggle{
+						.openCloseIcon{
+							.icon-setaPreenchida_cima{
+								display: table-cell;
+							}
+							.icon-setaPreenchida_baixo{
+								display: none;
+							}
+						}
+					}
+				}
+
 				a.dropdown-toggle{ 
 					-webkit-border-top-left-radius: 5px;
 					border-top-left-radius: 5px;
@@ -104,14 +117,6 @@
 							display: table-cell;
 							vertical-align: middle;
 							&.icon-setaPreenchida_cima{
-								display: none;
-							}
-						}
-						&.opened{
-							.icon-setaPreenchida_cima{
-								display: table-cell;
-							}
-							.icon-setaPreenchida_baixo{
 								display: none;
 							}
 						}

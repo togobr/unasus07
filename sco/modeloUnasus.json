@@ -1,7 +1,7 @@
     {
         "_id": "5379f9c48b714fc104000133",
         "courseName": "TESTE IEA",
-        "scoName": "TESTE IEA",
+        "scoName": "Prevenção e cuidado às doenças prevalente em homens",
         "srcCaptivate":"",
         "scorm":false,
         "teste":"",
@@ -541,6 +541,17 @@
                         "column": "col-xs-12 col-md-6",
                         "label": "BAIXAR O LIVRO",
                         "order":33
+                    },
+
+                    {
+                        "template": "multimedia",
+                        "section":5,
+                        "src": "http://www.terra.com.br/",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": {
+                            "height": "500px"
+                        },
+                        "order":34
                     }
                 ]
             }            

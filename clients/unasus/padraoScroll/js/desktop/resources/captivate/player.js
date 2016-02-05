@@ -33,9 +33,6 @@ define([], function() {
                         sheet.insertRule(".cpMainContainer { background-color: rgb(61, 58, 59) !important;}", 0);
                          sheet.insertRule("#CPUnSupportedBrowserWarning_ID{display: none !important; }", 0);
 
-
-                        
-
                     });
                 }
             });
