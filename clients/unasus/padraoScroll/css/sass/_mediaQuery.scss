@@ -2,6 +2,33 @@
 	//MAIN
 	.wrapperUnasus{
 		.mainNavBar{
+			// .navbar-header{
+			// 	.scoNameBlock{
+			// 		position: absolute;
+			// 		left: 0;
+			// 		display: block;
+			// 		width: -moz-calc(100% - 60px);
+			// 		width: -webkit-calc(100% - 60px);
+			// 		width: calc(100% - 60px);
+			// 		h1{
+			// 			font-size: 1.8em;
+			// 			font-family: $bold;
+			// 			color: $normal;
+			// 			overflow: hidden;
+			// 			text-overflow: ellipsis;
+			// 			white-space: nowrap;
+			// 			margin: 10px 15px 10px 15px;
+			// 		}
+			// 	}
+			// 	.navbarBtnBlock{
+			// 		position: absolute;
+			// 		right: 0;
+			// 		width: 60px;
+			// 		button{
+			// 			float: none;
+			// 		}
+			// 	}
+			// }
 			.navbar-collapse{
 				max-width: initial;
 				height: auto;
@@ -11,13 +38,38 @@
 			}
 			.nav.navbar-nav{
 				float: none;
+				h1{
+					text-align: center;
+					margin: 15px;
+					// display: none;
+				}
 				.dropdown{
 					width: auto;
 					height: auto;
 					.dropdown-toggle{
+						overflow: hidden;
+						text-align: right;
+						height: 40px;
+						margin-bottom: 4px;
 						span.dpText{
-							width: auto;
-							float: none;
+							padding-top: 11px;
+						}
+						span.caret{
+							&:after{
+								top: 17px;
+							}
+						}
+					}
+
+					&.open{
+						background: none;
+						.dropdown-toggle{
+							background: $visited;
+							margin-bottom: 1px;
+						}
+						.dropdown-menu{
+							text-align: right;
+							margin-bottom: 5px;
 						}
 					}
 				}
