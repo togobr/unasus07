@@ -14,6 +14,7 @@
                         "template":"backgroundScroll",
                         "column": "col-xs-12 col-md-12",
                         "style":"",
+                        "capa":"capa",
                         "idSection":"30",
                         "backgroundSRC":"curso/images/modulo4/unidade2/UNA07_m1_un2_rec001.png",
                         "order":30
@@ -313,11 +314,73 @@
 
                     {
                         "template": "texto",
-                        "column": "col-xs-12 col-md-8",
+                        "column": "col-xs-0 col-md-12",
                         "type": "texto",
+                        "style":"height:50px",
                         "section":34,
-                        "content": "<p>JA mortalidade por Infarto agudo do miocárdio (IAM) é mais prevalente em homens com idade acima de 50 anos, representando, 88,8% dos óbitos ocorridos, especialmente nas faixas etárias de 60 a 69 anos (24,9%) e 70 a 79 anos (24,2%).</p><p>Alguns fatores não modificáveis contribuem para a ocorrência do IAM.</p><p>Mas, quais são eles? Clique e confira!</p>",
-                        "order":550
+                        "content": "",
+                        "order":555
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-5",
+                        "type": "texto",
+                        "style":"height:400px",
+                        "section":34,
+                        "content": "<p style='padding-top:110px;'>JA mortalidade por Infarto agudo do miocárdio (IAM) é mais prevalente em homens com idade acima de 50 anos, representando, 88,8% dos óbitos ocorridos, especialmente nas faixas etárias de 60 a 69 anos (24,9%) e 70 a 79 anos (24,2%).</p><p>Alguns fatores não modificáveis contribuem para a ocorrência do IAM.</p><p>Mas, quais são eles? Clique e confira!</p>",
+                        "order":560
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "click",
+                        "section":34,
+                        "column": "col-xs-12 col-md-3",
+                        "contentCapa": "<p style='font-size:3em;'>?</p>",
+                        "content": "<p style='padding-top:40px; font-size:1.5em;'>SEXO MASCULINO</p>",
+                        "contentHeight" : "150px",
+                        "styleObj": {
+                            
+                        },
+                        "order":570
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "click",
+                        "section":34,
+                        "column": "col-xs-12 col-md-3",
+                        "contentCapa": "<p style='font-size:3em;'>?</p>",
+                        "content": "<p style='padding-top:40px; font-size:1.5em;'>RAÇA NEGRA</p>",
+                        "contentHeight" : "150px",
+                        "styleObj": {
+                            
+                        },
+                        "order":580
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "click",
+                        "section":34,
+                        "column": "col-xs-12 col-md-3",
+                        "contentCapa": "<p style='font-size:3em;'>?</p>",
+                        "content": "<p style='padding-top:40px; font-size:1.5em;'>IDADE</p>",
+                        "contentHeight" : "150px",
+                        "styleObj": {
+                            "margin-top":"-39px"
+                        },
+                        "order":590
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "click",
+                        "section":34,
+                        "column": "col-xs-12 col-md-3",
+                        "contentCapa": "<p style='font-size:3em;'>?</p>",
+                        "content": "<p style='padding-top:35px; font-size:1.5em;'>HISTÓRIA FAMILIAR DE DOENÇAS CARDIOVASCULARES</p>",
+                        "contentHeight" : "150px",
+                        "styleObj": {
+                            "margin-top":"-39px"
+                        },
+                        "order":600
                     }
 
 

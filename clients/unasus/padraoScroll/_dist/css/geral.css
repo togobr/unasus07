@@ -3662,25 +3662,33 @@ iframe {
 }
 /* line 3, sass/resources/texto/_style.scss */
 .texto .textoSolto {
+<<<<<<< HEAD
   font-size: 1.5em;
 }
 /* line 6, sass/resources/texto/_style.scss */
+=======
+  margin-bottom: 40px;
+  font-size: 1.6em;
+}
+/* line 7, sass/resources/texto/_style.scss */
+>>>>>>> Pedro_Unasus07
 .texto .textoSolto ul li, .texto .textoSolto ol li {
   margin-top: 7px;
   margin-bottom: 7px;
 }
-/* line 11, sass/resources/texto/_style.scss */
+/* line 13, sass/resources/texto/_style.scss */
 .texto .textoSolto .imgEsq {
   float: left;
   width: 49%;
   margin-right: 30px;
 }
-/* line 17, sass/resources/texto/_style.scss */
+/* line 19, sass/resources/texto/_style.scss */
 .texto .textoSolto .imgDir {
   float: right;
   width: 49%;
   margin-left: 30px;
 }
+<<<<<<< HEAD
 /* line 23, sass/resources/texto/_style.scss */
 .texto .textoSolto .textoCitacao {
   font-family: "Roboto-Black", sans-serif;
@@ -3711,6 +3719,15 @@ iframe {
   line-height: 34px;
 }
 /* line 51, sass/resources/texto/_style.scss */
+=======
+/* line 25, sass/resources/texto/_style.scss */
+.texto .textoSolto .imgDuasColunas {
+  width: 100%;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+/* line 32, sass/resources/texto/_style.scss */
+>>>>>>> Pedro_Unasus07
 .texto .underlineTitle {
   position: absolute;
   width: 100%;
@@ -3718,12 +3735,20 @@ iframe {
   bottom: 0px;
   background: #dab463;
 }
+<<<<<<< HEAD
 /* line 59, sass/resources/texto/_style.scss */
+=======
+/* line 40, sass/resources/texto/_style.scss */
+>>>>>>> Pedro_Unasus07
 .texto.normal .textoSolto {
   font-size: 1.5em;
   font-family: "Roboto-Regular", sans-serif;
 }
+<<<<<<< HEAD
 /* line 64, sass/resources/texto/_style.scss */
+=======
+/* line 45, sass/resources/texto/_style.scss */
+>>>>>>> Pedro_Unasus07
 .texto.title .textoSolto {
   font-size: 2.6em;
   line-height: 30px;
@@ -3731,12 +3756,20 @@ iframe {
   color: #30317f;
   text-transform: uppercase;
 }
+<<<<<<< HEAD
 /* line 73, sass/resources/texto/_style.scss */
+=======
+/* line 53, sass/resources/texto/_style.scss */
+>>>>>>> Pedro_Unasus07
 .texto.subtitle .wrapper {
   display: table;
   margin: initial;
 }
+<<<<<<< HEAD
 /* line 77, sass/resources/texto/_style.scss */
+=======
+/* line 56, sass/resources/texto/_style.scss */
+>>>>>>> Pedro_Unasus07
 .texto.subtitle .textoSolto {
   font-size: 3em;
   line-height: 30px;
@@ -3745,7 +3778,11 @@ iframe {
   display: table-cell;
   font-variant: small-caps;
 }
+<<<<<<< HEAD
 /* line 85, sass/resources/texto/_style.scss */
+=======
+/* line 64, sass/resources/texto/_style.scss */
+>>>>>>> Pedro_Unasus07
 .texto.subtitle .underlineTitle {
   display: table-cell;
   bottom: 6px;
