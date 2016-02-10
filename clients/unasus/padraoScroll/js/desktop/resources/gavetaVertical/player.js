@@ -22,10 +22,29 @@ define(["jqueryUiTabs"], function() {
 			Player.Elements.$content.on({
 				contentReady: function() {	
 					var $gaveta = resource.$el.find("#tabsVert"),
-						scorm = Player.Scorm.getScormValue('cmi.suspend_data').gavetaVertical || {};
+						firstTabVisited = resource.$el.find('ul li:first-child'),
+						resource_id = resource.data.id,
+						suspend_data = Player.Scorm.getScormValue('cmi.suspend_data').gavetaVertical,
+						resource_scorm = {},
+						new_suspend_data,
+						tab = {};
 
-					$gaveta.tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
-					$gaveta.find("li").removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+
+						$gaveta.tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+						$gaveta.find("li").removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+
+						tab[0] = {
+							visited: true
+						};
+
+						resource_scorm[resource_id] = {
+							tabs: tab
+						};
+
+						new_suspend_data = $.extend(true, {}, suspend_data, resource_scorm);
+
+						Player.Scorm.setScormValue('cmi.suspend_data', 'gavetaVertical', new_suspend_data);
+						firstTabVisited.addClass('visited');
 				}
 			});
 

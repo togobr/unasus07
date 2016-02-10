@@ -18,12 +18,31 @@ define(["jqueryUiAccordion"], function() {
 
 			Player.Elements.$content.on({
 				contentReady: function() {	
-					var $accordion = resource.$el.find("#accordion");
+					var $accordion = resource.$el.find("#accordion"),
+						firstTabVisited = resource.$el.find('#accordion h3:first-child'),
+						resource_id = resource.data.id,
+						suspend_data = Player.Scorm.getScormValue('cmi.suspend_data').sanfona,
+						resource_scorm = {},
+						new_suspend_data,
+						tab = {};
 
 					$accordion.accordion({
 						collapsible: true,
 						heightStyle: "content"
 					});
+
+					tab[0] = {
+						visited: true
+					};
+
+					resource_scorm[resource_id] = {
+						tabs: tab
+					};
+
+					new_suspend_data = $.extend(true, {}, suspend_data, resource_scorm);
+
+					Player.Scorm.setScormValue('cmi.suspend_data', 'sanfona', new_suspend_data);
+					firstTabVisited.addClass('visited');
 				}
 			});			
 		};
@@ -57,9 +76,14 @@ define(["jqueryUiAccordion"], function() {
 								tabs: tab
 							};
 
+							if (i == -1) return; //evita o salvamento de uma sanfona(aba) inexistente.
+
 							new_suspend_data = $.extend(true, {}, suspend_data, resource_scorm);
 
 							Player.Scorm.setScormValue('cmi.suspend_data', 'sanfona', new_suspend_data);
+
+							console.log('foo tabs_lis.eq(i)', tabs_lis.eq(i));
+
 							tabs_lis.eq(i).addClass('visited');
 					});
 		}

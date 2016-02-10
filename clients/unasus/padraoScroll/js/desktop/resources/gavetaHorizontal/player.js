@@ -19,9 +19,28 @@ define(["jqueryUiTabs"], function() {
 				
 			Player.Elements.$content.on({
 				contentReady: function() {	
-					var $gaveta = resource.$el.find("#tabsHor");
-						$gaveta.tabs(),
-						scorm = Player.Scorm.getScormValue('cmi.suspend_data').gavetaHorizontal || {};
+					var $gaveta = resource.$el.find("#tabsHor"),
+						firstTabVisited = resource.$el.find('ul li:first-child'),
+						resource_id = resource.data.id,
+						suspend_data = Player.Scorm.getScormValue('cmi.suspend_data').gavetaHorizontal,
+						resource_scorm = {},
+						new_suspend_data,
+						tab = {};
+
+						$gaveta.tabs();
+
+						tab[0] = {
+							visited: true
+						};
+
+						resource_scorm[resource_id] = {
+							tabs: tab
+						};
+
+						new_suspend_data = $.extend(true, {}, suspend_data, resource_scorm);
+
+						Player.Scorm.setScormValue('cmi.suspend_data', 'gavetaHorizontal', new_suspend_data);
+						firstTabVisited.addClass('visited');
 				}
 			});
 		};
