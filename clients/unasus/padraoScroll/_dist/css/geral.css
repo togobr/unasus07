@@ -22,57 +22,57 @@
 }
 
 /* line 27, sass/_icons.scss */
-.icon-avancar-01:before {
+.icon-avancar:before {
   content: "\e900";
 }
 
 /* line 30, sass/_icons.scss */
-.icon-download-11:before {
+.icon-download:before {
   content: "\e901";
 }
 
 /* line 33, sass/_icons.scss */
-.icon-exclamacao-10:before {
+.icon-exclamacao:before {
   content: "\e902";
 }
 
 /* line 36, sass/_icons.scss */
-.icon-fechar-09:before {
+.icon-fechar:before {
   content: "\e903";
 }
 
 /* line 39, sass/_icons.scss */
-.icon-proxSes-02:before {
+.icon-proxSes:before {
   content: "\e904";
 }
 
 /* line 42, sass/_icons.scss */
-.icon-seta_direita-08:before {
+.icon-seta_direita:before {
   content: "\e905";
 }
 
 /* line 45, sass/_icons.scss */
-.icon-seta_esq-07:before {
+.icon-seta_esq:before {
   content: "\e906";
 }
 
 /* line 48, sass/_icons.scss */
-.icon-setaPreenchida_baixo-06:before {
+.icon-setaPreenchida_baixo:before {
   content: "\e907";
 }
 
 /* line 51, sass/_icons.scss */
-.icon-setaPreenchida_cima-05:before {
+.icon-setaPreenchida_cima:before {
   content: "\e908";
 }
 
 /* line 54, sass/_icons.scss */
-.icon-setaPreenchida_direita-04:before {
+.icon-setaPreenchida_direita:before {
   content: "\e909";
 }
 
 /* line 57, sass/_icons.scss */
-.icon-voltar-03:before {
+.icon-voltar:before {
   content: "\e90a";
 }
 
@@ -2402,8 +2402,12 @@ ol li:before {
   left: 16px;
   font-size: 1.2em;
 }
+/* line 10, sass/resources/sanfona/_style.scss */
+.iconSanf.icon-setaPreenchida_baixo {
+  display: none;
+}
 
-/* line 12, sass/resources/sanfona/_style.scss */
+/* line 16, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2423,7 +2427,7 @@ ol li:before {
   outline: none;
   font-size: inherit;
 }
-/* line 28, sass/resources/sanfona/_style.scss */
+/* line 32, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header .tituloSanfona {
   position: relative;
   left: 20px;
@@ -2434,7 +2438,7 @@ ol li:before {
   padding-right: 30px;
   padding-left: 17px;
 }
-/* line 38, sass/resources/sanfona/_style.scss */
+/* line 42, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header .icon-acc {
   position: relative;
   left: 8px;
@@ -2445,16 +2449,40 @@ ol li:before {
   padding-left: 8px;
   width: 20px;
 }
-/* line 50, sass/resources/sanfona/_style.scss */
+/* line 54, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header.ui-accordion-header-active {
   background: #dab463;
   border-radius: 5px 5px 0 0;
 }
-/* line 53, sass/resources/sanfona/_style.scss */
+/* line 58, sass/resources/sanfona/_style.scss */
+.ui-accordion .ui-accordion-header.ui-accordion-header-active .iconSanf.icon-setaPreenchida_direita {
+  display: none;
+}
+/* line 61, sass/resources/sanfona/_style.scss */
+.ui-accordion .ui-accordion-header.ui-accordion-header-active .iconSanf.icon-setaPreenchida_baixo {
+  display: block;
+}
+/* line 65, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-header.ui-accordion-header-active span {
   color: #2f3275;
 }
-/* line 58, sass/resources/sanfona/_style.scss */
+/* line 69, sass/resources/sanfona/_style.scss */
+.ui-accordion .ui-accordion-header.ui-accordion-header-active.visited {
+  background: #dab463;
+}
+/* line 71, sass/resources/sanfona/_style.scss */
+.ui-accordion .ui-accordion-header.ui-accordion-header-active.visited span {
+  color: #2f3275;
+}
+/* line 77, sass/resources/sanfona/_style.scss */
+.ui-accordion .ui-accordion-header.visited {
+  background: #f4dfc1;
+}
+/* line 79, sass/resources/sanfona/_style.scss */
+.ui-accordion .ui-accordion-header.visited span {
+  color: #2f3275;
+}
+/* line 85, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content {
   -webkit-border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -2471,12 +2499,12 @@ ol li:before {
   overflow: hidden;
   margin-top: -5px;
 }
-/* line 71, sass/resources/sanfona/_style.scss */
+/* line 98, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom {
   margin-bottom: 7px;
   overflow: hidden;
 }
-/* line 74, sass/resources/sanfona/_style.scss */
+/* line 101, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom p {
   font-family: "Roboto-Regular", sans-serif;
   font-size: 1.4em !important;
@@ -2618,57 +2646,57 @@ ol li:before {
 }
 
 /* line 27, sass/_icons.scss */
-.icon-avancar-01:before {
+.icon-avancar:before {
   content: "\e900";
 }
 
 /* line 30, sass/_icons.scss */
-.icon-download-11:before {
+.icon-download:before {
   content: "\e901";
 }
 
 /* line 33, sass/_icons.scss */
-.icon-exclamacao-10:before {
+.icon-exclamacao:before {
   content: "\e902";
 }
 
 /* line 36, sass/_icons.scss */
-.icon-fechar-09:before {
+.icon-fechar:before {
   content: "\e903";
 }
 
 /* line 39, sass/_icons.scss */
-.icon-proxSes-02:before {
+.icon-proxSes:before {
   content: "\e904";
 }
 
 /* line 42, sass/_icons.scss */
-.icon-seta_direita-08:before {
+.icon-seta_direita:before {
   content: "\e905";
 }
 
 /* line 45, sass/_icons.scss */
-.icon-seta_esq-07:before {
+.icon-seta_esq:before {
   content: "\e906";
 }
 
 /* line 48, sass/_icons.scss */
-.icon-setaPreenchida_baixo-06:before {
+.icon-setaPreenchida_baixo:before {
   content: "\e907";
 }
 
 /* line 51, sass/_icons.scss */
-.icon-setaPreenchida_cima-05:before {
+.icon-setaPreenchida_cima:before {
   content: "\e908";
 }
 
 /* line 54, sass/_icons.scss */
-.icon-setaPreenchida_direita-04:before {
+.icon-setaPreenchida_direita:before {
   content: "\e909";
 }
 
 /* line 57, sass/_icons.scss */
-.icon-voltar-03:before {
+.icon-voltar:before {
   content: "\e90a";
 }
 
@@ -2822,7 +2850,7 @@ ol li:before {
 #tabsHor ul.ui-tabs-nav li a span {
   display: table-cell;
   vertical-align: middle;
-  font-family: "Roboto-Regular", sans-serif;
+  font-family: "Roboto-Bold", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
@@ -2843,7 +2871,27 @@ ol li:before {
   bottom: -10px;
   left: 44.5%;
 }
+/* line 56, sass/resources/gavetaHorizontal/_style.scss */
+#tabsHor ul.ui-tabs-nav .ui-tabs-active span {
+  color: #2f3275 !important;
+}
 /* line 59, sass/resources/gavetaHorizontal/_style.scss */
+#tabsHor ul.ui-tabs-nav .ui-tabs-active.visited {
+  background: #dab463;
+}
+/* line 61, sass/resources/gavetaHorizontal/_style.scss */
+#tabsHor ul.ui-tabs-nav .ui-tabs-active.visited:after {
+  border-color: #dab463 transparent;
+}
+/* line 67, sass/resources/gavetaHorizontal/_style.scss */
+#tabsHor ul.ui-tabs-nav .visited {
+  background: #f4dfc1;
+}
+/* line 69, sass/resources/gavetaHorizontal/_style.scss */
+#tabsHor ul.ui-tabs-nav .visited span {
+  color: #2f3275 !important;
+}
+/* line 75, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor .ui-tabs-panel {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2856,7 +2904,7 @@ ol li:before {
   font-size: 14px;
   width: 99.9%;
 }
-/* line 69, sass/resources/gavetaHorizontal/_style.scss */
+/* line 85, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor .ui-tabs-panel img {
   display: inline-block;
   width: 100%;
@@ -2950,11 +2998,11 @@ ol li:before {
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 83, sass/resources/gavetaVertical/_style.scss */
+/* line 84, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active {
   background: #dab463;
 }
-/* line 85, sass/resources/gavetaVertical/_style.scss */
+/* line 86, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active:after {
   content: '';
   position: absolute;
@@ -2967,8 +3015,28 @@ ol li:before {
   right: -14px;
   top: 16px;
 }
-/* line 97, sass/resources/gavetaVertical/_style.scss */
+/* line 98, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active span {
+  color: #2f3275 !important;
+}
+/* line 101, sass/resources/gavetaVertical/_style.scss */
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active.visited {
+  background: #dab463;
+}
+/* line 103, sass/resources/gavetaVertical/_style.scss */
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active.visited:after {
+  border-color: transparent #dab463;
+}
+/* line 106, sass/resources/gavetaVertical/_style.scss */
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active.visited span {
+  color: #2f3275 !important;
+}
+/* line 112, sass/resources/gavetaVertical/_style.scss */
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav .visited {
+  background: #f4dfc1;
+}
+/* line 114, sass/resources/gavetaVertical/_style.scss */
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav .visited span {
   color: #2f3275 !important;
 }
 
@@ -3004,57 +3072,57 @@ ol li:before {
 }
 
 /* line 27, sass/_icons.scss */
-.icon-avancar-01:before {
+.icon-avancar:before {
   content: "\e900";
 }
 
 /* line 30, sass/_icons.scss */
-.icon-download-11:before {
+.icon-download:before {
   content: "\e901";
 }
 
 /* line 33, sass/_icons.scss */
-.icon-exclamacao-10:before {
+.icon-exclamacao:before {
   content: "\e902";
 }
 
 /* line 36, sass/_icons.scss */
-.icon-fechar-09:before {
+.icon-fechar:before {
   content: "\e903";
 }
 
 /* line 39, sass/_icons.scss */
-.icon-proxSes-02:before {
+.icon-proxSes:before {
   content: "\e904";
 }
 
 /* line 42, sass/_icons.scss */
-.icon-seta_direita-08:before {
+.icon-seta_direita:before {
   content: "\e905";
 }
 
 /* line 45, sass/_icons.scss */
-.icon-seta_esq-07:before {
+.icon-seta_esq:before {
   content: "\e906";
 }
 
 /* line 48, sass/_icons.scss */
-.icon-setaPreenchida_baixo-06:before {
+.icon-setaPreenchida_baixo:before {
   content: "\e907";
 }
 
 /* line 51, sass/_icons.scss */
-.icon-setaPreenchida_cima-05:before {
+.icon-setaPreenchida_cima:before {
   content: "\e908";
 }
 
 /* line 54, sass/_icons.scss */
-.icon-setaPreenchida_direita-04:before {
+.icon-setaPreenchida_direita:before {
   content: "\e909";
 }
 
 /* line 57, sass/_icons.scss */
-.icon-voltar-03:before {
+.icon-voltar:before {
   content: "\e90a";
 }
 
@@ -3151,57 +3219,57 @@ ol li:before {
 }
 
 /* line 27, sass/_icons.scss */
-.icon-avancar-01:before {
+.icon-avancar:before {
   content: "\e900";
 }
 
 /* line 30, sass/_icons.scss */
-.icon-download-11:before {
+.icon-download:before {
   content: "\e901";
 }
 
 /* line 33, sass/_icons.scss */
-.icon-exclamacao-10:before {
+.icon-exclamacao:before {
   content: "\e902";
 }
 
 /* line 36, sass/_icons.scss */
-.icon-fechar-09:before {
+.icon-fechar:before {
   content: "\e903";
 }
 
 /* line 39, sass/_icons.scss */
-.icon-proxSes-02:before {
+.icon-proxSes:before {
   content: "\e904";
 }
 
 /* line 42, sass/_icons.scss */
-.icon-seta_direita-08:before {
+.icon-seta_direita:before {
   content: "\e905";
 }
 
 /* line 45, sass/_icons.scss */
-.icon-seta_esq-07:before {
+.icon-seta_esq:before {
   content: "\e906";
 }
 
 /* line 48, sass/_icons.scss */
-.icon-setaPreenchida_baixo-06:before {
+.icon-setaPreenchida_baixo:before {
   content: "\e907";
 }
 
 /* line 51, sass/_icons.scss */
-.icon-setaPreenchida_cima-05:before {
+.icon-setaPreenchida_cima:before {
   content: "\e908";
 }
 
 /* line 54, sass/_icons.scss */
-.icon-setaPreenchida_direita-04:before {
+.icon-setaPreenchida_direita:before {
   content: "\e909";
 }
 
 /* line 57, sass/_icons.scss */
-.icon-voltar-03:before {
+.icon-voltar:before {
   content: "\e90a";
 }
 
@@ -3540,57 +3608,57 @@ ol li:before {
 }
 
 /* line 27, sass/_icons.scss */
-.icon-avancar-01:before {
+.icon-avancar:before {
   content: "\e900";
 }
 
 /* line 30, sass/_icons.scss */
-.icon-download-11:before {
+.icon-download:before {
   content: "\e901";
 }
 
 /* line 33, sass/_icons.scss */
-.icon-exclamacao-10:before {
+.icon-exclamacao:before {
   content: "\e902";
 }
 
 /* line 36, sass/_icons.scss */
-.icon-fechar-09:before {
+.icon-fechar:before {
   content: "\e903";
 }
 
 /* line 39, sass/_icons.scss */
-.icon-proxSes-02:before {
+.icon-proxSes:before {
   content: "\e904";
 }
 
 /* line 42, sass/_icons.scss */
-.icon-seta_direita-08:before {
+.icon-seta_direita:before {
   content: "\e905";
 }
 
 /* line 45, sass/_icons.scss */
-.icon-seta_esq-07:before {
+.icon-seta_esq:before {
   content: "\e906";
 }
 
 /* line 48, sass/_icons.scss */
-.icon-setaPreenchida_baixo-06:before {
+.icon-setaPreenchida_baixo:before {
   content: "\e907";
 }
 
 /* line 51, sass/_icons.scss */
-.icon-setaPreenchida_cima-05:before {
+.icon-setaPreenchida_cima:before {
   content: "\e908";
 }
 
 /* line 54, sass/_icons.scss */
-.icon-setaPreenchida_direita-04:before {
+.icon-setaPreenchida_direita:before {
   content: "\e909";
 }
 
 /* line 57, sass/_icons.scss */
-.icon-voltar-03:before {
+.icon-voltar:before {
   content: "\e90a";
 }
 
@@ -3911,6 +3979,13 @@ ol li:before {
   margin-left: 5px;
 }
 
+/* line 95, sass/resources/texto/_style.scss */
+.texto.quadro {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
 /* line 2, sass/resources/revelar/_style.scss */
 .content .revelar {
   position: relative;
@@ -4227,7 +4302,6 @@ ol li:before {
 }
 /* line 138, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .avancarNav span {
-  font-family: "Roboto-Black", sans-serif;
   line-height: normal;
   display: inline-block;
   vertical-align: middle;
@@ -4237,13 +4311,17 @@ ol li:before {
   color: #000;
 }
 /* line 154, sass/resources/backgroundScroll/_style.scss */
+.botoesNav .avancarNav span b {
+  font-family: "Roboto-Regular", sans-serif;
+}
+/* line 158, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .avancarNav span:before {
   position: absolute;
   right: 7px;
   font-size: 2.5em;
   top: 7px;
 }
-/* line 162, sass/resources/backgroundScroll/_style.scss */
+/* line 166, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .voltarNav {
   line-height: 60px;
   position: absolute;
@@ -4256,9 +4334,8 @@ ol li:before {
   border-radius: 5px;
   background-color: #f4dfc1;
 }
-/* line 178, sass/resources/backgroundScroll/_style.scss */
+/* line 182, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .voltarNav span {
-  font-family: "Roboto-Black", sans-serif;
   line-height: normal;
   display: inline-block;
   vertical-align: middle;
@@ -4266,7 +4343,11 @@ ol li:before {
   margin-left: 45px;
   color: #7C7C7C;
 }
-/* line 191, sass/resources/backgroundScroll/_style.scss */
+/* line 194, sass/resources/backgroundScroll/_style.scss */
+.botoesNav .voltarNav span b {
+  font-family: "Roboto-Regular", sans-serif;
+}
+/* line 199, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .voltarNav span:before {
   position: absolute;
   left: 7px;

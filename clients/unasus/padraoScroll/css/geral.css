@@ -3979,6 +3979,13 @@ ol li:before {
   margin-left: 5px;
 }
 
+/* line 95, sass/resources/texto/_style.scss */
+.texto.quadro {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
 /* line 2, sass/resources/revelar/_style.scss */
 .content .revelar {
   position: relative;
@@ -4476,124 +4483,150 @@ ol li:before {
 }
 
 @media (max-width: 1021px) {
-  /* line 32, sass/_mediaQuery.scss */
+  /* line 35, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .navbar-collapse {
     max-width: initial;
     height: auto;
   }
-  /* line 35, sass/_mediaQuery.scss */
+  /* line 39, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .navbar-collapse img {
     display: none;
   }
-  /* line 39, sass/_mediaQuery.scss */
+  /* line 43, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .navbar-collapse.in {
     overflow-y: initial;
   }
-  /* line 43, sass/_mediaQuery.scss */
+  /* line 48, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .nav.navbar-nav {
     float: none;
   }
-  /* line 45, sass/_mediaQuery.scss */
+  /* line 51, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .nav.navbar-nav h1 {
-    text-align: center;
     margin: 15px;
+    text-align: center;
   }
-  /* line 50, sass/_mediaQuery.scss */
+  /* line 58, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown {
     width: auto;
     height: auto;
   }
-  /* line 54, sass/_mediaQuery.scss */
+  /* line 63, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle {
-    text-align: right;
     height: 40px;
     margin-bottom: 4px;
+    text-align: right;
   }
-  /* line 60, sass/_mediaQuery.scss */
+  /* line 71, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle span.dpText {
     padding-top: 11px;
   }
-  /* line 64, sass/_mediaQuery.scss */
+  /* line 77, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle span.caret:after {
     top: 17px;
   }
-  /* line 70, sass/_mediaQuery.scss */
+  /* line 83, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open {
     background: none;
   }
-  /* line 72, sass/_mediaQuery.scss */
+  /* line 86, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-toggle {
-    background: #f4dfc1;
     margin-bottom: 1px;
+    background: #f4dfc1;
   }
-  /* line 76, sass/_mediaQuery.scss */
+  /* line 92, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu {
-    text-align: right;
     margin-bottom: 5px;
+    text-align: right;
   }
 
-  /* line 87, sass/_mediaQuery.scss */
+  /* line 105, sass/_mediaQuery.scss */
   .sliderResponsivo {
     height: auto !important;
   }
-  /* line 90, sass/_mediaQuery.scss */
+  /* line 110, sass/_mediaQuery.scss */
   .sliderResponsivo .rslides .contentSlider {
     padding: 15px 55px 15px 55px !important;
   }
-  /* line 94, sass/_mediaQuery.scss */
+  /* line 115, sass/_mediaQuery.scss */
   .sliderResponsivo .slider_nav {
     height: auto !important;
   }
 
-  /* line 99, sass/_mediaQuery.scss */
+  /* line 121, sass/_mediaQuery.scss */
   .col-xs-0 {
     display: none !important;
   }
 
-  /* line 106, sass/_mediaQuery.scss */
+  /* line 128, sass/_mediaQuery.scss */
   .backgroundScroll .imgBG {
     opacity: .2;
   }
 
-  /* line 114, sass/_mediaQuery.scss */
+  /* line 136, sass/_mediaQuery.scss */
   .capa .contCapa {
     padding-left: 0;
   }
-  /* line 118, sass/_mediaQuery.scss */
+  /* line 140, sass/_mediaQuery.scss */
   .capa .nCapa {
-    margin-top: 80px;
     font-size: 1.5em;
+    margin-top: 80px;
   }
-  /* line 124, sass/_mediaQuery.scss */
+  /* line 146, sass/_mediaQuery.scss */
   .capa .tituloCapa {
     font-size: 3em;
     font-weight: bold;
   }
-  /* line 130, sass/_mediaQuery.scss */
+  /* line 151, sass/_mediaQuery.scss */
   .capa .descCapa {
     margin: 0;
     margin-bottom: 130px;
   }
 
-  /* line 139, sass/_mediaQuery.scss */
+  /* line 159, sass/_mediaQuery.scss */
   .contraCapa {
     padding-bottom: 200px;
   }
 
-  /* line 143, sass/_mediaQuery.scss */
-  .contLeft, .textoFinal {
+  /* line 164, sass/_mediaQuery.scss */
+  .contLeft,
+  .textoFinal {
     margin: 25px;
   }
 
-  /* line 147, sass/_mediaQuery.scss */
+  /* line 170, sass/_mediaQuery.scss */
   .textoDownload {
     margin-bottom: 15px;
   }
 
-  /* line 151, sass/_mediaQuery.scss */
+  /* line 175, sass/_mediaQuery.scss */
   .contRight {
-    padding-left: 15px;
     padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  /* line 184, sass/_mediaQuery.scss */
+  .botoesNav .voltarNav {
+    width: 65px !important;
+  }
+  /* line 190, sass/_mediaQuery.scss */
+  .botoesNav .voltarNav span:before {
+    left: 10px;
+  }
+  /* line 193, sass/_mediaQuery.scss */
+  .botoesNav .voltarNav span b {
+    display: none;
+  }
+  /* line 199, sass/_mediaQuery.scss */
+  .botoesNav .avancarNav {
+    width: 65px !important;
+  }
+  /* line 205, sass/_mediaQuery.scss */
+  .botoesNav .avancarNav span:before {
+    right: 10px;
+  }
+  /* line 208, sass/_mediaQuery.scss */
+  .botoesNav .avancarNav span b {
+    display: none;
   }
 }
 /* line 3, sass/_animate.scss */

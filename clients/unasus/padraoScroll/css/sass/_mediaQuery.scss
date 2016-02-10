@@ -1,102 +1,124 @@
-  @media (max-width: 1021px) {
-	//MAIN
-	.wrapperUnasus{
-		.mainNavBar{
-			// .navbar-header{
-			// 	.scoNameBlock{
-			// 		position: absolute;
-			// 		left: 0;
-			// 		display: block;
-			// 		width: -moz-calc(100% - 60px);
-			// 		width: -webkit-calc(100% - 60px);
-			// 		width: calc(100% - 60px);
-			// 		h1{
-			// 			font-size: 1.8em;
-			// 			font-family: $bold;
-			// 			color: $normal;
-			// 			overflow: hidden;
-			// 			text-overflow: ellipsis;
-			// 			white-space: nowrap;
-			// 			margin: 10px 15px 10px 15px;
-			// 		}
-			// 	}
-			// 	.navbarBtnBlock{
-			// 		position: absolute;
-			// 		right: 0;
-			// 		width: 60px;
-			// 		button{
-			// 			float: none;
-			// 		}
-			// 	}
-			// }
-			.navbar-collapse{
-				max-width: initial;
-				height: auto;
-				img{
-					display: none;
-				}
+  @media (max-width: 1021px)
+{
+    //MAIN
+    .wrapperUnasus
+    {
+        .mainNavBar
+        {
+            // .navbar-header{
+            // 	.scoNameBlock{
+            // 		position: absolute;
+            // 		left: 0;
+            // 		display: block;
+            // 		width: -moz-calc(100% - 60px);
+            // 		width: -webkit-calc(100% - 60px);
+            // 		width: calc(100% - 60px);
+            // 		h1{
+            // 			font-size: 1.8em;
+            // 			font-family: $bold;
+            // 			color: $normal;
+            // 			overflow: hidden;
+            // 			text-overflow: ellipsis;
+            // 			white-space: nowrap;
+            // 			margin: 10px 15px 10px 15px;
+            // 		}
+            // 	}
+            // 	.navbarBtnBlock{
+            // 		position: absolute;
+            // 		right: 0;
+            // 		width: 60px;
+            // 		button{
+            // 			float: none;
+            // 		}
+            // 	}
+            // }
+            .navbar-collapse
+            {
+                max-width: initial;
+                height: auto;
+                img
+                {
+                    display: none;
+                }
+                &.in
+                {
+                    overflow-y: initial;
+                }
+            }
+            .nav.navbar-nav
+            {
+                float: none;
+                h1
+                {
+                    margin: 15px;
 
-				&.in{
-					  overflow-y: initial;
-				}
-			}
-			.nav.navbar-nav{
-				float: none;
-				h1{
-					text-align: center;
-					margin: 15px;
-					// display: none;
-				}
-				.dropdown{
-					width: auto;
-					height: auto;
-					// position: static;
-					.dropdown-toggle{
-						// position: inherit;
-						// overflow: hidden;
-						text-align: right;
-						height: 40px;
-						margin-bottom: 4px;
-						span.dpText{
-							padding-top: 11px;
-						}
-						span.caret{
-							&:after{
-								top: 17px;
-							}
-						}
-					}
+                    text-align: center;
+                    // display: none;
+                }
+                .dropdown
+                {
+                    width: auto;
+                    height: auto;
+                    // position: static;
+                    .dropdown-toggle
+                    {
+                        height: 40px;
+                        margin-bottom: 4px;
+                        // position: inherit;
+                        // overflow: hidden;
 
-					&.open{
-						background: none;
-						.dropdown-toggle{
-							background: $visited;
-							margin-bottom: 1px;
-						}
-						.dropdown-menu{
-							text-align: right;
-							margin-bottom: 5px;
-						}
-					}
-				}
-			}
-		}
-	}
-	
-	//RECURSO - sliderResponsivo
-	.sliderResponsivo{
-		height: auto !important;
-		.rslides{
-			.contentSlider{
-				padding: 15px 55px 15px 55px !important;
-			}
-		}
-		.slider_nav{
-			height: auto !important;
-		}
-	}
+                        text-align: right;
+                        span.dpText
+                        {
+                            padding-top: 11px;
+                        }
+                        span.caret
+                        {
+                            &:after
+                            {
+                                top: 17px;
+                            }
+                        }
+                    }
+                    &.open
+                    {
+                        background: none;
+                        .dropdown-toggle
+                        {
+                            margin-bottom: 1px;
 
-	.col-xs-0
+                            background: $visited;
+                        }
+                        .dropdown-menu
+                        {
+                            margin-bottom: 5px;
+
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //RECURSO - sliderResponsivo
+    .sliderResponsivo
+    {
+        height: auto !important;
+        .rslides
+        {
+            .contentSlider
+            {
+                padding: 15px 55px 15px 55px !important;
+            }
+        }
+        .slider_nav
+        {
+            height: auto !important;
+        }
+    }
+
+    .col-xs-0
     {
         display: none !important;
     }
@@ -113,45 +135,81 @@
     {
         .contCapa
         {
-            padding-left: 0
+            padding-left: 0;
         }
         .nCapa
         {
-        	margin-top: 80px;
-        	font-size: 1.5em;
-            
+            font-size: 1.5em;
+
+            margin-top: 80px;
         }
         .tituloCapa
         {
-        	font-size: 3em;
-        	font-weight: bold;
-            
+            font-size: 3em;
+            font-weight: bold;
         }
         .descCapa
         {
-
-        	margin:0;
-        	  margin-bottom: 130px;
+            margin: 0;
+            margin-bottom: 130px;
         }
     }
 
 
-    .contraCapa{
-    	padding-bottom: 200px;
+    .contraCapa
+    {
+        padding-bottom: 200px;
     }
 
-    .contLeft, .textoFinal{
-    	margin:25px;
+    .contLeft,
+    .textoFinal
+    {
+        margin: 25px;
     }
 
-    .textoDownload{
-    	margin-bottom: 15px;
+    .textoDownload
+    {
+        margin-bottom: 15px;
     }
 
-    .contRight{
-    	padding-left:15px;
-    	padding-right:15px;
+    .contRight
+    {
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
 
- }
+    .botoesNav
+    {
+        .voltarNav
+        {
+            width: 65px !important;
+            span
+            {
+
+            	&:before{
+            		left: 10px;
+            	}
+                b
+                {
+                    display: none;
+                }
+            }
+        }
+        .avancarNav
+        {
+            width: 65px !important;
+            span
+            {
+
+            	&:before{
+            		right: 10px;
+            	}
+                b
+                {
+                    display: none;
+                }
+            }
+        }
+    }
+}
