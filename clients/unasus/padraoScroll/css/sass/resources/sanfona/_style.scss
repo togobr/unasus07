@@ -3,11 +3,15 @@
 }
 
 .iconSanf{
-	  position: absolute;
-  top: 15px;
-  left: 16px;
-  font-size: 1.2em;
+	position: absolute;
+	top: 15px;
+	left: 16px;
+	font-size: 1.2em;
+	&.icon-setaPreenchida_baixo{
+		display: none;
+	}
 }
+
 .ui-accordion{
 	.ui-accordion-header {
 		@include border-radius(5px);
@@ -49,11 +53,34 @@
 
 	.ui-accordion-header.ui-accordion-header-active {
 		background: $selected;
-		  border-radius: 5px 5px 0 0;
+		border-radius: 5px 5px 0 0;
+		.iconSanf{
+			&.icon-setaPreenchida_direita{
+				display: none;
+			}
+			&.icon-setaPreenchida_baixo{
+				display: block;
+			}
+		}
+		span{
+			color: $normal;
+		}
+
+		&.visited{
+			background: $selected;
+			span{
+				color: $normal;
+			}
+		}
+	}
+
+	.ui-accordion-header.visited{
+		background: $visited;
 		span{
 			color: $normal;
 		}
 	}
+
 
 	.ui-accordion-content {
 		@include border-bottom-radius(5px);

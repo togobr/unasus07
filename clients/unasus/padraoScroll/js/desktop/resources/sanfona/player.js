@@ -12,55 +12,56 @@ define(["jqueryUiAccordion"], function() {
 		
 			$.extend(true, this, new Player.Helpers.resourceExtend(this, arguments));
 
-			var resource = this.el,
-				$accordion = $(resource).find("#accordion"),
-				$btSanfona = $accordion.children("h3");
+			var resource = this;
 
-				console.log("$btSanfona", $btSanfona);
+			resource.renderSanfona();
 
-			$accordion.accordion({
-				collapsible: true,
-				heightStyle: "content"
-			});
+			Player.Elements.$content.on({
+				contentReady: function() {	
+					var $accordion = resource.$el.find("#accordion");
 
-			
-			$btSanfona.each(function(){
-				
-				if($(this).hasClass("ui-accordion-header-active")){
-					
-					$(this).addClass("sanfonaAtiva");
-
-					$(this).children(".iconSanf").removeClass("icon-setaPreenchida_direita");
-						$(this).children(".iconSanf").addClass("icon-setaPreenchida_baixo");
-					
-				}else{
-					
-					$(this).children(".iconSanf").addClass("icon-setaPreenchida_direita");
-						$(this).children(".iconSanf").removeClass("icon-setaPreenchida_baixo");
-					$(this).next().find("li").addClass("hiddenAnimate");
+					$accordion.accordion({
+						collapsible: true,
+						heightStyle: "content"
+					});
 				}
-			})
+			});			
+		};
 
-			$btSanfona.on({
-				click:function(e){
-			
-					$btSanfona.removeClass("sanfonaAtiva");
+		this.renderSanfona= function() {
+			var me = this,
+				sanfonaEl = me.$el,
+				tabs_lis = me.$el.find('h3'),
+				resource_id = me.data.id,
+				// scorm = Player.Scorm.getScormValue('cmi.suspend_data').sanfona || {},
+				// resource_scorm = scorm[resource_id] || {},
+				new_suspend_data;
 
-					$btSanfona.children(".iconSanf").addClass("icon-setaPreenchida_direita");
-					$btSanfona.children(".iconSanf").removeClass("icon-setaPreenchida_baixo");
+				sanfonaEl
+					.off('accordionactivate.setVisited')
+					.on('accordionactivate.setVisited', function(event, ui) {
+						var i = tabs_lis.index(ui.newHeader),
+							suspend_data = Player.Scorm.getScormValue('cmi.suspend_data').sanfona,
+							resource_scorm = {},
+							new_suspend_data,
+							tab = {};
 
-					if($btSanfona.hasClass("ui-accordion-header-active")){
-						$(this).toggleClass("sanfonaAtiva");
-						$(this).children(".iconSanf").removeClass("icon-setaPreenchida_direita");
-						$(this).children(".iconSanf").addClass("icon-setaPreenchida_baixo");
+							tab[i] = {
+								visited: true
+							};
 
-					}
+							console.log('foo tab[i]', tab[i]);
 
-			
-					$(this).next().find("li").addClass("visible").addClass("animated").addClass("fadeInLeft");
-				}
-			})
-				
+							resource_scorm[resource_id] = {
+								active: i,
+								tabs: tab
+							};
+
+							new_suspend_data = $.extend(true, {}, suspend_data, resource_scorm);
+
+							Player.Scorm.setScormValue('cmi.suspend_data', 'sanfona', new_suspend_data);
+							tabs_lis.eq(i).addClass('visited');
+					});
 		}
 
 	}

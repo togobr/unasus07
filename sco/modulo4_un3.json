@@ -133,11 +133,22 @@
                     },
 
 
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "idSection":"68",
+                        "backgroundSRC":"",
+                        "backgroundColor":"#222526",
+                        "styleContainer":"padding:10px;",
+                        "order":68
+                    },
+
+
                      {
                         "template":"backgroundScroll",
                         "column": "col-xs-12 col-md-12",
                         "styleObj": "",
-                        "idSection":"68",
+                        "idSection":"69",
                         "backgroundSRC":"",
                          "images":[
 
@@ -148,7 +159,20 @@
 
 
                         ],
-                        "order":68
+                        "order":69
+                    },
+
+
+
+
+                     {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"70",
+                        "capa":"capa",
+                        "backgroundSRC":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img10.png",
+                        "order":70
                     },
 
 
@@ -620,38 +644,75 @@
                         "column": "col-xs-12 col-md-8",
                         "type": "normal",
                         "section":66,
-                        "content": "<p>A Rede de Atenção à Saúde (RAS) está diretamente associada à existência de um trabalho compartilhado entre os profissionais de saúde. A atenção ambulatorial e a atenção hospitalar, para o cuidado às pessoas com doenças crônicas, devem complementar e estarem integradas à atenção básica, de modo a superar a atuação fragmentada e isolada que ocorre na maioria das localidades hoje.</p><p>Para qualificar a demanda aos serviços especializados e garantir a equidade é necessário:<br/><br/><ul><li>A estratificação de risco da população adscrita pela Atenção Básica, para o empoderamento das equipes na coordenação do cuidado aos usuários com doenças crônicas.</li><li>A reorganização dos processos de trabalho a fim de fortalecer as relações na Atenção Básica.</li><li>Organização de parâmetros mínimos e máximos para cobertura populacional de um serviço de atenção especializada, considerando a densidade populacional, as necessidades de saúde e o provimento de profissionais.</li><li>O atendimento às situações de DCNT deve estar na Atenção Básica, pois este setor deve tratar da promoção, da prevenção e do diagnóstico precoce, podendo direcionar o acesso aos procedimentos de média e alta complexidade, seja para tratamento, seja para reabilitação.</li></ul><br/></p><p>O Plano de Ações Estratégicas para o Enfrentamento das DCNT no Brasil, 2011-2022, propõe ações visando o fortalecimento da capacidade de resposta do SUS e a ampliação de intervenções diversificadas capazes de uma abordagem integral da saúde com vistas à prevenção e ao controle das DCNT (BRASIL, 2013).</p><p><b>Dentre as principais ações, estão:</b></p>",
+                        "content": "<p>A Rede de Atenção à Saúde (RAS) está diretamente associada à existência de um trabalho compartilhado entre os profissionais de saúde. A atenção ambulatorial e a atenção hospitalar, para o cuidado às pessoas com doenças crônicas, devem complementar e estarem integradas à atenção básica, de modo a superar a atuação fragmentada e isolada que ocorre na maioria das localidades hoje.</p><p>Para qualificar a demanda aos serviços especializados e garantir a equidade é necessário:<br/><br/><ul><li>A estratificação de risco da população adscrita pela Atenção Básica, para o empoderamento das equipes na coordenação do cuidado aos usuários com doenças crônicas.</li><li>A reorganização dos processos de trabalho a fim de fortalecer as relações na Atenção Básica.</li><li>Organização de parâmetros mínimos e máximos para cobertura populacional de um serviço de atenção especializada, considerando a densidade populacional, as necessidades de saúde e o provimento de profissionais.</li><li>O atendimento às situações de DCNT deve estar na Atenção Básica, pois este setor deve tratar da promoção, da prevenção e do diagnóstico precoce, podendo direcionar o acesso aos procedimentos de média e alta complexidade, seja para tratamento, seja para reabilitação.</li></ul><br/></p>",
                         "order":950
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "section":66,
+                        "style":"height:30px",
+                        "content": "",
+                        "order":951
                     },
 
 
                      {
-                        "template":"sliderResponsivo",
-                        "column": "col-xs-12 col-md-12",
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-1",
+                        "type": "normal",
                         "section":66,
-                        "type": "conteudoRight",
-                        "style":"margin-top:50px;",
-                        "slidesResponsivos":[
+                        "style":"height:30px",
+                        "content": "",
+                        "order":952
+                    },
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-5",
+                        "type": "normal",
+                        "section":66,
+                        "content": "<p>O Plano de Ações Estratégicas para o Enfrentamento das DCNT no Brasil, 2011-2022, propõe ações visando o fortalecimento da capacidade de resposta do SUS e a ampliação de intervenções diversificadas capazes de uma abordagem integral da saúde com vistas à prevenção e ao controle das DCNT (BRASIL, 2013).</p><p><b>Dentre as principais ações, estão:</b></p>",
+                        "order":953
+                    },
+
+                   
+
+
+                     {
+                        "template":"sanfona",
+                        "column": "col-xs-12 col-md-6",
+                        "section":66,
+                        "styleObj": {
+                        },
+                        "sanfonas":[
                             {
-                                
-                                "content": "<div class='contentSlider col-xs-12 col-md-12' style='padding: 15px 55px 0px 55px'><b>1. Linha de cuidado de DCNT</b><p>Definição e implementação de protocolos e diretrizes clínicas das DCNT com base em evidências de custo-efetividade, vinculando portadores ao cuidador e à equipe da Atenção Básica, garantindo referência e contrarreferência para a rede de especialidades e hospitalar, favorecendo a continuidade do cuidado e integralidade na atenção, além do desenvolvimento do sistema de informação e gerenciamento de DCNT.</p></div>"
-                            },
-                            {
-                                
-                                "content": "<div class='contentSlider col-xs-12 col-md-12' style='padding: 15px 55px 0px 55px'><b>2. Capacitação e telemedicina</b><p>Capacitação das equipes da Atenção Básica, expandindo recursos de telemedicina, segundo opinião e cursos a distância, qualificando a resposta às DCNT.</p></div>"
-                            },
-                            {
-                                
-                                "content": "<div class='contentSlider col-xs-12 col-md-12' style='padding: 15px 55px 0px 55px'><b>3. Medicamentos gratuitos</b><p>Ampliação do acesso gratuito aos medicamentos e insumos estratégicos previstos nos Protocolos Clínicos e Diretrizes Terapêuticas das DCNT e tabagismo.</p></div>"
+                                "titulo":"1. Linha de cuidado de DCNT", 
+                                "content":" Definição e implementação de protocolos e diretrizes clínicas das DCNT com base em evidências de custo-efetividade, vinculando portadores ao cuidador e à equipe da Atenção Básica, garantindo referência e contrarreferência para a rede de especialidades e hospitalar, favorecendo a continuidade do cuidado e integralidade na atenção, além do desenvolvimento do sistema de informação e gerenciamento de DCNT."
                             },
 
-                              {
-                                
-                                "content": "<div class='contentSlider col-xs-12 col-md-12' style='padding: 15px 55px 0px 55px'><b>4. Saúde Toda Hora</b><p><ul><li><b>Atenção às Urgências:</b> Fortalecimento do cuidado ao portador de DCNT na rede de urgência, integrado entre unidades de promoção, prevenção e atendimento à saúde, com o objetivo de ampliar e qualificar o acesso humanizado e integral aos usuários em situação de urgência nos serviços de saúde de forma ágil e oportuna.</li><li><b>Atenção Domiciliar: </b>Ampliação do atendimento a pessoas com dificuldades de locomoção ou que precisem de cuidados regulares, mas não de hospitalização, por meio de um conjunto de ações de Promoção à Saúde, prevenção e tratamento de doenças e reabilitação prestadas em domicílio com garantia de continuidade de cuidados e integradas à Rede de Atenção à Saúde (RAS).</li><li><b>Linha do Cuidado do IAM e AVE na Rede de Atenção às Urgências:</b> Qualificação e integração de todas as unidades de saúde da Rede de Atenção às Urgências para permitir que os pacientes com Infarto Agudo do Miocárdio (IAM) e Acidente Vascular Encefálico (AVE) sejam atendidos, diagnosticados e tratados rapidamente, com acesso às terapias estabelecidas nos Protocolos Clínicos e Diretrizes Terapêuticas, garantindo ao usuário o acesso e o tratamento adequados em tempo hábil (BRASIL, 2013).</li></ul></p></div>"
+                            {
+                                "titulo":"2. Capacitação e telemedicina", 
+                                "content":"Capacitação das equipes da Atenção Básica, expandindo recursos de telemedicina, segundo opinião e cursos a distância, qualificando a resposta às DCNT."
+                            },
+                            {
+                                "titulo":"3. Medicamentos gratuitos", 
+                                "content":"Ampliação do acesso gratuito aos medicamentos e insumos estratégicos previstos nos Protocolos Clínicos e Diretrizes Terapêuticas das DCNT e tabagismo."
+                            },
+
+                            {
+                                "titulo":"4. Saúde Toda Hora", 
+                                "content":"<ul><li><b>Atenção às Urgências:</b> Fortalecimento do cuidado ao portador de DCNT na rede de urgência, integrado entre unidades de promoção, prevenção e atendimento à saúde, com o objetivo de ampliar e qualificar o acesso humanizado e integral aos usuários em situação de urgência nos serviços de saúde de forma ágil e oportuna.</li><li><b>Atenção Domiciliar: </b>Ampliação do atendimento a pessoas com dificuldades de locomoção ou que precisem de cuidados regulares, mas não de hospitalização, por meio de um conjunto de ações de Promoção à Saúde, prevenção e tratamento de doenças e reabilitação prestadas em domicílio com garantia de continuidade de cuidados e integradas à Rede de Atenção à Saúde (RAS).</li><li><b>Linha do Cuidado do IAM e AVE na Rede de Atenção às Urgências:</b> Qualificação e integração de todas as unidades de saúde da Rede de Atenção às Urgências para permitir que os pacientes com Infarto Agudo do Miocárdio (IAM) e Acidente Vascular Encefálico (AVE) sejam atendidos, diagnosticados e tratados rapidamente, com acesso às terapias estabelecidas nos Protocolos Clínicos e Diretrizes Terapêuticas, garantindo ao usuário o acesso e o tratamento adequados em tempo hábil (BRASIL, 2013).</li></ul>"
                             }
                         ],
                         "order":970
                     },
+
+
+                    
 
 
                       {
@@ -755,7 +816,7 @@
                     {
                         "template":"video",
                         "column": "col-xs-12 col-md-12",
-                        "section":67,
+                        "section":68,
                         "styleObj":{  
                             "height": "560px"
                         },
@@ -776,8 +837,8 @@
                         "template": "texto",
                         "column": "col-xs-0 col-md-12",
                         "type": "normal",
-                        "section":67,
-                         "style":"height:60px;",
+                        "section":69,
+                         "style":"",
                         "content": "",
                         "order":1032
                     },
@@ -787,7 +848,7 @@
                         "column": "col-xs-12 col-md-12",
                         "type": "normal",
                         "style":"text-align:center;",
-                        "section":67,
+                        "section":69,
                         "content": "<p class='textoDestaque'><b>E você, profissional, também tem adotado hábitos saudáveis no seu cotidiano?<br/>Continue a explorar essa leitura, pois vamos discutir estratégias de atenção à saúde frente às DCNT. ACOMPANHE!</b></p>",
                         "order":1035
                     },
@@ -805,9 +866,9 @@
 
                       {
                         "template": "texto",
-                        "column": "col-xs-0 col-md-12",
+                        "column": "col-xs-12 col-md-12",
                         "type": "normal",
-                        "section":68,
+                        "section":69,
                         "style":"height:80px",
                         "content": "",
                         "order":1050
@@ -819,7 +880,7 @@
                     {
                         "template": "texto",
                         "type": "title",
-                        "section":68,
+                        "section":69,
                         "column": "col-xs-12 col-md-6",
                         "content": "Rede de Atenção à Saúde (RAS)",
                         "order":1070
@@ -829,7 +890,7 @@
                         "template": "texto",
                         "column": "col-xs-12 col-md-4",
                         "type": "normal",
-                        "section":68,
+                        "section":69,
                         "style":"height:50px",
                         "content": "",
                         "order":1080
@@ -840,17 +901,17 @@
                         "template": "texto",
                         "column": "col-xs-12 col-md-6",
                         "type": "normal",
-                        "section":68,
+                        "section":69,
                         "content": "<p>Rede de Atenção à Saúde: você sabe o que isso significa?</p><p>A rede de atenção é definida como um conjunto de ações e serviços de saúde articulados em níveis de complexidade crescente, com a finalidade de garantir a integralidade da assistência à saúde.</p><p>Estar tem como objetivos:</p><p><ul><li>fomentar a mudança do modelo de atenção à saúde, fortalecendo o cuidado às pessoas com doenças crônicas;</li><li>garantir o cuidado integral às pessoas com doenças crônicas;</li><li>impactar positivamente nos indicadores relacionados às doenças crônicas;</li><li>contribuir para a promoção da saúde da população e prevenir o desenvolvimento das doenças crônicas e suas complicações.</li></ul></p>",
                         "order":1090
                     },
 
                       {
                         "template": "texto",
-                        "column": "col-xs-12 col-md-6",
+                        "column": "col-xs-0 col-md-6",
                         "type": "normal",
-                        "section":68,
-                        "style":"height:390px",
+                        "section":69,
+                        "style":"height:460px",
                         "content": "",
                         "order":1095
                     },
@@ -859,26 +920,20 @@
                         "template": "texto",
                         "column": "col-xs-12 col-md-6",
                         "type": "normal",
-                        "section":68,
+                        "section":69,
                         "content": "<p>A Atenção Básica à Saúde (ABS) tem caráter estratégico na Rede de Atenção às Pessoas com Doenças Crônicas, pois se trata do ponto de atenção com maior capilaridade e potencial para identificar as necessidades de saúde da população e realizar a estratificação de riscos que subsidiará a organização do cuidado em toda a rede.</p><p>Considerando a atenção integral à saúde do homem, temos outras RAS que podem auxiliar, como a Rede de Atenção à Saúde Mental, que, entre outros agravos, atende os casos de abuso de álcool e outras drogas.</p>",
                         "order":1100
                     },
 
-                     {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-12",
-                        "type": "normal",
-                        "section":68,
-                        "style":"height:100px",
-                        "content": "",
-                        "order":1105
-                    },
+                    
+
+
 
                     {
                         "template": "texto",
                         "column": "col-xs-12 col-md-6",
                         "type": "normal",
-                        "section":68,
+                        "section":69,
                         "content": "<p style='font-size:1.2em; text-align:left; '><b>Entre os modelos de atenção às doenças crônicas, as diretrizes para o cuidado das pessoas com doenças crônicas em rede sugerem o uso do Modelo de Atenção às Condições Crônicas (MACC).</b></p>",
                         "order":1110
                     },
@@ -887,23 +942,69 @@
                         "template": "texto",
                         "column": "col-xs-12 col-md-6",
                         "type": "normal",
-                        "section":68,
+                        "section":69,
                         "content": "<p style='font-size:1.2em; text-align:left; '><b>O MACC estrutura-se em cinco níveis e em três componentes integrados. Clique e confira as<br/>características de cada um deles.</b> </p>",
                         "order":1120
                     },
 
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "section":70,
+                        "style":"height:60px",
+                        "content": "",
+                        "order":1125
+                    },
+
+
+
 
                      {
                         "template": "multimedia",
-                        "section":68,
+                        "section":69,
                         "src": "curso/recursos/modulo4/unidade3/UNA07_REC02_grafico_MACC/UNA07_REC01_grafico_MACC.html",
                         "column": "col-xs-12 col-md-12",
                         "styleObj": {
-                            "height": "540px",
-                            "overflow": "hidden"
+                            "height": "540px;",
+                            "width": "1061px;"
                         },
                         "order":1130
-                    }
+                    },
+
+
+
+                      {
+                       "template": "texto",
+                       "column": "col-xs-0 col-md-12",
+                       "type": "normal",
+                       "section":69,
+                       "style":"height:30px",
+                       "order":1140
+                   },
+                   {
+                       "template":"botaoPular",
+                       "section":69,
+                       "nSec":70,
+                       "cor":"preto",
+                       "style":"margin-top:10px",
+                       "order":1150
+                   },
+
+
+
+
+
+                   {
+                       "template":"contraCapa",
+                       "section":70,
+                       "final":true,
+                       "textoDownload":"AGORA, SIGA PARA O ESTUDO DO CONTEUDO COMPLETO",
+                       "label":"BAIXAR O LIVRO",
+                       "textoFinal":"<p>Estudos de casos de experiências de redes de atenção à saúde indicam que estas, à semelhança do que ocorre em países desenvolvidos, podem ter impacto significativo nos níveis de saúde, com custos suportáveis pelo SUS (MENDES , 2011) .</p><p>Com essas informações, é possível pensar novos caminhos em que você e sua equipe possam agregar ao manejo dos fatores de risco e Doenças Crônicas Não Transmissíveis (DCNT), junto aos usuários.</p>Nesse contexto, você pode perceber também a estreita relação entre as DCNT e seus fatores de risco, como sedentarismo, dieta inadequada, obesidade, consumo de álcool e tabagismo.</p><p>Quais as estratégias para o manejo desses fatores de risco, você e a sua equipe têm desenvolvido junto ao usuário?</p><p>Como você, profissional de saúde, tem cuidado da sua saúde?</p>Tenha sempre esta reflexão em mente!</p><p>Você também deve realizar a atividade avaliativa deste módulo.</p><p>Lembre, também, que você pode trocar informações e experiências na comunidade de prática da Atenção Básica! E, para contribuir com a melhoria constante dos cursos produzidos, responda à tomada de opinião sobre o conteúdo visto.</p><p>BONS ESTUDOS!</p>",
+       
+                       "order":1160
+                       }
 
 
 
