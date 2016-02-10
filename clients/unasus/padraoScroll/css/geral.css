@@ -22,48 +22,58 @@
 }
 
 /* line 27, sass/_icons.scss */
-.icon-download:before {
+.icon-avancar:before {
   content: "\e900";
 }
 
 /* line 30, sass/_icons.scss */
-.icon-exclamacao:before {
+.icon-download:before {
   content: "\e901";
 }
 
 /* line 33, sass/_icons.scss */
-.icon-fechar:before {
+.icon-exclamacao:before {
   content: "\e902";
 }
 
 /* line 36, sass/_icons.scss */
-.icon-proxSes:before {
+.icon-fechar:before {
   content: "\e903";
 }
 
 /* line 39, sass/_icons.scss */
-.icon-seta_direita:before {
+.icon-proxSes:before {
   content: "\e904";
 }
 
 /* line 42, sass/_icons.scss */
-.icon-seta_esq:before {
+.icon-seta_direita:before {
   content: "\e905";
 }
 
 /* line 45, sass/_icons.scss */
-.icon-setaPreenchida_baixo:before {
+.icon-seta_esq:before {
   content: "\e906";
 }
 
 /* line 48, sass/_icons.scss */
-.icon-setaPreenchida_cima:before {
+.icon-setaPreenchida_baixo:before {
   content: "\e907";
 }
 
 /* line 51, sass/_icons.scss */
-.icon-setaPreenchida_direita:before {
+.icon-setaPreenchida_cima:before {
   content: "\e908";
+}
+
+/* line 54, sass/_icons.scss */
+.icon-setaPreenchida_direita:before {
+  content: "\e909";
+}
+
+/* line 57, sass/_icons.scss */
+.icon-voltar:before {
+  content: "\e90a";
 }
 
 @font-face {
@@ -2636,48 +2646,58 @@ ol li:before {
 }
 
 /* line 27, sass/_icons.scss */
-.icon-download:before {
+.icon-avancar:before {
   content: "\e900";
 }
 
 /* line 30, sass/_icons.scss */
-.icon-exclamacao:before {
+.icon-download:before {
   content: "\e901";
 }
 
 /* line 33, sass/_icons.scss */
-.icon-fechar:before {
+.icon-exclamacao:before {
   content: "\e902";
 }
 
 /* line 36, sass/_icons.scss */
-.icon-proxSes:before {
+.icon-fechar:before {
   content: "\e903";
 }
 
 /* line 39, sass/_icons.scss */
-.icon-seta_direita:before {
+.icon-proxSes:before {
   content: "\e904";
 }
 
 /* line 42, sass/_icons.scss */
-.icon-seta_esq:before {
+.icon-seta_direita:before {
   content: "\e905";
 }
 
 /* line 45, sass/_icons.scss */
-.icon-setaPreenchida_baixo:before {
+.icon-seta_esq:before {
   content: "\e906";
 }
 
 /* line 48, sass/_icons.scss */
-.icon-setaPreenchida_cima:before {
+.icon-setaPreenchida_baixo:before {
   content: "\e907";
 }
 
 /* line 51, sass/_icons.scss */
-.icon-setaPreenchida_direita:before {
+.icon-setaPreenchida_cima:before {
   content: "\e908";
+}
+
+/* line 54, sass/_icons.scss */
+.icon-setaPreenchida_direita:before {
+  content: "\e909";
+}
+
+/* line 57, sass/_icons.scss */
+.icon-voltar:before {
+  content: "\e90a";
 }
 
 @font-face {
@@ -3052,48 +3072,58 @@ ol li:before {
 }
 
 /* line 27, sass/_icons.scss */
-.icon-download:before {
+.icon-avancar:before {
   content: "\e900";
 }
 
 /* line 30, sass/_icons.scss */
-.icon-exclamacao:before {
+.icon-download:before {
   content: "\e901";
 }
 
 /* line 33, sass/_icons.scss */
-.icon-fechar:before {
+.icon-exclamacao:before {
   content: "\e902";
 }
 
 /* line 36, sass/_icons.scss */
-.icon-proxSes:before {
+.icon-fechar:before {
   content: "\e903";
 }
 
 /* line 39, sass/_icons.scss */
-.icon-seta_direita:before {
+.icon-proxSes:before {
   content: "\e904";
 }
 
 /* line 42, sass/_icons.scss */
-.icon-seta_esq:before {
+.icon-seta_direita:before {
   content: "\e905";
 }
 
 /* line 45, sass/_icons.scss */
-.icon-setaPreenchida_baixo:before {
+.icon-seta_esq:before {
   content: "\e906";
 }
 
 /* line 48, sass/_icons.scss */
-.icon-setaPreenchida_cima:before {
+.icon-setaPreenchida_baixo:before {
   content: "\e907";
 }
 
 /* line 51, sass/_icons.scss */
-.icon-setaPreenchida_direita:before {
+.icon-setaPreenchida_cima:before {
   content: "\e908";
+}
+
+/* line 54, sass/_icons.scss */
+.icon-setaPreenchida_direita:before {
+  content: "\e909";
+}
+
+/* line 57, sass/_icons.scss */
+.icon-voltar:before {
+  content: "\e90a";
 }
 
 @font-face {
@@ -3189,48 +3219,58 @@ ol li:before {
 }
 
 /* line 27, sass/_icons.scss */
-.icon-download:before {
+.icon-avancar:before {
   content: "\e900";
 }
 
 /* line 30, sass/_icons.scss */
-.icon-exclamacao:before {
+.icon-download:before {
   content: "\e901";
 }
 
 /* line 33, sass/_icons.scss */
-.icon-fechar:before {
+.icon-exclamacao:before {
   content: "\e902";
 }
 
 /* line 36, sass/_icons.scss */
-.icon-proxSes:before {
+.icon-fechar:before {
   content: "\e903";
 }
 
 /* line 39, sass/_icons.scss */
-.icon-seta_direita:before {
+.icon-proxSes:before {
   content: "\e904";
 }
 
 /* line 42, sass/_icons.scss */
-.icon-seta_esq:before {
+.icon-seta_direita:before {
   content: "\e905";
 }
 
 /* line 45, sass/_icons.scss */
-.icon-setaPreenchida_baixo:before {
+.icon-seta_esq:before {
   content: "\e906";
 }
 
 /* line 48, sass/_icons.scss */
-.icon-setaPreenchida_cima:before {
+.icon-setaPreenchida_baixo:before {
   content: "\e907";
 }
 
 /* line 51, sass/_icons.scss */
-.icon-setaPreenchida_direita:before {
+.icon-setaPreenchida_cima:before {
   content: "\e908";
+}
+
+/* line 54, sass/_icons.scss */
+.icon-setaPreenchida_direita:before {
+  content: "\e909";
+}
+
+/* line 57, sass/_icons.scss */
+.icon-voltar:before {
+  content: "\e90a";
 }
 
 @font-face {
@@ -3568,48 +3608,58 @@ ol li:before {
 }
 
 /* line 27, sass/_icons.scss */
-.icon-download:before {
+.icon-avancar:before {
   content: "\e900";
 }
 
 /* line 30, sass/_icons.scss */
-.icon-exclamacao:before {
+.icon-download:before {
   content: "\e901";
 }
 
 /* line 33, sass/_icons.scss */
-.icon-fechar:before {
+.icon-exclamacao:before {
   content: "\e902";
 }
 
 /* line 36, sass/_icons.scss */
-.icon-proxSes:before {
+.icon-fechar:before {
   content: "\e903";
 }
 
 /* line 39, sass/_icons.scss */
-.icon-seta_direita:before {
+.icon-proxSes:before {
   content: "\e904";
 }
 
 /* line 42, sass/_icons.scss */
-.icon-seta_esq:before {
+.icon-seta_direita:before {
   content: "\e905";
 }
 
 /* line 45, sass/_icons.scss */
-.icon-setaPreenchida_baixo:before {
+.icon-seta_esq:before {
   content: "\e906";
 }
 
 /* line 48, sass/_icons.scss */
-.icon-setaPreenchida_cima:before {
+.icon-setaPreenchida_baixo:before {
   content: "\e907";
 }
 
 /* line 51, sass/_icons.scss */
-.icon-setaPreenchida_direita:before {
+.icon-setaPreenchida_cima:before {
   content: "\e908";
+}
+
+/* line 54, sass/_icons.scss */
+.icon-setaPreenchida_direita:before {
+  content: "\e909";
+}
+
+/* line 57, sass/_icons.scss */
+.icon-voltar:before {
+  content: "\e90a";
 }
 
 @font-face {
@@ -4135,34 +4185,34 @@ ol li:before {
 
 /* line 1, sass/resources/backgroundScroll/_style.scss */
 .backgroundScroll {
-  padding: 0 !important;
+  position: relative;
   z-index: -1;
   top: 0;
   left: 0;
-  position: relative;
+  padding: 0 !important;
 }
 /* line 11, sass/resources/backgroundScroll/_style.scss */
 .backgroundScroll .backgroundBox {
   background-position: center;
   background-size: cover;
 }
-/* line 19, sass/resources/backgroundScroll/_style.scss */
+/* line 20, sass/resources/backgroundScroll/_style.scss */
 .backgroundScroll .backgroundBox.capa .content {
   padding-top: 0;
 }
-/* line 23, sass/resources/backgroundScroll/_style.scss */
+/* line 24, sass/resources/backgroundScroll/_style.scss */
 .backgroundScroll .backgroundBox.capa .botaoPular {
   position: absolute;
+  right: 0;
   bottom: 0;
   left: 0;
-  right: 0;
 }
-/* line 31, sass/resources/backgroundScroll/_style.scss */
+/* line 32, sass/resources/backgroundScroll/_style.scss */
 .backgroundScroll .imgBG {
   position: absolute;
 }
 
-/* line 36, sass/resources/backgroundScroll/_style.scss */
+/* line 38, sass/resources/backgroundScroll/_style.scss */
 .backgroundScroll.capa {
   height: 100%;
 }
@@ -4171,77 +4221,131 @@ ol li:before {
 .capa .contCapa {
   font-family: "Roboto-Regular", sans-serif;
   display: table-cell;
-  vertical-align: middle;
   padding-left: 170px;
+  vertical-align: middle;
 }
-/* line 51, sass/resources/backgroundScroll/_style.scss */
+/* line 55, sass/resources/backgroundScroll/_style.scss */
 .capa .nCapa {
   font-size: 3.4em;
-  color: #fff;
   margin-bottom: 0;
-}
-/* line 57, sass/resources/backgroundScroll/_style.scss */
-.capa .tituloCapa {
-  font-size: 4.8em;
   color: #fff;
-  line-height: 1.5em;
 }
 /* line 63, sass/resources/backgroundScroll/_style.scss */
-.capa .descCapa {
-  font-weight: bold;
-  font-size: 1.5em;
+.capa .tituloCapa {
+  font-size: 4.8em;
+  line-height: 1.5em;
   color: #fff;
-  margin-left: 235px;
+}
+/* line 70, sass/resources/backgroundScroll/_style.scss */
+.capa .descCapa {
+  font-size: 1.5em;
+  font-weight: bold;
   display: block;
   margin-right: 167px;
-  border-left: 3px solid #fff;
+  margin-left: 235px;
   padding-left: 25px;
+  color: #fff;
+  border-left: 3px solid #fff;
 }
 
-/* line 75, sass/resources/backgroundScroll/_style.scss */
+/* line 86, sass/resources/backgroundScroll/_style.scss */
 .contContraCapa {
   display: table-cell;
   vertical-align: middle;
   color: #fff;
 }
-/* line 81, sass/resources/backgroundScroll/_style.scss */
+/* line 93, sass/resources/backgroundScroll/_style.scss */
 .contContraCapa .textoDownload {
   font-family: "Roboto-Bold", sans-serif;
   font-size: 1.6em;
 }
-/* line 88, sass/resources/backgroundScroll/_style.scss */
+/* line 98, sass/resources/backgroundScroll/_style.scss */
 .contContraCapa .textoFinal {
   font-family: "Roboto-Bold", sans-serif;
   font-size: 1.6em;
 }
+/* line 103, sass/resources/backgroundScroll/_style.scss */
+.contContraCapa .contRight {
+  padding-right: 0;
+  padding-left: 30px;
+}
 
-/* line 95, sass/resources/backgroundScroll/_style.scss */
+/* line 111, sass/resources/backgroundScroll/_style.scss */
 .botoesNav {
-  background: #dab463;
-  height: 177px;
-  width: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
+  width: 100%;
+  height: 177px;
   border-top: 2px #f4dfc1 solid;
+  background: #dab463;
 }
-/* line 105, sass/resources/backgroundScroll/_style.scss */
+/* line 122, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .avancarNav {
-  background-color: #f4dfc1;
-  height: 70px;
-  width: 70px;
+  line-height: 60px;
   position: absolute;
-  right: 0;
+  top: 60px;
+  right: 15px;
+  width: 250px;
+  height: 60px;
+  cursor: pointer;
+  text-align: center;
   border-radius: 5px;
+  background-color: #f4dfc1;
 }
-/* line 116, sass/resources/backgroundScroll/_style.scss */
-.botoesNav .voltarNav {
-  background-color: #f4dfc1;
-  height: 70px;
-  width: 70px;
+/* line 138, sass/resources/backgroundScroll/_style.scss */
+.botoesNav .avancarNav span {
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 175px;
+  font-size: 1.8em;
+  margin-right: 45px;
+  color: #000;
+}
+/* line 154, sass/resources/backgroundScroll/_style.scss */
+.botoesNav .avancarNav span b {
+  font-family: "Roboto-Regular", sans-serif;
+}
+/* line 158, sass/resources/backgroundScroll/_style.scss */
+.botoesNav .avancarNav span:before {
   position: absolute;
-  left: 0;
+  right: 7px;
+  font-size: 2.5em;
+  top: 7px;
+}
+/* line 166, sass/resources/backgroundScroll/_style.scss */
+.botoesNav .voltarNav {
+  line-height: 60px;
+  position: absolute;
+  top: 60px;
+  left: 15px;
+  width: 155px;
+  height: 60px;
+  cursor: pointer;
+  text-align: center;
   border-radius: 5px;
+  background-color: #f4dfc1;
+}
+/* line 182, sass/resources/backgroundScroll/_style.scss */
+.botoesNav .voltarNav span {
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.8em;
+  margin-left: 45px;
+  color: #7C7C7C;
+}
+/* line 194, sass/resources/backgroundScroll/_style.scss */
+.botoesNav .voltarNav span b {
+  font-family: "Roboto-Regular", sans-serif;
+}
+/* line 199, sass/resources/backgroundScroll/_style.scss */
+.botoesNav .voltarNav span:before {
+  position: absolute;
+  left: 7px;
+  font-size: 2.5em;
+  top: 7px;
 }
 
 /* line 3, sass/resources/botaoDownload/_style.scss */
@@ -4443,7 +4547,7 @@ ol li:before {
 
   /* line 99, sass/_mediaQuery.scss */
   .col-xs-0 {
-    display: none;
+    display: none !important;
   }
 
   /* line 106, sass/_mediaQuery.scss */
@@ -4469,6 +4573,27 @@ ol li:before {
   .capa .descCapa {
     margin: 0;
     margin-bottom: 130px;
+  }
+
+  /* line 139, sass/_mediaQuery.scss */
+  .contraCapa {
+    padding-bottom: 200px;
+  }
+
+  /* line 143, sass/_mediaQuery.scss */
+  .contLeft, .textoFinal {
+    margin: 25px;
+  }
+
+  /* line 147, sass/_mediaQuery.scss */
+  .textoDownload {
+    margin-bottom: 15px;
+  }
+
+  /* line 151, sass/_mediaQuery.scss */
+  .contRight {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 /* line 3, sass/_animate.scss */

@@ -1,131 +1,207 @@
-.backgroundScroll{
-	// position: absolute !important;
-	padding: 0 !important; 
-	// height: 100%;
-	z-index: -1;
-	top: 0;
-	left: 0;
+.backgroundScroll
+{
+    position: relative;
+    // height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    // position: absolute !important;
 
-	position: relative;
-
-	.backgroundBox{
-		// height: 100%;
-		background-position: center; 
-		// opacity: 0.5; 
-		background-size:cover;
-	}
-
-	.backgroundBox.capa{
-		.content{
-			padding-top:0;
-		}
-
-		.botaoPular{
-			  position: absolute;
-			  bottom: 0;
-			  left: 0;
-			  right: 0;
-		}
-	}
-
-	.imgBG{
-		position: absolute;
-	}
-} 
-
-.backgroundScroll.capa{
-	height:100%;
+    padding: 0 !important;
+    .backgroundBox
+    {
+        // height: 100%;
+        background-position: center;
+        // opacity: 0.5; 
+        background-size: cover;
+    }
+    .backgroundBox.capa
+    {
+        .content
+        {
+            padding-top: 0;
+        }
+        .botaoPular
+        {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    }
+    .imgBG
+    {
+        position: absolute;
+    }
 }
 
-.capa{
-
-	
-
-
-	.contCapa{
-		font-family: $regular;
-		display: table-cell;
-		vertical-align: middle;
-		  padding-left: 170px;
-	}
-	.nCapa{
-		font-size: 3.4em;
-		color: #fff;
-		margin-bottom: 0;
-	}
-
-	.tituloCapa{
-		  font-size: 4.8em;
-		  color: #fff;
-		  line-height: 1.5em;
-	}
-
-	.descCapa{
-		    font-weight: bold;
-			font-size: 1.5em;
-			color: #fff;
-			margin-left: 235px;
-			display: block;
-			margin-right: 167px;
-			border-left: 3px solid #fff;
-			padding-left: 25px;
-	}
+.backgroundScroll.capa
+{
+    height: 100%;
 }
 
-.contContraCapa{
-	display:table-cell;
-	vertical-align:middle;
-	color:#fff;
-	
+.capa
+{
+    .contCapa
+    {
+        font-family: $regular;
 
-	.textoDownload{
+        display: table-cell;
 
-		font-family:$bold;
-		font-size:1.6em;
+        padding-left: 170px;
 
-	}
+        vertical-align: middle;
+    }
+    .nCapa
+    {
+        font-size: 3.4em;
 
-	.textoFinal{
-		font-family:$bold;
-		font-size:1.6em;
-	}
+        margin-bottom: 0;
+
+        color: #fff;
+    }
+    .tituloCapa
+    {
+        font-size: 4.8em;
+        line-height: 1.5em;
+
+        color: #fff;
+    }
+    .descCapa
+    {
+        font-size: 1.5em;
+        font-weight: bold;
+
+        display: block;
+
+        margin-right: 167px;
+        margin-left: 235px;
+        padding-left: 25px;
+
+        color: #fff;
+        border-left: 3px solid #fff;
+    }
 }
 
+.contContraCapa
+{
+    display: table-cell;
 
-.botoesNav{
-	  background: #dab463;
-  height: 177px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+    vertical-align: middle;
 
-  border-top:2px #f4dfc1 solid;
-
-  .avancarNav{
-  	background-color:#f4dfc1;
-  	height: 70px;
-  	width: 70px;
-  	position: absolute;
-  	right: 0;
-
-  	border-radius:5px;
-
-  }
-
-  .voltarNav{
-  	background-color:#f4dfc1;
-
-  	height: 70px;
-  	width: 70px;
-
-  	position: absolute;
-  	left: 0;
-  	border-radius:5px;
-  }
+    color: #fff;
+    .textoDownload
+    {
+        font-family: $bold;
+        font-size: 1.6em;
+    }
+    .textoFinal
+    {
+        font-family: $bold;
+        font-size: 1.6em;
+    }
+    .contRight
+    {
+        padding-right: 0;
+        padding-left: 30px;
+    }
 }
 
 
+.botoesNav
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 177px;
+
+    border-top: 2px #f4dfc1 solid;
+    background: #dab463;
+    .avancarNav
+    {
+        line-height: 60px;
+
+        position: absolute;
+        top: 60px;
+        right: 15px;
+
+        width: 250px;
+        height: 60px;
+
+        cursor: pointer;
+        text-align: center;
+
+        border-radius: 5px;
+        background-color: #f4dfc1;
+        span
+        {
+
+        	
+            line-height: normal;
+
+            display: inline-block;
+
+            vertical-align: middle;
+
+            max-width: 175px;
+            font-size: 1.8em;
+            margin-right: 45px;
+
+            color:#000;
+
+             b{
+              	font-family: $regular;
+              }
+
+            &:before{
+				position: absolute;
+				right: 7px;
+				font-size: 2.5em;
+				top: 7px;
+            }
+        }
+    }
+    .voltarNav
+    {
+        line-height: 60px;
+
+        position: absolute;
+        top: 60px;
+        left: 15px;
+
+        width: 155px;
+        height: 60px;
+
+        cursor: pointer;
+        text-align: center;
+
+        border-radius: 5px;
+        background-color: #f4dfc1;
+        span
+        {
+
+        	
+            line-height: normal;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 1.8em;
+            margin-left: 45px;
+
+              color: #7C7C7C;
+
+              b{
+              	font-family: $regular;
+              }
 
 
-
+            &:before{
+            	position: absolute;
+				left: 7px;
+				font-size: 2.5em;
+				top: 7px;
+            }
+        }
+    }
+}

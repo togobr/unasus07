@@ -103,7 +103,7 @@
                         "idSection":"38",
                         "backgroundSRC":"",
                         "backgroundColor":"",
-                        "styleContainer":"padding:100px 0px; margin-top:40px;",
+                        "styleContainer":"padding:50px 0px; margin-top:40px;",
                         "order":38
                     },
 
@@ -116,6 +116,8 @@
                         "backgroundSRC":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec010.png",
                         "order":39
                     },
+
+                    
 
 
 
@@ -542,7 +544,7 @@
                         "contentCapa": "2012",
                         "content": "7,4 milhão de casos",
                         "styleObj": {
-                            "padding": "0px 100px 0px 100px"
+                            "padding": "20px 20px 10px 20px"
                         },
                         "order":585
                     },
@@ -554,7 +556,7 @@
                         "contentCapa": "2025",
                         "content": "10,4 milhões de casos novos",
                         "styleObj": {
-                            "padding": "0px 100px 0px 100px"
+                            "padding": "10px 20px 20px 20px"
                         },
                         "order":590
                     },
@@ -564,15 +566,25 @@
                         "type": "texto",
                         "section":37,
                         "content": "",
+                        "order":594
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "texto",
+                        "style":"margin-bottom:90px;",
+                        "section":37,
+                        "content": "<p class='textoDestaque' style='text-align:center;'>TER CONHECIMENTO DA ESTIMATIVA DE QUANTAS PESSOAS DESENVOLVERÃO A DOENÇA, QUANTAS MORRERÃO E QUANTAS VIVERÃO COM ELA COMO SOBREVIVENTES FAZ PARTE DA VIGILÂNCIA DA MORBIMORTALIDADE POR CÂNCER.</p>",
                         "order":595
                     },
                     {
                         "template": "texto",
                         "column": "col-xs-12 col-md-4",
                         "type": "texto",
+                        "style":"margin-top:20px;",
                         "section":37,
-                        "content": "<p><b>TER CONHECIMENTO DA ESTIMATIVA DE QUANTAS PESSOAS DESENVOLVERÃO A DOENÇA, QUANTAS MORRERÃO E QUANTAS VIVERÃO COM ELA COMO SOBREVIVENTES FAZ PARTE DA VIGILÂNCIA DA MORBIMORTALIDADE POR CÂNCER.</b></p><p> A compreensão das tendências temporais no Brasil e suas regiões, assim como os principais fatores determinantes, complementam esse monitoramento, e são vitais para o planejamento e avaliação de intervenções associadas à prevenção.</p><p>Agora vamos comentar os tipos de câncer que mais acometem os homens. Confira.</p>",
-                        "order":595
+                        "content": "<p> A compreensão das tendências temporais no Brasil e suas regiões, assim como os principais fatores determinantes, complementam esse monitoramento, e são vitais para o planejamento e avaliação de intervenções associadas à prevenção.</p><p>Agora vamos comentar os tipos de câncer que mais acometem os homens. Confira.</p>",
+                        "order":596
                     },
                     
 
@@ -582,7 +594,7 @@
                     {
                         "template":"gavetaVertical",
                         "column": "col-xs-12 col-md-8",
-                        "style":"margin-top:50px;",
+                        "style":"margin-top:0px;",
                         "section":37,
                         "gavetasVerticais":[
                             {
@@ -615,6 +627,7 @@
                         "template": "texto",
                         "column": "col-xs-12 col-md-12",
                         "type": "texto",
+                        "style":"margin-bottom:90px;",
                         "section":38,
                         "content": "<p class='textoDestaque' style='text-align:center;'>VÁRIOS TIPOS DE CÂNCERES PODEM TER SUA INCIDÊNCIA DIMINUÍDA PELA ELIMINAÇÃO DA EXPOSIÇÃO A FATORES DE RISCO. A DETECÇÃO PRECOCE DO POTENCIAL DE MALIGNIDADE DAS CÉLULAS POSSIBILITA UMA CONDIÇÃO MAIS FAVORÁVEL PARA SEU TRATAMENTO E, CONSEQUENTEMENTE, CURA.</p>",
                         "order":598
