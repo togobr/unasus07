@@ -4130,6 +4130,52 @@ ol li:before {
   padding-left: 25px;
 }
 
+/* line 75, sass/resources/backgroundScroll/_style.scss */
+.contContraCapa {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+}
+/* line 81, sass/resources/backgroundScroll/_style.scss */
+.contContraCapa .textoDownload {
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 1.6em;
+}
+/* line 88, sass/resources/backgroundScroll/_style.scss */
+.contContraCapa .textoFinal {
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 1.6em;
+}
+
+/* line 95, sass/resources/backgroundScroll/_style.scss */
+.botoesNav {
+  background: #dab463;
+  height: 177px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 2px #f4dfc1 solid;
+}
+/* line 105, sass/resources/backgroundScroll/_style.scss */
+.botoesNav .avancarNav {
+  background-color: #f4dfc1;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  right: 0;
+  border-radius: 5px;
+}
+/* line 116, sass/resources/backgroundScroll/_style.scss */
+.botoesNav .voltarNav {
+  background-color: #f4dfc1;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  left: 0;
+  border-radius: 5px;
+}
+
 /* line 3, sass/resources/botaoDownload/_style.scss */
 .content .botaoDownload .wrapperResource {
   -webkit-border-radius: 5px;

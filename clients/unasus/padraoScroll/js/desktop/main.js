@@ -513,6 +513,14 @@ require.config({
 					"paths": [
 						"text!template.html"
 					]
+				},
+
+				"contraCapa": {
+					"baseURL": "./resources/contraCapa",
+					"paths": [
+						"text!template.html",
+						"player"
+					]
 				}
 			},
 
