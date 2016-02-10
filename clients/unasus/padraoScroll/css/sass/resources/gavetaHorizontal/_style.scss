@@ -32,7 +32,7 @@
 				span{
 					display: table-cell;
 					vertical-align: middle;
-					font-family: $regular;
+					font-family: $bold;
 					font-weight: 400;
 					font-size: 14px;
 				}
@@ -52,7 +52,23 @@
 				z-index: 1;
 				bottom: -10px;
 				left: 44.5%;
-			}	
+			}
+			span{
+				color: $normal !important;
+			}
+			&.visited{
+				background: $selected;
+				&:after{
+					border-color: $selected transparent;
+				}
+			}
+		}
+
+		.visited{
+			background: $visited; 
+			span{
+				color: $normal !important;
+			}
 		}
 	}
 

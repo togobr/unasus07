@@ -14,9 +14,9 @@
                         "template":"backgroundScroll",
                         "column": "col-xs-12 col-md-12",
                         "style":"",
-                        "capa":"capa",
                         "idSection":"30",
-                        "backgroundSRC":"curso/images/modulo4/unidade2/UNA07_m1_un2_rec001.png",
+                        "capa":"capa",
+                        "backgroundSRC":"curso/images/modulo4/unidade2/UNA07_m4_un2_rec001.png",
                         "order":30
                     },
                     {
@@ -54,22 +54,11 @@
                         "backgroundSRC":"",
                         "images":[
                             {
-                                "imgBG":"curso/images/modulo4/unidade2/UNA07_m1_un2_rec002.png",
-                                "styleImg":""
+                                "imgBG":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec002.png",
+                                "styleImg":"right:50%;"
                             }
                         ],
                         "order":34
-                    },
-
-                    {
-                        "template":"capa",
-                        "nUnidade":"UNIDADE 2",
-                        "column": "col-xs-12 col-md-12",
-                        "section":30,
-                        "tituloCapa":"ASPECTOS EPIDEMIOLÓGICOS <br> NA POPULAÇÃO MASCULINA",
-                        "textoCapa":"Estar atento aos aspectos epidemiológicos na população masculina deve fazer parte da prática diária de um profissional de saúde. Acompanhe os estudos desta unidade para incorporar e aperfeiçoar este tema em seu dia a dia!",
-                        "order":35
-
                     },
 
                     {
@@ -77,50 +66,81 @@
                         "column": "col-xs-12 col-md-12",
                         "idSection":"35",
                         "backgroundSRC":"",
+                        "backgroundColor":"#bcbdc0",
+                        "styleContainer":"padding:100px 0px; margin-top:40px;",
+                        "order":35
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "style":"background-size:initial;",
+                        "idSection":"36",
+                        "backgroundSRC":"css/assets/images/UNA07_padraoAzul.png",
+                        "styleContainer":"padding:45px 10px;",
                         "order":36
                     },
 
                     {
                         "template":"backgroundScroll",
                         "column": "col-xs-12 col-md-12",
-                        "idSection":"36",
-                        "capa":"capa",
-                        "backgroundSRC":"curso/images/modulo4/unidade2/UNA07_m1_un2_rec001.png",
+                        "styleObj": "",
+                        "style":"",
+                        "idSection":"37",
+                        "backgroundSRC":"",
+                        "images":[
+                            {
+                                "imgBG":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec008.png",
+                                "styleImg":"left:30%;"
+                            }
+                        ],
                         "order":37
                     },
 
                     {
-                        "template":"contraCapa",
-                        "section":36,
-                        "final":true,
-                        "textoDownload":"AGORA, SIGA PARA O ESTUDO DO CONTEUDO COMPLETO",
-                        "label":"BAIXAR O LIVRO",
-                        "textoFinal":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero nisi ullam molestias numquam magnam, officia optio qui pariatur aliquid commodi ab eaque cumque consequuntur. Molestiae suscipit, aspernatur quibusdam modi reiciendis!",
-        
-                        "order":450
-                        },
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "idSection":"38",
+                        "backgroundSRC":"",
+                        "backgroundColor":"",
+                        "styleContainer":"padding:100px 0px; margin-top:40px;",
+                        "order":38
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"39",
+                        "capa":"capa",
+                        "backgroundSRC":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec010.png",
+                        "order":39
+                    },
 
 
 
 
 
 
-                    
 
 
 
-
-
-
-
-                    
+                    {
+                       "template":"capa",
+                       "nUnidade":"UNIDADE 2",
+                       "column": "col-xs-12 col-md-12",
+                       "section":30,
+                       "tituloCapa":"ASPECTOS EPIDEMIOLÓGICOS <br> NA POPULAÇÃO MASCULINA",
+                       "textoCapa":"Estar atento aos aspectos epidemiológicos na população masculina deve fazer parte da prática diária de um profissional de saúde. Acompanhe os estudos desta unidade para incorporar e aperfeiçoar este tema em seu dia a dia!",
+                       "order":400
+                   },
                     {
                         "template":"botaoPular",
                         "section":30,
                         "nSec":31,
                         "cor":"branco",
                         "style":"margin-top:10px",
-                        "order":450
+                        "order":401
                         },
 
 
@@ -133,7 +153,7 @@
                         "style":"height:50px",
                         "section":31,
                         "content": "",
-                        "order":455
+                        "order":405
                     },
                     {
                         "template": "texto",
@@ -141,15 +161,15 @@
                         "type": "normal",
                         "section":31,
                         "content": "",
-                        "order":460
+                        "order":410
                     },
                     {
                         "template": "texto",
-                        "column": "col-xs-12 col-md-10",
+                        "column": "col-xs-12 col-md-12",
                         "type": "normal",
                         "section":31,
                         "content": "<p style='font-size:2em; text-align:center;'><b>Quais são as doenças mais prevalentes entre os homens? Quantas pessoas morrem por ano devido às Doenças Crônicas Não Transmissíveis (DCNT)?</b></p>",
-                        "order":465
+                        "order":415
                     },
 
 
@@ -172,7 +192,7 @@
                             "src":"",
                             "type":"video/mp4"
                         },
-                        "order":470
+                        "order":420
                     },
                     {
                         "template": "texto",
@@ -181,7 +201,7 @@
                         "style":"height:70px",
                         "section":31,
                         "content": "",
-                        "order":475
+                        "order":425
                     },
 
 
@@ -189,19 +209,19 @@
 
                     {
                         "template": "texto",
-                        "column": "col-xs-0 col-md-4",
+                        "column": "col-xs-0 col-md-2",
                         "type": "normal",
                         "section":33,
                         "content": "<p style='height:50px;'></p>",
-                        "order":478
+                        "order":430
                     },
                     {
                         "template": "texto",
                         "column": "col-xs-12 col-md-8",
                         "type": "normal",
                         "section":33,
-                        "content": "<p class='textoDestaque' style='text-align:right;'>Agora, acompanhe informações importantes relacionadas a esta unidade de estudo e saiba quanto é a mortalidade por DCNT, assim como as doenças que mais acometem os homens.<br><b>Siga e confira!</b></p>",
-                        "order":480
+                        "content": "<p class='textoDestaque' style='text-align:center;'>Agora, acompanhe informações importantes relacionadas a esta unidade de estudo e saiba quanto é a mortalidade por DCNT, assim como as doenças que mais acometem os homens.<br><br><b>SIGA E CONFIRA!</b></p>",
+                        "order":435
                     },
                     {
                         "template": "texto",
@@ -209,7 +229,7 @@
                         "type": "normal",
                         "section":33,
                         "content": "<p style='height:50px;'></p>",
-                        "order":483
+                        "order":440
                     },
                     {
                         "template":"botaoPular",
@@ -217,7 +237,7 @@
                         "nSec":34,
                         "cor":"",
                         "style":"margin-top:10px",
-                        "order":485
+                        "order":445
                         },
 
 
@@ -227,10 +247,10 @@
                         "template": "texto",
                         "column": "col-xs-0 col-md-3",
                         "type": "texto",
-                        "style":"height:600px",
+                        "style":"height:680px",
                         "section":34,
                         "content": "",
-                        "order":489
+                        "order":450
                     },
                     {
                         "template": "texto",
@@ -238,7 +258,7 @@
                         "type": "title",
                         "section":34,
                         "content": "Doenças cardiovasculares",
-                        "order":490
+                        "order":455
                     },
                     {
                         "template": "texto",
@@ -246,7 +266,7 @@
                         "type": "texto",
                         "section":34,
                         "content": "<p class='textoDestaque'>36 MILHÕES 63% 30 A 70 ANOS</p>",
-                        "order":495
+                        "order":460
                     },
                     {
                         "template": "texto",
@@ -254,7 +274,7 @@
                         "type": "texto",
                         "section":34,
                         "content": "<p>As mortes por DCNT apresentam um número estimado de 36 milhões de mortes por ano, ou seja, 63% de todos os óbitos, incluindo mais de 14 milhões de pessoas que morrem muito jovens, entre idades de 30 e 70 anos, a maioria de causas evitáveis.</p>",
-                        "order":500
+                        "order":465
                     },
                     {
                         "template": "texto",
@@ -262,15 +282,16 @@
                         "type": "texto",
                         "section":34,
                         "content": "Segundo a Organização Mundial da saúde, as doenças cardiovasculares que representaram 48% dos óbitos por DCNT em 2008.<br><br>Vamos relembrá-las!",
-                        "order":510
+                        "order":470
                     },
                     {
                         "template": "texto",
                         "column": "col-xs-12 col-md-8",
                         "type": "subtitle",
+                        "style":"padding-top:50px;",
                         "section":34,
                         "content": "Hipertensão Arterial Sistêmica (HAS)",
-                        "order":520
+                        "order":475
                     },
                     {
                         "template": "texto",
@@ -278,23 +299,24 @@
                         "type": "texto",
                         "section":34,
                         "content": "<p>A <b>Hipertensão Arterial Sistêmica (HAS)</b> é um problema crônico, com alta prevalência no homem, que aumenta em faixas etárias maiores, principalmente acima de 40 anos, sendo superior a 50% entre 60 e 69 anos e 75% acima de 70 anos.</p><p>Apresenta-se, na maior parte das vezes, de forma agregada, em famílias com predisposição genética e fatores ambientais, aliada a um estilo de vida pouco saudável.</p><p>Revela maior prevalência em homens que consomem bebida alcoólica regularmente, que vivem sob estresse, ex-tabagistas, sedentários, que possuem algum grau de excesso de peso ou apresentam circunferência abdominal aumentada, assim como fatores socioeconômicos e uma dieta rica em sódio.</p>",
-                        "order":530
+                        "order":480
                     },
                     {
                         "template": "texto",
                         "column": "col-xs-12 col-md-8",
                         "type": "subtitle",
+                        "style":"padding-top:50px;",
                         "section":34,
                         "content": "Infarto Agudo do Miocárdio (IAM)",
-                        "order":540
+                        "order":485
                     },
                     {
                         "template": "texto",
                         "column": "col-xs-12 col-md-8",
                         "type": "texto",
                         "section":34,
-                        "content": "<p>Já o <b>Infarto agudo do miocárdio (IAM)</b> se caracteriza pela instalação de placas de ateroma nas coronárias, causando obstrução total ou parcial das artérias ou seus ramos.</p><p>Veja o índice de internações por IAM em 2014 nas regiões do Brasil!</p>",
-                        "order":550
+                        "content": "<p>Já o <b>Infarto agudo do miocárdio (IAM)</b> se caracteriza pela instalação de placas de ateroma nas coronárias, causando obstrução total ou parcial das artérias ou seus ramos.</p>",
+                        "order":490
                     },
 
 
@@ -303,74 +325,312 @@
 
                     {
                         "template": "texto",
-                        "column": "col-xs-0 col-md-12",
+                        "column": "col-xs-12 col-md-9",
                         "type": "texto",
-                        "style":"height:50px",
-                        "section":34,
-                        "content": "",
+                        "style":"",
+                        "section":35,
+                        "content": "<p class='textoDestaque'><b>Veja o índice de internações por IAM em 2014 nas regiões do Brasil!</b></p>",
+                        "order":495
+                    },
+                    {
+                        "template": "multimedia",
+                        "section":35,
+                        "src": "curso/recursos/modulo4/unidade2/UNA07_modulo4_unidade2_rec001/UNA07_REC01_grafico_brasil.html",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": {
+
+                            "height": "500px",
+                            "padding":"0px"
+                        },
+                        "order":500
+                    },
+
+
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "texto",
+                        "style":"height:320px; padding:70px 70px 0px 0px;",
+                        "section":36,
+                        "content": "<p style='color:#ffffff;'>A mortalidade por Infarto agudo do miocárdio (IAM) é mais prevalente em homens com idade acima de 50 anos, representando, 88,8% dos óbitos ocorridos, especialmente nas faixas etárias de 60 a 69 anos (24,9%) e 70 a 79 anos (24,2%).</p><p style='color:#ffffff;'>Alguns fatores não modificáveis contribuem para a ocorrência do IAM.</p><p style='color:#ffffff;'>Mas, quais são eles? <b>Clique e confira!</b></p>",
+                        "order":505
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "click",
+                        "section":36,
+                        "column": "col-xs-12 col-md-6",
+                        "contentCapa": "<p style='font-size:3em; margin-bottom:0;'>?</p>",
+                        "content": "<ul style='padding-top:30px; font-size:1.5em; text-align:left; '><li style='color:#ffffff;'>SEXO MASCULINO</li><br><li style='color:#ffffff;'>RAÇA NEGRA</li><br><li style='color:#ffffff;'>IDADE</li><br><li style='color:#ffffff;'>HISTÓRIA FAMILIAR DE DOENÇAS CARDIOVASCULARES</li></ul>",
+                        "contentHeight" : "310px",
+                        "styleObj": {
+                            
+                        },
+                        "order":510
+                    },
+
+
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "texto",
+                        "style":"",
+                        "section":36,
+                        "content": "<p style='font-size:1.5em; color:#ffffff; padding-top:50px;'><b>Já em termos de mortes atribuíveis, os principais fatores de risco cardiovascular são:</b></p>",
+                        "order":515
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "hover",
+                        "section":36,
+                        "column": "col-xs-12 col-md-6",
+                        "contentCapa": "<p style='margin:0;'>HIPERTENÇÃO ARTERIAL</p>",
+                        "backgroundCapa":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec006.png",
+                        "content": "<p style='padding-top:40px; font-size:2em;'>13%</p>",
+                        "contentHeight" : "160px",
+                        "styleObj": {
+                            "padding":"0"
+                        },
+                        "order":520
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "hover",
+                        "section":36,
+                        "column": "col-xs-12 col-md-6",
+                        "contentCapa": "<p style='margin:0;'>TABAGISMO</p>",
+                        "backgroundCapa":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec005.png",
+                        "content": "<p style='padding-top:40px; font-size:2em;'>9%</p>",
+                        "contentHeight" : "160px",
+                        "styleObj": {
+                            "padding":"0"
+                        },
+                        "order":525
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "hover",
+                        "section":36,
+                        "column": "col-xs-12 col-md-6",
+                        "contentCapa": "<p style='margin:0;'>HIPERGLICEMIA</p>",
+                        "backgroundCapa":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec003.png",
+                        "content": "<p style='padding-top:40px; font-size:2em;'>6%</p>",
+                        "contentHeight" : "160px",
+                        "styleObj": {
+                            "padding":"0"
+                        },
+                        "order":530
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "hover",
+                        "section":36,
+                        "column": "col-xs-12 col-md-6",
+                        "contentCapa": "<p style='margin:0;'>INATIVIDADE FÍSICA</p>",
+                        "backgroundCapa":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec004.png",
+                        "content": "<p style='padding-top:40px; font-size:2em;'>6%</p>",
+                        "contentHeight" : "160px",
+                        "styleObj": {
+                            "padding":"0"
+                        },
+                        "order":535
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "hover",
+                        "section":36,
+                        "column": "col-xs-12 col-md-12",
+                        "contentCapa": "<p style='margin:0;'>SOBREPESO E OBESIDADE</p>",
+                        "backgroundCapa":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec007.png",
+                        "content": "<p style='padding-top:40px; font-size:2em;'>5%</p>",
+                        "contentHeight" : "160px",
+                        "styleObj": {
+                            "padding":"0"
+                        },
+                        "order":540
+                    },
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-7",
+                        "type": "texto",
+                        "style":"",
+                        "section":37,
+                        "content": "<p>Vale destacar que esses fatores de risco comportamentais e metabólicos frequentemente coexistem na mesma pessoa e atuam sinergicamente para aumentar o risco total do indivíduo de desenvolver eventos vasculares agudos. </p><p>E com igual importância a condição socioeconômica baixa, falta de apoio social, estresse no trabalho e na vida familiar, depressão e ansiedade são fatores de risco psicossociais para as doenças cardiovasculares, que dificultam a adesão a estilo de vida saudável, orientações e tratamentos.</p>",
+                        "order":545
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-7",
+                        "type": "subtitle",
+                        "style":"padding-top:50px;",
+                        "section":37,
+                        "content": "Diabetes Mellitus",
+                        "order":550
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-7",
+                        "type": "texto",
+                        "section":37,
+                        "content": "<p>Também faz parte das doenças que mais atingem os homens o Diabetes Mellitus, considerado um importante problema de saúde pública, com alta morbimortalidade no homem em decorrência de suas complicações, associadas a danos em longo prazo especialmente nos olhos, rins, nervos e sistema circulatório. </p><p>Enquanto profissional da saúde, você já deve saber muito bem o mecanismo de ação da doença, por isso, o que queremos destacar neste momento é que você precisa enfatizar com o homem que frequenta sua unidade de saúde a importância da alimentação saudável, da prática de atividade física, da cessação do tabagismo e da redução do excesso de peso, fatores que podem reduzir em até 91% a incidência de DM e 88% nos casos com histórico familiar.</p>",
                         "order":555
                     },
                     {
                         "template": "texto",
-                        "column": "col-xs-12 col-md-5",
-                        "type": "texto",
-                        "style":"height:400px",
-                        "section":34,
-                        "content": "<p style='padding-top:110px;'>JA mortalidade por Infarto agudo do miocárdio (IAM) é mais prevalente em homens com idade acima de 50 anos, representando, 88,8% dos óbitos ocorridos, especialmente nas faixas etárias de 60 a 69 anos (24,9%) e 70 a 79 anos (24,2%).</p><p>Alguns fatores não modificáveis contribuem para a ocorrência do IAM.</p><p>Mas, quais são eles? Clique e confira!</p>",
+                        "column": "col-xs-12 col-md-7",
+                        "type": "subtitle",
+                        "style":"padding-top:50px;",
+                        "section":37,
+                        "content": "Doenças respiratórias crônicas",
                         "order":560
                     },
                     {
-                        "template": "revelar",
-                        "type": "click",
-                        "section":34,
-                        "column": "col-xs-12 col-md-3",
-                        "contentCapa": "<p style='font-size:3em;'>?</p>",
-                        "content": "<p style='padding-top:40px; font-size:1.5em;'>SEXO MASCULINO</p>",
-                        "contentHeight" : "150px",
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-7",
+                        "type": "texto",
+                        "section":37,
+                        "content": "<p>As <b>doenças respiratórias crônicas</b> também estão entre as DCNT mais prevalentes entre os homens.</p><p>Fique por dentro das principais e suas estimativas, acesse aqui o PDF e leia na íntegra o conteúdo sobre as doenças respiratórias crônicas.</p>",
+                        "order":565
+                    },
+                    {
+                        "template": "multimedia",
+                        "section":37,
+                        "src": "curso/recursos/modulo4/unidade2/UNA07_modulo4_unidade2_rec002/UNA07_REC04_graficoBarras.html",
+                        "column": "col-xs-12 col-md-8",
                         "styleObj": {
-                            
+
+                            "height": "500px",
+                            "padding":"0px"
                         },
                         "order":570
                     },
                     {
-                        "template": "revelar",
-                        "type": "click",
-                        "section":34,
-                        "column": "col-xs-12 col-md-3",
-                        "contentCapa": "<p style='font-size:3em;'>?</p>",
-                        "content": "<p style='padding-top:40px; font-size:1.5em;'>RAÇA NEGRA</p>",
-                        "contentHeight" : "150px",
-                        "styleObj": {
-                            
-                        },
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "subtitle",
+                        "style":"padding-top:50px;",
+                        "section":37,
+                        "content": "Neoplasias/tumores",
+                        "order":575
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "texto",
+                        "section":37,
+                        "content": "<p>As neoplasias têm sido uma grande preocupação, você sabe qual a estimativa de novos casos de câncer por ano entre 2012 e 2025?</p>",
                         "order":580
                     },
                     {
                         "template": "revelar",
-                        "type": "click",
-                        "section":34,
-                        "column": "col-xs-12 col-md-3",
-                        "contentCapa": "<p style='font-size:3em;'>?</p>",
-                        "content": "<p style='padding-top:40px; font-size:1.5em;'>IDADE</p>",
-                        "contentHeight" : "150px",
+                        "type": "dropdown",
+                        "section":37,
+                        "column": "col-xs-12 col-md-4",
+                        "contentCapa": "2012",
+                        "content": "7,4 milhão de casos",
                         "styleObj": {
-                            "margin-top":"-39px"
+                            "padding": "0px 100px 0px 100px"
+                        },
+                        "order":585
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "dropdown",
+                        "section":37,
+                        "column": "col-xs-12 col-md-4",
+                        "contentCapa": "2025",
+                        "content": "10,4 milhões de casos novos",
+                        "styleObj": {
+                            "padding": "0px 100px 0px 100px"
                         },
                         "order":590
                     },
                     {
-                        "template": "revelar",
-                        "type": "click",
-                        "section":34,
-                        "column": "col-xs-12 col-md-3",
-                        "contentCapa": "<p style='font-size:3em;'>?</p>",
-                        "content": "<p style='padding-top:35px; font-size:1.5em;'>HISTÓRIA FAMILIAR DE DOENÇAS CARDIOVASCULARES</p>",
-                        "contentHeight" : "150px",
-                        "styleObj": {
-                            "margin-top":"-39px"
-                        },
-                        "order":600
-                    }
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "texto",
+                        "section":37,
+                        "content": "",
+                        "order":595
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "texto",
+                        "section":37,
+                        "content": "<p><b>TER CONHECIMENTO DA ESTIMATIVA DE QUANTAS PESSOAS DESENVOLVERÃO A DOENÇA, QUANTAS MORRERÃO E QUANTAS VIVERÃO COM ELA COMO SOBREVIVENTES FAZ PARTE DA VIGILÂNCIA DA MORBIMORTALIDADE POR CÂNCER.</b></p><p> A compreensão das tendências temporais no Brasil e suas regiões, assim como os principais fatores determinantes, complementam esse monitoramento, e são vitais para o planejamento e avaliação de intervenções associadas à prevenção.</p><p>Agora vamos comentar os tipos de câncer que mais acometem os homens. Confira.</p>",
+                        "order":595
+                    },
+                    
+
+
+
+
+                    {
+                        "template":"gavetaVertical",
+                        "column": "col-xs-12 col-md-8",
+                        "style":"margin-top:50px;",
+                        "section":37,
+                        "gavetasVerticais":[
+                            {
+                                "numeroGaveta":"1",
+                                "tituloGaveta":"Câncer de Próstata",
+                                "content":"No Brasil, o câncer de próstata é o mais incidente, representando 33,7% do total de cânceres diagnosticados. A idade é o único fator de risco estabelecido para câncer de próstata. Estima-se que 68,4% (749.972) dos casos no mundo ocorrem em homens com 65 anos ou mais (GLOBOCAN, 2013). A incidência do câncer acompanha o processo de envelhecimento em decorrência de uma maior exposição das células das pessoas idosas a diversos fatores de risco cancerígenos (INCA, 2006). A história familiar positiva representa 13% a 26% de todos os casos. O risco de desenvolver a doença entre indivíduos com história familiar é duas a três vezes maior para os homens da mesma faixa etária e grupo étnico, sem história familiar. Entre a população negra o risco de câncer de próstata é 60% maior."
+                            },
+                            {
+                                "numeroGaveta":"2",
+                                "tituloGaveta":"Câncer de Pulmão",
+                                "content":"O câncer de pulmão é o tumor mais comum entre os homens no mundo há várias décadas, representando 16,8% do total de cânceres diagnosticados. No Brasil, o câncer de pulmão é o segundo mais frequente, representando 8,04% do total de cânceres diagnosticados, metade da incidência observada no mundo. Os fatores relacionados ao modo de vida e às condições ambientais são os principais determinantes do câncer de pulmão, uma das principais causas de morte evitáveis no mundo. Segundo relatório da OMS, o tabaco é responsável por mais de 80% das mortes em geral nos países menos desenvolvidos e, dentre elas, as neoplasias malignas."
+                            },
+                            {
+                                "numeroGaveta":"3",
+                                "tituloGaveta":"Câncer Colorretal",
+                                "content":"O câncer de colorretal é o terceiro tumor mais comum entre os homens no mundo, representando 10,1% do total de cânceres estimados em 2014. No Brasil, é o terceiro mais frequente, representando 7,4% do total de cânceres estimados em 2014 (15.070 casos novos), e a quarta causa de óbitos por câncer em homens.<br><br>Os fatores relacionados à alimentação são um dos principais determinantes do câncer de colorretal, principalmente no consumo de carnes vermelhas, que está associado a um aumento no risco de 28% a 35%. O consumo de carnes processadas, como mortadelas, presuntos, salsichas, linguiças apresenta maior risco de desenvolvimento de pólipos e câncer colorretal em 20% a 49%. A história familiar de câncer colorretal é um fator de risco dominante em alguns indivíduos que podem apresentar uma predisposição genética ao desenvolvimento de doenças crônicas do intestino, como a retocolite ulcerativa crônica e a Doença de Crohn."
+                            },
+                            {
+                                "numeroGaveta":"4",
+                                "tituloGaveta":"Câncer de estômago",
+                                "content":"<img src='curso/images/modulo4/unidade2/UNA07_m04_un2_rec009.png'/>O câncer de estômago é o quarto tumor mais comum entre os homens no mundo, representando 8,5% do total de cânceres estimados em 2014. O câncer de estômago representou 10,1% do total de óbitos masculinos no mundo em 2012 (469.970), sendo a terceira causa de morte por neoplasia. Possui alta taxa de letalidade, avaliada pela proximidade entre taxas de incidência e mortalidade. O maior fator de risco para o desenvolvimento do câncer de estômago em todo o mundo é a infecção prolongada pela bactéria H. pyilori, associada a aproximadamente 60% dos casos de câncer gástrico."
+                            }
+                        ],
+                        "order":597
+                    },
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "texto",
+                        "section":38,
+                        "content": "<p class='textoDestaque' style='text-align:center;'>VÁRIOS TIPOS DE CÂNCERES PODEM TER SUA INCIDÊNCIA DIMINUÍDA PELA ELIMINAÇÃO DA EXPOSIÇÃO A FATORES DE RISCO. A DETECÇÃO PRECOCE DO POTENCIAL DE MALIGNIDADE DAS CÉLULAS POSSIBILITA UMA CONDIÇÃO MAIS FAVORÁVEL PARA SEU TRATAMENTO E, CONSEQUENTEMENTE, CURA.</p>",
+                        "order":598
+                    },
+
+
+
+                    {
+                       "template":"contraCapa",
+                       "section":39,
+                       "final":false,
+                       "textoDownload":"AGORA, SIGA PARA O ESTUDO DO CONTEUDO COMPLETO",
+                       "label":"BAIXAR O LIVRO",
+                       "textoFinal":"<p>Chegamos ao fim desta etapa.</p><p>Agora, você já pode iniciar a próxima unidade, que trata sobre as estratégias de cuidado e atenção em rede.</p><p>Aproveite este estudo e reflita sobre sua prática diária!</p><p>BOM APRENDIZADO!",
+                       "order":599
+                       }
 
 
 

@@ -1,0 +1,313 @@
+    {
+        "_id": "5379f9c48b714fc104000133",
+        "courseName": "TESTE IEA",
+        "scoName": "TESTE IEA",
+        "srcCaptivate":"",
+        "scorm":false,
+        "teste":"",
+        "slides": [       
+            {
+                "template": "slideScroll",
+                "resources": [
+
+                 {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "style":"",
+                        "idSection":"90",
+                        "capa":"capa",
+                        "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img01.png",
+                        
+                        "order":90
+                    },
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "style":"",
+                        "idSection":"91",
+                        "backgroundSRC":"",
+                        "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img02.png",
+                                "styleImg":"top: 0px; right: 0px;"
+                            }
+
+
+                        ],
+
+
+                        "order":91
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"92",
+                        "backgroundSRC":"",
+
+                         "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade1/UNAS07_M04_UNI03_img03.png",
+                                "styleImg":"top: 0px; right: 0px;"
+                            }
+
+
+                        ],
+                        "order":92
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"93",
+                        "backgroundSRC":"",
+
+                          "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img04.png",
+                                "styleImg":"top: 0px; left: 0px;"
+                            }
+
+
+                        ],
+                        "order":93
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"94",
+                        "backgroundSRC":"",
+                          "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img05.png",
+                                "styleImg":"top: 0px; right: 0px;"
+                            }
+
+
+                        ],
+                        "order":94
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"95",
+                        "backgroundSRC":"",
+                         "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img06.png",
+                                "styleImg":"top: 90px; left: 0px;"
+                            }
+
+
+                        ],
+                        "order":95
+                    },
+
+
+                     {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"96",
+                        "backgroundSRC":"",
+                         "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img07.png",
+                                "styleImg":"top: 90px; left: 0px;"
+                            }
+
+
+                        ],
+                        "order":96
+                    },
+
+
+                      {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"97",
+                        "backgroundSRC":"",
+                        "order":97
+                    },
+
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "idSection":"68",
+                        "backgroundSRC":"",
+                        "backgroundColor":"#222526",
+                        "styleContainer":"padding:10px;",
+                        "order":98
+                    },
+
+
+                     {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"99",
+                        "backgroundSRC":"",
+                         "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img08.png",
+                                "styleImg":"top: 0px; right: 0px;"
+                            }
+
+
+                        ],
+                        "order":99
+                    },
+
+
+
+
+                     {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"100",
+                        "capa":"capa",
+                        "backgroundSRC":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img10.png",
+                        "order":100
+                    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                {
+                       "template":"capa",
+                       "nUnidade":"UNIDADE 1",
+                       "column": "col-xs-12 col-md-12",
+                       "section":90,
+                       "tituloCapa":"CONDIÇÕES DE VULNERABILIDADE<br/>NA SAÚDE DO HOMEM",
+                       "textoCapa":"Vulnerabilidade na saúde do homem: um tema a ser refletido, pensado, analisado e compreendido da maneira mais ampla possível pelos profissionais de saúde, considerando aspectos socioculturais e, também, particulares.",
+                       "order":2000
+
+                   },
+
+                   
+                    {
+                       "template": "texto",
+                       "column": "col-xs-0 col-md-12",
+                       "type": "normal",
+                       "section":90,
+                       "style":"height:130px",
+                       "order":2010
+                   },
+                   {
+                       "template":"botaoPular",
+                       "section":90,
+                       "nSec":91,
+                       "cor":"branco",
+                       "style":"margin-top:10px",
+                       "order":2020
+                   },
+
+
+
+
+
+
+
+
+
+
+
+                  
+       
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "section":91,
+                        "content": "<p style='font-size:2em; text-align:center; '><b>EM SEU COTIDIANO, VOCÊ JÁ OBSERVOU AS DIFERENÇAS DA PROCURA PELOS SERVIÇOS DE SAÚDE ENTRE HOMENS E MULHERES?</b></p>",
+                        "order":2030
+                    },
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "section":91,
+                        "style":"height:40px",
+                        "content": "",
+                        "order":2035
+                    },
+
+                  
+
+
+                      {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":91,
+                        "content": "<p>Enquanto as MULHERES buscam os serviços de saúde com maior frequência para realizar exames preventivos e monitoramento das condições de saúde, os HOMENS costumam acessar primeiro os serviços especializados, já com doenças e agravos instalados.</p><p>POLÍTICA NACIONAL DE ATENÇÃO INTEGRAL À SAÚDE DO HOMEM (PNAISH) reforça a importância de fortalecer e qualificar a atenção primária para a população masculina para o alcance da promoção da saúde e a prevenção dos problemas evitáveis.</p><p>Para aprofundar nosso conhecimento sobre este tema tão importante, vamos discutir, nesta unidade, a importância da categoria de gênero como um determinante de saúde da população masculina, ou seja, como as questões de gênero influenciam no cuidado em saúde da população masculina.</p><p>Acompanhe!</p>",
+                        "order":2040
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-3",
+                        "type": "normal",
+                        "section":91,
+                        "style":"height:440px",
+                        "content": "",
+                        "order":2050
+                    },
+
+                            
+
+                     {
+                       "template": "texto",
+                       "column": "col-xs-0 col-md-5",
+                       "type": "normal",
+                       "section":91,
+                       "style":"height:130px;",
+                       "content": "",
+                       "order":2060
+                   },
+                   {
+                       "template":"botaoPular",
+                       "section":91,
+                       "nSec":92,
+                       "cor":"preto",
+                       "style":"margin-top:10px",
+                       "order":2070
+                   }
+
+
+
+
+                ]
+            }
+        ]
+    }

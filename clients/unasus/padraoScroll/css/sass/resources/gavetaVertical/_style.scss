@@ -80,22 +80,40 @@
 	}
 	
 	//gaveta ativa
-	.ui-tabs-nav .ui-tabs-active{
-		background: $selected; 
-		&:after{
-			content: '';
-			position: absolute;
-			border-style: solid;
-			border-width: 10px 0px 10px 15px;
-			border-color: transparent $selected;
-			display: block;
-			width: 0;
-			z-index: 1;
-			right: -14px;
-			top: 16px;
+	.ui-tabs-nav{
+		.ui-tabs-active{
+			background: $selected; 
+			&:after{
+				content: '';
+				position: absolute;
+				border-style: solid;
+				border-width: 10px 0px 10px 15px;
+				border-color: transparent $selected;
+				display: block;
+				width: 0;
+				z-index: 1;
+				right: -14px;
+				top: 16px;
+			}
+			span{
+				color: $normal !important;
+			}
+			&.visited{
+				background: $selected;
+				&:after{
+					border-color: transparent $selected;
+				}
+				span{
+					color: $normal !important;
+				}
+			}
 		}
-		span{
-			color: $normal !important;
+
+		.visited{
+			background: $visited; 
+			span{
+				color: $normal !important;
+			}
 		}
 	}
 }

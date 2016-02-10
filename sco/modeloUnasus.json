@@ -126,7 +126,7 @@
                         "template":"gavetaHorizontal",
                         "column": "col-xs-12 col-md-12",
                         "style": "margin-top:50px;",
-                        "section":1,
+                        "section":2,
                         "gavetasHorizontais":[    
                             {
                                 "numeroGaveta":"1",
@@ -541,17 +541,6 @@
                         "column": "col-xs-12 col-md-6",
                         "label": "BAIXAR O LIVRO",
                         "order":33
-                    },
-
-                    {
-                        "template": "multimedia",
-                        "section":5,
-                        "src": "http://www.terra.com.br/",
-                        "column": "col-xs-12 col-md-12",
-                        "styleObj": {
-                            "height": "500px"
-                        },
-                        "order":34
                     }
                 ]
             }            
