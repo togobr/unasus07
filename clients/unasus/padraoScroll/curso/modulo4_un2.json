@@ -92,9 +92,10 @@
                     {
                         "template":"contraCapa",
                         "section":36,
-                        "final":true,
+                        "final":false,
                         "textoDownload":"AGORA, SIGA PARA O ESTUDO DO CONTEUDO COMPLETO",
                         "label":"BAIXAR O LIVRO",
+                        "textoAv":"ESCOLHA O PRÓXIMO MÓDULO",
                         "textoFinal":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero nisi ullam molestias numquam magnam, officia optio qui pariatur aliquid commodi ab eaque cumque consequuntur. Molestiae suscipit, aspernatur quibusdam modi reiciendis!",
         
                         "order":450

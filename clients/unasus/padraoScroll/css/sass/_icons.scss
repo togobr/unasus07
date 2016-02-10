@@ -24,30 +24,36 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-download:before {
+.icon-avancar:before {
     content: "\e900";
 }
-.icon-exclamacao:before {
+.icon-download:before {
     content: "\e901";
 }
-.icon-fechar:before {
+.icon-exclamacao:before {
     content: "\e902";
 }
-.icon-proxSes:before {
+.icon-fechar:before {
     content: "\e903";
 }
-.icon-seta_direita:before {
+.icon-proxSes:before {
     content: "\e904";
 }
-.icon-seta_esq:before {
+.icon-seta_direita:before {
     content: "\e905";
 }
-.icon-setaPreenchida_baixo:before {
+.icon-seta_esq:before {
     content: "\e906";
 }
-.icon-setaPreenchida_cima:before {
+.icon-setaPreenchida_baixo:before {
     content: "\e907";
 }
-.icon-setaPreenchida_direita:before {
+.icon-setaPreenchida_cima:before {
     content: "\e908";
+}
+.icon-setaPreenchida_direita:before {
+    content: "\e909";
+}
+.icon-voltar:before {
+    content: "\e90a";
 }

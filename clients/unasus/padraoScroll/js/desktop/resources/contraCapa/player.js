@@ -10,8 +10,10 @@ define([], function() {
 			*/
             var recurso = this;
 
-            if(recurso.data.final){
+            if(!recurso.data.final){
                 recurso.$el.find(".contLeft").css("opacity",0);
+                recurso.$el.find(".contLeft").parent().parent().addClass("col-xs-0");
+
             }
 
             

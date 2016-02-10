@@ -98,7 +98,7 @@
 
 	.col-xs-0
     {
-        display: none;
+        display: none !important;
     }
 
     .backgroundScroll
@@ -134,4 +134,24 @@
         	  margin-bottom: 130px;
         }
     }
+
+
+    .contraCapa{
+    	padding-bottom: 200px;
+    }
+
+    .contLeft, .textoFinal{
+    	margin:25px;
+    }
+
+    .textoDownload{
+    	margin-bottom: 15px;
+    }
+
+    .contRight{
+    	padding-left:15px;
+    	padding-right:15px;
+    }
+
+
  }
