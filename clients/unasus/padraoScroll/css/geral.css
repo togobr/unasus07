@@ -2747,19 +2747,19 @@ ol li:before {
   src: url("assets/fonts/roboto/fontawesome-webfont.woff") format("woff"), url("assets/fonts/roboto/FontAwesome.otf") format("opentype"), url("assets/fonts/roboto/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
 }
 /* line 3, sass/resources/caixaDestaque/_style.scss */
-.caixaDestaque {
+.caixaDestaqueHolder {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   background: #ffdc00;
   width: 100%;
   box-sizing: border-box;
-  word-break: break-all;
+  word-break: break-word;
   margin-bottom: 40px;
   padding: 0 !important;
 }
 /* line 13, sass/resources/caixaDestaque/_style.scss */
-.caixaDestaque .iconDestaque {
+.caixaDestaqueHolder .iconDestaque {
   position: relative;
   width: 10%;
   height: inherit;
@@ -2769,14 +2769,14 @@ ol li:before {
   min-width: 105px;
 }
 /* line 22, sass/resources/caixaDestaque/_style.scss */
-.caixaDestaque .iconDestaque .icon {
+.caixaDestaqueHolder .iconDestaque .icon {
   color: #000;
   margin: 16px auto;
   height: 80px;
   font-size: 7.6em;
 }
 /* line 29, sass/resources/caixaDestaque/_style.scss */
-.caixaDestaque .iconDestaque:after {
+.caixaDestaqueHolder .iconDestaque:after {
   content: "";
   position: absolute;
   right: 0;
@@ -2786,7 +2786,7 @@ ol li:before {
   background: #000;
 }
 /* line 40, sass/resources/caixaDestaque/_style.scss */
-.caixaDestaque .contentDestaque {
+.caixaDestaqueHolder .contentDestaque {
   position: relative;
   height: 100%;
   font-family: "Roboto-Regular", sans-serif;
@@ -2798,12 +2798,12 @@ ol li:before {
   padding: 20px;
 }
 /* line 52, sass/resources/caixaDestaque/_style.scss */
-.caixaDestaque .contentDestaque p {
+.caixaDestaqueHolder .contentDestaque p {
   width: 100%;
   margin: 0;
 }
 
-/* line 59, sass/resources/caixaDestaque/_style.scss */
+/* line 60, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.laranja {
   background: #2b95dd;
 }
@@ -3478,8 +3478,9 @@ ol li:before {
   width: 100%;
   background: #dab463;
   display: table;
+  position: relative;
 }
-/* line 46, sass/resources/sliderResponsivo/_style.scss */
+/* line 47, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer .bottomContainer p {
   margin: 0;
   width: 100%;
@@ -3490,7 +3491,7 @@ ol li:before {
   vertical-align: middle;
   font-family: "Roboto-Bold", sans-serif;
 }
-/* line 58, sass/resources/sliderResponsivo/_style.scss */
+/* line 59, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer .wrapperBtnNav {
   font-family: 'Entypo';
   position: absolute;
@@ -3498,12 +3499,12 @@ ol li:before {
   margin-top: -35px;
   left: 3px;
 }
-/* line 64, sass/resources/sliderResponsivo/_style.scss */
+/* line 65, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer .wrapperBtnNav.next {
   left: auto;
   right: 3px;
 }
-/* line 69, sass/resources/sliderResponsivo/_style.scss */
+/* line 70, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer .slider_nav {
   -webkit-box-shadow: 1px 0px 8px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 1px 0px 8px rgba(0, 0, 0, 0.1);
@@ -3521,7 +3522,7 @@ ol li:before {
   bottom: 40px;
   background: rgba(255, 255, 255, 0.7);
 }
-/* line 85, sass/resources/sliderResponsivo/_style.scss */
+/* line 86, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer .slider_nav.next {
   -webkit-box-shadow: -1px 0px 8px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: -1px 0px 8px rgba(0, 0, 0, 0.1);
@@ -3529,14 +3530,14 @@ ol li:before {
   left: auto;
   right: 0px;
 }
-/* line 91, sass/resources/sliderResponsivo/_style.scss */
+/* line 92, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer ul.slider_tabs {
   position: absolute;
   z-index: 3;
-  bottom: -42px;
+  top: 10px;
   right: 10%;
 }
-/* line 96, sass/resources/sliderResponsivo/_style.scss */
+/* line 97, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer ul.slider_tabs li {
   position: relative;
   display: inline-block;
@@ -3544,7 +3545,7 @@ ol li:before {
   padding-left: 0;
   margin-right: 7px;
 }
-/* line 102, sass/resources/sliderResponsivo/_style.scss */
+/* line 103, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer ul.slider_tabs li a {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -3556,7 +3557,7 @@ ol li:before {
   overflow: hidden;
   display: inline-block;
 }
-/* line 110, sass/resources/sliderResponsivo/_style.scss */
+/* line 111, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer ul.slider_tabs li a:after {
   content: "";
   position: absolute;
@@ -3564,7 +3565,7 @@ ol li:before {
   width: 10px;
   background: #FFFFFF;
 }
-/* line 118, sass/resources/sliderResponsivo/_style.scss */
+/* line 119, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer ul.slider_tabs li:after {
   content: "";
   position: absolute;
@@ -3574,11 +3575,11 @@ ol li:before {
   top: 12px;
   background: #FFFFFF;
 }
-/* line 128, sass/resources/sliderResponsivo/_style.scss */
+/* line 129, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer ul.slider_tabs li:last-child:after {
   content: none;
 }
-/* line 134, sass/resources/sliderResponsivo/_style.scss */
+/* line 135, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer ul.slider_tabs .slider_here a {
   height: 13px;
   width: 13px;
@@ -3823,7 +3824,7 @@ ol li:before {
   right: 10px;
   top: 10px;
   z-index: 2;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 /* line 146, sass/resources/botaoModal/_style.scss */
 .btnFechar span {
@@ -3944,13 +3945,14 @@ ol li:before {
   height: 4px;
   bottom: 0px;
   background: #dab463;
+  z-index: -1;
 }
-/* line 60, sass/resources/texto/_style.scss */
+/* line 61, sass/resources/texto/_style.scss */
 .texto.normal .textoSolto {
   font-size: 1.5em;
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 65, sass/resources/texto/_style.scss */
+/* line 66, sass/resources/texto/_style.scss */
 .texto.title .textoSolto {
   font-size: 2.6em;
   line-height: 30px;
@@ -3958,12 +3960,12 @@ ol li:before {
   color: #2f3275;
   text-transform: uppercase;
 }
-/* line 74, sass/resources/texto/_style.scss */
+/* line 75, sass/resources/texto/_style.scss */
 .texto.subtitle .wrapper {
   display: table;
   margin: initial;
 }
-/* line 78, sass/resources/texto/_style.scss */
+/* line 79, sass/resources/texto/_style.scss */
 .texto.subtitle .textoSolto {
   font-size: 3em;
   line-height: 30px;
@@ -3972,14 +3974,14 @@ ol li:before {
   display: table-cell;
   font-variant: small-caps;
 }
-/* line 86, sass/resources/texto/_style.scss */
+/* line 87, sass/resources/texto/_style.scss */
 .texto.subtitle .underlineTitle {
   display: table-cell;
   bottom: 6px;
   margin-left: 5px;
 }
 
-/* line 95, sass/resources/texto/_style.scss */
+/* line 97, sass/resources/texto/_style.scss */
 .texto.quadro {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -3997,10 +3999,10 @@ ol li:before {
 .content .revelar .fechaRevelar {
   position: absolute;
   top: 15px;
-  right: 15px;
+  right: 25px;
   height: 25px;
   width: 25px;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 /* line 18, sass/resources/revelar/_style.scss */
 .content .revelar .contentCapa {

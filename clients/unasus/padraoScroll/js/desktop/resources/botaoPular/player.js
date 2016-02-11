@@ -8,11 +8,13 @@ define([], function() {
 			- this.el
 			- this.$el
 			*/
-            var recurso = this;
+            var recurso = this,
+                $btPular = recurso.$el.find(".btPular"),
+                cam = recurso.$el.data("nsec");
 
-            recurso.$el.on({
+            $btPular.on({
                 click: function(e) {
-                    var cam = $(this).data("nsec");
+                
 
                     $('html, body').animate({
                         scrollTop:$('#'+ cam).position().top

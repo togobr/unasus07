@@ -1,7 +1,7 @@
     {
         "_id": "5379f9c48b714fc104000133",
-        "courseName": "",
-        "scoName": "UNIDADE",
+        "courseName": "TESTE IEA",
+        "scoName": "TESTE IEA",
         "srcCaptivate":"",
         "scorm":false,
         "teste":"",
@@ -168,8 +168,6 @@
                     {
                         "template": "texto",
                         "column": "col-xs-12 col-md-12",
-                        "class":"quadro",
-                        "style":"background-color:red", 
                         "type": "normal",
                         "section":31,
                         "content": "<p style='font-size:2em; text-align:center;'><b>Quais são as doenças mais prevalentes entre os homens? Quantas pessoas morrem por ano devido às Doenças Crônicas Não Transmissíveis (DCNT)?</b></p>",
@@ -639,36 +637,13 @@
 
                     {
                        "template":"contraCapa",
-                       "section":38,
+                       "section":39,
                        "final":false,
-                       "inicio":false,
-                       "secVoltar":30,
-                       "secAvancar":31,
-                       "textoAv":"trexto aqui",
-                       "textoVoltar":"VOLTAR",
-                       "linkMod":"http://www.google.com",
                        "textoDownload":"AGORA, SIGA PARA O ESTUDO DO CONTEUDO COMPLETO",
                        "label":"BAIXAR O LIVRO",
                        "textoFinal":"<p>Chegamos ao fim desta etapa.</p><p>Agora, você já pode iniciar a próxima unidade, que trata sobre as estratégias de cuidado e atenção em rede.</p><p>Aproveite este estudo e reflita sobre sua prática diária!</p><p>BOM APRENDIZADO!",
                        "order":599
-                    },
-
-
-                    {
-                       "template":"contraCapa",
-                       "section":39,
-                       "final":false,
-                       "inicio":true,
-                       "secVoltar":30,
-                       "secAvancar":31,
-                       "textoAv":"trexto aqui",
-                       "textoVoltar":"VOLTAR Á TELA DE NAVEGAÇÃO",
-                       "linkMod":"http://www.google.com",
-                       "textoDownload":"AGORA, SIGA PARA O ESTUDO DO CONTEUDO COMPLETO",
-                       "label":"BAIXAR O LIVRO",
-                       "textoFinal":"<p>Chegamos ao fim desta etapa.</p><p>Agora, você já pode iniciar a próxima unidade, que trata sobre as estratégias de cuidado e atenção em rede.</p><p>Aproveite este estudo e reflita sobre sua prática diária!</p><p>BOM APRENDIZADO!",
-                       "order":600
-                    }
+                       }
 
 
 

@@ -1,11 +1,11 @@
 @import "../../_estiloPadrao.scss";
 
-.caixaDestaque{
+.caixaDestaqueHolder{
 	@include border-radius(5px);
 	background: #ffdc00;
 	width:100%;
 	box-sizing: border-box;
-	word-break:break-all;
+	word-break: break-word;
 	margin-bottom: $entreRecursos;
 	padding: 0 !important;
 
@@ -52,6 +52,7 @@
 		p{
 			width: 100%;
 			margin: 0;
+			
 		}
 	}
 }
