@@ -29,11 +29,9 @@
 			          	<span class="caret"></span>
 			          </a>
 			          <ul class="dropdown-menu">
-			            <li><a href="#">Módulo 1</a></li>
-			            <li><a href="#">Módulo 2</a></li>
-			            <li><a href="#">Módulo 3</a></li>
-			            <li role="separator" class="divider"></li>
-			            <li><a href="#">Unidade 2</a></li>
+			          	{{#unidades}}
+			          	<li><a href="#">{{name}}</a></li>
+			          	{{/unidades}}
 			          </ul>
 			        </li>
 
