@@ -122,7 +122,8 @@
     {
         display: none !important;
     }
-
+    
+    //RECURSO - backgroundScroll
     .backgroundScroll
     {
         .imgBG
@@ -130,7 +131,8 @@
             opacity: .2;
         }
     }
-
+    
+    //RECURSO - capa
     .capa
     {
         .contCapa
@@ -154,8 +156,8 @@
             margin-bottom: 130px;
         }
     }
-
-
+    
+    //RECURSO - contraCapa
     .contraCapa
     {
         padding-bottom: 200px;
@@ -177,7 +179,6 @@
         padding-right: 15px;
         padding-left: 15px;
     }
-
 
     .botoesNav
     {
@@ -213,9 +214,15 @@
         }
     }
 
-    .texto.subtitle .underlineTitle{
+    //RECURSO - Gaveta Horizontal
+    // .gavetaHor{
+    //     #tabsHor{
+    //         ul.ui-tabs-nav{
+    //             li{
+    //                 display: block;
+    //             }
+    //         }
+    //     }
+    // }
 
-    	// margin-left: -80px;
-
-    }
 }

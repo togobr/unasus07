@@ -4559,74 +4559,74 @@ ol li:before {
     display: none !important;
   }
 
-  /* line 128, sass/_mediaQuery.scss */
+  /* line 129, sass/_mediaQuery.scss */
   .backgroundScroll .imgBG {
     opacity: .2;
   }
 
-  /* line 136, sass/_mediaQuery.scss */
+  /* line 138, sass/_mediaQuery.scss */
   .capa .contCapa {
     padding-left: 0;
   }
-  /* line 140, sass/_mediaQuery.scss */
+  /* line 142, sass/_mediaQuery.scss */
   .capa .nCapa {
     font-size: 1.5em;
     margin-top: 80px;
   }
-  /* line 146, sass/_mediaQuery.scss */
+  /* line 148, sass/_mediaQuery.scss */
   .capa .tituloCapa {
     font-size: 3em;
     font-weight: bold;
   }
-  /* line 151, sass/_mediaQuery.scss */
+  /* line 153, sass/_mediaQuery.scss */
   .capa .descCapa {
     margin: 0;
     margin-bottom: 130px;
   }
 
-  /* line 159, sass/_mediaQuery.scss */
+  /* line 161, sass/_mediaQuery.scss */
   .contraCapa {
     padding-bottom: 200px;
   }
 
-  /* line 164, sass/_mediaQuery.scss */
+  /* line 166, sass/_mediaQuery.scss */
   .contLeft,
   .textoFinal {
     margin: 25px;
   }
 
-  /* line 170, sass/_mediaQuery.scss */
+  /* line 172, sass/_mediaQuery.scss */
   .textoDownload {
     margin-bottom: 15px;
   }
 
-  /* line 175, sass/_mediaQuery.scss */
+  /* line 177, sass/_mediaQuery.scss */
   .contRight {
     padding-right: 15px;
     padding-left: 15px;
   }
 
-  /* line 184, sass/_mediaQuery.scss */
+  /* line 185, sass/_mediaQuery.scss */
   .botoesNav .voltarNav {
     width: 65px !important;
   }
-  /* line 190, sass/_mediaQuery.scss */
+  /* line 191, sass/_mediaQuery.scss */
   .botoesNav .voltarNav span:before {
     left: 10px;
   }
-  /* line 193, sass/_mediaQuery.scss */
+  /* line 194, sass/_mediaQuery.scss */
   .botoesNav .voltarNav span b {
     display: none;
   }
-  /* line 199, sass/_mediaQuery.scss */
+  /* line 200, sass/_mediaQuery.scss */
   .botoesNav .avancarNav {
     width: 65px !important;
   }
-  /* line 205, sass/_mediaQuery.scss */
+  /* line 206, sass/_mediaQuery.scss */
   .botoesNav .avancarNav span:before {
     right: 10px;
   }
-  /* line 208, sass/_mediaQuery.scss */
+  /* line 209, sass/_mediaQuery.scss */
   .botoesNav .avancarNav span b {
     display: none;
   }
