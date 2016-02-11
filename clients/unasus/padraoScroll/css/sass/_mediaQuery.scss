@@ -6,31 +6,31 @@
         .mainNavBar
         {
             // .navbar-header{
-            // 	.scoNameBlock{
-            // 		position: absolute;
-            // 		left: 0;
-            // 		display: block;
-            // 		width: -moz-calc(100% - 60px);
-            // 		width: -webkit-calc(100% - 60px);
-            // 		width: calc(100% - 60px);
-            // 		h1{
-            // 			font-size: 1.8em;
-            // 			font-family: $bold;
-            // 			color: $normal;
-            // 			overflow: hidden;
-            // 			text-overflow: ellipsis;
-            // 			white-space: nowrap;
-            // 			margin: 10px 15px 10px 15px;
-            // 		}
-            // 	}
-            // 	.navbarBtnBlock{
-            // 		position: absolute;
-            // 		right: 0;
-            // 		width: 60px;
-            // 		button{
-            // 			float: none;
-            // 		}
-            // 	}
+            //  .scoNameBlock{
+            //      position: absolute;
+            //      left: 0;
+            //      display: block;
+            //      width: -moz-calc(100% - 60px);
+            //      width: -webkit-calc(100% - 60px);
+            //      width: calc(100% - 60px);
+            //      h1{
+            //          font-size: 1.8em;
+            //          font-family: $bold;
+            //          color: $normal;
+            //          overflow: hidden;
+            //          text-overflow: ellipsis;
+            //          white-space: nowrap;
+            //          margin: 10px 15px 10px 15px;
+            //      }
+            //  }
+            //  .navbarBtnBlock{
+            //      position: absolute;
+            //      right: 0;
+            //      width: 60px;
+            //      button{
+            //          float: none;
+            //      }
+            //  }
             // }
             .navbar-collapse
             {
@@ -186,10 +186,10 @@
             width: 65px !important;
             span
             {
-
-            	&:before{
-            		left: 10px;
-            	}
+                &:before
+                {
+                    left: 10px;
+                }
                 b
                 {
                     display: none;
@@ -201,10 +201,10 @@
             width: 65px !important;
             span
             {
-
-            	&:before{
-            		right: 10px;
-            	}
+                &:before
+                {
+                    right: 10px;
+                }
                 b
                 {
                     display: none;
@@ -213,9 +213,59 @@
         }
     }
 
-    .texto.subtitle .underlineTitle{
+    .texto.subtitle .underlineTitle
+    {
+        // margin-left: -80px;
+    }
 
-    	// margin-left: -80px;
 
+    //recurso multimedia
+
+
+    .multimedia img
+    {
+        display: block;
+    }
+
+    .multimedia iframe
+    {
+        display: none;
+    }
+
+
+    //recurso modal
+
+
+    .primeiroPlano
+    {
+        // max-height: 300px;
+    }
+
+
+    .palavraDestacadaInner
+    {
+        position: absolute;
+        left: 0;
+
+        overflow: hidden;
+
+        max-width: 85%;
+
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    #modalContent{
+        padding-left:0;
+        padding-right:0;
+    }
+
+    #modalContent p {
+        padding-left:0;
+        padding-right:0;
+    }
+
+    .btCreditos{
+        width: auto;
     }
 }

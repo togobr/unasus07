@@ -1851,12 +1851,12 @@ body {
   padding-top: 100px;
 }
 
-/* line 166, sass/main/_main.scss */
+/* line 136, sass/main/_main.scss */
 ul {
   list-style-image: url(assets/images/bullet.png);
   counter-reset: section;
 }
-/* line 169, sass/main/_main.scss */
+/* line 139, sass/main/_main.scss */
 ul li {
   background-position: 0px 100%;
   padding-left: 5px;
@@ -1867,13 +1867,13 @@ ul li {
   font-family: "Roboto-Regular", sans-serif;
 }
 
-/* line 181, sass/main/_main.scss */
+/* line 151, sass/main/_main.scss */
 ol {
   list-style-type: none;
   counter-reset: ol-counter;
   padding: 0;
 }
-/* line 186, sass/main/_main.scss */
+/* line 156, sass/main/_main.scss */
 ol li {
   background-position: 0px 100%;
   padding-left: 25px;
@@ -1883,7 +1883,7 @@ ol li {
   margin-right: 10px;
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 195, sass/main/_main.scss */
+/* line 165, sass/main/_main.scss */
 ol li:before {
   font-weight: bold;
   margin-right: 6px;
@@ -1892,7 +1892,7 @@ ol li:before {
   counter-increment: ol-counter;
 }
 
-/* line 210, sass/main/_main.scss */
+/* line 180, sass/main/_main.scss */
 .wrapper {
   height: auto;
   margin: 0 auto;
@@ -1900,22 +1900,22 @@ ol li:before {
   position: relative;
 }
 
-/* line 217, sass/main/_main.scss */
+/* line 187, sass/main/_main.scss */
 .wrapperMargin {
   margin-bottom: 40px;
 }
 
-/* line 222, sass/main/_main.scss */
+/* line 192, sass/main/_main.scss */
 .hiddenAnimate {
   opacity: 0;
 }
 
-/* line 225, sass/main/_main.scss */
+/* line 195, sass/main/_main.scss */
 .visible {
   opacity: 1;
 }
 
-/* line 233, sass/main/_main.scss */
+/* line 203, sass/main/_main.scss */
 .content .iframeContent {
   position: fixed;
   width: 100%;
@@ -1925,7 +1925,7 @@ ol li:before {
   background: #2f2f2f;
   left: 0px;
 }
-/* line 242, sass/main/_main.scss */
+/* line 212, sass/main/_main.scss */
 .content .iframeContent .telaCheiaIframe {
   width: 100%;
   height: 100%;
@@ -1935,7 +1935,7 @@ ol li:before {
   top: 0px;
   bottom: 0px;
 }
-/* line 252, sass/main/_main.scss */
+/* line 222, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia {
   z-index: 999;
   border: 1px solid #e18f00;
@@ -1965,13 +1965,29 @@ ol li:before {
   opacity: 0.78;
   top: 1px;
 }
-/* line 284, sass/main/_main.scss */
+/* line 254, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:hover {
   background: #fbaf0b;
 }
-/* line 288, sass/main/_main.scss */
+/* line 258, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:active {
   background: #e28f01;
+}
+
+/* line 270, sass/main/_main.scss */
+.btCreditos {
+  border-radius: 5px;
+  width: 125px;
+  height: 30px;
+  background: #f4dfc1;
+  padding: 0;
+  font-family: "Roboto-Black", sans-serif;
+  color: #2f3275;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.1em;
+  cursor: pointer;
+  line-height: 30px;
 }
 
 /* line 1, sass/resources/tooltip/_style.scss */
@@ -4484,6 +4500,13 @@ ol li:before {
   margin: 10px;
 }
 
+/* line 17, sass/resources/multimedia/_style.scss */
+.multimedia img {
+  display: none;
+  max-width: 470px;
+  margin: 0 auto;
+}
+
 @media (max-width: 1021px) {
   /* line 35, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .navbar-collapse {
@@ -4610,7 +4633,7 @@ ol li:before {
   .botoesNav .voltarNav {
     width: 65px !important;
   }
-  /* line 190, sass/_mediaQuery.scss */
+  /* line 189, sass/_mediaQuery.scss */
   .botoesNav .voltarNav span:before {
     left: 10px;
   }
@@ -4622,13 +4645,50 @@ ol li:before {
   .botoesNav .avancarNav {
     width: 65px !important;
   }
-  /* line 205, sass/_mediaQuery.scss */
+  /* line 204, sass/_mediaQuery.scss */
   .botoesNav .avancarNav span:before {
     right: 10px;
   }
   /* line 208, sass/_mediaQuery.scss */
   .botoesNav .avancarNav span b {
     display: none;
+  }
+
+  /* line 225, sass/_mediaQuery.scss */
+  .multimedia img {
+    display: block;
+  }
+
+  /* line 230, sass/_mediaQuery.scss */
+  .multimedia iframe {
+    display: none;
+  }
+
+  /* line 245, sass/_mediaQuery.scss */
+  .palavraDestacadaInner {
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    max-width: 85%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  /* line 258, sass/_mediaQuery.scss */
+  #modalContent {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 263, sass/_mediaQuery.scss */
+  #modalContent p {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 268, sass/_mediaQuery.scss */
+  .btCreditos {
+    width: auto;
   }
 }
 /* line 3, sass/_animate.scss */
