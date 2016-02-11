@@ -15,6 +15,7 @@
                         "column": "col-xs-12 col-md-12",
                         "style":"",
                         "idSection":"60",
+                        "capa":"capa",
                         "backgroundSRC":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img01.png",
                         
                         "order":60
@@ -94,7 +95,7 @@
 
                             {
                                 "imgBG":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img06.png",
-                                "styleImg":"top: 90px; left: 0px;"
+                                "styleImg":"top: 140px; left: 0px;"
                             }
 
 
@@ -103,64 +104,103 @@
                     },
 
 
+                     {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"66",
+                        "backgroundSRC":"",
+                         "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img07.png",
+                                "styleImg":"top: 10px; left: 0px;"
+                            }
 
 
-
-
-
-                 {
-                       "template": "texto",
-                       "column": "col-xs-0 col-md-12",
-                       "type": "normal",
-                       "style":"height:120px",
-
-                       "section":60,
-                       "content": "",
-                       "order":600
-                   },
-
-                   {
-                        "template": "texto",
-                        "column": "col-xs-0 col-md-2",
-                        "type": "normal",
-                        "section":60,
-                        "content": "",
-                        "order":605
+                        ],
+                        "order":66
                     },
 
-                     
-                    {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-10",
-                        "type": "normal",
-                        "section":60,
-                        "content": "<p style='font-size:2.4em; line-height:1em;color:#ffffff; '>UNIDADE 3</p> <p style='font-size:3.2em; line-height:1em; color:#ffffff;'>ESTRATÉGIAS DE CUIDADO </p> <p style='font-size:3.4em;  line-height:1em; color:#ffffff;'>NA POPULAÇÃO MASCULINA</p>",
-                        "order":610
+
+                      {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"67",
+                        "backgroundSRC":"",
+                        "order":67
                     },
 
-                    {
-                        "template": "texto",
-                        "column": "col-xs-0 col-md-5",
-                        "type": "normal",
-                        "section":60,
-                        "content": "",
-                        "order":612
-                    },
-                   
 
-                    
                     {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-6",
-                        "type": "normal",
-                        "style":"padding-left:15px; border-left: 3px #ffffff solid; ",
-                        "section":60,
-                        "content": "<p><b><i style='color:#ffffff; '>Agora, vamos compreender melhor as estratégias de prevenção primária e promoção da saúde. No Brasil, temos o Plano de Ações Estratégicas para o Enfrentamento das Doenças Crônicas Não Transmissíveis (2011-2022), que tem como objetivo preparar o país para enfrentar e deter, nos próximos dez anos, as DCNT. Dentre as quais, destacam-se o Acidente Vascular Encefálico, Infarto Agudo do Miocárdio, Hipertensão Arterial Sistêmica, Câncer, Diabetes e Doenças Respiratórias Crônicas.</i></b><br/><br/><b style='color:#ffffff; '>A discussão sobre o enfrentamento das DCNT surgiu da necessidade de prevenir doenças e promover a saúde da população.</b>",
-                        "order":620
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "idSection":"68",
+                        "backgroundSRC":"",
+                        "backgroundColor":"#222526",
+                        "styleContainer":"padding:10px;",
+                        "order":68
                     },
 
 
                      {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"69",
+                        "backgroundSRC":"",
+                         "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img08.png",
+                                "styleImg":"top: 0px; right: 0px;"
+                            }
+
+
+                        ],
+                        "order":69
+                    },
+
+
+
+
+                     {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"70",
+                        "capa":"capa",
+                        "backgroundSRC":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img10.png",
+                        "order":70
+                    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                {
+                       "template":"capa",
+                       "nUnidade":"UNIDADE 3",
+                       "column": "col-xs-12 col-md-12",
+                       "section":60,
+                       "tituloCapa":"ESTRATÉGIAS DE CUIDADO <br>E ATENÇÃO EM REDE",
+                       "textoCapa":"Agora, vamos compreender melhor as estratégias de prevenção primária e promoção da saúde. No Brasil, temos o Plano de Ações Estratégicas para o Enfrentamento das Doenças Crônicas Não Transmissíveis (2011-2022), que tem como objetivo preparar o país para enfrentar e deter, nos próximos dez anos, as DCNT. Dentre as quais, destacam-se o Acidente Vascular Encefálico, Infarto Agudo do Miocárdio, Hipertensão Arterial Sistêmica, Câncer, Diabetes e Doenças Respiratórias Crônicas.<br/><br/>A discussão sobre o enfrentamento das DCNT surgiu da necessidade de prevenir doenças e promover a saúde da população.",
+                       "order":600
+
+                   },
+
+                   
+                    {
                        "template": "texto",
                        "column": "col-xs-0 col-md-12",
                        "type": "normal",
@@ -495,7 +535,7 @@
                         "column": "col-xs-12 col-md-4",
                         "type": "normal",
                         "section":64,
-                        "content": "<p>Ações educativas de prevenção da iniciação do fumo devem ser programadas, de forma a criar um contexto que reduza a aceitação social do tabagismo, reduza os estímulos para que os jovens não comecem a fumar, reduza os estímulos que dificultam os fumantes a deixarem de fumar, proteja a população dos riscos da exposição à poluição tabagística ambiental e aumente o acesso dos fumantes ao apoio para cessação de fumar (BRASIL, 2014).</p>",
+                        "content": "<p>Ações educativas de prevenção da iniciação do fumo devem ser programadas, de forma a criar um contexto que reduza a aceitação social do tabagismo, reduza os estímulos para que os jovens não comecem a fumar, reduza os estímulos que dificultam os fumantes a deixarem de fumar, proteja a população dos riscos da exposição à poluição tabagística ambiental e aumente o acesso dos fumantes ao apoio para cessação de fumar<br/>(BRASIL, 2014).</p>",
                         "order":850
                     },
 
@@ -504,7 +544,7 @@
                         "column": "col-xs-12 col-md-4",
                         "type": "normal",
                         "section":64,
-                        "content": "<p>Você pode observar que, na população masculina, fatores laborais estão relacionados à maior prevalência do tabagismo, como maior carga horária, turnos noturnos, empregos em estabelecimentos abertos, estresse ocupacional e convivência com colegas tabagistas.</p><p>Desta forma, se faz necessário investir na promoção de ambientes de trabalho livres de tabaco</p>",
+                        "content": "<p>Você pode observar que, na população masculina, fatores laborais estão relacionados à maior prevalência do tabagismo, como maior carga horária, turnos noturnos, empregos em estabelecimentos abertos, estresse ocupacional e convivência com colegas tabagistas.</p><p>Desta forma, se faz necessário investir na promoção de ambientes de trabalho livres<br/>de tabaco</p>",
                         "order":860
                     },
 
@@ -522,19 +562,55 @@
                         "column": "col-xs-0 col-md-12",
                         "type": "normal",
                         "section":65,
-                        "style":"height:330px",
+                        "style":"height:80px",
                         "content": "",
                         "order":870
                     },
 
+
+                     {
+                        "template": "revelar",
+                        "type": "click",
+                        "section":65,
+                        "style":"height:500px",
+                        "column": "col-xs-12 col-md-12",
+                        "contentCapa": "Prevenção e controle do uso abusivo de álcool",
+                        "backgroundCapa":"",
+                        "content": "<div class='col-xs-12 col-md-6' style='padding:25px 10px 5px 20px;'> <span>A Política para a Atenção Integral a Usuários de Álcool e outras Drogas busca subsidiar a construção coletiva do enfrentamento, com definição de estratégias de prevenção, tratamento e de educação voltada para o uso de álcool e outras drogas, assegurando a participação<br/>intersetorial (BRASIL, 2003).</span> </div> <div class='col-xs-12 col-md-6' style='padding:25px 20px 5px 10px;'> <span> A abordagem ao alcoolismo na Atenção Primária à Saúde tem como objetivo a detecção precoce de problemas relacionados, além da integração do tratamento de outras patologias agravadas pelo álcool. Seria a redução de danos, com a substituição por substâncias que causem menos agravos, e até a abstinência das drogas<br/>que criam problemas aos usuários.</span></div>",
+                        "contentHeight" : "200px",
+                        "styleObj": {
+                            
+                           },
+                        "order":875
+                    },
+
+
+
+
+
+
+
+
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "section":66,
+                        "style":"height:80px",
+                        "content": "",
+                        "order":910
+                    },
+
                       {
                         "template": "texto",
-                        "column": "col-xs-0 col-md-3",
+                        "column": "col-xs-0 col-md-4",
                         "type": "normal",
-                        "section":65,
+                        "section":66,
                         "style":"height:200px",
                         "content": "",
-                        "order":870
+                        "order":920
                     },
 
                    
@@ -542,31 +618,357 @@
                     {
                         "template": "texto",
                         "type": "title",
-                        "section":65,
-                        "column": "col-xs-12 col-md-9",
-                        "content": "Prevenção e controle do uso abusivo de álcool",
-                        "order":880
+                        "section":66,
+                        "column": "col-xs-12 col-md-8",
+                        "content": "Prevenção secundária, diagnóstico<br/>precoce e tratamento",
+                        "order":930
                     },
 
                      {
                         "template": "texto",
                         "column": "col-xs-12 col-md-4",
                         "type": "normal",
-                        "section":65,
+                        "section":66,
                         "style":"height:30px",
                         "content": "",
-                        "order":890
+                        "order":940
                     },
 
                      
                     {
                         "template": "texto",
-                        "column": "col-xs-12 col-md-9",
+                        "column": "col-xs-12 col-md-8",
                         "type": "normal",
-                        "section":65,
-                        "content": "<p>A Política para a Atenção Integral a Usuários de Álcool e outras Drogas busca subsidiar a construção coletiva do enfrentamento, com definição de estratégias de prevenção, tratamento e de educação voltada para o uso de álcool e outras drogas, assegurando a participação intersetorial (BRASIL, 2003).</p><p>A abordagem ao alcoolismo na Atenção Primária à Saúde tem como objetivo a detecção precoce de problemas relacionados, além da integração do tratamento de outras patologias agravadas pelo álcool. Seria a redução de danos, com a substituição por substâncias que causem menos agravos, e até a abstinência das drogas que criam problemas aos usuários.</p>",
-                        "order":900
-                    }
+                        "section":66,
+                        "content": "<p>A Rede de Atenção à Saúde (RAS) está diretamente associada à existência de um trabalho compartilhado entre os profissionais de saúde. A atenção ambulatorial e a atenção hospitalar, para o cuidado às pessoas com doenças crônicas, devem complementar e estarem integradas à atenção básica, de modo a superar a atuação fragmentada e isolada que ocorre na maioria das localidades hoje.</p><p>Para qualificar a demanda aos serviços especializados e garantir a equidade é necessário:<br/><br/><ul><li>A estratificação de risco da população adscrita pela Atenção Básica, para o empoderamento das equipes na coordenação do cuidado aos usuários com doenças crônicas.</li><li>A reorganização dos processos de trabalho a fim de fortalecer as relações na Atenção Básica.</li><li>Organização de parâmetros mínimos e máximos para cobertura populacional de um serviço de atenção especializada, considerando a densidade populacional, as necessidades de saúde e o provimento de profissionais.</li><li>O atendimento às situações de DCNT deve estar na Atenção Básica, pois este setor deve tratar da promoção, da prevenção e do diagnóstico precoce, podendo direcionar o acesso aos procedimentos de média e alta complexidade, seja para tratamento, seja para reabilitação.</li></ul><br/></p>",
+                        "order":950
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "section":66,
+                        "style":"height:80px",
+                        "content": "",
+                        "order":951
+                    },
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "normal",
+                        "section":66,
+                        "content": "<p>O Plano de Ações Estratégicas para o Enfrentamento das DCNT no Brasil, 2011-2022, propõe ações visando o fortalecimento da capacidade de resposta do SUS e a ampliação de intervenções diversificadas capazes de uma abordagem integral da saúde com vistas à prevenção e ao controle das DCNT (BRASIL, 2013).</p><p><b>Dentre as principais ações, estão:</b></p>",
+                        "order":953
+                    },
+
+                   
+
+
+                     {
+                        "template":"sanfona",
+                        "column": "col-xs-12 col-md-8",
+                        "section":66,
+                        "styleObj": {
+                        },
+                        "sanfonas":[
+                            {
+                                "titulo":"1. Linha de cuidado de DCNT", 
+                                "content":" Definição e implementação de protocolos e diretrizes clínicas das DCNT com base em evidências de custo-efetividade, vinculando portadores ao cuidador e à equipe da Atenção Básica, garantindo referência e contrarreferência para a rede de especialidades e hospitalar, favorecendo a continuidade do cuidado e integralidade na atenção, além do desenvolvimento do sistema de informação e gerenciamento de DCNT."
+                            },
+
+                            {
+                                "titulo":"2. Capacitação e telemedicina", 
+                                "content":"Capacitação das equipes da Atenção Básica, expandindo recursos de telemedicina, segundo opinião e cursos a distância, qualificando a resposta às DCNT."
+                            },
+                            {
+                                "titulo":"3. Medicamentos gratuitos", 
+                                "content":"Ampliação do acesso gratuito aos medicamentos e insumos estratégicos previstos nos Protocolos Clínicos e Diretrizes Terapêuticas das DCNT e tabagismo."
+                            },
+
+                            {
+                                "titulo":"4. Saúde Toda Hora", 
+                                "content":"<ul><li><b>Atenção às Urgências:</b> Fortalecimento do cuidado ao portador de DCNT na rede de urgência, integrado entre unidades de promoção, prevenção e atendimento à saúde, com o objetivo de ampliar e qualificar o acesso humanizado e integral aos usuários em situação de urgência nos serviços de saúde de forma ágil e oportuna.</li><li><b>Atenção Domiciliar: </b>Ampliação do atendimento a pessoas com dificuldades de locomoção ou que precisem de cuidados regulares, mas não de hospitalização, por meio de um conjunto de ações de Promoção à Saúde, prevenção e tratamento de doenças e reabilitação prestadas em domicílio com garantia de continuidade de cuidados e integradas à Rede de Atenção à Saúde (RAS).</li><li><b>Linha do Cuidado do IAM e AVE na Rede de Atenção às Urgências:</b> Qualificação e integração de todas as unidades de saúde da Rede de Atenção às Urgências para permitir que os pacientes com Infarto Agudo do Miocárdio (IAM) e Acidente Vascular Encefálico (AVE) sejam atendidos, diagnosticados e tratados rapidamente, com acesso às terapias estabelecidas nos Protocolos Clínicos e Diretrizes Terapêuticas, garantindo ao usuário o acesso e o tratamento adequados em tempo hábil (BRASIL, 2013).</li></ul>"
+                            }
+                        ],
+                        "order":970
+                    },
+
+
+                    
+
+
+                      {
+                       "template": "texto",
+                       "column": "col-xs-0 col-md-12",
+                       "type": "normal",
+                       "section":66,
+                       "style":"height:30px",
+                       "order":980
+                   },
+                   {
+                       "template":"botaoPular",
+                       "section":66,
+                       "nSec":67,
+                       "cor":"preto",
+                       "style":"margin-top:10px",
+                       "order":990
+                   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "style":"height:10px",
+                        "section":67,
+                        "content": "",
+                        "order":1000
+                    },
+
+
+                 
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-5",
+                        "type": "normal",
+                        "style":"text-align:center;",
+                        "section":67,
+                        "content": "<p>Ao efetuar os estudos desta etapa, você poderá refletir sobre sua atuação profissional e as estratégias que você adota para orientar a população masculina sobre a adoção de hábitos de vida saudáveis.</p><p>Muitos grupos de educação em saúde e/ou de promoção da saúde trabalham com pessoas que estão em risco ou apresentam as comorbidades discutidas no módulo. Quais ações você e a sua equipe realizam ou poderiam realizar para estimular os homens a cuidarem da saúde?</p>",
+                        "order":1010
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-1",
+                        "type": "normal",
+                        "section":67,
+                         "style":"height:260px",
+                        "content": "",
+                        "order":1016
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":67,
+                        "content": "<p style='font-size:2em; text-align:center; padding-top:30px;'><b>Aproveite e reflita sobre este tema! Assista a essa animação sobre algumas escolhas em nossa vida:</b></p>",
+                        "order":1020
+                    },
+
+
+
+
+
+                    {
+                        "template":"video",
+                        "column": "col-xs-12 col-md-12",
+                        "section":68,
+                        "styleObj":{  
+                            "height": "560px"
+                        },
+                        "youtube":{  
+                            "active":"true",
+                            "id":"D0isz8T31UI"
+                        },
+                        "web":{  
+                            "active":false,
+                            "src":"",
+                            "type":"video/mp4"
+                        },
+                        "order":1030
+                    },
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "section":69,
+                         "style":"",
+                        "content": "",
+                        "order":1032
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "style":"text-align:center;",
+                        "section":69,
+                        "content": "<p class='textoDestaque'><b>E você, profissional, também tem adotado hábitos saudáveis no seu cotidiano?<br/>Continue a explorar essa leitura, pois vamos discutir estratégias de atenção à saúde frente às DCNT. ACOMPANHE!</b></p>",
+                        "order":1035
+                    },
+
+
+
+
+
+
+
+
+
+
+
+
+                      {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "section":69,
+                        "style":"height:80px",
+                        "content": "",
+                        "order":1050
+                    },
+
+                   
+                   
+
+                    {
+                        "template": "texto",
+                        "type": "title",
+                        "section":69,
+                        "column": "col-xs-12 col-md-6",
+                        "content": "Rede de Atenção à Saúde (RAS)",
+                        "order":1070
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "normal",
+                        "section":69,
+                        "style":"height:50px",
+                        "content": "",
+                        "order":1080
+                    },
+
+                     
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":69,
+                        "content": "<p>Rede de Atenção à Saúde: você sabe o que isso significa?</p><p>A rede de atenção é definida como um conjunto de ações e serviços de saúde articulados em níveis de complexidade crescente, com a finalidade de garantir a integralidade da assistência à saúde.</p><p>Estar tem como objetivos:</p><p><ul><li>fomentar a mudança do modelo de atenção à saúde, fortalecendo o cuidado às pessoas com doenças crônicas;</li><li>garantir o cuidado integral às pessoas com doenças crônicas;</li><li>impactar positivamente nos indicadores relacionados às doenças crônicas;</li><li>contribuir para a promoção da saúde da população e prevenir o desenvolvimento das doenças crônicas e suas complicações.</li></ul></p>",
+                        "order":1090
+                    },
+
+                      {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-6",
+                        "type": "normal",
+                        "section":69,
+                        "style":"height:460px",
+                        "content": "",
+                        "order":1095
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":69,
+                        "content": "<p>A Atenção Básica à Saúde (ABS) tem caráter estratégico na Rede de Atenção às Pessoas com Doenças Crônicas, pois se trata do ponto de atenção com maior capilaridade e potencial para identificar as necessidades de saúde da população e realizar a estratificação de riscos que subsidiará a organização do cuidado em toda a rede.</p><p>Considerando a atenção integral à saúde do homem, temos outras RAS que podem auxiliar, como a Rede de Atenção à Saúde Mental, que, entre outros agravos, atende os casos de abuso de álcool e outras drogas.</p>",
+                        "order":1100
+                    },
+
+                    
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":69,
+                        "content": "<p style='font-size:1.2em; text-align:left; '><b>Entre os modelos de atenção às doenças crônicas, as diretrizes para o cuidado das pessoas com doenças crônicas em rede sugerem o uso do Modelo de Atenção às Condições Crônicas (MACC).</b></p>",
+                        "order":1110
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":69,
+                        "content": "<p style='font-size:1.2em; text-align:left; '><b>O MACC estrutura-se em cinco níveis e em três componentes integrados. Clique e confira as<br/>características de cada um deles.</b> </p>",
+                        "order":1120
+                    },
+
+
+
+
+
+                     {
+                        "template": "multimedia",
+                        "section":69,
+                        "src": "curso/recursos/modulo4/unidade3/UNA07_REC02_grafico_MACC/UNA07_REC01_grafico_MACC.html",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": {
+                            "height": "540px;",
+                            "width": "1061px;"
+                        },
+                        "order":1130
+                    },
+
+
+
+                      {
+                       "template": "texto",
+                       "column": "col-xs-0 col-md-12",
+                       "type": "normal",
+                       "section":69,
+                       "style":"height:30px",
+                       "order":1140
+                   },
+                   {
+                       "template":"botaoPular",
+                       "section":69,
+                       "nSec":70,
+                       "cor":"preto",
+                       "style":"margin-top:10px",
+                       "order":1150
+                   },
+
+
+
+
+
+                   {
+                       "template":"contraCapa",
+                       "section":70,
+                       "final":false,
+                       "secVoltar":30,
+                      "secAvancar":31,
+                      "textoAv":"trexto aqui",
+                      "textoVoltar":"texto aqui",
+                      "linkMod":"http://www.google.com",
+                       "textoDownload":"AGORA, SIGA PARA O ESTUDO DO CONTEUDO COMPLETO",
+                       "label":"BAIXAR O LIVRO",
+                       "textoFinal":"<p>Estudos de casos de experiências de redes de atenção à saúde indicam que estas, à semelhança do que ocorre em países desenvolvidos, podem ter impacto significativo nos níveis de saúde, com custos suportáveis pelo SUS (MENDES , 2011) .</p><p>Com essas informações, é possível pensar novos caminhos em que você e sua equipe possam agregar ao manejo dos fatores de risco e Doenças Crônicas Não Transmissíveis (DCNT), junto aos usuários.</p>Nesse contexto, você pode perceber também a estreita relação entre as DCNT e seus fatores de risco, como sedentarismo, dieta inadequada, obesidade, consumo de álcool e tabagismo.</p><p>Quais as estratégias para o manejo desses fatores de risco, você e a sua equipe têm desenvolvido junto ao usuário?</p><p>Como você, profissional de saúde, tem cuidado da sua saúde?</p>Tenha sempre esta reflexão em mente!</p><p>Você também deve realizar a atividade avaliativa deste módulo.</p><p>Lembre, também, que você pode trocar informações e experiências na comunidade de prática da Atenção Básica! E, para contribuir com a melhoria constante dos cursos produzidos, responda à tomada de opinião sobre o conteúdo visto.</p><p>BONS ESTUDOS!</p>",
+       
+                       "order":1160
+                       }
+
+
 
 
 
