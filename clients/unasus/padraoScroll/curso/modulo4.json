@@ -1,0 +1,1624 @@
+    {
+        "_id": "5379f9c48b714fc104000133",
+        "courseName": "TESTE UNASUS",
+        "scoName": "TESTE UNASUS",
+        "srcCaptivate":"",
+        "scorm":false,
+        "teste":"",
+        "slides": [       
+            {
+                "template": "slideScroll",
+                "resources": [
+
+                 {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "style":"",
+                        "idSection":"30",
+                        "capa":"capa",
+                        "backgroundSRC":"curso/images/modulo4/unidade2/UNA07_m4_un2_rec001.png",
+                        "order":30
+                    },
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "idSection":"31",
+                        "backgroundSRC":"",
+                        "order":31
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "idSection":"32",
+                        "backgroundSRC":"",
+                        "backgroundColor":"#222526",
+                        "styleContainer":"padding:10px;",
+                        "order":32
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "idSection":"33",
+                        "backgroundSRC":"",
+                        "order":33
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "style":"",
+                        "idSection":"34",
+                        "backgroundSRC":"",
+                        "images":[
+                            {
+                                "imgBG":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec002.png",
+                                "styleImg":"right:50%;"
+                            }
+                        ],
+                        "order":34
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "idSection":"35",
+                        "backgroundSRC":"",
+                        "backgroundColor":"#bcbdc0",
+                        "styleContainer":"padding:100px 0px; margin-top:40px;",
+                        "order":35
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "style":"background-size:initial;",
+                        "idSection":"36",
+                        "backgroundSRC":"css/assets/images/UNA07_padraoAzul.png",
+                        "styleContainer":"padding:45px 10px;",
+                        "order":36
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "style":"",
+                        "idSection":"37",
+                        "backgroundSRC":"",
+                        "images":[
+                            {
+                                "imgBG":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec008.png",
+                                "styleImg":"left:30%;"
+                            }
+                        ],
+                        "order":37
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "idSection":"38",
+                        "backgroundSRC":"",
+                        "backgroundColor":"",
+                        "styleContainer":"padding:50px 0px; margin-top:40px;",
+                        "order":38
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"39",
+                        "capa":"capa",
+                        "backgroundSRC":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec010.png",
+                        "order":39
+                    },
+
+
+
+
+
+
+
+
+
+
+
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "style":"",
+                        "idSection":"60",
+                        "capa":"capa",
+                        "backgroundSRC":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img01.png",
+                        
+                        "order":60
+                    },
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "style":"",
+                        "idSection":"61",
+                        "backgroundSRC":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img02.png",
+                        "order":61
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"62",
+                        "backgroundSRC":"",
+
+                         "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img03.png",
+                                "styleImg":"top: 0px; right: 0px;"
+                            }
+
+
+                        ],
+                        "order":62
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"63",
+                        "backgroundSRC":"",
+
+                          "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img04.png",
+                                "styleImg":"top: 0px; left: 0px;"
+                            }
+
+
+                        ],
+                        "order":63
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"64",
+                        "backgroundSRC":"",
+                          "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img05.png",
+                                "styleImg":"top: 0px; right: 0px;"
+                            }
+
+
+                        ],
+                        "order":64
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"65",
+                        "backgroundSRC":"",
+                         "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img06.png",
+                                "styleImg":"top: 140px; left: 0px;"
+                            }
+
+
+                        ],
+                        "order":65
+                    },
+
+
+                     {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"66",
+                        "backgroundSRC":"",
+                         "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img07.png",
+                                "styleImg":"top: 10px; left: 0px;"
+                            }
+
+
+                        ],
+                        "order":66
+                    },
+
+
+                      {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"67",
+                        "backgroundSRC":"",
+                        "order":67
+                    },
+
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "idSection":"68",
+                        "backgroundSRC":"",
+                        "backgroundColor":"#222526",
+                        "styleContainer":"padding:10px;",
+                        "order":68
+                    },
+
+
+                     {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"69",
+                        "backgroundSRC":"",
+                         "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img08.png",
+                                "styleImg":"top: 0px; right: 0px;"
+                            }
+
+
+                        ],
+                        "order":69
+                    },
+
+
+
+
+                     {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"70",
+                        "capa":"capa",
+                        "backgroundSRC":"curso/images/modulo4/unidade3/UNAS07_M04_UNI03_img10.png",
+                        "order":70
+                    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    {
+                       "template":"capa",
+                       "nUnidade":"UNIDADE 2",
+                       "column": "col-xs-12 col-md-12",
+                       "section":30,
+                       "tituloCapa":"ASPECTOS EPIDEMIOLÓGICOS <br> NA POPULAÇÃO MASCULINA",
+                       "textoCapa":"Estar atento aos aspectos epidemiológicos na população masculina deve fazer parte da prática diária de um profissional de saúde. Acompanhe os estudos desta unidade para incorporar e aperfeiçoar este tema em seu dia a dia!",
+                       "order":400
+                   },
+                    {
+                        "template":"botaoPular",
+                        "section":30,
+                        "nSec":31,
+                        "cor":"branco",
+                        "style":"margin-top:10px",
+                        "order":401
+                        },
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "style":"height:50px",
+                        "section":31,
+                        "content": "",
+                        "order":405
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-1",
+                        "type": "normal",
+                        "section":31,
+                        "content": "",
+                        "order":410
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "section":31,
+                        "content": "<p style='font-size:2em; text-align:center;'><b>Quais são as doenças mais prevalentes entre os homens? Quantas pessoas morrem por ano devido às Doenças Crônicas Não Transmissíveis (DCNT)?</b></p>",
+                        "order":415
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "style":"height:130px",
+                        "section":31,
+                        "content": "",
+                        "order":418
+                    },
+
+
+
+
+
+                    {
+                        "template":"video",
+                        "column": "col-xs-12 col-md-12",
+                        "section":32,
+                        "styleObj":{  
+                            "height": "560px"
+                        },
+                        "youtube":{  
+                            "active":"true",
+                            "id":"eXK1wJSBlqY"
+                        },
+                        "web":{  
+                            "active":false,
+                            "src":"",
+                            "type":"video/mp4"
+                        },
+                        "order":420
+                    },
+                    
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-2",
+                        "type": "normal",
+                        "section":33,
+                        "content": "<p style='height:50px;'></p>",
+                        "order":430
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":33,
+                        "content": "<p class='textoDestaque' style='text-align:center;'>Agora, acompanhe informações importantes relacionadas a esta unidade de estudo e saiba quanto é a mortalidade por DCNT, assim como as doenças que mais acometem os homens.<br><br><b>SIGA E CONFIRA!</b></p>",
+                        "order":435
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-5",
+                        "type": "normal",
+                        "section":33,
+                        "content": "<p style='height:50px;'></p>",
+                        "order":440
+                    },
+                    {
+                        "template":"botaoPular",
+                        "section":33,
+                        "nSec":34,
+                        "cor":"",
+                        "style":"margin-top:10px",
+                        "order":445
+                        },
+
+
+
+
+                        {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-3",
+                        "type": "texto",
+                        "style":"height:680px",
+                        "section":34,
+                        "content": "",
+                        "order":450
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-5",
+                        "type": "title",
+                        "section":34,
+                        "content": "Doenças cardiovasculares",
+                        "order":455
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "texto",
+                        "section":34,
+                        "content": "<p>As mortes por DCNT apresentam um número estimado de 36 milhões de mortes por ano, ou seja, 63% de todos os óbitos, incluindo mais de 14 milhões de pessoas que morrem muito jovens, entre idades de 30 e 70 anos, a maioria de causas evitáveis.</p>",
+                        "order":465
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "texto",
+                        "section":34,
+                        "content": "Segundo a Organização Mundial da saúde, as doenças cardiovasculares que representaram 48% dos óbitos por DCNT em 2008.<br><br>Vamos relembrá-las!",
+                        "order":470
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "subtitle",
+                        "style":"padding-top:50px;",
+                        "section":34,
+                        "content": "Hipertensão Arterial Sistêmica (HAS)",
+                        "order":475
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "texto",
+                        "section":34,
+                        "content": "<p>A <b>Hipertensão Arterial Sistêmica (HAS)</b> é um problema crônico, com alta prevalência no homem, que aumenta em faixas etárias maiores, principalmente acima de 40 anos, sendo superior a 50% entre 60 e 69 anos e 75% acima de 70 anos.</p><p>Apresenta-se, na maior parte das vezes, de forma agregada, em famílias com predisposição genética e fatores ambientais, aliada a um estilo de vida pouco saudável.</p><p>Revela maior prevalência em homens que consomem bebida alcoólica regularmente, que vivem sob estresse, ex-tabagistas, sedentários, que possuem algum grau de excesso de peso ou apresentam circunferência abdominal aumentada, assim como fatores socioeconômicos e uma dieta rica em sódio.</p>",
+                        "order":480
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "subtitle",
+                        "style":"padding-top:50px;",
+                        "section":34,
+                        "content": "Infarto Agudo do Miocárdio (IAM)",
+                        "order":485
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "texto",
+                        "section":34,
+                        "content": "<p>Já o <b>Infarto agudo do miocárdio (IAM)</b> se caracteriza pela instalação de placas de ateroma nas coronárias, causando obstrução total ou parcial das artérias ou seus ramos.</p>",
+                        "order":490
+                    },
+
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "texto",
+                        "style":"",
+                        "section":35,
+                        "content": "<p class='textoDestaque'><b>Veja o índice de internações por IAM em 2014 nas regiões do Brasil!</b></p>",
+                        "order":495
+                    },
+                    {
+                        "template": "multimedia",
+                        "section":35,
+                        "src": "curso/recursos/modulo4/unidade2/UNA07_modulo4_unidade2_rec001/UNA07_REC01_grafico_brasil.html",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": {
+
+                            "height": "500px",
+                            "padding":"0px"
+                        },
+                        "order":500
+                    },
+
+
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "texto",
+                        "style":"height:320px; padding:70px 70px 0px 0px;",
+                        "section":36,
+                        "content": "<p style='color:#ffffff;'>A mortalidade por Infarto agudo do miocárdio (IAM) é mais prevalente em homens com idade acima de 50 anos, representando, 88,8% dos óbitos ocorridos, especialmente nas faixas etárias de 60 a 69 anos (24,9%) e 70 a 79 anos (24,2%).</p><p style='color:#ffffff;'>Alguns fatores não modificáveis contribuem para a ocorrência do IAM.</p><p style='color:#ffffff;'>Mas, quais são eles? <b>Clique e confira!</b></p>",
+                        "order":505
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "click",
+                        "section":36,
+                        "column": "col-xs-12 col-md-6",
+                        "contentCapa": "<p style='font-size:3em; margin-bottom:0;'>?</p>",
+                        "content": "<ul style='padding-top:30px; font-size:1.5em; text-align:left; '><li style='color:#ffffff;'>SEXO MASCULINO</li><br><li style='color:#ffffff;'>RAÇA NEGRA</li><br><li style='color:#ffffff;'>IDADE</li><br><li style='color:#ffffff;'>HISTÓRIA FAMILIAR DE DOENÇAS CARDIOVASCULARES</li></ul>",
+                        "contentHeight" : "310px",
+                        "styleObj": {
+                            
+                        },
+                        "order":510
+                    },
+
+
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "texto",
+                        "style":"",
+                        "section":36,
+                        "content": "<p style='font-size:1.5em; color:#ffffff; padding-top:50px;'><b>Já em termos de mortes atribuíveis, os principais fatores de risco cardiovascular são:</b></p>",
+                        "order":515
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "hover",
+                        "section":36,
+                        "column": "col-xs-12 col-md-6",
+                        "contentCapa": "<p style='margin:0;'>HIPERTENÇÃO ARTERIAL</p>",
+                        "backgroundCapa":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec006.png",
+                        "content": "<p style='padding-top:40px; font-size:2em;'>13%</p>",
+                        "contentHeight" : "160px",
+                        "styleObj": {
+                            "padding":"0"
+                        },
+                        "order":520
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "hover",
+                        "section":36,
+                        "column": "col-xs-12 col-md-6",
+                        "contentCapa": "<p style='margin:0;'>TABAGISMO</p>",
+                        "backgroundCapa":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec005.png",
+                        "content": "<p style='padding-top:40px; font-size:2em;'>9%</p>",
+                        "contentHeight" : "160px",
+                        "styleObj": {
+                            "padding":"0"
+                        },
+                        "order":525
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "hover",
+                        "section":36,
+                        "column": "col-xs-12 col-md-6",
+                        "contentCapa": "<p style='margin:0;'>HIPERGLICEMIA</p>",
+                        "backgroundCapa":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec003.png",
+                        "content": "<p style='padding-top:40px; font-size:2em;'>6%</p>",
+                        "contentHeight" : "160px",
+                        "styleObj": {
+                            "padding":"0"
+                        },
+                        "order":530
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "hover",
+                        "section":36,
+                        "column": "col-xs-12 col-md-6",
+                        "contentCapa": "<p style='margin:0;'>INATIVIDADE FÍSICA</p>",
+                        "backgroundCapa":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec004.png",
+                        "content": "<p style='padding-top:40px; font-size:2em;'>6%</p>",
+                        "contentHeight" : "160px",
+                        "styleObj": {
+                            "padding":"0"
+                        },
+                        "order":535
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "hover",
+                        "section":36,
+                        "column": "col-xs-12 col-md-12",
+                        "contentCapa": "<p style='margin:0;'>SOBREPESO E OBESIDADE</p>",
+                        "backgroundCapa":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec007.png",
+                        "content": "<p style='padding-top:40px; font-size:2em;'>5%</p>",
+                        "contentHeight" : "160px",
+                        "styleObj": {
+                            "padding":"0"
+                        },
+                        "order":540
+                    },
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-7",
+                        "type": "texto",
+                        "style":"",
+                        "section":37,
+                        "content": "<p>Vale destacar que esses fatores de risco comportamentais e metabólicos frequentemente coexistem na mesma pessoa e atuam sinergicamente para aumentar o risco total do indivíduo de desenvolver eventos vasculares agudos. </p><p>E com igual importância a condição socioeconômica baixa, falta de apoio social, estresse no trabalho e na vida familiar, depressão e ansiedade são fatores de risco psicossociais para as doenças cardiovasculares, que dificultam a adesão a estilo de vida saudável, orientações e tratamentos.</p>",
+                        "order":545
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-7",
+                        "type": "subtitle",
+                        "style":"padding-top:50px;",
+                        "section":37,
+                        "content": "Diabetes Mellitus",
+                        "order":550
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-7",
+                        "type": "texto",
+                        "section":37,
+                        "content": "<p>Também faz parte das doenças que mais atingem os homens o Diabetes Mellitus, considerado um importante problema de saúde pública, com alta morbimortalidade no homem em decorrência de suas complicações, associadas a danos em longo prazo especialmente nos olhos, rins, nervos e sistema circulatório. </p><p>Enquanto profissional da saúde, você já deve saber muito bem o mecanismo de ação da doença, por isso, o que queremos destacar neste momento é que você precisa enfatizar com o homem que frequenta sua unidade de saúde a importância da alimentação saudável, da prática de atividade física, da cessação do tabagismo e da redução do excesso de peso, fatores que podem reduzir em até 91% a incidência de DM e 88% nos casos com histórico familiar.</p>",
+                        "order":555
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-7",
+                        "type": "subtitle",
+                        "style":"padding-top:50px;",
+                        "section":37,
+                        "content": "Doenças respiratórias crônicas",
+                        "order":560
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-7",
+                        "type": "texto",
+                        "section":37,
+                        "content": "<p>As <b>doenças respiratórias crônicas</b> também estão entre as DCNT mais prevalentes entre os homens.</p>",
+                        "order":565
+                    },
+                    {
+                        "template": "multimedia",
+                        "section":37,
+                        "src": "curso/recursos/modulo4/unidade2/UNA07_modulo4_unidade2_rec002/UNA07_REC04_graficoBarras.html",
+                        "column": "col-xs-12 col-md-8",
+                        "styleObj": {
+
+                            "height": "500px",
+                            "padding":"0px"
+                        },
+                        "order":570
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "subtitle",
+                        "style":"padding-top:50px;",
+                        "section":37,
+                        "content": "Neoplasias/tumores",
+                        "order":575
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "texto",
+                        "section":37,
+                        "content": "<p>As neoplasias têm sido uma grande preocupação, você sabe qual a estimativa de novos casos de câncer por ano entre 2012 e 2025?</p>",
+                        "order":580
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "dropdown",
+                        "section":37,
+                        "column": "col-xs-12 col-md-4",
+                        "contentCapa": "2012",
+                        "content": "7,4 milhões de casos",
+                        "styleObj": {
+                            "padding": "20px 20px 10px 20px"
+                        },
+                        "order":585
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "dropdown",
+                        "section":37,
+                        "column": "col-xs-12 col-md-4",
+                        "contentCapa": "2025",
+                        "content": "10,4 milhões de casos novos",
+                        "styleObj": {
+                            "padding": "10px 20px 20px 20px"
+                        },
+                        "order":590
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "texto",
+                        "section":37,
+                        "content": "",
+                        "order":594
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "texto",
+                        "style":"margin-bottom:90px;",
+                        "section":37,
+                        "content": "<p class='textoDestaque' style='text-align:center;'>TER CONHECIMENTO DA ESTIMATIVA DE QUANTAS PESSOAS DESENVOLVERÃO A DOENÇA, QUANTAS MORRERÃO E QUANTAS VIVERÃO COM ELA COMO SOBREVIVENTES FAZ PARTE DA VIGILÂNCIA DA MORBIMORTALIDADE POR CÂNCER.</p>",
+                        "order":595
+                    },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "texto",
+                        "style":"margin-top:20px;",
+                        "section":37,
+                        "content": "<p> A compreensão das tendências temporais no Brasil e suas regiões, assim como os principais fatores determinantes, complementam esse monitoramento, e são vitais para o planejamento e avaliação de intervenções associadas à prevenção.</p><p>Agora vamos comentar os tipos de câncer que mais acometem os homens. Confira.</p>",
+                        "order":596
+                    },
+                    
+
+
+
+
+                    {
+                        "template":"gavetaVertical",
+                        "column": "col-xs-12 col-md-8",
+                        "style":"margin-top:0px;",
+                        "section":37,
+                        "gavetasVerticais":[
+                            {
+                                "numeroGaveta":"1",
+                                "tituloGaveta":"Câncer de Próstata",
+                                "content":"No Brasil, o câncer de próstata é o mais incidente, representando 33,7% do total de cânceres diagnosticados. A idade é o único fator de risco estabelecido para câncer de próstata. Estima-se que 68,4% (749.972) dos casos no mundo ocorrem em homens com 65 anos ou mais (GLOBOCAN, 2013). A incidência do câncer acompanha o processo de envelhecimento em decorrência de uma maior exposição das células das pessoas idosas a diversos fatores de risco cancerígenos (INCA, 2006). A história familiar positiva representa 13% a 26% de todos os casos. O risco de desenvolver a doença entre indivíduos com história familiar é duas a três vezes maior para os homens da mesma faixa etária e grupo étnico, sem história familiar. Entre a população negra o risco de câncer de próstata é 60% maior."
+                            },
+                            {
+                                "numeroGaveta":"2",
+                                "tituloGaveta":"Câncer de Pulmão",
+                                "content":"O câncer de pulmão é o tumor mais comum entre os homens no mundo há várias décadas, representando 16,8% do total de cânceres diagnosticados. No Brasil, o câncer de pulmão é o segundo mais frequente, representando 8,04% do total de cânceres diagnosticados, metade da incidência observada no mundo. Os fatores relacionados ao modo de vida e às condições ambientais são os principais determinantes do câncer de pulmão, uma das principais causas de morte evitáveis no mundo. Segundo relatório da OMS, o tabaco é responsável por mais de 80% das mortes em geral nos países menos desenvolvidos e, dentre elas, as neoplasias malignas."
+                            },
+                            {
+                                "numeroGaveta":"3",
+                                "tituloGaveta":"Câncer Colorretal",
+                                "content":"O câncer de colorretal é o terceiro tumor mais comum entre os homens no mundo, representando 10,1% do total de cânceres estimados em 2014. No Brasil, é o terceiro mais frequente, representando 7,4% do total de cânceres estimados em 2014 (15.070 casos novos), e a quarta causa de óbitos por câncer em homens.<br><br>Os fatores relacionados à alimentação são um dos principais determinantes do câncer de colorretal, principalmente no consumo de carnes vermelhas, que está associado a um aumento no risco de 28% a 35%. O consumo de carnes processadas, como mortadelas, presuntos, salsichas, linguiças apresenta maior risco de desenvolvimento de pólipos e câncer colorretal em 20% a 49%. A história familiar de câncer colorretal é um fator de risco dominante em alguns indivíduos que podem apresentar uma predisposição genética ao desenvolvimento de doenças crônicas do intestino, como a retocolite ulcerativa crônica e a Doença de Crohn."
+                            },
+                            {
+                                "numeroGaveta":"4",
+                                "tituloGaveta":"Câncer de estômago",
+                                "content":"<img src='curso/images/modulo4/unidade2/UNA07_m04_un2_rec009.png'/>O câncer de estômago é o quarto tumor mais comum entre os homens no mundo, representando 8,5% do total de cânceres estimados em 2014. O câncer de estômago representou 10,1% do total de óbitos masculinos no mundo em 2012 (469.970), sendo a terceira causa de morte por neoplasia. Possui alta taxa de letalidade, avaliada pela proximidade entre taxas de incidência e mortalidade. O maior fator de risco para o desenvolvimento do câncer de estômago em todo o mundo é a infecção prolongada pela bactéria H. pyilori, associada a aproximadamente 60% dos casos de câncer gástrico."
+                            }
+                        ],
+                        "order":597
+                    },
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "texto",
+                        "style":"margin-bottom:90px;",
+                        "section":38,
+                        "content": "<p class='textoDestaque' style='text-align:center;'>VÁRIOS TIPOS DE CÂNCERES PODEM TER SUA INCIDÊNCIA DIMINUÍDA PELA ELIMINAÇÃO DA EXPOSIÇÃO A FATORES DE RISCO. A DETECÇÃO PRECOCE DO POTENCIAL DE MALIGNIDADE DAS CÉLULAS POSSIBILITA UMA CONDIÇÃO MAIS FAVORÁVEL PARA SEU TRATAMENTO E, CONSEQUENTEMENTE, CURA.</p>",
+                        "order":598
+                    },
+
+
+                       {
+                      "template":"contraCapa",
+                      "section":39,
+                      "final":false,
+                      "inicio":false,
+                      "secVoltar":0,
+                     "secAvancar":60,
+                     "textoAv":"Próxima Unidade",
+                     "textoVoltar":"Voltar",
+                     "linkMod":"http://www.google.com",
+                      "textoDownload":"AGORA, SIGA PARA O ESTUDO DO CONTEUDO COMPLETO",
+                      "label":"BAIXAR O LIVRO",
+                      "textoFinal":"<p style='font-size:1.7em;'>Chegamos ao fim desta etapa.</p><br><p style='font-size:1.7em;'>Agora, você já pode iniciar a próxima unidade, que trata sobre as estratégias de cuidado e atenção em rede.</p><p style='font-size:1.7em;'>Aproveite este estudo e reflita sobre sua prática diária!</p><br><p style='font-size:1.7em;'>BOM APRENDIZADO!",
+                      "order":599
+                      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       {
+                       "template":"capa",
+                       "nUnidade":"UNIDADE 3",
+                       "column": "col-xs-12 col-md-12",
+                       "section":60,
+                       "tituloCapa":"ESTRATÉGIAS DE CUIDADO <br>E ATENÇÃO EM REDE",
+                       "textoCapa":"Agora, vamos compreender melhor as estratégias de prevenção primária e promoção da saúde. No Brasil, temos o Plano de Ações Estratégicas para o Enfrentamento das Doenças Crônicas Não Transmissíveis (2011-2022), que tem como objetivo preparar o país para enfrentar e deter, nos próximos dez anos, as DCNT. Dentre as quais, destacam-se o Acidente Vascular Encefálico, Infarto Agudo do Miocárdio, Hipertensão Arterial Sistêmica, Câncer, Diabetes e Doenças Respiratórias Crônicas.<br/><br/>A discussão sobre o enfrentamento das DCNT surgiu da necessidade de prevenir doenças e promover a saúde da população.",
+                       "order":600
+
+                   },
+
+                   
+                    {
+                       "template": "texto",
+                       "column": "col-xs-0 col-md-12",
+                       "type": "normal",
+                       "section":60,
+                       "style":"height:130px",
+                       "order":630
+                   },
+                   {
+                       "template":"botaoPular",
+                       "section":60,
+                       "nSec":61,
+                       "cor":"branco",
+                       "style":"margin-top:10px",
+                       "order":640
+                   },
+
+
+
+
+
+
+
+
+
+
+
+                   {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-3",
+                        "type": "normal",
+                        "section":61,
+                        "style":"height:440px",
+                        "content": "",
+                        "order":650
+                    },
+       
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":61,
+                        "content": "<p style='font-size:2em; text-align:left; '><b>O que você entende por promoção da saúde?</b></p>",
+                        "order":660
+                    },
+
+                  
+
+
+                      {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":61,
+                        "content": "<p>A <b>promoção da saúde</b> consiste de um conjunto de estratégias para atuar na melhoria da qualidade de vida dos indivíduos e das coletividades, incluindo uma maior participação no controle deste processo.</p> ",
+                        "order":670
+                    },
+
+                   
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":61,
+                        "content": "<p class='textoDestaque'> <b>VALORIZA-SE A NECESSIDADE DE PENSAR NA SAÚDE A FIM DE PROMOVER A QUALIDADE DE VIDA E REDUZIR VULNERABILIDADES E RISCOS RELACIONADOS AOS SEUS DETERMINANTES E CONDICIONANTES, COMO MODOS DE VIVER, CONDIÇÕES DE TRABALHO, HABITAÇÃO, AMBIENTE, EDUCAÇÃO, LAZER, CULTURA, ACESSO A BENS E SERVIÇOS ESSENCIAIS.</b></p>",
+                        "order":680
+                    },
+
+                     
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":61,
+                        "content": "<p>Para monitorar e analisar o perfil das DCNT e de seus fatores determinantes e condicionantes, bem como detectar mudanças nas suas tendências no tempo, no espaço geográfico e em grupos populacionais, o Ministério da Saúde implantou em 2006 em todas as capitais do Brasil e no Distrito Federal, o sistema Vigitel, que contribuiu, também, para o planejamento de ações na área de saúde (VIGITEL, 2013).</p><p>Vocês perceberam a riqueza desse inquério? Muitos dos dados que já discutimos ou vamos considerar neste estudo são provenientes do Vigitel! Você vai acompanhar mais informações sobre o sobre o sistema Vigitel no PDF deste módulo.</p>",
+                        "order":690
+                    },
+
+            
+
+                     {
+                       "template": "texto",
+                       "column": "col-xs-0 col-md-5",
+                       "type": "normal",
+                       "section":61,
+                       "style":"height:130px;",
+                       "content": "",
+                       "order":700
+                   },
+                   {
+                       "template":"botaoPular",
+                       "section":61,
+                       "nSec":62,
+                       "cor":"preto",
+                       "style":"margin-top:10px",
+                       "order":710
+                   },
+
+
+
+
+
+
+
+
+
+
+
+
+                   {
+                        "template": "texto",
+                        "type": "title",
+                        "section":62,
+                        "column": "col-xs-12 col-md-5",
+                        "content": "Alimentação saudável",
+                        "order":720
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-3",
+                        "type": "normal",
+                        "section":62,
+                        "style":"height:50px",
+                        "content": "",
+                        "order":725
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":62,
+                        "content": "<p>A saúde muitas vezes está relacionada com a alimentação do usuário.</p>",
+                        "order":730
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-3",
+                        "type": "normal",
+                        "section":62,
+                        "style":"height:50px",
+                        "content": "",
+                        "order":735
+                    },
+
+
+                
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":62,
+                        "content": "<p style='font-size:1.6em;'><b>VOCÊ CONCORDA?</b></p>",
+                        "order":740
+                    },
+
+
+                   
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":62,
+                        "content": "<p>Pensando nisso, é relevante saber que no Brasil a Política Nacional de Alimentação e Nutrição (PNAN), apresenta como propósito a melhoria das condições de alimentação, nutrição e saúde da população brasileira.</p><p>De que forma você percebe a relação das condições de saúde dos<br/>homens com seus hábitos alimentares?</p><p>O estilo de vida masculino favorece um maior número de refeições realizadas fora do domicílio, compostas, na maioria dos casos, por alimentos industrializados e ultraprocessados, como refrigerantes, cerveja, sanduíches, salgados e salgadinhos industrializados, com alta ingestão de sal e carnes vermelhas e baixa ingesta de frutas, legumes e peixe, imprimindo um padrão de alimentação que aumenta o risco de DCNT (BRASIL, 2011 ).</p><p>Como profissional da saúde, você atua, também, na vigilância em saúde com o monitoramento da evolução dos hábitos alimentares e as características da morbidade por meio do registro de informações dos atendimentos realizados ao homem no Sistema de Atenção Básica (SIAB) e Sistema de Vigilância Alimentar e Nutricional (SISVAN).</p>",
+                        "order":750
+                    },
+
+
+
+
+
+
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "section":63,
+                        "style":"height:110px",
+                        "content": "",
+                        "order":753
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-2",
+                        "type": "normal",
+                        "section":63,
+                        "style":"height:420px",
+                        "content": "",
+                        "order":755
+                    },
+
+                   
+
+                    {
+                        "template": "texto",
+                        "type": "title",
+                        "section":63,
+                        "column": "col-xs-12 col-md-7",
+                        "content": "Prática Corporal/atividades físicas",
+                        "order":760
+                    }, 
+
+                   
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-3",
+                        "type": "normal",
+                        "section":63,
+                        "style":"height:50px",
+                        "content": "",
+                        "order":765
+                    },
+
+                     
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":63,
+                        "content": "<p>Como profissionais da saúde, temos clareza da importância das práticas corporais. Entretanto, muitas vezes utilizamos os termos atividade física e exercício físico como sinônimos.</p><p><b>Mas, será que eles têm o mesmo significado? Confira clicando nos botões ao lado!</b></p><br/><p>Na atenção básica temos, desde 2008, o Programa Academia da Saúde, com o objetivo de promover práticas corporais e Atividades físicas, promoção da alimentação saudável, educação em saúde, além de contribuir para produção do cuidado e de modos de vida saudáveis e sustentáveis da população. O Programa possibilita a implantação de polos com infraestrutura, equipamentos e quadro de pessoal qualificado para a orientação de práticas corporais e atividade física e de lazer nos espaços da comunidade. Outras ações na rede básica de saúde e na comunidade, como caminhadas, prescrição de exercícios, práticas lúdicas, esportivas e de lazer, devem ser planejadas para a comunidade como um todo, estimulando a participação do público masculino (BRASIL, 2014).</p>",
+                        "order":770
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-2",
+                        "type": "normal",
+                        "section":63,
+                        "style":"height:8px",
+                        "content": "",
+                        "order":775
+                    },
+
+
+                     {
+                        "template":"sanfona",
+                        "column": "col-xs-12 col-md-4",
+                        "section":63,
+                        "styleObj": {
+                        },
+                        "sanfonas":[
+                            {
+                                "titulo":"Atividade física", 
+                                "content":" É definida por qualquer movimento corporal, produzido por músculos esqueléticos, que requeira gasto de energia maior que em nível de repouso, como, por exemplo, andar, jogar, subir escadas, trabalhar, dançar, fazer atividades domésticas e de recreação, em especial as atividades executadas com a finalidade de melhorar a qualidade de vida."
+                            },
+
+                            {
+                                "titulo":"Exercício físico", 
+                                "content":"<p style='margin-bottom: 76px;'>É uma atividade repetida, planejada e estruturada, que tem por objetivo a obtenção, a manutenção ou a melhoria da aptidão física.</p>"
+                            }
+                        ],
+                        "order":780
+                    },
+
+                   
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-3",
+                        "type": "normal",
+                        "section":63,
+                        "style":"height:35px",
+                        "content": "",
+                        "order":785
+                    },
+
+
+
+
+
+
+
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "section":64,
+                        "style":"height:90px",
+                        "content": "",
+                        "order":800
+                    },
+
+                   
+
+                    {
+                        "template": "texto",
+                        "type": "title",
+                        "section":64,
+                        "column": "col-xs-12 col-md-7",
+                        "content": "Prevenção e controle do tabagismo",
+                        "order":820
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-3",
+                        "type": "normal",
+                        "section":64,
+                        "style":"height:60px",
+                        "content": "",
+                        "order":830
+                    },
+
+                     
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "normal",
+                        "section":64,
+                        "content": "<p>O tabagismo é um dos principais fatores de risco para as DCNT. Por esta questão, o Ministério da Saúde desenvolve desde 1980, por meio do Instituto Nacional do Câncer (INCA), um conjunto de ações que compõem o Programa Nacional de Controle de Tabagismo (PNCT), com o objetivo de reduzir prevalência de fumantes, implementando ações de comunicação, educação e<br/>atenção à saúde.</p>",
+                        "order":840
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "normal",
+                        "section":64,
+                        "content": "<p>Ações educativas de prevenção da iniciação do fumo devem ser programadas, de forma a criar um contexto que reduza a aceitação social do tabagismo, reduza os estímulos para que os jovens não comecem a fumar, reduza os estímulos que dificultam os fumantes a deixarem de fumar, proteja a população dos riscos da exposição à poluição tabagística ambiental e aumente o acesso dos fumantes ao apoio para cessação de fumar<br/>(BRASIL, 2014).</p>",
+                        "order":850
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "normal",
+                        "section":64,
+                        "content": "<p>Você pode observar que, na população masculina, fatores laborais estão relacionados à maior prevalência do tabagismo, como maior carga horária, turnos noturnos, empregos em estabelecimentos abertos, estresse ocupacional e convivência com colegas tabagistas.</p><p>Desta forma, se faz necessário investir na promoção de ambientes de trabalho livres<br/>de tabaco</p>",
+                        "order":860
+                    },
+
+
+
+
+
+
+
+
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "section":65,
+                        "style":"height:80px",
+                        "content": "",
+                        "order":870
+                    },
+
+
+                     {
+                        "template": "revelar",
+                        "type": "click",
+                        "section":65,
+                        "style":"height:500px",
+                        "column": "col-xs-12 col-md-12",
+                        "contentCapa": "Prevenção e controle do uso abusivo de álcool",
+                        "backgroundCapa":"",
+                        "content": "<div class='col-xs-12 col-md-6' style='padding:25px 10px 5px 20px;'> <span>A Política para a Atenção Integral a Usuários de Álcool e outras Drogas busca subsidiar a construção coletiva do enfrentamento, com definição de estratégias de prevenção, tratamento e de educação voltada para o uso de álcool e outras drogas, assegurando a participação<br/>intersetorial (BRASIL, 2003).</span> </div> <div class='col-xs-12 col-md-6' style='padding:25px 20px 5px 10px;'> <span> A abordagem ao alcoolismo na Atenção Primária à Saúde tem como objetivo a detecção precoce de problemas relacionados, além da integração do tratamento de outras patologias agravadas pelo álcool. Seria a redução de danos, com a substituição por substâncias que causem menos agravos, e até a abstinência das drogas<br/>que criam problemas aos usuários.</span></div>",
+                        "contentHeight" : "200px",
+                        "styleObj": {
+                            
+                           },
+                        "order":875
+                    },
+
+
+
+
+
+
+
+
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "section":66,
+                        "style":"height:80px",
+                        "content": "",
+                        "order":910
+                    },
+
+                      {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-4",
+                        "type": "normal",
+                        "section":66,
+                        "style":"height:200px",
+                        "content": "",
+                        "order":920
+                    },
+
+                   
+
+                    {
+                        "template": "texto",
+                        "type": "title",
+                        "section":66,
+                        "column": "col-xs-12 col-md-8",
+                        "content": "Prevenção secundária, diagnóstico<br/>precoce e tratamento",
+                        "order":930
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "normal",
+                        "section":66,
+                        "style":"height:30px",
+                        "content": "",
+                        "order":940
+                    },
+
+                     
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":66,
+                        "content": "<p>A Rede de Atenção à Saúde (RAS) está diretamente associada à existência de um trabalho compartilhado entre os profissionais de saúde. A atenção ambulatorial e a atenção hospitalar, para o cuidado às pessoas com doenças crônicas, devem complementar e estarem integradas à atenção básica, de modo a superar a atuação fragmentada e isolada que ocorre na maioria das localidades hoje.</p><p>Para qualificar a demanda aos serviços especializados e garantir a equidade é necessário:<br/><br/><ul><li>A estratificação de risco da população adscrita pela Atenção Básica, para o empoderamento das equipes na coordenação do cuidado aos usuários com doenças crônicas.</li><li>A reorganização dos processos de trabalho a fim de fortalecer as relações na Atenção Básica.</li><li>Organização de parâmetros mínimos e máximos para cobertura populacional de um serviço de atenção especializada, considerando a densidade populacional, as necessidades de saúde e o provimento de profissionais.</li><li>O atendimento às situações de DCNT deve estar na Atenção Básica, pois este setor deve tratar da promoção, da prevenção e do diagnóstico precoce, podendo direcionar o acesso aos procedimentos de média e alta complexidade, seja para tratamento, seja para reabilitação.</li></ul><br/></p>",
+                        "order":950
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "section":66,
+                        "style":"height:80px",
+                        "content": "",
+                        "order":951
+                    },
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "normal",
+                        "section":66,
+                        "content": "<p>O Plano de Ações Estratégicas para o Enfrentamento das DCNT no Brasil, 2011-2022, propõe ações visando o fortalecimento da capacidade de resposta do SUS e a ampliação de intervenções diversificadas capazes de uma abordagem integral da saúde com vistas à prevenção e ao controle das DCNT (BRASIL, 2013).</p><p><b>Dentre as principais ações, estão:</b></p>",
+                        "order":953
+                    },
+
+                   
+
+
+                     {
+                        "template":"sanfona",
+                        "column": "col-xs-12 col-md-8",
+                        "section":66,
+                        "styleObj": {
+                        },
+                        "sanfonas":[
+                            {
+                                "titulo":"1. Linha de cuidado de DCNT", 
+                                "content":" Definição e implementação de protocolos e diretrizes clínicas das DCNT com base em evidências de custo-efetividade, vinculando portadores ao cuidador e à equipe da Atenção Básica, garantindo referência e contrarreferência para a rede de especialidades e hospitalar, favorecendo a continuidade do cuidado e integralidade na atenção, além do desenvolvimento do sistema de informação e gerenciamento de DCNT."
+                            },
+
+                            {
+                                "titulo":"2. Capacitação e telemedicina", 
+                                "content":"Capacitação das equipes da Atenção Básica, expandindo recursos de telemedicina, segundo opinião e cursos a distância, qualificando a resposta às DCNT."
+                            },
+                            {
+                                "titulo":"3. Medicamentos gratuitos", 
+                                "content":"Ampliação do acesso gratuito aos medicamentos e insumos estratégicos previstos nos Protocolos Clínicos e Diretrizes Terapêuticas das DCNT e tabagismo."
+                            },
+
+                            {
+                                "titulo":"4. Saúde Toda Hora", 
+                                "content":"<ul><li><b>Atenção às Urgências:</b> Fortalecimento do cuidado ao portador de DCNT na rede de urgência, integrado entre unidades de promoção, prevenção e atendimento à saúde, com o objetivo de ampliar e qualificar o acesso humanizado e integral aos usuários em situação de urgência nos serviços de saúde de forma ágil e oportuna.</li><li><b>Atenção Domiciliar: </b>Ampliação do atendimento a pessoas com dificuldades de locomoção ou que precisem de cuidados regulares, mas não de hospitalização, por meio de um conjunto de ações de Promoção à Saúde, prevenção e tratamento de doenças e reabilitação prestadas em domicílio com garantia de continuidade de cuidados e integradas à Rede de Atenção à Saúde (RAS).</li><li><b>Linha do Cuidado do IAM e AVE na Rede de Atenção às Urgências:</b> Qualificação e integração de todas as unidades de saúde da Rede de Atenção às Urgências para permitir que os pacientes com Infarto Agudo do Miocárdio (IAM) e Acidente Vascular Encefálico (AVE) sejam atendidos, diagnosticados e tratados rapidamente, com acesso às terapias estabelecidas nos Protocolos Clínicos e Diretrizes Terapêuticas, garantindo ao usuário o acesso e o tratamento adequados em tempo hábil (BRASIL, 2013).</li></ul>"
+                            }
+                        ],
+                        "order":970
+                    },
+
+
+                    
+
+
+                      {
+                       "template": "texto",
+                       "column": "col-xs-0 col-md-12",
+                       "type": "normal",
+                       "section":66,
+                       "style":"height:30px",
+                       "order":980
+                   },
+                   {
+                       "template":"botaoPular",
+                       "section":66,
+                       "nSec":67,
+                       "cor":"preto",
+                       "style":"margin-top:10px",
+                       "order":990
+                   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "style":"height:10px",
+                        "section":67,
+                        "content": "",
+                        "order":1000
+                    },
+
+
+                 
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-5",
+                        "type": "normal",
+                        "style":"text-align:center;",
+                        "section":67,
+                        "content": "<p>Ao efetuar os estudos desta etapa, você poderá refletir sobre sua atuação profissional e as estratégias que você adota para orientar a população masculina sobre a adoção de hábitos de vida saudáveis.</p><p>Muitos grupos de educação em saúde e/ou de promoção da saúde trabalham com pessoas que estão em risco ou apresentam as comorbidades discutidas no módulo. Quais ações você e a sua equipe realizam ou poderiam realizar para estimular os homens a cuidarem da saúde?</p>",
+                        "order":1010
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-1",
+                        "type": "normal",
+                        "section":67,
+                         "style":"height:260px",
+                        "content": "",
+                        "order":1016
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":67,
+                        "content": "<p style='font-size:2em; text-align:center; padding-top:30px;'><b>Aproveite e reflita sobre este tema! Assista a essa animação sobre algumas escolhas em nossa vida:</b></p>",
+                        "order":1020
+                    },
+
+
+
+
+
+                    {
+                        "template":"video",
+                        "column": "col-xs-12 col-md-12",
+                        "section":68,
+                        "styleObj":{  
+                            "height": "560px"
+                        },
+                        "youtube":{  
+                            "active":"true",
+                            "id":"D0isz8T31UI"
+                        },
+                        "web":{  
+                            "active":false,
+                            "src":"",
+                            "type":"video/mp4"
+                        },
+                        "order":1030
+                    },
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "section":69,
+                         "style":"",
+                        "content": "",
+                        "order":1032
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "style":"text-align:center;",
+                        "section":69,
+                        "content": "<p class='textoDestaque'><b>E você, profissional, também tem adotado hábitos saudáveis no seu cotidiano?<br/>Continue a explorar essa leitura, pois vamos discutir estratégias de atenção à saúde frente às DCNT. ACOMPANHE!</b></p>",
+                        "order":1035
+                    },
+
+
+
+
+
+
+
+
+
+
+
+
+                      {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "section":69,
+                        "style":"height:80px",
+                        "content": "",
+                        "order":1050
+                    },
+
+                   
+                   
+
+                    {
+                        "template": "texto",
+                        "type": "title",
+                        "section":69,
+                        "column": "col-xs-12 col-md-6",
+                        "content": "Rede de Atenção à Saúde (RAS)",
+                        "order":1070
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "normal",
+                        "section":69,
+                        "style":"height:50px",
+                        "content": "",
+                        "order":1080
+                    },
+
+                     
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":69,
+                        "content": "<p>Rede de Atenção à Saúde: você sabe o que isso significa?</p><p>A rede de atenção é definida como um conjunto de ações e serviços de saúde articulados em níveis de complexidade crescente, com a finalidade de garantir a integralidade da assistência à saúde.</p><p>Estar tem como objetivos:</p><p><ul><li>fomentar a mudança do modelo de atenção à saúde, fortalecendo o cuidado às pessoas com doenças crônicas;</li><li>garantir o cuidado integral às pessoas com doenças crônicas;</li><li>impactar positivamente nos indicadores relacionados às doenças crônicas;</li><li>contribuir para a promoção da saúde da população e prevenir o desenvolvimento das doenças crônicas e suas complicações.</li></ul></p>",
+                        "order":1090
+                    },
+
+                      {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-6",
+                        "type": "normal",
+                        "section":69,
+                        "style":"height:460px",
+                        "content": "",
+                        "order":1095
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":69,
+                        "content": "<p>A Atenção Básica à Saúde (ABS) tem caráter estratégico na Rede de Atenção às Pessoas com Doenças Crônicas, pois se trata do ponto de atenção com maior capilaridade e potencial para identificar as necessidades de saúde da população e realizar a estratificação de riscos que subsidiará a organização do cuidado em toda a rede.</p><p>Considerando a atenção integral à saúde do homem, temos outras RAS que podem auxiliar, como a Rede de Atenção à Saúde Mental, que, entre outros agravos, atende os casos de abuso de álcool e outras drogas.</p>",
+                        "order":1100
+                    },
+
+                    
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":69,
+                        "content": "<p style='font-size:1.2em; text-align:left; '><b>Entre os modelos de atenção às doenças crônicas, as diretrizes para o cuidado das pessoas com doenças crônicas em rede sugerem o uso do Modelo de Atenção às Condições Crônicas (MACC).</b></p>",
+                        "order":1110
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":69,
+                        "content": "<p style='font-size:1.2em; text-align:left; '><b>O MACC estrutura-se em cinco níveis e em três componentes integrados. Clique e confira as<br/>características de cada um deles.</b> </p>",
+                        "order":1120
+                    },
+
+
+
+
+
+                     {
+                        "template": "multimedia",
+                        "section":69,
+                        "src": "curso/recursos/modulo4/unidade3/UNA07_REC02_grafico_MACC/UNA07_REC01_grafico_MACC.html",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": {
+                            "height": "540px;",
+                            "width": "1061px;"
+                        },
+                        "order":1130
+                    },
+
+
+
+                      {
+                       "template": "texto",
+                       "column": "col-xs-0 col-md-12",
+                       "type": "normal",
+                       "section":69,
+                       "style":"height:30px",
+                       "order":1140
+                   },
+                   {
+                       "template":"botaoPular",
+                       "section":69,
+                       "nSec":70,
+                       "cor":"preto",
+                       "style":"margin-top:10px",
+                       "order":1150
+                   },
+
+
+
+
+
+                   {
+                      "template":"contraCapa",
+                      "section":70,
+                      "final":false,
+                      "secVoltar":30,
+                     "secAvancar":31,
+                     "textoAv":"escolha o próximo módulo",
+                     "textoVoltar":"voltar",
+                     "linkMod":"http://www.google.com",
+                      "textoDownload":"AGORA, SIGA PARA O ESTUDO DO CONTEUDO COMPLETO",
+                      "label":"BAIXAR O LIVRO",
+                      "textoFinal":"<p>Estudos de casos de experiências de redes de atenção à saúde indicam que estas, à semelhança do que ocorre em países desenvolvidos, podem ter impacto significativo nos níveis de saúde, com custos suportáveis pelo SUS (MENDES , 2011) .</p><p>Com essas informações, é possível pensar novos caminhos em que você e sua equipe possam agregar ao manejo dos fatores de risco e Doenças Crônicas Não Transmissíveis (DCNT), junto aos usuários.</p>Nesse contexto, você pode perceber também a estreita relação entre as DCNT e seus fatores de risco, como sedentarismo, dieta inadequada, obesidade, consumo de álcool e tabagismo.</p><p>Quais as estratégias para o manejo desses fatores de risco, você e a sua equipe têm desenvolvido junto ao usuário?</p><p>Como você, profissional de saúde, tem cuidado da sua saúde?</p>Tenha sempre esta reflexão em mente!</p><p>Você também deve realizar a atividade avaliativa deste módulo.</p><p>Lembre, também, que você pode trocar informações e experiências na comunidade de prática da Atenção Básica! E, para contribuir com a melhoria constante dos cursos produzidos, responda à tomada de opinião sobre o conteúdo visto.</p><p>BONS ESTUDOS!</p>",
+      
+                      "order":1160
+                      }
+
+
+
+                ]
+            }
+        ]
+    }

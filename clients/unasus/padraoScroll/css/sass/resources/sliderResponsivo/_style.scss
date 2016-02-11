@@ -43,6 +43,7 @@
 		        width: 100%;
 		        background: $baseColor;
 		        display: table;
+		        position: relative;
 				p{
 					margin:0;
 					width: 100%;
@@ -91,7 +92,7 @@
 		    ul.slider_tabs{
 		        position: absolute;
 		        z-index: 3;
-		        bottom: -42px;
+		        top:10px;
 		        right: 10%;
 		        li{
 		        	position: relative;

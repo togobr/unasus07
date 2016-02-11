@@ -55,6 +55,7 @@
 		height: 4px;
 		bottom: 0px;
 		background: $hover;
+		z-index: -1;
 	}
 
 	&.normal .textoSolto{
@@ -87,6 +88,7 @@
 			display: table-cell;
 			bottom: 6px;
 			margin-left: 5px;
+
 		}
 	}
 } 
