@@ -87,6 +87,8 @@ define([
 					self.updateScorm(current_slide_index);
 					self.updateSlideButtons();
 
+					$("body").find(".modalCreditos").appendTo("body");
+
 					// usar timeout porque há recursos que executam metodos de inicialização no evento `contentReady`
 					// e os métodos `in` devem ser executados somente após o recurso ter sido completamente inicializado
 					setTimeout(function() {
