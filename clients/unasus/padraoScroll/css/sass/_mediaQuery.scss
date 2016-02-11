@@ -216,15 +216,15 @@
 
 
     //RECURSO - Gaveta Horizontal
-    // .gavetaHor{
-    //     #tabsHor{
-    //         ul.ui-tabs-nav{
-    //             li{
-    //                 display: block;
-    //             }
-    //         }
-    //     }
-    // }
+    .gavetaHor{
+        #tabsHor{
+            ul.ui-tabs-nav{
+                li{
+                    display: block;
+                }
+            }
+        }
+    }
 
     .texto.subtitle .underlineTitle
     {
@@ -276,4 +276,37 @@
     .btCreditos{
         width: auto;
     }
+
+     //RECURSO - Gaveta Horizontal e Vertical
+    #tabsHor, #tabsVert{
+        display: none;
+    }
+    #tabsHorMobile,  #tabsVertMobile{
+        display: block;
+        ul{
+            padding: 0;
+        }
+        .wrapperContentMobile{
+            padding: 0;
+            margin-bottom: 15px;
+            .col-xs-12{
+                padding: 0;
+            }
+            img{
+                width: 100%;
+            }
+            strong{
+                font-family: $bold;
+                font-size: 1.5em;
+                line-height: 24px;
+            }
+            p{
+                margin: 0px;
+                font-family: $regular;
+                font-size: 1.5em;
+                line-height: 24px;
+            }
+        }
+    }
+
 }

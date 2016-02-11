@@ -1,8 +1,11 @@
 .gavetaHor{
-	background:#eaeaea;
 	width:100%;
 	height:auto;
 	overflow:auto;
+}
+
+#tabsHorMobile{
+	display: none;
 }
 
 #tabsHor{
@@ -20,7 +23,7 @@
 			padding-left: 0;
 			display: table-cell;
 			background: $normal;
-		
+			margin: 0;
 			a{
 				display: table;
 				height: 100%;
