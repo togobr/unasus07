@@ -92,4 +92,9 @@
 } 
 
 
+.texto.quadro{
+	@include border-radius(5px);
+}
+
+
 

@@ -12,7 +12,7 @@
 
 						<a href="{{#src}}{{src}}{{/src}}  {{^src}}javascript:void(0);{{/src}}" title="{{filename}}" target="_blank" download></a>
 						<div class="iconDownload">
-							<span class="icomoon icon-download-11"></span>
+							<span class="icomoon icon-download"></span>
 						</div>
 						<div class="tagP">
 							<span>
@@ -46,14 +46,14 @@
 	<div class="botoesNav">
 
 		<div class="footerContet" style="width: 100%;max-width: 1021px;margin: 0 auto;  position: relative;">
-			<div class="voltarNav">
+			<div class="voltarNav" data-sec="{{secVoltar}}" data-modulos="{{linkMod}}">
 
-				<span class="icon-voltar"><b>VOLTAR</b></span>
+				<span class="icon-voltar"><b>{{&textoVoltar}}</b></span>
 
 			</div>
 
-			<div class="avancarNav">
-				<span class="icon-avancar"><b>{{textoAv}}</b></span>
+			<div class="avancarNav" data-sec="{{secAvancar}}" data-modulos="{{linkMod}}">
+				<span class="icon-avancar"><b>{{&textoAv}}</b></span>
 
 			</div>
 
