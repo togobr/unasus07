@@ -76,11 +76,21 @@ define([], function() {
 						windowHeight = $(window).height(),
 						top = (((windowHeight - contentModalHeight)/2)*100)/windowHeight,
 						left = (((windowWidth - contentModalWidth)/2)*100)/windowWidth;
+
+						if(left < 0){
+							left = 0;
+						}
+
+						if(top < 0){
+							top = 0;
+						}
 						
 
 						$contentModal.css({
 							"top":  top+"%",
-							"left": left+"%"
+							"left": left+"%",
+							"bottom": top+"%",
+							"right": left+"%",
 						})
 
 						resource_scorm[resource_id] = {
