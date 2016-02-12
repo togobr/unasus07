@@ -76,7 +76,7 @@
 				width: 100%;
 
 				&.open{
-					a.dropdown-toggle{
+					.dropdown-toggle{
 						.openCloseIcon{
 							.icon-setaPreenchida_cima{
 								display: table-cell;
@@ -88,7 +88,7 @@
 					}
 				}
 
-				a.dropdown-toggle{ 
+				.dropdown-toggle{ 
 					-webkit-border-top-left-radius: 5px;
 					border-top-left-radius: 5px;
 					-webkit-border-top-right-radius: 5px;
@@ -138,14 +138,16 @@
 					border: none;
 					margin-top: 5px;
 					font-size: inherit !important;
+					padding: 10px 5px 0px 15px;
 					li{
 						font-size: 1.6em;
 						padding: 0.5em;
+						padding-top: 0;
 					}
-					a{
+					span{
 						white-space: normal;
 					}
-					a:hover{
+					span:hover{
 						background: none;
 					}
 				}
