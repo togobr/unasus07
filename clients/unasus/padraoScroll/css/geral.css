@@ -4000,22 +4000,24 @@ ol li:before {
   line-height: 26px;
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 67, sass/resources/texto/_style.scss */
+/* line 68, sass/resources/texto/_style.scss */
 .texto.title .textoSolto {
   font-size: 3em;
   line-height: 1.4em;
-  margin-bottom: 20px;
   font-family: "Roboto-Bold", sans-serif;
   color: #2f3275;
   text-transform: uppercase;
+}
+/* line 77, sass/resources/texto/_style.scss */
+.texto.subtitle {
   margin-bottom: 20px;
 }
-/* line 78, sass/resources/texto/_style.scss */
+/* line 79, sass/resources/texto/_style.scss */
 .texto.subtitle .wrapper {
   display: table;
   margin: initial;
 }
-/* line 82, sass/resources/texto/_style.scss */
+/* line 83, sass/resources/texto/_style.scss */
 .texto.subtitle .textoSolto {
   font-size: 3em;
   line-height: 30px;
@@ -4023,7 +4025,6 @@ ol li:before {
   color: #2f3275;
   display: table-cell;
   font-variant: small-caps;
-  margin-bottom: 20px;
 }
 /* line 91, sass/resources/texto/_style.scss */
 .texto.subtitle .underlineTitle {

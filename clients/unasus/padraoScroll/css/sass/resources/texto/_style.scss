@@ -64,17 +64,18 @@
 		font-family: $regular;
 	}
 
-	&.title .textoSolto{
-		font-size: 3em;
-		line-height: 1.4em;
-		margin-bottom: 20px;
-		font-family: $bold;
-		color: $normal;
-		text-transform: uppercase;
-		margin-bottom: 20px;
-	}
+	&.title{
+		.textoSolto{
+			font-size: 3em;
+			line-height: 1.4em;
+			font-family: $bold;
+			color: $normal;
+			text-transform: uppercase;
+		}
+	} 
 
 	&.subtitle{
+		margin-bottom: 20px;
 		.wrapper{
 			display: table;
 			margin: initial;
@@ -86,7 +87,6 @@
 			color: $normal;
 			display: table-cell;
 			font-variant: small-caps;
-			margin-bottom: 20px;
 		}
 		.underlineTitle{
 			display: table-cell;

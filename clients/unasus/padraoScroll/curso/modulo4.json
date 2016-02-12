@@ -2586,7 +2586,7 @@
                         "template": "texto",
                         "type": "title",
                         "section":64,
-                        "column": "col-xs-12 col-md-7",
+                        "column": "col-xs-12 col-md-8",
                         "content": "Prevenção e controle do tabagismo",
                         "order":820
                     },
@@ -2596,7 +2596,7 @@
                         "column": "col-xs-12 col-md-3",
                         "type": "normal",
                         "section":64,
-                        "style":"height:39px",
+                        "style":"height:62px",
                         "content": "",
                         "order":830
                     },
