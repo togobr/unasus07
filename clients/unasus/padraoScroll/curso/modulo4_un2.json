@@ -337,7 +337,6 @@
                     {
                         "template": "multimedia",
                         "section":35,
-                        "srcMobile":"https://onespoonfulatatime.files.wordpress.com/2011/07/brasil-ferias-baratas.jpg",
                         "src": "curso/recursos/modulo4/unidade2/UNA07_modulo4_unidade2_rec001/UNA07_REC01_grafico_brasil.html",
                         "column": "col-xs-12 col-md-12",
                         "styleObj": {

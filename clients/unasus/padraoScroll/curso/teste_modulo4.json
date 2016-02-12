@@ -4,11 +4,242 @@
         "scoName": "TESTE UNASUS",
         "srcCaptivate":"",
         "scorm":false,
-        "teste":"",
+        "unidades":[
+
+                {
+                    "name": "Unidade 1",
+                    "idSection": 0
+                },
+                {
+                    "name": "Unidade 2",
+                    "idSection": 30
+                },
+                {
+                    "name": "Unidade 3",
+                    "idSection": 60
+                }
+
+        ],
         "slides": [       
             {
                 "template": "slideScroll",
                 "resources": [
+
+
+                               {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "style":"",
+                        "idSection":"0",
+                        "capa":"capa",
+                        "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img01.png",
+                        
+                        "order":0
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "style":"",
+                        "idSection":"1",
+                        "backgroundSRC":"",
+                        "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img02.png",
+                                "styleImg":"top: 0px; right: 0px;"
+                            }
+                        ],
+                        "order":1
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"2",
+                        "backgroundSRC":"",
+
+                         "images":[
+                            {
+                                "imgBG":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img03.png",
+                                "styleImg":"top: 0px; right: 0px;"
+                            }
+                        ],
+                        "order":2
+                    },
+
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "style":"background-size:initial;",
+                        "idSection":"3",
+                        "backgroundSRC":"css/assets/images/UNA07_padraoAzul.png",
+                        "styleContainer":"padding:45px 10px;",
+                        "order":3
+                    },
+
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"4",
+                        "backgroundSRC":"",
+                         "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img04.png",
+                                "styleImg":"top: 0px; right: 0px;"
+                            }
+
+
+                        ],
+                        "order":4
+                    },
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"5",
+                        "backgroundSRC":"",
+
+                         "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img05.png",
+                                "styleImg":"top: 0px; left: 0px;"
+                            }
+
+
+                        ],
+                        "order":5
+                    },
+
+
+                     {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"6",
+                        "backgroundSRC":"",
+                         "images":[
+
+                            {
+                                "imgBG":"",
+                                "styleImg":"top: 140px; right: 995px;"
+                            }
+
+
+                        ],
+                        "order":6
+                    },
+
+
+                      {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"7",
+                        "backgroundSRC":"",
+                         "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img07.png",
+                                "styleImg":"top: -70px; right: 35px;"
+                            }
+
+
+                        ],
+                        "order":7
+                    },
+
+
+
+                      {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"8",
+                        "backgroundSRC":"",
+                         "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img09.png",
+                                "styleImg":"top: 0px; right: 0px;"
+                            }
+
+
+                        ],
+                        "order":8
+                    },
+
+
+                      {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"9",
+                        "backgroundSRC":"",
+                         "images":[
+
+                            {
+                                "imgBG":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img04.png",
+                                "styleImg":"top: 0px; right: 0px;"
+                            }
+
+
+                        ],
+                        "order":9
+                    },
+
+
+
+                      {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"10",
+                        "backgroundSRC":"",
+                         "images":[
+
+                            {
+                                "imgBG":"css/assets/images/UNA07_padraoAzul.png",
+                                "styleImg":"top: 45px;  right: 1px;"
+                            }
+
+
+                        ],
+                        "order":10
+                    },
+
+
+                    {
+                        "template":"backgroundScroll",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": "",
+                        "idSection":"11",
+                        "backgroundSRC":"",
+                         "images":[
+
+                            {
+                                "imgBG":"",
+                                "styleImg":""
+                            }
+
+
+                        ],
+                        "order":11
+                    },
+
+
+
+
+
+
+
 
                  {
                         "template":"backgroundScroll",
@@ -91,7 +322,7 @@
                         "images":[
                             {
                                 "imgBG":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec008.png",
-                                "styleImg":"left:30%;"
+                                "styleImg":"left:835px;"
                             }
                         ],
                         "order":37
@@ -116,6 +347,1228 @@
                         "backgroundSRC":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec010.png",
                         "order":39
                     },
+
+
+
+
+
+
+
+
+
+
+
+ {
+                       "template":"capa",
+                       "nUnidade":"UNIDADE 1",
+                       "column": "col-xs-12 col-md-12",
+                       "section":0,
+                       "tituloCapa":"CONDIÇÕES DE VULNERABILIDADE<br/>NA SAÚDE DO HOMEM",
+                       "textoCapa":"Vulnerabilidade na saúde do homem: um tema a ser refletido, pensado, analisado e compreendido da maneira mais ampla possível pelos profissionais de saúde, considerando aspectos socioculturais e, também, particulares.",
+                       "order":0
+
+                   },
+
+                   
+                    {
+                       "template": "texto",
+                       "column": "col-xs-0 col-md-12",
+                       "type": "normal",
+                       "section":0,
+                       "style":"height:130px",
+                       "order":2
+                   },
+                   {
+                       "template":"botaoPular",
+                       "section":0,
+                       "nSec":1,
+                       "cor":"branco",
+                       "style":"margin-top:10px",
+                       "order":4
+                   },
+
+
+
+
+
+
+
+
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "section":1,
+                        "content": "<p style='font-size:2em; line-height:1.3em; text-align:center; '><b>EM SEU COTIDIANO, VOCÊ JÁ OBSERVOU AS DIFERENÇAS DA PROCURA PELOS SERVIÇOS DE SAÚDE ENTRE HOMENS E MULHERES?</b></p>",
+                        "order":6
+                    },
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "section":1,
+                        "style":"height:130px",
+                        "content": "",
+                        "order":8
+                    },
+
+                  
+
+
+                      {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "normal",
+                        "section":1,
+                        "content": "<p>Enquanto as <b>MULHERES</b> buscam os serviços de saúde com maior frequência para realizar exames preventivos e monitoramento das condições de saúde, os <b>HOMENS</b> costumam acessar primeiro os serviços especializados, já com doenças e agravos instalados.</p>",
+                        "order":10
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "normal",
+                        "section":1,
+                        "content": "<p><b>POLÍTICA NACIONAL DE ATENÇÃO INTEGRAL À SAÚDE DO HOMEM (PNAISH)</b> reforça a importância de fortalecer e qualificar a atenção primária para a população masculina para o alcance da promoção da saúde e a prevenção dos problemas evitáveis.</p>",
+                        "order":12
+                    },
+
+                      {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "normal",
+                        "section":1,
+                        "content": "<p>Para aprofundar nosso conhecimento sobre este tema tão importante, vamos discutir, nesta unidade, a importância da categoria de gênero como um determinante de saúde da população masculina, ou seja, como as questões de gênero influenciam no cuidado em saúde da população masculina. Acompanhe!</p>",
+                        "order":14
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-3",
+                        "type": "normal",
+                        "section":1,
+                        "style":"height:140px",
+                        "content": "",
+                        "order":16
+                    },
+
+
+
+                     {
+                       "template": "texto",
+                       "column": "col-xs-0 col-md-5",
+                       "type": "normal",
+                       "section":1,
+                       "style":"height:0px;",
+                       "content": "",
+                       "order":18
+                   },
+                   {
+                       "template":"botaoPular",
+                       "section":1,
+                       "nSec":2,
+                       "cor":"preto",
+                       "style":"margin-top:10px",
+                       "order":20
+                   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-4",
+                        "type": "normal",
+                        "section":2,
+                        "style":"height:350px",
+                        "content": "",
+                        "order":22
+                    },
+
+                  
+                   
+
+                    {
+                        "template": "texto",
+                        "type": "title",
+                        "section":2,
+                        "column": "col-xs-12 col-md-8",
+                        "content": "Gênero, masculinidade e cuidado com a saúde",
+                        "order":24
+                    }, 
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":2,
+                        "style":"height:30px",
+                        "content": "",
+                        "order":26
+                    },
+
+
+                     
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":2,
+                        "content": "<p class='textoDestaque'> <b>VOCÊ JÁ SE PERGUNTOU POR QUE OS HOMENS BUSCAM MENOS OS SERVIÇOS DE SAÚDE DO QUE AS MULHERES?</b></p><p>Essa é uma reflexão importante para iniciar os estudos desta temática.</p><p>Uma primeira resposta para essa pergunta é a incompatibilidade do horário de atendimento das unidades de saúde com o tempo livre dos homens, visto que durante o dia a maioria deles estão no trabalho.</p><p>Entretanto, limitar este desafio ao horário de atendimento é inadequado, visto que há questões relevantes sob a perspectiva relacional de gênero que devem ser observadas.</p><p style='font-size:1.4em; text-align:left; '><b>Vamos conversar um pouco mais sobre isso?</b></p>",
+                        "order":28
+                    },
+
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "section":2,
+                        "style":"height:130px",
+                        "content": "",
+                        "order":30
+                    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":3,
+                        "content": "<p style='color: #ffffff; margin-top:25px;'>A masculinidade, situada na discussão de <span class='toolTp' id='tooltipHolder1' title='GÊNERO'></span>, que representa um conjunto de atributos, valores, funções e condutas que se espera do homem em uma determinada cultura, é um fator muito relevante para o campo da saúde, pois impacta nos padrões de morbimortalidade da população.</p><p style='color: #ffffff'>Devem ser observadas algumas características culturais que contribuem para a não adesão masculina aos serviços de saúde, tal como o padrão de masculinidade hegemônica, que de acordo com Gomes (2008) possui as seguintes características:</p>",
+                        "order":32
+                    },
+
+                      {
+                        "label": "GÊNERO",
+                        "column": "",
+                        "section":3,
+                        "styleObj": {
+                        },
+                        "template": "botaoModal",
+                        "class": "tip",
+                        "nTooltip":"1",
+                        "_modal_id": {
+                            "defaults": {
+                            "styleObj": {
+                                "height": "150px"
+                            },
+                                "name": "Teste Modal",
+                                "type": ""
+                            },
+                            "modal": {
+                                "type": "",
+                                "responsive": true,
+                                "titulo":"GÊNERO",
+                                "palavra":"GÊNERO"
+                            },
+                            "name": "Novo slide",
+                            "onUse": false,
+                            "template": "slideSimples",
+                            "resources": [
+                               
+                                {
+                                    "template": "texto",
+                                    "type": "normal",
+                                    "column": "col-xs-12 col-md-12",
+                                    "content": "O conceito de gênero é socialmente construído, e refere-se à organização das relações sociais e econômicas entre os sexos, especialmente na divisão do trabalho e do poder (GÓMEZ, 2011)."
+                                }
+                           ]
+                        },
+                        "order": 34
+                    },
+
+
+
+                     {
+                        "template":"sliderResponsivo",
+                        "column": "col-xs-12 col-md-6",
+                        "section":3,
+                        "type": "",
+                        "style":"height: 180px;",
+                        "slidesResponsivos":[
+                            {
+                                
+                                "content": "<div class='contentSlider col-xs-12 col-md-12' style='padding: 30px 60px 40px 60px; text-align:center;'> Baseia-se na configuração relacional das práticas de gênero que são aceitas socialmente, estabelecendo e assegurando as posições de dominantes e dominados, exemplificada pela subordinação entre os sexos;</div>"
+                            },
+                            {
+                               
+                                "content": " <div class='contentSlider col-xs-12 col-md-12' style='padding: 65px 60px 40px 60px; text-align:center;'>Não se refere a indivíduos poderosos, mas a um tipo de masculinidade tida por exemplar;</div>"
+                            },
+                            {
+                                "content": "<div class='contentSlider col-xs-12 col-md-12' style='padding: 65px 60px 40px 60px; text-align:center;'>Possui aspecto ideológico, pois naturaliza as diferenças entre os sexos;</div>"
+                            },
+
+                            {
+                                "content": "<div class='contentSlider col-xs-12 col-md-12' style='padding: 65px 60px 40px 60px; text-align:center;'>Expressa uma posição sempre em disputa, não sendo um modelo fixo.</div>"
+                            }
+                        ],
+                        "order":36
+                    },
+
+
+                   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-5",
+                        "type": "normal",
+                        "section":4,
+                        "content": "<p class='textoCitacao'>Os homens, muitas vezes, desempenham comportamentos considerados pouco saudáveis, relacionados a um modelo de masculinidade hegemônica, e isso aumenta os riscos à saúde (Connell, 1995).</p>",
+                        "order":38
+                    },
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-7",
+                        "type": "normal",
+                        "section":4,
+                        "content": "<p>O cuidado foi historicamente atribuído ao papel da mulher na sociedade, desta forma, reconhecer a necessidade de procurar por um serviço de saúde, pode significar fraqueza e vulnerabilidade e à insegurança, aproximando-o das representações do universo feminino, o que poderia gerar desconfianças acerca dessa masculinidade socialmente instituída (GOMES et al., 2007). O medo da descoberta de uma doença grave e a vergonha da exposição do seu corpo perante o profissional de saúde, particularmente a região anal, no caso da prevenção ao câncer de próstata, também tende a afastar o homem dos serviços de saúde (GOMES et al., 2007).</p><p>É importante considerar também que, neste imaginário social de gênero, os profissionais de saúde também fazem parte. Assim, os serviços de saúde podem também reproduzir os padrões tradicionais de cuidado, não integrando as questões de gênero aos atendimentos (FIGUEIREDO, 2005).</p>",
+                        "order":40
+                    },
+
+                      {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "section":4,
+                        "style":"height:50px",
+                        "content": "",
+                        "order":42
+                    },
+
+
+
+                      {  
+                        "template":"caixaDestaque",
+                        "column": "col-xs-12 col-md-8",
+                        "type":"normal",
+                        "section":4,
+                        "title":"Final de Cursos dasd sd",
+                        "content":"Assim, é importante que o profissional de saúde reconheça a influência das questões de gênero na saúde do homem para ser capaz de oferecer um atendimento integral, incluindo ações de prevenção e intervenção nos fatores de risco às principais doenças que acometem os homens.",
+                        "styleObj": {
+                            "margin-top": "0px"
+                        },
+                        "order":44
+                    },
+
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-4",
+                        "type": "normal",
+                        "section":4,
+                        "content": "<p>Quando observamos os fatores de risco, os homens apresentam as maiores frequências de tabagismo, excesso de peso, consumo de refrigerantes, de carnes com excesso de gordura e abuso de bebidas alcoólicas, vamos discutir mais esses assuntos a seguir.</p>",
+                        "order":46
+                    },
+
+
+
+
+
+
+
+
+
+
+
+                    {
+                        "template": "texto",
+                        "type": "title",
+                        "section":5,
+                        "column": "col-xs-12 col-md-8",
+                        "content": "Alcoolismo, tabagismo e outras drogas",
+                        "order":48
+                    }, 
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "section":5,
+                        "style":"height:30px",
+                        "content": "",
+                        "order":50
+                    },
+
+                     
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":5,
+                        "content": "<p>O uso abusivo de álcool, tabaco e outras drogas são fatores de risco bastante relevantes na saúde do homem.</p><p>Convidamos você a conhecer mais sobre esses temas continuando a leitura do conteúdo:</p>",
+                        "order":52
+                    },
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "section":5,
+                        "style":"height:70px",
+                        "content": "",
+                        "order":54
+                    },
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-4",
+                        "type": "normal",
+                        "section":5,
+                        "style":"height:950px",
+                        "content": "",
+                        "order":56
+                    },
+
+
+
+
+                     {
+                        "template": "texto",
+                        "type": "subtitle",
+                        "column": "col-xs-12 col-md-8",
+                        "content": "Alcoolismo",
+                        "section":5,
+                        "order":58
+                    },
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":5,
+                        "style":"height:20px",
+                        "content": "",
+                        "order":60
+                    },
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":5,
+                        "content": "<p>O uso do álcool é cultural e permitido em quase todas as sociedades do mundo, entretanto possui o maior impacto dentre as diferentes substâncias psicoativas em nível global, trazendo graves consequências para a saúde pública mundial.</p>",
+                        "order":62
+                    },
+
+
+                    {  
+                        "template":"caixaDestaque",
+                        "column": "col-xs-12 col-md-8",
+                        "type":"normal",
+                        "section":5,
+                        "title":"Final de Cursos dasd sd",
+                        "content":"Entre os problemas físicos em decorrência do abuso do álcool estariam a cirrose hepática e amiocardiopatia alcoólica, além das lesões decorrentes de acidentes (BRASIL, 2003). ",
+                        "styleObj": {
+                            "margin-top": "0px"
+                        },
+                        "order":64
+                    },
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":5,
+                        "content": "<p>Os transtornos mentais e comportamentais devidos ao uso de álcool são os responsáveis pelo maior número de mortes associadas ao uso de drogas, correspondendo a aproximadamente 90% dos casos.</p><p>No Brasil, em 2013, as frequências de  <span class='toolTp' id='tooltipHolder2' title='consumo abusivo de álcool'></span> entre homens, foram observadas nas cidades de:</p>",
+                        "order":66
+                    },
+
+
+
+
+
+                      {
+                        "label": "consumo abusivo de álcool",
+                        "column": "",
+                        "section":5,
+                        "styleObj": {
+                        },
+                        "template": "botaoModal",
+                        "class": "tip",
+                        "nTooltip":"2",
+                        "_modal_id": {
+                            "defaults": {
+                            "styleObj": {
+                                "height": "150px"
+                            },
+                                "name": "Teste Modal",
+                                "type": ""
+                            },
+                            "modal": {
+                                "type": "",
+                                "responsive": true,
+                                "titulo":"consumo abusivo de álcool",
+                                "palavra":"consumo abusivo de álcool"
+                            },
+                            "name": "Novo slide",
+                            "onUse": false,
+                            "template": "slideSimples",
+                            "resources": [
+                               
+                                {
+                                    "template": "texto",
+                                    "type": "normal",
+                                    "column": "col-xs-12 col-md-12",
+                                    "content": "Para homens, o consumo abusivo de bebidas alcoólicas corresponde à ingestão de cinco ou mais doses, em uma mesma ocasião, dentro dos últimos 30 dias."
+                                }
+                           ]
+                        },
+                        "order": 68
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":5,
+                        "style":"height:20px",
+                        "content": "",
+                        "order":70
+                    },
+
+
+
+
+                     {
+                        "template": "revelar",
+                        "type": "dropdown",
+                        "section":5,
+                        "column": "col-xs-12 col-md-4",
+                        "contentCapa": "Maiores frequências",
+                        "content": "<ul><li style= 'font-size:1.2em;'>Aracaju (34,7%),</li><li style= 'font-size:1.2em;'>São Luís (32,6%);</li><li style= 'font-size:1.2em;'>Cuiabá (31,1%).</li></ul>",
+                        "styleObj": {
+                            "padding": "0px 20px 0px 20px"
+                        },
+                        "order":72
+                    },
+
+                    {
+                        "template": "revelar",
+                        "type": "dropdown",
+                        "section":5,
+                        "column": "col-xs-12 col-md-4",
+                        "contentCapa": "Menores frequências",
+                        "content": "<ul><li style= 'font-size:1.2em;'>Manaus (17,2%);</li><li style= 'font-size:1.2em;'>Rio Branco (18,9%);</li><li style= 'font-size:1.2em;'>Porto Alegre (20,4%).</li></ul>",
+                        "styleObj": {
+                            "padding": "0px 20px 0px 20px"
+                        },
+                        "order":74
+                    },
+
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":5,
+                        "style":"height:60px",
+                        "content": "",
+                        "order":76
+                    },
+
+
+
+
+
+
+
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":5,
+                        "content": "<p>Observou-se também que no Brasil o consumo abusivo de bebidas alcoólicas é (VIGITEL, 2013):</p>",
+                        "order":78
+                    },
+
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "style":"margin:10px 0 10px 0;",
+                        "section":5,
+                        "content": "<img class='col-xs-4 col-md-2' src='curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img11.png'> <p style='margin:3% 0' class='col-xs-8 col-md-10'>Duas vezes e meia maior em homens (24,2%) quando comparado às mulheres (9,7%).</p>",
+                        "order":80
+                    },
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "style":"margin:10px 0 10px 0;",
+                        "section":5,
+                        "content": "<img class='col-xs-4 col-md-2' src='curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img12.png'> <p style='margin:3% 0' class='col-xs-8 col-md-10'>Em ambos os sexos, foi mais frequente entre os indivíduos mais jovens (18 a 34 anos).</p>",
+                        "order":82
+                    },
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-812 col-md-8",
+                        "type": "normal",
+                        "style":"margin:10px 0 10px 0;",
+                        "section":5,
+                        "content": "<img class='col-xs-4 col-md-2' src='curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img13.png'> <p style='margin:3% 0' class='col-xs-8 col-md-10'>Aumenta com o nível de escolaridade, em ambos os sexos.</p>",
+                        "order":84
+                    },
+
+
+                   
+
+                      {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "styleWrapper":"margin:0; max-width:100%;",
+                        "section":5,
+                        "content": "<p>De acordo com levantamento nacional sobre os padrões de consumo de álcool na população brasileira, realizado em 2007:<br/><br/></p><p><ul><li>os homens bebem mais frequentemente que as mulheres;</li><li>39% dos homens bebem pelo menos uma vez por semana, e destes,</li><li>11% bebem diariamente.</li>",
+                        "order":86
+                    },
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "section":5,
+                        "style":"height:30px",
+                        "content": "",
+                        "order":88
+                    },
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-5",
+                        "type": "normal",
+                        "class":"quadro",
+                        "style":"background-color:#eed0a1; padding: 25px;",
+                        "section":5,
+                        "content": "<p><b>EM RELAÇÃO AO TIPO DE BEBIDA:</b></p><ul style='list-style-image:url(css/assets/images/bullet_quadro.png)'><li>não foi encontrada diferença para o uso de cerveja;</li><li>as mulheres bebem mais vinho que os homens;</li><li>enquanto os homens bebem mais destilados que as mulheres.</li></ul></p>",
+                        "order":90
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-1",
+                        "type": "normal",
+                        "section":5,
+                        "style":"height:30px",
+                        "content": "",
+                        "order":92
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "class":"quadro",
+                        "style":"background-color:#eed0a1; padding: 25px;",
+                        "section":5,
+                        "content": "<p><b>EM RELAÇÃO À QUANTIDADE DE BEBIDA:</b></p><ul style='list-style-image:url(css/assets/images/bullet_quadro.png)'><li>houve diferença entre os sexos;</li><li>a maioria das mulheres (68%) bebeu até duas doses de álcool,</li><li>38% dos homens beberam cinco ou mais doses, e, destes,</li><li>11% beberam 12 ou mais doses na última ocasião.</li><li>28% da população brasileira já bebeu em  <span class='toolTp' id='tooltipHolder3' title='BINGE'></span> pelo menos uma vez no último ano, com prevalência maior entre os homens (40% homens e 18% mulheres).</li></ul></p>",
+                        "order":94
+                    },
+
+
+
+                      {
+                        "label": "BINGE",
+                        "column": "",
+                        "section":5,
+                        "styleObj": {
+                        },
+                        "template": "botaoModal",
+                        "class": "tip",
+                        "nTooltip":"3",
+                        "_modal_id": {
+                            "defaults": {
+                            "styleObj": {
+                                "height": "150px"
+                            },
+                                "name": "Teste Modal",
+                                "type": ""
+                            },
+                            "modal": {
+                                "type": "",
+                                "responsive": true,
+                                "titulo":"BINGE",
+                                "palavra":"BINGE"
+                            },
+                            "name": "Novo slide",
+                            "onUse": false,
+                            "template": "slideSimples",
+                            "resources": [
+                               
+                                {
+                                    "template": "texto",
+                                    "type": "normal",
+                                    "column": "col-xs-12 col-md-12",
+                                    "content": "Binge é o termo empregado para definir o uso pesado episódico do álcool, ou seja, consumir um volume excessivo de álcool em um curto espaço de tempo."
+                                }
+                           ]
+                        },
+                        "order": 96
+                    },
+
+
+
+
+
+
+
+
+
+
+
+                     {
+                        "template": "texto",
+                        "type": "subtitle",
+                        "column": "col-xs-12 col-md-8",
+                        "content": "Tabagismo",
+                        "section":6,
+                        "order":98
+                    },
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":6,
+                        "content": "<p>O tabagismo é um importante fator de risco para o desenvolvimento de uma série de doenças crônicas, tais como o câncer, as doenças pulmonares e as doenças cardiovasculares, de modo que o uso do tabaco continua sendo o líder global entre as causas de mortes evitáveis.</p><p>De acordo com o Relatório Brasileiro sobre Drogas:</p><ul><li>a proporção dos que fumam é maior dentre os homens, sendo 37,6% homens e 21,6% mulheres;</li><li>o oposto ocorre com a proporção dos que nunca fumaram, 58,1% das mulheres e 37,9% dos homens</li></ul></p>",
+                        "order":100
+                    },
+
+
+
+
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "style":"",
+                        "section":7,
+                        "content": "As principais características dos fumantes no Brasil, segundo pesquisa da Vigitel (2013) foi:<br/><br/><ul style='list-style-image:url(css/assets/images/bullet_quadro.png)'><li>a taxa de adultos fumantes foi de 11,3%;</li><li>14,4% dos fumantes eram do sexo masculino e 8,6% dos fumantes eram do sexo feminino;</li><li>O hábito de fumar é maior em homens e mulheres com até oito anos de escolaridade (19,1% e 11,5%, respectivamente), excedendo, em cerca de duas vezes, a frequência observada entre indivíduos com 12 ou mais anos de estudo;</li><li>a frequência de adultos que declararam fumar 20 ou mais cigarros por dia foi de 3,4%, maior no sexo masculino (4,5%) em comparação ao sexo feminino (2,4%);</li><li>há mais homens jovens fumantes, enquanto que há mais mulheres com idade intermediária (30-59 anos) fumantes.</li></ul><p>Houve uma leve queda do tabagismo entre homens, e estabilidade entre mulheres, a cessação do tabagismo sugere estar ligeiramente aumentando entre os homens (Vigitel, 2009).</p>",
+                        "order":102
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":7,
+                        "style":"height:160px",
+                        "content": "",
+                        "order":104
+                    },
+
+
+
+
+
+
+
+
+
+
+
+
+                      {
+                        "template": "texto",
+                        "type": "subtitle",
+                        "column": "col-xs-12 col-md-8",
+                        "content": "Outras drogas",
+                        "section":8,
+                        "order":106
+                    },
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":8,
+                        "style":"height:20px",
+                        "content": "",
+                        "order":108
+                    },
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":8,
+                        "content": "<p>As pesquisas sobre uso de drogas apontam a idade, o tipo de droga, a taxa de consumo, taxas de mortalidade e comorbidade como principais diferenças de gênero em relação ao uso de drogas; mas embora a taxa de consumo de drogas seja mais elevada entre os homens, vem diminuindo a proporção entre os sexos.</p>",
+                        "order":110
+                    },
+
+
+                      {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":8,
+                        "content": "<p class='textoDestaque'> <b>OS HOMENS GERALMENTE APARECEM COMO MAIS PROPENSOS A USAR DROGAS ILÍCITAS MAIS PRECOCEMENTE, POR MAIS TEMPO, EM FREQUÊNCIA E QUANTIDADE MAIORES QUE<br/>AS MULHERES.</b></p><p>Os homens que usam drogas tendem a desenvolver comorbidades relacionadas aos transtornos de personalidade (OLIVEIRA et al., 2007).</p><p>Conforme o Relatório Brasileiro sobre Drogas, as drogas mais consumidas por sexo são:</p>",
+                        "order":112
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-1",
+                        "type": "normal",
+                        "section":8,
+                        "content": "",
+                        "order":114
+                    },
+
+
+                    {
+                        "template":"sanfona",
+                        "column": "col-xs-12 col-md-3",
+                        "section":8,
+                        "styleObj": {
+                        },
+                        "sanfonas":[
+                            {
+                                "titulo":"Homens", 
+                                "content":"álcool, tabaco, maconha, solventes, cocaína, alucinógenos, crack, merla e esteroides"
+                            },
+
+                            {
+                                "titulo":"Mulheres", 
+                                "content":"estimulantes, benzodiazepínicos, orexígenos e opiáceos"
+                            }
+                        ],
+                        "order":116
+                    },
+
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "section":8,
+                        "style":"height:100px",
+                        "content": "",
+                        "order":118
+                    },
+
+
+
+                     
+
+                      {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "section":8,
+                        "content": "<p> A percepção de risco grave do uso de maconha e cocaína/crack é maior entre as mulheres, o que pode explicar em parte o consumo mais frequente e mais intenso dessas substâncias pelos homens (DUARTE et al., 2009). Ainda, de acordo com este relatório, observou-se que no Brasil, entre os anos de 2001 e 2007, as prevalências de doenças associadas ao uso de drogas são: Hepatite B (1,5%), Hepatite C (14%), AIDS (8,6%).</p><p>Conforme foi discutido anteriormente, as características de masculinidade como força e coragem, também se relacionam ao fato dos homens correrem mais riscos associados aos contextos de uso e comércio de drogas.</p>",
+                        "order":120
+                    },
+
+                   
+
+                      {  
+                        "template":"caixaDestaque",
+                        "column": "col-xs-12 col-md-6",
+                        "type":"normal",
+                        "section":8,
+                        "title":"Final de Cursos dasd sd",
+                        "content":"Para saber mais sobre influência no trabalho e as características do abuso de drogas entre homens, leia o artigo “Risco relacionado ao consumo de drogas em homens trabalhadores da construção civil”, escrito por Aroldo Gavioli et al., disponível em: <a href='http://www.scielo.br/pdf/ape/v27n5/pt_1982-0194-ape-027-005-0471.pdf' target='_blank'><b>http://www.scielo.br/pdf/ape/v27n5/pt_1982-0194-ape-027-005-0471.pdf</b></a> ",
+                        "styleObj": {
+                            "margin-top": "0px"
+                        },
+                        "order":122
+                    },
+
+
+
+
+
+
+
+
+               
+
+                     {
+                        "template": "texto",
+                        "type": "title",
+                        "section":9,
+                        "column": "col-xs-12 col-md-8",
+                        "content": "Obesidade e sedentarismo",
+                        "order":124
+                    }, 
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "section":9,
+                        "style":"height:30px",
+                        "content": "",
+                        "order":126
+                    },
+
+                     
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":9,
+                        "content": "<p>No grupo de Doenças Crônicas Não Transmissíveis (DCNT) destaca-se a obesidade por ser simultaneamente uma doença e um fator de risco para outras doenças, como a hipertensão e o diabetes, igualmente com taxas de prevalência em elevação no país.</p><p><p>As mudanças na alimentação e a falta de atividade física estão intimamente relacionadas<br/>a este agravo.</b></p>",
+                        "order":128
+                    },
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "section":9,
+                        "style":"height:70px",
+                        "content": "",
+                        "order":130
+                    },
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-4",
+                        "type": "normal",
+                        "section":9,
+                        "style":"height:670px",
+                        "content": "",
+                        "order":132
+                    },
+
+
+                     {
+                        "template": "texto",
+                        "type": "subtitle",
+                        "column": "col-xs-12 col-md-8",
+                        "content": "Obesidade",
+                        "section":9,
+                        "order":134
+                    },
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":9,
+                        "style":"height:20px",
+                        "content": "",
+                        "order":136
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "class":"quadro",
+                        "style":"background-color:#eed0a1; padding: 25px;",
+                        "section":9,
+                        "content": "<img  class='col-xs-4 col-md-4' src='curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img10.png' /><p class='col-xs-8 col-md-8'>A obesidade é considerada um problema relevante de saúde pública. <br><br>As prevalências de obesidade são semelhantes entre homens e mulheres até os 40 anos de idade, e a partir desta idade as mulheres passam a apresentam prevalências mais elevadas (BRASIL, 2006).</p> ",
+                        "order":138
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":10,
+                        "style":"height:30px",
+                        "content": "",
+                        "order":140
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":9,
+                        "content": "<p style='margin-top:20px;'>Segundo o inquérito da Vigitel (2013), as maiores frequências de <span class='toolTp' id='tooltipHolder4' title='excesso de peso e obesidade '></span> entre homens foram:</p>",
+                        "order":142
+                    },
+
+                     {
+                        "label": "excesso de peso e obesidade ",
+                        "column": "",
+                        "section":9,
+                        "styleObj": {
+                        },
+                        "template": "botaoModal",
+                        "class": "tip",
+                        "nTooltip":"4",
+                        "_modal_id": {
+                            "defaults": {
+                            "styleObj": {
+                                "height": "150px"
+                            },
+                                "name": "Teste Modal",
+                                "type": ""
+                            },
+                            "modal": {
+                                "type": "",
+                                "responsive": true,
+                                "titulo":"excesso de peso e obesidade ",
+                                "palavra":"excesso de peso e obesidade "
+                            },
+                            "name": "Novo slide",
+                            "onUse": false,
+                            "template": "slideSimples",
+                            "resources": [
+                               
+                                {
+                                    "template": "texto",
+                                    "type": "normal",
+                                    "column": "col-xs-12 col-md-12",
+                                    "content": "<p style='font-size:1.5em;'><b>Excesso de peso:</b> é diagnosticado quando o IMC alcança valor igual ou superior a 25 kg/m2.</p><p><b>Obesidade:</b> é diagnosticada com valores de IMC superiores a 30 kg/m2(WHO, 1998)."
+                                }
+                           ]
+                        },
+                        "order": 144
+                    },
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":9,
+                        "style":"height:30px",
+                        "content": "",
+                        "order":146
+                    },
+
+
+
+                     {
+                        "template": "revelar",
+                        "type": "dropdown",
+                        "section":9,
+                        "column": "col-xs-12 col-md-4",
+                        "contentCapa": "Excesso de Peso",
+                        "content": "<p>Porto Alegre (62,1%)</p><p>Macapá (60,8%)</p><p>João Pessoa (59,3%)</p>",
+                        "styleObj": {
+                            "padding": "0px 20px 0px 20px"
+                        },
+                        "order":148
+                    },
+
+                    {
+                        "template": "revelar",
+                        "type": "dropdown",
+                        "section":9,
+                        "column": "col-xs-12 col-md-4",
+                        "contentCapa": "Obesidade",
+                        "content": "<p>Macapá (22,8%)</p><p>Cuiabá (21,9%)</p><p>Rio de Janeiro (21,1%)</p>",
+                        "styleObj": {
+                            "padding": "0px 20px 0px 20px"
+                        },
+                        "order":150
+                    },
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":9,
+                        "style":"height:30px",
+                        "content": "",
+                        "order":152
+                    },
+
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":9,
+                        "content": "<p>No Brasil, a frequência de excesso de peso foi de 50,8% e de obesidade de 17,5%, sendo ambas maiores entre os homens quando comparadas com as mulheres. A obesidade é um dos mais importantes fatores de risco para outras doenças não transmissíveis, especialmente o diabetes e as doenças cardiovasculares. Está também associada a alguns tipos de câncer, como os de cólon, de reto e de próstata, tendo impacto relevante sobre a morbimortalidade da população (BRASIL, 2006).</p>",
+                        "order":154
+                    },
+
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "subtitle",
+                        "section":9,
+                        "content": "Sedentarismo",
+                        "order":156
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":9,
+                        "content": "<p style='margin-top:20px;'>A inatividade física está relacionada ao aumento da incidência de doença coronariana, infarto agudo do miocárdio, hipertensão arterial, entre outros agravos.</p>",
+                        "order":158
+                    },
+
+
+
+
+
+
+
+
+
+
+                    {
+                        "template": "revelar",
+                        "type": "click",
+                        "section":10,
+                        "column": "col-xs-12 col-md-6",
+                        "contentCapa": "<p style='margin:0;'>ATIVIDADE MODERADA</p>",
+                        "backgroundCapa":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec006.png",
+                        "content": "<ul style='text-align:left; margin-right:20px;'><li style='color:#ffffff;'>33,8% no total, sendo maior entre homens (41,2%) do que entre mulheres (27,4%).</li><li style='color:#ffffff;'>diminui com o aumento da idade, de forma mais acentuada entre os homens, e</li><li style='color:#ffffff;'>aumenta, em ambos os sexos, conforme o nível de escolaridade</li></ul>",
+                        "contentHeight" : "190px",
+                        "styleObj": {
+                            "padding":"0"
+                        },
+                        "order":160
+                    },
+                    {
+                        "template": "revelar",
+                        "type": "click",
+                        "section":10,
+                        "column": "col-xs-12 col-md-6",
+                        "contentCapa": "<p style='margin:0;'>INATIVOS FISICAMENTE</p>",
+                        "backgroundCapa":"curso/images/modulo4/unidade2/UNA07_m04_un2_rec005.png",
+                        "content": "<ul style='text-align:left; margin-right:20px; '><li style='color:#ffffff;'>16,2% no total, sendo de 16,8% entre homens e de 15,7% entre mulheres.</li><li style='color:#ffffff;'>aumenta a partir de 55 anos, para ambos os sexos</li><li style='color:#ffffff;'>é maior, em ambos os sexos, para adultos com menor escolaridade (até oito anos de estudo)</li></ul>",
+                        "contentHeight" : "190px",
+                        "styleObj": {
+                        },
+                        "order":162
+                    },
+
+
+
+
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":11,
+                        "content": "Os homens são mais ativos fisicamente que as mulheres, o que pode ser uma forma de aproximar os homens dos cuidados à saúde.",
+                        "order":164
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":11,
+                        "content": "<p class='textoDestaque' style='margin:20px 0;'><b>ESSA CARACTERÍSTICA DOS HOMENS PODE TER RELAÇÃO COM AS QUESTÕES DE GÊNERO, UMA VEZ QUE A SOCIALIZAÇÃO DOS MENINOS ESTÁ GERALMENTE RELACIONADA A ESPORTES E COMPETIÇÕES.</b></p>",
+                        "order":166
+                    },
+
+
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "title",
+                        "section":11,
+                        "content": "Pressão alta, colesterol elevado, hiperglicemia",
+                        "order":168
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":11,
+                        "content": "Agora, vamos aprofundar o tema de estudo relacionando as consequências de hábitos de vida inadequados. Confira mais informações sobre a pressão alta, a dislipidemia e a hiperglicemia.<br><br>Acompanhe!",
+                        "order":170
+                    },
+
+
+
+
+
 
 
 
@@ -348,7 +1801,7 @@
                         "column": "col-xs-12 col-md-12",
                         "type": "normal",
                         "section":31,
-                        "content": "<p style='font-size:2em; text-align:center;'><b>Quais são as doenças mais prevalentes entre os homens? Quantas pessoas morrem por ano devido às Doenças Crônicas Não Transmissíveis (DCNT)?</b></p>",
+                        "content": "<p style='font-size:2em; text-align:center; line-height: 1.3em;'><b>Quais são as doenças mais prevalentes entre os homens? Quantas pessoas morrem por ano devido às Doenças Crônicas Não Transmissíveis (DCNT)?</b></p>",
                         "order":415
                     },
 
@@ -510,6 +1963,7 @@
                         "template": "multimedia",
                         "section":35,
                         "src": "curso/recursos/modulo4/unidade2/UNA07_modulo4_unidade2_rec001/UNA07_REC01_grafico_brasil.html",
+                        "srcMobile":"curso/images/modulo4/unidade2/UNA07_Grafico_brasil.png",
                         "column": "col-xs-12 col-md-12",
                         "styleObj": {
 
@@ -539,7 +1993,7 @@
                         "section":36,
                         "column": "col-xs-12 col-md-6",
                         "contentCapa": "<p style='font-size:3em; margin-bottom:0;'>?</p>",
-                        "content": "<ul style='padding-top:30px; font-size:1.5em; text-align:left; '><li style='color:#ffffff;'>SEXO MASCULINO</li><br><li style='color:#ffffff;'>RAÇA NEGRA</li><br><li style='color:#ffffff;'>IDADE</li><br><li style='color:#ffffff;'>HISTÓRIA FAMILIAR DE DOENÇAS CARDIOVASCULARES</li></ul>",
+                        "content": "<ul style='padding-top:30px; font-size:1em; text-align:left; '><li style='color:#ffffff;'>SEXO MASCULINO</li><br><li style='color:#ffffff;'>RAÇA NEGRA</li><br><li style='color:#ffffff;'>IDADE</li><br><li style='color:#ffffff;'>HISTÓRIA FAMILIAR DE DOENÇAS CARDIOVASCULARES</li></ul>",
                         "contentHeight" : "310px",
                         "styleObj": {
                             
@@ -694,7 +2148,7 @@
                         "template": "texto",
                         "column": "col-xs-12 col-md-4",
                         "type": "subtitle",
-                        "style":"padding-top:50px;",
+                        "style":"padding-top:48px;",
                         "section":37,
                         "content": "Neoplasias/tumores",
                         "order":575
@@ -818,7 +2272,7 @@
                      "linkMod":"http://www.google.com",
                       "textoDownload":"AGORA, SIGA PARA O ESTUDO DO CONTEUDO COMPLETO",
                       "label":"BAIXAR O LIVRO",
-                      "textoFinal":"<p style='font-size:1.7em;'>Chegamos ao fim desta etapa.</p><br><p style='font-size:1.7em;'>Agora, você já pode iniciar a próxima unidade, que trata sobre as estratégias de cuidado e atenção em rede.</p><p style='font-size:1.7em;'>Aproveite este estudo e reflita sobre sua prática diária!</p><br><p style='font-size:1.7em;'>BOM APRENDIZADO!",
+                      "textoFinal":"<p style='font-size:1.4em;'>Chegamos ao fim desta etapa.</p><br><p style='font-size:1.4em;'>Agora, você já pode iniciar a próxima unidade, que trata sobre as estratégias de cuidado e atenção em rede.</p><p style='font-size:1.4em;'>Aproveite este estudo e reflita sobre sua prática diária!</p><br><p style='font-size:1.4em;'>BOM APRENDIZADO!",
                       "order":599
                       },
 
@@ -892,7 +2346,7 @@
                         "column": "col-xs-12 col-md-9",
                         "type": "normal",
                         "section":61,
-                        "content": "<p style='font-size:2em; text-align:left; '><b>O que você entende por promoção da saúde?</b></p>",
+                        "content": "<p style='font-size:1.6em; text-align:left;  '><b>O que você entende por promoção da saúde?</b></p>",
                         "order":660
                     },
 
@@ -970,16 +2424,7 @@
                         "order":720
                     },
 
-                     {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-3",
-                        "type": "normal",
-                        "section":62,
-                        "style":"height:50px",
-                        "content": "",
-                        "order":725
-                    },
-
+                    
                     {
                         "template": "texto",
                         "column": "col-xs-12 col-md-9",
@@ -1006,7 +2451,7 @@
                         "column": "col-xs-12 col-md-9",
                         "type": "normal",
                         "section":62,
-                        "content": "<p style='font-size:1.6em;'><b>VOCÊ CONCORDA?</b></p>",
+                        "content": "<p style='font-size:1.2em;'><b>VOCÊ CONCORDA?</b></p>",
                         "order":740
                     },
 
@@ -1063,17 +2508,6 @@
                     }, 
 
                    
-
-
-                     {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-3",
-                        "type": "normal",
-                        "section":63,
-                        "style":"height:50px",
-                        "content": "",
-                        "order":765
-                    },
 
                      
                     {
@@ -1163,7 +2597,7 @@
                         "column": "col-xs-12 col-md-3",
                         "type": "normal",
                         "section":64,
-                        "style":"height:60px",
+                        "style":"height:39px",
                         "content": "",
                         "order":830
                     },
@@ -1183,7 +2617,7 @@
                         "column": "col-xs-12 col-md-4",
                         "type": "normal",
                         "section":64,
-                        "content": "<p>Ações educativas de prevenção da iniciação do fumo devem ser programadas, de forma a criar um contexto que reduza a aceitação social do tabagismo, reduza os estímulos para que os jovens não comecem a fumar, reduza os estímulos que dificultam os fumantes a deixarem de fumar, proteja a população dos riscos da exposição à poluição tabagística ambiental e aumente o acesso dos fumantes ao apoio para cessação de fumar<br/>(BRASIL, 2014).</p>",
+                        "content": "<p>Ações educativas de prevenção da iniciação do fumo devem ser programadas, de forma a criar um contexto que reduza a aceitação social do tabagismo, reduza os estímulos para que os jovens não comecem a fumar, reduza os estímulos que dificultam os fumantes a deixarem de fumar, proteja a população dos riscos da exposição à poluição tabagística ambiental e aumente o acesso dos fumantes ao apoio para cessação de fumar (BRASIL, 2014).</p>",
                         "order":850
                     },
 
@@ -1272,15 +2706,7 @@
                         "order":930
                     },
 
-                     {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-4",
-                        "type": "normal",
-                        "section":66,
-                        "style":"height:30px",
-                        "content": "",
-                        "order":940
-                    },
+                     
 
                      
                     {
@@ -1396,17 +2822,27 @@
 
                      {
                         "template": "texto",
-                        "column": "col-xs-12 col-md-5",
+                        "column": "col-xs-12 col-md-6",
                         "type": "normal",
                         "style":"text-align:center;",
                         "section":67,
-                        "content": "<p>Ao efetuar os estudos desta etapa, você poderá refletir sobre sua atuação profissional e as estratégias que você adota para orientar a população masculina sobre a adoção de hábitos de vida saudáveis.</p><p>Muitos grupos de educação em saúde e/ou de promoção da saúde trabalham com pessoas que estão em risco ou apresentam as comorbidades discutidas no módulo. Quais ações você e a sua equipe realizam ou poderiam realizar para estimular os homens a cuidarem da saúde?</p>",
+                        "content": "<p>Ao efetuar os estudos desta etapa, você poderá refletir sobre sua atuação profissional e as estratégias que você adota para orientar a população masculina sobre a adoção de hábitos de vida saudáveis.</p>",
+                        "order":1010
+                    },
+
+                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-6",
+                        "type": "normal",
+                        "style":"text-align:center;",
+                        "section":67,
+                        "content": "<p>Muitos grupos de educação em saúde e/ou de promoção da saúde trabalham com pessoas que estão em risco ou apresentam as comorbidades discutidas no módulo. Quais ações você e a sua equipe realizam ou poderiam realizar para estimular os homens a<br/>cuidarem da saúde?</p>",
                         "order":1010
                     },
 
                     {
                         "template": "texto",
-                        "column": "col-xs-0 col-md-1",
+                        "column": "col-xs-0 col-md-2",
                         "type": "normal",
                         "section":67,
                          "style":"height:260px",
@@ -1416,10 +2852,10 @@
 
                     {
                         "template": "texto",
-                        "column": "col-xs-12 col-md-6",
+                        "column": "col-xs-12 col-md-8",
                         "type": "normal",
                         "section":67,
-                        "content": "<p style='font-size:2em; text-align:center; padding-top:30px;'><b>Aproveite e reflita sobre este tema! Assista a essa animação sobre algumas escolhas em nossa vida:</b></p>",
+                        "content": "<p style='font-size:2em; text-align:center; padding-top:30px; line-height:1.3em'><b>Aproveite e reflita sobre este tema! Assista a essa animação sobre algumas escolhas em nossa vida:</b></p>",
                         "order":1020
                     },
 
@@ -1505,7 +2941,7 @@
                         "column": "col-xs-12 col-md-4",
                         "type": "normal",
                         "section":69,
-                        "style":"height:50px",
+                        "style":"height:30px",
                         "content": "",
                         "order":1080
                     },
@@ -1603,13 +3039,13 @@
                    {
                       "template":"contraCapa",
                       "section":70,
-                      "final":false,
+                      "final":true,
                       "secVoltar":30,
                      "secAvancar":31,
                      "textoAv":"escolha o próximo módulo",
                      "textoVoltar":"voltar",
                      "linkMod":"http://www.google.com",
-                      "textoDownload":"AGORA, SIGA PARA O ESTUDO DO CONTEUDO COMPLETO",
+                     "textoDownload":"AGORA, SIGA PARA O ESTUDO DO CONTEUDO COMPLETO",
                       "label":"BAIXAR O LIVRO",
                       "textoFinal":"<p>Estudos de casos de experiências de redes de atenção à saúde indicam que estas, à semelhança do que ocorre em países desenvolvidos, podem ter impacto significativo nos níveis de saúde, com custos suportáveis pelo SUS (MENDES , 2011) .</p><p>Com essas informações, é possível pensar novos caminhos em que você e sua equipe possam agregar ao manejo dos fatores de risco e Doenças Crônicas Não Transmissíveis (DCNT), junto aos usuários.</p>Nesse contexto, você pode perceber também a estreita relação entre as DCNT e seus fatores de risco, como sedentarismo, dieta inadequada, obesidade, consumo de álcool e tabagismo.</p><p>Quais as estratégias para o manejo desses fatores de risco, você e a sua equipe têm desenvolvido junto ao usuário?</p><p>Como você, profissional de saúde, tem cuidado da sua saúde?</p>Tenha sempre esta reflexão em mente!</p><p>Você também deve realizar a atividade avaliativa deste módulo.</p><p>Lembre, também, que você pode trocar informações e experiências na comunidade de prática da Atenção Básica! E, para contribuir com a melhoria constante dos cursos produzidos, responda à tomada de opinião sobre o conteúdo visto.</p><p>BONS ESTUDOS!</p>",
       

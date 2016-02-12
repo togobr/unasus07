@@ -4,6 +4,20 @@
         "scoName": "TESTE IEA",
         "srcCaptivate":"",
         "scorm":false,
+        "unidades":[
+                {
+                    "name": "Módulo 1",
+                    "idSection": 10
+                },
+                {
+                    "name": "Módulo 2",
+                    "idSection": 20
+                },
+                {
+                    "name": "Módulo 3",
+                    "idSection": 30
+                }
+        ],
         "teste":"",
         "slides": [       
             {
@@ -1439,6 +1453,53 @@
                         "section":11,
                         "content": "Agora, vamos aprofundar o tema de estudo relacionando as consequências de hábitos de vida inadequados. Confira mais informações sobre a pressão alta, a dislipidemia e a hiperglicemia.<br><br>Acompanhe!",
                         "order":170
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "subtitle",
+                        "section":11,
+                        "content": "Pressão alta",
+                        "order":172
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":11,
+                        "content": "A hipertensão arterial sistêmica (HAS) é uma condição clínica multifatorial caracterizada por níveis elevados e sustentados de pressão arterial (PA).",
+                        "order":174
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":11,
+                        "content": "<p class='textoDestaque' style='margin:20px 0;'><b>Ou seja, PA maior ou igual a 140 x 90mmHg.</b></p>",
+                        "order":176
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":11,
+                        "content": "De modo geral, está associada a alterações dos órgãos-alvo, como coração, encéfalo, rins e vasos sanguíneos, e a alterações metabólicas, aumentando o risco de eventos cardiovasculares (SBC, 2010).<br><br>A prevalência global de HAS entre homens e mulheres é semelhante, embora seja mais elevada nos homens até os 50 anos, invertendo-se a partir desta idade.",
+                        "order":174
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "class":"quadro",
+                        "style":"background-color:#eed0a1; padding: 25px;",
+                        "section":11,
+                        "content": "<img  class='col-xs-4 col-md-4' src='curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img14.jng' /><p class='col-xs-8 col-md-8'>A ingestão excessiva de sódio tem sido correlacionada com a elevação da PA, sendo que a população brasileira apresenta um padrão alimentar rico em sal, açúcar e gorduras. </p> ",
+                        "order":176
                     }
 
 

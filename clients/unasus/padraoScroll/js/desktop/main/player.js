@@ -13,7 +13,7 @@ define([
 
             return {
                 $el: $el,
-                $dropDownUnidade: $el.find('#dropDownUnidade')
+                $dropDownUnidade: $el.find('#dropDownUnidade li span')
             }
         }
 
@@ -96,7 +96,16 @@ define([
 
             });
 
-            console.log('foo self.elems.$menuBtn', self.elems.$dropDownUnidade);
+
+            self.elems.$dropDownUnidade.on({
+                click: function(e) {
+                    var cam = $(this).data("unidade");
+
+                    $('html, body').animate({
+                        scrollTop:$('#backgroundScroll'+ cam).position().top
+                    }, 1000);
+                }
+            });
         }
 
         // ************************* METHODS ********W***************** 

@@ -110,15 +110,20 @@ body{
 						.divider{
 							background: $normal;
 						}
-						li a{
-							font-family: $regular;
-							color: $normal;
-							white-space: normal;
-							&:hover{
-								background: none;
-								font-family: $bold;
+						li{
+							font-size: 1.2em;
+							padding-left: 15px;
+							span{
+								font-family: $regular;
+								color: $normal;
+								white-space: normal;
+								cursor: pointer;
+								&:hover{
+									background: none;
+									font-family: $bold;
+								}
 							}
-						}
+						} 
 					}
 				}
 			}//

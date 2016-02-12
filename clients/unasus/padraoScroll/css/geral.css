@@ -1833,30 +1833,36 @@ body {
   background: #2f3275;
 }
 /* line 113, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu li a {
+.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu li {
+  font-size: 1.2em;
+  padding-left: 15px;
+}
+/* line 116, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu li span {
   font-family: "Roboto-Regular", sans-serif;
   color: #2f3275;
   white-space: normal;
+  cursor: pointer;
 }
-/* line 117, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu li a:hover {
+/* line 121, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu li span:hover {
   background: none;
   font-family: "Roboto-Bold", sans-serif;
 }
 
-/* line 129, sass/main/_main.scss */
+/* line 134, sass/main/_main.scss */
 .content.container-fluid {
   max-width: 1021px;
   padding: 0;
   padding-top: 100px;
 }
 
-/* line 138, sass/main/_main.scss */
+/* line 143, sass/main/_main.scss */
 ul {
   list-style-image: url(assets/images/bullet.png);
   counter-reset: section;
 }
-/* line 141, sass/main/_main.scss */
+/* line 146, sass/main/_main.scss */
 ul li {
   background-position: 0px 100%;
   padding-left: 5px;
@@ -1866,13 +1872,13 @@ ul li {
   font-family: "Roboto-Regular", sans-serif;
 }
 
-/* line 153, sass/main/_main.scss */
+/* line 158, sass/main/_main.scss */
 ol {
   list-style-type: none;
   counter-reset: ol-counter;
   padding: 0;
 }
-/* line 158, sass/main/_main.scss */
+/* line 163, sass/main/_main.scss */
 ol li {
   background-position: 0px 100%;
   padding-left: 25px;
@@ -1881,7 +1887,7 @@ ol li {
   font-size: 1em;
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 168, sass/main/_main.scss */
+/* line 173, sass/main/_main.scss */
 ol li:before {
   font-weight: bold;
   margin-right: 6px;
@@ -1890,7 +1896,7 @@ ol li:before {
   counter-increment: ol-counter;
 }
 
-/* line 183, sass/main/_main.scss */
+/* line 188, sass/main/_main.scss */
 .wrapper {
   height: auto;
   margin: 0 auto;
@@ -1898,22 +1904,22 @@ ol li:before {
   position: relative;
 }
 
-/* line 190, sass/main/_main.scss */
+/* line 195, sass/main/_main.scss */
 .wrapperMargin {
   margin-bottom: 40px;
 }
 
-/* line 195, sass/main/_main.scss */
+/* line 200, sass/main/_main.scss */
 .hiddenAnimate {
   opacity: 0;
 }
 
-/* line 198, sass/main/_main.scss */
+/* line 203, sass/main/_main.scss */
 .visible {
   opacity: 1;
 }
 
-/* line 206, sass/main/_main.scss */
+/* line 211, sass/main/_main.scss */
 .content .iframeContent {
   position: fixed;
   width: 100%;
@@ -1923,7 +1929,7 @@ ol li:before {
   background: #2f2f2f;
   left: 0px;
 }
-/* line 215, sass/main/_main.scss */
+/* line 220, sass/main/_main.scss */
 .content .iframeContent .telaCheiaIframe {
   width: 100%;
   height: 100%;
@@ -1933,7 +1939,7 @@ ol li:before {
   top: 0px;
   bottom: 0px;
 }
-/* line 225, sass/main/_main.scss */
+/* line 230, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia {
   z-index: 999;
   border: 1px solid #e18f00;
@@ -1963,16 +1969,16 @@ ol li:before {
   opacity: 0.78;
   top: 1px;
 }
-/* line 257, sass/main/_main.scss */
+/* line 262, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:hover {
   background: #fbaf0b;
 }
-/* line 261, sass/main/_main.scss */
+/* line 266, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:active {
   background: #e28f01;
 }
 
-/* line 273, sass/main/_main.scss */
+/* line 278, sass/main/_main.scss */
 .btCreditos {
   border-radius: 5px;
   height: 30px;
@@ -1987,7 +1993,7 @@ ol li:before {
   line-height: 30px;
 }
 
-/* line 289, sass/main/_main.scss */
+/* line 294, sass/main/_main.scss */
 .modalCreditos {
   position: fixed;
   top: 0;
