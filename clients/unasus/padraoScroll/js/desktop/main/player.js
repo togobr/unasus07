@@ -29,7 +29,28 @@ define([
 
             Player.Elements.$content.on({
                 contentReady: function(e) {
-                    $("body").find(".modalCreditos").appendTo("body");
+                    
+
+                    var $btCreditos = $("body").find(".btCreditos"),
+                        $modalCreditos = $("body").find(".modalCreditos");
+
+
+                        $modalCreditos.appendTo("body");
+
+
+                    $btCreditos.on({
+                        click:function(e){
+
+                            $modalCreditos.show();
+
+                        }
+                    });
+
+                    $modalCreditos.on({
+                        click:function(e){
+                            $modalCreditos.hide();
+                        }
+                    })
 
 
 
