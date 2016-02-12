@@ -105,6 +105,41 @@ define([
 				}
 			});
 
+			//scroll functions---------------------------------------------------------------------------
+
+
+			// 	var actualSecNumber = 0;
+
+			// $(window).scroll(function (event) {
+   //  			var scroll = $(window).scrollTop(),
+   //  				$scrollDivs = $scrollDivs = $("body").find(".backgroundScroll");
+
+   //  				$scrollDivs.each(function(index){
+
+   //  					var nextSec = $scrollDivs[actualSecNumber+1],
+   //  						actualSec = $scrollDivs[actualSecNumber],
+   //  						secPos = $(nextSec).height() /2
+
+
+
+
+   //  						if( $(nextSec).offset().top < scroll+ secPos){
+   //  							actualSecNumber++;
+   //  							nextSec = $scrollDivs[actualSecNumber+1],
+   //  							actualSec = $scrollDivs[actualSecNumber];
+   //  						}
+
+
+    					
+
+   //  					if(index == actualSecNumber){
+   //  						$scrollDivs.removeClass("secAtual");
+   //  						$(this).addClass("secAtual");
+
+   //  					}
+   //  				});
+			// });
+
 
 			// ************************* EVENTOS *************************
 
