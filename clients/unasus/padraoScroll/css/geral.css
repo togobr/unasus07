@@ -4000,7 +4000,11 @@ ol li:before {
   line-height: 26px;
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 68, sass/resources/texto/_style.scss */
+/* line 67, sass/resources/texto/_style.scss */
+.texto.title {
+  margin-bottom: 20px;
+}
+/* line 69, sass/resources/texto/_style.scss */
 .texto.title .textoSolto {
   font-size: 3em;
   line-height: 1.4em;
@@ -4008,16 +4012,16 @@ ol li:before {
   color: #2f3275;
   text-transform: uppercase;
 }
-/* line 77, sass/resources/texto/_style.scss */
+/* line 78, sass/resources/texto/_style.scss */
 .texto.subtitle {
   margin-bottom: 20px;
 }
-/* line 79, sass/resources/texto/_style.scss */
+/* line 80, sass/resources/texto/_style.scss */
 .texto.subtitle .wrapper {
   display: table;
   margin: initial;
 }
-/* line 83, sass/resources/texto/_style.scss */
+/* line 84, sass/resources/texto/_style.scss */
 .texto.subtitle .textoSolto {
   font-size: 3em;
   line-height: 30px;
@@ -4026,14 +4030,14 @@ ol li:before {
   display: table-cell;
   font-variant: small-caps;
 }
-/* line 91, sass/resources/texto/_style.scss */
+/* line 92, sass/resources/texto/_style.scss */
 .texto.subtitle .underlineTitle {
   display: table-cell;
   bottom: 6px;
   margin-left: 5px;
 }
 
-/* line 101, sass/resources/texto/_style.scss */
+/* line 102, sass/resources/texto/_style.scss */
 .texto.quadro {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
