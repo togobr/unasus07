@@ -1708,9 +1708,10 @@ body {
   max-width: 1920px;
   overflow-y: visible;
   font-size: 10px !important;
+  font-family: "Roboto-Regular", sans-serif;
 }
 
-/* line 12, sass/main/_main.scss */
+/* line 13, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -1723,32 +1724,32 @@ body {
   border: none;
   border-bottom: 2px solid #FFFFFF;
 }
-/* line 22, sass/main/_main.scss */
+/* line 23, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .navbar-header .scoNameBlock {
   display: none;
 }
-/* line 26, sass/main/_main.scss */
+/* line 27, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .navbar-collapse {
   max-width: 830px;
   margin: 0 auto;
 }
-/* line 29, sass/main/_main.scss */
+/* line 30, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .navbar-collapse img {
   float: left;
   height: 100%;
   padding: 13px;
 }
-/* line 35, sass/main/_main.scss */
+/* line 36, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav {
   float: right;
 }
-/* line 37, sass/main/_main.scss */
+/* line 38, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav h1 {
   font-size: 1.8em;
   font-family: "Roboto-Bold", sans-serif;
   color: #2f3275;
 }
-/* line 42, sass/main/_main.scss */
+/* line 43, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -1758,7 +1759,7 @@ body {
   background: #f4dfc1;
   padding: 0;
 }
-/* line 48, sass/main/_main.scss */
+/* line 49, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -1770,14 +1771,14 @@ body {
   height: 100%;
   text-transform: uppercase;
 }
-/* line 56, sass/main/_main.scss */
+/* line 57, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle span.dpText {
   width: 168px;
   float: right;
   text-align: center;
   padding-top: 6px;
 }
-/* line 62, sass/main/_main.scss */
+/* line 63, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle span.caret {
   position: relative;
   float: left;
@@ -1791,7 +1792,7 @@ body {
   border: 0;
   border-right: 2px solid #dab463;
 }
-/* line 74, sass/main/_main.scss */
+/* line 75, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle span.caret:after {
   content: "";
   position: absolute;
@@ -1803,24 +1804,24 @@ body {
   left: 9px;
   top: 12px;
 }
-/* line 88, sass/main/_main.scss */
+/* line 89, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 90, sass/main/_main.scss */
+/* line 91, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-toggle {
   background: #f4dfc1;
 }
-/* line 93, sass/main/_main.scss */
+/* line 94, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-toggle span.caret:after {
   border-top: none;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
   border-bottom: 10px solid #2f3275;
 }
-/* line 102, sass/main/_main.scss */
+/* line 103, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu {
   background: #f4dfc1;
   width: 100%;
@@ -1828,62 +1829,62 @@ body {
   margin: 2px 0px 2px 0px;
   border: 0;
 }
-/* line 108, sass/main/_main.scss */
+/* line 109, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu .divider {
   background: #2f3275;
 }
-/* line 111, sass/main/_main.scss */
+/* line 112, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu li a {
   font-family: "Roboto-Regular", sans-serif;
   color: #2f3275;
   white-space: normal;
 }
-/* line 115, sass/main/_main.scss */
+/* line 116, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu li a:hover {
   background: none;
   font-family: "Roboto-Bold", sans-serif;
 }
 
-/* line 127, sass/main/_main.scss */
+/* line 128, sass/main/_main.scss */
 .content.container-fluid {
   max-width: 1021px;
   padding: 0;
   padding-top: 100px;
 }
 
-/* line 136, sass/main/_main.scss */
+/* line 137, sass/main/_main.scss */
 ul {
   list-style-image: url(assets/images/bullet.png);
   counter-reset: section;
 }
-/* line 139, sass/main/_main.scss */
+/* line 140, sass/main/_main.scss */
 ul li {
   background-position: 0px 100%;
   padding-left: 5px;
-  line-height: 24px;
   color: #373838;
-  font-size: 16px;
   margin-right: 10px;
+  font-size: 1.9em;
+  line-height: 26px;
   font-family: "Roboto-Regular", sans-serif;
 }
 
-/* line 151, sass/main/_main.scss */
+/* line 152, sass/main/_main.scss */
 ol {
   list-style-type: none;
   counter-reset: ol-counter;
   padding: 0;
 }
-/* line 156, sass/main/_main.scss */
+/* line 157, sass/main/_main.scss */
 ol li {
   background-position: 0px 100%;
   padding-left: 25px;
-  line-height: 24px;
   color: #373838;
-  font-size: 16px;
   margin-right: 10px;
+  font-size: 1.9em;
+  line-height: 26px;
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 165, sass/main/_main.scss */
+/* line 167, sass/main/_main.scss */
 ol li:before {
   font-weight: bold;
   margin-right: 6px;
@@ -1892,7 +1893,7 @@ ol li:before {
   counter-increment: ol-counter;
 }
 
-/* line 180, sass/main/_main.scss */
+/* line 182, sass/main/_main.scss */
 .wrapper {
   height: auto;
   margin: 0 auto;
@@ -1900,22 +1901,22 @@ ol li:before {
   position: relative;
 }
 
-/* line 187, sass/main/_main.scss */
+/* line 189, sass/main/_main.scss */
 .wrapperMargin {
   margin-bottom: 40px;
 }
 
-/* line 192, sass/main/_main.scss */
+/* line 194, sass/main/_main.scss */
 .hiddenAnimate {
   opacity: 0;
 }
 
-/* line 195, sass/main/_main.scss */
+/* line 197, sass/main/_main.scss */
 .visible {
   opacity: 1;
 }
 
-/* line 203, sass/main/_main.scss */
+/* line 205, sass/main/_main.scss */
 .content .iframeContent {
   position: fixed;
   width: 100%;
@@ -1925,7 +1926,7 @@ ol li:before {
   background: #2f2f2f;
   left: 0px;
 }
-/* line 212, sass/main/_main.scss */
+/* line 214, sass/main/_main.scss */
 .content .iframeContent .telaCheiaIframe {
   width: 100%;
   height: 100%;
@@ -1935,7 +1936,7 @@ ol li:before {
   top: 0px;
   bottom: 0px;
 }
-/* line 222, sass/main/_main.scss */
+/* line 224, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia {
   z-index: 999;
   border: 1px solid #e18f00;
@@ -1965,16 +1966,16 @@ ol li:before {
   opacity: 0.78;
   top: 1px;
 }
-/* line 254, sass/main/_main.scss */
+/* line 256, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:hover {
   background: #fbaf0b;
 }
-/* line 258, sass/main/_main.scss */
+/* line 260, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:active {
   background: #e28f01;
 }
 
-/* line 270, sass/main/_main.scss */
+/* line 272, sass/main/_main.scss */
 .btCreditos {
   border-radius: 5px;
   width: 125px;
@@ -1988,6 +1989,18 @@ ol li:before {
   font-size: 1.1em;
   cursor: pointer;
   line-height: 30px;
+}
+
+/* line 288, sass/main/_main.scss */
+.modalCreditos {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 99;
+  display: none;
 }
 
 /* line 1, sass/resources/tooltip/_style.scss */
@@ -2522,9 +2535,9 @@ ol li:before {
 }
 /* line 101, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom p {
+  font-size: 1.9em;
   font-family: "Roboto-Regular", sans-serif;
-  font-size: 1.4em !important;
-  line-height: 20px;
+  line-height: 26px;
 }
 
 /* line 17, sass/resources/gaveta/_style.scss */
@@ -2805,13 +2818,14 @@ ol li:before {
 .caixaDestaqueHolder .contentDestaque {
   position: relative;
   height: 100%;
-  font-family: "Roboto-Regular", sans-serif;
-  font-size: 1.6em;
   color: #000;
   display: table-cell;
   text-align: left;
   vertical-align: middle;
   padding: 20px;
+  font-size: 1.9em;
+  line-height: 26px;
+  font-family: "Roboto-Regular", sans-serif;
 }
 /* line 52, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaqueHolder .contentDestaque p {
@@ -2826,13 +2840,17 @@ ol li:before {
 
 /* line 1, sass/resources/gavetaHorizontal/_style.scss */
 .gavetaHor {
-  background: #eaeaea;
   width: 100%;
   height: auto;
   overflow: auto;
 }
 
-/* line 9, sass/resources/gavetaHorizontal/_style.scss */
+/* line 7, sass/resources/gavetaHorizontal/_style.scss */
+#tabsHorMobile {
+  display: none;
+}
+
+/* line 12, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav {
   display: table;
   list-style: none;
@@ -2841,7 +2859,7 @@ ol li:before {
   border-radius: 2px;
   width: 100%;
 }
-/* line 16, sass/resources/gavetaHorizontal/_style.scss */
+/* line 19, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav li {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2851,8 +2869,9 @@ ol li:before {
   padding-left: 0;
   display: table-cell;
   background: #2f3275;
+  margin: 0;
 }
-/* line 24, sass/resources/gavetaHorizontal/_style.scss */
+/* line 27, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav li a {
   display: table;
   height: 100%;
@@ -2862,7 +2881,7 @@ ol li:before {
   outline: none;
   text-decoration: none;
 }
-/* line 32, sass/resources/gavetaHorizontal/_style.scss */
+/* line 35, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav li a span {
   display: table-cell;
   vertical-align: middle;
@@ -2870,11 +2889,11 @@ ol li:before {
   font-weight: 400;
   font-size: 14px;
 }
-/* line 42, sass/resources/gavetaHorizontal/_style.scss */
+/* line 45, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav .ui-tabs-active {
   background: #dab463;
 }
-/* line 44, sass/resources/gavetaHorizontal/_style.scss */
+/* line 47, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav .ui-tabs-active:after {
   content: '';
   position: absolute;
@@ -2887,27 +2906,27 @@ ol li:before {
   bottom: -10px;
   left: 44.5%;
 }
-/* line 56, sass/resources/gavetaHorizontal/_style.scss */
+/* line 59, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav .ui-tabs-active span {
   color: #2f3275 !important;
 }
-/* line 59, sass/resources/gavetaHorizontal/_style.scss */
+/* line 62, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav .ui-tabs-active.visited {
   background: #dab463;
 }
-/* line 61, sass/resources/gavetaHorizontal/_style.scss */
+/* line 64, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav .ui-tabs-active.visited:after {
   border-color: #dab463 transparent;
 }
-/* line 67, sass/resources/gavetaHorizontal/_style.scss */
+/* line 70, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav .visited {
   background: #f4dfc1;
 }
-/* line 69, sass/resources/gavetaHorizontal/_style.scss */
+/* line 72, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav .visited span {
   color: #2f3275 !important;
 }
-/* line 75, sass/resources/gavetaHorizontal/_style.scss */
+/* line 78, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor .ui-tabs-panel {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2917,10 +2936,12 @@ ol li:before {
   background: #FFFFFF;
   padding: 20px;
   color: #000000;
-  font-size: 14px;
   width: 99.9%;
+  font-size: 1.9em;
+  line-height: 26px;
+  font-family: "Roboto-Regular", sans-serif;
 }
-/* line 85, sass/resources/gavetaHorizontal/_style.scss */
+/* line 90, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor .ui-tabs-panel img {
   display: inline-block;
   width: 100%;
@@ -2933,19 +2954,24 @@ ol li:before {
 }
 
 /* line 6, sass/resources/gavetaVertical/_style.scss */
+#tabsVertMobile {
+  display: none;
+}
+
+/* line 10, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical {
   width: 100%;
   height: auto;
   overflow: auto;
 }
-/* line 10, sass/resources/gavetaVertical/_style.scss */
+/* line 14, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical ul.ui-tabs-nav {
   padding: .2em .1em .2em .2em;
   margin: 0;
   float: left;
   width: 38%;
 }
-/* line 15, sass/resources/gavetaVertical/_style.scss */
+/* line 19, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2961,11 +2987,11 @@ ol li:before {
   margin-bottom: 5px;
   font-size: inherit;
 }
-/* line 28, sass/resources/gavetaVertical/_style.scss */
+/* line 32, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li:first-child {
   margin-top: 1px;
 }
-/* line 32, sass/resources/gavetaVertical/_style.scss */
+/* line 36, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li a.ui-tabs-anchor {
   min-height: 44px;
   float: left;
@@ -2976,7 +3002,7 @@ ol li:before {
   text-align: center;
   display: table;
 }
-/* line 42, sass/resources/gavetaVertical/_style.scss */
+/* line 46, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li a.ui-tabs-anchor span {
   display: table-cell;
   vertical-align: middle;
@@ -2986,7 +3012,7 @@ ol li:before {
   position: relative;
   font-size: 1.6em;
 }
-/* line 56, sass/resources/gavetaVertical/_style.scss */
+/* line 60, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-panel {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -3003,22 +3029,23 @@ ol li:before {
   padding: 20px;
   background: #fff;
   margin-top: 4px;
-  line-height: 18px;
   color: #373838;
-  font-size: 14px;
   overflow: hidden;
+  font-size: 1.9em;
+  line-height: 26px;
+  font-family: "Roboto-Regular", sans-serif;
 }
-/* line 75, sass/resources/gavetaVertical/_style.scss */
+/* line 80, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-panel img {
   margin-top: 20px;
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 84, sass/resources/gavetaVertical/_style.scss */
+/* line 89, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active {
   background: #dab463;
 }
-/* line 86, sass/resources/gavetaVertical/_style.scss */
+/* line 91, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active:after {
   content: '';
   position: absolute;
@@ -3031,27 +3058,27 @@ ol li:before {
   right: -14px;
   top: 16px;
 }
-/* line 98, sass/resources/gavetaVertical/_style.scss */
+/* line 103, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active span {
   color: #2f3275 !important;
 }
-/* line 101, sass/resources/gavetaVertical/_style.scss */
+/* line 106, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active.visited {
   background: #dab463;
 }
-/* line 103, sass/resources/gavetaVertical/_style.scss */
+/* line 108, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active.visited:after {
   border-color: transparent #dab463;
 }
-/* line 106, sass/resources/gavetaVertical/_style.scss */
+/* line 111, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active.visited span {
   color: #2f3275 !important;
 }
-/* line 112, sass/resources/gavetaVertical/_style.scss */
+/* line 117, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .visited {
   background: #f4dfc1;
 }
-/* line 114, sass/resources/gavetaVertical/_style.scss */
+/* line 119, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .visited span {
   color: #2f3275 !important;
 }
@@ -3512,7 +3539,7 @@ ol li:before {
   font-family: 'Entypo';
   position: absolute;
   top: 50%;
-  margin-top: -35px;
+  margin-top: -60px;
   left: 3px;
 }
 /* line 65, sass/resources/sliderResponsivo/_style.scss */
@@ -3855,7 +3882,6 @@ ol li:before {
   padding-right: 67px;
   padding-bottom: 10px;
   font-family: "Open Sans", sans-serif;
-  font-size: 16pt;
   color: #383737;
   line-height: 46px;
 }
@@ -3906,7 +3932,8 @@ ol li:before {
 }
 /* line 3, sass/resources/texto/_style.scss */
 .texto .textoSolto {
-  font-size: 1.5em;
+  font-size: 1.9em;
+  font-family: "Roboto-Regular", sans-serif;
 }
 /* line 7, sass/resources/texto/_style.scss */
 .texto .textoSolto ul li, .texto .textoSolto ol li {
@@ -3965,10 +3992,11 @@ ol li:before {
 }
 /* line 61, sass/resources/texto/_style.scss */
 .texto.normal .textoSolto {
-  font-size: 1.5em;
+  font-size: 1.9em;
+  line-height: 26px;
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 66, sass/resources/texto/_style.scss */
+/* line 67, sass/resources/texto/_style.scss */
 .texto.title .textoSolto {
   font-size: 2.6em;
   line-height: 30px;
@@ -3976,12 +4004,12 @@ ol li:before {
   color: #2f3275;
   text-transform: uppercase;
 }
-/* line 75, sass/resources/texto/_style.scss */
+/* line 76, sass/resources/texto/_style.scss */
 .texto.subtitle .wrapper {
   display: table;
   margin: initial;
 }
-/* line 79, sass/resources/texto/_style.scss */
+/* line 80, sass/resources/texto/_style.scss */
 .texto.subtitle .textoSolto {
   font-size: 3em;
   line-height: 30px;
@@ -3990,14 +4018,14 @@ ol li:before {
   display: table-cell;
   font-variant: small-caps;
 }
-/* line 87, sass/resources/texto/_style.scss */
+/* line 88, sass/resources/texto/_style.scss */
 .texto.subtitle .underlineTitle {
   display: table-cell;
   bottom: 6px;
   margin-left: 5px;
 }
 
-/* line 97, sass/resources/texto/_style.scss */
+/* line 98, sass/resources/texto/_style.scss */
 .texto.quadro {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -4582,89 +4610,94 @@ ol li:before {
     display: none !important;
   }
 
-  /* line 128, sass/_mediaQuery.scss */
+  /* line 129, sass/_mediaQuery.scss */
   .backgroundScroll .imgBG {
     opacity: .2;
   }
 
-  /* line 136, sass/_mediaQuery.scss */
+  /* line 138, sass/_mediaQuery.scss */
   .capa .contCapa {
     padding-left: 0;
   }
-  /* line 140, sass/_mediaQuery.scss */
+  /* line 142, sass/_mediaQuery.scss */
   .capa .nCapa {
     font-size: 1.5em;
     margin-top: 80px;
   }
-  /* line 146, sass/_mediaQuery.scss */
+  /* line 148, sass/_mediaQuery.scss */
   .capa .tituloCapa {
     font-size: 3em;
     font-weight: bold;
   }
-  /* line 151, sass/_mediaQuery.scss */
+  /* line 153, sass/_mediaQuery.scss */
   .capa .descCapa {
     margin: 0;
     margin-bottom: 130px;
   }
 
-  /* line 159, sass/_mediaQuery.scss */
+  /* line 161, sass/_mediaQuery.scss */
   .contraCapa {
     padding-bottom: 200px;
   }
 
-  /* line 164, sass/_mediaQuery.scss */
+  /* line 166, sass/_mediaQuery.scss */
   .contLeft,
   .textoFinal {
     margin: 25px;
   }
 
-  /* line 170, sass/_mediaQuery.scss */
+  /* line 172, sass/_mediaQuery.scss */
   .textoDownload {
     margin-bottom: 15px;
   }
 
-  /* line 175, sass/_mediaQuery.scss */
+  /* line 177, sass/_mediaQuery.scss */
   .contRight {
     padding-right: 15px;
     padding-left: 15px;
   }
 
-  /* line 184, sass/_mediaQuery.scss */
+  /* line 185, sass/_mediaQuery.scss */
   .botoesNav .voltarNav {
     width: 65px !important;
   }
-  /* line 189, sass/_mediaQuery.scss */
+  /* line 190, sass/_mediaQuery.scss */
   .botoesNav .voltarNav span:before {
     left: 10px;
   }
-  /* line 193, sass/_mediaQuery.scss */
+  /* line 194, sass/_mediaQuery.scss */
   .botoesNav .voltarNav span b {
     display: none;
   }
-  /* line 199, sass/_mediaQuery.scss */
+  /* line 200, sass/_mediaQuery.scss */
   .botoesNav .avancarNav {
     width: 65px !important;
   }
-  /* line 204, sass/_mediaQuery.scss */
+  /* line 205, sass/_mediaQuery.scss */
   .botoesNav .avancarNav span:before {
     right: 10px;
   }
-  /* line 208, sass/_mediaQuery.scss */
+  /* line 209, sass/_mediaQuery.scss */
   .botoesNav .avancarNav span b {
     display: none;
   }
 
-  /* line 225, sass/_mediaQuery.scss */
+  /* line 222, sass/_mediaQuery.scss */
+  .gavetaHor #tabsHor ul.ui-tabs-nav li {
+    display: block;
+  }
+
+  /* line 236, sass/_mediaQuery.scss */
   .multimedia img {
     display: block;
   }
 
-  /* line 230, sass/_mediaQuery.scss */
+  /* line 241, sass/_mediaQuery.scss */
   .multimedia iframe {
     display: none;
   }
 
-  /* line 245, sass/_mediaQuery.scss */
+  /* line 253, sass/_mediaQuery.scss */
   .palavraDestacadaInner {
     position: absolute;
     left: 0;
@@ -4674,21 +4707,61 @@ ol li:before {
     text-overflow: ellipsis;
   }
 
-  /* line 258, sass/_mediaQuery.scss */
+  /* line 266, sass/_mediaQuery.scss */
   #modalContent {
     padding-left: 0;
     padding-right: 0;
   }
 
-  /* line 263, sass/_mediaQuery.scss */
+  /* line 271, sass/_mediaQuery.scss */
   #modalContent p {
     padding-left: 0;
     padding-right: 0;
   }
 
-  /* line 268, sass/_mediaQuery.scss */
+  /* line 276, sass/_mediaQuery.scss */
   .btCreditos {
     width: auto;
+  }
+
+  /* line 281, sass/_mediaQuery.scss */
+  #tabsHor, #tabsVert {
+    display: none;
+  }
+
+  /* line 284, sass/_mediaQuery.scss */
+  #tabsHorMobile, #tabsVertMobile {
+    display: block;
+  }
+  /* line 286, sass/_mediaQuery.scss */
+  #tabsHorMobile ul, #tabsVertMobile ul {
+    padding: 0;
+  }
+  /* line 289, sass/_mediaQuery.scss */
+  #tabsHorMobile .wrapperContentMobile, #tabsVertMobile .wrapperContentMobile {
+    padding: 0;
+    margin-bottom: 15px;
+  }
+  /* line 292, sass/_mediaQuery.scss */
+  #tabsHorMobile .wrapperContentMobile .col-xs-12, #tabsVertMobile .wrapperContentMobile .col-xs-12 {
+    padding: 0;
+  }
+  /* line 295, sass/_mediaQuery.scss */
+  #tabsHorMobile .wrapperContentMobile img, #tabsVertMobile .wrapperContentMobile img {
+    width: 100%;
+  }
+  /* line 298, sass/_mediaQuery.scss */
+  #tabsHorMobile .wrapperContentMobile strong, #tabsVertMobile .wrapperContentMobile strong {
+    font-family: "Roboto-Bold", sans-serif;
+    font-size: 1.5em;
+    line-height: 24px;
+  }
+  /* line 303, sass/_mediaQuery.scss */
+  #tabsHorMobile .wrapperContentMobile p, #tabsVertMobile .wrapperContentMobile p {
+    margin: 0px;
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 1.5em;
+    line-height: 24px;
   }
 }
 /* line 3, sass/_animate.scss */
