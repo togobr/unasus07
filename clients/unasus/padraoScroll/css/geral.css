@@ -1990,6 +1990,18 @@ ol li:before {
   line-height: 30px;
 }
 
+/* line 286, sass/main/_main.scss */
+.modalCreditos {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 99;
+  display: none;
+}
+
 /* line 1, sass/resources/tooltip/_style.scss */
 .tooltipster-default .tooltipster-content {
   font-family: Arial, sans-serif;
@@ -3526,7 +3538,7 @@ ol li:before {
   font-family: 'Entypo';
   position: absolute;
   top: 50%;
-  margin-top: -35px;
+  margin-top: -60px;
   left: 3px;
 }
 /* line 65, sass/resources/sliderResponsivo/_style.scss */

@@ -28,6 +28,7 @@ define([
 
             Player.Elements.$content.on({
                 contentReady: function(e) {
+                    $("body").find(".modalCreditos").appendTo("body");
 
 
 
