@@ -39,15 +39,15 @@
 
 	.contentDestaque{
 		position: relative;
-		// width: 75%;
 		height: 100%;
-		font-family: $regular;
-		 font-size: 1.6em;
 		color: #000;
 		display: table-cell;
 		text-align: left;
 		vertical-align: middle;	
 		padding: 20px;
+		font-size: $textFontSize;
+		line-height: $textLineHeight;
+		font-family: $regular;
 		
 		p{
 			width: 100%;

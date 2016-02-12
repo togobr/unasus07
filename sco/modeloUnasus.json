@@ -2,9 +2,23 @@
         "_id": "5379f9c48b714fc104000133",
         "courseName": "TESTE IEA",
         "scoName": "Prevenção e cuidado às doenças prevalente em homens",
-        "srcCaptivate":"",
         "scorm":false,
-        "teste":"",
+        "unidades":[
+
+                {
+                    "name": "Módulo 111",
+                    "idSection": 10
+                },
+                {
+                    "name": "Módulo 222",
+                    "idSection": 20
+                },
+                {
+                    "name": "Módulo 3",
+                    "idSection": 30
+                }
+
+        ],
         "slides": [       
             {
                 "template": "slideScroll",

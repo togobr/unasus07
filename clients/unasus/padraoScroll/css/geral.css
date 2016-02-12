@@ -1860,10 +1860,10 @@ ul {
 ul li {
   background-position: 0px 100%;
   padding-left: 5px;
-  line-height: 24px;
   color: #373838;
-  font-size: 16px;
   margin-right: 10px;
+  font-size: 1.9em;
+  line-height: 26px;
   font-family: "Roboto-Regular", sans-serif;
 }
 
@@ -1877,13 +1877,13 @@ ol {
 ol li {
   background-position: 0px 100%;
   padding-left: 25px;
-  line-height: 24px;
   color: #373838;
-  font-size: 16px;
   margin-right: 10px;
+  font-size: 1.9em;
+  line-height: 26px;
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 165, sass/main/_main.scss */
+/* line 166, sass/main/_main.scss */
 ol li:before {
   font-weight: bold;
   margin-right: 6px;
@@ -1892,7 +1892,7 @@ ol li:before {
   counter-increment: ol-counter;
 }
 
-/* line 180, sass/main/_main.scss */
+/* line 181, sass/main/_main.scss */
 .wrapper {
   height: auto;
   margin: 0 auto;
@@ -1900,22 +1900,22 @@ ol li:before {
   position: relative;
 }
 
-/* line 187, sass/main/_main.scss */
+/* line 188, sass/main/_main.scss */
 .wrapperMargin {
   margin-bottom: 40px;
 }
 
-/* line 192, sass/main/_main.scss */
+/* line 193, sass/main/_main.scss */
 .hiddenAnimate {
   opacity: 0;
 }
 
-/* line 195, sass/main/_main.scss */
+/* line 196, sass/main/_main.scss */
 .visible {
   opacity: 1;
 }
 
-/* line 203, sass/main/_main.scss */
+/* line 204, sass/main/_main.scss */
 .content .iframeContent {
   position: fixed;
   width: 100%;
@@ -1925,7 +1925,7 @@ ol li:before {
   background: #2f2f2f;
   left: 0px;
 }
-/* line 212, sass/main/_main.scss */
+/* line 213, sass/main/_main.scss */
 .content .iframeContent .telaCheiaIframe {
   width: 100%;
   height: 100%;
@@ -1935,7 +1935,7 @@ ol li:before {
   top: 0px;
   bottom: 0px;
 }
-/* line 222, sass/main/_main.scss */
+/* line 223, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia {
   z-index: 999;
   border: 1px solid #e18f00;
@@ -1965,16 +1965,16 @@ ol li:before {
   opacity: 0.78;
   top: 1px;
 }
-/* line 254, sass/main/_main.scss */
+/* line 255, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:hover {
   background: #fbaf0b;
 }
-/* line 258, sass/main/_main.scss */
+/* line 259, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:active {
   background: #e28f01;
 }
 
-/* line 270, sass/main/_main.scss */
+/* line 271, sass/main/_main.scss */
 .btCreditos {
   border-radius: 5px;
   width: 125px;
@@ -2534,9 +2534,9 @@ ol li:before {
 }
 /* line 101, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom p {
+  font-size: 1.9em;
   font-family: "Roboto-Regular", sans-serif;
-  font-size: 1.4em !important;
-  line-height: 20px;
+  line-height: 26px;
 }
 
 /* line 17, sass/resources/gaveta/_style.scss */
@@ -2817,13 +2817,14 @@ ol li:before {
 .caixaDestaqueHolder .contentDestaque {
   position: relative;
   height: 100%;
-  font-family: "Roboto-Regular", sans-serif;
-  font-size: 1.6em;
   color: #000;
   display: table-cell;
   text-align: left;
   vertical-align: middle;
   padding: 20px;
+  font-size: 1.9em;
+  line-height: 26px;
+  font-family: "Roboto-Regular", sans-serif;
 }
 /* line 52, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaqueHolder .contentDestaque p {
@@ -2838,13 +2839,17 @@ ol li:before {
 
 /* line 1, sass/resources/gavetaHorizontal/_style.scss */
 .gavetaHor {
-  background: #eaeaea;
   width: 100%;
   height: auto;
   overflow: auto;
 }
 
-/* line 9, sass/resources/gavetaHorizontal/_style.scss */
+/* line 7, sass/resources/gavetaHorizontal/_style.scss */
+#tabsHorMobile {
+  display: none;
+}
+
+/* line 12, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav {
   display: table;
   list-style: none;
@@ -2853,7 +2858,7 @@ ol li:before {
   border-radius: 2px;
   width: 100%;
 }
-/* line 16, sass/resources/gavetaHorizontal/_style.scss */
+/* line 19, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav li {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2863,8 +2868,9 @@ ol li:before {
   padding-left: 0;
   display: table-cell;
   background: #2f3275;
+  margin: 0;
 }
-/* line 24, sass/resources/gavetaHorizontal/_style.scss */
+/* line 27, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav li a {
   display: table;
   height: 100%;
@@ -2874,7 +2880,7 @@ ol li:before {
   outline: none;
   text-decoration: none;
 }
-/* line 32, sass/resources/gavetaHorizontal/_style.scss */
+/* line 35, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav li a span {
   display: table-cell;
   vertical-align: middle;
@@ -2882,11 +2888,11 @@ ol li:before {
   font-weight: 400;
   font-size: 14px;
 }
-/* line 42, sass/resources/gavetaHorizontal/_style.scss */
+/* line 45, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav .ui-tabs-active {
   background: #dab463;
 }
-/* line 44, sass/resources/gavetaHorizontal/_style.scss */
+/* line 47, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav .ui-tabs-active:after {
   content: '';
   position: absolute;
@@ -2899,27 +2905,27 @@ ol li:before {
   bottom: -10px;
   left: 44.5%;
 }
-/* line 56, sass/resources/gavetaHorizontal/_style.scss */
+/* line 59, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav .ui-tabs-active span {
   color: #2f3275 !important;
 }
-/* line 59, sass/resources/gavetaHorizontal/_style.scss */
+/* line 62, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav .ui-tabs-active.visited {
   background: #dab463;
 }
-/* line 61, sass/resources/gavetaHorizontal/_style.scss */
+/* line 64, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav .ui-tabs-active.visited:after {
   border-color: #dab463 transparent;
 }
-/* line 67, sass/resources/gavetaHorizontal/_style.scss */
+/* line 70, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav .visited {
   background: #f4dfc1;
 }
-/* line 69, sass/resources/gavetaHorizontal/_style.scss */
+/* line 72, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor ul.ui-tabs-nav .visited span {
   color: #2f3275 !important;
 }
-/* line 75, sass/resources/gavetaHorizontal/_style.scss */
+/* line 78, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor .ui-tabs-panel {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2929,10 +2935,12 @@ ol li:before {
   background: #FFFFFF;
   padding: 20px;
   color: #000000;
-  font-size: 14px;
   width: 99.9%;
+  font-size: 1.9em;
+  line-height: 26px;
+  font-family: "Roboto-Regular", sans-serif;
 }
-/* line 85, sass/resources/gavetaHorizontal/_style.scss */
+/* line 90, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor .ui-tabs-panel img {
   display: inline-block;
   width: 100%;
@@ -2945,19 +2953,24 @@ ol li:before {
 }
 
 /* line 6, sass/resources/gavetaVertical/_style.scss */
+#tabsVertMobile {
+  display: none;
+}
+
+/* line 10, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical {
   width: 100%;
   height: auto;
   overflow: auto;
 }
-/* line 10, sass/resources/gavetaVertical/_style.scss */
+/* line 14, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical ul.ui-tabs-nav {
   padding: .2em .1em .2em .2em;
   margin: 0;
   float: left;
   width: 38%;
 }
-/* line 15, sass/resources/gavetaVertical/_style.scss */
+/* line 19, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2973,11 +2986,11 @@ ol li:before {
   margin-bottom: 5px;
   font-size: inherit;
 }
-/* line 28, sass/resources/gavetaVertical/_style.scss */
+/* line 32, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li:first-child {
   margin-top: 1px;
 }
-/* line 32, sass/resources/gavetaVertical/_style.scss */
+/* line 36, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li a.ui-tabs-anchor {
   min-height: 44px;
   float: left;
@@ -2988,7 +3001,7 @@ ol li:before {
   text-align: center;
   display: table;
 }
-/* line 42, sass/resources/gavetaVertical/_style.scss */
+/* line 46, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical ul.ui-tabs-nav li a.ui-tabs-anchor span {
   display: table-cell;
   vertical-align: middle;
@@ -2998,7 +3011,7 @@ ol li:before {
   position: relative;
   font-size: 1.6em;
 }
-/* line 56, sass/resources/gavetaVertical/_style.scss */
+/* line 60, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-panel {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -3015,22 +3028,23 @@ ol li:before {
   padding: 20px;
   background: #fff;
   margin-top: 4px;
-  line-height: 18px;
   color: #373838;
-  font-size: 14px;
   overflow: hidden;
+  font-size: 1.9em;
+  line-height: 26px;
+  font-family: "Roboto-Regular", sans-serif;
 }
-/* line 75, sass/resources/gavetaVertical/_style.scss */
+/* line 80, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-panel img {
   margin-top: 20px;
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 84, sass/resources/gavetaVertical/_style.scss */
+/* line 89, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active {
   background: #dab463;
 }
-/* line 86, sass/resources/gavetaVertical/_style.scss */
+/* line 91, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active:after {
   content: '';
   position: absolute;
@@ -3043,27 +3057,27 @@ ol li:before {
   right: -14px;
   top: 16px;
 }
-/* line 98, sass/resources/gavetaVertical/_style.scss */
+/* line 103, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active span {
   color: #2f3275 !important;
 }
-/* line 101, sass/resources/gavetaVertical/_style.scss */
+/* line 106, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active.visited {
   background: #dab463;
 }
-/* line 103, sass/resources/gavetaVertical/_style.scss */
+/* line 108, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active.visited:after {
   border-color: transparent #dab463;
 }
-/* line 106, sass/resources/gavetaVertical/_style.scss */
+/* line 111, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active.visited span {
   color: #2f3275 !important;
 }
-/* line 112, sass/resources/gavetaVertical/_style.scss */
+/* line 117, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .visited {
   background: #f4dfc1;
 }
-/* line 114, sass/resources/gavetaVertical/_style.scss */
+/* line 119, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .visited span {
   color: #2f3275 !important;
 }
@@ -3867,7 +3881,6 @@ ol li:before {
   padding-right: 67px;
   padding-bottom: 10px;
   font-family: "Open Sans", sans-serif;
-  font-size: 16pt;
   color: #383737;
   line-height: 46px;
 }
@@ -3918,32 +3931,32 @@ ol li:before {
 }
 /* line 3, sass/resources/texto/_style.scss */
 .texto .textoSolto {
-  font-size: 1.5em;
+  font-size: 1.9em;
 }
-/* line 7, sass/resources/texto/_style.scss */
+/* line 6, sass/resources/texto/_style.scss */
 .texto .textoSolto ul li, .texto .textoSolto ol li {
   margin-top: 7px;
   margin-bottom: 7px;
 }
-/* line 12, sass/resources/texto/_style.scss */
+/* line 11, sass/resources/texto/_style.scss */
 .texto .textoSolto .imgEsq {
   float: left;
   width: 49%;
   margin-right: 30px;
 }
-/* line 18, sass/resources/texto/_style.scss */
+/* line 17, sass/resources/texto/_style.scss */
 .texto .textoSolto .imgDir {
   float: right;
   width: 49%;
   margin-left: 30px;
 }
-/* line 24, sass/resources/texto/_style.scss */
+/* line 23, sass/resources/texto/_style.scss */
 .texto .textoSolto .textoCitacao {
   font-family: "Roboto-Black", sans-serif;
   font-size: 21px;
   line-height: 30px;
 }
-/* line 28, sass/resources/texto/_style.scss */
+/* line 27, sass/resources/texto/_style.scss */
 .texto .textoSolto .textoCitacao:after {
   content: '”';
   font-size: 60px;
@@ -3951,7 +3964,7 @@ ol li:before {
   margin-left: 5px;
   bottom: -25px;
 }
-/* line 35, sass/resources/texto/_style.scss */
+/* line 34, sass/resources/texto/_style.scss */
 .texto .textoSolto .textoCitacao:before {
   content: '“';
   font-size: 60px;
@@ -3959,14 +3972,14 @@ ol li:before {
   position: relative;
   margin-right: 5px;
 }
-/* line 44, sass/resources/texto/_style.scss */
+/* line 43, sass/resources/texto/_style.scss */
 .texto .textoSolto .textoDestaque {
   font-family: "Roboto-Regular", sans-serif;
   color: #2f3275;
   font-size: 22px;
   line-height: 34px;
 }
-/* line 52, sass/resources/texto/_style.scss */
+/* line 51, sass/resources/texto/_style.scss */
 .texto .underlineTitle {
   position: absolute;
   width: 100%;
@@ -3975,9 +3988,10 @@ ol li:before {
   background: #dab463;
   z-index: -1;
 }
-/* line 61, sass/resources/texto/_style.scss */
+/* line 60, sass/resources/texto/_style.scss */
 .texto.normal .textoSolto {
-  font-size: 1.5em;
+  font-size: 1.9em;
+  line-height: 26px;
   font-family: "Roboto-Regular", sans-serif;
 }
 /* line 66, sass/resources/texto/_style.scss */
@@ -4594,89 +4608,94 @@ ol li:before {
     display: none !important;
   }
 
-  /* line 128, sass/_mediaQuery.scss */
+  /* line 129, sass/_mediaQuery.scss */
   .backgroundScroll .imgBG {
     opacity: .2;
   }
 
-  /* line 136, sass/_mediaQuery.scss */
+  /* line 138, sass/_mediaQuery.scss */
   .capa .contCapa {
     padding-left: 0;
   }
-  /* line 140, sass/_mediaQuery.scss */
+  /* line 142, sass/_mediaQuery.scss */
   .capa .nCapa {
     font-size: 1.5em;
     margin-top: 80px;
   }
-  /* line 146, sass/_mediaQuery.scss */
+  /* line 148, sass/_mediaQuery.scss */
   .capa .tituloCapa {
     font-size: 3em;
     font-weight: bold;
   }
-  /* line 151, sass/_mediaQuery.scss */
+  /* line 153, sass/_mediaQuery.scss */
   .capa .descCapa {
     margin: 0;
     margin-bottom: 130px;
   }
 
-  /* line 159, sass/_mediaQuery.scss */
+  /* line 161, sass/_mediaQuery.scss */
   .contraCapa {
     padding-bottom: 200px;
   }
 
-  /* line 164, sass/_mediaQuery.scss */
+  /* line 166, sass/_mediaQuery.scss */
   .contLeft,
   .textoFinal {
     margin: 25px;
   }
 
-  /* line 170, sass/_mediaQuery.scss */
+  /* line 172, sass/_mediaQuery.scss */
   .textoDownload {
     margin-bottom: 15px;
   }
 
-  /* line 175, sass/_mediaQuery.scss */
+  /* line 177, sass/_mediaQuery.scss */
   .contRight {
     padding-right: 15px;
     padding-left: 15px;
   }
 
-  /* line 184, sass/_mediaQuery.scss */
+  /* line 185, sass/_mediaQuery.scss */
   .botoesNav .voltarNav {
     width: 65px !important;
   }
-  /* line 189, sass/_mediaQuery.scss */
+  /* line 190, sass/_mediaQuery.scss */
   .botoesNav .voltarNav span:before {
     left: 10px;
   }
-  /* line 193, sass/_mediaQuery.scss */
+  /* line 194, sass/_mediaQuery.scss */
   .botoesNav .voltarNav span b {
     display: none;
   }
-  /* line 199, sass/_mediaQuery.scss */
+  /* line 200, sass/_mediaQuery.scss */
   .botoesNav .avancarNav {
     width: 65px !important;
   }
-  /* line 204, sass/_mediaQuery.scss */
+  /* line 205, sass/_mediaQuery.scss */
   .botoesNav .avancarNav span:before {
     right: 10px;
   }
-  /* line 208, sass/_mediaQuery.scss */
+  /* line 209, sass/_mediaQuery.scss */
   .botoesNav .avancarNav span b {
     display: none;
   }
 
-  /* line 225, sass/_mediaQuery.scss */
+  /* line 222, sass/_mediaQuery.scss */
+  .gavetaHor #tabsHor ul.ui-tabs-nav li {
+    display: block;
+  }
+
+  /* line 236, sass/_mediaQuery.scss */
   .multimedia img {
     display: block;
   }
 
-  /* line 230, sass/_mediaQuery.scss */
+  /* line 241, sass/_mediaQuery.scss */
   .multimedia iframe {
     display: none;
   }
 
-  /* line 245, sass/_mediaQuery.scss */
+  /* line 253, sass/_mediaQuery.scss */
   .palavraDestacadaInner {
     position: absolute;
     left: 0;
@@ -4686,21 +4705,61 @@ ol li:before {
     text-overflow: ellipsis;
   }
 
-  /* line 258, sass/_mediaQuery.scss */
+  /* line 266, sass/_mediaQuery.scss */
   #modalContent {
     padding-left: 0;
     padding-right: 0;
   }
 
-  /* line 263, sass/_mediaQuery.scss */
+  /* line 271, sass/_mediaQuery.scss */
   #modalContent p {
     padding-left: 0;
     padding-right: 0;
   }
 
-  /* line 268, sass/_mediaQuery.scss */
+  /* line 276, sass/_mediaQuery.scss */
   .btCreditos {
     width: auto;
+  }
+
+  /* line 281, sass/_mediaQuery.scss */
+  #tabsHor, #tabsVert {
+    display: none;
+  }
+
+  /* line 284, sass/_mediaQuery.scss */
+  #tabsHorMobile, #tabsVertMobile {
+    display: block;
+  }
+  /* line 286, sass/_mediaQuery.scss */
+  #tabsHorMobile ul, #tabsVertMobile ul {
+    padding: 0;
+  }
+  /* line 289, sass/_mediaQuery.scss */
+  #tabsHorMobile .wrapperContentMobile, #tabsVertMobile .wrapperContentMobile {
+    padding: 0;
+    margin-bottom: 15px;
+  }
+  /* line 292, sass/_mediaQuery.scss */
+  #tabsHorMobile .wrapperContentMobile .col-xs-12, #tabsVertMobile .wrapperContentMobile .col-xs-12 {
+    padding: 0;
+  }
+  /* line 295, sass/_mediaQuery.scss */
+  #tabsHorMobile .wrapperContentMobile img, #tabsVertMobile .wrapperContentMobile img {
+    width: 100%;
+  }
+  /* line 298, sass/_mediaQuery.scss */
+  #tabsHorMobile .wrapperContentMobile strong, #tabsVertMobile .wrapperContentMobile strong {
+    font-family: "Roboto-Bold", sans-serif;
+    font-size: 1.5em;
+    line-height: 24px;
+  }
+  /* line 303, sass/_mediaQuery.scss */
+  #tabsHorMobile .wrapperContentMobile p, #tabsVertMobile .wrapperContentMobile p {
+    margin: 0px;
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 1.5em;
+    line-height: 24px;
   }
 }
 /* line 3, sass/_animate.scss */
