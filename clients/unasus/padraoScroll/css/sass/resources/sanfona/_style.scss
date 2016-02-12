@@ -93,6 +93,11 @@
 		width: 99.9%;
 		overflow:hidden;
 		margin-top: -5px;
+		ul li{
+			font-size: $textFontSize;
+			font-family: $regular;
+			line-height: $textLineHeight;
+		}
 	}
 
 	.ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom{

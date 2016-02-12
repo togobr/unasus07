@@ -12,7 +12,8 @@ define([
             var $el = self.$el;
 
             return {
-                $el: $el
+                $el: $el,
+                $dropDownUnidade: $el.find('#dropDownUnidade')
             }
         }
 
@@ -73,6 +74,8 @@ define([
                 }
 
             });
+
+            console.log('foo self.elems.$menuBtn', self.elems.$dropDownUnidade);
         }
 
         // ************************* METHODS ********W***************** 
