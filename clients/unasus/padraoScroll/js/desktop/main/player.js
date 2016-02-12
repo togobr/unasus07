@@ -12,7 +12,8 @@ define([
             var $el = self.$el;
 
             return {
-                $el: $el
+                $el: $el,
+                $dropDownUnidade: $el.find('#dropDownUnidade li span')
             }
         }
 
@@ -93,6 +94,17 @@ define([
                         });
                 }
 
+            });
+
+
+            self.elems.$dropDownUnidade.on({
+                click: function(e) {
+                    var cam = $(this).data("unidade");
+
+                    $('html, body').animate({
+                        scrollTop:$('#backgroundScroll'+ cam).position().top
+                    }, 1000);
+                }
             });
         }
 

@@ -1730,7 +1730,7 @@ body {
 }
 /* line 27, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .navbar-collapse {
-  max-width: 830px;
+  max-width: 1021px;
   margin: 0 auto;
 }
 /* line 30, sass/main/_main.scss */
@@ -1754,31 +1754,30 @@ body {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  width: 200px;
   height: 30px;
   background: #f4dfc1;
   padding: 0;
+  font-size: inherit;
 }
-/* line 49, sass/main/_main.scss */
+/* line 50, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   padding: 0;
-  font-size: 11px;
+  font-size: 1.5em;
   font-family: "Roboto-Black", sans-serif;
   color: #2f3275;
   height: 100%;
   text-transform: uppercase;
 }
-/* line 57, sass/main/_main.scss */
+/* line 58, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle span.dpText {
-  width: 168px;
   float: right;
   text-align: center;
-  padding-top: 6px;
+  padding: 6px 10px 0px 10px;
 }
-/* line 63, sass/main/_main.scss */
+/* line 64, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle span.caret {
   position: relative;
   float: left;
@@ -1792,7 +1791,7 @@ body {
   border: 0;
   border-right: 2px solid #dab463;
 }
-/* line 75, sass/main/_main.scss */
+/* line 76, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle span.caret:after {
   content: "";
   position: absolute;
@@ -1804,24 +1803,24 @@ body {
   left: 9px;
   top: 12px;
 }
-/* line 89, sass/main/_main.scss */
+/* line 90, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 91, sass/main/_main.scss */
+/* line 92, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-toggle {
   background: #f4dfc1;
 }
-/* line 94, sass/main/_main.scss */
+/* line 95, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-toggle span.caret:after {
   border-top: none;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
   border-bottom: 10px solid #2f3275;
 }
-/* line 103, sass/main/_main.scss */
+/* line 104, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu {
   background: #f4dfc1;
   width: 100%;
@@ -1829,62 +1828,66 @@ body {
   margin: 2px 0px 2px 0px;
   border: 0;
 }
-/* line 109, sass/main/_main.scss */
+/* line 110, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu .divider {
   background: #2f3275;
 }
-/* line 112, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu li a {
+/* line 113, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu li {
+  font-size: 1.2em;
+  padding-left: 15px;
+}
+/* line 116, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu li span {
   font-family: "Roboto-Regular", sans-serif;
   color: #2f3275;
   white-space: normal;
+  cursor: pointer;
 }
-/* line 116, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu li a:hover {
+/* line 121, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu li span:hover {
   background: none;
   font-family: "Roboto-Bold", sans-serif;
 }
 
-/* line 128, sass/main/_main.scss */
+/* line 134, sass/main/_main.scss */
 .content.container-fluid {
   max-width: 1021px;
   padding: 0;
   padding-top: 100px;
 }
 
-/* line 137, sass/main/_main.scss */
+/* line 143, sass/main/_main.scss */
 ul {
   list-style-image: url(assets/images/bullet.png);
   counter-reset: section;
 }
-/* line 140, sass/main/_main.scss */
+/* line 146, sass/main/_main.scss */
 ul li {
   background-position: 0px 100%;
   padding-left: 5px;
   color: #373838;
   margin-right: 10px;
-  font-size: 1.9em;
-  line-height: 26px;
+  font-size: 1em;
   font-family: "Roboto-Regular", sans-serif;
 }
 
-/* line 152, sass/main/_main.scss */
+/* line 158, sass/main/_main.scss */
 ol {
   list-style-type: none;
   counter-reset: ol-counter;
   padding: 0;
 }
-/* line 157, sass/main/_main.scss */
+/* line 163, sass/main/_main.scss */
 ol li {
   background-position: 0px 100%;
   padding-left: 25px;
   color: #373838;
   margin-right: 10px;
-  font-size: 1.9em;
-  line-height: 26px;
+  font-size: 1em;
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 167, sass/main/_main.scss */
+/* line 173, sass/main/_main.scss */
 ol li:before {
   font-weight: bold;
   margin-right: 6px;
@@ -1893,7 +1896,7 @@ ol li:before {
   counter-increment: ol-counter;
 }
 
-/* line 182, sass/main/_main.scss */
+/* line 188, sass/main/_main.scss */
 .wrapper {
   height: auto;
   margin: 0 auto;
@@ -1901,22 +1904,22 @@ ol li:before {
   position: relative;
 }
 
-/* line 189, sass/main/_main.scss */
+/* line 195, sass/main/_main.scss */
 .wrapperMargin {
   margin-bottom: 40px;
 }
 
-/* line 194, sass/main/_main.scss */
+/* line 200, sass/main/_main.scss */
 .hiddenAnimate {
   opacity: 0;
 }
 
-/* line 197, sass/main/_main.scss */
+/* line 203, sass/main/_main.scss */
 .visible {
   opacity: 1;
 }
 
-/* line 205, sass/main/_main.scss */
+/* line 211, sass/main/_main.scss */
 .content .iframeContent {
   position: fixed;
   width: 100%;
@@ -1926,7 +1929,7 @@ ol li:before {
   background: #2f2f2f;
   left: 0px;
 }
-/* line 214, sass/main/_main.scss */
+/* line 220, sass/main/_main.scss */
 .content .iframeContent .telaCheiaIframe {
   width: 100%;
   height: 100%;
@@ -1936,7 +1939,7 @@ ol li:before {
   top: 0px;
   bottom: 0px;
 }
-/* line 224, sass/main/_main.scss */
+/* line 230, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia {
   z-index: 999;
   border: 1px solid #e18f00;
@@ -1966,32 +1969,31 @@ ol li:before {
   opacity: 0.78;
   top: 1px;
 }
-/* line 256, sass/main/_main.scss */
+/* line 262, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:hover {
   background: #fbaf0b;
 }
-/* line 260, sass/main/_main.scss */
+/* line 266, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:active {
   background: #e28f01;
 }
 
-/* line 272, sass/main/_main.scss */
+/* line 278, sass/main/_main.scss */
 .btCreditos {
   border-radius: 5px;
-  width: 125px;
   height: 30px;
   background: #f4dfc1;
-  padding: 0;
+  padding: 1px 10px 0px 11px;
   font-family: "Roboto-Black", sans-serif;
   color: #2f3275;
   text-transform: uppercase;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1.5em;
   cursor: pointer;
   line-height: 30px;
 }
 
-/* line 288, sass/main/_main.scss */
+/* line 294, sass/main/_main.scss */
 .modalCreditos {
   position: fixed;
   top: 0;
@@ -2528,12 +2530,18 @@ ol li:before {
   overflow: hidden;
   margin-top: -5px;
 }
-/* line 98, sass/resources/sanfona/_style.scss */
+/* line 96, sass/resources/sanfona/_style.scss */
+.ui-accordion .ui-accordion-content ul li {
+  font-size: 1.9em;
+  font-family: "Roboto-Regular", sans-serif;
+  line-height: 26px;
+}
+/* line 103, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom {
   margin-bottom: 7px;
   overflow: hidden;
 }
-/* line 101, sass/resources/sanfona/_style.scss */
+/* line 106, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom p {
   font-size: 1.9em;
   font-family: "Roboto-Regular", sans-serif;
@@ -3501,16 +3509,22 @@ ol li:before {
   width: 100%;
   padding: 0;
 }
-/* line 29, sass/resources/sliderResponsivo/_style.scss */
+/* line 26, sass/resources/sliderResponsivo/_style.scss */
+.sliderResponsivo .wrapperSlider .sliderContainer .rslides li .contentSlider {
+  font-size: 1.9em;
+  line-height: 26px;
+  font-family: "Roboto-Regular", sans-serif;
+}
+/* line 31, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer .rslides li img {
   height: 100%;
   padding: 0;
 }
-/* line 34, sass/resources/sliderResponsivo/_style.scss */
+/* line 36, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer .rslides li .contentImg[src=""] {
   display: none;
 }
-/* line 40, sass/resources/sliderResponsivo/_style.scss */
+/* line 42, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer .bottomContainer {
   -webkit-border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -3523,7 +3537,7 @@ ol li:before {
   display: table;
   position: relative;
 }
-/* line 47, sass/resources/sliderResponsivo/_style.scss */
+/* line 49, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer .bottomContainer p {
   margin: 0;
   width: 100%;
@@ -3534,7 +3548,7 @@ ol li:before {
   vertical-align: middle;
   font-family: "Roboto-Bold", sans-serif;
 }
-/* line 59, sass/resources/sliderResponsivo/_style.scss */
+/* line 61, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer .wrapperBtnNav {
   font-family: 'Entypo';
   position: absolute;
@@ -3542,12 +3556,12 @@ ol li:before {
   margin-top: -60px;
   left: 3px;
 }
-/* line 65, sass/resources/sliderResponsivo/_style.scss */
+/* line 67, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer .wrapperBtnNav.next {
   left: auto;
   right: 3px;
 }
-/* line 70, sass/resources/sliderResponsivo/_style.scss */
+/* line 72, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer .slider_nav {
   -webkit-box-shadow: 1px 0px 8px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 1px 0px 8px rgba(0, 0, 0, 0.1);
@@ -3565,7 +3579,7 @@ ol li:before {
   bottom: 40px;
   background: rgba(255, 255, 255, 0.7);
 }
-/* line 86, sass/resources/sliderResponsivo/_style.scss */
+/* line 88, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer .slider_nav.next {
   -webkit-box-shadow: -1px 0px 8px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: -1px 0px 8px rgba(0, 0, 0, 0.1);
@@ -3573,14 +3587,14 @@ ol li:before {
   left: auto;
   right: 0px;
 }
-/* line 92, sass/resources/sliderResponsivo/_style.scss */
+/* line 94, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer ul.slider_tabs {
   position: absolute;
   z-index: 3;
-  top: 10px;
+  top: 15px;
   right: 10%;
 }
-/* line 97, sass/resources/sliderResponsivo/_style.scss */
+/* line 99, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer ul.slider_tabs li {
   position: relative;
   display: inline-block;
@@ -3588,7 +3602,7 @@ ol li:before {
   padding-left: 0;
   margin-right: 7px;
 }
-/* line 103, sass/resources/sliderResponsivo/_style.scss */
+/* line 105, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer ul.slider_tabs li a {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -3600,7 +3614,7 @@ ol li:before {
   overflow: hidden;
   display: inline-block;
 }
-/* line 111, sass/resources/sliderResponsivo/_style.scss */
+/* line 113, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer ul.slider_tabs li a:after {
   content: "";
   position: absolute;
@@ -3608,21 +3622,21 @@ ol li:before {
   width: 10px;
   background: #FFFFFF;
 }
-/* line 119, sass/resources/sliderResponsivo/_style.scss */
+/* line 121, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer ul.slider_tabs li:after {
   content: "";
   position: absolute;
   height: 1px;
   width: 10px;
   left: 9px;
-  top: 12px;
+  top: 5px;
   background: #FFFFFF;
 }
-/* line 129, sass/resources/sliderResponsivo/_style.scss */
+/* line 131, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer ul.slider_tabs li:last-child:after {
   content: none;
 }
-/* line 135, sass/resources/sliderResponsivo/_style.scss */
+/* line 137, sass/resources/sliderResponsivo/_style.scss */
 .sliderResponsivo .wrapperSlider .sliderContainer ul.slider_tabs .slider_here a {
   height: 13px;
   width: 13px;
@@ -3876,16 +3890,6 @@ ol li:before {
   font-family: 'Entypo';
 }
 
-/* line 157, sass/resources/botaoModal/_style.scss */
-#modalContent p {
-  padding-left: 60px;
-  padding-right: 67px;
-  padding-bottom: 10px;
-  font-family: "Open Sans", sans-serif;
-  color: #383737;
-  line-height: 46px;
-}
-
 /* line 18, sass/resources/video/_style.scss */
 .vjs-default-skin .vjs-poster:before {
   content: "";
@@ -3954,23 +3958,23 @@ ol li:before {
 }
 /* line 24, sass/resources/texto/_style.scss */
 .texto .textoSolto .textoCitacao {
-  font-family: "Roboto-Black", sans-serif;
-  font-size: 21px;
-  line-height: 30px;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 1.8em;
+  line-height: 1.2em;
 }
 /* line 28, sass/resources/texto/_style.scss */
 .texto .textoSolto .textoCitacao:after {
   content: '”';
-  font-size: 60px;
+  font-size: 80px;
   position: absolute;
   margin-left: 5px;
-  bottom: -25px;
+  bottom: -35px;
 }
 /* line 35, sass/resources/texto/_style.scss */
 .texto .textoSolto .textoCitacao:before {
   content: '“';
-  font-size: 60px;
-  top: 25px;
+  font-size: 80px;
+  top: 30px;
   position: relative;
   margin-right: 5px;
 }
@@ -3998,18 +4002,20 @@ ol li:before {
 }
 /* line 67, sass/resources/texto/_style.scss */
 .texto.title .textoSolto {
-  font-size: 2.6em;
-  line-height: 30px;
+  font-size: 3em;
+  line-height: 1.4em;
+  margin-bottom: 20px;
   font-family: "Roboto-Bold", sans-serif;
   color: #2f3275;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
-/* line 76, sass/resources/texto/_style.scss */
+/* line 78, sass/resources/texto/_style.scss */
 .texto.subtitle .wrapper {
   display: table;
   margin: initial;
 }
-/* line 80, sass/resources/texto/_style.scss */
+/* line 82, sass/resources/texto/_style.scss */
 .texto.subtitle .textoSolto {
   font-size: 3em;
   line-height: 30px;
@@ -4017,15 +4023,16 @@ ol li:before {
   color: #2f3275;
   display: table-cell;
   font-variant: small-caps;
+  margin-bottom: 20px;
 }
-/* line 88, sass/resources/texto/_style.scss */
+/* line 91, sass/resources/texto/_style.scss */
 .texto.subtitle .underlineTitle {
   display: table-cell;
   bottom: 6px;
   margin-left: 5px;
 }
 
-/* line 98, sass/resources/texto/_style.scss */
+/* line 101, sass/resources/texto/_style.scss */
 .texto.quadro {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -4046,7 +4053,7 @@ ol li:before {
   right: 25px;
   height: 25px;
   width: 25px;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 /* line 18, sass/resources/revelar/_style.scss */
 .content .revelar .contentCapa {
@@ -4071,11 +4078,18 @@ ol li:before {
 /* line 35, sass/resources/revelar/_style.scss */
 .content .revelar .tagP {
   padding: 1.5em;
-  font-size: 1.4em;
-  font-family: "Roboto-Regular", sans-serif;
   height: auto;
+  font-size: 1.9em;
+  line-height: 26px;
+  font-family: "Roboto-Regular", sans-serif;
 }
-/* line 42, sass/resources/revelar/_style.scss */
+/* line 41, sass/resources/revelar/_style.scss */
+.content .revelar .tagP ul li {
+  font-size: 19px;
+  line-height: 26px;
+  font-family: "Roboto-Regular", sans-serif;
+}
+/* line 48, sass/resources/revelar/_style.scss */
 .content .revelar .contentCapa, .content .revelar .tagP {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -4086,40 +4100,40 @@ ol li:before {
   background: #2f3275;
   background-size: cover;
 }
-/* line 49, sass/resources/revelar/_style.scss */
+/* line 55, sass/resources/revelar/_style.scss */
 .content .revelar .contentCapa > div, .content .revelar .tagP > div {
   height: 100%;
   display: table;
 }
-/* line 53, sass/resources/revelar/_style.scss */
+/* line 59, sass/resources/revelar/_style.scss */
 .content .revelar .contentCapa span, .content .revelar .tagP span {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 59, sass/resources/revelar/_style.scss */
+/* line 65, sass/resources/revelar/_style.scss */
 .content .revelar .clickType, .content .revelar .hoverType {
   height: auto;
   width: 100%;
 }
-/* line 65, sass/resources/revelar/_style.scss */
+/* line 71, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType {
   display: none;
 }
-/* line 67, sass/resources/revelar/_style.scss */
+/* line 73, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle {
   position: relative;
   height: 51px;
   width: 100%;
 }
-/* line 75, sass/resources/revelar/_style.scss */
+/* line 81, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle.open a.dropdown-toggle .openCloseIcon .icon-setaPreenchida_cima {
   display: table-cell;
 }
-/* line 78, sass/resources/revelar/_style.scss */
+/* line 84, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle.open a.dropdown-toggle .openCloseIcon .icon-setaPreenchida_baixo {
   display: none;
 }
-/* line 85, sass/resources/revelar/_style.scss */
+/* line 91, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle a.dropdown-toggle {
   -webkit-border-top-left-radius: 5px;
   border-top-left-radius: 5px;
@@ -4131,9 +4145,10 @@ ol li:before {
   background: #2f3275;
   text-align: center;
 }
-/* line 95, sass/resources/revelar/_style.scss */
+/* line 101, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle a.dropdown-toggle span {
-  font-size: 1.6em;
+  font-size: 1.9em;
+  line-height: 26px;
   font-family: "Roboto-Bold", sans-serif;
   color: #FFFFFF;
   overflow: hidden;
@@ -4143,7 +4158,7 @@ ol li:before {
   vertical-align: middle;
   width: 100%;
 }
-/* line 106, sass/resources/revelar/_style.scss */
+/* line 113, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle a.dropdown-toggle .openCloseIcon {
   -webkit-border-top-left-radius: 5px;
   border-top-left-radius: 5px;
@@ -4155,16 +4170,16 @@ ol li:before {
   display: table;
   text-align: center;
 }
-/* line 116, sass/resources/revelar/_style.scss */
+/* line 123, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle a.dropdown-toggle .openCloseIcon span {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 119, sass/resources/revelar/_style.scss */
+/* line 126, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle a.dropdown-toggle .openCloseIcon span.icon-setaPreenchida_cima {
   display: none;
 }
-/* line 126, sass/resources/revelar/_style.scss */
+/* line 133, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle .dropdown-menu {
   -webkit-border-top-right-radius: 0;
   border-top-right-radius: 0;
@@ -4178,60 +4193,60 @@ ol li:before {
   margin-top: 5px;
   font-size: inherit !important;
 }
-/* line 134, sass/resources/revelar/_style.scss */
+/* line 141, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle .dropdown-menu li {
   font-size: 1.6em;
   padding: 0.5em;
 }
-/* line 138, sass/resources/revelar/_style.scss */
+/* line 145, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle .dropdown-menu a {
   white-space: normal;
 }
-/* line 141, sass/resources/revelar/_style.scss */
+/* line 148, sass/resources/revelar/_style.scss */
 .content .revelar .dropDownType .boxTitle .dropdown-menu a:hover {
   background: none;
 }
-/* line 149, sass/resources/revelar/_style.scss */
+/* line 156, sass/resources/revelar/_style.scss */
 .content .revelar .clickType {
   display: none;
 }
-/* line 153, sass/resources/revelar/_style.scss */
+/* line 160, sass/resources/revelar/_style.scss */
 .content .revelar.click {
   cursor: pointer;
 }
-/* line 155, sass/resources/revelar/_style.scss */
+/* line 162, sass/resources/revelar/_style.scss */
 .content .revelar.click .clickType {
   display: none;
 }
-/* line 157, sass/resources/revelar/_style.scss */
+/* line 164, sass/resources/revelar/_style.scss */
 .content .revelar.click .clickType .tagP {
   display: none;
 }
-/* line 164, sass/resources/revelar/_style.scss */
+/* line 171, sass/resources/revelar/_style.scss */
 .content .revelar.click.clicked .clickType .contentCapa {
   display: none;
 }
-/* line 167, sass/resources/revelar/_style.scss */
+/* line 174, sass/resources/revelar/_style.scss */
 .content .revelar.click.clicked .clickType .tagP {
   display: block;
 }
-/* line 175, sass/resources/revelar/_style.scss */
+/* line 182, sass/resources/revelar/_style.scss */
 .content .revelar .hoverType {
   display: none;
 }
-/* line 180, sass/resources/revelar/_style.scss */
+/* line 187, sass/resources/revelar/_style.scss */
 .content .revelar.hover .hoverType {
   display: none;
 }
-/* line 182, sass/resources/revelar/_style.scss */
+/* line 189, sass/resources/revelar/_style.scss */
 .content .revelar.hover .hoverType .tagP {
   display: none;
 }
-/* line 189, sass/resources/revelar/_style.scss */
+/* line 196, sass/resources/revelar/_style.scss */
 .content .revelar.hover.hovered .hoverType .contentCapa {
   display: none;
 }
-/* line 192, sass/resources/revelar/_style.scss */
+/* line 199, sass/resources/revelar/_style.scss */
 .content .revelar.hover.hovered .hoverType .tagP {
   display: block;
 }
@@ -4290,14 +4305,13 @@ ol li:before {
 }
 /* line 67, sass/resources/backgroundScroll/_style.scss */
 .capa .tituloCapa {
-  font-size: 4.8em;
-  line-height: 1.5em;
+  font-size: 5em;
+  line-height: 1.3em;
   color: #fff;
 }
 /* line 74, sass/resources/backgroundScroll/_style.scss */
 .capa .descCapa {
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 1.8em;
   display: block;
   margin-right: 167px;
   margin-left: 235px;
@@ -4306,29 +4320,29 @@ ol li:before {
   border-left: 3px solid #fff;
 }
 
-/* line 90, sass/resources/backgroundScroll/_style.scss */
+/* line 86, sass/resources/backgroundScroll/_style.scss */
 .contContraCapa {
   display: table-cell;
   vertical-align: middle;
   color: #fff;
 }
-/* line 97, sass/resources/backgroundScroll/_style.scss */
+/* line 93, sass/resources/backgroundScroll/_style.scss */
 .contContraCapa .textoDownload {
   font-family: "Roboto-Bold", sans-serif;
   font-size: 1.6em;
 }
-/* line 102, sass/resources/backgroundScroll/_style.scss */
+/* line 98, sass/resources/backgroundScroll/_style.scss */
 .contContraCapa .textoFinal {
   font-family: "Roboto-Bold", sans-serif;
   font-size: 1.6em;
 }
-/* line 107, sass/resources/backgroundScroll/_style.scss */
+/* line 103, sass/resources/backgroundScroll/_style.scss */
 .contContraCapa .contRight {
   padding-right: 0;
   padding-left: 30px;
 }
 
-/* line 115, sass/resources/backgroundScroll/_style.scss */
+/* line 111, sass/resources/backgroundScroll/_style.scss */
 .botoesNav {
   position: absolute;
   bottom: 0;
@@ -4338,7 +4352,7 @@ ol li:before {
   border-top: 2px #f4dfc1 solid;
   background: #dab463;
 }
-/* line 126, sass/resources/backgroundScroll/_style.scss */
+/* line 122, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .avancarNav {
   line-height: 60px;
   position: absolute;
@@ -4351,7 +4365,7 @@ ol li:before {
   border-radius: 5px;
   background-color: #f4dfc1;
 }
-/* line 142, sass/resources/backgroundScroll/_style.scss */
+/* line 138, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .avancarNav span {
   line-height: normal;
   display: inline-block;
@@ -4361,18 +4375,18 @@ ol li:before {
   margin-right: 45px;
   color: #000;
 }
-/* line 158, sass/resources/backgroundScroll/_style.scss */
+/* line 154, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .avancarNav span b {
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 162, sass/resources/backgroundScroll/_style.scss */
+/* line 158, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .avancarNav span:before {
   position: absolute;
   right: 7px;
   font-size: 2.5em;
   top: 7px;
 }
-/* line 170, sass/resources/backgroundScroll/_style.scss */
+/* line 166, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .voltarNav {
   line-height: 60px;
   position: absolute;
@@ -4385,7 +4399,7 @@ ol li:before {
   border-radius: 5px;
   background-color: #f4dfc1;
 }
-/* line 186, sass/resources/backgroundScroll/_style.scss */
+/* line 182, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .voltarNav span {
   line-height: normal;
   display: inline-block;
@@ -4394,11 +4408,11 @@ ol li:before {
   margin-left: 45px;
   color: #7C7C7C;
 }
-/* line 198, sass/resources/backgroundScroll/_style.scss */
+/* line 194, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .voltarNav span b {
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 203, sass/resources/backgroundScroll/_style.scss */
+/* line 199, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .voltarNav span:before {
   position: absolute;
   left: 7px;

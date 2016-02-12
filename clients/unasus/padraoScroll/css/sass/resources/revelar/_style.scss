@@ -12,7 +12,7 @@
 			  right: 25px;
 			  height: 25px;
 			  width: 25px;
-			  font-size: 2.5em;
+			  font-size: 2em;
 		}
 
 		.contentCapa{
@@ -34,9 +34,15 @@
 		}
 		.tagP{
 			padding: 1.5em;
-			font-size: 1.4em;
+			height: auto; 
+			font-size: $textFontSize;
+			line-height: $textLineHeight;
 			font-family: $regular;
-			height: auto;
+			ul li{
+				font-size: 19px;
+				line-height: 26px;
+				font-family: $regular;
+			}
 		}
 		
 		.contentCapa, .tagP{
@@ -93,7 +99,8 @@
 					background: $normal;
 					text-align: center;
 					span{
-						font-size: 1.6em;
+						font-size: $textFontSize;
+						line-height: $textLineHeight;
 						font-family: $bold;
 						color: #FFFFFF;
 						overflow: hidden;

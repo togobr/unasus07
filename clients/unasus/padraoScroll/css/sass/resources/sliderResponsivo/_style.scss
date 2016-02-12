@@ -24,7 +24,9 @@
 			        width:100%;
 			        padding: 0;
 					.contentSlider{
-
+						font-size: $textFontSize;
+						line-height: $textLineHeight;
+						font-family: $regular;
 					}
 			        img{
 				        height: 100%;
@@ -92,7 +94,7 @@
 		    ul.slider_tabs{
 		        position: absolute;
 		        z-index: 3;
-		        top:10px;
+		        top:15px;
 		        right: 10%;
 		        li{
 		        	position: relative;
@@ -122,7 +124,7 @@
 				    	height: 1px;
 				    	width: 10px;
 						left: 9px;
-						top: 12px;
+						top: 5px;
 				    	background: #FFFFFF;
 				    }
 				    &:last-child{

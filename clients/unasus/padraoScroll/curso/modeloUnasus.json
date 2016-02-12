@@ -126,40 +126,7 @@
                         "template":"gavetaHorizontal",
                         "column": "col-xs-12 col-md-12",
                         "style": "margin-top:50px;",
-                        "section":2,
-                        "gavetasHorizontais":[    
-                            {
-                                "numeroGaveta":"1",
-                                "tituloGaveta":"Tab Menu 1",
-                                "content":"123123123Lorem <span class='toolTp' id='tooltipHolder1' title='clique aqui'></span> dolor sit amet, consectetur adipisicing elit. Ducimus aliquam quia obcaecati autem labore delectus ea rerum dolorem officia, numquam molestias quidem est voluptate inventore! At veniam aliquam, architecto quidem!"
-                            },
-
-                            {
-                                "numeroGaveta":"2",
-                                "tituloGaveta":"Tab Menu 2",
-                                "content":"<div class='col-xs-12 col-md-6'><p style='margin-right:4%'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque facilis quo repellendus officia iusto, nam, odio et voluptas laboriosam cupiditate magni libero, totam possimus quasi aspernatur nobis quis quas quod?</p></div> <div class='col-xs-12 col-md-6'><img src='css/assets/images/IEA03_IMG01_SCO01.png' /></div>"
-                            },
-                            {
-                                "numeroGaveta":"3",
-                                "tituloGaveta":"Tab Menu 3",
-                                "content":" <img style='margin-right:2.5%' src='css/assets/images/IEA03_IMG01_SCO01.png' /> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque facilisrepellendus officia iusto, nam, sssssss <span class='mbTooltipGlossario' title='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quam esse sed delectus ipsa repellendus voluptate, inventore quasi optio deserunt ab quibusdam quia voluptatem tenetur et soluta veritatis sunt illo!'>alternativas</span> et voluptas laboriosam cupiditate magni libero, totam possimus quasi aspernatur nobis quis quas quod?</p>"
-                            },
-
-                            {
-                                "numeroGaveta":"4",
-                                "tituloGaveta":"Tab Menu 4",
-                                "content":" <img style='margin-right:2.5%%' src='css/assets/images/IEA03_IMG01_SCO01.png' /> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque facilisrepellendus officia iusto, nam, sssssss <span class='mbTooltipGlossario' title='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quam esse sed delectus ipsa repellendus voluptate, inventore quasi optio deserunt ab quibusdam quia voluptatem tenetur et soluta veritatis sunt illo!'>alternativas</span> et voluptas laboriosam cupiditate magni libero, totam possimus quasi aspernatur nobis quis quas quod?</p>"
-                            }
-                        ],
-                        "order":9
-                    },
-
-
-                    {
-                        "template":"gavetaHorizontal",
-                        "column": "col-xs-12 col-md-12",
-                        "style": "margin-top:50px;",
-                        "section":2,
+                        "section":1,
                         "gavetasHorizontais":[    
                             {
                                 "numeroGaveta":"1",
@@ -184,7 +151,7 @@
                                 "content":" <img style='margin-right:2.5%%' src='css/assets/images/IEA03_IMG01_SCO01.png' /> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque facilisrepellendus officia iusto, nam, sssssss <span class='mbTooltipGlossario' title='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quam esse sed delectus ipsa repellendus voluptate, inventore quasi optio deserunt ab quibusdam quia voluptatem tenetur et soluta veritatis sunt illo!'>alternativas</span> et voluptas laboriosam cupiditate magni libero, totam possimus quasi aspernatur nobis quis quas quod?</p>"
                             }
                         ],
-                        "order":10
+                        "order":9
                     },
 
 
@@ -574,6 +541,17 @@
                         "column": "col-xs-12 col-md-6",
                         "label": "BAIXAR O LIVRO",
                         "order":33
+                    },
+
+                    {
+                        "template": "multimedia",
+                        "section":5,
+                        "src": "http://www.terra.com.br/",
+                        "column": "col-xs-12 col-md-12",
+                        "styleObj": {
+                            "height": "500px"
+                        },
+                        "order":34
                     }
                 ]
             }            
