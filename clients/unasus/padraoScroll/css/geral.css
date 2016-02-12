@@ -1860,10 +1860,10 @@ ul {
 ul li {
   background-position: 0px 100%;
   padding-left: 5px;
-  line-height: 24px;
   color: #373838;
-  font-size: 16px;
   margin-right: 10px;
+  font-size: 1.9em;
+  line-height: 26px;
   font-family: "Roboto-Regular", sans-serif;
 }
 
@@ -1877,13 +1877,13 @@ ol {
 ol li {
   background-position: 0px 100%;
   padding-left: 25px;
-  line-height: 24px;
   color: #373838;
-  font-size: 16px;
   margin-right: 10px;
+  font-size: 1.9em;
+  line-height: 26px;
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 165, sass/main/_main.scss */
+/* line 166, sass/main/_main.scss */
 ol li:before {
   font-weight: bold;
   margin-right: 6px;
@@ -1892,7 +1892,7 @@ ol li:before {
   counter-increment: ol-counter;
 }
 
-/* line 180, sass/main/_main.scss */
+/* line 181, sass/main/_main.scss */
 .wrapper {
   height: auto;
   margin: 0 auto;
@@ -1900,22 +1900,22 @@ ol li:before {
   position: relative;
 }
 
-/* line 187, sass/main/_main.scss */
+/* line 188, sass/main/_main.scss */
 .wrapperMargin {
   margin-bottom: 40px;
 }
 
-/* line 192, sass/main/_main.scss */
+/* line 193, sass/main/_main.scss */
 .hiddenAnimate {
   opacity: 0;
 }
 
-/* line 195, sass/main/_main.scss */
+/* line 196, sass/main/_main.scss */
 .visible {
   opacity: 1;
 }
 
-/* line 203, sass/main/_main.scss */
+/* line 204, sass/main/_main.scss */
 .content .iframeContent {
   position: fixed;
   width: 100%;
@@ -1925,7 +1925,7 @@ ol li:before {
   background: #2f2f2f;
   left: 0px;
 }
-/* line 212, sass/main/_main.scss */
+/* line 213, sass/main/_main.scss */
 .content .iframeContent .telaCheiaIframe {
   width: 100%;
   height: 100%;
@@ -1935,7 +1935,7 @@ ol li:before {
   top: 0px;
   bottom: 0px;
 }
-/* line 222, sass/main/_main.scss */
+/* line 223, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia {
   z-index: 999;
   border: 1px solid #e18f00;
@@ -1965,16 +1965,16 @@ ol li:before {
   opacity: 0.78;
   top: 1px;
 }
-/* line 254, sass/main/_main.scss */
+/* line 255, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:hover {
   background: #fbaf0b;
 }
-/* line 258, sass/main/_main.scss */
+/* line 259, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:active {
   background: #e28f01;
 }
 
-/* line 270, sass/main/_main.scss */
+/* line 271, sass/main/_main.scss */
 .btCreditos {
   border-radius: 5px;
   width: 125px;
@@ -2522,9 +2522,9 @@ ol li:before {
 }
 /* line 101, sass/resources/sanfona/_style.scss */
 .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom p {
+  font-size: 1.9em;
   font-family: "Roboto-Regular", sans-serif;
-  font-size: 1.4em !important;
-  line-height: 20px;
+  line-height: 26px;
 }
 
 /* line 17, sass/resources/gaveta/_style.scss */
@@ -2805,13 +2805,14 @@ ol li:before {
 .caixaDestaqueHolder .contentDestaque {
   position: relative;
   height: 100%;
-  font-family: "Roboto-Regular", sans-serif;
-  font-size: 1.6em;
   color: #000;
   display: table-cell;
   text-align: left;
   vertical-align: middle;
   padding: 20px;
+  font-size: 1.9em;
+  line-height: 26px;
+  font-family: "Roboto-Regular", sans-serif;
 }
 /* line 52, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaqueHolder .contentDestaque p {
@@ -2922,10 +2923,12 @@ ol li:before {
   background: #FFFFFF;
   padding: 20px;
   color: #000000;
-  font-size: 14px;
   width: 99.9%;
+  font-size: 1.9em;
+  line-height: 26px;
+  font-family: "Roboto-Regular", sans-serif;
 }
-/* line 88, sass/resources/gavetaHorizontal/_style.scss */
+/* line 90, sass/resources/gavetaHorizontal/_style.scss */
 #tabsHor .ui-tabs-panel img {
   display: inline-block;
   width: 100%;
@@ -3013,22 +3016,23 @@ ol li:before {
   padding: 20px;
   background: #fff;
   margin-top: 4px;
-  line-height: 18px;
   color: #373838;
-  font-size: 14px;
   overflow: hidden;
+  font-size: 1.9em;
+  line-height: 26px;
+  font-family: "Roboto-Regular", sans-serif;
 }
-/* line 79, sass/resources/gavetaVertical/_style.scss */
+/* line 80, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-panel img {
   margin-top: 20px;
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 88, sass/resources/gavetaVertical/_style.scss */
+/* line 89, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active {
   background: #dab463;
 }
-/* line 90, sass/resources/gavetaVertical/_style.scss */
+/* line 91, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active:after {
   content: '';
   position: absolute;
@@ -3041,27 +3045,27 @@ ol li:before {
   right: -14px;
   top: 16px;
 }
-/* line 102, sass/resources/gavetaVertical/_style.scss */
+/* line 103, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active span {
   color: #2f3275 !important;
 }
-/* line 105, sass/resources/gavetaVertical/_style.scss */
+/* line 106, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active.visited {
   background: #dab463;
 }
-/* line 107, sass/resources/gavetaVertical/_style.scss */
+/* line 108, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active.visited:after {
   border-color: transparent #dab463;
 }
-/* line 110, sass/resources/gavetaVertical/_style.scss */
+/* line 111, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-active.visited span {
   color: #2f3275 !important;
 }
-/* line 116, sass/resources/gavetaVertical/_style.scss */
+/* line 117, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .visited {
   background: #f4dfc1;
 }
-/* line 118, sass/resources/gavetaVertical/_style.scss */
+/* line 119, sass/resources/gavetaVertical/_style.scss */
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav .visited span {
   color: #2f3275 !important;
 }
@@ -3865,7 +3869,6 @@ ol li:before {
   padding-right: 67px;
   padding-bottom: 10px;
   font-family: "Open Sans", sans-serif;
-  font-size: 16pt;
   color: #383737;
   line-height: 46px;
 }
@@ -3916,32 +3919,32 @@ ol li:before {
 }
 /* line 3, sass/resources/texto/_style.scss */
 .texto .textoSolto {
-  font-size: 1.5em;
+  font-size: 1.9em;
 }
-/* line 7, sass/resources/texto/_style.scss */
+/* line 6, sass/resources/texto/_style.scss */
 .texto .textoSolto ul li, .texto .textoSolto ol li {
   margin-top: 7px;
   margin-bottom: 7px;
 }
-/* line 12, sass/resources/texto/_style.scss */
+/* line 11, sass/resources/texto/_style.scss */
 .texto .textoSolto .imgEsq {
   float: left;
   width: 49%;
   margin-right: 30px;
 }
-/* line 18, sass/resources/texto/_style.scss */
+/* line 17, sass/resources/texto/_style.scss */
 .texto .textoSolto .imgDir {
   float: right;
   width: 49%;
   margin-left: 30px;
 }
-/* line 24, sass/resources/texto/_style.scss */
+/* line 23, sass/resources/texto/_style.scss */
 .texto .textoSolto .textoCitacao {
   font-family: "Roboto-Black", sans-serif;
   font-size: 21px;
   line-height: 30px;
 }
-/* line 28, sass/resources/texto/_style.scss */
+/* line 27, sass/resources/texto/_style.scss */
 .texto .textoSolto .textoCitacao:after {
   content: '”';
   font-size: 60px;
@@ -3949,7 +3952,7 @@ ol li:before {
   margin-left: 5px;
   bottom: -25px;
 }
-/* line 35, sass/resources/texto/_style.scss */
+/* line 34, sass/resources/texto/_style.scss */
 .texto .textoSolto .textoCitacao:before {
   content: '“';
   font-size: 60px;
@@ -3957,14 +3960,14 @@ ol li:before {
   position: relative;
   margin-right: 5px;
 }
-/* line 44, sass/resources/texto/_style.scss */
+/* line 43, sass/resources/texto/_style.scss */
 .texto .textoSolto .textoDestaque {
   font-family: "Roboto-Regular", sans-serif;
   color: #2f3275;
   font-size: 22px;
   line-height: 34px;
 }
-/* line 52, sass/resources/texto/_style.scss */
+/* line 51, sass/resources/texto/_style.scss */
 .texto .underlineTitle {
   position: absolute;
   width: 100%;
@@ -3973,9 +3976,10 @@ ol li:before {
   background: #dab463;
   z-index: -1;
 }
-/* line 61, sass/resources/texto/_style.scss */
+/* line 60, sass/resources/texto/_style.scss */
 .texto.normal .textoSolto {
-  font-size: 1.5em;
+  font-size: 1.9em;
+  line-height: 26px;
   font-family: "Roboto-Regular", sans-serif;
 }
 /* line 66, sass/resources/texto/_style.scss */

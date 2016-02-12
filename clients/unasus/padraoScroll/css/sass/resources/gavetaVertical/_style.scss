@@ -71,10 +71,11 @@
 		padding: 20px;
 		background: #fff;
 		margin-top:4px;
-		line-height: 18px;
 		color: #373838;
-		font-size: 14px;
 		overflow: hidden;
+		font-size: $textFontSize;
+		line-height: $textLineHeight;
+		font-family: $regular;
 
 		img{
 			margin-top: 20px;

@@ -99,9 +99,9 @@
 		margin-bottom: 7px;
 		overflow:hidden;
 		p{	
+			font-size: $textFontSize;
 			font-family: $regular;
-			font-size: 1.4em !important;
-			line-height: 20px;
+			line-height: $textLineHeight;
 		}
 	}
 
