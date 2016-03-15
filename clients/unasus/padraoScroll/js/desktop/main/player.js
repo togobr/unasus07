@@ -63,9 +63,9 @@ define([
                     var resources = Player.Tree.resources[0];
 
                      for (var i = resources.length - 1; i >= 0; i--) {
-                         if (resources[i].$el.hasClass('teste')) {
-                                resources[i].$el.fadeTo(0, 0);
-                         };
+                        if (resources[i].$el.hasClass('animated')) {
+                            resources[i].$el.css('opacity', "0")
+                        };
                      };
                 }
             });
@@ -85,18 +85,16 @@ define([
                 }
             });
 
-            
             //Utilizado para a entrada animada dos elementos
             $(window).scroll( function(){
-                $('.rec').each( function(i){
+                $('.animated').each( function(i){
                     var bottom_of_object = $(this).offset().top + $(this).outerHeight();
                     var bottom_of_window = $(window).scrollTop() + $(window).height();
-                    
+
                     if( bottom_of_window > bottom_of_object ){
-                       console.log('foo showing element',  $(this).addClass('animated'));
+                        $(this).animate({'opacity':'1'},500);
                     }
                 }); 
-            
             });
 
 
