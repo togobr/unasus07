@@ -29,20 +29,14 @@ define([
 
             Player.Elements.$content.on({
                 contentReady: function(e) {
-                    
-
                     var $btCreditos = $("body").find(".btCreditos"),
                         $modalCreditos = $("body").find(".modalCreditos");
-
-
                         $modalCreditos.appendTo("body");
 
 
                     $btCreditos.on({
                         click:function(e){
-
                             $modalCreditos.show();
-
                         }
                     });
 
@@ -52,49 +46,60 @@ define([
                         }
                     })
 
-
-
                     if ($(window).width() <= 1021) {
                         $("body").find(".capa").css("height", "auto");
-
                         $("body").find(".contContraCapa").css("display","table-row");
 
                     } else {
                         $("body").find(".capa").css({
                             "height": $(window).height() + "px"
                         });
-
                         $("body").find(".contContraCapa").css("display","table-cell");
-
-
                         $("body").find(".contraCapa").css({
                             "height": $(window).height()- 177 + "px"
                         });
                     }
 
+                    var resources = Player.Tree.resources[0];
 
+                     for (var i = resources.length - 1; i >= 0; i--) {
+                         if (resources[i].$el.hasClass('teste')) {
+                                resources[i].$el.fadeTo(0, 0);
+                         };
+                     };
                 }
             });
 
             $(window).resize(function() {
-
                 if ($(window).width() <= 1021) {
                     $("body").find(".capa").css("height", "auto");
                     $("body").find(".contContraCapa").css("display","table-row");
-
                 } else {
                     $("body").find(".capa").css({
                         "height": $(window).height() + "px"
                     });
-
                     $("body").find(".contContraCapa").css("display","table-cell");
-
-                     $("body").find(".contraCapa").css({
-                            "height": $(window).height()- 177 + "px"
-                        });
+                    $("body").find(".contraCapa").css({
+                        "height": $(window).height()- 177 + "px"
+                    });
                 }
-
             });
+
+            
+            //Utilizado para a entrada animada dos elementos
+            $(window).scroll( function(){
+                $('.rec').each( function(i){
+                    var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                    var bottom_of_window = $(window).scrollTop() + $(window).height();
+                    
+                    if( bottom_of_window > bottom_of_object ){
+                       console.log('foo showing element',  $(this).addClass('animated'));
+                    }
+                }); 
+            
+            });
+
+
 
 
             self.elems.$dropDownUnidade.on({
