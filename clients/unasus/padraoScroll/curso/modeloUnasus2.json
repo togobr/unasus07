@@ -33,6 +33,7 @@
                         "backgroundSRC":"http://www.planwallpaper.com/static/images/sea-background01-o.jpg",
                         "images":[{
                          }],
+                        "bgRatio": 0.3,
                         "order":0
                     },
                     {
@@ -194,6 +195,22 @@
                             
                         },
                         "order":21
+                    },
+
+                    {
+                        "template": "botaoDownload",
+                        "type": "subtitle",
+                        "section":3,
+                        "src": "http://www.mensagenscomamor.com/images/interna/new/imagens_reflexao_felicidade.jpg",
+                        "column": "col-xs-12 col-md-6",
+                        "label": "BAIXAR O LIVRO",
+                        "order":22,
+                        "styleObj": {
+                            "position": "fixed",
+                            "top": "0px",
+                            "left": "100px"
+
+                        }
                     },
 
  

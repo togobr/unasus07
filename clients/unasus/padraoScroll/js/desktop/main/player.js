@@ -1,6 +1,7 @@
 define([
     'jquery',
-    'bootstrap'
+    'bootstrap',
+    'stellar'
 ], function($) {
 
     var mainplayer = function() {
@@ -60,13 +61,11 @@ define([
                         });
                     }
 
-                    var resources = Player.Tree.resources[0];
-
-                     for (var i = resources.length - 1; i >= 0; i--) {
-                        if (resources[i].$el.hasClass('animated')) {
-                            resources[i].$el.css('opacity', "0")
-                        };
-                     };
+                    //invocando stellar (parallax)
+                    $.stellar({
+                        horizontalScrolling: false,
+                        responsive: true
+                    });
                 }
             });
 
@@ -84,23 +83,6 @@ define([
                     });
                 }
             });
-
-            //Utilizado para a entrada animada dos elementos
-            // $(window).scroll( function(){
-            //     $('.animated').each( function(i){
-            //         var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-            //         var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-            //         if( bottom_of_window > bottom_of_object ){
-            //             $(this).animate({'opacity':'1'},500);
-            //         }
-            //     }); 
-            // });
-
-         
-
-
-
 
             self.elems.$dropDownUnidade.on({
                 click: function(e) {

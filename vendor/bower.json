@@ -20,9 +20,10 @@
     "videojs-youtube": "https://github.com/eXon/videojs-youtube.git",
     "videojs-vimeo": "https://github.com/eXon/videojs-vimeo.git",
     "jquery-zoom": "https://github.com/jackmoore/zoom.git",
-    "responsiveSlidesJs":"https://github.com/viljamis/ResponsiveSlides.js.git",
-    "viewPortChecker":"https://github.com/dirkgroenen/jQuery-viewport-checker.git",
-    "checklist": "https://github.com/fronteed/iCheck.git"
+    "responsiveSlidesJs": "https://github.com/viljamis/ResponsiveSlides.js.git",
+    "viewPortChecker": "https://github.com/dirkgroenen/jQuery-viewport-checker.git",
+    "checklist": "https://github.com/fronteed/iCheck.git",
+    "jquery.stellar": "~0.6.2"
   },
   "devDependencies": {}
 }

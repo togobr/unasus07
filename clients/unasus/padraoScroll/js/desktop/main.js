@@ -88,12 +88,11 @@ require.config({
 				"jquery"
 			]
 		},
-		ScrollMagic:{
+		stellar:{
 			deps:[
 				"jquery"
 			]
 		}
-
 	},
 
 	paths: {
@@ -118,7 +117,7 @@ require.config({
         knockout:"../../../../../vendor/components/knockout/dist/knockout",
         checklist: "../../../../../vendor/components/knockout/dist/checklist",
         bootstrap:'../../../../../vendor/components/bootstrap/dist/js/bootstrap.min',
-        ScrollMagic:'../../../../../vendor/components/scrollmagic/scrollmagic/minified/ScrollMagic.min'
+        stellar: '../../../../../vendor/components/jquery.stellar/jquery.stellar.min'
 	},
 
 	config: {
@@ -480,14 +479,6 @@ require.config({
 
 				"backgroundScroll": {
 					"baseURL": "./resources/backgroundScroll",
-					"paths": [
-						"text!template.html",
-						"player"
-					]
-				},
-
-				"scrollMagic": {
-					"baseURL": "./resources/scrollMagic",
 					"paths": [
 						"text!template.html",
 						"player"
