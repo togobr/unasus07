@@ -291,14 +291,6 @@ require.config({
 						]
 				},
 
-				"tituloModulo": {
-						"baseURL": "./resources/tituloModulo",
-						"paths": [
-							"text!template.html",
-							"player"
-						]
-				},
-
 				"multimedia": {
 					"baseURL": "../../../../_baseClient/_base/js/desktop/resources/multimedia",
 					"paths": [
@@ -320,45 +312,11 @@ require.config({
 					"paths": [
 						"text!template.html"
 					]
-				},
-
-				"telaApresentacao": {
-					"baseURL": "./resources/telaApresentacao",
-					"paths":[
-						"text!template.html"
-
-					]
-				},
-				"download": {
-					"baseURL": "./resources/download",
-					"paths":[
-						"text!template.html",
-						"player"
-
-					]
-				},		
+				},	
 				
-				"busca": {
-					"baseURL": "./resources/busca",
-					"paths": [
-						"text!template.html",
-						"player"
-						
-					]
-				},
-
 
 				"botaoModal": {
 					"baseURL": "./resources/botaoModal",
-					"paths": [
-						"text!template.html",
-						"text!modal.html",
-						"player"
-					]
-				},
-
-				"botaoPP": {
-					"baseURL": "./resources/botaoPP",
 					"paths": [
 						"text!template.html",
 						"text!modal.html",
@@ -373,30 +331,6 @@ require.config({
 						"text!template.html",
 						"player"
 
-					]
-				},
-
-
-				"cabecalho": {
-					"baseURL": "./resources/cabecalho",
-					"paths": [
-						"text!template.html"	
-					]
-				},
-
-				"captivate": {
-					"baseURL": "./resources/captivate",
-					"paths": [
-						"text!template.html",
-						"player"	
-					]
-				},
-				
-				"checkbox": {
-					"baseURL": "./resources/checkbox",
-					"paths": [
-						"text!template.html",
-						"player"	
 					]
 				},
 
@@ -424,14 +358,6 @@ require.config({
 					]
 				},
 
-				"mensagemSistema": {
-					"baseURL": "./resources/mensagemSistema",
-
-					"paths": [
-						"text!template.html",
-						"player"
-					]
-				},
 
 				"sliderResponsivo": {
 					"baseURL": "./resources/sliderResponsivo",
@@ -440,32 +366,12 @@ require.config({
 						"player"
 					]
 				},
-				"popover": {
-					"baseURL": "./resources/popover",
-					"paths": [
-						"text!template.html",
-						"player"
-					]
-				},
 
-				"topicoPersonagem": {
-					"baseURL": "./resources/topicoPersonagem",
-					"paths": [
-						"text!template.html"
-					]
-				},
 				"texto": {
 					"baseURL": "./resources/texto",
 					"paths": [
 						"text!template.html",
 						"player"
-					]
-				},
-
-				"textarea": {
-					"baseURL": "./resources/textarea",
-					"paths": [
-						"text!template.html"
 					]
 				},
 
