@@ -1,7 +1,7 @@
-define([], function() {
-	var texto = function() {
-		var me = this;
-		
+define([
+], function() {
+
+	var imagem = function(template, data) {
 		this.init = function() {
 			/*Checar Função compile para observar que objetos são atrelados ao objeto principal
 			- this.template
@@ -10,11 +10,10 @@ define([], function() {
 			- this.el
 			- this.$el
 			*/
-	
+		
 			$.extend(true, this, new Player.Helpers.resourceExtend(this, arguments));
 
-			var recurso = this,	
-				$underlineTitle = recurso.$el.find('.underlineTitle'),
+			var recurso = this,
 				animate = this.data.animate || "";
 
 			Player.Elements.$content.on({
@@ -25,13 +24,9 @@ define([], function() {
 		            }); 
 				}
 			});
-
-
-			if((!recurso.$el.hasClass('title')) && (!recurso.$el.hasClass('subtitle'))){
-				$underlineTitle.hide();
-			}
 		}
+
 	}
 
-	return texto;
+	return imagem;
 });

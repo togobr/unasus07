@@ -15,11 +15,19 @@ define([], function() {
 			console.log('init do recurso: ', this);
 			$.extend(true, this, new Player.Helpers.resourceExtend(this, arguments));
 
-			var video = this;
+			var video = this,
+				animate = this.data.animate || "";
+
+					
 
 			Player.Elements.$content.on({
 				contentReady: function() {
 					video.bindVideoEvents();
+
+					video.$el.addClass("hidden").viewportChecker({
+                        classToAdd: 'visible ' + animate + ' animated '  , // Class to add to the elements when they are visible
+                        offset: 100    
+                    }); 
 				}
 			});
 		},

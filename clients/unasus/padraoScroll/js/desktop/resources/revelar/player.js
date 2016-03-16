@@ -23,7 +23,19 @@ define([], function() {
 				$dropDownContent = recurso.$el.find('.dropdown-menu');
 				$fechaRevelar = recurso.$el.find('.fechaRevelar'),
 				$setaPreenchida_baixo = recurso.$el.find('.setaPreenchida_baixo'),
-				$setaPreenchida_cima = recurso.$el.find('.setaPreenchida_cima');
+				$setaPreenchida_cima = recurso.$el.find('.setaPreenchida_cima'),
+				animate = this.data.animate || "";
+
+
+				Player.Elements.$content.on({
+					contentReady: function() {
+						recurso.$el.addClass("hidden").viewportChecker({
+			                classToAdd: 'visible ' + animate + ' animated '  , // Class to add to the elements when they are visible
+			                offset: 100    
+			            }); 
+					}
+				});
+
 
 				if(recurso.$el.hasClass("dropdown")){
 					$dropDownType.show();

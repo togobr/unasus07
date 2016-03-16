@@ -311,9 +311,11 @@ require.config({
 				"imagem": {
 					"baseURL": "./resources/imagem",
 					"paths": [
-						"text!template.html"
+						"text!template.html",
+						"player"
 					]
 				},
+				
 				"caixaDestaque": {
 					"baseURL": "./resources/caixaDestaque",
 					"paths": [

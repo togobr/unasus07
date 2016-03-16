@@ -143,17 +143,66 @@
                     },
 
                     {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "animate": "bounceInDown",
+                        "section":2,
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac convallis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Ut tincidunt dignissim arcu, a pharetra turpis tempus sit amet. In eget aliquet felis, eget maximus arcu. Nam gravida fermentum maximus. Nullam tempus nec massa vitae scelerisque. Vivamus in accumsan nisl, ut bibendum lorem. Aliquam eget rhoncus velit. Vestibulum lobortis efficitur orci, aliquet luctus erat tincidunt id. Nunc metus metus, elementum id velit id, placerat semper lacus. Proin sit amet euismod lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus mauris vel elit eleifend accumsan. In hac habitasse platea dictumst. Proin quam ligula, rutrum sit amet orci sed, blandit suscipit massa.",
+                        "styleObj": {
+                            "padding-top": "50px"
+                        },
+                        "order":12
+                    },
+
+                    {
+                        "template": "imagem",
+                        "column": "col-xs-12 col-md-12",
+                        "src": "http://2.bp.blogspot.com/-F8aZWjikNZs/Vo_yXXOZIbI/AAAAAAAAMmM/_uwQNYgEHYU/s1600/logounasus.png",
+                        "animate": "flipInX",
+                        "section":2,
+                        "legend": {
+                            "active": true,
+                            "content": "Teste : Teste images"
+                        },
+                        "border": true,
+                        "styleObj": {
+                        },
+                        "order":13
+                    },
+
+                    {
                         "template":"botaoPular",
                         "section":2,
                         "nSec":3,
                         "order":20
                     },
 
+
+                    {
+                        "template": "revelar",
+                        "type": "click",
+                        "animate": "bounceInLeft",
+                        "section":3,
+                        "style":"height:500px",
+                        "column": "col-xs-12 col-md-12",
+                        "contentCapa": "CÂNCER DE ESTOMAGO",
+                        "backgroundCapa":"css/assets/images/fotolia_88461540.jpg",
+                        "content": "<div class='col-xs-12 col-md-4'><img src='http://2.bp.blogspot.com/-F8aZWjikNZs/Vo_yXXOZIbI/AAAAAAAAMmM/_uwQNYgEHYU/s1600/logounasus.png' alt='' width='100'></div><div class='col-xs-12 col-md-4'> <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</span> </div> <div class='col-xs-12 col-md-4'> <span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</span></div>",
+                        "contentHeight" : "200px",
+                        "styleObj": {
+                            
+                        },
+                        "order":21
+                    },
+
+ 
+
                     {
                         "template":"botaoPular",
                         "section":3,
                         "nSec":4,
-                         "order":30
+                        "order":30
                     },
 
                     {

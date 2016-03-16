@@ -14,37 +14,17 @@ define([
 		
 			$.extend(true, this, new Player.Helpers.resourceExtend(this, arguments));
 
-			var resource = this,
-				zoomImg = this.$el.hasClass('zoomImg'), 
-				hideElems = this.$el.find('#imageWrapper, #recImglegendaContent'),
-				imageWrapper = this.$el.find('#imageWrapper');
+			var recurso = this,
+				animate = this.data.animate || "";
 
-			Player.Elements.$swipe.on({
-				slideEnd: function(e, startIndex, endIndex, domInit, domEnd) {				
-								
-					if((resource.data.slide === endIndex)){						
-						console.log('HA UMA IMAGEM:', resource.data.slide, startIndex, endIndex);
-					}
-
+			Player.Elements.$content.on({
+				contentReady: function() {
+					recurso.$el.addClass("hidden").viewportChecker({
+		                classToAdd: 'visible ' + animate + ' animated '  , // Class to add to the elements when they are visible
+		                offset: 100    
+		            }); 
 				}
 			});
-
-			if(zoomImg){
-				this.$el
-				.zoom({
-					on:'click', 
-					magnify: 1.5
-				})
-				.on({
-					click: function(e){
-						if(!imageWrapper.hasClass('noContent')){
-							hideElems.toggle();
-						}
-					}
-				});
-			}
-
-
 		}
 
 	}

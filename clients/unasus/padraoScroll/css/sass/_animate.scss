@@ -10,6 +10,16 @@ body{
     // }
 }
 
+.hidden{
+  opacity: 0;
+  display: block !important;
+  visibility: visible;
+}
+
+.visible{
+  opacity: 1;
+}
+
 @charset "UTF-8";
 
 /*!
