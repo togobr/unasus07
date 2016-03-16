@@ -420,6 +420,14 @@ require.config({
 						"text!template.html",
 						"player"
 					]
+				},
+
+				"parallaxBlock": {
+					"baseURL": "./resources/parallaxBlock",
+					"paths": [
+						"text!template.html",
+						"player"
+					]
 				}
 			},
 

@@ -198,18 +198,17 @@
                     },
 
                     {
-                        "template": "botaoDownload",
-                        "type": "subtitle",
+                        "template": "parallaxBlock",
                         "section":3,
-                        "src": "http://www.mensagenscomamor.com/images/interna/new/imagens_reflexao_felicidade.jpg",
-                        "column": "col-xs-12 col-md-6",
-                        "label": "BAIXAR O LIVRO",
                         "order":22,
+                        "ratio": "0.5",
                         "styleObj": {
                             "position": "fixed",
-                            "top": "0px",
-                            "left": "100px"
-
+                            "top": "150px",
+                            "left": "150px",
+                            "background": "red",
+                            "height": "50px",
+                            "width" : "50px"
                         }
                     },
 
