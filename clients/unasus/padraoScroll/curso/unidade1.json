@@ -233,7 +233,7 @@
                          "images":[
 
                             {
-                                "imgBG":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img14.png",
+                                "imgBG":"",
                                 "styleImg":"left:50%;"
                             }
 
@@ -293,15 +293,7 @@
                         "order":16
                     },
 
-                    {
-                        "template":"backgroundScroll",
-                        "column": "col-xs-12 col-md-12",
-                        "idSection":"32",
-                        "backgroundSRC":"",
-                        "backgroundColor":"#222526",
-                        "styleContainer":"padding:10px;",
-                        "order":17
-                    },
+                    
 
                     {
                         "template":"backgroundScroll",
@@ -1215,24 +1207,25 @@
 
                 
 
+                    
+
                     {
                         "template": "texto",
-                        "column": "col-xs-12 col-md-9",
-                        "type": "normal",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "title",
                         "section":11,
-                        "content": "Os homens são mais ativos fisicamente que as mulheres, o que pode ser uma forma de aproximar os homens dos cuidados à saúde.",
-                        "order":305
+                        "content": "Pressão alta, colesterol elevado, hiperglicemia",
+                        "order":335
                     },
 
                     {
                         "template": "texto",
-                        "column": "col-xs-12 col-md-9",
+                        "column": "col-xs-12 col-md-8",
                         "type": "normal",
                         "section":11,
-                        "content": "<p class='textoDestaque' style='margin:20px 0;'><b>ESSA CARACTERÍSTICA DOS HOMENS PODE TER RELAÇÃO COM AS QUESTÕES DE GÊNERO, UMA VEZ QUE A SOCIALIZAÇÃO DOS MENINOS ESTÁ GERALMENTE RELACIONADA A ESPORTES E COMPETIÇÕES.</b></p>",
-                        "order":315
+                        "content": "Agora, vamos aprofundar o tema de estudo relacionando as consequências dos hábitos de vida inadequados. ",
+                        "order":345
                     },
-
 
                     {
                         "template": "texto",
@@ -1241,9 +1234,78 @@
                         "style":"height:50px",
                         "section":11,
                         "content": "",
-                        "order":325
+                        "order":355
                     },
 
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "subtitle",
+                        "section":11,
+                        "content": "Pressão alta",
+                        "order":365
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":11,
+                        "content": "A hipertensão arterial sistêmica <span class='toolTp' id='tooltipHolder2' title='(HAS)'></span> é uma condição clínica multifatorial caracterizada por níveis elevados e sustentados de pressão arterial (PA).",
+                        "order":375
+                    },
+
+                    
+
+                    {
+                        "label": "(HAS)",
+                        "column": "",
+                        "section":11,
+                        "styleObj": {
+                        },
+                        "template": "botaoModal",
+                        "class": "tip",
+                        "nTooltip":"2",
+                        "_modal_id": {
+                            "defaults": {
+                            "styleObj": {
+                                "height": "150px"
+                            },
+                                "name": "Teste Modal",
+                                "type": ""
+                            },
+                            "modal": {
+                                "type": "",
+                                "responsive": true,
+                                "titulo":"(HAS)",
+                                "palavra":"(HAS)"
+                            },
+                            "name": "Novo slide",
+                            "onUse": false,
+                            "template": "slideSimples",
+                            "resources": [
+                               
+                                {
+                                    "template": "texto",
+                                    "type": "normal",
+                                    "column": "col-xs-12 col-md-12",
+                                    "content": "(HAS) conceito socialmente construído, refere-se à organização das relações sociais e econômicas entre os sexos, especialmente na divisão do trabalho e do poder (GÓMEZ, 2011)."
+                                }
+                           ]
+                        },
+                        "order": 380
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-9",
+                        "type": "normal",
+                        "section":11,
+                        "content": "<p class='textoDestaque' style='margin:20px 0;'><b>Ou seja, PA maior ou igual a 140 x 90mmHg.</b></p>",
+                        "order":385
+                    },
+
+                    
 
 
                     {

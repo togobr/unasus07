@@ -20,8 +20,6 @@ define([], function() {
 		                classToAdd: 'visible ' + animate + ' animated '  , // Class to add to the elements when they are visible
 		                offset: 100    
 		            }); 
-
-		            console.log('foo togo');
 				}
 			});
 		}
