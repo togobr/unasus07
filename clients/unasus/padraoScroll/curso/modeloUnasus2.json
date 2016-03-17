@@ -185,7 +185,7 @@
                         "border": true,
                         "styleObj": {
                         },
-                        "order":13
+                        "order":14
                     },
 
                     {
@@ -213,15 +213,35 @@
                         "order":21
                     },
 
-                    
-
- 
-
                     {
                         "template":"botaoPular",
                         "section":3,
                         "nSec":4,
                         "order":30
+                    },
+
+                    {
+                        "template": "magicSlider",
+                        "column": "col-xs-12 col-md-12",
+                        "section":3,
+                        "slides":[ 
+                            {
+                                "content": "slide 1"
+                            },
+                            {
+                                "content": "slide 2"
+                            },
+                            {
+                                "content": "slide 3"
+                            },
+                            {
+                                "content": "slide 4"
+                            }
+                        ],
+                        "styleObj": {
+                            
+                        },
+                        "order":31
                     },
 
                     {

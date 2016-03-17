@@ -1,0 +1,35 @@
+.magicSlider{
+	position: relative;
+}
+
+#pinContainer {
+	margin-top: 100px;
+	width: 100%;
+	height: 500px;
+	// height: 500px;
+	overflow: hidden;
+	-webkit-perspective: 1000;
+	        perspective: 1000;
+}
+#slideContainer {
+	width: 400%; /* to contain 4 panels, each with 100% of window width */
+	height: 100%;
+}
+.sectionsScrollMagic {
+	height: 100%;
+	width: 25%; /* relative to parent -> 25% of 400% = 100% of window width */
+	float: left;
+	background: black;
+	border-right: 1px solid #FFFFFF;
+
+	b{
+		color: white;
+	}
+}
+
+.togo{
+	position: relative;
+	height: 500px;
+	width: 500px;
+	background: red;
+}

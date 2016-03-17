@@ -118,10 +118,11 @@ require.config({
         checklist: "../../../../../vendor/components/knockout/dist/checklist",
         bootstrap:'../../../../../vendor/components/bootstrap/dist/js/bootstrap.min',
         stellar: '../../../../../vendor/components/jquery.stellar/jquery.stellar.min',
-        scrollmagic: '../../../../../vendor/components/scrollmagic/uncompressed/ScrollMagic',
-        sMGsap: '../../../../../vendor/components/scrollmagic/uncompressed/plugins/animation.gsap',
-        sMaddIndicators: '../../../../../vendor/components/scrollmagic/uncompressed/plugins/debug.addIndicators',
-        sMTweenMax: '../../../../../vendor/components/scrollmagic/uncompressed/plugins/TweenMax.min'
+        ScrollMagic: '../../../../../vendor/components/scrollmagic/scrollmagic/uncompressed/ScrollMagic',
+        addIndicators: '../../../../../vendor/components/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators',
+        gsap: '../../../../../vendor/components/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap',
+        TweenMax: '../../../../../vendor/components/scrollmagic/scrollmagic/uncompressed/plugins/TweenMax.min',
+        TimelineMax: '../../../../../vendor/components/scrollmagic/scrollmagic/uncompressed/plugins/TimelineMax.min'
 	},
 
 	config: {
@@ -314,11 +315,11 @@ require.config({
 				"caixaDestaque": {
 					"baseURL": "./resources/caixaDestaque",
 					"paths": [
-						"text!template.html"
+						"text!template.html",
+						"player"
 					]
 				},	
 				
-
 				"botaoModal": {
 					"baseURL": "./resources/botaoModal",
 					"paths": [
@@ -428,6 +429,14 @@ require.config({
 
 				"parallaxBlock": {
 					"baseURL": "./resources/parallaxBlock",
+					"paths": [
+						"text!template.html",
+						"player"
+					]
+				},
+
+				"magicSlider": {
+					"baseURL": "./resources/magicSlider",
 					"paths": [
 						"text!template.html",
 						"player"
