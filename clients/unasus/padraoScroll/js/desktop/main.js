@@ -117,7 +117,11 @@ require.config({
         knockout:"../../../../../vendor/components/knockout/dist/knockout",
         checklist: "../../../../../vendor/components/knockout/dist/checklist",
         bootstrap:'../../../../../vendor/components/bootstrap/dist/js/bootstrap.min',
-        stellar: '../../../../../vendor/components/jquery.stellar/jquery.stellar.min'
+        stellar: '../../../../../vendor/components/jquery.stellar/jquery.stellar.min',
+        scrollmagic: '../../../../../vendor/components/scrollmagic/uncompressed/ScrollMagic',
+        sMGsap: '../../../../../vendor/components/scrollmagic/uncompressed/plugins/animation.gsap',
+        sMaddIndicators: '../../../../../vendor/components/scrollmagic/uncompressed/plugins/debug.addIndicators',
+        sMTweenMax: '../../../../../vendor/components/scrollmagic/uncompressed/plugins/TweenMax.min'
 	},
 
 	config: {
