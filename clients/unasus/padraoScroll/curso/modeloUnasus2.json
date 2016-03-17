@@ -116,6 +116,22 @@
                     },
 
                     {
+                        "template": "parallaxBlock",
+                        "section":1,
+                        "order":8,
+                        "ratio": "0.9",
+                        "h-offset": 50,
+                        "v-offset": 5,
+                        "styleObj": {
+                            "position": "absolute",
+                            "background": "red",
+                            "height": "50px",
+                            "width" : "50px",
+                            "bottom": 0
+                        }
+                    },
+
+                    {
                         "template":"botaoPular",
                         "section":1,
                         "nSec":2,
@@ -197,20 +213,7 @@
                         "order":21
                     },
 
-                    {
-                        "template": "parallaxBlock",
-                        "section":3,
-                        "order":22,
-                        "ratio": "0.5",
-                        "styleObj": {
-                            "position": "fixed",
-                            "top": "150px",
-                            "left": "150px",
-                            "background": "red",
-                            "height": "50px",
-                            "width" : "50px"
-                        }
-                    },
+                    
 
  
 
