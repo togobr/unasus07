@@ -4,7 +4,7 @@ define([
     'TweenMax',
     'gsap',
     'addIndicators'
-	], function($, ScrollMagic, TweenMax) {
+	], function($, ScrollMagic) {
 	var magicSlider = function() {
 		this.init = function() {
 			/*Checar Função compile para observar que objetos são atrelados ao objeto principal

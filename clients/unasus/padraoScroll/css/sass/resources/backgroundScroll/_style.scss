@@ -30,8 +30,13 @@
             left: 0;
         }
     }
+
     .imgBG
     {
+        position: absolute;
+    }
+
+    .divBG{
         position: absolute;
     }
 }

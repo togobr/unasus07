@@ -34,7 +34,7 @@
                         "idSection":"0",
                         "capa":"capa",
                         "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img01.png",
-                        
+                        "bgRatio": 1.1,
                         "order":0
                     },
 
@@ -45,10 +45,11 @@
                         "idSection":"1",
                         "backgroundSRC":"",
                         "images":[
-
                             {
-                                "imgBG":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img03.png",
-                                "styleImg":"top: 0px; right: 0px;"
+                                "styleImg":"top: 0px; right: 0px;",
+                                "divBG": "curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img03.png",
+                                "styleDivImg": "height: 100%; width: 100%;",
+                                "divRatio": 1.5
                             }
                         ],
                         "order":1
@@ -270,6 +271,7 @@
                         "idSection":"14",
                         "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img16.png",
                         "capa":"capa",
+                        "bgRatio": 1,
                         "order":14
                     },
 
@@ -283,6 +285,7 @@
                         "idSection":"30",
                         "capa":"capa",
                         "backgroundSRC":"curso/images/modulo4/unidade2/UNA07_m4_un2_rec001.png",
+                        "bgRatio": 1,
                         "order":15
                     },
                     {

@@ -15,14 +15,14 @@ define([], function() {
 				$underlineTitle = recurso.$el.find('.underlineTitle'),
 				animate = this.data.animate || "";
 
-			Player.Elements.$content.on({
-				contentReady: function() {
-					recurso.$el.addClass("hidden").viewportChecker({
-		                classToAdd: 'visible ' + animate + ' animated '  , // Class to add to the elements when they are visible
-		                offset: 100    
-		            }); 
-				}
-			});
+			// Player.Elements.$content.on({
+			// 	contentReady: function() {
+			// 		recurso.$el.addClass("hidden").viewportChecker({
+		 //                classToAdd: 'visible ' + animate + ' animated '  , // Class to add to the elements when they are visible
+		 //                offset: 100    
+		 //            }); 
+			// 	}
+			// });
 
 
 			if((!recurso.$el.hasClass('title')) && (!recurso.$el.hasClass('subtitle'))){
