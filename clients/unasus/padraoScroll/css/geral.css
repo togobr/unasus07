@@ -3920,6 +3920,14 @@ ol li:before {
 .content .revelar.hover.hovered .hoverType .tagP {
   display: block;
 }
+/* line 208, sass/resources/revelar/_style.scss */
+.content .revelar .normalType {
+  display: none;
+}
+/* line 213, sass/resources/revelar/_style.scss */
+.content .revelar.normal .normalType {
+  display: block;
+}
 
 /* line 1, sass/resources/backgroundScroll/_style.scss */
 .backgroundScroll {

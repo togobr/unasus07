@@ -103,6 +103,21 @@
                     },
 
                     {
+                        "template": "revelar",
+                        "type": "normal",
+                        "section":1,
+                        "style":"height:500px",
+                        "column": "col-xs-12 col-md-12",
+                        "contentCapa": "CÂNCER DE ESTOMAGO",
+                        "backgroundCapa":"css/assets/images/fotolia_88461540.jpg",
+                        "content": "<div class='col-xs-12 col-md-4'><img src='http://2.bp.blogspot.com/-F8aZWjikNZs/Vo_yXXOZIbI/AAAAAAAAMmM/_uwQNYgEHYU/s1600/logounasus.png' alt='' width='100'></div><div class='col-xs-12 col-md-4'> <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</span> </div> <div class='col-xs-12 col-md-4'> <span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</span></div>",
+                        "contentHeight" : "200px",
+                        "styleObj": {        
+                        },
+                        "order": 7
+                    },
+
+                    {
                         "template": "texto",
                         "column": "col-xs-12 col-md-12",
                         "type": "normal",
@@ -112,13 +127,14 @@
                         "styleObj": {
                             "padding-top": "50px"
                         },
-                        "order":7
+                        "order":8
                     },
+
 
                     {
                         "template": "parallaxBlock",
                         "section":1,
-                        "order":8,
+                        "order":9,
                         "ratio": "0.9",
                         "h-offset": 50,
                         "v-offset": 5,

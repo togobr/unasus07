@@ -56,7 +56,7 @@ define([], function() {
 							$(this).toggleClass('clicked');
 						}
 					});
-				}else{
+				}else if(recurso.$el.hasClass("hover")){
 					$hoverType.show();
 					$fechaRevelar.hide();
 
@@ -68,6 +68,8 @@ define([], function() {
 							$(this).removeClass('hovered');
 						}
 					});
+				}else{
+					
 				}
 		}
 	}
