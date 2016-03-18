@@ -1,9 +1,12 @@
 <div id="{{id}}" class="{{class}} {{column}} rec" data-section="{{section}}" style="{{style}}">
-	<div id="pinContainer">
-		<div id="slideContainer">
+	<div id="pinContainer" style="height:{{heightSlider}}">
+		<div class="contentTop" style="{{contentTop-style}}">{{contentTop}}</div>
+		<div class="contentBottom" style="{{contentBottom-style}}">{{contentBottom}}</div>
+		<div id="slideContainer">	
 			{{#slides}}
-				<section class="sectionsScrollMagic {{&content}}">
-					<b>{{&content}}</b>
+				<section class="sectionsScrollMagic" style="{{styleSection}}">
+					<div>{{&contentSection}}</div>
+					<img src="{{imgSrc}}" alt="" class="sectionImg {{columnSection}}" style="{{styleImg}}">
 				</section>
 			{{/slides}}
 		</div>

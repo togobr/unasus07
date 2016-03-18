@@ -10,26 +10,27 @@
 	overflow: hidden;
 	-webkit-perspective: 1000;
 	        perspective: 1000;
+	.contentTop, .contentBottom{
+		z-index: 2;
+	}
 }
 #slideContainer {
 	width: 400%; /* to contain 4 panels, each with 100% of window width */
 	height: 100%;
 }
 .sectionsScrollMagic {
+	position: relative;
 	height: 100%;
 	width: 25%; /* relative to parent -> 25% of 400% = 100% of window width */
 	float: left;
-	background: black;
-	border-right: 1px solid #FFFFFF;
-
-	b{
-		color: white;
+	background: #FFFFFF;
+	text-align: center;
+	.sectionImg{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 0;
 	}
-}
-
-.togo{
-	position: relative;
-	height: 500px;
-	width: 500px;
-	background: red;
+	
 }

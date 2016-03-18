@@ -4256,34 +4256,35 @@ ol li:before {
   -webkit-perspective: 1000;
   perspective: 1000;
 }
+/* line 13, sass/resources/magicSlider/_style.scss */
+#pinContainer .contentTop, #pinContainer .contentBottom {
+  z-index: 2;
+}
 
-/* line 14, sass/resources/magicSlider/_style.scss */
+/* line 17, sass/resources/magicSlider/_style.scss */
 #slideContainer {
   width: 400%;
   /* to contain 4 panels, each with 100% of window width */
   height: 100%;
 }
 
-/* line 18, sass/resources/magicSlider/_style.scss */
+/* line 21, sass/resources/magicSlider/_style.scss */
 .sectionsScrollMagic {
+  position: relative;
   height: 100%;
   width: 25%;
   /* relative to parent -> 25% of 400% = 100% of window width */
   float: left;
-  background: black;
-  border-right: 1px solid #FFFFFF;
+  background: #FFFFFF;
+  text-align: center;
 }
-/* line 25, sass/resources/magicSlider/_style.scss */
-.sectionsScrollMagic b {
-  color: white;
-}
-
-/* line 30, sass/resources/magicSlider/_style.scss */
-.togo {
-  position: relative;
-  height: 500px;
-  width: 500px;
-  background: red;
+/* line 28, sass/resources/magicSlider/_style.scss */
+.sectionsScrollMagic .sectionImg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
 }
 
 @media (max-width: 1021px) {
