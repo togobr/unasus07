@@ -15,17 +15,30 @@ define([], function() {
 		
 			$.extend(true, this, new Player.Helpers.resourceExtend(this, arguments));
 
-			var recurso = this;
+			var recurso = this,
+				resourceAnimate = this.data.images || "",
+				animateType;
+
+				if(resourceAnimate){
+					animateType = resourceAnimate[0].animate;
+				}else{
+					animateType = "";
+				}
+
+				console.log('foo backgroundScroll', recurso.$el);
 
 			Player.Elements.$content.on({
                 contentReady: function(e) {
+                	recurso.$el.find('.divBG').addClass("hidden").viewportChecker({
+		                classToAdd: 'visible ' + animateType + ' animated '  , // Class to add to the elements when they are visible
+		                offset: 500,
+		                invertBottomOffset: true
+		            }); 
 
                 	$("body").find(".rec").each(function(){
                 		var $divSection = $("body").find("#section-"+$(this).data("section")).children(".content");
                 		$(this).appendTo($divSection);
-                	});
-
-               
+                	});              
                 }
             });
 		}

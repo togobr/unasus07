@@ -22,11 +22,7 @@
         "slides": [       
             {
                 "template": "slideScroll",
-                "resources": [
-
-
-                    
-                
+                "resources": [                
                  {
                         "template":"backgroundScroll",
                         "column": "col-xs-12 col-md-12",
@@ -47,8 +43,9 @@
                         "images":[
 
                             {
-                                "imgBG":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img03.png",
-                                "styleImg":"top: 0px; right: 0px;"
+                                "styleDivImg": "height: 100%; width: 100%; background:url(curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img03.png)",
+                                "div-bgRatio": 1.2,
+                                "animate": "bounceInRight"
                             }
                         ],
                         "order":1
