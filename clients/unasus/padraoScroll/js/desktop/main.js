@@ -121,9 +121,9 @@ require.config({
         ScrollMagic: '../../../../../vendor/components/scrollmagic/scrollmagic/uncompressed/ScrollMagic',
         addIndicators: '../../../../../vendor/components/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators',
         gsap: '../../../../../vendor/components/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap',
-        TweenMax: '../../../../../vendor/components/scrollmagic/scrollmagic/uncompressed/plugins/TweenMax.min',
-        TimelineMax: '../../../../../vendor/components/scrollmagic/scrollmagic/uncompressed/plugins/TimelineMax.min',
-        TweenLite: '../../../../../vendor/components/scrollmagic/scrollmagic/uncompressed/plugins/TweenLite.min'
+        TweenMax: '../../../../../vendor/components/scrollmagic/scrollmagic/uncompressed/plugins/TweenMax',
+        TimelineMax: '../../../../../vendor/components/scrollmagic/scrollmagic/uncompressed/plugins/TimelineMax',
+        TweenLite: '../../../../../vendor/components/scrollmagic/scrollmagic/uncompressed/plugins/TweenLite'
 	},
 
 	config: {
