@@ -3707,6 +3707,11 @@ ol li:before {
   border-radius: 5px;
 }
 
+/* line 108, sass/resources/texto/_style.scss */
+.primeiroPlano .texto.hidden {
+  opacity: 1;
+}
+
 /* line 2, sass/resources/revelar/_style.scss */
 .content .revelar {
   position: relative;
