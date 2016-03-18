@@ -226,7 +226,7 @@
                         "section":3,
                         "slides":[ 
                             {
-                                "content": "slide 1"
+                                "content": "<iframe src='http://www.terra.com.br/' width='100%' height='100%'></iframe>"
                             },
                             {
                                 "content": "slide 2"

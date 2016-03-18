@@ -46,10 +46,8 @@
                         "backgroundSRC":"",
                         "images":[
                             {
-                                "styleImg":"top: 0px; right: 0px;",
-                                "divBG": "curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img03.png",
-                                "styleDivImg": "height: 100%; width: 100%",
-                                "divRatio": 1.5
+                                "styleDivImg": "height: 100%; width: 100%; background:url(curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img03.png)",
+                                "divRatio": 1.2
                             }
                         ],
                         "order":1
