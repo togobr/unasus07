@@ -59,8 +59,8 @@
                         "images":[
 
                             {
-                                "imgBG":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img03.png",
-                                "styleImg":"top: 0px; right: 0px;"
+                                "styleDivImg": "height: 100%; width: 100%; background:url(curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img03.png) -70px -300px",
+                                "div-bgRatio": 0.5
                             }
                         ],
                         "order":2
@@ -131,8 +131,6 @@
                             {
                                 "imgBG":"curso/images/modulo4/unidade1/UNAS07_UNI01_imag10.png",
                                 "styleImg":"top: -90px; right: 0px;",
-                                "styleDivImg": "height: 100%; width: 100%; background:url(curso/images/modulo4/unidade1/UNAS07_UNI01_imag10.png)",
-                                "div-bgRatio": 1.2,
                                 "animate": "bounceInRight"
                             }
 
@@ -336,10 +334,10 @@
 
                     {
                        "template":"capa",
-                       "nUnidade":"PREVENÇÃO E CUIDADOS ÀS DOENÇAS",
+                       "nUnidade":"MÓDULO 1",
                        "column": "col-xs-12 col-md-12",
                        "section":0,
-                       "tituloCapa":"PREVALENTES EM HOMENS",
+                       "tituloCapa":"<span style='font-size: .8em;'>PREVENÇÃO E CUIDADOS ÀS DOENÇAS</span> <br> PREVALENTES EM HOMENS",
                        "textoCapa":"Anne Caroline Luz Grügtner da Silva<br>Márcia  Regina Kretzer<br>Nazaré Otília Nazario",
                        "order":36
 
@@ -371,10 +369,10 @@
 
                      {
                        "template":"capa",
-                       "nUnidade":"PREVENÇÃO E CUIDADOS ÀS DOENÇAS",
+                       "nUnidade":"UNIDADE 1",
                        "column": "col-xs-12 col-md-12",
                        "section":1,
-                       "tituloCapa":"PREVALENTES EM HOMENS",
+                       "tituloCapa":"<span style='font-size: .8em;'>PREVENÇÃO E CUIDADOS ÀS DOENÇAS</span> <br> PREVALENTES EM HOMENS",
                        "textoCapa":"Anne Caroline Luz Grügtner da Silva<br>Márcia  Regina Kretzer<br>Nazaré Otília Nazario",
                        "order":42
 
@@ -449,16 +447,6 @@
                         "content": "",
                         "order":54
                     },
-
-
-
-
-
-
-
-
-
-                    
 
                     {
                         "template": "texto",
@@ -1155,7 +1143,7 @@
                                 "styleImg": "border: 2px solid #dab463; width: 50%"
                             }
                         ],
-                        "heightSlider": "916px",
+                        "heightSlider": "900px",
                         "styleObj": {
                             "padding" : 0
                         },
