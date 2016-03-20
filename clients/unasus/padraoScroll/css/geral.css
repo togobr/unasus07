@@ -4397,7 +4397,7 @@ ol li:before {
 }
 
 /* line 5, sass/resources/magicSlider/_style.scss */
-#pinContainer {
+.pinContainer {
   margin-top: 100px;
   width: 100%;
   height: 500px;
@@ -4406,12 +4406,12 @@ ol li:before {
   perspective: 1000;
 }
 /* line 13, sass/resources/magicSlider/_style.scss */
-#pinContainer .contentTop, #pinContainer .contentBottom {
+.pinContainer .contentTop, .pinContainer .contentBottom {
   z-index: 2;
 }
 
 /* line 17, sass/resources/magicSlider/_style.scss */
-#slideContainer {
+.slideContainer {
   width: 400%;
   /* to contain 4 panels, each with 100% of window width */
   height: 100%;

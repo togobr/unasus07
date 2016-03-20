@@ -15,36 +15,40 @@ define([
 			- this.$el
 			*/
 
-			var recurso = this;
+			var recurso = this,
+				id_pinContainer = recurso.$el.find('.pinContainer').attr('id'),
+				id_slideContainer = recurso.$el.find('.slideContainer').attr('id');
+
+
+				console.log('foo pinContainer', id_pinContainer);
 	
 			$.extend(true, this, new Player.Helpers.resourceExtend(this, arguments));
 
-			console.log('foo ScrollMagic', ScrollMagic);
+			
 
 
 			Player.Elements.$content.on({
                 contentReady: function(e) {
 	               	var controller = new ScrollMagic.Controller();
 
+	               	// console.log('foo ScrollMagic', recurso.$el.find('.slideContainer').attr('id'));
+
 					// define movement of panels
 					var wipeAnimation = new TimelineMax()
 						// animate to second panel
-						.to("#slideContainer", 1,   {x: "-25%"})	// move in to first panel
-						.to("#slideContainer", 0.5, {z: 0})				// move back to origin in 3D space
+						.to("#"+id_slideContainer, 1,   {x: "-25%"})	// move in to first panel
 						// animate to third panel
-						.to("#slideContainer", 1,   {x: "-50%"})
-						.to("#slideContainer", 0.5, {z: 0})
+						.to("#"+id_slideContainer, 1,   {x: "-50%"})
 						// animate to forth panel
-						.to("#slideContainer", 1,   {x: "-75%"})
-						.to("#slideContainer", 0.5, {z: 0});
+						.to("#"+id_slideContainer, 1,   {x: "-75%"})
 
 					// create scene to pin and link animation
 					new ScrollMagic.Scene({
-							triggerElement: "#magicSlider1",
+							triggerElement: "#"+recurso.data.id,
 							triggerHook: "onLeave",
 							duration: "500%"
 						})
-						.setPin("#pinContainer")
+						.setPin('#'+id_pinContainer)
 						.setTween(wipeAnimation)
 						.addIndicators() // add indicators (requires plugin)
 						.addTo(controller);
