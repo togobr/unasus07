@@ -29,18 +29,37 @@ define([
 
 			Player.Elements.$content.on({
                 contentReady: function(e) {
-	               	var controller = new ScrollMagic.Controller();
+	               	var controller = new ScrollMagic.Controller(),
+	               		nSlides = recurso.data.slides.length;
 
-	               	// console.log('foo ScrollMagic', recurso.$el.find('.slideContainer').attr('id'));
+               		// for (var i = nSlides - 1; i >= 0; i--) {
+	               	// 	.to("#"+id_slideContainer, 1,   {x: "-" + (n+25) + "%"})
+	               	// };
 
-					// define movement of panels
-					var wipeAnimation = new TimelineMax()
+	               	if (nSlides === 2) {
+	               		var wipeAnimation = new TimelineMax()
 						// animate to second panel
-						.to("#"+id_slideContainer, 1,   {x: "-25%"})	// move in to first panel
+						.to("#"+id_slideContainer, 1,   {x: "-25%"})
+	               	}else if(nSlides === 4){
+	               		var wipeAnimation = new TimelineMax()
+	               		.to("#"+id_slideContainer, 1,   {x: "-25%"})	// move in to first panel
 						// animate to third panel
 						.to("#"+id_slideContainer, 1,   {x: "-50%"})
 						// animate to forth panel
 						.to("#"+id_slideContainer, 1,   {x: "-75%"})
+	               	}
+
+
+					// define movement of panels
+					// var wipeAnimation = new TimelineMax()
+					// 	// animate to second panel
+					// 	.to("#"+id_slideContainer, 1,   {x: "-25%"})	// move in to first panel
+					// 	// animate to third panel
+					// 	.to("#"+id_slideContainer, 1,   {x: "-50%"})
+					// 	// animate to forth panel
+					// 	.to("#"+id_slideContainer, 1,   {x: "-75%"})
+
+					// 	console.log('foo ScrollMagic', wipeAnimation);
 
 					// create scene to pin and link animation
 					new ScrollMagic.Scene({
@@ -50,7 +69,6 @@ define([
 						})
 						.setPin('#'+id_pinContainer)
 						.setTween(wipeAnimation)
-						.addIndicators() // add indicators (requires plugin)
 						.addTo(controller);
                 }
             });

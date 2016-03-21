@@ -1,5 +1,20 @@
 .magicSlider{
 	position: relative;
+
+	&.timeline{
+		.sectionsScrollMagic {
+			&:after{
+				content: "";
+				position: absolute;
+				height: 2px;
+				width: 100%;
+				background: #DAB463;
+				left: 0;
+				top: 50%;
+				margin-top: -1px;
+			}
+		}
+	}
 }
 
 .pinContainer {
@@ -17,6 +32,16 @@
 .slideContainer {
 	width: 400%; /* to contain 4 panels, each with 100% of window width */
 	height: 100%;
+
+	.contentSection{
+		height: 100%;
+		width: 100%;
+		iframe{
+			border: none;
+		}
+	}
+
+
 }
 .sectionsScrollMagic {
 	position: relative;
@@ -31,6 +56,6 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 		padding: 0;
+		z-index: 1;
 	}
-	
 }

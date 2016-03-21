@@ -376,7 +376,6 @@
                        "tituloCapa":"<span style='font-size: .76em;'>CONDIÇÕES DE VULNERABILIDADE</span> <br> <span style='font-size: 1.2em;'>NA SAÚDE DO HOMEM</span>",
                        "textoCapa":"Primeiramente discutiremos a importância da categoria de gênero como um determinante de saúde da população masculina, ou seja, como as questões de gênero influenciam no cuidado em saúde da população masculina",
                        "order":42
-
                     },
 
                    
@@ -1109,42 +1108,22 @@
                     },
 
 
-
                     {
                         "template": "magicSlider",
                         "column": "col-xs-12 col-md-12",
                         "section":8,
-                        "contentTop": "Teste titulo exemplo",
-                        "contentTop-style": "position: absolute; width: 300px; height: 50px; left: 50%; margin-left: -150px; top: 80px; font-size: 1.9em; color: #2A2E78; ",
-                        "contentBottom": "Teste titulo exemplo123123213",
-                        "contentBottom-style": "position: absolute; width: 300px; height: 50px; left: 50%; margin-left: -150px; bottom: 80px; font-size: 1.9em; color: #373737;",
+                        "type": "",
                         "slides":[ 
                             {
-                                "styleSection": "background:#efddb8",
-                                "contentSection": "",
-                                "imgSrc":"curso/images/modulo4/unidade1/example.png",
-                                "styleImg": "border: 2px solid #dab463; width: 100%"
+                                "styleSection": "background:url(curso/images/modulo4/unidade1/UNAS07_UNI01_bg_atividade.png)",
+                                "contentSection": "<iframe style='height:100%; width: 1025px;' src='curso/recursos/modulo4/unidade1/UNA07_REC09_atividade01/UNA07_REC09_atividade01.html'></iframe>"
                             },
                             {
-                                "contentSection": "",
-                                "styleSection": "background:#efddb8",
-                                "imgSrc":"curso/images/modulo4/unidade1/example.png",
-                                "styleImg": "border: 2px solid #dab463; width: 50%"
-                            },
-                            {
-                                "contentSection": "",
-                                "styleSection": "background:#efddb8",
-                                "imgSrc":"curso/images/modulo4/unidade1/example.png",
-                                "styleImg": "border: 2px solid #dab463; width: 50%"
-                            },
-                            {
-                                "contentSection": "",
-                                "styleSection": "background:#efddb8",
-                                "imgSrc":"curso/images/modulo4/unidade1/example.png",
-                                "styleImg": "border: 2px solid #dab463; width: 50%"
+                                "styleSection": "background:url(curso/images/modulo4/unidade1/UNAS07_UNI01_bg_atividade.png)",
+                                "contentSection": "<iframe style='height:100%; width: 1025px;' src='curso/recursos/modulo4/unidade1/UNA07_REC09_atividade02/UNA07_REC09_atividade02.html'></iframe>"
                             }
                         ],
-                        "heightSlider": "900px",
+                        "heightSlider": "600px",
                         "styleObj": {
                             "padding" : 0
                         },
@@ -1155,37 +1134,38 @@
                         "template": "magicSlider",
                         "column": "col-xs-12 col-md-12",
                         "section":8,
-                        "contentTop": "Teste titulo exemplo",
-                        "contentTop-style": "position: absolute; width: 300px; height: 50px; left: 50%; margin-left: -150px; top: 80px; font-size: 1.9em; color: #2A2E78; ",
-                        "contentBottom": "Teste titulo exemplo123123213",
-                        "contentBottom-style": "position: absolute; width: 300px; height: 50px; left: 50%; margin-left: -150px; bottom: 80px; font-size: 1.9em; color: #373737;",
+                        "type": "timeline",
+                        "contentTop": "CONHEÇA ALGUMAS INFORMAÇÔES SOBRE O PERFIL DE FUMANTES NO BRASIL, SEGUNDO O VIGITEL (2013): ",
+                        "contentTop-style": "position: absolute; width: 800px; height: 50px; left: 50%; margin-left: -400px; top: 80px; font-size: 1.7em; color: #2A2E78; ",
+                        "contentBottom": "Ainda, nos últimos anos houve uma leve queda do tabagismo entre homens, e estabilidade entre mulheres, o que sugere que a <b>cessação do tabagismo está aumentando entre homens</b>(Vigitel, 2009).",
+                        "contentBottom-style": "position: absolute; width: 800px; height: 50px; left: 50%; margin-left: -400px; bottom: 80px; font-size: 1.5em; color: #373737;",
                         "slides":[ 
                             {
                                 "styleSection": "background:#efddb8",
                                 "contentSection": "",
-                                "imgSrc":"curso/images/modulo4/unidade1/example.png",
-                                "styleImg": "border: 2px solid #dab463; width: 100%"
+                                "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider01.png",
+                                "styleImg": "width: 50%"
                             },
                             {
                                 "contentSection": "",
                                 "styleSection": "background:#efddb8",
-                                "imgSrc":"curso/images/modulo4/unidade1/example.png",
-                                "styleImg": "border: 2px solid #dab463; width: 50%"
+                                "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider02.png",
+                                "styleImg": "width: 50%"
                             },
                             {
                                 "contentSection": "",
                                 "styleSection": "background:#efddb8",
-                                "imgSrc":"curso/images/modulo4/unidade1/example.png",
-                                "styleImg": "border: 2px solid #dab463; width: 50%"
+                                "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider03.png",
+                                "styleImg": "width: 50%"
                             },
                             {
                                 "contentSection": "",
                                 "styleSection": "background:#efddb8",
-                                "imgSrc":"curso/images/modulo4/unidade1/example.png",
-                                "styleImg": "border: 2px solid #dab463; width: 50%"
+                                "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider04.png",
+                                "styleImg": "width: 50%"
                             }
                         ],
-                        "heightSlider": "900px",
+                        "heightSlider": "700px",
                         "styleObj": {
                             "padding" : 0
                         },
