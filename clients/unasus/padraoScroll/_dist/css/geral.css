@@ -4262,8 +4262,19 @@ ol li:before {
 .magicSlider {
   position: relative;
 }
+/* line 6, sass/resources/magicSlider/_style.scss */
+.magicSlider.timeline .sectionsScrollMagic:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #DAB463;
+  left: 0;
+  top: 50%;
+  margin-top: -1px;
+}
 
-/* line 5, sass/resources/magicSlider/_style.scss */
+/* line 20, sass/resources/magicSlider/_style.scss */
 .pinContainer {
   margin-top: 100px;
   width: 100%;
@@ -4272,19 +4283,28 @@ ol li:before {
   -webkit-perspective: 1000;
   perspective: 1000;
 }
-/* line 13, sass/resources/magicSlider/_style.scss */
+/* line 28, sass/resources/magicSlider/_style.scss */
 .pinContainer .contentTop, .pinContainer .contentBottom {
   z-index: 2;
 }
 
-/* line 17, sass/resources/magicSlider/_style.scss */
+/* line 32, sass/resources/magicSlider/_style.scss */
 .slideContainer {
   width: 400%;
   /* to contain 4 panels, each with 100% of window width */
   height: 100%;
 }
+/* line 36, sass/resources/magicSlider/_style.scss */
+.slideContainer .contentSection {
+  height: 100%;
+  width: 100%;
+}
+/* line 39, sass/resources/magicSlider/_style.scss */
+.slideContainer .contentSection iframe {
+  border: none;
+}
 
-/* line 21, sass/resources/magicSlider/_style.scss */
+/* line 46, sass/resources/magicSlider/_style.scss */
 .sectionsScrollMagic {
   position: relative;
   height: 100%;
@@ -4294,13 +4314,14 @@ ol li:before {
   background: #FFFFFF;
   text-align: center;
 }
-/* line 28, sass/resources/magicSlider/_style.scss */
+/* line 53, sass/resources/magicSlider/_style.scss */
 .sectionsScrollMagic .sectionImg {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 0;
+  z-index: 1;
 }
 
 @media (max-width: 1021px) {
