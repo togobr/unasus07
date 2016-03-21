@@ -17,35 +17,43 @@ define([
 
 			var recurso = this,
 				id_pinContainer = recurso.$el.find('.pinContainer').attr('id'),
-				id_slideContainer = recurso.$el.find('.slideContainer').attr('id');
-
-
-				console.log('foo pinContainer', id_pinContainer);
+				id_slideContainer = recurso.$el.find('.slideContainer').attr('id'),
+				screenHeight = $(window).height() - 95;
 	
 			$.extend(true, this, new Player.Helpers.resourceExtend(this, arguments));
 
 			
+			//Definindo tamanho inicial, e auto escalonamento ao alterar o tamanho da janela.
+            recurso.$el
+	            	.find('.pinContainer')
+	            	.css('height', screenHeight + 'px');
+
+            $(window).resize(function() {
+            	 recurso.$el
+                    	.find('.pinContainer')
+                    	.css('height', ($(window).height() - 95) + 'px');
+            });
+
 
 
 			Player.Elements.$content.on({
                 contentReady: function(e) {
 	               	var controller = new ScrollMagic.Controller(),
-	               		nSlides = recurso.data.slides.length;
+	               		nSlides = recurso.data.slides.length,
+	               		teste = [];
 
                		// for (var i = nSlides - 1; i >= 0; i--) {
-	               	// 	.to("#"+id_slideContainer, 1,   {x: "-" + (n+25) + "%"})
+	               	// 	var x = '.to("#"+ 'id_slideContainer', 1,   {x: "-" + ('n'+25) + "%"})';
+	               	// 	teste.push(x)
 	               	// };
 
 	               	if (nSlides === 2) {
 	               		var wipeAnimation = new TimelineMax()
-						// animate to second panel
 						.to("#"+id_slideContainer, 1,   {x: "-25%"})
 	               	}else if(nSlides === 4){
 	               		var wipeAnimation = new TimelineMax()
 	               		.to("#"+id_slideContainer, 1,   {x: "-25%"})	// move in to first panel
-						// animate to third panel
 						.to("#"+id_slideContainer, 1,   {x: "-50%"})
-						// animate to forth panel
 						.to("#"+id_slideContainer, 1,   {x: "-75%"})
 	               	}
 

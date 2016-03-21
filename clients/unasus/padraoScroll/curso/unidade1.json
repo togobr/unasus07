@@ -43,8 +43,8 @@
                         "column": "col-xs-12 col-md-12",
                         "style":"",
                         "idSection":"1",
-                        "capa":"capa",
-                        "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_UNI1_capa_unidade.png",
+                        "backgroundSRC":"",
+                        "styleContainer": "min-width: 100%",
                         "bgRatio":1,
                         "order":1
                     },
@@ -366,38 +366,28 @@
 
 
                     {
-                       "template":"capa",
-                       "type": "subCapa",
-                       "nUnidade":"<span style='color:#2A2E78'>UNIDADE 1</span>",
-                       "column": "col-xs-12 col-md-12",
-                       "section":1,
-                       "tituloCapa":"<span style='font-size: .76em;'>CONDIÇÕES DE VULNERABILIDADE</span> <br> <span style='font-size: 1.2em;'>NA SAÚDE DO HOMEM</span>",
-                       "textoCapa":"Primeiramente discutiremos a importância da categoria de gênero como um determinante de saúde da população masculina, ou seja, como as questões de gênero influenciam no cuidado em saúde da população masculina",
-                       "order":42
+                        "template": "magicSlider",
+                        "column": "col-xs-12 col-md-12",
+                        "section":1,
+                        "type": "",
+                        "slides":[ 
+                            {
+                                "styleSection": "background:url(curso/images/modulo4/unidade1/UNAS07_UNI01_bg_atividade.png)",
+                                "contentSection": "<iframe style='height:460px; width: 1025px;' src='curso/recursos/modulo4/unidade1/UNA07_REC09_atividade01/UNA07_REC09_atividade01.html'></iframe>"
+                            },
+                            {
+                                "styleSection": "background:url(curso/images/modulo4/unidade1/UNAS07_UNI01_bg_atividade.png)",
+                                "contentSection": "<iframe style='height:460px; width: 1025px;' src='curso/recursos/modulo4/unidade1/UNA07_REC09_atividade02/UNA07_REC09_atividade02.html'></iframe>"
+                            }
+                        ],
+                        "heightSlider": "",
+                        "styleObj": {
+                            "padding" : 0
+                        },
+                        "order":42
                     },
 
-                   
-                    {
-                       "template": "texto",
-                       "column": "col-xs-0 col-md-12",
-                       "type": "normal",
-                       "section":1,
-                       "style":"height:130px",
-                       "order":44
-                    },
-
-                    {
-                       "template":"botaoPular",
-                       "section":1,
-                       "nSec":2,
-                       "cor":"branco",
-                       "style":"margin-top:10px",
-                       "order":47
-                    },
-
-
-
-
+                
 
                     
 
@@ -830,37 +820,6 @@
                         "content": "",
                         "order":138
                     },
-
-
-
-
-
-
-
-
-
-                    {
-                        "template": "magicSlider",
-                        "column": "col-xs-12 col-md-12",
-                        "section":5,
-                        "type": "",
-                        "slides":[ 
-                            {
-                                "styleSection": "background:url(curso/images/modulo4/unidade1/UNAS07_UNI01_bg_atividade.png)",
-                                "contentSection": "<iframe style='height:100%; width: 1025px;' src='curso/recursos/modulo4/unidade1/UNA07_REC09_atividade01/UNA07_REC09_atividade01.html'></iframe>"
-                            },
-                            {
-                                "styleSection": "background:url(curso/images/modulo4/unidade1/UNAS07_UNI01_bg_atividade.png)",
-                                "contentSection": "<iframe style='height:100%; width: 1025px;' src='curso/recursos/modulo4/unidade1/UNA07_REC09_atividade02/UNA07_REC09_atividade02.html'></iframe>"
-                            }
-                        ],
-                        "heightSlider": "600px",
-                        "styleObj": {
-                            "padding" : 0
-                        },
-                        "order":140
-                    },
-
                    
 
 
@@ -1121,7 +1080,7 @@
                                 "styleImg": "height:360px; width: 800px;"
                             }
                         ],
-                        "heightSlider": "700px",
+                        "heightSlider": "",
                         "styleObj": {
                             "padding" : 0
                         },
