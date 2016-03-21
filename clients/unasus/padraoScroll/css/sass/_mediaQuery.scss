@@ -147,13 +147,20 @@
         }
         .tituloCapa
         {
-            font-size: 3em;
+            font-size: 4em;
             font-weight: bold;
         }
         .descCapa
         {
             margin: 0;
             margin-bottom: 130px;
+        }
+
+        //subCapa
+        .subCapa{
+            .nCapa, .tituloCapa{
+                margin-left: 0px; 
+            }
         }
     }
     

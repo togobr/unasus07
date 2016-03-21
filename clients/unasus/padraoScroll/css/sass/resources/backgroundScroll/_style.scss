@@ -55,37 +55,50 @@
     .contCapa
     {
         font-family: $regular;
-
         display: table-cell;
-
-        padding-left: 170px;
-
+        padding-left: 200px;
         vertical-align: middle;
+        padding-bottom: 220px;
     }
     .nCapa
     {
+        font-family: $bold;
         font-size: 3.4em;
-
         margin-bottom: 0;
-
         color: #fff;
+        margin-bottom: 40px;
     }
     .tituloCapa
     {
+        font-family: $bold;
         font-size: 5em;
-        line-height: 1.3em;
-
+        line-height: 1.2em;
         color: #fff;
     }
     .descCapa
     {
-        font-size: 1.8em;
+        font-family: $blackItalic;
+        font-size: 1.9em;
         display: block;
-        margin-right: 167px;
-        margin-left: 235px;
+        margin-left: 355px;
         padding-left: 25px;
         color: #fff;
         border-left: 3px solid #fff;
+    }
+    
+    //subCapa
+    .subCapa{
+        .contCapa, .nCapa, .tituloCapa, .descCapa{
+            color: #2A2E78;
+        }
+
+        .nCapa, .tituloCapa{
+            margin-left: 165px;
+        }
+
+        .descCapa{
+            border-left: 3px solid #2A2E78;
+        }
     }
 }
 

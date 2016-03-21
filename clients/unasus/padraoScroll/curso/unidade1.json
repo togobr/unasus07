@@ -337,7 +337,7 @@
                        "nUnidade":"MÓDULO 1",
                        "column": "col-xs-12 col-md-12",
                        "section":0,
-                       "tituloCapa":"<span style='font-size: .8em;'>PREVENÇÃO E CUIDADOS ÀS DOENÇAS</span> <br> PREVALENTES EM HOMENS",
+                       "tituloCapa":"<span style='font-size: .85em;'>PREVENÇÃO E CUIDADOS ÀS DOENÇAS</span> <br> <span style='font-size: 1.2em;'>PREVALENTES EM HOMENS</span>",
                        "textoCapa":"Anne Caroline Luz Grügtner da Silva<br>Márcia  Regina Kretzer<br>Nazaré Otília Nazario",
                        "order":36
 
@@ -369,11 +369,12 @@
 
                      {
                        "template":"capa",
-                       "nUnidade":"UNIDADE 1",
+                       "type": "subCapa",
+                       "nUnidade":"<span style='color:#2A2E78'>UNIDADE 1</span>",
                        "column": "col-xs-12 col-md-12",
                        "section":1,
-                       "tituloCapa":"<span style='font-size: .8em;'>PREVENÇÃO E CUIDADOS ÀS DOENÇAS</span> <br> PREVALENTES EM HOMENS",
-                       "textoCapa":"Anne Caroline Luz Grügtner da Silva<br>Márcia  Regina Kretzer<br>Nazaré Otília Nazario",
+                       "tituloCapa":"<span style='font-size: .76em;'>CONDIÇÕES DE VULNERABILIDADE</span> <br> <span style='font-size: 1.2em;'>NA SAÚDE DO HOMEM</span>",
+                       "textoCapa":"Primeiramente discutiremos a importância da categoria de gênero como um determinante de saúde da população masculina, ou seja, como as questões de gênero influenciam no cuidado em saúde da população masculina",
                        "order":42
 
                     },
