@@ -372,12 +372,10 @@
                         "type": "",
                         "slides":[ 
                             {
-                                "styleSection": "background:url(curso/images/modulo4/unidade1/UNAS07_UNI01_bg_atividade.png)",
-                                "contentSection": "<iframe style='height:460px; width: 1025px;' src='curso/recursos/modulo4/unidade1/UNA07_REC09_atividade01/UNA07_REC09_atividade01.html'></iframe>"
+                                "styleSection": "background: red"
                             },
                             {
-                                "styleSection": "background:url(curso/images/modulo4/unidade1/UNAS07_UNI01_bg_atividade.png)",
-                                "contentSection": "<iframe style='height:460px; width: 1025px;' src='curso/recursos/modulo4/unidade1/UNA07_REC09_atividade02/UNA07_REC09_atividade02.html'></iframe>"
+                                "styleSection": "background: black"        
                             }
                         ],
                         "heightSlider": "",

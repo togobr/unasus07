@@ -16,25 +16,25 @@ define([
 			*/
 
 			var recurso = this,
+				pinContainer = recurso.$el.find('.pinContainer'),
 				id_pinContainer = recurso.$el.find('.pinContainer').attr('id'),
 				id_slideContainer = recurso.$el.find('.slideContainer').attr('id'),
-				screenHeight = $(window).height() - 95;
+				screenHeightDesktop = $(window).height() - 95,
+				screenHeightMobile = $(window).height() - 50;
 	
 			$.extend(true, this, new Player.Helpers.resourceExtend(this, arguments));
 
 			
 			//Definindo tamanho inicial, e auto escalonamento ao alterar o tamanho da janela.
-            recurso.$el
-	            	.find('.pinContainer')
-	            	.css('height', screenHeight + 'px');
+			if ($(window).width() <= 1021) {
+				pinContainer.css('height', screenHeightMobile + 'px'); //problema espaço top não é do slider.
+            } else {
+            	pinContainer.css('height', screenHeightDesktop + 'px');
+            }
 
             $(window).resize(function() {
-            	 recurso.$el
-                    	.find('.pinContainer')
-                    	.css('height', ($(window).height() - 95) + 'px');
+            	pinContainer.css('height', ($(window).height() - 95) + 'px');
             });
-
-
 
 			Player.Elements.$content.on({
                 contentReady: function(e) {
