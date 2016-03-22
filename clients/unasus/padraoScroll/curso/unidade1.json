@@ -1059,25 +1059,25 @@
                                 "styleSection": "background:#efddb8",
                                 "contentSection": "",
                                 "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider01.png",
-                                "styleImg": "height:360px; width: 800px;"
+                                "styleImg": "width: 50%;"
                             },
                             {
                                 "contentSection": "",
                                 "styleSection": "background:#efddb8",
                                 "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider02.png",
-                                "styleImg": "height:360px; width: 800px;"
+                                "styleImg": "width: 50%;"
                             },
                             {
                                 "contentSection": "",
                                 "styleSection": "background:#efddb8",
                                 "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider03.png",
-                                "styleImg": "height:360px; width: 800px;"
+                                "styleImg": "width: 50%;"
                             },
                             {
                                 "contentSection": "",
                                 "styleSection": "background:#efddb8",
                                 "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider04.png",
-                                "styleImg": "height:360px; width: 800px;"
+                                "styleImg": "width: 50%;"
                             }
                         ],
                         "heightSlider": "",
