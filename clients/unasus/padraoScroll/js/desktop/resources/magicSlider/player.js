@@ -36,16 +36,21 @@ define([
             	pinContainer.css('height', ($(window).height() - 95) + 'px');
             });
 
+
 			Player.Elements.$content.on({
                 contentReady: function(e) {
 	               	var controller = new ScrollMagic.Controller(),
 	               		nSlides = recurso.data.slides.length,
-	               		teste = [];
+	               		teste = [], 
+	               		n = 0;
 
-               		// for (var i = nSlides - 1; i >= 0; i--) {
-	               	// 	var x = '.to("#"+ 'id_slideContainer', 1,   {x: "-" + ('n'+25) + "%"})';
-	               	// 	teste.push(x)
-	               	// };
+               		for (var i = nSlides - 1; i >= 0; i--) {
+               			n += 25;
+	               		var x = ".to(#" + id_slideContainer + ", 1,   {x: -"+n+"%})";
+	               		teste.push(x);
+	               	};
+
+	               	console.log('foo teste', teste);
 
 	               	if (nSlides === 2) {
 	               		var wipeAnimation = new TimelineMax()
