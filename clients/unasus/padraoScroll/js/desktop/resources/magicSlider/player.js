@@ -19,8 +19,8 @@ define([
 				pinContainer = recurso.$el.find('.pinContainer'),
 				id_pinContainer = recurso.$el.find('.pinContainer').attr('id'),
 				id_slideContainer = recurso.$el.find('.slideContainer').attr('id'),
-				screenHeightDesktop = $(window).height() - 95,
-				screenHeightMobile = $(window).height() - 50;
+				screenHeightDesktop = $(window).height(),
+				screenHeightMobile = $(window).height();
 	
 			$.extend(true, this, new Player.Helpers.resourceExtend(this, arguments));
 
@@ -33,7 +33,9 @@ define([
             }
 
             $(window).resize(function() {
-            	pinContainer.css('height', ($(window).height() - 95) + 'px');
+            	pinContainer.css({
+            		'height': $(window).height() + 'px'
+            	});
             });
 
 
@@ -53,7 +55,7 @@ define([
 
 					// create scene to pin and link animation
 					new ScrollMagic.Scene({
-							triggerElement: "#"+recurso.data.id,
+							triggerElement: '#'+recurso.data.id +' .pinContainer',
 							triggerHook: "onLeave",
 							duration: "100%"
 						})

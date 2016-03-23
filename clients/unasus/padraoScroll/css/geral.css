@@ -1828,15 +1828,15 @@ body {
 .content.container-fluid {
   max-width: 1021px;
   padding: 0;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
-/* line 130, sass/main/_main.scss */
+/* line 127, sass/main/_main.scss */
 ul {
   list-style-image: url(assets/images/bullet.png);
   counter-reset: section;
 }
-/* line 133, sass/main/_main.scss */
+/* line 130, sass/main/_main.scss */
 ul li {
   background-position: 0px 100%;
   padding-left: 5px;
@@ -1846,13 +1846,13 @@ ul li {
   font-family: "Roboto-Regular", sans-serif;
 }
 
-/* line 145, sass/main/_main.scss */
+/* line 142, sass/main/_main.scss */
 ol {
   list-style-type: none;
   counter-reset: ol-counter;
   padding: 0;
 }
-/* line 150, sass/main/_main.scss */
+/* line 147, sass/main/_main.scss */
 ol li {
   background-position: 0px 100%;
   padding-left: 25px;
@@ -1861,7 +1861,7 @@ ol li {
   font-size: 1em;
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 160, sass/main/_main.scss */
+/* line 157, sass/main/_main.scss */
 ol li:before {
   font-weight: bold;
   margin-right: 6px;
@@ -1870,7 +1870,7 @@ ol li:before {
   counter-increment: ol-counter;
 }
 
-/* line 175, sass/main/_main.scss */
+/* line 172, sass/main/_main.scss */
 .wrapper {
   height: auto;
   margin: 0 auto;
@@ -1878,22 +1878,22 @@ ol li:before {
   position: relative;
 }
 
-/* line 182, sass/main/_main.scss */
+/* line 179, sass/main/_main.scss */
 .wrapperMargin {
   margin-bottom: 40px;
 }
 
-/* line 187, sass/main/_main.scss */
+/* line 184, sass/main/_main.scss */
 .hiddenAnimate {
   opacity: 0;
 }
 
-/* line 190, sass/main/_main.scss */
+/* line 187, sass/main/_main.scss */
 .visible {
   opacity: 1;
 }
 
-/* line 198, sass/main/_main.scss */
+/* line 195, sass/main/_main.scss */
 .content .iframeContent {
   position: fixed;
   width: 100%;
@@ -1903,7 +1903,7 @@ ol li:before {
   background: #2f2f2f;
   left: 0px;
 }
-/* line 207, sass/main/_main.scss */
+/* line 204, sass/main/_main.scss */
 .content .iframeContent .telaCheiaIframe {
   width: 100%;
   height: 100%;
@@ -1913,7 +1913,7 @@ ol li:before {
   top: 0px;
   bottom: 0px;
 }
-/* line 217, sass/main/_main.scss */
+/* line 214, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia {
   z-index: 999;
   border: 1px solid #e18f00;
@@ -1943,16 +1943,16 @@ ol li:before {
   opacity: 0.78;
   top: 1px;
 }
-/* line 249, sass/main/_main.scss */
+/* line 246, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:hover {
   background: #fbaf0b;
 }
-/* line 253, sass/main/_main.scss */
+/* line 250, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:active {
   background: #e28f01;
 }
 
-/* line 265, sass/main/_main.scss */
+/* line 262, sass/main/_main.scss */
 .btCreditos {
   border-radius: 5px;
   height: 30px;
@@ -1967,7 +1967,7 @@ ol li:before {
   line-height: 30px;
 }
 
-/* line 281, sass/main/_main.scss */
+/* line 278, sass/main/_main.scss */
 .modalCreditos {
   position: fixed;
   top: 0;
@@ -4254,8 +4254,9 @@ ol li:before {
   width: 400%;
   /* to contain 4 panels, each with 100% of window width */
   height: 100%;
+  margin-top: 50px;
 }
-/* line 20, sass/resources/magicSlider/_style.scss */
+/* line 21, sass/resources/magicSlider/_style.scss */
 .magicSlider .slideContainer .sectionsScrollMagic {
   position: relative;
   height: 100%;
@@ -4266,18 +4267,18 @@ ol li:before {
   text-align: center;
   display: table;
 }
-/* line 29, sass/resources/magicSlider/_style.scss */
+/* line 30, sass/resources/magicSlider/_style.scss */
 .magicSlider .slideContainer .sectionsScrollMagic .contentSection {
   display: table-cell;
   vertical-align: middle;
   height: 100%;
   width: 100%;
 }
-/* line 34, sass/resources/magicSlider/_style.scss */
+/* line 35, sass/resources/magicSlider/_style.scss */
 .magicSlider .slideContainer .sectionsScrollMagic .contentSection iframe {
   border: none;
 }
-/* line 39, sass/resources/magicSlider/_style.scss */
+/* line 40, sass/resources/magicSlider/_style.scss */
 .magicSlider .slideContainer .sectionsScrollMagic .sectionImg {
   position: absolute;
   top: 50%;
@@ -4286,7 +4287,7 @@ ol li:before {
   padding: 0;
   z-index: 1;
 }
-/* line 57, sass/resources/magicSlider/_style.scss */
+/* line 58, sass/resources/magicSlider/_style.scss */
 .magicSlider.timeline .sectionsScrollMagic:after {
   content: "";
   position: absolute;

@@ -1,21 +1,17 @@
     {
         "_id": "5379f9c48b714fc104000133",
-        "courseName": "TESTE UNASUS",
-        "scoName": "TESTE UNASUS",
+        "courseName": "MÓDULO 1",
         "srcCaptivate":"",
         "scorm":false,
-        "unidades":[
+        "links":[
                 {
-                    "name": "Unidade 1",
-                    "idSection": 0
+                    "url": "Link 1"
                 },
                 {
-                    "name": "Unidade 2",
-                    "idSection": 30
+                    "url": "Link 2"
                 },
                 {
-                    "name": "Unidade 3",
-                    "idSection": 60
+                    "url": "Link 3"
                 }
         ],
         "teste":"",
@@ -25,14 +21,13 @@
                 "resources": [
 
 
-                    
-                
                  {
                         "template":"backgroundScroll",
                         "column": "col-xs-12 col-md-12",
                         "style":"",
                         "idSection":"0",
                         "capa":"capa",
+                        "unidade": "UN 1",  
                         "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img01.png",
                         "bgRatio":1,
                         "order":0
@@ -43,8 +38,8 @@
                         "column": "col-xs-12 col-md-12",
                         "style":"",
                         "idSection":"1",
-                        "capa":"capa",
-                        "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_UNI1_capa_unidade.png",
+                        "backgroundSRC":"",
+                        "styleContainer": "min-width: 100%",
                         "bgRatio":1,
                         "order":1
                     },
@@ -56,6 +51,8 @@
                         "style":"",
                         "idSection":"2",
                         "backgroundSRC":"",
+                        "capa":"capa",
+                        "unidade": "UN 2",
                         "images":[
                             {
                                 "styleDivImg": "height: 100%; width: 100%; background:url(curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img03.png) -70px -300px no-repeat",
@@ -76,7 +73,7 @@
                             {
                                 "imgBG":"curso/images/modulo4/unidade1/UNAS07_UNI01_imag02.png",
                                 "styleImg":"top: 0px; right: 0px;",
-                                "animate": "slideInRight"
+                                "animate": "slideInLeft"
                             }
                         ],
                         "order":3
@@ -130,18 +127,17 @@
                         "order":6
                     },
 
+
+
                     {
                         "template":"backgroundScroll",
                         "column": "col-xs-12 col-md-12",
                         "styleObj": "",
                         "idSection":"7",
                         "backgroundSRC":"",
-                        "styleContainer": "min-width: 100%",
+                        
                         "order":7
                     },
-
-
-
 
                     {
                         "template":"backgroundScroll",
@@ -149,19 +145,10 @@
                         "styleObj": "",
                         "idSection":"8",
                         "backgroundSRC":"",
-
-                          "images":[
-                            {
-                                "imgBG":"curso/images/modulo4/unidade1/UNAS07_UNI01_imag10.png",
-                                "styleImg":"top: -90px; right: 0px;",
-                                "animate": "slideInRight"
-                            }
-                        ],
-                        
+                        "styleContainer": "min-width: 100%",
                         "order":8
                     },
 
-                    
 
                     {
                         "template":"backgroundScroll",
@@ -339,7 +326,7 @@
 
                     {
                        "template":"capa",
-                       "nUnidade":"INTERAGINDO",
+                       "nUnidade":"MÓDULO 1",
                        "column": "col-xs-12 col-md-12",
                        "section":0,
                        "tituloCapa":"<span style='font-size: .85em;'>PREVENÇÃO E CUIDADOS ÀS DOENÇAS</span> <br> <span style='font-size: 1.2em;'>PREVALENTES EM HOMENS</span>",
@@ -371,43 +358,50 @@
                     },
 
 
-
-
-
-
                     {
-                       "template":"capa",
-                       "type": "subCapa",
-                       "nUnidade":"<span style='color:#2A2E78'>UNIDADE 1</span>",
-                       "column": "col-xs-12 col-md-12",
-                       "section":1,
-                       "tituloCapa":"<span style='font-size: .76em;'>CONDIÇÕES DE VULNERABILIDADE</span> <br> <span style='font-size: 1.2em;'>NA SAÚDE DO HOMEM</span>",
-                       "textoCapa":"Primeiramente discutiremos a importância da categoria de gênero como um determinante de saúde da população masculina, ou seja, como as questões de gênero influenciam no cuidado em saúde da população masculina",
-                       "order":42
-                    },
-
-                   
-                    {
-                       "template": "texto",
-                       "column": "col-xs-0 col-md-12",
-                       "type": "normal",
-                       "section":1,
-                       "style":"height:130px",
-                       "order":44
+                        "template": "magicSlider",
+                        "column": "col-xs-12 col-md-12",
+                        "section":1,
+                        "type": "",
+                        "slides":[ 
+                            {
+                                "styleSection": "background: red"
+                            },
+                            {
+                                "styleSection": "background: black"        
+                            }
+                        ],
+                        "heightSlider": "",
+                        "styleObj": {
+                            "padding" : 0
+                        },
+                        "order":42
                     },
 
                     {
-                       "template":"botaoPular",
-                       "section":1,
-                       "nSec":2,
-                       "cor":"branco",
-                       "style":"margin-top:10px",
-                       "order":47
+                        "template": "magicSlider",
+                        "column": "col-xs-12 col-md-12",
+                        "section":1,
+                        "type": "",
+                        "slides":[ 
+                            {
+                                "styleSection": "background: red"
+                            },
+                            {
+                                "styleSection": "background: black"        
+                            },
+                            {
+                                "styleSection": "background: black"        
+                            }
+                        ],
+                        "heightSlider": "",
+                        "styleObj": {
+                            "padding" : 0
+                        },
+                        "order":43
                     },
 
-
-
-
+                
 
                     
 
@@ -416,7 +410,7 @@
                         "column": "col-xs-0 col-md-4",
                         "type": "normal",
                         "section":2,
-                        "style":"height:450px",
+                        "style":"height:350px",
                         "content": "",
                         "order":48
                     },
@@ -428,7 +422,7 @@
                         "template": "texto",
                         "type": "title",
                         "section":2,
-                        "column": "col-xs-12 col-md-8",
+                        "column": "col-xs-12 col-md-6",
                         "content": "Gênero, masculinidade e cuidado com a saúde",
                         "order":49
                     }, 
@@ -437,30 +431,48 @@
                      
                     {
                         "template": "texto",
-                        "column": "col-xs-12 col-md-8",
+                        "column": "col-xs-12 col-md-6",
                         "type": "normal",
                         "section":2,
                         "content": "<p class='textoDestaque'> <b>VOCÊ JÁ SE PERGUNTOU POR QUE OS HOMENS BUSCAM MENOS OS SERVIÇOS DE SAÚDE DO QUE AS MULHERES?</b></p><p>Uma primeira resposta para essa pergunta é a <b>incompatibilidade do horário</b> de atendimento das unidades de saúde com o tempo livre dos homens, visto que durante o dia a maioria deles estão no trabalho.</p><p>Entretanto, limitar este desafio ao horário de atendimento é inadequado, visto que há <b>questões relevantes sob a perspectiva relacional de gênero</b> que devem ser observadas.</p><p style='font-size:1.2em; text-align:left; '><b>Vamos conversar um pouco mais sobre isso?</b></p>",
                         "order":50
                     },
 
-                     {
+
+
+                    {
                         "template": "texto",
-                        "column": "col-xs-12 col-md-8",
+                        "column": "col-xs-12 col-md-12",
                         "type": "normal",
                         "section":2,
-                        "style":"height:50px",
+                        "style":"height:130px",
                         "content": "",
-                        "order":53
+                        "order":54
                     },
 
 
 
-                
+
+
+
+
+
+
+                    
 
                     {
                         "template": "texto",
-                        "column": "col-xs-12 col-md-8",
+                        "column": "col-xs-0 col-md-2",
+                        "type": "normal",
+                        "section":2,
+                        "style":"height:30px",
+                        "content": "",
+                        "order":55
+                    },
+
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-10",
                         "type": "normal",
                         "section":2,
                         "content": "<p class='textoDestaque'> <b>MASCULINIDADE:</b> CONJUNTO DE ATRIBUTOS, VALORES, FUNÇÕES E CONDUTAS QUE SE ESPERA DO HOMEM EM UMA DETERMINADA CULTURA.</p>",
@@ -469,7 +481,7 @@
 
                     {
                         "template": "texto",
-                        "column": "col-xs-0 col-md-4",
+                        "column": "col-xs-0 col-md-3",
                         "type": "normal",
                         "section":2,
                         "style":"height:630px",
@@ -529,7 +541,7 @@
 
                     {
                         "template": "texto",
-                        "column": "col-xs-12 col-md-8",
+                        "column": "col-xs-12 col-md-9",
                         "type": "normal",
                         "section":2,
                         "content": "<p>A seguir estão representadas as características da masculinidade hegemônica:</p>",
@@ -541,7 +553,7 @@
 
                     {
                         "template": "texto",
-                        "column": "col-xs-12 col-md-8",
+                        "column": "col-xs-12 col-md-9",
                         "type": "normal",
                         "class":"quadro",
                         "style":"padding: 25px; ",
@@ -550,20 +562,10 @@
                         "order":70
                     },
 
-                     {
-                        "template": "texto",
-                        "column": "col-xs-0 col-md-2",
-                        "type": "normal",
-                        "section":2,
-                        "style":"height:30px",
-                        "content": "",
-                        "order":71
-                    },
-
 
                     {  
                         "template":"caixaDestaque",
-                        "column": "col-xs-12 col-md-8",
+                        "column": "col-xs-12 col-md-9",
                         "type":"normal",
                         "section":2,
                         "title":"Final de Cursos dasd sd",
@@ -572,10 +574,9 @@
                             "margin-top": "40px"
                         },
                         "animate": "zoomIn",
-                        "order":72
+                        "order":71
                     },
 
-                   
 
 
 
@@ -589,19 +590,24 @@
 
 
 
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-4",
+                        "type": "normal",
+                        "section":3,
+                        "style":"height:700px",
+                        "content": "",
+                        "order":74
+                    },
 
-                   
                     {
                         "template": "texto",
                         "column": "col-xs-12 col-md-8",
                         "type": "normal",
                         "section":3,
                         "content": "<p class='textoDestaque'>Historicamente o cuidado do homem é sinal de fraqueza.</p>",
-                        "order":74
+                        "order":76
                     },
-
-                     
-
 
                     {
                         "template": "texto",
@@ -630,10 +636,10 @@
                         "column": "col-xs-12 col-md-8",
                         "type": "normal",
                         "class":"quadro",
-                        "style":"background-color:#eed0a1; padding: 25px; margin-top: 20px;",
+                        "style":"background-color:#eed0a1; padding: 25px; margin-top: 10px;",
                         "section":3,
                         "content": "<p>O profissional precisa reconhecer a influência das questões de gênero na saúde do homem para ser capaz de oferecer um atendimento integral, incluindo ações de prevenção e intervenção nos fatores de risco às principais doenças que acometem os homens.</p>",
-                        "animate": "slideInLeft",
+                        "animate": "slideInRight",
                         "order":82
                     },
 
@@ -648,6 +654,7 @@
                                     },
                         "order":84
                     },
+
 
                     
 
@@ -673,28 +680,8 @@
                         "section":4,
                         "column": "col-xs-12 col-md-8",
                         "content": "Alcoolismo, tabagismo e outras drogas",
-                        "order":87
-                    }, 
-
-                     {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-12",
-                        "type": "normal",
-                        "section":4,
-                        "style":"height:10px",
-                        "content": "",
                         "order":88
-                    },
-
-                      {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-2",
-                        "type": "normal",
-                        "section":4,
-                        "style":"height:10px",
-                        "content": "",
-                        "order":89
-                    },
+                    }, 
 
                    
 
@@ -704,18 +691,8 @@
                         "column": "col-xs-12 col-md-8",
                         "type": "normal",
                         "section":4,
-                        "content": "<p style='text-align:center; font-size:1.2em;'><b>O uso abusivo de álcool, tabaco e outras drogas são fatores de risco bastante relevantes na saúde do homem.</b></p>",
+                        "content": "<p>O uso abusivo de álcool, tabaco e outras drogas são fatores de risco bastante relevantes na saúde do homem.</p>",
                         "order":90
-                    },
-
-                      {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-2",
-                        "type": "normal",
-                        "section":4,
-                        "style":"height:10px",
-                        "content": "",
-                        "order":91
                     },
 
 
@@ -734,10 +711,10 @@
 
                     {
                         "template": "texto",
-                        "column": "col-xs-0 col-md-2",
+                        "column": "col-xs-0 col-md-4",
                         "type": "normal",
                         "section":4,
-                        "style":"height:400px",
+                        "style":"height:340px",
                         "content": "",
                         "order":94
                     },
@@ -747,8 +724,8 @@
 
                     {
                         "template": "texto",
-                        "type": "title",
-                        "column": "col-xs-12 col-md-3",
+                        "type": "subtitle",
+                        "column": "col-xs-12 col-md-8",
                         "content": "Alcoolismo",
                         "section":4,
                         "order":96
@@ -772,19 +749,29 @@
                         "type": "normal",
                         "styleWrapper":"margin:0; max-width:100%;",
                         "section":4,
-                        "content": "<p><ul><li>Entre os problemas físicos em decorrência do abuso do álcool estão a cirrose hepática e a miocardiopatia alcoólica, além das lesões decorrentes de acidentes (BRASIL, 2003).</li><li>Os transtornos mentais e comportamentais devidos ao uso de álcool são os responsáveis pelo maior número de mortes associadas ao uso de drogas, correspondendo a aproximadamente 90% dos casos.<br/><br/></li>",
+                        "content": "<p><ul><li>Entre os problemas físicos em decorrência do abuso do álcool estão a cirrose hepática e a miocardiopatia alcoólica, além das lesões decorrentes de acidentes (BRASIL, 2003).</li><li>Os transtornos mentais e comportamentais devidos ao uso de álcool são os responsáveis pelo maior número de mortes associadas ao uso de drogas, correspondendo a aproximadamente 90% dos casos.</li>",
                         "order":100
                     },
 
 
 
-                   
+                    {
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-12",
+                        "type": "normal",
+                        "section":4,
+                        "style":"height:70px",
+                        "content": "",
+                        "order":124
+                    },
+
+
                     {
                         "template": "texto",
                         "column": "col-xs-12 col-md-8",
                         "type": "normal",
                         "section":4,
-                        "content": "<p>No Brasil,  foram observadas as seguintes frequências de consumo abusivo de bebidas alcoólicas:</p>",
+                        "content": "<p>No Brasil,  foram observadas as seguintes frequências de consumo abusivo de bebidas alcoólicas: </p>",
                         "order":130
                     },
 
@@ -801,7 +788,7 @@
                     {
                         "template": "multimedia",
                         "section":4,
-                        "src": "curso/recursos/modulo4/unidade1/UNA07_REC06_Consumo_alcool.png",
+                        "src": "curso/recursos/modulo4/unidade1/UNA07_REC06_Consumo_alcool/UNA07_REC06_Consumo_alcool.html",
                         "srcMobile":"curso/recursos/modulo4/unidade1/UNA07_REC06_Consumo_alcool.png",
                         "column": "col-xs-12 col-md-12",
                         "styleObj": {
@@ -814,10 +801,10 @@
 
                     {
                         "template": "texto",
-                        "column": "col-xs-12 col-md-10",
+                        "column": "col-xs-12 col-md-8",
                         "type": "normal",
                         "section":4,
-                        "content": "<p class='textoDestaque' style='margin:10px 0;'><b>Veja alguns números do Brasil, na animação a seguir:</b></p><p>A animação a seguir é locutada. Acione o áudio de seu dispositivo para assisti-la.</p>",
+                        "content": "<p class='textoDestaque' style='margin:20px 0;'><b>Veja alguns números do Brasil, na animação a seguir:</b></p><p>A animação a seguir é locutada. Acione o áudio de seu dispositivo para assisti-la.</p>",
                         "order":136
                     },
 
@@ -838,56 +825,26 @@
                     },
 
 
-
-
-
-
-
-
-
                     {
-                        "template": "magicSlider",
-                        "column": "col-xs-12 col-md-12",
-                        "section":5,
-                        "type": "",
-                        "slides":[ 
-                            {
-                                "styleSection": "background:url(curso/images/modulo4/unidade1/UNAS07_UNI01_bg_atividade.png)",
-                                "contentSection": "<iframe style='height:450px; width: 1025px;' src='curso/recursos/modulo4/unidade1/UNA07_REC09_atividade01/UNA07_REC09_atividade01.html'></iframe>"
-                            },
-                            {
-                                "styleSection": "background:url(curso/images/modulo4/unidade1/UNAS07_UNI01_bg_atividade.png)",
-                                "contentSection": "<iframe style='height:450px; width: 1025px;' src='curso/recursos/modulo4/unidade1/UNA07_REC09_atividade02/UNA07_REC09_atividade02.html'></iframe>"
-                            }
-                        ],
-                        "heightSlider": "600px",
-                        "styleObj": {
-                            "padding" : 0
-                        },
-                        "order":140
+                        "template": "texto",
+                        "column": "col-xs-12 col-md-8",
+                        "type": "normal",
+                        "section":4,
+                        "style":"height:160px",
+                        "content": "",
+                        "order":138
                     },
-
                    
 
 
 
                    {
                         "template": "texto",
-                        "type": "title",
-                        "column": "col-xs-12 col-md-3",
+                        "type": "subtitle",
+                        "column": "col-xs-12 col-md-8",
                         "content": "Tabagismo",
                         "section":6,
                         "order":165
-                    },
-
-                    {
-                        "template": "texto",
-                        "column": "col-xs-0 col-md-9",
-                        "type": "normal",
-                        "section":6,
-                        "style":"height:70px",
-                        "content": "",
-                        "order":166
                     },
 
 
@@ -913,52 +870,15 @@
                         "order":175
                     },
 
-
-
-
-                      {
-                        "template": "magicSlider",
-                        "column": "col-xs-12 col-md-12",
-                        "section":7,
-                        "type": "timeline",
-                        "contentTop": "<b>CONHEÇA ALGUMAS INFORMAÇÔES SOBRE O PERFIL DE FUMANTES NO BRASIL, SEGUNDO O VIGITEL (2013):</b> ",
-                        "contentTop-style": "position: absolute; width: 800px; height: 50px; left: 50%; margin-left: -400px; top: 80px; font-size: 1.8em; color: #2A2E78; ",
-                        "contentBottom": "Ainda, nos últimos anos houve uma leve queda do tabagismo entre homens, e estabilidade entre mulheres, o que sugere que a <b>cessação do tabagismo está aumentando entre homens</b>(Vigitel, 2009).",
-                        "contentBottom-style": "position: absolute; width: 800px; height: 50px; left: 50%; margin-left: -400px; bottom: 80px; font-size: 1.7em; color: #373737;",
-                        "slides":[ 
-                            {
-                                "styleSection": "background:#efddb8",
-                                "contentSection": "",
-                                "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider01.png",
-                                "styleImg": "height:360px; width: 800px;"
-                            },
-                            {
-                                "contentSection": "",
-                                "styleSection": "background:#efddb8",
-                                "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider02.png",
-                                "styleImg": "height:360px; width: 800px;"
-                            },
-                            {
-                                "contentSection": "",
-                                "styleSection": "background:#efddb8",
-                                "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider03.png",
-                                "styleImg": "height:360px; width: 800px;"
-                            },
-                            {
-                                "contentSection": "",
-                                "styleSection": "background:#efddb8",
-                                "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider04.png",
-                                "styleImg": "height:360px; width: 800px;"
-                            }
-                        ],
-                        "heightSlider": "700px",
-                        "styleObj": {
-                            "padding" : 0
-                        },
+                    {
+                        "template": "texto",
+                        "column": "col-xs-0 col-md-12",
+                        "type": "normal",
+                        "section":6,
+                        "style":"height:140px",
+                        "content": "",
                         "order":178
                     },
-
-                  
 
 
 
@@ -975,7 +895,7 @@
                         "template": "texto",
                         "column": "col-xs-0 col-md-3",
                         "type": "normal",
-                        "section":8,
+                        "section":7,
                         "style":"height:720px",
                         "content": "",
                         "order":180
@@ -986,21 +906,11 @@
 
                     {
                         "template": "texto",
-                        "type": "title",
-                        "column": "col-xs-12 col-md-4",
+                        "type": "subtitle",
+                        "column": "col-xs-12 col-md-9",
                         "content": "Outras Drogas",
-                        "section":8,
+                        "section":7,
                         "order":184
-                    },
-
-                     {
-                        "template": "texto",
-                        "column": "col-xs-0 col-md-8",
-                        "type": "normal",
-                        "section":8,
-                        "style":"height:20px",
-                        "content": "",
-                        "order":185
                     },
 
 
@@ -1009,7 +919,7 @@
                         "template": "texto",
                         "column": "col-xs-12 col-md-9",
                         "type": "normal",
-                        "section":8,
+                        "section":7,
                         "content": "<p>Pesquisas apontam a idade, o tipo de droga, a taxa de consumo, taxas de mortalidade e comorbidade como principais diferenças de gênero em relação ao uso de drogas.</p><p>Os homens geralmente aparecem como mais propensos a usar drogas ilícitas precocemente, por mais tempo, em frequência e quantidade maiores que as mulheres. Apesar disso a proporção entre os sexos vem diminuindo.</p>",
                         "order":188
                     },
@@ -1018,7 +928,7 @@
                         "template": "texto",
                         "column": "col-xs-12 col-md-9",
                         "type": "normal",
-                        "section":8,
+                        "section":7,
                         "style":"height:20px",
                         "content": "",
                         "order":189
@@ -1031,7 +941,7 @@
                         "type": "normal",
                         "class":"quadro",
                         "style":"background-color:#eed0a1; padding: 25px;",
-                        "section":8,
+                        "section":7,
                         "content": "<img style='float:left;' class='' src='curso/images/modulo4/unidade1/UNAS07_UNI01_imag12a.png' /><p class='' style='margin-left: 200px;'>Conforme o Relatório Brasileiro sobre Drogas, as mais consumidas por sexo são:</p> <ul style='list-style-image:url(css/assets/images/bullet_quadro.png); margin-left: 200px;'><li><b>Homens:</b> álcool, tabaco, maconha, solventes, cocaína, alucinógenos, crack, merla e esteroides;</li><li><b>Mulheres:</b> estimulantes, benzodiazepínicos, orexígenos e opiáceos.</li></ul> ",
                         "animate": "slideInRight",
                         "order":190
@@ -1042,7 +952,7 @@
                         "template": "texto",
                         "column": "col-xs-12 col-md-9",
                         "type": "normal",
-                        "section":8,
+                        "section":7,
                         "style":"height:20px",
                         "content": "",
                         "order":192
@@ -1055,7 +965,7 @@
                         "type": "normal",
                         "class":"quadro",
                         "style":"background-color:#eed0a1; padding: 25px;",
-                        "section":8,
+                        "section":7,
                         "content": "<img style='float:left;' class='' src='curso/images/modulo4/unidade1/UNAS07_UNI01_imag12b.png' /><p class=''style='margin-left: 200px;'>Algumas questões que refletem no maior uso de drogas:<ul style='list-style-image:url(css/assets/images/bullet_quadro.png); margin-left: 200px;'><li>A percepção de risco grave do uso de maconha e cocaína/crack é maior entre as mulheres;</li><li>As características de masculinidade como força e coragem, também se relacionam ao fato dos homens correrem mais riscos associados aos contextos de uso e comércio de drogas.</li></ul></p> ",
                         "animate": "slideInRight",
                         "order":195
@@ -1068,7 +978,7 @@
                         "template": "texto",
                         "column": "col-xs-12 col-md-12",
                         "type": "normal",
-                        "section":8,
+                        "section":7,
                         "style":"height:100px",
                         "content": "",
                         "order":200
@@ -1079,7 +989,7 @@
                         "template": "texto",
                         "column": "col-xs-12 col-md-8",
                         "type": "normal",
-                        "section":8,
+                        "section":7,
                         "content": "<p class='textoDestaque' style='margin:20px 0;'><b>Quanto as doenças associadas ao uso de drogas no Brasil, observe as prevalências no gráfico:</b></p>",
                         "styleObj": {
 
@@ -1093,7 +1003,7 @@
                         "template": "texto",
                         "column": "col-xs-12 col-md-3",
                         "type": "normal",
-                        "section":8,
+                        "section":7,
                         "style":"height:100px",
                         "content": "",
                         "order":204
@@ -1103,7 +1013,7 @@
                         "template": "texto",
                         "column": "col-xs-12 col-md-8",
                         "type": "normal",
-                        "section":8,
+                        "section":7,
                         "content": "<p>Prevalência de doenças associadas ao uso de drogas (2001 e 2007)</p>",
                         "styleObj": {
 
@@ -1116,7 +1026,7 @@
                         "template": "texto",
                         "column": "col-xs-12 col-md-12",
                         "type": "normal",
-                        "section":8,
+                        "section":7,
                         "content": "",
                         "style":"height:20px",
                         "order":207
@@ -1125,8 +1035,8 @@
 
                     {
                         "template": "multimedia",
-                        "section":8,
-                        "src": "curso/recursos/modulo4/unidade1/UNA07_REC05_graficoBarras/UUNA07_REC05_graficoBarras.html",
+                        "section":7,
+                        "src": "curso/recursos/modulo4/unidade1/UNA07_REC05_graficoBarras/UNA07_REC05_graficoBarras.html",
                         "srcMobile":"curso/recursos/modulo4/unidade1/UNA07_REC05_graficoBarras.png",
                         "column": "col-xs-12 col-md-12",
                         "styleObj": {
@@ -1141,7 +1051,7 @@
                         "template": "texto",
                         "column": "col-xs-3 col-md-4",
                         "type": "normal",
-                        "section":8,
+                        "section":7,
                         "style":"height:10px",
                         "content": "",
                         "order":209
@@ -1149,10 +1059,47 @@
 
 
 
-
-
-
-                  
+                    {
+                        "template": "magicSlider",
+                        "column": "col-xs-12 col-md-12",
+                        "section":8,
+                        "type": "timeline",
+                        "contentTop": "CONHEÇA ALGUMAS INFORMAÇÔES SOBRE O PERFIL DE FUMANTES NO BRASIL, SEGUNDO O VIGITEL (2013): ",
+                        "contentTop-style": "position: absolute; width: 800px; height: 50px; left: 50%; margin-left: -400px; top: 80px; font-size: 1.8em; color: #2A2E78; ",
+                        "contentBottom": "Ainda, nos últimos anos houve uma leve queda do tabagismo entre homens, e estabilidade entre mulheres, o que sugere que a <b>cessação do tabagismo está aumentando entre homens</b>(Vigitel, 2009).",
+                        "contentBottom-style": "position: absolute; width: 800px; height: 50px; left: 50%; margin-left: -400px; bottom: 80px; font-size: 1.7em; color: #373737;",
+                        "slides":[ 
+                            {
+                                "styleSection": "background:#efddb8",
+                                "contentSection": "",
+                                "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider01.png",
+                                "styleImg": "width: 50%;"
+                            },
+                            {
+                                "contentSection": "",
+                                "styleSection": "background:#efddb8",
+                                "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider02.png",
+                                "styleImg": "width: 50%;"
+                            },
+                            {
+                                "contentSection": "",
+                                "styleSection": "background:#efddb8",
+                                "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider03.png",
+                                "styleImg": "width: 50%;"
+                            },
+                            {
+                                "contentSection": "",
+                                "styleSection": "background:#efddb8",
+                                "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider04.png",
+                                "styleImg": "width: 50%;"
+                            }
+                        ],
+                        "heightSlider": "",
+                        "styleObj": {
+                            "padding" : 0
+                        },
+                        "order":210
+                    },
 
 
                     
