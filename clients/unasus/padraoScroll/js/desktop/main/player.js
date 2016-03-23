@@ -13,11 +13,7 @@ define([
             var $el = self.$el;
 
             return {
-                $el: $el,
-                $btnNavbarMobile: $el.find('.btnNavbarMobile'),
-                $mainDropdown: $el.find('.mainDropdown'),
-                $linksToMobile: $el.find('.linksToMobile'), 
-                $mainNavBar: $el.find('.mainNavBar')
+                $el: $el
             }
         }
 
@@ -53,10 +49,7 @@ define([
                     if ($(window).width() <= 1021) {
                         $("body").find(".capa").css("height", "auto");
                         $("body").find(".contContraCapa").css("display","table-row");
-                        self.elems.$mainNavBar.removeClass('screenDesktop');
-                        self.elems.$mainNavBar.addClass('screenMobile');
-                        
-
+                    
                     } else {
                         $("body").find(".capa").css({
                             "height": $(window).height() + "px"
@@ -65,9 +58,6 @@ define([
                         $("body").find(".contraCapa").css({
                             "height": $(window).height()- 177 + "px"
                         });
-                        self.elems.$mainNavBar.removeClass('screenMobile');
-                        self.elems.$mainNavBar.addClass('screenDesktop');
-                        
                     }
 
                     //invocando stellar (parallax)
@@ -82,11 +72,6 @@ define([
                 if ($(window).width() <= 1021) {
                     $("body").find(".capa").css("height", "auto");
                     $("body").find(".contContraCapa").css("display","table-row");
-                    self.elems.$mainNavBar.removeClass('screenDesktop');
-                    self.elems.$mainNavBar.addClass('screenMobile');
-
-                    // self.elems.$mainDropdown.hide();
-                    // self.elems.$linksToMobile.show();
                 } else {
                     $("body").find(".capa").css({
                         "height": $(window).height() + "px"
@@ -95,18 +80,6 @@ define([
                     $("body").find(".contraCapa").css({
                         "height": $(window).height()- 177 + "px"
                     });
-
-                    self.elems.$mainNavBar.removeClass('screenMobile');
-                    self.elems.$mainNavBar.addClass('screenDesktop');
-
-                    // self.elems.$mainDropdown.show();
-                    // self.elems.$linksToMobile.hide();
-                }
-            });
-
-            self.elems.$btnNavbarMobile.on({
-                click: function(e) {
-                    self.elems.$mainDropdown.hide();
                 }
             });
         }

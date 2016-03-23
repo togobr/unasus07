@@ -35,12 +35,22 @@ define([], function() {
 			                invertBottomOffset: true
 			            });
                 	}
-                	 
+
+                	
 
                 	$("body").find(".rec").each(function(){
                 		var $divSection = $("body").find("#section-"+$(this).data("section")).children(".content");
                 		$(this).appendTo($divSection);
                 	});              
+                }
+            });
+
+            recurso.$el.find('.capa').viewportChecker({
+            	repeat: true,
+                callbackFunction: function(){
+                	var unidadeName = Player.Tree.main.$el.find('.unidadeName span'),
+                		unidade = recurso.data.unidade || "";
+	             		unidadeName.replaceWith('<span>' + unidade + '</span>');
                 }
             });
 		}
