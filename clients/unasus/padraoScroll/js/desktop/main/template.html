@@ -15,10 +15,7 @@
 				{{/creditos}}
 			</ul>
 		</div>
-
-
 	</div>
-
  </div>
 	
 	
@@ -26,56 +23,27 @@
 	<div class="wrapperUnasus">
 		<nav class="navbar navbar-default mainNavBar">
 			  <div class="container-fluid">
-					<div class="navbar-header">
-						<div class="scoNameBlock">
-							<h1>{{scoName}}</h1>
-						</div>
-
-						<div class="navbarBtnBlock">
-								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						</div>
-			    	</div>
 			    
-			    <!-- Collect the nav links, forms, and other content for toggling -->
-			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="">
+			    <div class="courseBlock">
+		    		<h1 class="courseName">{{courseName}} - </h1> <h2 class="unidadeName">UN 1</h2>
+				</div>
 
-			    	<img class="logoTopo" src="css/assets/images/logo.png">
-			      <ul class="nav navbar-nav">
-			      	<h1>{{scoName}}</h1>
-			        <li class="dropdown">
-			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-			          	<span class="dpText">Trilha de Aprendizagem</span> 
-			          	<span class="caret"></span>
-			          </a>
-			          <ul class="dropdown-menu" id="dropDownUnidade">
-			          	{{#unidades}}
-			          	<li><span data-unidade={{idSection}} class="eaeae">{{name}}</span></li>
-			          	{{/unidades}}
-			          </ul>
-			        </li>
+				
 
-			        <li class="dropdown">
-			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-			          	<span class="dpText">Acompanhamento</span> 
-			          	<span class="caret"></span>
-			          </a>
-			          <ul class="dropdown-menu">
-			           <li><span >Módulo 1</span></li>
-			            <li><span >Módulo 2</span></li>
-			            <li><span >Módulo 3</span></li>
-			            <li role="separator" class="divider"></li>
-			            <li><span >Unidade 2</span></li>
-			          </ul>
-			        </li>
 
-			        <li class="btCreditos">CRÉDITOS</li>
-			      </ul>
-			    </div><!-- /.navbar-collapse -->
+				<li class="dropdown mainDropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-align-justify"></span>
+					</a>
+					<ul class="dropdown-menu">
+						{{#links}}
+							<li><span>{{url}}</span></li>
+						{{/links}}
+					</ul>
+				</li>
+
+			    <img class="logoTopo" src="css/assets/images/logo.png">
+
 			  </div><!-- /.container-fluid -->
 			</nav>
 

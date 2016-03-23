@@ -1723,146 +1723,120 @@ body {
   background: #dab463;
   border: none;
   border-bottom: 2px solid #FFFFFF;
+  padding-left: 20px;
 }
-/* line 23, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .navbar-header .scoNameBlock {
-  display: none;
-}
-/* line 27, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .navbar-collapse {
-  max-width: 1021px;
-  margin: 0 auto;
+/* line 24, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar img {
+  float: right;
+  height: 35px;
+  margin: 6px 35px 0px 0px;
 }
 /* line 30, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .navbar-collapse img {
+.wrapperUnasus .mainNavBar .courseBlock {
   float: left;
-  height: 100%;
-  padding: 13px;
+  margin-top: 15px;
 }
-/* line 36, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav {
-  float: right;
-}
-/* line 38, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav h1 {
+/* line 33, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .courseBlock .courseName, .wrapperUnasus .mainNavBar .courseBlock .unidadeName {
   font-size: 1.8em;
   font-family: "Roboto-Bold", sans-serif;
   color: #2f3275;
+  display: inline-block;
+  margin: 0;
 }
-/* line 43, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  height: 30px;
-  background: #f4dfc1;
-  padding: 0;
-  font-size: inherit;
-}
-/* line 50, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  padding: 0;
-  font-size: 1.5em;
-  font-family: "Roboto-Black", sans-serif;
-  color: #2f3275;
-  height: 100%;
-  text-transform: uppercase;
-}
-/* line 58, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle span.dpText {
-  float: right;
-  text-align: center;
-  padding: 6px 10px 0px 10px;
-}
-/* line 64, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle span.caret {
+/* line 42, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .dropdown {
   position: relative;
-  float: left;
+  float: right;
+  width: 50px;
+  height: 50px;
+  background: #f4dfc1;
+  font-size: inherit;
+  list-style: none;
+  margin-right: 20px;
+}
+/* line 51, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .dropdown .dropdown-toggle {
+  font-size: 2em;
   height: 100%;
-  width: 32px;
-  margin: 0px;
-  -webkit-border-top-left-radius: 5px;
-  border-top-left-radius: 5px;
-  -webkit-border-bottom-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border: 0;
-  border-right: 2px solid #dab463;
+  display: table;
+  margin: -3px auto;
 }
-/* line 76, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown .dropdown-toggle span.caret:after {
-  content: "";
+/* line 56, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .dropdown .dropdown-toggle span {
+  height: 50px;
+  width: 50px;
+  color: #2f3275;
+}
+/* line 60, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .dropdown .dropdown-toggle span:before {
   position: absolute;
-  width: 0;
-  height: 0;
-  border-left: 6px solid transparent;
-  border-right: 6px solid transparent;
-  border-top: 10px solid #2f3275;
-  left: 9px;
-  top: 12px;
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -10px;
 }
-/* line 90, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-/* line 92, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-toggle {
+/* line 71, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .dropdown.open .dropdown-toggle {
   background: #f4dfc1;
 }
-/* line 95, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-toggle span.caret:after {
+/* line 74, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .dropdown.open .dropdown-toggle span.caret:after {
   border-top: none;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
   border-bottom: 10px solid #2f3275;
 }
-/* line 104, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu {
+/* line 83, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .dropdown.open .dropdown-menu {
   background: #f4dfc1;
+  left: auto;
+  right: 0px;
   width: 100%;
   border-radius: 0;
   margin: 2px 0px 2px 0px;
   border: 0;
+  min-width: 400px;
 }
-/* line 110, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu .divider {
+/* line 92, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .dropdown.open .dropdown-menu .divider {
   background: #2f3275;
 }
-/* line 113, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu li {
+/* line 95, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .dropdown.open .dropdown-menu li {
   font-size: 1.2em;
   padding-left: 15px;
 }
-/* line 116, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu li span {
+/* line 98, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .dropdown.open .dropdown-menu li span {
   font-family: "Roboto-Regular", sans-serif;
   color: #2f3275;
   white-space: normal;
   cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
 }
-/* line 121, sass/main/_main.scss */
-.wrapperUnasus .mainNavBar .nav.navbar-nav .dropdown.open .dropdown-menu li span:hover {
+/* line 107, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .dropdown.open .dropdown-menu li span:hover {
   background: none;
   font-family: "Roboto-Bold", sans-serif;
 }
 
-/* line 134, sass/main/_main.scss */
+/* line 121, sass/main/_main.scss */
 .content.container-fluid {
   max-width: 1021px;
   padding: 0;
   padding-top: 100px;
 }
 
-/* line 143, sass/main/_main.scss */
+/* line 130, sass/main/_main.scss */
 ul {
   list-style-image: url(assets/images/bullet.png);
   counter-reset: section;
 }
-/* line 146, sass/main/_main.scss */
+/* line 133, sass/main/_main.scss */
 ul li {
   background-position: 0px 100%;
   padding-left: 5px;
@@ -1872,13 +1846,13 @@ ul li {
   font-family: "Roboto-Regular", sans-serif;
 }
 
-/* line 158, sass/main/_main.scss */
+/* line 145, sass/main/_main.scss */
 ol {
   list-style-type: none;
   counter-reset: ol-counter;
   padding: 0;
 }
-/* line 163, sass/main/_main.scss */
+/* line 150, sass/main/_main.scss */
 ol li {
   background-position: 0px 100%;
   padding-left: 25px;
@@ -1887,7 +1861,7 @@ ol li {
   font-size: 1em;
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 173, sass/main/_main.scss */
+/* line 160, sass/main/_main.scss */
 ol li:before {
   font-weight: bold;
   margin-right: 6px;
@@ -1896,7 +1870,7 @@ ol li:before {
   counter-increment: ol-counter;
 }
 
-/* line 188, sass/main/_main.scss */
+/* line 175, sass/main/_main.scss */
 .wrapper {
   height: auto;
   margin: 0 auto;
@@ -1904,22 +1878,22 @@ ol li:before {
   position: relative;
 }
 
-/* line 195, sass/main/_main.scss */
+/* line 182, sass/main/_main.scss */
 .wrapperMargin {
   margin-bottom: 40px;
 }
 
-/* line 200, sass/main/_main.scss */
+/* line 187, sass/main/_main.scss */
 .hiddenAnimate {
   opacity: 0;
 }
 
-/* line 203, sass/main/_main.scss */
+/* line 190, sass/main/_main.scss */
 .visible {
   opacity: 1;
 }
 
-/* line 211, sass/main/_main.scss */
+/* line 198, sass/main/_main.scss */
 .content .iframeContent {
   position: fixed;
   width: 100%;
@@ -1929,7 +1903,7 @@ ol li:before {
   background: #2f2f2f;
   left: 0px;
 }
-/* line 220, sass/main/_main.scss */
+/* line 207, sass/main/_main.scss */
 .content .iframeContent .telaCheiaIframe {
   width: 100%;
   height: 100%;
@@ -1939,7 +1913,7 @@ ol li:before {
   top: 0px;
   bottom: 0px;
 }
-/* line 230, sass/main/_main.scss */
+/* line 217, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia {
   z-index: 999;
   border: 1px solid #e18f00;
@@ -1969,16 +1943,16 @@ ol li:before {
   opacity: 0.78;
   top: 1px;
 }
-/* line 262, sass/main/_main.scss */
+/* line 249, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:hover {
   background: #fbaf0b;
 }
-/* line 266, sass/main/_main.scss */
+/* line 253, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:active {
   background: #e28f01;
 }
 
-/* line 278, sass/main/_main.scss */
+/* line 265, sass/main/_main.scss */
 .btCreditos {
   border-radius: 5px;
   height: 30px;
@@ -1993,7 +1967,7 @@ ol li:before {
   line-height: 30px;
 }
 
-/* line 294, sass/main/_main.scss */
+/* line 281, sass/main/_main.scss */
 .modalCreditos {
   position: fixed;
   top: 0;
@@ -7907,8 +7881,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+  src: url("assets/fonts/glyphicon/glyphicons-halflings-regular.eot");
+  src: url("assets/fonts/glyphicon/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/glyphicon/glyphicons-halflings-regular.woff2") format("woff2"), url("assets/fonts/glyphicon/glyphicons-halflings-regular.woff") format("woff"), url("assets/fonts/glyphicon/glyphicons-halflings-regular.ttf") format("truetype"), url("assets/fonts/glyphicon/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
 /* line 24, sass/utilities/bootstrap/_glyphicons.scss */
 .glyphicon {

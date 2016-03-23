@@ -1,21 +1,17 @@
     {
         "_id": "5379f9c48b714fc104000133",
-        "courseName": "TESTE UNASUS",
-        "scoName": "TESTE UNASUS",
+        "courseName": "MÓDULO 1",
         "srcCaptivate":"",
         "scorm":false,
-        "unidades":[
+        "links":[
                 {
-                    "name": "Unidade 1",
-                    "idSection": 0
+                    "url": "Link 1"
                 },
                 {
-                    "name": "Unidade 2",
-                    "idSection": 30
+                    "url": "Link 2"
                 },
                 {
-                    "name": "Unidade 3",
-                    "idSection": 60
+                    "url": "Link 3"
                 }
         ],
         "teste":"",
@@ -25,14 +21,13 @@
                 "resources": [
 
 
-                    
-                
                  {
                         "template":"backgroundScroll",
                         "column": "col-xs-12 col-md-12",
                         "style":"",
                         "idSection":"0",
                         "capa":"capa",
+                        "unidade": "UN 1",  
                         "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img01.png",
                         "bgRatio":1,
                         "order":0
@@ -56,6 +51,7 @@
                         "style":"",
                         "idSection":"2",
                         "backgroundSRC":"",
+                        "unidade": "UN 2",
                         "images":[
                             {
                                 "styleDivImg": "height: 100%; width: 100%; background:url(curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img03.png) -70px -300px no-repeat",
@@ -361,10 +357,6 @@
                     },
 
 
-
-
-
-
                     {
                         "template": "magicSlider",
                         "column": "col-xs-12 col-md-12",
@@ -383,6 +375,29 @@
                             "padding" : 0
                         },
                         "order":42
+                    },
+
+                    {
+                        "template": "magicSlider",
+                        "column": "col-xs-12 col-md-12",
+                        "section":1,
+                        "type": "",
+                        "slides":[ 
+                            {
+                                "styleSection": "background: red"
+                            },
+                            {
+                                "styleSection": "background: black"        
+                            },
+                            {
+                                "styleSection": "background: black"        
+                            }
+                        ],
+                        "heightSlider": "",
+                        "styleObj": {
+                            "padding" : 0
+                        },
+                        "order":43
                     },
 
                 
