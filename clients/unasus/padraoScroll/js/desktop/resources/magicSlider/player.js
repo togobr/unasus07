@@ -41,44 +41,21 @@ define([
                 contentReady: function(e) {
 	               	var controller = new ScrollMagic.Controller(),
 	               		nSlides = recurso.data.slides.length,
-	               		teste = [], 
 	               		n = 0;
 
-               		for (var i = nSlides - 1; i >= 0; i--) {
-               			n += 25;
-	               		var x = ".to(#" + id_slideContainer + ", 1,   {x: -"+n+"%})";
-	               		teste.push(x);
+					var wipeAnimation = new TimelineMax();
+
+					for (var i = nSlides - 2; i >= 0; i--) {	
+						n += 25;
+						wipeAnimation.add( TweenLite.to("#"+id_slideContainer, 1, {x: '-'+n+'%'}) )
 	               	};
 
-	               	console.log('foo teste', teste);
-
-	               	if (nSlides === 2) {
-	               		var wipeAnimation = new TimelineMax()
-						.to("#"+id_slideContainer, 1,   {x: "-25%"})
-	               	}else if(nSlides === 4){
-	               		var wipeAnimation = new TimelineMax()
-	               		.to("#"+id_slideContainer, 1,   {x: "-25%"})	// move in to first panel
-						.to("#"+id_slideContainer, 1,   {x: "-50%"})
-						.to("#"+id_slideContainer, 1,   {x: "-75%"})
-	               	}
-
-
-					// define movement of panels
-					// var wipeAnimation = new TimelineMax()
-					// 	// animate to second panel
-					// 	.to("#"+id_slideContainer, 1,   {x: "-25%"})	// move in to first panel
-					// 	// animate to third panel
-					// 	.to("#"+id_slideContainer, 1,   {x: "-50%"})
-					// 	// animate to forth panel
-					// 	.to("#"+id_slideContainer, 1,   {x: "-75%"})
-
-					// 	console.log('foo ScrollMagic', wipeAnimation);
 
 					// create scene to pin and link animation
 					new ScrollMagic.Scene({
 							triggerElement: "#"+recurso.data.id,
 							triggerHook: "onLeave",
-							duration: "500%"
+							duration: "100%"
 						})
 						.setPin('#'+id_pinContainer)
 						.setTween(wipeAnimation)
