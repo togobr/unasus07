@@ -33,6 +33,7 @@ define([
                         $modalCreditos = $("body").find(".modalCreditos");
                         $modalCreditos.appendTo("body");
 
+                    self.loadScreenPosition();
 
                     $btCreditos.on({
                         click:function(e){
@@ -86,15 +87,11 @@ define([
 
         // ************************* METHODS ********W*****************
 
-        // Player.Scorm.setScormValue('cmi.suspend_data', {
-        //     atividade: {
-        //         teste : 0
-        //     }
-        // });
+        this.loadScreenPosition = function() {
+            var screenPosition = Player.Scorm.getScormValue('cmi.suspend_data').screenPosition || {};
+                posY = screenPosition.posY || 0;
 
-
-        this.teste = function() {
-            var player = this;
+            $(document).scrollTop(posY)
         }
 
     }

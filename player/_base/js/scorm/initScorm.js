@@ -1,7 +1,8 @@
 define([], function() {
     'use strict';
     var initScorm = function() {
-        var config = Player.Config.general.scorm,
+        var self = this,
+            config = Player.Config.general.scorm,
             wrapper = Player.Scorm.Wrapper,
             scorm = Player.Helpers.getQueryVariable('scorm') === 'false' ? false : true,
             suspendedData;
@@ -38,72 +39,45 @@ define([], function() {
 
         if (scorm === false) return;
 
+
+        console.log('foo scorm', scorm);
+
         wrapper.doLMSInitialize();
         Player.Scorm.readScormVars();
 
         suspendedData = Player.Scorm.getScormValue('cmi.suspend_data');
 
-        $.each(suspendedData.atividades || {}, function(key, item) {
-            var atividade = Player.Helpers.findRecbyData('_id', key);
-
-            if (!atividade) return;
-
-            var atv = $('#' + key),
-                gabarito = suspendedData.atividades[key].gabarito,
-                resps = suspendedData.atividades[key].respostas,
-                tentativaPorQuestaoRealizada = suspendedData.atividades[key].tentativaPorQuestaoRealizada,
-                scoAtividade = suspendedData.atividades[key].scoAtividade,
-                certa = suspendedData.atividades[key].respostaCerta,
-                feedBackVisual = atv.find(".chkOrRadio"),
-                feedBackCircundado = suspendedData.atividades[key].feedBackCircundado,
-                arrayTeste = ["0", "1", "2", "3", "4"];
-
-
-            for (var i = resps.length - 1; i >= 0; i--) {
-                atv.find('[value="' + resps[i] + '"]').prop("checked", true);
-            }
-
-            for (var i = 0; i < (feedBackVisual.length); i++) {
-
-                var found = $.inArray(arrayTeste[i], gabarito);
-
-                if (found === -1) {
-                    if (feedBackCircundado) {
-                        feedBackVisual[i].parentNode.parentNode.setAttribute("class", "errado");
-                    }
-                } else {
-                    if (feedBackCircundado) {
-                        feedBackVisual[i].parentNode.parentNode.setAttribute("class", "certo");
-                    }
-                }
-            }
-
-            if (scoAtividade == "comNota") {
-                atv.find('.chkOrRadio').prop('disabled', true);
-                atv.find('.enviaResposta').hide();
-                atividade.tentativaPorQuestaoRealizada = tentativaPorQuestaoRealizada;
-            }
-        });
-
-        if (suspendedData['acertos']) {
-            var totalAcertos = suspendedData['acertos'].questoesCorretas;
-            // global var
-            questoesCorretas = totalAcertos;
-        }
+        // Player.Scorm.setScormValue('cmi.suspend_data', {
+        //     screenPosition: {
+        //         posX: 0,
+        //         posY: 5000
+        //     }
+        // });
 
         $(window).on({
             beforeunload: function() {
+                self.savePositionBeforeUnload();
                 Player.Scorm.saveScormData(true);
             },
 
             unload: function() {
+                self.savePositionBeforeUnload();
                 Player.Scorm.saveScormData(true);
             }
         });
 
-        Player.Elements.$content.trigger('scormReady');
 
-        console.log(Player);
+        self.savePositionBeforeUnload = function(){
+            var posY = $(document).scrollTop();
+
+            Player.Scorm.setScormValue('cmi.suspend_data', {
+                screenPosition: {
+                    posY: posY
+                }
+            });
+        }
+
+        Player.Elements.$content.trigger('scormReady');
     }
 
     return initScorm;
