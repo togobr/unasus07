@@ -84,7 +84,14 @@ define([
             });
         }
 
-        // ************************* METHODS ********W***************** 
+        // ************************* METHODS ********W*****************
+
+        // Player.Scorm.setScormValue('cmi.suspend_data', {
+        //     atividade: {
+        //         teste : 0
+        //     }
+        // });
+
 
         this.teste = function() {
             var player = this;
