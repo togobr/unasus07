@@ -37,6 +37,17 @@ body{
 				display: inline-block;
 				margin: 0;
 			}
+
+			.courseName{
+				border-right: 1px solid $normal;
+				border-right: 2px solid #2f3275;
+				padding-right: 5px;
+			}
+
+			.unidadeName{
+				font-size: 1.8em;
+				padding-left: 4px;
+			}
 		}
 
 		.dropdown{
