@@ -1,21 +1,18 @@
     {
         "_id": "5379f9c48b714fc104000133",
-        "courseName": "TESTE UNASUS",
+        "courseName": "MÓDULO 1",
         "scoName": "TESTE UNASUS",
         "srcCaptivate":"",
         "scorm":false,
-        "unidades":[
+        "links":[
                 {
-                    "name": "Unidade 1",
-                    "idSection": 0
+                    "url": "Link 1"
                 },
                 {
-                    "name": "Unidade 2",
-                    "idSection": 30
+                    "url": "Link 2"
                 },
                 {
-                    "name": "Unidade 3",
-                    "idSection": 60
+                    "url": "Link 3"
                 }
         ],
         "teste":"",

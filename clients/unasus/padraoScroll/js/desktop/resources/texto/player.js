@@ -25,7 +25,7 @@ define([], function() {
 			});
 
 
-			if((!recurso.$el.hasClass('title')) && (!recurso.$el.hasClass('subtitle'))){
+			if((!recurso.$el.hasClass('subtitle'))){
 				$underlineTitle.hide();
 			}
 		}

@@ -3643,45 +3643,31 @@ ol li:before {
 }
 /* line 69, sass/resources/texto/_style.scss */
 .texto.title .textoSolto {
+  font-size: 5.5em;
+  line-height: 1.1em;
+  text-align: center;
+}
+/* line 84, sass/resources/texto/_style.scss */
+.texto.subtitle {
+  margin-bottom: 20px;
+}
+/* line 86, sass/resources/texto/_style.scss */
+.texto.subtitle .textoSolto {
   font-size: 3em;
   line-height: 1.4em;
   font-family: "Roboto-Bold", sans-serif;
   color: #2f3275;
   text-transform: uppercase;
 }
-/* line 78, sass/resources/texto/_style.scss */
-.texto.subtitle {
-  margin-bottom: 20px;
-}
-/* line 80, sass/resources/texto/_style.scss */
-.texto.subtitle .wrapper {
-  display: table;
-  margin: initial;
-}
-/* line 84, sass/resources/texto/_style.scss */
-.texto.subtitle .textoSolto {
-  font-size: 3em;
-  line-height: 30px;
-  font-family: "Roboto-Bold", sans-serif;
-  color: #2f3275;
-  display: table-cell;
-  font-variant: small-caps;
-}
-/* line 92, sass/resources/texto/_style.scss */
-.texto.subtitle .underlineTitle {
-  display: table-cell;
-  bottom: 6px;
-  margin-left: 5px;
-}
 
-/* line 102, sass/resources/texto/_style.scss */
+/* line 115, sass/resources/texto/_style.scss */
 .texto.quadro {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
 
-/* line 108, sass/resources/texto/_style.scss */
+/* line 121, sass/resources/texto/_style.scss */
 .primeiroPlano .texto.hidden {
   opacity: 1;
 }
@@ -4287,7 +4273,7 @@ ol li:before {
   padding: 0;
   z-index: 1;
 }
-/* line 58, sass/resources/magicSlider/_style.scss */
+/* line 54, sass/resources/magicSlider/_style.scss */
 .magicSlider.timeline .sectionsScrollMagic:after {
   content: "";
   position: absolute;
