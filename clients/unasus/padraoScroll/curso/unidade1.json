@@ -966,17 +966,18 @@
                         "type": "",
                         "slides":[ 
                             {
-                                "styleSection": "background:url(curso/images/modulo4/unidade1/UNAS07_UNI01_bg_atividade.png)",
+                                "styleSection": "",
                                 "contentSection": "<iframe style='height:450px; width: 1025px; margin-top: -50px' src='curso/recursos/modulo4/unidade1/UNA07_REC09_atividade01/UNA07_REC09_atividade01.html'></iframe>"
                             },
                             {
-                                "styleSection": "background:url(curso/images/modulo4/unidade1/UNAS07_UNI01_bg_atividade.png)",
+                                "styleSection": "",
                                 "contentSection": "<iframe style='height:450px; width: 1025px; margin-top: -50px' src='curso/recursos/modulo4/unidade1/UNA07_REC09_atividade02/UNA07_REC09_atividade02.html'></iframe>"
                             }
                         ],
                         "heightSlider": "600px",
                         "styleObj": {
-                            "padding" : 0
+                            "padding" : 0,
+                            "background": "url(curso/images/modulo4/unidade1/UNAS07_UNI01_bg_atividade.png)"
                         },
                         "order":130
                     },
@@ -1050,38 +1051,39 @@
                         "speed": 100,
                         "type": "timeline",
                         "contentTop": "<b>CONHEÇA ALGUMAS INFORMAÇÔES SOBRE O PERFIL DE FUMANTES NO BRASIL, SEGUNDO O VIGITEL (2013):</b> ",
-                        "contentTop-style": "position: absolute; width: 800px; height: 50px; left: 50%; margin-left: -400px; top: 270px; font-size: 1.8em; color: #2A2E78; ",
+                        "contentTop-style": "width: 800px; font-size: 1.8em; color: #2A2E78; ",
                         "contentBottom": "Ainda, nos últimos anos houve uma leve queda do tabagismo entre homens, e estabilidade entre mulheres, o que sugere que a <b>cessação do tabagismo está aumentando entre homens</b> (Vigitel, 2009).",
-                        "contentBottom-style": "position: absolute; width: 800px; height: 50px; left: 50%; margin-left: -400px; bottom: 170px; font-size: 1.9em; color: #373737;",
+                        "contentBottom-style": "width: 800px; font-size: 1.9em; color: #373737;",
                         "slides":[ 
                             {
-                                "styleSection": "background:#efddb8",
+                                "styleSection": "background:#efddb8; height: 360px;",
                                 "contentSection": "",
                                 "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider01.png",
                                 "styleImg": "height:360px; width: 800px;"
                             },
                             {
                                 "contentSection": "",
-                                "styleSection": "background:#efddb8",
+                                "styleSection": "background:#efddb8; height: 360px;",
                                 "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider02.png",
                                 "styleImg": "height:360px; width: 800px;"
                             },
                             {
                                 "contentSection": "",
-                                "styleSection": "background:#efddb8",
+                                "styleSection": "background:#efddb8; height: 360px;",
                                 "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider03.png",
                                 "styleImg": "height:360px; width: 800px;"
                             },
                             {
                                 "contentSection": "",
-                                "styleSection": "background:#efddb8",
+                                "styleSection": "background:#efddb8; height: 360px;",
                                 "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider04.png",
                                 "styleImg": "height:360px; width: 800px;"
                             }
                         ],
-                        "heightSlider": "700px",
+                        "heightSlider": "auto",
                         "styleObj": {
-                            "padding" : 0
+                            "padding" : 0,
+                            "background": "#efddb8"
                         },
                         "order":144
                     },

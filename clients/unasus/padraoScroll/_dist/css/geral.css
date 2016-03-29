@@ -1744,7 +1744,18 @@ body {
   display: inline-block;
   margin: 0;
 }
-/* line 42, sass/main/_main.scss */
+/* line 41, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .courseBlock .courseName {
+  border-right: 1px solid #2f3275;
+  border-right: 2px solid #2f3275;
+  padding-right: 5px;
+}
+/* line 47, sass/main/_main.scss */
+.wrapperUnasus .mainNavBar .courseBlock .unidadeName {
+  font-size: 1.8em;
+  padding-left: 4px;
+}
+/* line 53, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown {
   position: relative;
   float: right;
@@ -1755,20 +1766,20 @@ body {
   list-style: none;
   margin-right: 20px;
 }
-/* line 51, sass/main/_main.scss */
+/* line 62, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown .dropdown-toggle {
   font-size: 2em;
   height: 100%;
   display: table;
   margin: -3px auto;
 }
-/* line 56, sass/main/_main.scss */
+/* line 67, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown .dropdown-toggle span {
   height: 50px;
   width: 50px;
   color: #2f3275;
 }
-/* line 60, sass/main/_main.scss */
+/* line 71, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown .dropdown-toggle span:before {
   position: absolute;
   top: 50%;
@@ -1776,18 +1787,18 @@ body {
   margin-top: -10px;
   margin-left: -10px;
 }
-/* line 71, sass/main/_main.scss */
+/* line 82, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown.open .dropdown-toggle {
   background: #f4dfc1;
 }
-/* line 74, sass/main/_main.scss */
+/* line 85, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown.open .dropdown-toggle span.caret:after {
   border-top: none;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
   border-bottom: 10px solid #2f3275;
 }
-/* line 83, sass/main/_main.scss */
+/* line 94, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown.open .dropdown-menu {
   background: #f4dfc1;
   left: auto;
@@ -1798,16 +1809,16 @@ body {
   border: 0;
   min-width: 400px;
 }
-/* line 92, sass/main/_main.scss */
+/* line 103, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown.open .dropdown-menu .divider {
   background: #2f3275;
 }
-/* line 95, sass/main/_main.scss */
+/* line 106, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown.open .dropdown-menu li {
   font-size: 1.2em;
   padding-left: 15px;
 }
-/* line 98, sass/main/_main.scss */
+/* line 109, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown.open .dropdown-menu li span {
   font-family: "Roboto-Regular", sans-serif;
   color: #2f3275;
@@ -1818,25 +1829,25 @@ body {
   white-space: nowrap;
   display: block;
 }
-/* line 107, sass/main/_main.scss */
+/* line 118, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown.open .dropdown-menu li span:hover {
   background: none;
   font-family: "Roboto-Bold", sans-serif;
 }
 
-/* line 121, sass/main/_main.scss */
+/* line 132, sass/main/_main.scss */
 .content.container-fluid {
   max-width: 1021px;
   padding: 0;
   padding-top: 50px;
 }
 
-/* line 127, sass/main/_main.scss */
+/* line 138, sass/main/_main.scss */
 ul {
   list-style-image: url(assets/images/bullet.png);
   counter-reset: section;
 }
-/* line 130, sass/main/_main.scss */
+/* line 141, sass/main/_main.scss */
 ul li {
   background-position: 0px 100%;
   padding-left: 5px;
@@ -1846,13 +1857,13 @@ ul li {
   font-family: "Roboto-Regular", sans-serif;
 }
 
-/* line 142, sass/main/_main.scss */
+/* line 153, sass/main/_main.scss */
 ol {
   list-style-type: none;
   counter-reset: ol-counter;
   padding: 0;
 }
-/* line 147, sass/main/_main.scss */
+/* line 158, sass/main/_main.scss */
 ol li {
   background-position: 0px 100%;
   padding-left: 25px;
@@ -1861,7 +1872,7 @@ ol li {
   font-size: 1em;
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 157, sass/main/_main.scss */
+/* line 168, sass/main/_main.scss */
 ol li:before {
   font-weight: bold;
   margin-right: 6px;
@@ -1870,7 +1881,7 @@ ol li:before {
   counter-increment: ol-counter;
 }
 
-/* line 172, sass/main/_main.scss */
+/* line 183, sass/main/_main.scss */
 .wrapper {
   height: auto;
   margin: 0 auto;
@@ -1878,22 +1889,22 @@ ol li:before {
   position: relative;
 }
 
-/* line 179, sass/main/_main.scss */
+/* line 190, sass/main/_main.scss */
 .wrapperMargin {
   margin-bottom: 40px;
 }
 
-/* line 184, sass/main/_main.scss */
+/* line 195, sass/main/_main.scss */
 .hiddenAnimate {
   opacity: 0;
 }
 
-/* line 187, sass/main/_main.scss */
+/* line 198, sass/main/_main.scss */
 .visible {
   opacity: 1;
 }
 
-/* line 195, sass/main/_main.scss */
+/* line 206, sass/main/_main.scss */
 .content .iframeContent {
   position: fixed;
   width: 100%;
@@ -1903,7 +1914,7 @@ ol li:before {
   background: #2f2f2f;
   left: 0px;
 }
-/* line 204, sass/main/_main.scss */
+/* line 215, sass/main/_main.scss */
 .content .iframeContent .telaCheiaIframe {
   width: 100%;
   height: 100%;
@@ -1913,7 +1924,7 @@ ol li:before {
   top: 0px;
   bottom: 0px;
 }
-/* line 214, sass/main/_main.scss */
+/* line 225, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia {
   z-index: 999;
   border: 1px solid #e18f00;
@@ -1943,16 +1954,16 @@ ol li:before {
   opacity: 0.78;
   top: 1px;
 }
-/* line 246, sass/main/_main.scss */
+/* line 257, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:hover {
   background: #fbaf0b;
 }
-/* line 250, sass/main/_main.scss */
+/* line 261, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:active {
   background: #e28f01;
 }
 
-/* line 262, sass/main/_main.scss */
+/* line 273, sass/main/_main.scss */
 .btCreditos {
   border-radius: 5px;
   height: 30px;
@@ -1967,7 +1978,7 @@ ol li:before {
   line-height: 30px;
 }
 
-/* line 278, sass/main/_main.scss */
+/* line 289, sass/main/_main.scss */
 .modalCreditos {
   position: fixed;
   top: 0;
@@ -4221,8 +4232,9 @@ ol li:before {
 /* line 1, sass/resources/magicSlider/_style.scss */
 .magicSlider {
   position: relative;
+  padding: 0px !important;
 }
-/* line 4, sass/resources/magicSlider/_style.scss */
+/* line 5, sass/resources/magicSlider/_style.scss */
 .magicSlider .pinContainer {
   margin-top: 100px;
   width: 100%;
@@ -4231,50 +4243,65 @@ ol li:before {
   -webkit-perspective: 1000;
   perspective: 1000;
 }
-/* line 12, sass/resources/magicSlider/_style.scss */
-.magicSlider .pinContainer .contentTop, .magicSlider .pinContainer .contentBottom {
+/* line 13, sass/resources/magicSlider/_style.scss */
+.magicSlider .pinContainer .contentTop {
+  padding: 20px 0px 20px 0px;
+  margin: 0 auto;
   z-index: 2;
 }
-/* line 16, sass/resources/magicSlider/_style.scss */
+/* line 18, sass/resources/magicSlider/_style.scss */
+.magicSlider .pinContainer .contentBottom {
+  position: relative;
+  height: auto;
+  bottom: -20px;
+  height: 1px;
+  margin: 0 auto;
+}
+/* line 27, sass/resources/magicSlider/_style.scss */
+.magicSlider .contentSliderContainer {
+  position: absolute;
+  top: 50%;
+  margin-top: -26px;
+  transform: translate(0%, -50%);
+  width: 100%;
+}
+/* line 35, sass/resources/magicSlider/_style.scss */
 .magicSlider .slideContainer {
   width: 400%;
   /* to contain 4 panels, each with 100% of window width */
   height: 100%;
-  margin-top: 50px;
 }
-/* line 21, sass/resources/magicSlider/_style.scss */
+/* line 39, sass/resources/magicSlider/_style.scss */
 .magicSlider .slideContainer .sectionsScrollMagic {
   position: relative;
   height: 100%;
   width: 25%;
   /* relative to parent -> 25% of 400% = 100% of window width */
   float: left;
-  background: #FFFFFF;
   text-align: center;
   display: table;
 }
-/* line 30, sass/resources/magicSlider/_style.scss */
+/* line 47, sass/resources/magicSlider/_style.scss */
 .magicSlider .slideContainer .sectionsScrollMagic .contentSection {
   display: table-cell;
   vertical-align: middle;
   height: 100%;
   width: 100%;
 }
-/* line 35, sass/resources/magicSlider/_style.scss */
+/* line 52, sass/resources/magicSlider/_style.scss */
 .magicSlider .slideContainer .sectionsScrollMagic .contentSection iframe {
   border: none;
 }
-/* line 40, sass/resources/magicSlider/_style.scss */
+/* line 57, sass/resources/magicSlider/_style.scss */
 .magicSlider .slideContainer .sectionsScrollMagic .sectionImg {
   position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%);
   padding: 0;
   z-index: 1;
 }
-/* line 54, sass/resources/magicSlider/_style.scss */
-.magicSlider.timeline .sectionsScrollMagic:after {
+/* line 70, sass/resources/magicSlider/_style.scss */
+.magicSlider.timeline .sectionsScrollMagic:before {
   content: "";
   position: absolute;
   height: 2px;

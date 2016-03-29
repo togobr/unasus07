@@ -1,14 +1,18 @@
-<div id="{{id}}" class="{{class}} {{type}} {{column}} rec" data-section="{{section}}" style="{{style}}">
-	<div class="pinContainer" id="pinContainer_{{id}}" style="height:{{heightSlider}}">
-		<div class="contentTop" style="{{contentTop-style}}">{{&contentTop}}</div>
-		<div class="contentBottom" style="{{contentBottom-style}}">{{&contentBottom}}</div>
-		<div class="slideContainer" id="slideContainer_{{id}}">	
-			{{#slides}}
-				<section class="sectionsScrollMagic" style="{{styleSection}}">
-					<div class="contentSection">{{&contentSection}}</div>
-					<img src="{{imgSrc}}" alt="" class="sectionImg {{columnSection}}" style="{{styleImg}}">
-				</section>
-			{{/slides}}
+<div id="{{id}}" class="{{class}} {{type}} {{column}} rec" data-section="{{section}}" style="">
+	<div class="pinContainer" id="pinContainer_{{id}}" style="{{style}}">
+		<div class="contentSliderContainer" style="height:{{heightSlider}}">
+			<div class="contentTop" style="{{contentTop-style}}">{{&contentTop}}</div>
+			
+			<div class="slideContainer" id="slideContainer_{{id}}">	
+				{{#slides}}
+					<section class="sectionsScrollMagic" style="{{styleSection}}">
+						<div class="contentSection">{{&contentSection}}</div>
+						<img src="{{imgSrc}}" alt="" class="sectionImg {{columnSection}}" style="{{styleImg}}">
+					</section>
+				{{/slides}}
+			</div>
+
+			<div class="contentBottom" style="{{contentBottom-style}}">{{&contentBottom}}</div>
 		</div>
 	</div>
 </div>	

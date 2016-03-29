@@ -1,5 +1,6 @@
 .magicSlider{
 	position: relative;
+	padding: 0px !important;
 
 	.pinContainer {
 		margin-top: 100px;
@@ -9,21 +10,37 @@
 		overflow: hidden;
 		-webkit-perspective: 1000;
 		        perspective: 1000;
-		.contentTop, .contentBottom{
+		.contentTop{
+			padding: 20px 0px 20px 0px;
+			margin: 0 auto;
 			z-index: 2;
 		}
+		.contentBottom{
+			position: relative;
+			height: auto;
+			bottom: -20px;
+			height: 1px;
+			margin: 0 auto;
+		}
 	}
+
+	.contentSliderContainer{
+		position: absolute;
+		top: 50%;
+		margin-top: -26px;
+		transform: translate(0%, -50%);
+		width: 100%;
+	}
+
 	.slideContainer {
 		width: 400%; /* to contain 4 panels, each with 100% of window width */
 		height: 100%;
-		// margin-top: 50px;
 
 		.sectionsScrollMagic {
 			position: relative;
 			height: 100%;
 			width: 25%; /* relative to parent -> 25% of 400% = 100% of window width */
 			float: left;
-			background: #FFFFFF;
 			text-align: center;
 			display: table;
 
@@ -39,9 +56,8 @@
 
 			.sectionImg{
 				position: absolute;
-				top: 50%;
 				left: 50%;
-				transform: translate(-50%, -50%);
+				transform: translate(-50%);
 				padding: 0;
 				z-index: 1;
 			}
@@ -51,7 +67,7 @@
 
 	&.timeline{
 		.sectionsScrollMagic {
-			&:after{
+			&:before{
 				content: "";
 				position: absolute;
 				height: 2px;
