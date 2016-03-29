@@ -20,7 +20,8 @@ define([
 				id_pinContainer = recurso.$el.find('.pinContainer').attr('id'),
 				id_slideContainer = recurso.$el.find('.slideContainer').attr('id'),
 				screenHeightDesktop = $(window).height(),
-				screenHeightMobile = $(window).height();
+				screenHeightMobile = $(window).height(),
+				speed = recurso.data.speed;
 	
 			$.extend(true, this, new Player.Helpers.resourceExtend(this, arguments));
 
@@ -37,6 +38,8 @@ define([
             		'height': $(window).height() + 'px'
             	});
             });
+
+            console.log('foo slider recurso', speed);
 
 
 			Player.Elements.$content.on({
@@ -57,7 +60,7 @@ define([
 					new ScrollMagic.Scene({
 							triggerElement: '#'+recurso.data.id +' .pinContainer',
 							triggerHook: "onLeave",
-							duration: "100%"
+							duration: speed + "%"
 						})
 						.setPin('#'+id_pinContainer)
 						.setTween(wipeAnimation)
