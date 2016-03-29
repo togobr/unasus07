@@ -4251,7 +4251,6 @@ ol li:before {
   width: 400%;
   /* to contain 4 panels, each with 100% of window width */
   height: 100%;
-  margin-top: 50px;
 }
 /* line 21, sass/resources/magicSlider/_style.scss */
 .magicSlider .slideContainer .sectionsScrollMagic {
