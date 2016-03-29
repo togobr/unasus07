@@ -17,10 +17,14 @@ define([], function() {
 
 			Player.Elements.$content.on({
 				contentReady: function() {
-					recurso.$el.addClass("hidden").viewportChecker({
-		                classToAdd: 'visible ' + animate + ' animated '  , // Class to add to the elements when they are visible
-		                offset: 100    
-		            }); 
+
+					if (animate){
+						recurso.$el.addClass("hidden").viewportChecker({
+			                classToAdd: 'visible ' + animate + ' animated '  , // Class to add to the elements when they are visible
+			                offset: 100    
+			            }); 
+					}
+					
 				}
 			});
 

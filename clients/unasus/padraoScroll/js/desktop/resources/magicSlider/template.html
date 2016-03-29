@@ -15,4 +15,15 @@
 			<div class="contentBottom" style="{{contentBottom-style}}">{{&contentBottom}}</div>
 		</div>
 	</div>
+
+	<div class="magicSliderMobile">	
+		<div class="contentTop">{{&contentTop}}</div>
+		{{#slides}}
+			<section class="sectionsScrollMagic" style="{{styleSection}}">
+				<div class="contentSection">{{&contentSection}}</div>
+				<img src="{{imgSrc}}" alt="" class="sectionImg {{columnSection}}" style="{{styleImg}}">
+			</section>	
+		{{/slides}}
+		<div class="contentBottom">{{&contentBottom}}</div>
+	</div>
 </div>	

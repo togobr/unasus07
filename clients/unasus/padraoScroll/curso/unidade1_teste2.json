@@ -4,21 +4,15 @@
         "scoName": "PREVENÇÃO E CUIDADOS ÀS DOENÇAS PREVALENTES EM HOMENS",
         "srcCaptivate":"",
         "scorm":false,
-        "links":[
+       "links":[
                {
-                   "url": "https://www.google.com.br/",
-                   "label": "Link 1",
-                   "iconURL": "http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-8/128/Accept-icon.png"
+                   "url": "Link 1"
                },
                {
-                   "url": "https://www.google.com.br/",
-                   "label": "Link 2",
-                   "iconURL": "http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-8/128/Accept-icon.png"
+                   "url": "Link 2"
                },
                {
-                   "url": "https://www.google.com.br/",
-                   "label": "Link 3",
-                   "iconURL": "http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-8/128/Accept-icon.png"
+                   "url": "Link 3"
                }
        ],
         "teste":"",
@@ -48,13 +42,9 @@
                         "style":"",
                         "idSection":"10",
                         "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_UNI1_sumario.png",
-                         "bgRatio":1,
+                        "bgRatio":1,
                         "order":2
                     },
-
-
-
-
 
                     {
                         "template":"backgroundScroll",
@@ -89,7 +79,7 @@
                         "backgroundSRC":"",
                         "images":[
                             {
-                                "styleDivImg": "height: 100%; width: 100%; background:url(curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img03.png) -70px 800px no-repeat",
+                                "styleDivImg": "height: 100%; width: 100%; background:url(curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img03.png) -70px -300px no-repeat",
                                 "div-bgRatio": 0.5
                             }
                         ],
@@ -105,7 +95,6 @@
                         "idSection":"50",
                         "backgroundSRC":"",
                         "images":[
-
                             {
                                 "imgBG":"curso/images/modulo4/unidade1/UNAS07_UNI01_imag02.png",
                                 "styleImg":"top: 0px; right: 0px; height: 610px;",
@@ -162,11 +151,13 @@
 
                      {
                         "template":"backgroundScroll",
-                        "bgRatio":1,
+                        "styleContainer": "padding-top: 0px",
                         "column": "col-xs-12 col-md-12",
-                        "style": "",
+                        "style": "z-index:1",
                         "idSection":"80",
-                        "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_UNI01_bg_atividade.png",
+                        "backgroundSRC":"",
+                        "styleContainer": "min-width: 100%",
+                         
                         "order":16
                     },
 
@@ -251,7 +242,7 @@
 
                             {
                                 "imgBG":"curso/images/modulo4/unidade1/UNAS07_UNI01_img14.png",
-                                "styleImg":"top: 0px; left: -110px;",
+                                "styleImg":"top: 0px; right: 0px;",
                                 "animate": "slideInLeft"
                             }
 
@@ -395,7 +386,7 @@
 
                             {
                                 "imgBG":"curso/images/modulo4/unidade1/UNAS07_UNI01_img19.png",
-                                "styleImg":"top: -90px; left: 0px;"
+                                "styleImg":"top: -90px; right: 0px;"
                             }
 
 
@@ -409,6 +400,7 @@
                         "styleObj": "",
                         "idSection":"210",
                         "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img16.png",
+                        "capa":"capa",
                         "bgRatio":1,
                         "order":39
                     },
@@ -461,7 +453,7 @@
                        "type": "normal",
                        "section":0,
                        "style":"height:130px",
-                       "order":41
+                       "order":42
                     },
 
                     {
@@ -470,161 +462,8 @@
                        "nSec":10,
                        "cor":"branco",
                        "style":"margin-top:10px",
-                       "order":42
+                       "order":44
                     },
-
-
-
-
-
-
-
-
-
-
-                  {
-                       "template": "texto",
-                       "column": "col-xs-0 col-md-12",
-                       "type": "normal",
-                       "section":10,
-                       "style":"height:30px",
-                       "order":43
-                    },
-
-
-                  {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-12",
-                        "type": "normal",
-                        "section":10,
-                        "content": "<p class='textoDestaque' style='font-size:1.4em; text-align:center;'> <b>Conheça como está organizado o conteúdo neste Interagindo:</b></p>",
-                        "order":44
-                    },
-
-                     {
-                       "template": "texto",
-                       "column": "col-xs-12 col-md-12",
-                       "type": "normal",
-                       "section":10,
-                       "style":"height:15px",
-                       "order":45
-                    },
-
-                    {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-4",
-                        "type": "normal",
-                        "class":"quadro right bottom",
-                        "style":"background-color:#FEE4B8; ",
-                        "section":10,
-                        "content": "<p class='textoDestaque' style='margin:8px 0; text-align:center;'><b>UNIDADE 1:</b><br/>Condições de vulnerabilidade na saúde do homem</p>",
-                        "order":46
-                    },
-
-                    {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-4",
-                        "type": "normal",
-                        "class":"quadro right bottom",
-                        "style":"background-color:#FEE4B8; ",
-                        "section":10,
-                        "content": "<p class='textoDestaque' style='margin:8px 0; text-align:center;'><b>UNIDADE 2:</b><br/>Aspectos epidemiológicos<br/>na população masculina</p>",
-                        "order":47
-                    },
-
-                     {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-4",
-                        "type": "normal",
-                        "class":"quadro bottom",
-                        "style":"background-color:#FEE4B8; ",
-                        "section":10,
-                        "content": "<p class='textoDestaque' style='margin:8px 0; text-align:center;'><b>UNIDADE 3:</b><br/>Estratégias de cuidado<br/>e atenção em rede</p>",
-                        "order":48
-                    },
-
-
-                     {
-                       "template": "texto",
-                       "column": "col-xs-12 col-md-12",
-                       "type": "normal",
-                       "section":10,
-                       "style":"height:40px",
-                       "order":49
-                    },
-
-                     {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-4",
-                        "type": "normal",
-                        "section":10,
-                        "content": "<p><ul style='list-style-image:url(css/assets/images/UNAS07_UNI1_bullet_flecha.png); margin-left: -10px;'><li><b style=' color:#2A2E78;'>Gênero, masculinidades e cuidado com a saúde</li><li>Alcoolismo, tabagismo e outras drogas<br/></b></li></ul></p><p><ul style='margin-left: 25px;'><li>Alcoolismo</li><li>Tabagismo</li><li>Outras drogas<br/></li></ul></p> <p><ul style='list-style-image:url(css/assets/images/UNAS07_UNI1_bullet_flecha.png); margin-left: -10px;'><li><b style=' color:#2A2E78;'>Obesidade e sedentarismo <br/></b></li></ul></p><p><ul style='margin-left: 25px;'><li>Obesidade</li><li>Sedentarismo<br/></li></ul></p> <p><ul style='list-style-image:url(css/assets/images/UNAS07_UNI1_bullet_flecha.png); margin-left: -10px;'><li><b style=' color:#2A2E78;'>Pressão alta, colesterol elevado, hiperglicemia <br/></b></li></ul></p><p><ul style='margin-left: 25px;'><li>Pressão alta </li><li>Colesterol elevado</li><li>Hiperglicemia<br/></li></ul></p> ",
-                        "order":50
-                    },
-
-
-                     {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-4",
-                        "type": "normal",
-                        "section":10,
-                        "content": "<p><ul style='list-style-image:url(css/assets/images/UNAS07_UNI1_bullet_flecha.png); margin-left: -10px; width: 350px;'><li><b style=' color:#2A2E78;'>Aspectos epidemiológicos na população masculina </li><li>Doenças cardiovasculares (DCV)<br/></b></li></ul></p><p><ul style='margin-left: 25px;'><li>Hipertensão arterial sistêmica (HAS) </li><li>Infarto agudo do miocárdio (IAM)<br/></li></ul></p><p><ul style='list-style-image:url(css/assets/images/UNAS07_UNI1_bullet_flecha.png); margin-left: -10px;'><li><b style=' color:#2A2E78;'>Diabetes Mellitus (DM)<br/></b></li></ul></p><p><ul style='list-style-image:url(css/assets/images/UNAS07_UNI1_bullet_flecha.png); margin-left: -10px;'><li><b style=' color:#2A2E78;'>Doenças Respiratórias Crônicas (DRC)<br/></b></li></ul></p><p><ul style='list-style-image:url(css/assets/images/UNAS07_UNI1_bullet_flecha.png); margin-left: -10px;'><li><b style=' color:#2A2E78;'>Neoplasias/tumores<br/></b></li></ul></p>",
-                        "order":51
-                    },
-
-
-                     {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-4",
-                        "type": "normal",
-                        "section":10,
-                        "content": "<p><ul style='list-style-image:url(css/assets/images/UNAS07_UNI1_bullet_flecha.png); margin-left: -10px; width: 350px;'><li><b style=' color:#2A2E78;'>Estratégias de cuidado e atenção em rede </li><li>Estratégias de prevenção primária e promoção à saúde <br/></b></li></ul></p><p><ul style='margin-left: 25px;'><li>Alimentação saudável </li><li>Prática corporal/atividades físicas </li><li>Prevenção e controle do tabagismo </li><li>Prevenção e controle do uso abusivo de álcool<br/></li></ul></p><p><ul style='list-style-image:url(css/assets/images/UNAS07_UNI1_bullet_flecha.png); margin-left: -10px;'><li><b style=' color:#2A2E78;'>Prevenção secundária, diagnóstico precoce, tratamento<br/></b></li></ul></p><p><ul style='list-style-image:url(css/assets/images/UNAS07_UNI1_bullet_flecha.png); margin-left: -10px;'><li><b style=' color:#2A2E78;'>Rede de Atenção à Saúde – RAS/SUS<br/></b></li></ul></p>",
-                        "order":52
-                    },
-
-
-                     {
-                       "template": "texto",
-                       "column": "col-xs-0 col-md-12",
-                       "type": "normal",
-                       "section":10,
-                       "style":"height:50px",
-                       "order":53
-                    },
-
-
-                    {
-                       "template": "texto",
-                       "column": "col-xs-0 col-md-6",
-                       "type": "normal",
-                       "section":10,
-                       "style":"height:30px",
-                       "order":54
-                    },
-
-
-                  {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-6",
-                        "type": "normal",
-                        "section":10,
-                        "content": "<p style='font-size:1.4em; text-align:right; color:#2a2e78;'> <b>Tenha um excelente estudo!</b></p>",
-                        "order":55
-                    },
-
-
-
-                   
-                    {
-                       "template":"botaoPular",
-                       "section":10,
-                       "nSec":20,
-                       "cor":"branco",
-                       "style":"margin-top:20px",
-                       "order":57
-                    },
-
-
 
 
 
@@ -1108,38 +947,29 @@
 
 
 
-                   
-
-                     {
-                        "template": "multimedia",
-                        "section":80,
-                        "src": "curso/recursos/modulo4/unidade1/UNA07_REC09_atividade01/UNA07_REC09_atividade01.html",
-                        "srcMobile":"curso/recursos/modulo4/unidade1/.png",
+                    {
+                        "template": "magicSlider",
                         "column": "col-xs-12 col-md-12",
+                        "section":80,
+                        "speed": 50,
+                        "type": "",
+                        "slides":[ 
+                            {
+                                "styleSection": "",
+                                "contentSection": "<iframe style='height:450px; width: 1025px; margin-top: -50px' src='curso/recursos/modulo4/unidade1/UNA07_REC09_atividade01/UNA07_REC09_atividade01.html'></iframe>"
+                            },
+                            {
+                                "styleSection": "",
+                                "contentSection": "<iframe style='height:450px; width: 1025px; margin-top: -50px' src='curso/recursos/modulo4/unidade1/UNA07_REC09_atividade02/UNA07_REC09_atividade02.html'></iframe>"
+                            }
+                        ],
+                        "heightSlider": "600px",
                         "styleObj": {
-
-                            "height": "450px",
-                            "padding":"0px",
-                            "margin-top":"-40px"
+                            "padding" : 0,
+                            "background": "url(curso/images/modulo4/unidade1/UNAS07_UNI01_bg_atividade.png)"
                         },
                         "order":130
                     },
-
-                      {
-                        "template": "multimedia",
-                        "section":80,
-                        "src": "curso/recursos/modulo4/unidade1/UNA07_REC09_atividade02/UNA07_REC09_atividade02.html",
-                        "srcMobile":"curso/recursos/modulo4/unidade1/.png",
-                        "column": "col-xs-12 col-md-12",
-                        "styleObj": {
-
-                            "height": "450px",
-                            "padding":"0px",
-                            "margin-top":"20px"
-                        },
-                        "order":132
-                    },
-
 
 
 
@@ -1653,14 +1483,14 @@
                    
                     {
                         "template": "texto",
-                        "column": "col-xs-12 col-md-8",
+                        "column": "col-xs-12 col-md-10",
                         "type": "normal",
                         "section":150,
                         "content": "<p>Observamos que os homens são mais ativos fisicamente que as mulheres, esse cenário pode estar relacionado às questões de gênero, uma vez que a socialização dos meninos está geralmente relacionada a esportes e competições. A partir disso, a prática de atividade física pode ser uma forma de aproximar os homens dos cuidados à saúde.</p>",
                         "styleObj": {
 
-                                    "top":"5px;"
-            
+                                    "top":"5px;",
+                                     "left":"-25px;"
                                     },
                         "order":248
                     },
@@ -1686,7 +1516,7 @@
                         "column": "col-xs-12 col-md-8",
                         "type": "normal",
                         "section":150,
-                        "style":"height:80px",
+                        "style":"height:150px",
                         "content": "",
                         "order":252
                     },
@@ -1882,7 +1712,7 @@
                         "column": "col-xs-12 col-md-7",
                         "type": "subtitle",
                         "section":180,
-                        "style":"top: -110px;",
+                        "style":"top: -50px;",
                         "content": "Pressão alta e consumo de sal",
                         "order":290
                     },
@@ -1892,7 +1722,7 @@
                         "template": "texto",
                         "column": "col-xs-12 col-md-8",
                         "type": "normal",
-                        "style":"top: -100px;",
+                        "style":"top: -40px;",
                         "section":180,
                         "content": "A ingestão excessiva de sódio, contido no sal de cozinha, tem sido correlacionada com a elevação da PA, e o brasileiro apresenta alto consumo, assim como de açúcar e gorduras.",
                         "order":296
@@ -1903,7 +1733,7 @@
                         "template": "texto",
                         "column": "col-xs-12 col-md-8",
                         "type": "normal",
-                        "style":"top: -90px;",
+                        "style":"top: -30px;",
                         "section":180,
                         "content": "<p class='textoDestaque' style='margin:20px 0;'><b>Veja algumas informações sobre o perfil da população em relação a sua percepção de consumo de sal:</b></p>",
                         "order":300
@@ -2095,6 +1925,16 @@
                         "content": "",
                         "order":360
                     },
+
+
+
+
+
+
+
+                    
+
+
 
 
                     {

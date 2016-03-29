@@ -2,11 +2,15 @@
 	position: relative;
 	padding: 0px !important;
 
+	.scrollmagic-pin-spacer{ //utilizado na hora de responsivar para desktop
+        display: block !important;
+    }
+
 	.pinContainer {
 		margin-top: 100px;
 		width: 100%;
 		height: 500px;
-		// height: 500px;
+		display: block;
 		overflow: hidden;
 		-webkit-perspective: 1000;
 		        perspective: 1000;
@@ -78,6 +82,10 @@
 				margin-top: -1px;
 			}
 		}
+	}
+
+	.magicSliderMobile{
+		display: none;
 	}
 }
 

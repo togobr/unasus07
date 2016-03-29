@@ -1,5 +1,5 @@
 .texto{
-	overflow: hidden;
+	// overflow: hidden;
 	.textoSolto{
 		font-size: $textFontSize;
 		font-family: $regular;
@@ -114,6 +114,37 @@
 
 .texto.quadro{
 	@include border-radius(5px);
+	
+	&.right{
+		&:before{
+			content: "";
+			position: absolute;
+			width: 21px;
+			height: 1px;
+			border-bottom: 3px dotted $normal;
+			right: -21px;
+			top: 50%;
+		}
+	}
+
+	&.bottom{
+		&:after{
+			content: "";
+			position: absolute;
+			width: 1px;
+			height: 27px;
+			border-left: 3px dotted $normal;
+			bottom: -27px;
+			left: 50%;
+		}
+	}
+
+
+
+	&.col-md-4{
+		width: 31.33333%;
+		margin: 10px;
+	}
 }
 
 

@@ -21,7 +21,7 @@ body{
 		border-bottom: 2px solid #FFFFFF;
 		padding-left: 20px;
 		
-		img{
+		.logoTopo{
 			float: right;
 			height: 35px;
 			margin: 6px 35px 0px 0px;
@@ -106,7 +106,8 @@ body{
 					li{
 						font-size: 1.2em;
 						padding-left: 15px;
-						span{
+						display: table;
+						a{
 							font-family: $regular;
 							color: $normal;
 							white-space: normal;
@@ -114,11 +115,18 @@ body{
 							overflow: hidden;
 							text-overflow: ellipsis;
 							white-space: nowrap;
-							display: block;
+							display: table-cell;
+							vertical-align: middle;
 							&:hover{
 								background: none;
 								font-family: $bold;
 							}
+						}
+						img{
+							display: inline;
+							height: 25px;
+							display: table-cell;
+							vertical-align: middle;
 						}
 					} 
 				}
