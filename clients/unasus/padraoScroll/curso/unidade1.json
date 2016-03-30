@@ -393,7 +393,7 @@
                         "template":"backgroundScroll",
                         "column": "col-xs-12 col-md-12",
                         "unidade": "UN 1",
-                        "style": "padding-bottom: 200px;",
+                        "style": "padding-bottom: 180px;",
                         "idSection":"210",
                         "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img16.png",
                         "bgRatio":1,

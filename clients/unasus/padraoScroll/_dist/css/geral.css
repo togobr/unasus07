@@ -4053,7 +4053,7 @@ ol li:before {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 177px;
+  height: 122px;
   border-top: 2px #f4dfc1 solid;
   background: #dab463;
 }
@@ -4061,7 +4061,7 @@ ol li:before {
 .botoesNav .avancarNav {
   line-height: 60px;
   position: absolute;
-  top: 60px;
+  top: 30px;
   right: 15px;
   width: 250px;
   height: 60px;
@@ -4095,7 +4095,7 @@ ol li:before {
 .botoesNav .voltarNav {
   line-height: 60px;
   position: absolute;
-  top: 60px;
+  top: 30px;
   left: 15px;
   width: 155px;
   height: 60px;
@@ -4361,58 +4361,58 @@ ol li:before {
 }
 
 @media (max-width: 1021px) {
-  /* line 14, sass/_mediaQuery.scss */
+  /* line 15, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .courseBlock {
     display: none;
   }
 
-  /* line 20, sass/_mediaQuery.scss */
+  /* line 21, sass/_mediaQuery.scss */
   .col-xs-0 {
     display: none !important;
   }
 
-  /* line 28, sass/_mediaQuery.scss */
+  /* line 29, sass/_mediaQuery.scss */
   .texto.title .textoSolto {
     font-size: 4em;
   }
-  /* line 34, sass/_mediaQuery.scss */
+  /* line 35, sass/_mediaQuery.scss */
   .texto.quadro.col-xs-12 {
     width: 100%;
     margin-left: 0;
   }
 
-  /* line 42, sass/_mediaQuery.scss */
+  /* line 43, sass/_mediaQuery.scss */
   .magicSlider {
     margin-top: 30px;
   }
-  /* line 45, sass/_mediaQuery.scss */
+  /* line 46, sass/_mediaQuery.scss */
   .magicSlider .scrollmagic-pin-spacer {
     display: none !important;
   }
-  /* line 49, sass/_mediaQuery.scss */
+  /* line 50, sass/_mediaQuery.scss */
   .magicSlider .pinContainer {
     display: none;
   }
-  /* line 52, sass/_mediaQuery.scss */
+  /* line 53, sass/_mediaQuery.scss */
   .magicSlider .magicSliderMobile {
     display: block;
   }
-  /* line 54, sass/_mediaQuery.scss */
+  /* line 55, sass/_mediaQuery.scss */
   .magicSlider .magicSliderMobile .sectionsScrollMagic {
     height: auto !important;
     padding: 10px;
     margin-bottom: 5px;
   }
-  /* line 58, sass/_mediaQuery.scss */
+  /* line 59, sass/_mediaQuery.scss */
   .magicSlider .magicSliderMobile .sectionsScrollMagic img {
     height: auto !important;
     width: 100% !important;
   }
-  /* line 63, sass/_mediaQuery.scss */
+  /* line 64, sass/_mediaQuery.scss */
   .magicSlider .magicSliderMobile .sectionsScrollMagic:before {
     content: none;
   }
-  /* line 68, sass/_mediaQuery.scss */
+  /* line 69, sass/_mediaQuery.scss */
   .magicSlider .magicSliderMobile .contentTop, .magicSlider .magicSliderMobile .contentBottom {
     text-align: center;
     font-family: "Roboto-Regular", sans-serif;
@@ -4420,101 +4420,104 @@ ol li:before {
     font-size: 1.5em;
   }
 
-  /* line 78, sass/_mediaQuery.scss */
+  /* line 79, sass/_mediaQuery.scss */
   .sliderResponsivo {
     height: auto !important;
   }
-  /* line 83, sass/_mediaQuery.scss */
+  /* line 84, sass/_mediaQuery.scss */
   .sliderResponsivo .rslides .contentSlider {
     padding: 15px 55px 15px 55px !important;
   }
-  /* line 88, sass/_mediaQuery.scss */
+  /* line 89, sass/_mediaQuery.scss */
   .sliderResponsivo .slider_nav {
     height: auto !important;
   }
 
-  /* line 97, sass/_mediaQuery.scss */
+  /* line 98, sass/_mediaQuery.scss */
   .backgroundScroll .imgBG, .backgroundScroll .divBG {
     opacity: .2;
   }
 
-  /* line 106, sass/_mediaQuery.scss */
+  /* line 107, sass/_mediaQuery.scss */
   .capa .contCapa {
     padding-left: 0;
   }
-  /* line 110, sass/_mediaQuery.scss */
+  /* line 111, sass/_mediaQuery.scss */
   .capa .nCapa {
     font-size: 1.5em;
     margin-top: 80px;
   }
-  /* line 116, sass/_mediaQuery.scss */
+  /* line 117, sass/_mediaQuery.scss */
   .capa .tituloCapa {
     font-size: 4em;
     font-weight: bold;
   }
-  /* line 121, sass/_mediaQuery.scss */
+  /* line 122, sass/_mediaQuery.scss */
   .capa .descCapa {
     margin: 0;
     margin-bottom: 130px;
   }
-  /* line 129, sass/_mediaQuery.scss */
+  /* line 130, sass/_mediaQuery.scss */
   .capa .subCapa .nCapa, .capa .subCapa .tituloCapa {
     margin-left: 0px;
   }
 
-  /* line 141, sass/_mediaQuery.scss */
+  /* line 142, sass/_mediaQuery.scss */
   .contLeft,
   .textoFinal {
     margin: 25px;
   }
 
-  /* line 147, sass/_mediaQuery.scss */
+  /* line 148, sass/_mediaQuery.scss */
   .textoDownload {
     margin-bottom: 15px;
   }
 
-  /* line 152, sass/_mediaQuery.scss */
+  /* line 153, sass/_mediaQuery.scss */
   .contRight {
     padding-right: 15px;
     padding-left: 15px;
   }
 
-  /* line 160, sass/_mediaQuery.scss */
+  /* line 161, sass/_mediaQuery.scss */
   .botoesNav .voltarNav {
     width: 65px !important;
   }
-  /* line 165, sass/_mediaQuery.scss */
+  /* line 166, sass/_mediaQuery.scss */
   .botoesNav .voltarNav span:before {
     left: 10px;
   }
-  /* line 169, sass/_mediaQuery.scss */
+  /* line 170, sass/_mediaQuery.scss */
   .botoesNav .voltarNav span b {
     display: none;
   }
-  /* line 175, sass/_mediaQuery.scss */
+  /* line 176, sass/_mediaQuery.scss */
   .botoesNav .avancarNav {
     width: 65px !important;
   }
-  /* line 180, sass/_mediaQuery.scss */
+  /* line 181, sass/_mediaQuery.scss */
   .botoesNav .avancarNav span:before {
     right: 10px;
   }
-  /* line 184, sass/_mediaQuery.scss */
+  /* line 185, sass/_mediaQuery.scss */
   .botoesNav .avancarNav span b {
     display: none;
   }
 
-  /* line 197, sass/_mediaQuery.scss */
+  /* line 198, sass/_mediaQuery.scss */
   .gavetaHor #tabsHor ul.ui-tabs-nav li {
     display: block;
   }
 
-  /* line 211, sass/_mediaQuery.scss */
+  /* line 212, sass/_mediaQuery.scss */
+  .multimedia {
+    left: 0 !important;
+  }
+  /* line 214, sass/_mediaQuery.scss */
   .multimedia img {
     display: block;
   }
-
-  /* line 216, sass/_mediaQuery.scss */
+  /* line 217, sass/_mediaQuery.scss */
   .multimedia iframe {
     display: none;
   }

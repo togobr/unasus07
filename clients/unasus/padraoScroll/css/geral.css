@@ -4053,7 +4053,7 @@ ol li:before {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 177px;
+  height: 122px;
   border-top: 2px #f4dfc1 solid;
   background: #dab463;
 }
@@ -4061,7 +4061,7 @@ ol li:before {
 .botoesNav .avancarNav {
   line-height: 60px;
   position: absolute;
-  top: 60px;
+  top: 30px;
   right: 15px;
   width: 250px;
   height: 60px;
@@ -4095,7 +4095,7 @@ ol li:before {
 .botoesNav .voltarNav {
   line-height: 60px;
   position: absolute;
-  top: 60px;
+  top: 30px;
   left: 15px;
   width: 155px;
   height: 60px;
