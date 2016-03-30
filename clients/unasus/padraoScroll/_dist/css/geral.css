@@ -1746,16 +1746,15 @@ body {
 }
 /* line 41, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .courseBlock .courseName {
-  border-right: 1px solid #2f3275;
-  border-right: 2px solid #2f3275;
   padding-right: 5px;
 }
-/* line 47, sass/main/_main.scss */
+/* line 45, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .courseBlock .unidadeName {
   font-size: 1.8em;
-  padding-left: 4px;
+  padding-left: 8px;
+  border-left: 2px solid #2f3275;
 }
-/* line 53, sass/main/_main.scss */
+/* line 52, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown {
   position: relative;
   float: right;
@@ -1766,20 +1765,20 @@ body {
   list-style: none;
   margin-right: 20px;
 }
-/* line 62, sass/main/_main.scss */
+/* line 61, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown .dropdown-toggle {
   font-size: 2em;
   height: 100%;
   display: table;
   margin: -3px auto;
 }
-/* line 67, sass/main/_main.scss */
+/* line 66, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown .dropdown-toggle span {
   height: 50px;
   width: 50px;
   color: #2f3275;
 }
-/* line 71, sass/main/_main.scss */
+/* line 70, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown .dropdown-toggle span:before {
   position: absolute;
   top: 50%;
@@ -1787,18 +1786,18 @@ body {
   margin-top: -10px;
   margin-left: -10px;
 }
-/* line 82, sass/main/_main.scss */
+/* line 81, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown.open .dropdown-toggle {
   background: #f4dfc1;
 }
-/* line 85, sass/main/_main.scss */
+/* line 84, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown.open .dropdown-toggle span.caret:after {
   border-top: none;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
   border-bottom: 10px solid #2f3275;
 }
-/* line 94, sass/main/_main.scss */
+/* line 93, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown.open .dropdown-menu {
   background: #f4dfc1;
   left: auto;
@@ -1809,17 +1808,17 @@ body {
   border: 0;
   min-width: 400px;
 }
-/* line 103, sass/main/_main.scss */
+/* line 102, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown.open .dropdown-menu .divider {
   background: #2f3275;
 }
-/* line 106, sass/main/_main.scss */
+/* line 105, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown.open .dropdown-menu li {
   font-size: 1.2em;
   padding-left: 15px;
   display: table;
 }
-/* line 110, sass/main/_main.scss */
+/* line 109, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown.open .dropdown-menu li a {
   font-family: "Roboto-Regular", sans-serif;
   color: #2f3275;
@@ -1831,32 +1830,34 @@ body {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 120, sass/main/_main.scss */
+/* line 119, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown.open .dropdown-menu li a:hover {
   background: none;
   font-family: "Roboto-Bold", sans-serif;
 }
-/* line 125, sass/main/_main.scss */
+/* line 124, sass/main/_main.scss */
 .wrapperUnasus .mainNavBar .dropdown.open .dropdown-menu li img {
   display: inline;
   height: 25px;
   display: table-cell;
   vertical-align: middle;
+  width: 26px;
+  height: 26px;
 }
 
-/* line 140, sass/main/_main.scss */
+/* line 141, sass/main/_main.scss */
 .content.container-fluid {
   max-width: 1021px;
   padding: 0;
   padding-top: 50px;
 }
 
-/* line 146, sass/main/_main.scss */
+/* line 147, sass/main/_main.scss */
 ul {
   list-style-image: url(assets/images/bullet.png);
   counter-reset: section;
 }
-/* line 149, sass/main/_main.scss */
+/* line 150, sass/main/_main.scss */
 ul li {
   background-position: 0px 100%;
   padding-left: 5px;
@@ -1866,13 +1867,13 @@ ul li {
   font-family: "Roboto-Regular", sans-serif;
 }
 
-/* line 161, sass/main/_main.scss */
+/* line 162, sass/main/_main.scss */
 ol {
   list-style-type: none;
   counter-reset: ol-counter;
   padding: 0;
 }
-/* line 166, sass/main/_main.scss */
+/* line 167, sass/main/_main.scss */
 ol li {
   background-position: 0px 100%;
   padding-left: 25px;
@@ -1881,7 +1882,7 @@ ol li {
   font-size: 1em;
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 176, sass/main/_main.scss */
+/* line 177, sass/main/_main.scss */
 ol li:before {
   font-weight: bold;
   margin-right: 6px;
@@ -1890,7 +1891,7 @@ ol li:before {
   counter-increment: ol-counter;
 }
 
-/* line 191, sass/main/_main.scss */
+/* line 192, sass/main/_main.scss */
 .wrapper {
   height: auto;
   margin: 0 auto;
@@ -1898,22 +1899,22 @@ ol li:before {
   position: relative;
 }
 
-/* line 198, sass/main/_main.scss */
+/* line 199, sass/main/_main.scss */
 .wrapperMargin {
   margin-bottom: 40px;
 }
 
-/* line 203, sass/main/_main.scss */
+/* line 204, sass/main/_main.scss */
 .hiddenAnimate {
   opacity: 0;
 }
 
-/* line 206, sass/main/_main.scss */
+/* line 207, sass/main/_main.scss */
 .visible {
   opacity: 1;
 }
 
-/* line 214, sass/main/_main.scss */
+/* line 215, sass/main/_main.scss */
 .content .iframeContent {
   position: fixed;
   width: 100%;
@@ -1923,7 +1924,7 @@ ol li:before {
   background: #2f2f2f;
   left: 0px;
 }
-/* line 223, sass/main/_main.scss */
+/* line 224, sass/main/_main.scss */
 .content .iframeContent .telaCheiaIframe {
   width: 100%;
   height: 100%;
@@ -1933,7 +1934,7 @@ ol li:before {
   top: 0px;
   bottom: 0px;
 }
-/* line 233, sass/main/_main.scss */
+/* line 234, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia {
   z-index: 999;
   border: 1px solid #e18f00;
@@ -1963,16 +1964,16 @@ ol li:before {
   opacity: 0.78;
   top: 1px;
 }
-/* line 265, sass/main/_main.scss */
+/* line 266, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:hover {
   background: #fbaf0b;
 }
-/* line 269, sass/main/_main.scss */
+/* line 270, sass/main/_main.scss */
 .content .iframeContent .fechartelacheia:active {
   background: #e28f01;
 }
 
-/* line 281, sass/main/_main.scss */
+/* line 282, sass/main/_main.scss */
 .btCreditos {
   border-radius: 5px;
   height: 30px;
@@ -1987,7 +1988,7 @@ ol li:before {
   line-height: 30px;
 }
 
-/* line 297, sass/main/_main.scss */
+/* line 298, sass/main/_main.scss */
 .modalCreditos {
   position: fixed;
   top: 0;
@@ -3697,9 +3698,9 @@ ol li:before {
   content: "";
   position: absolute;
   width: 1px;
-  height: 21px;
+  height: 27px;
   border-left: 3px dotted #2f3275;
-  bottom: -21px;
+  bottom: -27px;
   left: 50%;
 }
 /* line 144, sass/resources/texto/_style.scss */
@@ -4010,44 +4011,43 @@ ol li:before {
   margin-left: 355px;
   padding-left: 25px;
   color: #fff;
-  border-left: 3px solid #fff;
 }
-/* line 91, sass/resources/backgroundScroll/_style.scss */
+/* line 90, sass/resources/backgroundScroll/_style.scss */
 .capa .subCapa .contCapa, .capa .subCapa .nCapa, .capa .subCapa .tituloCapa, .capa .subCapa .descCapa {
   color: #2A2E78;
 }
-/* line 95, sass/resources/backgroundScroll/_style.scss */
+/* line 94, sass/resources/backgroundScroll/_style.scss */
 .capa .subCapa .nCapa, .capa .subCapa .tituloCapa {
   margin-left: 165px;
 }
-/* line 99, sass/resources/backgroundScroll/_style.scss */
+/* line 98, sass/resources/backgroundScroll/_style.scss */
 .capa .subCapa .descCapa {
   border-left: 3px solid #2A2E78;
 }
 
-/* line 105, sass/resources/backgroundScroll/_style.scss */
+/* line 108, sass/resources/backgroundScroll/_style.scss */
 .contContraCapa {
   display: table-cell;
   vertical-align: middle;
   color: #fff;
 }
-/* line 112, sass/resources/backgroundScroll/_style.scss */
+/* line 115, sass/resources/backgroundScroll/_style.scss */
 .contContraCapa .textoDownload {
   font-family: "Roboto-Bold", sans-serif;
   font-size: 1.6em;
 }
-/* line 117, sass/resources/backgroundScroll/_style.scss */
+/* line 120, sass/resources/backgroundScroll/_style.scss */
 .contContraCapa .textoFinal {
   font-family: "Roboto-Bold", sans-serif;
   font-size: 1.6em;
 }
-/* line 122, sass/resources/backgroundScroll/_style.scss */
+/* line 125, sass/resources/backgroundScroll/_style.scss */
 .contContraCapa .contRight {
   padding-right: 0;
   padding-left: 30px;
 }
 
-/* line 130, sass/resources/backgroundScroll/_style.scss */
+/* line 133, sass/resources/backgroundScroll/_style.scss */
 .botoesNav {
   position: absolute;
   bottom: 0;
@@ -4057,7 +4057,7 @@ ol li:before {
   border-top: 2px #f4dfc1 solid;
   background: #dab463;
 }
-/* line 141, sass/resources/backgroundScroll/_style.scss */
+/* line 144, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .avancarNav {
   line-height: 60px;
   position: absolute;
@@ -4070,7 +4070,7 @@ ol li:before {
   border-radius: 5px;
   background-color: #f4dfc1;
 }
-/* line 157, sass/resources/backgroundScroll/_style.scss */
+/* line 160, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .avancarNav span {
   line-height: normal;
   display: inline-block;
@@ -4080,18 +4080,18 @@ ol li:before {
   margin-right: 45px;
   color: #000;
 }
-/* line 173, sass/resources/backgroundScroll/_style.scss */
+/* line 176, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .avancarNav span b {
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 177, sass/resources/backgroundScroll/_style.scss */
+/* line 180, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .avancarNav span:before {
   position: absolute;
   right: 7px;
   font-size: 2.5em;
   top: 7px;
 }
-/* line 185, sass/resources/backgroundScroll/_style.scss */
+/* line 188, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .voltarNav {
   line-height: 60px;
   position: absolute;
@@ -4104,7 +4104,7 @@ ol li:before {
   border-radius: 5px;
   background-color: #f4dfc1;
 }
-/* line 201, sass/resources/backgroundScroll/_style.scss */
+/* line 204, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .voltarNav span {
   line-height: normal;
   display: inline-block;
@@ -4113,11 +4113,11 @@ ol li:before {
   margin-left: 45px;
   color: #7C7C7C;
 }
-/* line 213, sass/resources/backgroundScroll/_style.scss */
+/* line 216, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .voltarNav span b {
   font-family: "Roboto-Regular", sans-serif;
 }
-/* line 218, sass/resources/backgroundScroll/_style.scss */
+/* line 221, sass/resources/backgroundScroll/_style.scss */
 .botoesNav .voltarNav span:before {
   position: absolute;
   left: 7px;
@@ -4236,23 +4236,27 @@ ol li:before {
 .multimedia {
   position: relative;
 }
+/* line 3, sass/resources/multimedia/_style.scss */
+.multimedia iframe {
+  border: none;
+}
 
-/* line 5, sass/resources/multimedia/_style.scss */
+/* line 8, sass/resources/multimedia/_style.scss */
 .multimedia.noContent {
   border: 1px solid #b3b3b3;
 }
-/* line 6, sass/resources/multimedia/_style.scss */
+/* line 9, sass/resources/multimedia/_style.scss */
 .multimedia.noContent .glyphicon {
   display: block;
 }
 
-/* line 12, sass/resources/multimedia/_style.scss */
+/* line 15, sass/resources/multimedia/_style.scss */
 .multimedia.mobile {
   position: relative;
   margin: 10px;
 }
 
-/* line 17, sass/resources/multimedia/_style.scss */
+/* line 20, sass/resources/multimedia/_style.scss */
 .multimedia img {
   display: none;
   max-width: 470px;
@@ -4351,54 +4355,64 @@ ol li:before {
   display: none;
 }
 
+/* line 1, sass/_mediaQuery.scss */
+.col-md-0 {
+  display: none !important;
+}
+
 @media (max-width: 1021px) {
-  /* line 8, sass/_mediaQuery.scss */
+  /* line 14, sass/_mediaQuery.scss */
   .wrapperUnasus .mainNavBar .courseBlock {
     display: none;
   }
 
-  /* line 17, sass/_mediaQuery.scss */
+  /* line 20, sass/_mediaQuery.scss */
+  .col-xs-0 {
+    display: none !important;
+  }
+
+  /* line 28, sass/_mediaQuery.scss */
   .texto.title .textoSolto {
     font-size: 4em;
   }
-  /* line 23, sass/_mediaQuery.scss */
+  /* line 34, sass/_mediaQuery.scss */
   .texto.quadro.col-xs-12 {
     width: 100%;
     margin-left: 0;
   }
 
-  /* line 31, sass/_mediaQuery.scss */
+  /* line 42, sass/_mediaQuery.scss */
   .magicSlider {
     margin-top: 30px;
   }
-  /* line 34, sass/_mediaQuery.scss */
+  /* line 45, sass/_mediaQuery.scss */
   .magicSlider .scrollmagic-pin-spacer {
     display: none !important;
   }
-  /* line 38, sass/_mediaQuery.scss */
+  /* line 49, sass/_mediaQuery.scss */
   .magicSlider .pinContainer {
     display: none;
   }
-  /* line 41, sass/_mediaQuery.scss */
+  /* line 52, sass/_mediaQuery.scss */
   .magicSlider .magicSliderMobile {
     display: block;
   }
-  /* line 43, sass/_mediaQuery.scss */
+  /* line 54, sass/_mediaQuery.scss */
   .magicSlider .magicSliderMobile .sectionsScrollMagic {
     height: auto !important;
     padding: 10px;
     margin-bottom: 5px;
   }
-  /* line 47, sass/_mediaQuery.scss */
+  /* line 58, sass/_mediaQuery.scss */
   .magicSlider .magicSliderMobile .sectionsScrollMagic img {
     height: auto !important;
     width: 100% !important;
   }
-  /* line 52, sass/_mediaQuery.scss */
+  /* line 63, sass/_mediaQuery.scss */
   .magicSlider .magicSliderMobile .sectionsScrollMagic:before {
     content: none;
   }
-  /* line 57, sass/_mediaQuery.scss */
+  /* line 68, sass/_mediaQuery.scss */
   .magicSlider .magicSliderMobile .contentTop, .magicSlider .magicSliderMobile .contentBottom {
     text-align: center;
     font-family: "Roboto-Regular", sans-serif;
@@ -4406,116 +4420,106 @@ ol li:before {
     font-size: 1.5em;
   }
 
-  /* line 67, sass/_mediaQuery.scss */
+  /* line 78, sass/_mediaQuery.scss */
   .sliderResponsivo {
     height: auto !important;
   }
-  /* line 72, sass/_mediaQuery.scss */
+  /* line 83, sass/_mediaQuery.scss */
   .sliderResponsivo .rslides .contentSlider {
     padding: 15px 55px 15px 55px !important;
   }
-  /* line 77, sass/_mediaQuery.scss */
+  /* line 88, sass/_mediaQuery.scss */
   .sliderResponsivo .slider_nav {
     height: auto !important;
   }
 
-  /* line 83, sass/_mediaQuery.scss */
-  .col-xs-0 {
-    display: none !important;
-  }
-
-  /* line 91, sass/_mediaQuery.scss */
+  /* line 97, sass/_mediaQuery.scss */
   .backgroundScroll .imgBG, .backgroundScroll .divBG {
     opacity: .2;
   }
 
-  /* line 100, sass/_mediaQuery.scss */
+  /* line 106, sass/_mediaQuery.scss */
   .capa .contCapa {
     padding-left: 0;
   }
-  /* line 104, sass/_mediaQuery.scss */
+  /* line 110, sass/_mediaQuery.scss */
   .capa .nCapa {
     font-size: 1.5em;
     margin-top: 80px;
   }
-  /* line 110, sass/_mediaQuery.scss */
+  /* line 116, sass/_mediaQuery.scss */
   .capa .tituloCapa {
     font-size: 4em;
     font-weight: bold;
   }
-  /* line 115, sass/_mediaQuery.scss */
+  /* line 121, sass/_mediaQuery.scss */
   .capa .descCapa {
     margin: 0;
     margin-bottom: 130px;
   }
-  /* line 123, sass/_mediaQuery.scss */
+  /* line 129, sass/_mediaQuery.scss */
   .capa .subCapa .nCapa, .capa .subCapa .tituloCapa {
     margin-left: 0px;
   }
 
-  /* line 130, sass/_mediaQuery.scss */
-  .contraCapa {
-    padding-bottom: 200px;
-  }
-
-  /* line 135, sass/_mediaQuery.scss */
+  /* line 141, sass/_mediaQuery.scss */
   .contLeft,
   .textoFinal {
     margin: 25px;
   }
 
-  /* line 141, sass/_mediaQuery.scss */
+  /* line 147, sass/_mediaQuery.scss */
   .textoDownload {
     margin-bottom: 15px;
   }
 
-  /* line 146, sass/_mediaQuery.scss */
+  /* line 152, sass/_mediaQuery.scss */
   .contRight {
     padding-right: 15px;
     padding-left: 15px;
   }
 
-  /* line 154, sass/_mediaQuery.scss */
+  /* line 160, sass/_mediaQuery.scss */
   .botoesNav .voltarNav {
     width: 65px !important;
   }
-  /* line 159, sass/_mediaQuery.scss */
+  /* line 165, sass/_mediaQuery.scss */
   .botoesNav .voltarNav span:before {
     left: 10px;
   }
-  /* line 163, sass/_mediaQuery.scss */
+  /* line 169, sass/_mediaQuery.scss */
   .botoesNav .voltarNav span b {
     display: none;
   }
-  /* line 169, sass/_mediaQuery.scss */
+  /* line 175, sass/_mediaQuery.scss */
   .botoesNav .avancarNav {
     width: 65px !important;
   }
-  /* line 174, sass/_mediaQuery.scss */
+  /* line 180, sass/_mediaQuery.scss */
   .botoesNav .avancarNav span:before {
     right: 10px;
   }
-  /* line 178, sass/_mediaQuery.scss */
+  /* line 184, sass/_mediaQuery.scss */
   .botoesNav .avancarNav span b {
     display: none;
   }
 
-  /* line 191, sass/_mediaQuery.scss */
+  /* line 197, sass/_mediaQuery.scss */
   .gavetaHor #tabsHor ul.ui-tabs-nav li {
     display: block;
   }
 
-  /* line 205, sass/_mediaQuery.scss */
+  /* line 211, sass/_mediaQuery.scss */
   .multimedia img {
     display: block;
   }
 
-  /* line 210, sass/_mediaQuery.scss */
+  /* line 216, sass/_mediaQuery.scss */
   .multimedia iframe {
     display: none;
   }
 
-  /* line 222, sass/_mediaQuery.scss */
+  /* line 228, sass/_mediaQuery.scss */
   .palavraDestacadaInner {
     position: absolute;
     left: 0;
@@ -4525,56 +4529,56 @@ ol li:before {
     text-overflow: ellipsis;
   }
 
-  /* line 235, sass/_mediaQuery.scss */
+  /* line 241, sass/_mediaQuery.scss */
   #modalContent {
     padding-left: 0;
     padding-right: 0;
   }
 
-  /* line 240, sass/_mediaQuery.scss */
+  /* line 246, sass/_mediaQuery.scss */
   #modalContent p {
     padding-left: 0;
     padding-right: 0;
   }
 
-  /* line 245, sass/_mediaQuery.scss */
+  /* line 251, sass/_mediaQuery.scss */
   .btCreditos {
     width: auto;
   }
 
-  /* line 250, sass/_mediaQuery.scss */
+  /* line 256, sass/_mediaQuery.scss */
   #tabsHor, #tabsVert {
     display: none;
   }
 
-  /* line 253, sass/_mediaQuery.scss */
+  /* line 259, sass/_mediaQuery.scss */
   #tabsHorMobile, #tabsVertMobile {
     display: block;
   }
-  /* line 255, sass/_mediaQuery.scss */
+  /* line 261, sass/_mediaQuery.scss */
   #tabsHorMobile ul, #tabsVertMobile ul {
     padding: 0;
   }
-  /* line 258, sass/_mediaQuery.scss */
+  /* line 264, sass/_mediaQuery.scss */
   #tabsHorMobile .wrapperContentMobile, #tabsVertMobile .wrapperContentMobile {
     padding: 0;
     margin-bottom: 15px;
   }
-  /* line 261, sass/_mediaQuery.scss */
+  /* line 267, sass/_mediaQuery.scss */
   #tabsHorMobile .wrapperContentMobile .col-xs-12, #tabsVertMobile .wrapperContentMobile .col-xs-12 {
     padding: 0;
   }
-  /* line 264, sass/_mediaQuery.scss */
+  /* line 270, sass/_mediaQuery.scss */
   #tabsHorMobile .wrapperContentMobile img, #tabsVertMobile .wrapperContentMobile img {
     width: 100%;
   }
-  /* line 267, sass/_mediaQuery.scss */
+  /* line 273, sass/_mediaQuery.scss */
   #tabsHorMobile .wrapperContentMobile strong, #tabsVertMobile .wrapperContentMobile strong {
     font-family: "Roboto-Bold", sans-serif;
     font-size: 1.5em;
     line-height: 24px;
   }
-  /* line 272, sass/_mediaQuery.scss */
+  /* line 278, sass/_mediaQuery.scss */
   #tabsHorMobile .wrapperContentMobile p, #tabsVertMobile .wrapperContentMobile p {
     margin: 0px;
     font-family: "Roboto-Regular", sans-serif;

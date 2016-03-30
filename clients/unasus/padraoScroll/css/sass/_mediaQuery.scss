@@ -1,4 +1,11 @@
-  @media (max-width: 1021px)
+.col-md-0
+{
+    display: none !important;
+}
+
+//=============== MEDIA-QUERY =============== 
+
+@media (max-width: 1021px)
 {
     //MAIN
     .wrapperUnasus
@@ -9,6 +16,11 @@
                 display: none;
             }
         }
+    }
+
+    .col-xs-0
+    {
+        display: none !important;
     }
 
     //RECURSO - texto
@@ -79,11 +91,6 @@
             height: auto !important;
         }
     }
-
-    .col-xs-0
-    {
-        display: none !important;
-    }
     
     //RECURSO - backgroundScroll
     .backgroundScroll
@@ -129,7 +136,7 @@
     //RECURSO - contraCapa
     .contraCapa
     {
-        padding-bottom: 200px;
+        // padding-bottom: 200px;
     }
 
     .contLeft,
@@ -202,16 +209,15 @@
 
 
     //RECURSO - multimedia
-    .multimedia img
-    {
-        display: block;
+    .multimedia{
+        left: 0 !important;
+        img{
+            display: block;
+        }
+        iframe{
+            display: none;
+        }
     }
-
-    .multimedia iframe
-    {
-        display: none;
-    }
-
 
     //RECURSO - primeiroPlano
     .primeiroPlano

@@ -39,14 +39,13 @@ body{
 			}
 
 			.courseName{
-				border-right: 1px solid $normal;
-				border-right: 2px solid #2f3275;
 				padding-right: 5px;
 			}
 
 			.unidadeName{
 				font-size: 1.8em;
-				padding-left: 4px;
+				padding-left: 8px;
+				border-left: 2px solid #2f3275;
 			}
 		}
 

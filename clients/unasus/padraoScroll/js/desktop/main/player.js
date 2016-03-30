@@ -49,16 +49,16 @@ define([
 
                     if ($(window).width() <= 1021) {
                         $("body").find(".capa").css("height", "auto");
-                        $("body").find(".contContraCapa").css("display","table-row");
+                        // $("body").find(".contContraCapa").css("display","table-row");
                     
                     } else {
                         $("body").find(".capa").css({
                             "height": $(window).height() + "px"
                         });
-                        $("body").find(".contContraCapa").css("display","table-cell");
-                        $("body").find(".contraCapa").css({
-                            "height": $(window).height()- 177 + "px"
-                        });
+                        // $("body").find(".contContraCapa").css("display","table-cell");
+                        // $("body").find(".contraCapa").css({
+                        //     "height": $(window).height()- 177 + "px"
+                        // });
                     }
 
                     //invocando stellar (parallax)
@@ -72,15 +72,15 @@ define([
             $(window).resize(function() {
                 if ($(window).width() <= 1021) {
                     $("body").find(".capa").css("height", "auto");
-                    $("body").find(".contContraCapa").css("display","table-row");
+                    // $("body").find(".contContraCapa").css("display","table-row");
                 } else {
                     $("body").find(".capa").css({
                         "height": $(window).height() + "px"
                     });
-                    $("body").find(".contContraCapa").css("display","table-cell");
-                    $("body").find(".contraCapa").css({
-                        "height": $(window).height()- 177 + "px"
-                    });
+                    // $("body").find(".contContraCapa").css("display","table-cell");
+                    // $("body").find(".contraCapa").css({
+                    //     "height": $(window).height()- 177 + "px"
+                    // });
                 }
             });
         }
