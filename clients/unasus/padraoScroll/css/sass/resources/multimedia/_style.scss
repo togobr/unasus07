@@ -1,5 +1,8 @@
 .multimedia{
 	position: relative;
+	iframe{
+		  border: none;
+	}
 }
 
 .multimedia.noContent{
@@ -16,6 +19,6 @@
 
 .multimedia img{
 	display:none;
-	  max-width: 470px;
-  margin: 0 auto;
+	max-width: 470px;
+	margin: 0 auto;
 }
