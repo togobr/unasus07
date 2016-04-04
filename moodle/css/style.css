@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('assets/fonts/roboto/Roboto-Regular/Roboto-Regular.eot?#iefix') format('embedded-opentype'),  
+         url('assets/fonts/roboto/Roboto-Regular/Roboto-Regular.woff') format('woff'), 
+         url('assets/fonts/roboto/Roboto-Regular/Roboto-Regular.ttf')  format('truetype'), 
+         url('assets/fonts/roboto/Roboto-Regular/Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-Bold';
+    src: url('assets/fonts/roboto/RobotoCondensed-Bold/RobotoCondensed-Bold.eot?#iefix') format('embedded-opentype'),  
+         url('assets/fonts/roboto/RobotoCondensed-Bold/RobotoCondensed-Bold.woff') format('woff'), 
+         url('assets/fonts/roboto/RobotoCondensed-Bold/RobotoCondensed-Bold.ttf')  format('truetype'), 
+         url('assets/fonts/roboto/RobotoCondensed-Bold/RobotoCondensed-Bold.svg#RobotoCondensed-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrapper{
+	position: relative;
+	width: 980px;
+	margin: 0 auto;
+}
+
+/************ TOP ************/
+.top{
+	position: relative;
+	width: 100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fee4b8+0,ffffff+72,ffffff+72,ffffff+73,ffffff+79,ffffff+100 */
+	background: #fee4b8; /* Old browsers */
+	background: -moz-linear-gradient(left,  #fee4b8 0%, #ffffff 72%, #ffffff 72%, #ffffff 73%, #ffffff 79%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #fee4b8 0%,#ffffff 72%,#ffffff 72%,#ffffff 73%,#ffffff 79%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #fee4b8 0%,#ffffff 72%,#ffffff 72%,#ffffff 73%,#ffffff 79%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee4b8', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+	padding: 15px 0px 15px 210px;
+}
+
+.top h2{
+	font-family: RobotoCondensed-Bold, sans-serif;
+	color: #2f3275;
+	font-size: 24px;
+	margin: 0;
+}
+
+/************ MIDDLE ************/
+.middle{
+	position: relative;
+	height: 500px;
+	margin-top: 30px;
+}
+
+.middle .leftContent{
+	position: relative;
+	height:100%;
+	width: 750px;
+	float: left;
+}
+
+.boxLeftContent{
+	position: relative;
+	height: 400px;
+	width: 700px;
+	background: #fee4b8;
+	border: 2px solid #cbccdd;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+.boxLeftContent h3{
+	position: absolute;
+	width: 250px;
+	left: 50%;
+	margin-left: -125px;
+	font-family: RobotoCondensed-Bold, sans-serif;
+	color: #2f3275;
+	text-transform: uppercase;
+}
+
+.boxBtns{
+	position: absolute;
+	top: 60px;
+}
+
+.boxBtns span{
+	font-family: RobotoCondensed-Bold, sans-serif;
+	color: #000000;
+}
+
+.boxLeftContent .btn{
+	position: relative;
+	height: 100px;
+	width: 140px;
+	font-family: RobotoCondensed-Bold, sans-serif;
+	color: #000000;
+}
+
+.boxLeftContent .btn .fundoBtn{
+	position: absolute;
+	bottom: 0px;	
+	left: 10px;
+}
+
+.boxLeftContent .btn .middleIcon{
+	position: absolute;
+	left: 37px;
+	z-index: 1;
+}
+
+.boxLeftContent .btn span{
+	position: absolute;
+	bottom: 0px;
+	height: 50px;
+	width: 127px;
+	text-align: center;
+	left: 8px;
+	text-transform: uppercase;
+}
+
+/*Edição dos botões manualmente, para deixar todos padronizados visualmente*/
+/*DESAFIO*/
+.btn.desafio .middleIcon{
+	top: 10px;
+	left: 47px;
+}
+.btn.desafio span{
+	top: 62px
+}
+
+/*INTERAGINDO*/
+.btn.interagindo .middleIcon{
+	top: 5px;
+	left: 27px;
+}
+.btn.interagindo span{
+	top: 52px;
+	left: 7px;
+}
+
+/*CONHECENDO*/
+.btn.conhecendo .middleIcon{
+	top: 13px;
+	left: 48px;
+}
+.btn.conhecendo span{
+	top: 52px;
+	left: 9px;
+}
+
+/*LIVRO*/
+.btn.livro .middleIcon{
+	top: 6px;
+	left: 52px;
+}
+.btn.livro span{
+	top: 52px;
+	left: 9px;
+}
+
+/*QUESTOES*/
+.btn.questoes .middleIcon{
+	top: -5px;
+	left: 50px;
+}
+.btn.questoes span{
+	top: 52px;
+	left: 9px;
+}
+
+
+.boxLeftContent .linha2{
+	float: left;
+}
+
+.boxLeftContent .linha3{
+	clear: both;
+	float: right;
+}
+
+.middle .rightContent{
+	position: relative;
+	float: left;
+	background: yellow;
+	width: 230px;
+}
+
+.rightContent img{
+	width: 100%;
+}
+
+
+/************ BOTTOM ************/
+.bottom{
+	position: relative;
+	height: 50px;
+	width: 100%;
+	background: #d9d8d8;
+}
+
+.bottom .icon{
+	float: left;
+}
