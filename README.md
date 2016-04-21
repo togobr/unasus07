@@ -1,9 +1,9 @@
-# unasus07
+# UNASUS
 
 ## Preparando a máquina para uso  
 
-1 - Realizar um fork do projeto
-2 - Realizar um clone do projeto para máquina local 
+1. Realizar um fork do projeto
+2. Realizar um clone do projeto para máquina local 
 
 
 ## Estrutura do projeto
@@ -21,5 +21,5 @@ Responsável por disponibilizar plugins externos que são utilizados no cursos.
 
 ## Visualizando o curso
 
-1 - 
+1.
 
