@@ -16,10 +16,22 @@ Responsável pelo layout do curso, e estilos/funcional dos recursos que os cont�
 Responsável pela parte funcional do curso. Inserção dos recurso, gravação SCORM, etc.
 
 ###### Vendor 
-Responsável por disponibilizar plugins externos que são utilizados no cursos.
+Responsável por disponibilizar plugins externos que são utilizados no curso.
 
 
 ## Visualizando o curso
 
-1.
+Para visualizar o curso, basta acessar o caminho clients/unasus/padraoScroll/?aula=curso/unidade1.json.
+
+Neste arquivo "unidade1.json", se encontra a construção de todo o conteúdo da unidade. 
+Para o pessoal que for trabalhar com a inserção dos recursos, diagramação, trabalhará apenas esse arquivo.
+
+
+
+
+
+
+
+
+
 
