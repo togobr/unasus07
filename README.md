@@ -73,7 +73,7 @@ A fins de performance, o projeto passa por um processo chamado de "build", que r
 
 ## Como proceder?
 
-Para realizar o * * build * *, precisamos instalar um automatizador de tarefas chamado Grunt.js. Esta ferramenta, irá executar várias * *tasks* *, até criar os arquivos finais. 
+Para realizar o * build *, precisamos instalar um automatizador de tarefas chamado Grunt.js. Esta ferramenta, irá executar várias *tasks*, até criar os arquivos finais. 
 
 1. Instalar o nodejs
 2. Caso após a instalação do nodejs não conter o gerenciador de pacotes NPM, realize sua instalação também.
