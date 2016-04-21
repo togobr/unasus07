@@ -31,6 +31,12 @@
                    "url": "https://www.google.com.br/",
                    "label": "FALE COM O TUTOR",
                    "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_faleTutor.png"
+               },
+
+                {
+                   "url": "https://www.google.com.br/",
+                   "label": "CRÉDITOS",
+                   "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_creditos.png"
                }
        ],
         "teste":"",
@@ -42,9 +48,8 @@
 
                     
                 
-                 {
+                    {
                         "template":"backgroundScroll",
-                        "unidade": "UN 1",
                         "column": "col-xs-12 col-md-12",
                         "style":"",
                         "idSection":"0",
@@ -60,7 +65,7 @@
                         "style":"",
                         "idSection":"10",
                         "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_UNI1_sumario.png",
-                         "bgRatio":1,
+                        "bgRatio":1,
                         "order":2
                     },
 
@@ -167,7 +172,7 @@
                      {
                         "template":"backgroundScroll",
                         "bgRatio":1,
-                        "column": "col-xs-0 col-md-12",
+                        "column": "col-xs-12 col-md-12",
                         "style": "",
                         "idSection":"80",
                         "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_UNI01_bg_atividade.png",
@@ -340,7 +345,7 @@
 
                             {
                                 "imgBG":"curso/images/modulo4/unidade1/UNAS07_UNI01_img17.png",
-                                "styleImg":"top: -230px; left: 0px;",
+                                "styleImg":"top: -260px; left: 0px;",
                                 "animate": "slideInLeft"
                             }
 
@@ -389,17 +394,16 @@
                         "order":38
                     },
 
-                    {
+                  {
                         "template":"backgroundScroll",
                         "column": "col-xs-12 col-md-12",
                         "unidade": "UN 1",
-                        "style": "padding-bottom: 180px;",
+                        "style": "padding-bottom: 200px;",
                         "idSection":"210",
                         "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img16.png",
                         "bgRatio":1,
                         "order":39
                     },
-
 
 
                      
@@ -437,7 +441,7 @@
                        "column": "col-xs-12 col-md-12",
                        "section":0,
                        "tituloCapa":"<span style='font-size: .85em; color:#2a2e78;'>PREVENÇÃO E CUIDADOS ÀS DOENÇAS</span> <br> <span style='font-size: 1.2em; color:#2a2e78;'>PREVALENTES EM HOMENS</span>",
-                       "textoCapa":"<span style='color:#2a2e78;'>Anne Caroline Luz Grügtner da Silva<br>Márcia  Regina Kretzer<br>Nazaré Otília Nazario</span>",
+                       "textoCapa":"",
                        "order":40
                     },
 
@@ -686,7 +690,7 @@
                         "column": "col-xs-0 col-md-4",
                         "type": "normal",
                         "section":40,
-                        "style":"height:450px",
+                        "style":"height:1190px",
                         "content": "",
                         "order":69
                     },
@@ -696,43 +700,29 @@
                         "column": "col-xs-12 col-md-8",
                         "type": "normal",
                         "section":40,
-                        "content": "<p class='textoDestaque'> <b>VOCÊ JÁ SE PERGUNTOU POR QUE OS HOMENS BUSCAM MENOS OS SERVIÇOS DE SAÚDE DO QUE AS MULHERES?</b></p><p>Uma primeira resposta para essa pergunta é a <b>incompatibilidade do horário</b> de atendimento das unidades de saúde com o tempo livre dos homens, visto que durante o dia a maioria deles estão no trabalho.</p><p>Entretanto, limitar este desafio ao horário de atendimento é inadequado, visto que há <b>questões relevantes sob a perspectiva relacional de gênero</b> que devem ser observadas.</p><p style='font-size:1.2em; text-align:left; '><b>Vamos conversar um pouco mais sobre isso?</b></p>",
+                        "content": "<p class='textoDestaque'> <b>VOCÊ JÁ SE PERGUNTOU POR QUE OS HOMENS BUSCAM MENOS OS SERVIÇOS DE SAÚDE DO QUE AS MULHERES?</b></p><p>Uma primeira resposta para essa pergunta é a <b>incompatibilidade do horário</b> de atendimento das unidades de saúde com o tempo livre dos homens, visto que durante o dia a maioria deles estão no trabalho.</p><p>Entretanto, limitar este desafio ao horário de atendimento é inadequado, visto que há <b>questões relevantes sob a perspectiva relacional de gênero</b> que devem ser observadas.</p><p style='text-align:left; '><p>Vamos conversar um pouco mais sobre isso?</p>",
                         "order":70
                     },
 
-                     {
-                        "template": "texto",
-                        "column": "col-xs-12 col-md-8",
-                        "type": "normal",
-                        "section":40,
-                        "style":"height:50px",
-                        "content": "",
-                        "order":72
-                    },
-
-
+                  
 
                 
 
+
+
                     {
                         "template": "texto",
                         "column": "col-xs-12 col-md-8",
                         "type": "normal",
+                        "class":"quadro",
+                        "style":"background-color:#eed0a1; padding: 25px; margin-top: 20px;",
                         "section":40,
-                        "content": "<p class='textoDestaque'> <b>MASCULINIDADE:</b> CONJUNTO DE ATRIBUTOS, VALORES, FUNÇÕES E CONDUTAS QUE SE ESPERA DO HOMEM EM UMA DETERMINADA CULTURA.</p>",
+                        "content": "<p><b>Masculinidade:</b>conjunto de atributos, valores, funções e condutas que se espera do homem em uma determinada cultura.</p>",
+                        "animate": "slideInRight",
                         "order":74
                     },
 
-                    {
-                        "template": "texto",
-                        "column": "col-xs-0 col-md-4",
-                        "type": "normal",
-                        "section":40,
-                        "style":"height:800px",
-                        "content": "",
-                        "order":76
-                    },
-
+                   
 
 
                     {
@@ -1048,13 +1038,15 @@
                     {
                         "template": "multimedia",
                         "section":70,
-                        "src": "curso/recursos/modulo4/unidade1/UNA07_REC06_Consumo_alcool.png",
+                        "src": "curso/images/modulo4/unidade1/UNAS07_UNI01_img11.png",
                         "srcMobile":"curso/images/modulo4/unidade1/UNA07_REC06_Consumo_alcool.png",
                         "column": "col-xs-12 col-md-12",
+                        "iframeStyle": "height: 500px",
+                        "imgStyle": "margin-top: 0px; margin-bottom: 45px",
                         "styleObj": {
-
-                            "height": "480px",
-                            "padding":"0px"
+                            "height": "auto",
+                            "padding":"0px",
+                            "top":"20px"
                         },
                         "order":124
                     },
@@ -1073,16 +1065,21 @@
                         "template": "multimedia",
                         "section":70,
                         "src": "curso/recursos/modulo4/unidade1/UNA07_REC08_AlcoolismoV02/UNA07_REC08_AlcoolismoV02.html",
-                        "srcMobile":"curso/recursos/modulo4/unidade1/.png",
+                        "srcMobile":"curso/images/modulo4/unidade1/UNA07_alcoolismo.png",
                         "column": "col-xs-12 col-md-12",
+                        "iframeStyle": "height: 500px",
+                        "imgStyle": "margin-top: 0px; margin-bottom: 21px",
                         "styleObj": {
-
-                            "height": "500px",
+                            "height": "auto",
                             "padding":"0px",
-                            "margin-top":"20px"
+                            "top":"20px"
                         },
                         "order":128
                     },
+
+
+
+                   
 
 
 
@@ -1098,13 +1095,14 @@
                         "template": "multimedia",
                         "section":80,
                         "src": "curso/recursos/modulo4/unidade1/UNA07_REC09_atividade01/UNA07_REC09_atividade01.html",
-                        "srcMobile":"curso/recursos/modulo4/unidade1/.png",
-                        "column": "col-xs-0 col-md-12",
+                        "srcMobile":"curso/images/modulo4/unidade1/UNA07_atividades.png",
+                        "column": "col-xs-12 col-md-12",
+                         "iframeStyle": "height: 500px",
+                        "imgStyle": "margin-top: 0px; margin-bottom: 5px",
                         "styleObj": {
-
-                            "height": "450px",
+                            "height": "auto",
                             "padding":"0px",
-                            "margin-top":"-40px"
+                            "top":"-40px"
                         },
                         "order":130
                     },
@@ -1113,7 +1111,7 @@
                         "template": "multimedia",
                         "section":80,
                         "src": "curso/recursos/modulo4/unidade1/UNA07_REC09_atividade02/UNA07_REC09_atividade02.html",
-                        "srcMobile":"curso/recursos/modulo4/unidade1/.png",
+                        "srcMobile":"curso/images/modulo4/unidade1/.png",
                         "column": "col-xs-0 col-md-12",
                         "styleObj": {
 
@@ -1815,8 +1813,7 @@
                     },
 
                     
-
-                    {
+                        {
                         "template": "multimedia",
                         "section":170,
                         "src": "curso/recursos/modulo4/unidade1/UNA07_REC07_caixa_animada/UNA07_REC07_caixa_animada.html",
@@ -1901,7 +1898,7 @@
                         "class":"quadro",
                         "style":"background-color:#ffffff; top: -90px;",
                         "section":180,
-                        "content": "<p><ul><li>A frequência de indivíduos que consideram seu consumo de sal muito alto ou alto foi de 16,0% no total da população.</li><li>Esse consumo foi percebido maior entre homens (17,9%) do que entre mulheres (14,3%). (Vigitel, 2013).</li></ul></p> ",
+                        "content": "<p><ul><li>A frequência de indivíduos que consideram seu consumo de sal muito alto ou alto foi de 16,0% no total da população.</li><li>Esse consumo foi percebido maior entre homens (17,9%) do que entre mulheres (14,3%).<br/><br/>(Vigitel, 2013).</li></ul></p> ",
                         "order":304
                     },
 

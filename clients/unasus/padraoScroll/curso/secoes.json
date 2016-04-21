@@ -1,0 +1,116 @@
+{
+    "_id": "5379f9c48b714fc104000133",
+    "courseName": "PREVENÇÃO E CUIDADOS ÀS DOENÇAS PREVALENTES EM HOMENS",
+    "scoName": "",
+    "srcCaptivate":"",
+    "scorm":false,
+    "links":[
+            {
+               "url": "https://www.google.com.br/",
+               "label": "MIDIATECA",
+               "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_midiateca.png"
+            },
+            {
+               "url": "https://www.google.com.br/",
+               "label": "GUIA DO ALUNO",
+               "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_guiaAluno.png"
+            },
+            {
+               "url": "https://www.google.com.br/",
+               "label": "CRONOGRAMA",
+               "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_cronograma.png"
+            },
+
+            {
+               "url": "https://www.google.com.br/",
+               "label": "DÚVIDAS FREQUENTES",
+               "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_duvidas.png"
+            },
+
+            {
+               "url": "https://www.google.com.br/",
+               "label": "FALE COM O TUTOR",
+               "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_faleTutor.png"
+            },
+
+            {
+               "url": "https://www.google.com.br/",
+               "label": "CRÉDITOS",
+               "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_creditos.png"
+            }
+   ],
+
+    "slides": [{
+
+        "template": "slideScroll",
+        "resources": [
+                {
+                    "template":"backgroundScroll",
+                    "column": "col-xs-12 col-md-12",
+                    "style":"",
+                    "idSection":"0",
+                    "capa":"capa",
+                    "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img01.png",
+                    "bgRatio":1,
+                    "order":0
+                },
+
+
+                {
+                    "template":"backgroundScroll",
+                    "column": "col-xs-12 col-md-12",
+                    "styleObj": {
+                        "height":"202px"
+                    },
+                    "idSection":"30",
+                    "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_UNI1_fundo_titulo.png",
+                    "bgRatio":1,
+                    "order":6
+                },
+
+                {
+                    "template":"backgroundScroll",
+                    "column": "col-xs-12 col-md-12",
+                    "style":"",
+                    "idSection":"40",
+                    "backgroundSRC":"",
+                    "images":[
+                        {
+                            "styleDivImg": "height: 100%; width: 100%; background:url(curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img03.png) -70px 700px no-repeat",
+                            "div-bgRatio": 0.5
+                        }
+                    ],
+                    "order":8
+                },
+
+                {
+                    "template":"backgroundScroll",
+                    "styleContainer": "padding-top: 15px",
+                    "column": "col-xs-12 col-md-12",
+                    "style":"",
+                    "idSection":"50",
+                    "backgroundSRC":"",
+                    "images":[
+
+                        {
+                            "imgBG":"curso/images/modulo4/unidade1/UNAS07_UNI01_imag02.png",
+                            "styleImg":"top: 0px; right: 0px; height: 610px;",
+                            "animate": "slideInRight"
+                        }
+                    ],
+                    "order":10
+                },
+
+
+                {
+                    "template":"backgroundScroll",
+                    "column": "col-xs-12 col-md-12",
+                    "styleObj": "",
+                    "idSection":"100",
+                    "backgroundSRC":"",
+                    "styleContainer": "min-width: 100%; padding-top: 0px",
+                    "order":20
+                }
+        ]
+    }]
+}
