@@ -23,6 +23,7 @@ Responsável por disponibilizar plugins externos que são utilizados no curso.
 ## Visualizando o curso
 
 Para visualizar o curso, basta acessar o caminho clients/unasus/padraoScroll/?aula=curso/unidade1.json.
+**Obs: caso não for possível visualizar o curso, siga a etapa "Como proceder?", até a parte 4**
 
 Neste arquivo "unidade1.json", se encontra a construção de todo o conteúdo da unidade. 
 Para o pessoal que for trabalhar com a inserção dos recursos, diagramação, trabalhará apenas esse arquivo.
@@ -75,11 +76,11 @@ A fins de performance, o projeto passa por um processo chamado de "build", que r
 
 Para realizar o *build*, precisamos instalar um automatizador de tarefas chamado Grunt.js. Esta ferramenta, irá executar várias *tasks*, até criar os arquivos finais. 
 
-1. Instalar o nodejs
-2. Caso após a instalação do nodejs não conter o gerenciador de pacotes NPM, realize sua instalação também.
-3. Após a instalação do NPM, acesse a pasta **clients/unasus/padraoScroll**, e como super usuário, dê o comando npm install. Este comando, irá instalar todas as dependências utilizadas no projeto, entre eles, o nosso automatizador de tareras, o **GRUNT**.
+1. Instalar o **Nodejs**
+2. Caso após a instalação, o gerenciador de pacotes NPM não tiver sido instalado, realize sua instalação também.
+3. Após a instalação do NPM, acesse a pasta **clients/unasus/padraoScroll**, e como super usuário, dê o comando **npm install**. Este comando, irá instalar todas as dependências utilizadas no projeto, entre eles, o nosso automatizador de tareras, o **GRUNT**.
 4. Após instalação, execute o comando "grunt build". Este comando irá criar uma pasta chamada **_dist**, contendo todo o projeto. Caso for executado o comando mais de uma vez, ele apenas irá sobrescrever a pasta anterior.
-5. Com a saída pronta, é preciso testar. Caso estiver tudo certo, upar para o **Moodle**.
+5. Com a saída pronta, é preciso testar. Caso estiver tudo certo, "upar" para o **Moodle**.
 
 
 
