@@ -82,7 +82,7 @@ Para realizar o * * build * *, precisamos instalar um automatizador de tarefas c
 5. Com a saída pronta, é preciso testar. Caso estiver tudo certo, upar para o **Moodle**.
 
 
-See ya!
+
 
 
 
