@@ -32,11 +32,11 @@ Para o pessoal que for trabalhar com a inserção dos recursos, diagramação, t
 
 **Conceitos utilizados e para fins didáticos**
 
-- BackBone.js para a estruturação do projeto.
-- http://backbonejs.org/
+1. BackBone.js para a estruturação do projeto.
+  1. http://backbonejs.org/
 
-- Mustache.js utilizado nos templates dos recursos
-- https://mustache.github.io/
+1. Mustache.js utilizado nos templates dos recursos
+  1. https://mustache.github.io/
 
 
 ## Editando/criando recursos 
