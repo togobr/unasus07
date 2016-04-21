@@ -30,6 +30,14 @@ Para o pessoal que for trabalhar com a inserção dos recursos, diagramação, t
 
 # Trabalhando no projeto
 
+**Conceitos utilizados e para fins didáticos**
+BackBone.js para a estruturação do projeto.
+http://backbonejs.org/
+
+Mustache.js utilizado nos templates dos recursos
+https://mustache.github.io/
+
+
 ## Editando/criando recursos 
 
 Os recursos, se encontram na pasta **clients/unasus/padraoScroll/js/desktop/resources**.
@@ -37,6 +45,7 @@ Os recursos, se encontram na pasta **clients/unasus/padraoScroll/js/desktop/reso
 É possível observar que em cada recurso, há 2 arquivos. Um **template.html** e outro **player.js**.
 O template.html é responsável pela sua estrutura HTML, enquanto o player.js trabalha com a parte funcional do recurso.
 
-É necessário ressaltar que caso seja criado um novo recurso, a pasta desse recurso deverá ser criada nesta mesta estrutura de diretório, e declarada dentro do arquivo main.js, seu se encontra na raiz da pasta **desktop**
+É necessário ressaltar que caso seja criado um novo recurso, sua pasta deverá ser criada contendo os 2 arquivos anteriormente mencionados, e declarado dentro do arquivo main.js, que se encontra na raiz da pasta **desktop**. Só observar como foi declarado os demais recursos, e fazer da mesma maneira.
+
 
 Para criar novos recursos ou editar os já existentes, é necessário a instalação de algumas ferramentas.
