@@ -35,7 +35,7 @@ Para o pessoal que for trabalhar com a inserção dos recursos, diagramação, t
 - BackBone.js para a estruturação do projeto.
 - http://backbonejs.org/
 
--Mustache.js utilizado nos templates dos recursos
+- Mustache.js utilizado nos templates dos recursos
 - https://mustache.github.io/
 
 
