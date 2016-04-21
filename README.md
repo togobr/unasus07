@@ -38,6 +38,8 @@ Para o pessoal que for trabalhar com a inserção dos recursos, diagramação, t
 1. Mustache.js utilizado nos templates dos recursos
   1. https://mustache.github.io/
 
+1. SASS utilizado para realizar os estilos dos recursos
+  1. http://sass-lang.com/
 
 ## Editando/criando recursos 
 
@@ -49,4 +51,10 @@ O template.html é responsável pela sua estrutura HTML, enquanto o player.js tr
 É necessário ressaltar que caso seja criado um novo recurso, sua pasta deverá ser criada contendo os 2 arquivos anteriormente mencionados, e declarado dentro do arquivo main.js, que se encontra na raiz da pasta **desktop**. Só observar como foi declarado os demais recursos, e fazer da mesma maneira.
 
 
-Para criar novos recursos ou editar os já existentes, é necessário a instalação de algumas ferramentas.
+## Editando o visual
+
+O estilo dos recursos, se encontram na pasta **clients/unasus/padraoScroll/css/sass/resources**.
+
+O estilo de todos os recursos, foram criados utilizando um pré processador de css, chamado SASS. Ou seja, antes de trabalhar diretamente no arquivo .scss, é necessário realizar a instalação de um framework que trabalha com essa linguagem, neste caso, o COMPASS. http://compass-style.org/
+
+O COMPASS, possui um comando chamado **watch**. Este comando fica monitorando se ouve alguma alteração do arquivo .scss, e automaticamente gera a saída em no arquivo **geral.css**, no qual está sendo importando no **index.html**; 
