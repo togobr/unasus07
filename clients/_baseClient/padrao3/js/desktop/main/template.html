@@ -1,0 +1,57 @@
+<div class="wrapper" id="{{_id}}">
+	<div class="ajuda" style="display: none"></div>
+
+	<div class="menuIndice" style="display: none">
+		<div class="avancarIndice"></div>
+		<div class="voltarIndice"></div>
+		<ol id="indice" style="right:0px">
+			{{#slides}}
+				<li class="slideIten indiceDesativado">
+					<div class="blackMask"></div>
+					<h3>{{name}}</h3>
+				</li>
+			{{/slides}}					
+		</ol>
+	</div>
+
+	<div class="menu">
+		<img class="logo" src="css/assets/images/logo.png" alt="logo">
+
+		<div class="btnsMenu">
+			<div class="botaoIndice">
+				<div class="iconP3 iconP3-indice"></div>
+				<span>Índice</span>
+			</div>
+			<div class="botaoAjuda">
+				<div class="iconP3 iconP3-ajuda"></div>
+				<span>Ajuda</span>
+			</div>
+		</div>	
+	</div>
+
+	<div class="top">
+		<div class="courseName"> <h5>{{courseName}}</h5> </div>
+		<span id="pipe">|</span>
+		<div class="scoName"> <h5>{{courseName}}</h5> </div>
+	
+		<div class="slideControls">
+			<div class="botaoVoltar"></div>
+
+			<div class="valorSlide">
+				<div class="valorSlideAtual">
+					<span id="sldAtual"></span>/<span id="sldTotal"></span>
+				</div>
+			</div>
+
+			<div class="botaoAvancar"></div>
+		</div>
+		
+	</div>
+
+	<div id="slider" class="swipe middle">
+		<div class="swipe-wrap"></div>
+	</div>
+	
+	</div>
+</div>
+

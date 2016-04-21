@@ -1,0 +1,96 @@
+.gavetaHor{
+	width:100%;
+	height:auto;
+	overflow:auto;
+}
+
+#tabsHorMobile{
+	display: none;
+}
+
+#tabsHor{
+	ul.ui-tabs-nav{
+		display: table;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		border-radius:2px;
+		width:100%;
+		li{
+			@include border-radius(5px);
+			position: relative;
+			height: 50px;
+			padding-left: 0;
+			display: table-cell;
+			background: $normal;
+			margin: 0;
+			a{
+				display: table;
+				height: 100%;
+				text-align: center;
+				width: 100%;
+				color: #fff;
+				outline: none;
+				text-decoration: none;
+				span{
+					display: table-cell;
+					vertical-align: middle;
+					font-family: $bold;
+					font-weight: 400;
+					font-size: 14px;
+				}
+			} 
+		}
+
+		.ui-tabs-active{
+			background: $selected; 
+			&:after{
+				content: '';
+				position: absolute;
+				border-style: solid;
+				border-width: 15px 10px 0 10px;
+				border-color: $selected transparent;
+				width: 0;
+				display: block;
+				z-index: 1;
+				bottom: -10px;
+				left: 44.5%;
+			}
+			span{
+				color: $normal !important;
+			}
+			&.visited{
+				background: $selected;
+				&:after{
+					border-color: $selected transparent;
+				}
+			}
+		}
+
+		.visited{
+			background: $visited; 
+			span{
+				color: $normal !important;
+			}
+		}
+	}
+
+	.ui-tabs-panel{
+		@include border-radius(5px);
+		border: 1px solid $normal;
+		margin-top: 5px;
+		background: #FFFFFF;
+		padding: 20px;
+		color: #000000;
+		width: 99.9%;
+		font-size: $textFontSize;
+		line-height: $textLineHeight;
+		font-family: $regular;
+
+		img{
+			display: inline-block;
+			width: 100%;
+		}
+	}
+}
+

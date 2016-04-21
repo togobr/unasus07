@@ -1,0 +1,56 @@
+/*
+#start
+	
+$r:{{color.r}};
+$g:{{color.g}};	
+$b:{{color.b}};	
+
+$rgb : $r + $g + $b;
+$baseColor: rgb($r, $g, $b); 	
+
+@function fontColor() {
+	@if $rgb/3 > 178{
+		@return #000000;
+	} @else {
+		@return #ffffff;
+	}
+}
+ 
+//-------------------------- FONTE ------------------------------- 
+$fontePadrao: {{font.name}}, sans-serif;
+
+//-------------------------- LOGO ------------------------------- 
+$logo: url("{{logo.url}}") no-repeat;
+
+//-------------------------- BACKGROUND SLIDE  ------------------------------- 
+$background_atividade: url(assets/images/background_atividade.png);
+
+#end
+*/
+
+
+//Mobiliza Studio:#461e6e
+$r:70;			
+$g:30;			
+$b:110;			
+
+$rgb : $r + $g + $b;
+$baseColor: rgb($r, $g, $b); 	
+$auxColor: #edd60b;
+
+@function fontColor() {
+	@if $rgb/3 > 178{
+		@return #000000;
+	} @else {
+		@return #ffffff;
+	}
+}
+ 
+//-------------------------- FONTE ------------------------------- 
+$fontePadrao: Verdana, sans-serif;
+
+//-------------------------- LOGO ------------------------------- 
+$logo: url("assets/images/logo.png") no-repeat;
+
+//-------------------------- BACKGROUND SLIDE  ------------------------------- 
+$background_atividade: url(assets/images/background_atividade.png);

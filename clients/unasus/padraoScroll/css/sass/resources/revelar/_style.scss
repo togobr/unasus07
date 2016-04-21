@@ -1,0 +1,218 @@
+.content{
+	.revelar{
+		// margin-bottom: $entreRecursos;
+		position: relative;
+		color: #FFFFFF;
+		padding: 0;
+		height: auto;
+
+		.fechaRevelar{
+			  position: absolute;
+			  top: 15px;
+			  right: 25px;
+			  height: 25px;
+			  width: 25px;
+			  font-size: 2em;
+		}
+
+		.contentCapa{
+			font-family: $bold;
+			font-size: 2.4em;
+			line-height: 30px;
+			padding: 2.5em;
+
+			&:before{
+				@include border-radius(5px);
+				content: '';
+				position: absolute;
+				border: 5px solid rgba(255,255,255,0.9);
+  				left: 20px;
+  				top: 20px;
+  				right: 20px;
+  				bottom: 20px;
+			}
+		}
+		.tagP{
+			padding: 1.5em;
+			height: auto; 
+			font-size: $textFontSize;
+			line-height: $textLineHeight;
+			font-family: $regular;
+			ul li{
+				font-size: 19px;
+				line-height: 26px;
+				font-family: $regular;
+			}
+		}
+		
+		.contentCapa, .tagP{
+			@include border-radius(5px);
+			width: 100%;
+			display: table;
+			text-align: center;
+			background: $normal;
+			background-size:cover; 
+			& > div{
+				height: 100%;
+				display: table;
+			}
+			span{
+				display: table-cell;
+				vertical-align: middle;
+			}
+		}
+
+		.clickType, .hoverType{
+			height: auto;
+			width: 100%;
+		}
+
+		//DROPDOWN 
+		.dropDownType{
+			display: none;
+			.boxTitle{
+				position: relative;
+				height: 51px;
+				width: 100%;
+
+				&.open{
+					.dropdown-toggle{
+						.openCloseIcon{
+							.icon-setaPreenchida_cima{
+								display: table-cell;
+							}
+							.icon-setaPreenchida_baixo{
+								display: none;
+							}
+						}
+					}
+				}
+
+				.dropdown-toggle{ 
+					-webkit-border-top-left-radius: 5px;
+					border-top-left-radius: 5px;
+					-webkit-border-top-right-radius: 5px;
+					border-top-right-radius: 5px;
+					width: 100%;
+					display: table;
+					height: 100%;
+					background: $normal;
+					text-align: center;
+					span{
+						font-size: $textFontSize;
+						line-height: $textLineHeight;
+						font-family: $bold;
+						color: #FFFFFF;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+						display: table-cell;
+						vertical-align: middle;
+						width: 100%;
+					}
+					.openCloseIcon{
+						-webkit-border-top-left-radius: 5px;
+						border-top-left-radius: 5px;
+						background: $normal;
+						height: 100%;
+						width: 52px;
+						float: left;
+						border-right: 3px solid #FFFFFF;
+						display: table;
+						text-align: center;
+						span{
+							display: table-cell;
+							vertical-align: middle;
+							&.icon-setaPreenchida_cima{
+								display: none;
+							}
+						}
+					}
+				}
+
+				.dropdown-menu{
+					@include border-top-radius(0);
+					width: 100%;
+					background: $fundoRevelar;
+					box-shadow: none;
+					border: none;
+					margin-top: 5px;
+					font-size: inherit !important;
+					padding: 10px 5px 0px 15px;
+					li{
+						font-size: 1.6em;
+						padding: 0.5em;
+						padding-top: 0;
+					}
+					span{
+						white-space: normal;
+					}
+					span:hover{
+						background: none;
+					}
+				}
+			}
+		}
+
+		//CLICK
+		.clickType{
+			display: none;
+		}
+
+		&.click{
+			cursor: pointer;
+			.clickType{
+				display: none;
+				.tagP{
+					display: none;
+				}
+			}
+
+			&.clicked{
+				.clickType{
+					.contentCapa{
+						display: none;
+					}
+					.tagP{
+						display: block;
+					}
+				}
+			}
+		}
+
+		//HOVER
+		.hoverType{
+			display: none;
+		}
+
+		&.hover{
+			.hoverType{
+				display: none;
+				.tagP{
+					display: none;
+				}
+			}
+
+			&.hovered{
+				.hoverType{
+					.contentCapa{
+						display: none;
+					}
+					.tagP{
+						display: block;
+					}
+				}
+			}
+		}
+
+		.normalType{
+			display: none;
+		}
+
+		&.normal{
+			.normalType{
+				display: block;
+			}
+		}
+	}
+}

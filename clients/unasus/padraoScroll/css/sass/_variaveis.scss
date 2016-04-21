@@ -1,0 +1,36 @@
+$r:218;    
+$g:180;    
+$b:99;  
+
+$rgb : $r + $g + $b;
+$baseColor: rgb($r, $g, $b);  
+
+$normal: #2f3275;
+$hover: #dab463;
+$active: $normal;
+$selected: $hover;
+$visited: #f4dfc1;
+$disabled: #ccc6bc;
+$fundoRevelar: #d6d6e5;
+
+@function fontColor() {
+  @if $rgb/3 > 178{
+    @return #000000;
+  } @else {
+    @return #ffffff;
+  }
+}
+ 
+//-------------------------- FONTE ------------------------------- 
+$fontePadrao: OpenSansRegular, sans-serif;
+
+//-------------------------- LOGO ------------------------------- 
+$logo: url("assets/images/logo.png") no-repeat;
+
+//-------------------------- BACKGROUND SLIDE  ------------------------------- 
+$background_atividade: url(assets/images/background_atividade.png);
+
+
+// --------------------------- Entre Recursos margin ---------------------------
+
+$entreRecursos: 40px;

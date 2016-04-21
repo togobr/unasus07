@@ -1,0 +1,16 @@
+<div id="{{id}}" class="{{class}} {{type}} {{column}} rec" data-section="{{section}}" style="{{style}}">
+	<div id="accordion">
+		{{#sanfonas}}
+		<h3>
+			<span class="icon-setaPreenchida_direita iconSanf"></span>
+			<span class="icon-setaPreenchida_baixo iconSanf"></span>
+			<span class="tituloSanfona">{{titulo}}</span>
+		</h3>
+			<div>
+				<p>
+				{{&content}}
+				</p>
+			</div>
+		{{/sanfonas}}	
+	</div>
+</div>

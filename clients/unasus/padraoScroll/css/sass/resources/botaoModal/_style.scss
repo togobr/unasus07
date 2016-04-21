@@ -1,0 +1,171 @@
+@import "../../_estiloPadrao.scss";
+
+.botaoModal{
+    &.btnRetangle{
+        .wrapperResource{
+            @include border-radius(5px);
+            color: white;
+            cursor: pointer;
+            z-index: 1;
+            height: 50px;
+            width: 225px;
+            font-family: $bold;
+            text-align: center;
+            background: $normal;
+            display: table;
+            margin: 0 auto;
+            font-size: 1.6em;
+            &:hover{
+                background: $hover;
+                .tagP{
+                    color: $normal;
+                }
+            }
+            &:active {
+                background: $active;
+                border: 3px solid rgba(0, 0, 0, .5);
+                .tagP{
+                    color: #FFFFFF;
+                }
+            }
+        }
+        &.visited{
+            .wrapperResource{
+                background: $visited;
+                .tagP{
+                    color: $normal;
+                } 
+            }
+        }
+
+        .tagP{
+            display: table-cell;
+            vertical-align: middle;
+            color: #FFFFFF;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal-vertical-centered {
+  transform: translate(0, 50%) !important;
+  -ms-transform: translate(0, 50%) !important; /* IE 9 */
+  -webkit-transform: translate(0, 50%) !important; /* Safari and Chrome */
+}
+
+
+
+.tip{
+  display: inline;
+
+  .tagP{
+    display: inline;
+      font-weight: bold;
+  }
+}
+
+
+#modal{
+  display: none;
+}
+
+
+.primeiroPlano{
+  // top: 15%;
+  // left: 15%;
+  // right: 15%;
+  // bottom: 15%;
+  overflow: auto;
+  position: fixed;
+    background: #ffffff;
+
+    max-width: 1021px;
+    max-height: 768px;
+    .texto{
+      .modalContent{
+      
+        .wrapper{
+          width: 100%;
+          max-width: 100%;
+      }
+      
+    }
+
+    }
+    
+}
+
+#modalContent {
+  position: relative;
+  padding: 40px;
+}
+
+.headerModal{
+    width: 100%;
+    height: 49px;
+}
+
+
+
+.tituloModal{
+  padding: 12px 30px 12px 30px;
+  font-size: 23px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: $regular;
+}
+
+.btnFechar{
+    position: absolute;
+  cursor: pointer;
+  right: 10px;
+  top: 10px;
+  z-index: 2;
+  font-size: 2.5em;
+  
+
+    span{
+      font-size: 47px;
+      color: #000000;
+      font-family: 'Entypo';
+
+    }
+  
+}
+
+
+
+// #modalContent p{
+//   padding-left: 60px;
+//   padding-right: 67px;
+//   padding-bottom: 10px;
+//   font-family: "Open Sans", sans-serif;
+//   color: #383737;
+//   line-height: 46px;
+// }
+
+
+
+//---------
+
+
+

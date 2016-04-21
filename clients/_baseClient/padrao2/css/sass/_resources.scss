@@ -1,0 +1,216 @@
+@import "resources/texto/style";
+@import "resources/caixaDestaque/style";
+@import "resources/imagem/style";
+@import "resources/primeiroPlano/style";
+@import "resources/gaveta/style";
+@import "resources/video/style";
+@import "resources/audio/style";
+@import "resources/multimedia/style";
+@import "resources/tooltip/style";
+@import "resources/indice/style";
+@import "../../../_base/css/sass/others/glyphicon";
+
+
+.texto, .primeiroPlano .tituloPrimeiroPlano, .atividade, .caixaDestaque, .imagem, .respostaCerta, .respostaErrada{
+    font-family: $fontePadrao;
+}
+
+.texto ul, .caixaDestaque ul{
+    list-style-type: none;
+    li{
+        &:before{
+            content: ">>";
+            color: $baseColor;
+            margin-right: 10px;
+            font-weight: bolder;
+      } 
+    }
+}
+
+.texto ol, .caixaDestaque ol{
+  li{
+    &:before{
+      color:$baseColor;
+    }
+  }
+}
+
+/* line 314, icons/*.png */
+.icons-sprite, .icons-atencao, .icons-avancar, .icons-avancarHover, .icons-bulletAzul, .icons-check, .icons-checkGaveta, .icons-checkGrande, .icons-destaque, .icons-dica, .icons-errado, .icons-erradoGrande, .icons-exemplo, .icons-importante, .icons-indiceAvancar, .icons-indiceAvancarHover, .icons-indiceVoltar, .icons-indiceVoltarHover, .icons-informacao, .icons-maisCircle, .icons-modal_fechar, .icons-objetivo, .icons-pratique, .icons-preparese, .icons-programese, .icons-saibamais, .icons-seta-direita-lista-slide, .icons-seta-direita-lista-slideHover, .icons-seta-esquerda-lista-slide, .icons-seta-esquerda-lista-slideHover, .icons-seta-menu-baixo, .icons-seta-menu-cima, .icons-setaDuplaDireita, .icons-setaDuplaEsquerda, .icons-voltar, .icons-voltarHover {
+  background: url('assets/images/icons-s59dee07877.png') no-repeat;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-atencao {
+  background-position: 0 -446px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-avancar {
+  background-position: -29px -769px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-avancarHover {
+  background-position: -29px -917px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-bulletAzul {
+  background-position: 0 -1326px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-check {
+  background-position: 0 -1105px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-checkGaveta {
+  background-position: 0 -1219px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-checkGrande {
+  background-position: 0 -671px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-destaque {
+  background-position: 0 -168px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-dica {
+  background-position: 0 -339px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-errado {
+  background-position: 0 -1125px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-erradoGrande {
+  background-position: 0 -617px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-exemplo {
+  background-position: 0 -57px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-importante {
+  background-position: 0 -396px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-indiceAvancar {
+  background-position: 0 -1167px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-indiceAvancarHover {
+  background-position: 0 -1234px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-indiceVoltar {
+  background-position: 0 -1193px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-indiceVoltarHover {
+  background-position: 0 -1255px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-informacao {
+  background-position: 0 -225px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-maisCircle {
+  background-position: 0 -1142px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-modal_fechar {
+  background-position: 0 -1302px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-objetivo {
+  background-position: 0 -503px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-pratique {
+  background-position: 0 -560px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-preparese {
+  background-position: 0 -111px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-programese {
+  background-position: 0 0;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-saibamais {
+  background-position: 0 -282px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-seta-direita-lista-slide {
+  background-position: 0 -1011px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-seta-direita-lista-slideHover {
+  background-position: 0 -725px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-seta-esquerda-lista-slide {
+  background-position: 0 -987px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-seta-esquerda-lista-slideHover {
+  background-position: 0 -747px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-seta-menu-baixo {
+  background-position: 0 -1336px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-seta-menu-cima {
+  background-position: 0 -1350px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-setaDuplaDireita {
+  background-position: 0 -1290px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-setaDuplaEsquerda {
+  background-position: 0 -1276px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-voltar {
+  background-position: 0 -843px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-voltarHover {
+  background-position: 0 -1035px;
+}

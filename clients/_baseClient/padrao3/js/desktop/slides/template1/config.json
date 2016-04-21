@@ -1,0 +1,160 @@
+{
+	"defaults": {
+
+	},
+
+	"resources": {
+		"allowed": [
+			"texto",
+			"caixaDestaque",
+			"imagem",
+			"video",
+			"multimedia",
+			"audio",
+			"atividade",
+       		"botaoPP"
+		],
+
+		"insert": [
+				{  
+		               "_id":"546239dcdb461a0d1d000010",
+		               "balao":{  
+		                  "active":false,
+		                  "subType":"left"
+		               },
+		               "content":"Template 1",
+		               "normal":{  
+		                  "active":false,
+		                  "subType":"comFundo"
+		               },
+		               "order":"0",
+		               "styleObj":{  
+		                  "left":"36px",
+		                  "top":"15px",
+		                  "width":"208px",
+		                  "position":"absolute"
+		               },
+		               "template":"texto",
+		               "titulo":{  
+		                  "active":true,
+		                  "subType":"primario"
+		               }
+		            },
+		            {  
+		               "_id":"5462397edb461a0d1d00000f",
+		               "balao":{  
+		                  "active":false,
+		                  "subType":"left"
+		               },
+		               "content":"Nullam massa metus, ornare eu vulputate vel, bibendum sit amet leo. Donec sed metus sit amet diam convallis egestas. Nunc dictum arcu congue orci sagittis, sed placerat diam mattis.&nbsp;<div><br></div><div>Nunc ac efficitur sapien. Etiam non neque tristique, pellentesque neque a, iaculis ante. Morbi sed enim ullamcorper, eleifend elit et, interdum felis. Morbi non diam tristique, ultricies massa quis, iaculis augue.</div>",
+		               "normal":{  
+		                  "subType":"semFundo",
+		                  "active":true
+		               },
+		               "order":"1",
+		               "styleObj":{  
+		                  "left":"45.578125px",
+		                  "top":"77px",
+		                  "width":"769.53125px",
+		                  "position":"absolute"
+		               },
+		               "template":"texto",
+		               "titulo":{  
+		                  "active":false,
+		                  "subType":"primario"
+		               }
+		            },
+		            {  
+		               "_id":"5462386ddb461a0d1d00000d",
+		               "baseImg":"",
+		               "border":false,
+		               "imgHeight":170,
+		               "legend":{  
+		                  "content":"Teste : Teste images",
+		                  "active":false
+		               },
+		               "order":"2",
+		               "src":"",
+		               "styleObj":{  
+		                  "position":"absolute",
+		                  "top":"218px",
+		                  "left":"95px",
+		                  "height":"170px",
+		                  "width":"277px"
+		               },
+		               "template":"imagem"
+		            },
+		            {  
+		               "_id":"54623908db461a0d1d00000e",
+		               "baseImg":"",
+		               "border":false,
+		               "imgHeight":170,
+		               "legend":{  
+		                  "active":false,
+		                  "content":"Teste : Teste images"
+		               },
+		               "order":"3",
+		               "src":"",
+		               "styleObj":{  
+		                  "position":"absolute",
+		                  "top":"218px",
+		                  "left":"490px",
+		                  "height":"170px",
+		                  "width":"277px"
+		               },
+		               "template":"imagem"
+		            },
+		            {  
+		               "_id":"5462367ddb461a0d1d00000b",
+		               "label":"",
+		               "modal":{  
+		                  "type":"ppPequeno",
+		                  "title":"Teste Modal",
+		                  "style":{  
+		                     "height":"150px"
+		                  },
+		                  "resources":[  
+		                     {  
+		                     }
+		                  ],
+		                  "id":null,
+		                  "styleObj":null
+		               },
+		               "order":"4",
+		               "styleObj":{  
+		                  "left":"95px",
+		                  "top":"426px",
+		                  "position":"absolute"
+		               },
+		               "template":"botaoPP",
+		               "type":"btnRetangle"
+		            },
+		            {  
+		               "_id":"546236a5db461a0d1d00000c",
+		               "label":"",
+		               "modal":{  
+		                  "type":"ppPequeno",
+		                  "title":"Teste Modal",
+		                  "style":{  
+		                     "height":"150px"
+		                  },
+		                  "resources":[  
+		                     {  
+		                     }
+		                  ],
+		                  "id":null,
+		                  "styleObj":null
+		               },
+		               "order":"5",
+		               "styleObj":{  
+		                  "position":"absolute",
+		                  "top":"426px",
+		                  "left":"490px"
+		               },
+		               "template":"botaoPP",
+		               "type":"btnRetangle"
+		            }
+		]
+	}
+}
+

@@ -1,0 +1,15 @@
+@import "estiloPadrao.scss";
+
+// _base
+@import "../../../_base/css/sass/base";
+
+// slides
+@import "_slides";
+
+// resources
+@import "_resources";
+
+// Estilos complementares para o editor
+@import "_clientsToEditor";
+
+

@@ -1,0 +1,92 @@
+.magicSlider{
+	position: relative;
+	padding: 0px !important;
+
+	.scrollmagic-pin-spacer{ //utilizado na hora de responsivar para desktop
+        display: block !important;
+    }
+
+	.pinContainer {
+		margin-top: 100px;
+		width: 100%;
+		height: 500px;
+		display: block;
+		overflow: hidden;
+		-webkit-perspective: 1000;
+		        perspective: 1000;
+		.contentTop{
+			padding: 20px 0px 20px 0px;
+			margin: 0 auto;
+			z-index: 2;
+		}
+		.contentBottom{
+			position: relative;
+			height: auto;
+			bottom: -20px;
+			height: 1px;
+			margin: 0 auto;
+		}
+	}
+
+	.contentSliderContainer{
+		position: absolute;
+		top: 50%;
+		margin-top: -26px;
+		transform: translate(0%, -50%);
+		width: 100%;
+	}
+
+	.slideContainer {
+		width: 400%; /* to contain 4 panels, each with 100% of window width */
+		height: 100%;
+
+		.sectionsScrollMagic {
+			position: relative;
+			height: 100%;
+			width: 25%; /* relative to parent -> 25% of 400% = 100% of window width */
+			float: left;
+			text-align: center;
+			display: table;
+
+			.contentSection{
+				display: table-cell;
+				vertical-align: middle;
+				height: 100%;
+				width: 100%;
+				iframe{
+					border: none;
+				}
+			}
+
+			.sectionImg{
+				position: absolute;
+				left: 50%;
+				transform: translate(-50%);
+				padding: 0;
+				z-index: 1;
+			}
+		}
+	}
+
+
+	&.timeline{
+		.sectionsScrollMagic {
+			&:before{
+				content: "";
+				position: absolute;
+				height: 2px;
+				width: 100%;
+				background: #DAB463;
+				left: 0;
+				top: 50%;
+				margin-top: -1px;
+			}
+		}
+	}
+
+	.magicSliderMobile{
+		display: none;
+	}
+}
+
+

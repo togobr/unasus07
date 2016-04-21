@@ -1,0 +1,24 @@
+<div id="{{_id}}" class="{{class}}" style="{{style}}">
+		<div class="gaveta">
+			<ul style="padding-left:0px">
+				{{#gavetas}}
+					<li id="{{parGaveta}}">
+						<strong>{{&nome}}</strong>
+					</li>
+				{{/gavetas}}
+			</ul>
+		</div>
+		<div class="bordaGavetaTexto gavetaTextoSelected">
+			<div class="gavetaTexto">
+				{{#gavetas}}
+					<div class="texto" data-gaveta="{{parGaveta}}" style="display:none">
+						<h1>{{&tituloAtividade}}</h1>
+						<p>{{&content}}</p>
+						<img src="{{urlImage}}" style="{{imageStyle}}">
+					</div>
+				{{/gavetas}}		
+			</div>
+		</div>
+</div> <!--atividadeGaveta-->
+
+

@@ -1,0 +1,36 @@
+.faixaCapa{
+	@include linear-gradient($baseColor, $baseColor, 0%, $corClara, 70%, $corEscura, 75%, darken($baseColor, $amountDarken*2), 100%);
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	border{
+		top: 1px solid #FFF;
+		bottom: 1px solid #FFF;
+	}
+	overflow: hidden;
+	.texto{
+		position: relative;
+		width: 550px;
+		height: 100%;
+		display: table;
+		font-family: OpenSansBold;
+		color: fontColor();
+  		vertical-align: middle;
+  		.tagP{
+  			line-height: 40px;
+  			margin: 70px 0px 70px 90px;
+  		}
+	}
+}
+
+.slideSubCapa{
+	.faixaCapa{
+		.texto{
+			margin: 0 auto;
+			.tagP{
+				margin-left: 0px;
+				line-height: 35px;
+			}
+		}
+	}
+}

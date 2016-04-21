@@ -1,0 +1,36 @@
+@import "../../_estiloPadrao.scss";
+
+.audio{
+      // margin-bottom: $entreRecursos;
+}
+
+
+.vjs-audio{
+
+    .vjs-big-play-button{
+        display:none;
+    }
+
+    .vjs-control-bar{
+        display:block !important;
+
+        .vjs-fullscreen-control{
+            display:none !important;
+        }
+
+        .vjs-volume-control{
+            margin-right: 20px;
+        }
+    }
+
+}
+
+.vjs-user-inactive{
+    .vjs-control-bar{
+         display:block !important;
+         visibility: visible !important;
+         opacity:1 !important;
+    }
+
+   
+}

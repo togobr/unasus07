@@ -1,0 +1,32 @@
+{
+	"defaults": {
+		"title": "Capas são Slides Especiais que Trazem o Título da Secção de Conteúdo."
+	},
+
+	"resources": {
+		"allowed": [
+			"imagem"
+		],
+
+		"insert": [
+			{  
+		         "baseImg":"css/assets/images/personagem.png",
+		         "border":false,
+		         "legend":{  
+		            "active":false,
+		            "content":"Teste : Teste images"
+		         },
+		         "imgHeight": 435,
+		         "src":"",
+		         "styleObj":{  
+		            "position":"absolute",
+		            "top":"71px",
+		            "left":"633px",
+		            "height":"435px",
+		            "width":"309px"
+		         },
+		         "template":"imagem"
+		    }
+		]
+	}
+}

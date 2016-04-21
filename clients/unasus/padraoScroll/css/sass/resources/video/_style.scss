@@ -1,0 +1,50 @@
+.video{
+	//margin-bottom: $entreRecursos !important;
+}
+
+.vjs-big-play-button{
+	// &:before{
+	// 	content: "";
+	// 	position: absolute;
+	// 	height: 100%;
+	// 	width: 100%;
+	// 	background: red;
+	// }
+}
+
+
+.vjs-default-skin{
+	.vjs-poster{
+		&:before{
+			content: "";
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			@include opacityBackground(0, 0, 0, 0.6);
+		}
+	} 
+
+	.vjs-big-play-button{
+		border: 0.1em solid #FFFFFF;
+		&:before{
+			color: #FFFFFF;
+		}
+	}
+
+	&:hover{
+		.vjs-big-play-button{ 
+			border: 0;
+			background: none;
+			box-shadow: none;
+			&:before{
+				content: "ASSISTA AO VÍDEO";
+				color: #FFFFFF;
+				line-height: 24px;
+				width: 150px;
+				font-size: 20px;
+				left: -48px;
+				top: 10px;
+			}
+		}
+	}
+}

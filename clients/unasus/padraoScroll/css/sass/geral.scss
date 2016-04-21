@@ -1,0 +1,19 @@
+@import "estiloPadrao.scss";
+
+@import "../../../../../player/_base/css/sass/global";
+@import "utilities/videojs";
+
+
+// main
+@import "main/main"; 
+
+// resources
+@import "_resources";
+
+//mediaQuery
+@import "_mediaQuery";
+
+@import "_animate";
+
+// utilitarios
+@import "utilities/bootstrap"; 

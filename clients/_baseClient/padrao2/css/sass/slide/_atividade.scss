@@ -1,0 +1,158 @@
+
+@mixin corFundo($n1, $n2, $n3, $hexa, $opacidade: 0.6){
+	background: rgb($n1, $n2, $n3) transparent;
+	background: rgba($n1, $n2, $n3, $opacidade);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($hexa)}', endColorstr='#{ie-hex-str($hexa)}'); 
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#{ie-hex-str($hexa)}, endColorstr=#{ie-hex-str($hexa)})";
+}
+
+$atividade_largura: 581px;
+
+
+.atividade{
+	@include box-shadow;
+	@include corFundo(238, 237, 234, #eeedea);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCeeedea, endColorstr=#CCeeedea);
+	border: solid 1px #ffffff;
+	position: absolute;
+	top: 18%;
+	left: 20%;
+	width: $atividade_largura;
+	font-family: $fontePadrao;
+}
+
+.pergunta_atividade{
+	@include corFundo(203, 202, 199, #cbcac7, 0.4);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCcbcac7, endColorstr=#CCcbcac7);
+	border-bottom: 1px solid #dddddf; 
+	color: $baseColor;
+}
+
+.alternativa_atividade{
+	padding: 0px;
+	ul{
+		padding-left: 0px;
+		li{
+			list-style-type: none;
+		}
+		li.certo{@include border-radius; border: 1px solid #528042; margin: 4px;}
+		li.errado{@include border-radius; border: 1px solid #ff0000; margin: 4px;}
+	}
+}
+
+.enviaResposta{
+	@include corFundo($r, $g, $b, #058b9b);
+	position:relative;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC48a8b3, endColorstr=#CC48a8b3);
+	border: solid 1px #ffffff;
+	float: right;
+	cursor: pointer;
+	color: #ffffff;
+	margin:{
+		right: 10px;
+		bottom: 10px;
+	}
+	&:hover{
+		@include corFundo($r, $g, $b, #006470, 0.5);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC459ba5, endColorstr=#CC459ba5);
+	}
+	&:active{
+		@include box-shadow-inset;
+	}
+	strong{
+		padding: 14px;
+	}
+
+	&.desativado{
+		@include corFundo(100, 100, 100, #636363);
+	}
+}
+
+
+
+
+//----------------------
+
+$certo: $pastaIconPadrao 0 -671px;
+$errado: $pastaIconPadrao 0 -617px;
+
+.caixaResposta{
+	background: #ffffff;
+	z-index: 10000;
+	border: 1px solid #e2e2e2;
+	font-family: $fontePadrao;
+
+	.detalheCaixa{
+		position: absolute;
+		display: block;
+		height: 30px;
+		width: 30px;
+		left: 10px;
+		border: 2px solid #9c9c9c;
+	}
+}
+
+.respostaCerta{
+	&:after{
+		content: "";
+		position: absolute;
+		top: -18px;
+		left: -13px;
+		height: 52px;
+		width: 91px;
+		background: $certo;
+		z-index: 10;
+	}
+}
+
+.respostaErrada{
+	&:after{
+		content: "";
+		position: absolute;
+		top: -18px;
+		left: -13px;
+		height: 52px;
+		width: 91px;
+		background: $errado;
+		z-index: 10;
+	}
+}
+
+.serverMsg{
+	font-size: 10px;
+	bottom: 10px;
+	left: 10px;
+	display: none;
+	padding: 10px;
+}
+//------------- CAIXA SLIDE FINAL ATIVIDADE --------------------
+
+
+.caixaFinalAtividade{
+	@include box-shadow;
+	@include corFundo(238, 237, 234, #eeedea);
+	border: 1px solid #ffffff; 
+	display: inline-block;
+  	vertical-align: middle;
+	width: 450px;
+	position: relative;
+	left: 50%;
+	margin-left: -225px;
+	margin-top: -50px;
+	.tituloFinalAtividade{
+		font-family: $fontePadrao;
+		@include corFundo(203, 202, 199, #cbcac7, 0.4);
+		border-bottom: 1px solid #dddddf; 
+		color: $baseColor;
+		h2{
+			margin: 0px;
+			padding: 15px 20px;
+		}
+	}
+
+	.textoFinalAtividade{
+		font-family: $fontePadrao;
+		padding: 30px;
+		font-size: 14px;
+	}
+}

@@ -1,0 +1,415 @@
+div.wrapper {
+	width: 1021px;
+	height: 628px;
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    @include user-select;
+}
+
+.ajuda{
+	position: absolute;
+	background: url('assets/images/ajuda.png');
+	width: 980px;
+	height: 558px;
+	z-index: 15;
+	left: 21px;
+	bottom: 6px;
+
+	.setaAjuda{
+		position: absolute;
+		height: 139px;
+		width: 16px;
+		top: 339px;
+		right: 27px;
+		background: url('assets/images/ajuda_indiceFechado.png');
+	}
+
+	.setaAjuda.indiceAtivado{
+		position: absolute;
+		height: 69px;
+		width: 16px;
+		top: 341px;
+		right: 28px;
+		background: url('assets/images/ajuda_indiceAberto.png');
+	}
+}
+
+/* -------------------- TOP ---------------------- */
+.top {
+	width: 979px;
+	height: 53px;
+	margin: auto;
+	position: relative;
+	margin-top: 10px;
+	}
+
+.topText {
+	width: 815px;
+	margin: {
+		top: 25px;
+	}
+	float: left;
+	font: {
+		size: 14px;
+		family: $fontePadrao;
+	}
+	span{
+		padding: 0px 30px;
+	}
+	.tituloNegrito{
+		font-weight: bold;
+	}
+}
+
+.topLogo {
+	position: absolute;
+	right: -7px;
+	bottom: 0px;
+	background: $logo;
+	width: 167px;
+	height: 35px;
+}
+
+/* -------------------- MIDDLE ---------------------- */
+
+.middle {
+	width: 980px;
+	height: 540px;
+	margin: auto;
+	position: relative;
+	background: $backgroundSlide;
+	overflow:hidden;
+}
+
+.swipe-wrap>div:before{
+	content: '';
+	display: inline-block;
+	height: 100%; 
+	vertical-align: middle;
+	margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+.alteraSlide{
+	position: absolute;
+	width: 28px;
+	height: 74px;
+	top: 50%;
+	margin-top: -15px;
+	z-index:10;
+	cursor: pointer;
+	background: $pastaIconPadrao;
+}
+
+.botaoAvancar {
+	right: 30px;
+	background-position: -30px -769px;
+	&:hover{
+		height: 74px;
+		background-position: -29px -915px;
+	}
+	&:active{
+		opacity:0.8;
+	}
+}
+
+.botaoVoltar {
+	left: 30px;
+	background-position: 0px -843px;
+	&:hover{
+		height: 70px;
+		background-position: 0 -1035px;
+	}
+	&:active{
+		opacity:0.8;
+	}
+}
+
+.botaoVoltar.desativado{
+	height: 74px;
+	background: $pastaIconPadrao;
+	background-position: -31px -1039px;
+	cursor: auto;
+	opacity: 0.4;
+}
+
+.botaoAvancar.desativado{
+	height: 70px;
+	background: $pastaIconPadrao 5px -917px;
+	opacity: 0.4;
+	cursor: auto;
+}
+
+.menuListaSlides {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	bottom: -76px;
+	width: 980px;
+	height: 109px;
+	overflow: hidden;
+	font-family: $fontePadrao;
+	z-index: 19;
+
+	.setaSlide{
+		position: absolute;		
+		bottom: 0;
+		width: 40px;
+		height: 75px;
+		z-index:10;
+		border: solid 1px #ffffff;
+		background: rgb(241, 241, 236) transparent;
+		background: rgba(241, 241, 236, 0.95);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF)";
+	}
+
+	.setaEsquerda {
+		left:0px;
+		.icons-seta-esquerda-lista-slide {
+			position: absolute;
+			cursor: pointer;
+			top: 34%;
+			left: 8px;
+			width: 24px;
+			height: 24px;
+			&:hover{
+				top: 36%;
+				left: 9px;
+				background-position: 0 -747px;
+			}
+			&:active{
+				opacity: 0.7;
+			}
+		}
+
+		.icons-seta-esquerda-lista-slide.desativado{
+			position: absolute;
+			background: $pastaIconPadrao -31px -989px;
+			top: 34%;
+			left: 8px;
+			width: 24px;
+			height: 24px;
+			cursor: auto;
+			&:active{
+				opacity: 1;
+			}
+		}
+	}
+
+	.setaDireita {
+		right:0px;
+		.icons-seta-direita-lista-slide {
+			position: absolute;
+			cursor: pointer;
+			top: 34%;
+			right: 8px;
+			width: 24px;
+			height: 24px;
+			&:hover{
+				top: 36%;
+				height: 22px;
+				background-position: 0 -725px;
+			}
+			&:active{
+				opacity: 0.7;
+			}
+		}
+
+		.icons-seta-direita-lista-slide.desativado{
+			position: absolute;
+			background: $pastaIconPadrao -31px -1013px;
+			top: 34%;
+			left: 8px;
+			width: 24px;
+			height: 24px;
+			cursor: auto;
+			&:active{
+				opacity: 1;
+			}
+		}
+	}
+
+}
+
+.botaoIndice {
+	width: 123px;
+	height: 33px;
+	position: absolute;
+	right: 0;
+	background: url(assets/images/botao-menu.png);
+	cursor: pointer;
+
+	.seta-menu {
+		width: 17px;
+		height: 14px;
+		float: left;
+		margin: {
+			left: 35px;
+			top: 10px;
+		}
+	}
+
+	.icons-seta-menu-baixo {
+		transform: rotate(180deg);
+	   -moz-transform: rotate(180deg);
+	   -webkit-transform: rotate(180deg);
+	}
+
+	.icons-seta-menu-baixo.aberto{
+		transform: rotate(0deg);
+	   -moz-transform: rotate(0deg);
+	   -webkit-transform: rotate(0deg);
+	}
+
+	.botao-menu-texto {
+		position: absolute;
+		left: 61px;
+		top: 7px;
+		width: 25px;
+		height: 14px;
+		font:{
+			size: 14px;
+			weight: bold;
+		}
+	}
+
+}
+
+.botaoIndice.active{
+	color: $baseColor;
+}
+
+.listaSlides {
+	@include opacityBackground;
+	width: 5002px;
+	height: 75px;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	left: 41px;
+	ul {
+		position: absolute;
+		top: 13px;
+		height: 55px;
+		overflow: hidden;
+		margin: 0px;
+		padding: 0px;
+		li {
+			display: inline-block;
+			text-decoration: none;
+			position: relative;
+			margin: {
+				left: 9.5px;
+			}
+			cursor: pointer;
+
+			img {
+				display: block;
+				border: 1px solid #575757;
+				width: 75px;
+				height: 45px;
+				padding: {
+					top: 3px;
+					right: 3px;
+					left: 3px;
+					bottom: 3px;
+				}
+			}
+		}
+
+		li.indiceVisitado:after {
+			content: '';
+			position: absolute;
+			display: block;
+			width: 67px;
+			height: 4px;
+			left: 4px;
+			top: 49px;
+			background-color: #56a745;
+		}
+
+		li.indiceAtual{
+			img{
+				border: 2px solid #575757;
+			}
+		}
+
+		li.indiceDesativado {
+			pointer-events: none;
+			cursor: default;
+			img{
+				border: 1px solid #d1d1d1;
+			}
+		}
+	}
+
+}
+ 
+
+/* -------------------- BOTTOM ---------------------- */
+
+.bottom {
+	width: 980px;
+	height: 17px;
+	margin: auto;
+	position: relative;
+}
+
+.progressoSlide {
+	color: #858585;
+	margin-top: 5px;
+	font-size: 11px;
+	font-family: $fontePadrao;
+}
+
+.barraProgresso {
+	position: relative;
+	width: 154px;
+	height: 6px;
+	background: #444444;
+	display: inline-block;
+	margin: 0px 5px;
+	overflow: hidden;
+
+	.valorBarraProgresso{
+		overflow: hidden;
+		width:0%;
+		height: 100%;
+		background: #858585;
+		position: absolute;
+		top: 0px;
+	}
+}
+
+
+.valorSlideAtual{
+	padding-left: 5px;
+}
+ 
+.botaoAjuda{
+	position: absolute;
+	height: 24px;
+	width: 20px;
+	background: $pastaIconPadrao -40px -1338px;
+	right: 4px;
+	top: -4px;
+	cursor: pointer;
+	z-index: 15;
+}
+
+.botaoAjuda.active{
+	background: $pastaIconPadrao -40px -1315px;
+}
+
+.botaoAjuda.desativado{
+	opacity: 0.5;
+	cursor: auto;
+}
+
+.swipe-wrap>div{
+	overflow: hidden;
+}

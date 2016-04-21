@@ -1,0 +1,14 @@
+{
+	"defaults": {
+		"title": "Capas são Slides Especiais que Trazem o Título da Secção de Conteúdo."
+	},
+
+	"resources": {
+		"allowed": [
+		],
+
+		"insert": [
+
+		]
+	}
+}

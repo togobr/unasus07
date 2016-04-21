@@ -1,0 +1,73 @@
+{
+	"defaults": {
+		"name": "Novo slide",
+		"template": "slideSimples"
+	},
+
+	"slides": [
+		{
+			"template": "slideCapa",
+			"name": "Capa",
+			"categories": [
+				"capa",
+				"slide"
+			]
+		},
+
+		{
+			"template": "slideSubCapa",
+			"name": "Sub Capa",
+			"categories": [
+				"subCapa",
+				"slide"
+			]
+		},
+
+		{
+			"template": "slideFinal",
+			"name": "Slide Final",
+			"categories": [
+				"final",
+				"slide"
+			]
+		},
+
+		{
+			"template": "slideAnimacao",
+			"name": "Slide de Animação",
+			"categories": [
+				"animacao",
+				"slide"
+			]
+		},
+
+		{
+			"template": "slideVideo",
+			"name": "Slide de Vídeo",
+			"categories": [
+				"slide",
+				"video"
+			]
+		},
+
+		{
+			"template": "slideAudio",
+			"name": "Slide de Áudio",
+			"categories": [
+				"slide",
+				"audio"
+			]
+		},
+
+		{
+			"template": "slideAtividade",
+			"name": "Slide de Atividade",
+			"categories": [
+				"slide",
+				"atividade"
+			]
+		}
+
+
+	]
+}

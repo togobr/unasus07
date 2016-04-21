@@ -1,0 +1,49 @@
+{
+    "_id": "5379f9c48b714fc104000133",
+    "courseName": "PREVENÇÃO E CUIDADOS ÀS DOENÇAS PREVALENTES EM HOMENS",
+    "scoName": "",
+    "srcCaptivate":"",
+    "scorm":false,
+    "links":[
+            {
+               "url": "https://www.google.com.br/",
+               "label": "MIDIATECA",
+               "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_midiateca.png"
+            },
+            {
+               "url": "https://www.google.com.br/",
+               "label": "GUIA DO ALUNO",
+               "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_guiaAluno.png"
+            },
+            {
+               "url": "https://www.google.com.br/",
+               "label": "CRONOGRAMA",
+               "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_cronograma.png"
+            },
+
+           {
+               "url": "https://www.google.com.br/",
+               "label": "DÚVIDAS FREQUENTES",
+               "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_duvidas.png"
+            },
+
+            {
+               "url": "https://www.google.com.br/",
+               "label": "FALE COM O TUTOR",
+               "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_faleTutor.png"
+            },
+
+            {
+               "url": "https://www.google.com.br/",
+               "label": "CRÉDITOS",
+               "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_creditos.png"
+            }
+   ],
+
+    "slides": [{
+        "template": "slideScroll",
+        "resources": [
+            
+        ]
+    }]
+}

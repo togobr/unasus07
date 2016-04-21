@@ -1,0 +1,62 @@
+@import "../../_estiloPadrao.scss";
+
+.caixaDestaqueHolder{
+	@include border-radius(5px);
+	background: #ffdc00;
+	width:100%;
+	box-sizing: border-box;
+	word-break: break-word;
+	margin-bottom: $entreRecursos;
+	padding: 0 !important;
+
+
+	.iconDestaque{
+		position: relative;
+		width: 10%;
+  height: inherit;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  min-width: 105px;
+
+		.icon{
+  			color: #000;
+  			margin: 16px auto;
+  			height: 80px;
+  			font-size: 7.6em;
+		}
+
+		&:after{
+			content: "";
+			position: absolute;
+			right: 0;
+			top: 14%;
+			bottom:14%;
+			width: 2px;
+			background: #000;
+		}
+	}	
+
+	.contentDestaque{
+		position: relative;
+		height: 100%;
+		color: #000;
+		display: table-cell;
+		text-align: left;
+		vertical-align: middle;	
+		padding: 20px;
+		font-size: $textFontSize;
+		line-height: $textLineHeight;
+		font-family: $regular;
+		
+		p{
+			width: 100%;
+			margin: 0;
+			
+		}
+	}
+}
+
+.caixaDestaque.laranja{
+	background:#2b95dd;
+}

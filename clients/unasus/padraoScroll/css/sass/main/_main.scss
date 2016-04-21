@@ -1,0 +1,307 @@
+// @import "compass/utilities/sprites";
+// @import "icons/*.png";
+// @include all-icons-sprites;
+
+body{
+    max-width: 1920px;
+    overflow-y: visible;
+    font-size: 10px !important;
+    font-family: $regular;
+}
+
+.wrapperUnasus{
+	.mainNavBar{
+		@include border-radius(0); 
+		position: fixed;
+		left: 0;
+		width: 100%;
+		z-index: 10;
+		background: $baseColor;
+		border: none;
+		border-bottom: 2px solid #FFFFFF;
+		padding-left: 20px;
+		
+		.logoTopo{
+			float: right;
+			height: 35px;
+			margin: 6px 35px 0px 0px;
+		}
+		
+		.courseBlock{
+			float: left;
+			margin-top: 15px;
+			.courseName, .unidadeName{
+				font-size: 1.8em;
+				font-family: $bold;
+				color: $normal;
+				display: inline-block;
+				margin: 0;
+			}
+
+			.courseName{
+				padding-right: 5px;
+			}
+
+			.unidadeName{
+				font-size: 1.8em;
+				padding-left: 8px;
+				border-left: 2px solid #2f3275;
+			}
+		}
+
+		.dropdown{
+			position: relative;
+			float: right;
+			width: 50px;
+			height: 50px;
+			background: $visited;
+			font-size: inherit;
+			list-style: none;
+			margin-right: 20px;
+			.dropdown-toggle{
+				font-size: 2em;
+				height: 100%;
+				display: table;
+				margin: -3px auto;
+				span{
+					height: 50px;
+					width: 50px;
+					color: #2f3275;
+					&:before{
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						margin-top: -10px;
+						margin-left: -10px; 
+					}
+				}
+			}
+
+			&.open{
+				.dropdown-toggle{
+					background: $visited;
+					span.caret{
+						&:after{
+							border-top: none;
+							border-left: 6px solid transparent;
+							border-right: 6px solid transparent;
+							border-bottom: 10px solid $normal;
+						}
+					}
+				}
+
+				.dropdown-menu{
+					background: $visited;
+					left: auto;
+					right: 0px;
+					width: 100%;
+					border-radius: 0;
+					margin: 2px 0px 2px 0px;
+					border: 0;
+					min-width: 400px;
+					.divider{
+						background: $normal;
+					}
+					li{
+						font-size: 1.2em;
+						padding-left: 15px;
+						display: table;
+						a{
+							font-family: $regular;
+							color: $normal;
+							white-space: normal;
+							cursor: pointer;
+							overflow: hidden;
+							text-overflow: ellipsis;
+							white-space: nowrap;
+							display: table-cell;
+							vertical-align: middle;
+							&:hover{
+								background: none;
+								font-family: $bold;
+							}
+						}
+						img{
+							display: inline;
+							height: 25px;
+							display: table-cell;
+							vertical-align: middle;
+							width: 26px;
+							height: 26px;
+						}
+					} 
+				}
+			}
+		}
+
+		
+	}
+}
+
+.content.container-fluid{
+	max-width: 1021px;
+	padding: 0;
+	padding-top: 50px;
+}
+
+ul{
+	list-style-image:url(assets/images/bullet.png);
+	counter-reset: section;
+		li{
+			background-position: 0px 100%;
+			padding-left: 5px;
+			color: #373838;
+			margin-right: 10px;
+			font-size: 1em;
+			// line-height: $textLineHeight;
+			font-family: $regular;
+		}
+}
+
+
+ol{
+	list-style-type: none;
+	counter-reset: ol-counter;
+	padding: 0;
+
+	li{
+
+			background-position: 0px 100%;
+    		padding-left: 25px;
+			color: #373838;
+			margin-right: 10px;
+			font-size: 1em;
+			// line-height: $textLineHeight;
+			font-family: $regular;
+
+		&:before{
+			font-weight: bold;
+			margin-right: 6px;
+			color: #f59e00;
+			content: counter(ol-counter)".";
+			counter-increment: ol-counter;
+			
+			
+		}
+
+	}
+
+}
+
+
+.wrapper {
+	height: auto;
+	margin: 0 auto;
+	max-width: 790px;
+	position: relative;
+}
+
+.wrapperMargin {
+	margin-bottom:40px;
+}
+
+
+.hiddenAnimate{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
+
+ 			 	  					
+
+.content{
+
+	.iframeContent{
+		position:fixed;
+		width: 100%;
+		height: 100%;
+		display: none;
+		z-index: 10;
+		background: #2f2f2f;
+		left: 0px;
+
+	.telaCheiaIframe{
+		width: 100%;
+		height: 100%;
+		z-index: 30;
+		left: 0px;
+		right: 0px;
+		top: 0px;
+		bottom: 0px;
+	}
+
+	.fechartelacheia {
+			z-index: 999;
+			border: 1px solid #e18f00;
+			text-align: center;
+			cursor: pointer;
+			background: #fbaf0b;
+			background: -moz-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(34%, #fbaf0b), color-stop(100%, #f7a600));
+			background: -webkit-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
+			background: -o-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
+			background: -ms-linear-gradient(top, #fbaf0b 34%, #f7a600 100%);
+			background: linear-gradient(to bottom, #fbaf0b 34%, #f7a600 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbaf0b', endColorstr='#f7a600',GradientType=0 );
+			font-family: "Exo 2", sans-serif;
+			cursor: pointer;
+			font-weight: bold;
+			font-size: 18px;
+			min-height: 50px;
+			max-width: 328px;
+			line-height: 50px;
+			padding-right: 30px;
+			padding-left: 30px;
+			color: #ffffff;
+			margin: 0 auto;
+			display: none;
+			position: relative;
+			opacity: 0.78;
+			top: 1px;
+			
+
+		
+
+		&:hover{
+      background: #fbaf0b;
+  		 }
+
+	    &:active{
+	      background: #e28f01;
+	    }
+
+
+		}
+
+	}
+
+}
+
+
+.btCreditos{
+	  border-radius: 5px;
+  height: 30px;
+  background: #f4dfc1;
+  padding: 1px 10px 0px 11px;
+  font-family: "Roboto-Black", sans-serif;
+  color: #2f3275;
+  text-transform: uppercase;
+  text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    line-height: 30px;
+
+}
+
+
+.modalCreditos{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: rgba(255,255,255,0.8);
+	z-index: 99;
+	display:none;
+}

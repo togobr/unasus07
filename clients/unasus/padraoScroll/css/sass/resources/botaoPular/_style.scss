@@ -1,0 +1,32 @@
+.btPular{
+	font-size: 6.4em;
+	color:#000;
+	text-decoration:none;
+	margin: 40px auto;
+	display: table;
+	cursor: pointer;
+
+	&:hover{
+		color:$hover;
+		text-decoration:none;
+	}
+
+	&:active{
+		text-decoration: none;
+	}
+
+	&:focus{
+		text-decoration: none;
+		color:initial;
+	}
+
+
+}
+
+.btPular.branco{
+	color:#fff;
+	&:hover{
+		color:$hover;
+
+	}
+}

@@ -1,0 +1,24 @@
+.multimedia{
+	position: relative;
+	iframe{
+		  border: none;
+	}
+}
+
+.multimedia.noContent{
+	.glyphicon{
+		display: block;
+	}
+	border: 1px solid #b3b3b3;
+}
+
+.multimedia.mobile{
+	position: relative;
+	margin: 10px
+}
+
+.multimedia img{
+	display:none;
+	max-width: 470px;
+	margin: 0 auto;
+}

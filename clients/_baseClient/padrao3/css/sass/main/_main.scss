@@ -1,0 +1,348 @@
+html{
+	height: 100%;
+}
+
+body{
+	@include linear-gradient($baseColor, $baseColor, 0%, $baseColorDarken, 60%, $baseColorDarken, 50%, $baseColor, 100%);
+}
+
+.wrapper{
+	position: absolute;
+	width: 1000px; 
+    height: 610px;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px;
+}
+
+.top{
+	position: relative;
+	width: 860px;
+	height: 48px;
+	background: #ffffff;
+	margin-bottom: 2px;
+	padding-left: 43px;
+	float: left;
+	#pipe{
+		color: #707070;
+		margin-top: 14px;
+		float: left;
+	}
+	.courseName{
+		height: 100%;
+		float: left;
+		color: #707070;
+		font-style: italic;
+		max-width: 280px;
+		h5{
+			display: inline-block;
+ 			vertical-align: middle;
+			font-family: $fontePadrao;
+			font-weight: normal;
+			margin: 0px 8px 0px 8px;
+		}
+		&:before {
+			content: '';
+			display: inline-block;
+			height: 100%; 
+			vertical-align: middle;
+			margin-right: -0.25em; /* Adjusts for spacing */
+		}
+	}
+	.scoName{
+		@extend .courseName;
+		color: $baseColor;
+		font-style: normal;
+	}
+
+	
+	.slideControls{
+		@include user-select;
+		position: absolute;
+		width: 140px;
+		height: 40px;
+		right: 43px;
+		top: 7px;
+		%btnCircle {
+		  	@include border-radius(50%);
+			position: absolute;
+			height: 35px;
+			width: 35px;
+			border: 1px solid $baseColor;
+			cursor: pointer;
+			z-index: 1;
+		}
+
+		.botaoVoltar{
+			@extend %btnCircle;
+			background: #FFFFFF;
+			left: 0px;
+			&:after{
+				content: '';
+				position: absolute;
+				border-style: solid;
+				border-width: 10px 11px 10px 0;
+				border-color: transparent #FFFFFF;
+				display: block;
+				width: 0;
+				z-index: 1;
+				left: 12px;
+				top: 7px
+			}
+			&:before{
+				content: '';
+				position: absolute;
+				border-style: solid;
+				border-width: 10px 11px 10px 0;
+				border-color: transparent $baseColor;
+				display: block;
+				width: 0;
+				z-index: 0;
+				left: 10px;
+				top: 7px;
+			}
+			&:hover{
+				background: $baseColorLighten;
+				&:after{
+					border-color: transparent $baseColorLighten;
+				}
+				&:before{
+					border-color: transparent $baseColor;
+				}
+			}
+			&:active{
+				background: $baseColorDarken;
+				&:after{
+					border-color: transparent $baseColorDarken;
+				}
+				&:before{
+					border-color: transparent #FFFFFF;
+				}
+			}
+		}
+
+		.botaoAvancar{
+			@extend %btnCircle;
+			background: $baseColor;
+			right: 0px;
+			top: 0px;
+			&:after{
+				content: '';
+				position: absolute;
+				border-style: solid;
+				border-width: 10px 0 10px 11px;
+				border-color: transparent $baseColor;
+				display: block;
+				width: 0;
+				z-index: 1;
+				left: 10px;
+				top: 7px;
+			}
+			&:before{
+				content: '';
+				position: absolute;
+				border-style: solid;
+				border-width: 10px 0 10px 11px;
+				border-color: transparent #FFFFFF;
+				display: block;
+				width: 0;
+				z-index: 0;
+				left: 12px;
+				top: 7px
+			}
+			&:hover{
+				background: $baseColorLighten;
+				&:after{
+					border-color: transparent $baseColorLighten;
+				}
+				&:before{
+					border-color: transparent $baseColor;
+				}
+			}
+			&:active{
+				background: $baseColorDarken;
+				&:after{
+					border-color: transparent $baseColorDarken;
+				}
+				&:before{
+					border-color: transparent #FFFFFF;
+				}
+			}
+		}
+
+		.botaoVoltar.desativado, .botaoAvancar.desativado{
+			background: $baseColorDisabled;
+			border: $baseColorDisabled;
+			cursor: auto;
+			&:after{
+				border-color: transparent $baseColorDisabled;
+			}
+			&:before{
+				border-color: transparent #FFFFFF;
+			}
+		}
+
+		.valorSlide{
+			position: relative;
+			top: 6px;
+			text-align: center;
+			font-family: $fontePadrao;
+			color: #707070;
+			span:first-child{
+				font-size: 20px;
+			}
+			span:last-child{
+				font-size: 12px;
+			}
+		}
+	}
+}
+
+.menu{
+	position: relative;
+	width: 100px;
+	height: 588px;
+	background: #e7e7e7;
+	margin-right: 20px;
+	float: left;
+
+	.logo{
+		position: relative;
+		margin: 0 auto;
+		margin-top: 15px;
+		height: 43px;
+		width: 76px;
+		display: block;
+	}
+
+	.btnsMenu{
+		position: absolute;
+		bottom: 0px;
+		width:100%;
+	}
+
+	.botaoIndice{
+		position: relative;
+		border-top: 1px solid #cfcfcf;
+		height: 79px;
+		width: 100%;
+		cursor: pointer;
+		.iconP3{
+			position: relative;
+			width: 23px;
+			height: 25px;
+			margin: 0 auto;
+			margin-top: 20px;
+			margin-bottom: 8px;
+			font-size: 22px;
+		}
+		span{
+			display: block;
+			font-size: 12px;
+			font-family: $fontePadrao;
+			text-align: center;
+			color: #404040;
+		}
+		&:hover{
+			color: $baseColor;
+			&:after{
+				content:"";
+				position: absolute;
+				top: 0px;
+				height: 4px;
+				width: 100%;
+				background: $baseColor;
+			}
+		}
+		&:active{
+			color: $baseColor;
+			background: $baseColorLighten3;
+			&:after{
+				content:"";
+				position: absolute;
+				top: 0px;
+				height: 4px;
+				width: 100%;
+				background: $baseColor;
+			}
+		}
+	}
+	.botaoAjuda{
+		@extend .botaoIndice;
+	}
+
+	.botaoIndice.active, .botaoAjuda.active{
+		color: $baseColor;
+		background: $baseColorLighten;
+		&:after{
+			content:"";
+			position: absolute;
+			top: 0px;
+			height: 4px;
+			width: 100%;
+			background: $baseColor;
+		}
+		&:active{
+			color: $baseColor;
+			background: $baseColorLighten3;
+			&:after{
+				content:"";
+				position: absolute;
+				top: 0px;
+				height: 4px;
+				width: 100%;
+				background: $baseColor;
+			}
+		}
+	}
+
+	.botaoIndice.desativado, .botaoAjuda.desativado{
+		color: #b7b7b7;
+		cursor: auto;
+		span{
+			color: #b7b7b7;	
+		}
+		&:hover{
+			background: none;
+			&:after{
+				content: "";
+				background: none;
+			}
+		}
+		&:active{
+			background: none;
+			&:after{
+				content: "";
+				background: none;
+			}
+		}
+
+	}
+}
+
+.middle{
+	position:relative;
+	width: 860px;
+	height: 538px;
+	margin:0 auto;
+	background: #ffffff;
+	float: left;
+}
+
+// ------------------------- TELAS ESPECIAIS -------------------------
+
+.ajuda {
+	position: absolute;
+	background: url("assets/images/ajuda.png");
+	width: 860px;
+	height: 588px;
+	right: 10px;
+	z-index: 9999;
+}
+
+.swipe-wrap>div{
+	overflow: hidden;
+}

@@ -1,0 +1,124 @@
+.gavetaVer{
+	width:100%;
+	height:auto;
+}
+
+#tabsVertMobile{
+	display: none;
+}
+
+.ui-tabs.ui-tabs-vertical {
+	width:100%; 
+	height:auto;
+	overflow:auto;
+	ul.ui-tabs-nav { 
+		padding:.2em .1em .2em .2em; 
+		margin: 0;
+		float: left; 
+		width: 38%; 
+		li {
+			@include border-radius(5px);
+			list-style: none;
+			position: relative;
+			top: 0;
+			padding: 0;
+			height: 50px;
+			width: 92%;
+			padding-left:0;
+			background: $normal;
+			margin-bottom: 5px;
+			font-size: inherit;
+			
+			&:first-child{
+				margin-top: 1px;
+			}
+			
+			a.ui-tabs-anchor {
+				min-height: 44px;
+				float: left;
+				text-decoration: none;
+				width:100%;
+				outline: none;
+				height: 100%;
+				text-align: center;
+				display: table;
+
+				span{
+					display: table-cell;
+					vertical-align: middle;
+					font-family: $bold;
+					font-weight: 400;
+					color: #FFFFFF;
+					position:relative;
+					font-size: 1.6em;
+				}
+			}
+		}
+	}
+
+
+	.ui-tabs-panel { 
+		@include border-radius(5px);
+		border: 1px solid $normal;
+		display: block;
+		position: relative;
+		top: 0px;
+		right: 0px;
+		bottom: 0;
+		width: auto;
+		z-index: 0;
+		margin-left: -2px;
+		padding: 20px;
+		background: #fff;
+		margin-top:4px;
+		color: #373838;
+		overflow: hidden;
+		font-size: $textFontSize;
+		line-height: $textLineHeight;
+		font-family: $regular;
+
+		img{
+			margin-top: 20px;
+			width:100%;
+			margin-bottom: 20px;
+		}
+	}
+	
+	//gaveta ativa
+	.ui-tabs-nav{
+		.ui-tabs-active{
+			background: $selected; 
+			&:after{
+				content: '';
+				position: absolute;
+				border-style: solid;
+				border-width: 10px 0px 10px 15px;
+				border-color: transparent $selected;
+				display: block;
+				width: 0;
+				z-index: 1;
+				right: -14px;
+				top: 16px;
+			}
+			span{
+				color: $normal !important;
+			}
+			&.visited{
+				background: $selected;
+				&:after{
+					border-color: transparent $selected;
+				}
+				span{
+					color: $normal !important;
+				}
+			}
+		}
+
+		.visited{
+			background: $visited; 
+			span{
+				color: $normal !important;
+			}
+		}
+	}
+}

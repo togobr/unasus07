@@ -1,0 +1,40 @@
+<div id="{{id}}" class="{{class}} {{column}} {{type}} rec" data-section="{{section}}" style="{{style}}">
+
+	<div class="dropDownType">
+		<div class="boxTitle">
+			<div class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+				<div class="openCloseIcon">
+					<span class="icomoon icon-setaPreenchida_baixo"></span>
+					<span class="icomoon icon-setaPreenchida_cima"></span>
+				</div>
+				<span>{{&contentCapa}}</span>
+			</div>
+			<ul class="dropdown-menu">
+				<li><span>{{&content}}</span></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="clickType">
+		<div class="contentCapa" style="min-height:{{contentHeight}}; background-image:url('{{backgroundCapa}}');{styleCapa}"><span>{{&contentCapa}}</span></div>
+		<div class="tagP container-fluid"style="min-height:{{contentHeight}}; border: 5px solid #dadae8;">
+			<span class="fechaRevelar icon-fechar"></span>
+			{{&content}}
+		</div>
+	</div>
+
+	<div class="hoverType">
+		<div class="contentCapa" style="min-height:{{contentHeight}}; background-image:url('{{backgroundCapa}}');{{styleCapa}}"><span>{{&contentCapa}}</span></div>
+		<div class="tagP container-fluid" style="min-height:{{contentHeight}}; border: 5px solid #dadae8;">
+			<span class="fechaRevelar"></span>
+			{{&content}}
+		</div>
+	</div>
+
+	<div class="normalType">
+		<div class="tagP container-fluid" style="min-height:{{contentHeight}}; border: 5px solid #dadae8;">
+			{{&content}}
+		</div>
+	</div>
+</div>
+

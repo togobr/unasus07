@@ -1,0 +1,30 @@
+<div  id="{{id}}" class="{{class}} {{type}} {{column}} {{animate}} animated rec" data-section="{{section}}" style="{{style}}">
+	<div class="gavetaHor">
+		<div class="wrapper">
+			<div id="tabsHor">
+				<ul>
+					{{#gavetasHorizontais}}
+					<li><a href="#tabs-{{numeroGaveta}}"><span>{{&tituloGaveta}}</span></a></li>
+					{{/gavetasHorizontais}}
+				
+				</ul>
+				{{#gavetasHorizontais}}
+					<div id="tabs-{{numeroGaveta}}" class="container-fluid">
+						{{&content}}
+
+					</div>
+				{{/gavetasHorizontais}}
+			</div>
+			<div id="tabsHorMobile">
+				<ul>
+					{{#gavetasHorizontais}}
+						<div class="wrapperContentMobile container-fluid">
+							<strong>{{&tituloGaveta}}</strong>
+							<p>{{&content}}</p>
+						</div>
+					{{/gavetasHorizontais}}
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

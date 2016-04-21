@@ -1,0 +1,287 @@
+.col-md-0
+{
+    display: none !important;
+}
+
+//=============== MEDIA-QUERY =============== 
+
+@media (max-width: 1021px)
+{
+    //MAIN
+    .wrapperUnasus
+    {
+        .mainNavBar
+        {
+            .courseBlock{
+                display: none;
+            }
+        }
+    }
+
+    .col-xs-0
+    {
+        display: none !important;
+    }
+
+    //RECURSO - texto
+    .texto{
+        &.title{
+            .textoSolto{
+                font-size: 4em;
+            }
+        }
+
+        &.quadro{
+            &.col-xs-12{
+                width: 100%;
+                margin-left: 0;
+            }
+        }
+    }
+
+    //RECURSO - magicSlider
+    .magicSlider{
+        margin-top: 30px;
+        
+        .scrollmagic-pin-spacer{
+            display: none !important;
+        }
+
+        .pinContainer{
+            display: none;
+        }
+        .magicSliderMobile{
+            display: block;
+            .sectionsScrollMagic{
+                height: auto !important;
+                padding: 10px;
+                margin-bottom: 5px;
+                img{
+                    height: auto !important;
+                    width: 100% !important;
+                    
+                }
+                &:before{
+                    content: none;
+                }
+            }
+
+            .contentTop, .contentBottom{
+                text-align: center;
+                font-family: $regular; 
+                padding: 10px;
+                font-size: 1.5em;
+            }
+        }
+    }
+
+    //RECURSO - sliderResponsivo
+    .sliderResponsivo
+    {
+        height: auto !important;
+        .rslides
+        {
+            .contentSlider
+            {
+                padding: 15px 55px 15px 55px !important;
+            }
+        }
+        .slider_nav
+        {
+            height: auto !important;
+        }
+    }
+    
+    //RECURSO - backgroundScroll
+    .backgroundScroll
+    {   
+        .imgBG, .divBG
+        {
+            opacity: .2;
+        }
+    }
+    
+    //RECURSO - capa
+    .capa
+    {
+        .contCapa
+        {
+            padding-left: 0;
+        }
+        .nCapa
+        {
+            font-size: 1.5em;
+
+            margin-top: 80px;
+        }
+        .tituloCapa
+        {
+            font-size: 4em;
+            font-weight: bold;
+        }
+        .descCapa
+        {
+            margin: 0;
+            margin-bottom: 130px;
+        }
+
+        //subCapa
+        .subCapa{
+            .nCapa, .tituloCapa{
+                margin-left: 0px; 
+            }
+        }
+    }
+    
+    //RECURSO - contraCapa
+    .contraCapa
+    {
+        // padding-bottom: 200px;
+    }
+
+    .contLeft,
+    .textoFinal
+    {
+        margin: 25px;
+    }
+
+    .textoDownload
+    {
+        margin-bottom: 15px;
+    }
+
+    .contRight
+    {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .botoesNav
+    {
+        .voltarNav
+        {
+            width: 65px !important;
+            span
+            {
+                &:before
+                {
+                    left: 10px;
+                }
+                b
+                {
+                    display: none;
+                }
+            }
+        }
+        .avancarNav
+        {
+            width: 65px !important;
+            span
+            {
+                &:before
+                {
+                    right: 10px;
+                }
+                b
+                {
+                    display: none;
+                }
+            }
+        }
+    }
+
+
+    //RECURSO - Gaveta Horizontal
+    .gavetaHor{
+        #tabsHor{
+            ul.ui-tabs-nav{
+                li{
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .texto.subtitle .underlineTitle
+    {
+        // margin-left: -80px;
+    }
+
+
+    //RECURSO - multimedia
+    .multimedia{
+        left: 0 !important;
+        img{
+            display: block;
+        }
+        iframe{
+            display: none;
+        }
+    }
+
+    //RECURSO - primeiroPlano
+    .primeiroPlano
+    {
+        // max-height: 300px;
+    }
+
+    .palavraDestacadaInner
+    {
+        position: absolute;
+        left: 0;
+
+        overflow: hidden;
+
+        max-width: 85%;
+
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    #modalContent{
+        padding-left:0;
+        padding-right:0;
+    }
+
+    #modalContent p {
+        padding-left:0;
+        padding-right:0;
+    }
+
+    .btCreditos{
+        width: auto;
+    }
+
+     //RECURSO - Gaveta Horizontal e Vertical
+    #tabsHor, #tabsVert{
+        display: none;
+    }
+    #tabsHorMobile,  #tabsVertMobile{
+        display: block;
+        ul{
+            padding: 0;
+        }
+        .wrapperContentMobile{
+            padding: 0;
+            margin-bottom: 15px;
+            .col-xs-12{
+                padding: 0;
+            }
+            img{
+                width: 100%;
+            }
+            strong{
+                font-family: $bold;
+                font-size: 1.5em;
+                line-height: 24px;
+            }
+            p{
+                margin: 0px;
+                font-family: $regular;
+                font-size: 1.5em;
+                line-height: 24px;
+            }
+        }
+    }
+
+}

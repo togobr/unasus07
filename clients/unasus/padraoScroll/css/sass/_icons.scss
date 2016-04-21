@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('assets/fonts/icomoon/icomoon.eot?2jijbq');
+    src:    url('fassets/onts/icomoon/icomoon.eot?2jijbq#iefix') format('embedded-opentype'),
+        url('assets/fonts/icomoon/icomoon.ttf?2jijbq') format('truetype'),
+        url('assets/fonts/icomoon/icomoon.woff?2jijbq') format('woff'),
+        url('assets/fonts/icomoon/icomoon.svg?2jijbq#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-avancar:before {
+    content: "\e900";
+}
+.icon-download:before {
+    content: "\e901";
+}
+.icon-exclamacao:before {
+    content: "\e902";
+}
+.icon-fechar:before {
+    content: "\e903";
+}
+.icon-proxSes:before {
+    content: "\e904";
+}
+.icon-seta_direita:before {
+    content: "\e905";
+}
+.icon-seta_esq:before {
+    content: "\e906";
+}
+.icon-setaPreenchida_baixo:before {
+    content: "\e907";
+}
+.icon-setaPreenchida_cima:before {
+    content: "\e908";
+}
+.icon-setaPreenchida_direita:before {
+    content: "\e909";
+}
+.icon-voltar:before {
+    content: "\e90a";
+}

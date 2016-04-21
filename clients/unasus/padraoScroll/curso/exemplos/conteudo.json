@@ -1,0 +1,562 @@
+{
+    "_id": "5379f9c48b714fc104000133",
+    "courseName": "PREVENÇÃO E CUIDADOS ÀS DOENÇAS PREVALENTES EM HOMENS",
+    "scoName": "",
+    "srcCaptivate":"",
+    "scorm":false,
+    "links":[
+            {
+               "url": "https://www.google.com.br/",
+               "label": "MIDIATECA",
+               "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_midiateca.png"
+            },
+            {
+               "url": "https://www.google.com.br/",
+               "label": "GUIA DO ALUNO",
+               "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_guiaAluno.png"
+            },
+            {
+               "url": "https://www.google.com.br/",
+               "label": "CRONOGRAMA",
+               "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_cronograma.png"
+            },
+
+           {
+               "url": "https://www.google.com.br/",
+               "label": "DÚVIDAS FREQUENTES",
+               "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_duvidas.png"
+            },
+
+            {
+               "url": "https://www.google.com.br/",
+               "label": "FALE COM O TUTOR",
+               "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_faleTutor.png"
+            },
+
+            {
+               "url": "https://www.google.com.br/",
+               "label": "CRÉDITOS",
+               "iconURL": "curso/images/modulo4/unidade1/UNAS07_UNI1_icone_creditos.png"
+            }
+   ],
+
+    "slides": [{
+
+        "template": "slideScroll",
+        "resources": [
+                {
+                    "template":"backgroundScroll",
+                    "column": "col-xs-12 col-md-12",
+                    "style":"",
+                    "idSection":"0",
+                    "capa":"capa",
+                    "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img01.png",
+                    "bgRatio":1,
+                    "order":0
+                },
+
+
+                {
+                    "template":"backgroundScroll",
+                    "column": "col-xs-12 col-md-12",
+                    "styleObj": {
+                        "height":"202px"
+                    },
+                    "idSection":"30",
+                    "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_UNI1_fundo_titulo.png",
+                    "bgRatio":1,
+                    "order":6
+                },
+
+                {
+                    "template":"backgroundScroll",
+                    "column": "col-xs-12 col-md-12",
+                    "style":"",
+                    "idSection":"40",
+                    "backgroundSRC":"",
+                    "images":[
+                        {
+                            "styleDivImg": "height: 100%; width: 100%; background:url(curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img03.png) -70px -100px no-repeat",
+                            "div-bgRatio": 0.5
+                        }
+                    ],
+                    "order":8
+                },
+
+                {
+                    "template":"backgroundScroll",
+                    "column": "col-xs-12 col-md-12",
+                    "styleObj": {
+                       "height":"202px"
+                    },
+                    "idSection":"60",
+                    "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_UNI1_fundo_titulo.png",
+                    "bgRatio":1,
+                    "order":12
+                },
+
+                {
+                    "template":"backgroundScroll",
+                    "column": "col-xs-12 col-md-12",
+                    "styleObj": "",
+                    "idSection":"70",
+                    "backgroundSRC":"",
+                     "images":[
+                        {
+                            "imgBG":"curso/images/modulo4/unidade1/UNAS07_UNI01_img06.png",
+                            "styleImg":"top: 0px; right: 0px;",
+                            "animate": "slideInUp"
+                        }
+                    ],
+                    "order":14
+                },
+
+                {
+                    "template":"backgroundScroll",
+                    "column": "col-xs-12 col-md-12",
+                    "styleObj": "",
+                    "idSection":"100",
+                    "backgroundSRC":"",
+                    "styleContainer": "min-width: 100%; padding-top: 0px",
+                    "order":20
+                },
+
+                {
+                    "template":"backgroundScroll",
+                    "column": "col-xs-12 col-md-12",
+                    "unidade": "UN 1",
+                    "style": "padding-bottom: 200px;",
+                    "idSection":"210",
+                    "backgroundSRC":"curso/images/modulo4/unidade1/UNAS07_M04_UNI01_img16.png",
+                    "bgRatio":1,
+                    "order":39
+                },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                {
+                   "template":"capa",
+                   "nUnidade":"<img src='curso/images/modulo4/unidade1/UNAS07_UNI1_icone_interagindo.png' alt='Smiley face' height='53' width='89'> <span style='font-size: .85em; color:#2a2e78;'>INTERAGINDO</span>",
+                   "column": "col-xs-12 col-md-12",
+                   "section":0,
+                   "tituloCapa":"<span style='font-size: .85em; color:#2a2e78;'>PREVENÇÃO E CUIDADOS ÀS DOENÇAS</span> <br> <span style='font-size: 1.2em; color:#2a2e78;'>PREVALENTES EM HOMENS</span>",
+                   "textoCapa":"",
+                   "order":40
+                },
+
+                {
+                   "template": "texto",
+                   "column": "col-xs-0 col-md-12",
+                   "type": "normal",
+                   "section":0,
+                   "style":"height:130px",
+                   "order":41
+                },
+
+                {
+                   "template":"botaoPular",
+                   "section":0,
+                   "nSec":30,
+                   "cor":"preto",
+                   "style":"margin-top:10px",
+                   "order":42
+                },
+
+
+
+
+
+                {
+                    "template": "texto",
+                    "type": "title",
+                    "section":30,
+                    "style":"top:-10px",
+                    "column": "col-xs-12 col-md-12",
+                    "content": "<p style='color:#ffffff;'><b>GÊNERO, MASCULINIDADE E CUIDADO COM A SAÚDE</b></p>",
+                    "animate": "zoomIn",
+                    "order":68
+                },
+
+
+
+
+
+                {
+                    "template": "texto",
+                    "column": "col-xs-0 col-md-4",
+                    "type": "normal",
+                    "section":40,
+                    "style":"height:1190px",
+                    "content": "",
+                    "order":69
+                },
+
+                {
+                    "template": "texto",
+                    "column": "col-xs-12 col-md-8",
+                    "type": "normal",
+                    "section":40,
+                    "content": "<p class='textoDestaque'> <b>VOCÊ JÁ SE PERGUNTOU POR QUE OS HOMENS BUSCAM MENOS OS SERVIÇOS DE SAÚDE DO QUE AS MULHERES?</b></p><p>Uma primeira resposta para essa pergunta é a <b>incompatibilidade do horário</b> de atendimento das unidades de saúde com o tempo livre dos homens, visto que durante o dia a maioria deles estão no trabalho.</p><p>Entretanto, limitar este desafio ao horário de atendimento é inadequado, visto que há <b>questões relevantes sob a perspectiva relacional de gênero</b> que devem ser observadas.</p><p style='text-align:left; '><p>Vamos conversar um pouco mais sobre isso?</p>",
+                    "order":70
+                },
+
+                  
+                {
+                    "template": "texto",
+                    "column": "col-xs-12 col-md-8",
+                    "type": "normal",
+                    "class":"quadro",
+                    "style":"background-color:#eed0a1; padding: 25px; margin-top: 20px;",
+                    "section":40,
+                    "content": "<p><b>Masculinidade:</b>conjunto de atributos, valores, funções e condutas que se espera do homem em uma determinada cultura.</p>",
+                    "animate": "slideInRight",
+                    "order":74
+                },
+
+
+                {
+                    "template": "texto",
+                    "column": "col-xs-12 col-md-8",
+                    "type": "normal",
+                    "section":40,
+                    "content": "<p style='color: #373737; margin-top:25px;'>Na discussão de <span class='toolTp' id='tooltipHolder1' title='GÊNERO'></span>, é um fator muito relevante para o campo da saúde, pois impacta nos padrões de morbimortalidade.</p><br><p style='color: #373737'>Devem ser observadas algumas características culturais que contribuem para a não adesão masculina aos serviços de saúde, tal como o padrão de <b>masculinidade hegemônica.</b></p>",
+                    "order":78
+                },
+
+                {
+                    "label": "GÊNERO",
+                    "column": "",
+                    "section":40,
+                    "styleObj": {
+                    },
+                    "template": "botaoModal",
+                    "class": "tip",
+                    "nTooltip":"1",
+                    "_modal_id": {
+                        "defaults": {
+                        "styleObj": {
+                            "height": "150px"
+                        },
+                            "name": "Teste Modal",
+                            "type": ""
+                        },
+                        "modal": {
+                            "type": "",
+                            "responsive": true,
+                            "titulo":"GÊNERO",
+                            "palavra":"GÊNERO"
+                        },
+                        "name": "Novo slide",
+                        "onUse": false,
+                        "template": "slideSimples",
+                        "resources": [
+                           
+                            {
+                                "template": "texto",
+                                "type": "normal",
+                                "column": "col-xs-12 col-md-12",
+                                "content": "Conceito socialmente construído, refere-se à organização das relações sociais e econômicas entre os sexos, especialmente na divisão do trabalho e do poder (GÓMEZ, 2011)."
+                            }
+                       ]
+                    },
+                    "order": 80
+                },
+
+                {
+                    "template": "texto",
+                    "column": "col-xs-12 col-md-8",
+                    "type": "normal",
+                    "section":40,
+                    "content": "<p>A seguir estão representadas as características da masculinidade hegemônica:</p>",
+                    "styleObj": {
+                                    "margin-top": "20px"
+                                },
+                    "order":82
+                },
+
+                {
+                    "template": "texto",
+                    "column": "col-xs-12 col-md-8",
+                    "type": "normal",
+                    "class":"quadro",
+                    "style":"padding: 25px; ",
+                    "section":40,
+                    "content": "<p><ul><li>Baseia-se na configuração relacional das práticas de gênero que são aceitas socialmente, estabelecendo e assegurando as posições de dominantes e dominados, exemplificada pela subordinação entre os sexos; </li><li>não se refere a indivíduos poderosos, mas a um tipo de masculinidade tida por exemplar; </li><li>possui aspecto ideológico, pois naturaliza as diferenças entre os sexos; </li><li>expressa uma posição sempre em disputa, não sendo um modelo fixo.</p><p style= 'text-align: right;'>(Gomes, 2008)</li></ul></p> ",
+                    "order":84
+                },
+
+                {  
+                    "template":"caixaDestaque",
+                    "column": "col-xs-12 col-md-8",
+                    "type":"normal",
+                    "section":40,
+                    "title":"Final de Cursos dasd sd",
+                    "content":"Relacionado ao modelo de masculinidade hegemônica, os homens, muitas vezes, desempenham comportamentos pouco saudáveis, o que aumenta os riscos à saúde (CONNELL, 1995).",
+                    "styleObj": {
+                        "margin-top": "10px"
+                    },
+                    "animate": "zoomIn",
+                    "order":86
+                },
+
+
+
+
+
+
+                {
+                    "template": "texto",
+                    "type": "title",
+                    "section":60,
+                     "style":"top: -6px;",
+                    "column": "col-xs-12 col-md-12",
+                    "content": "<p style='color:#ffffff;'><b>ALCOOLISMO, TABAGISMO<br/>E OUTRAS DROGAS</b></p>",
+                     "animate": "zoomIn",
+                    "order":100
+                }, 
+
+
+
+
+
+
+                {
+                    "template": "texto",
+                    "column": "col-xs-12 col-md-2",
+                    "type": "normal",
+                    "section":70,
+                    "style":"height:10px",
+                    "content": "",
+                    "order":104
+                },
+       
+                {
+                    "template": "texto",
+                    "column": "col-xs-12 col-md-8",
+                    "type": "normal",
+                    "section":70,
+                    "content": "<p style='text-align:center; font-size:1.2em;'><b>O uso abusivo de álcool, tabaco e outras drogas são fatores de risco bastante relevantes na saúde do homem.</b></p>",
+                    "order":106
+                },
+
+                {
+                    "template": "texto",
+                    "column": "col-xs-12 col-md-2",
+                    "type": "normal",
+                    "section":70,
+                    "style":"height:10px",
+                    "content": "",
+                    "order":108
+                },
+
+                {
+                    "template": "texto",
+                    "column": "col-xs-12 col-md-12",
+                    "type": "normal",
+                    "section":70,
+                    "style":"height:70px",
+                    "content": "",
+                    "order":110
+                },
+
+                {
+                    "template": "texto",
+                    "type": "subtitle",
+                    "column": "col-xs-12 col-md-3",
+                    "content": "Alcoolismo",
+                    "section":70,
+                    "order":112
+                },
+
+                 {
+                    "template": "texto",
+                    "column": "col-xs-0 col-md-8",
+                    "type": "normal",
+                    "section":70,
+                    "style":"height:70px",
+                    "content": "",
+                    "order":114
+                },
+
+                {
+                    "template": "texto",
+                    "column": "col-xs-12 col-md-8",
+                    "type": "normal",
+                    "section":70,
+                    "content": "<p>O uso do álcool é cultural e permitido em quase todas as sociedades do mundo, entretanto possui o maior impacto dentre as diferentes substâncias psicoativas em nível global, trazendo graves consequências para a saúde pública mundial.</p>",
+                    "order":116
+                },
+
+
+                {
+                    "template": "texto",
+                    "column": "col-xs-12 col-md-8",
+                    "type": "normal",
+                    "styleWrapper":"margin:0; max-width:100%;",
+                    "section":70,
+                    "content": "<p><ul><li>Entre os problemas físicos em decorrência do abuso do álcool estão a cirrose hepática e a miocardiopatia alcoólica, além das lesões decorrentes de acidentes (BRASIL, 2003).</li><li>Os transtornos mentais e comportamentais devidos ao uso de álcool são os responsáveis pelo maior número de mortes associadas ao uso de drogas, correspondendo a aproximadamente 90% dos casos.<br/><br/></li>",
+                    "order":118
+                },
+               
+                {
+                    "template": "texto",
+                    "column": "col-xs-12 col-md-8",
+                    "type": "normal",
+                    "section":70,
+                    "content": "<p>No Brasil,  foram observadas as seguintes frequências de consumo abusivo de bebidas alcoólicas:</p>",
+                    "order":120
+                },
+
+                {
+                    "template": "texto",
+                    "column": "col-xs-12 col-md-12",
+                    "type": "normal",
+                    "section":70,
+                    "style":"height:20px",
+                    "content": "",
+                    "order":122
+                },
+
+                {
+                    "template": "multimedia",
+                    "section":70,
+                    "src": "curso/images/modulo4/unidade1/UNAS07_UNI01_img11.png",
+                    "srcMobile":"curso/images/modulo4/unidade1/UNA07_REC06_Consumo_alcool.png",
+                    "column": "col-xs-12 col-md-12",
+                    "iframeStyle": "height: 500px",
+                    "imgStyle": "margin-top: 0px; margin-bottom: 45px",
+                    "styleObj": {
+                        "height": "auto",
+                        "padding":"0px",
+                        "top":"20px"
+                    },
+                    "order":124
+                },
+
+                {
+                    "template": "texto",
+                    "column": "col-xs-12 col-md-10",
+                    "type": "normal",
+                    "section":70,
+                    "content": "<p class='textoDestaque' style='margin:10px 0;'><b>Veja alguns números do Brasil, na animação a seguir:</b></p><p>A animação a seguir é locutada. Acione o áudio de seu dispositivo para assisti-la.</p>",
+                    "order":126
+                },
+
+
+                {
+                    "template": "multimedia",
+                    "section":70,
+                    "src": "curso/recursos/modulo4/unidade1/UNA07_REC08_AlcoolismoV02/UNA07_REC08_AlcoolismoV02.html",
+                    "srcMobile":"curso/images/modulo4/unidade1/UNA07_alcoolismo.png",
+                    "column": "col-xs-12 col-md-12",
+                    "iframeStyle": "height: 500px",
+                    "imgStyle": "margin-top: 0px; margin-bottom: 21px",
+                    "styleObj": {
+                        "height": "auto",
+                        "padding":"0px",
+                        "top":"20px"
+                    },
+                    "order":128
+                },
+
+
+
+
+
+
+
+                {
+                    "template": "magicSlider",
+                    "column": "col-xs-12 col-md-12",
+                    "section":100,
+                    "speed": 100,
+                    "type": "timeline",
+                    "contentTop": "<b>CONHEÇA ALGUMAS INFORMAÇÔES SOBRE O PERFIL DE FUMANTES NO BRASIL, SEGUNDO O VIGITEL (2013):</b> ",
+                    "contentTop-style": "width: 800px; font-size: 1.8em; color: #2A2E78; padding-bottom:30px; ",
+                    "contentBottom": "Ainda, nos últimos anos houve uma leve queda do tabagismo entre homens, e estabilidade entre mulheres, o que sugere que a <b>cessação do tabagismo está aumentando entre homens</b> (Vigitel, 2009).",
+                    "contentBottom-style": "width: 800px; font-size: 1.9em; color: #373737; bottom:-30px;",
+                    "slides":[ 
+                        {
+                            "styleSection": "background:#efddb8; height: 360px;",
+                            "contentSection": "",
+                            "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider01.png",
+                            "styleImg": "height:360px; width: 800px;"
+                        },
+                        {
+                            "contentSection": "",
+                            "styleSection": "background:#efddb8; height: 360px;",
+                            "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider02.png",
+                            "styleImg": "height:360px; width: 800px;"
+                        },
+                        {
+                            "contentSection": "",
+                            "styleSection": "background:#efddb8; height: 360px;",
+                            "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider03.png",
+                            "styleImg": "height:360px; width: 800px;"
+                        },
+                        {
+                            "contentSection": "",
+                            "styleSection": "background:#efddb8; height: 360px;",
+                            "imgSrc":"curso/images/modulo4/unidade1/UNAS07_UNI01_slider04.png",
+                            "styleImg": "height:360px; width: 800px;"
+                        }
+                    ],
+                    "heightSlider": "auto",
+                    "styleObj": {
+                        "padding" : 0,
+                        "background": "#efddb8"
+                    },
+                    "order":144
+                },
+
+
+
+
+
+
+
+                {
+                    "template":"contraCapa",
+                    "section":210,
+                    "final":false,
+                    "inicio":true,
+                    "secVoltar":0,
+                    "secAvancar":30,
+                    "textoAv":"Próxima Unidade",
+                    "textoVoltar":"Voltar à tela de navegação",
+                    "linkMod":"http://www.google.com",
+                    "textoDownload":"AGORA, SIGA PARA O ESTUDO DO CONTEUDO COMPLETO",
+                    "label":"BAIXAR O LIVRO",
+                    "textoFinal":"<p style='font-size:1.4em;color:#2F3275;'>Entre os <b>comportamentos</b> que influenciam na maioria dos <b>fatores de risco</b> apresentados nesta unidade estão os <b>hábitos alimentares</b>, e como observamos no tópico sobre obesidade, a diferença na alimentação de homens e mulheres influencia no impacto desses fatores de risco para cada um dos gêneros.</p><br><p style='font-size:1.4em; color:#2F3275;'><b>Continue seus estudos para aprofundar conhecimentos sobre aspectos epidemiológicos na população masculina!</b></p><br><p style='font-size:1.9em; color:#2F3275;'><b>Siga para a próxima unidade!</b></p>",
+                    "order":365
+                }
+        ]
+    }]
+}
