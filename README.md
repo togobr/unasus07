@@ -41,8 +41,11 @@ Para o pessoal que for trabalhar com a inserção dos recursos, diagramação, t
 1. SASS utilizado para realizar os estilos dos recursos
   1. http://sass-lang.com/
   
-1. NodeJS e seu gerênciador de depedências (NPM)
+1. NodeJS e seu gerênciador de depedências (Node Package Manager)
   1. https://nodejs.org/en/
+
+1. Grunt utilizado como automatizador de tarefas
+  1. http://gruntjs.com/getting-started
 
 ## Editando/criando recursos 
 
@@ -65,7 +68,21 @@ O COMPASS, possui um comando chamado **watch**. Este comando monitora se ouve al
 
 # Gerando o saída final
 
-A fins de performance, o projeto passar por um processo chamado "build", que resumindo, é a etapa em que todo o código/plugins/estilos utilizados, converterá em poucos arquivos. E são estes arquivos que será utilizados **Moodle**.
+A fins de performance, o projeto passa por um processo chamado de "build", que resumindo, é a etapa em que todo o código/plugins/estilos utilizados, converterá em poucos arquivos. E são estes arquivos que será utilizados **Moodle**.
+
+
+## Como proceder?
+
+Para realizar o * * build * *, precisamos instalar um automatizador de tarefas chamado Grunt.js. Esta ferramenta, irá executar várias * *tasks* *, até criar os arquivos finais. 
+
+1. Instalar o nodejs
+2. Caso após a instalação do nodejs não conter o gerenciador de pacotes NPM, realize sua instalação também.
+3. Após a instalação do NPM, acesse a pasta **clients/unasus/padraoScroll**, e como super usuário, dê o comando npm install. Este comando, irá instalar todas as dependências utilizadas no projeto, entre eles, o nosso automatizador de tareras, o **GRUNT**.
+4. Após instalação, execute o comando "grunt build". Este comando irá criar uma pasta chamada **_dist**, contendo todo o projeto. Caso for executado o comando mais de uma vez, ele apenas irá sobrescrever a pasta anterior.
+5. Com a saída pronta, é preciso testar. Caso estiver tudo certo, upar para o **Moodle**.
+
+
+See ya!
 
 
 
