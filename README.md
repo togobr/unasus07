@@ -57,4 +57,7 @@ O estilo dos recursos, se encontram na pasta **clients/unasus/padraoScroll/css/s
 
 O estilo de todos os recursos, foram criados utilizando um pré processador de css, chamado SASS. Ou seja, antes de trabalhar diretamente no arquivo .scss, é necessário realizar a instalação de um framework que trabalha com essa linguagem, neste caso, o COMPASS. http://compass-style.org/
 
-O COMPASS, possui um comando chamado **watch**. Este comando fica monitorando se ouve alguma alteração do arquivo .scss, e automaticamente gera a saída em no arquivo **geral.css**, no qual está sendo importando no **index.html**; 
+O COMPASS, possui um comando chamado **watch**. Este comando monitora se ouve alguma alteração do arquivo .scss, e automaticamente gera a saída em no arquivo **geral.css**, no qual está sendo importado no **index.html**; 
+
+
+# Gerando o saída final
