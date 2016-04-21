@@ -40,6 +40,9 @@ Para o pessoal que for trabalhar com a inserção dos recursos, diagramação, t
 
 1. SASS utilizado para realizar os estilos dos recursos
   1. http://sass-lang.com/
+  
+1. NodeJS e seu gerênciador de depedências (NPM)
+  1. https://nodejs.org/en/
 
 ## Editando/criando recursos 
 
@@ -61,3 +64,9 @@ O COMPASS, possui um comando chamado **watch**. Este comando monitora se ouve al
 
 
 # Gerando o saída final
+
+A fins de performance, o projeto passar por um processo chamado "build", que resumindo, é a etapa em que todo o código/plugins/estilos utilizados, converterá em poucos arquivos. E são estes arquivos que será utilizados **Moodle**.
+
+
+
+
