@@ -7,7 +7,7 @@
 
 
 ## Estrutura do projeto
-O projeto possui 3 pastas principais, para seu funcionamento.
+**O projeto possui 3 pastas principais, para seu funcionamento.**
 
 ###### Clients
 Responsável pelo layout do curso, e estilos/funcional dos recursos que os contém. 
