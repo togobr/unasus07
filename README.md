@@ -68,7 +68,7 @@ O COMPASS, possui um comando chamado **watch**. Este comando monitora se ouve al
 
 # Gerando o saída final
 
-A fins de performance, o projeto passa por um processo chamado de "build", que resumindo, é a etapa em que todo o código/plugins/estilos utilizados, converterá em poucos arquivos. E são estes arquivos que será utilizados **Moodle**.
+A fins de performance, o projeto passa por um processo chamado de "build", que resumindo, é a etapa em que todo o código/plugins/estilos utilizados, converterá em poucos arquivos. E são estes arquivos que serão utilizados no **Moodle**.
 
 
 ## Como proceder?
