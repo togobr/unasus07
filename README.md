@@ -9,13 +9,13 @@
 ## Estrutura do projeto
 O projeto possui 3 pastas principais, para seu funcionamento.
 
-### Clients
+###### Clients
 Responsável pelo layout do curso, e estilos/funcional dos recursos que os contém. 
 
-### Player
+###### Player
 Responsável pela parte funcional do curso. Inserção dos recurso, gravação SCORM, etc.
 
-### Vendor 
+###### Vendor 
 Responsável por disponibilizar plugins externos que são utilizados no cursos.
 
 
