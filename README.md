@@ -42,7 +42,7 @@ Para o pessoal que for trabalhar com a inserção dos recursos, diagramação, t
 1. SASS utilizado para realizar os estilos dos recursos
   1. http://sass-lang.com/
   
-1. NodeJS e seu gerênciador de depedências (Node Package Manager)
+1. NodeJS e seu gerenciador de depedências (Node Package Manager)
   1. https://nodejs.org/en/
 
 1. Grunt utilizado como automatizador de tarefas
